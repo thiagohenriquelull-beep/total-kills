@@ -1,6 +1,10 @@
 name: Atualizar base ao vivo
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/update-live-data.yml"
   workflow_dispatch:
   schedule:
     # 10:17 em Sao Paulo. Evita o minuto zero, que costuma ter mais atraso.
