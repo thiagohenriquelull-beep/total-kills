@@ -1719,6 +1719,16 @@ function init() {
   const clearHistBtn = document.getElementById("clearHistoryButton");
   if (clearHistBtn) clearHistBtn.addEventListener("click", clearBettingHistory);
   document.getElementById("exportHistoryButton")?.addEventListener("click", exportHistory);
+  const importBtn = document.getElementById("importHistoryButton");
+  const importFile = document.getElementById("importHistoryFile");
+  if (importBtn && importFile) {
+    importBtn.addEventListener("click", () => importFile.click());
+    importFile.addEventListener("change", () => {
+      importHistory(importFile.files[0]);
+      importFile.value = "";
+    });
+  }
+  updateBackupStatus();
   document.getElementById("historyToggleBtn")?.addEventListener("click", toggleHistoryDrawer);
   document.getElementById("drawerOverlay")?.addEventListener("click", closeHistoryDrawer);
   document.getElementById("drawerHandle")?.addEventListener("click", closeHistoryDrawer);
@@ -1745,6 +1755,106 @@ function getBettingHistory() {
 
 function saveBettingHistory(history) {
   localStorage.setItem(BET_KEY, JSON.stringify(history));
+  registerHistoryChange();
+}
+
+// ─── BACKUP DO HISTÓRICO ──────────────────────────────────────────────────────
+// O histórico ao vivo é o único out-of-sample limpo do projeto; localStorage
+// não sobrevive a limpeza de dados do navegador, então todo write conta
+// alterações e dispara um download automático de backup a cada BACKUP_EVERY.
+
+const BACKUP_META_KEY = "golBettingBackupMeta";
+const BACKUP_EVERY = 5;
+
+function getBackupMeta() {
+  try { return JSON.parse(localStorage.getItem(BACKUP_META_KEY) || "{}") || {}; } catch { return {}; }
+}
+
+function setBackupMeta(meta) {
+  localStorage.setItem(BACKUP_META_KEY, JSON.stringify(meta));
+}
+
+function markBackupDone() {
+  setBackupMeta({ lastBackupAt: new Date().toISOString(), changes: 0 });
+  updateBackupStatus();
+}
+
+function registerHistoryChange() {
+  const meta = getBackupMeta();
+  const changes = (meta.changes || 0) + 1;
+  if (changes >= BACKUP_EVERY && getBettingHistory().length) {
+    downloadHistoryBackup();
+    return;
+  }
+  setBackupMeta({ ...meta, changes });
+  updateBackupStatus();
+}
+
+function downloadHistoryBackup() {
+  const history = getBettingHistory();
+  if (!history.length) return;
+  downloadFile(
+    `apostas-backup-${datestamp()}.json`,
+    JSON.stringify({ backedUpAt: new Date().toISOString(), bets: history }, null, 2),
+    "application/json"
+  );
+  markBackupDone();
+}
+
+function updateBackupStatus() {
+  const el = document.getElementById("backupStatus");
+  if (!el) return;
+  const history = getBettingHistory();
+  if (!history.length) {
+    el.textContent = "";
+    el.className = "backup-status";
+    return;
+  }
+  const meta = getBackupMeta();
+  const changes = meta.changes || 0;
+  if (!meta.lastBackupAt) {
+    el.textContent = "Histórico nunca exportado — clique Exportar";
+    el.className = "backup-status warn";
+  } else if (changes === 0) {
+    el.textContent = `Backup em dia (${new Date(meta.lastBackupAt).toLocaleDateString("pt-BR")})`;
+    el.className = "backup-status ok";
+  } else {
+    el.textContent = `${changes} alteracao(oes) sem backup`;
+    el.className = "backup-status warn";
+  }
+}
+
+function importHistory(file) {
+  if (!file) return;
+  const reader = new FileReader();
+  reader.onload = () => {
+    let imported;
+    try {
+      const parsed = JSON.parse(reader.result);
+      imported = Array.isArray(parsed) ? parsed : parsed.bets;
+    } catch {
+      alert("Nao foi possivel ler o arquivo de backup.");
+      return;
+    }
+    if (!Array.isArray(imported) || !imported.length) {
+      alert("Arquivo sem apostas para importar.");
+      return;
+    }
+    const merged = [...getBettingHistory()];
+    const knownIds = new Set(merged.map((bet) => bet.betId));
+    let added = 0;
+    for (const bet of imported) {
+      if (!bet || !bet.betId || knownIds.has(bet.betId)) continue;
+      knownIds.add(bet.betId);
+      merged.push(bet);
+      added += 1;
+    }
+    saveBettingHistory(merged);
+    renderBettingHistory();
+    updateSnapshotStatus();
+    alert(`Importacao concluida: ${added} aposta(s) nova(s), ${merged.length} no total.`);
+  };
+  reader.readAsText(file);
 }
 
 function betModelMetrics(pred, side) {
@@ -2657,9 +2767,11 @@ function exportHistory() {
   });
   downloadFile(
     `apostas-${datestamp()}.csv`,
-    "ï»¿" + [headers.map(csvEscape).join(SEP), ...rows].join("\n"),
+    "\uFEFF" + [headers.map(csvEscape).join(SEP), ...rows].join("\n"),
     "text/csv;charset=utf-8"
   );
+
+  markBackupDone();
 }
 
 document.addEventListener("DOMContentLoaded", init);

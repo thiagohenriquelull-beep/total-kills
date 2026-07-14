@@ -471,6 +471,23 @@ button[title]:hover {
   z-index: 200;
 }
 
+.backup-status {
+  align-self: center;
+  color: var(--ink-ghost);
+  font-size: 11px;
+  margin-right: 6px;
+  white-space: nowrap;
+}
+
+.backup-status.ok {
+  color: var(--ink-ghost);
+}
+
+.backup-status.warn {
+  color: #e8a13c;
+  font-weight: 600;
+}
+
 .draft-autocomplete-header {
   color: var(--ink-ghost);
   cursor: default;

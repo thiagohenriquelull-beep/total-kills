@@ -286,9 +286,12 @@
     <div class="block-title history-header">
       <h2>Histórico de Apostas</h2>
       <div class="history-header-actions">
+        <small id="backupStatus" class="backup-status"></small>
         <button id="exportHistoryButton" type="button" class="export-history-btn">Exportar</button>
+        <button id="importHistoryButton" type="button" class="export-history-btn">Importar</button>
         <button id="clearHistoryButton" type="button">Limpar tudo</button>
       </div>
+      <input id="importHistoryFile" type="file" accept=".json,application/json" hidden />
     </div>
     <div class="history-stats">
       <div class="stat-card">
