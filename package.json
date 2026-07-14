@@ -1,0 +1,14 @@
+{
+  "name": "total-kills",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Predictor de over/under de kills em LoL profissional (uso local)",
+  "scripts": {
+    "test": "node --test tests/model-core.test.js tests/dataset.test.js",
+    "collect": "node scripts/collect-new-games-http.js",
+    "merge": "node scripts/merge-new-games.js",
+    "refresh": "node scripts/refresh-analytics.js",
+    "update": "node scripts/weekly-update.js",
+    "check": "node scripts/check-state.js"
+  }
+}

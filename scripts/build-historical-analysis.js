@@ -58,9 +58,15 @@ for (let i = 1; i < rows.length; i++) {
   });
 }
 
+// Metadados de auditoria (PROJETO-CONTEXTO.md secao 3.9): base usada na geracao
+const sourceData = JSON.parse(fs.readFileSync(path.join(__dirname, "../data/games.json"), "utf8"));
+
 const payload = {
   generatedAt: new Date().toISOString(),
   methodology: "Walk-forward por liga (min 30 jogos treino). Linha simulada = linha justa pre-draft do modelo. Odds: 1.80/1.80.",
+  sourceGames: sourceData.games.length,
+  generatedFromGamesUpdatedAt: sourceData.meta?.createdAt || null,
+  backtestRows: rows.length - 1,
   count: games.length,
   games,
 };

@@ -7,7 +7,9 @@ const CURRENT_FILE = path.join(DATA_DIR, "games.json");
 const OUT_FILE = path.join(DATA_DIR, "jogos-novos.json");
 const REPORT_FILE = path.join(DATA_DIR, "jogos-novos-report.md");
 const SEASON = "S16";
-const UNTIL_DATE = "2026-06-25";
+// Ate quando coletar: argumento CLI ou env UNTIL_DATE; padrao = hoje.
+const UNTIL_DATE = process.argv[2] || process.env.UNTIL_DATE || new Date().toISOString().slice(0, 10);
+const HOLES_FILE = path.join(DATA_DIR, "buracos-historicos.json");
 const BASE = "https://gol.gg/teams";
 const ROLES = ["TOP", "JUNGLE", "MID", "ADC", "SUP"];
 
@@ -329,6 +331,7 @@ async function main() {
   const leagues = Object.keys(latest).filter((league) => RULES[league]).sort();
   const plan = await discoverPlan(leagues);
   const newGames = [];
+  const holeGames = [];
   const report = [];
 
   console.log("Ultima data por liga:");
@@ -396,6 +399,7 @@ async function main() {
         continue;
       }
       if (game.date < leagueLatest.date) {
+        holeGames.push(game);
         leagueReport.skippedBeforeLatest += 1;
         leagueReport.skippedBeforeLatestByDate[game.date] = (leagueReport.skippedBeforeLatestByDate[game.date] || 0) + 1;
         if (leagueReport.skippedBeforeLatestExamples.length < 12) {
@@ -441,6 +445,23 @@ async function main() {
   };
 
   fs.writeFileSync(OUT_FILE, `${JSON.stringify(output, null, 2)}\n`, "utf8");
+
+  // Buracos historicos (jogos validos ANTERIORES a ultima data da liga) vao para
+  // arquivo separado — secao 3.7 do PROJETO-CONTEXTO.md. Merge deles e decisao manual.
+  if (holeGames.length) {
+    holeGames.sort((a, b) => a.league.localeCompare(b.league) || String(a.date).localeCompare(String(b.date)) || Number(a.id) - Number(b.id));
+    fs.writeFileSync(HOLES_FILE, `${JSON.stringify({
+      meta: {
+        source: "GOL HTTP public pages",
+        createdAt: new Date().toISOString(),
+        note: "Jogos anteriores a ultima data registrada por liga (buracos). Validar e mergear separadamente.",
+      },
+      games: holeGames,
+    }, null, 2)}\n`, "utf8");
+    console.log(`Buracos historicos: ${holeGames.length} jogos salvos em ${HOLES_FILE}`);
+  } else if (fs.existsSync(HOLES_FILE)) {
+    fs.unlinkSync(HOLES_FILE);
+  }
   const lines = [
     "# Jogos novos - coleta incremental",
     "",

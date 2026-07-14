@@ -2250,6 +2250,12 @@ function renderAnalyticsSectionsHTML(history) {
   const hasManualResolved = history.some((b) => b.result !== null);
   let html = "";
 
+  // Aviso quando o analytics foi gerado com um dataset menor que o carregado
+  const analyticsSource = window.GOL_HISTORICAL_ANALYSIS?.sourceGames;
+  if (histCount && Number.isFinite(analyticsSource) && analyticsSource !== state.games.length) {
+    html += `<div class="analytics-stale-warning">Analytics defasado: gerado com ${analyticsSource.toLocaleString("pt-BR")} jogos, dataset atual tem ${state.games.length.toLocaleString("pt-BR")}. Rode <code>npm run refresh</code> para atualizar as tabelas.</div>`;
+  }
+
   // — EV Range —
   html += `<div class="analytics-block">`;
   html += `<h2 class="analytics-title">Análise por Faixa de EV</h2>`;
