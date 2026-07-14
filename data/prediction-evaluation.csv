@@ -1,0 +1,91 @@
+league,date,game,actual,baseline,preDraft,postDraft,draftDelta,draftConfidence,topPickEffects
+LCK,2026-05-21,HANJIN BRION vs Dplus KIA,20,31.28,27.74,27.56,-0.17,0.845,JUNGLE Naafiri +0.83 | TOP Renekton -0.82 | SUP Neeko +0.63 | TOP Illaoi -0.6 | ADC Yunara -0.55
+LCK,2026-05-22,DN SOOPers vs Kiwoom DRX,22,30.48,27.7,27.57,-0.13,0.834,TOP Rumble +1.7 | ADC Lucian -1.63 | JUNGLE Xin Zhao -1.26 | SUP Milio -1.22 | ADC Miss Fortune +1.02
+LCK,2026-05-22,Kiwoom DRX vs DN SOOPers,28,30.44,27.09,27.59,0.5,0.857,JUNGLE Lee Sin +2.71 | ADC Sivir +1.73 | SUP Nautilus +1.46 | TOP Gnar -0.79 | JUNGLE Pantheon -0.52
+LCK,2026-05-22,KT Rolster vs Gen.G,17,30.4,27.83,28.03,0.2,0.864,TOP Sion +1.43 | SUP Nami -0.91 | JUNGLE Naafiri +0.91 | MID Anivia +0.81 | JUNGLE Pantheon -0.5
+LCK,2026-05-22,KT Rolster vs Gen.G,28,30.2,27.03,27.47,0.44,0.836,SUP Nautilus +1.87 | JUNGLE Nocturne +1.52 | MID Cassiopeia +1.11 | MID Galio -0.98 | SUP Seraphine -0.77
+LCK,2026-05-23,Dplus KIA vs BNK FearX,16,30,25.46,25.47,0.01,0.872,TOP Sion +1.56 | ADC Lucian -1.09 | ADC Caitlyn +1.06 | MID Orianna -0.94 | SUP Milio -0.73
+LCK,2026-05-23,BNK FearX vs Dplus KIA,37,28.72,23.96,24.72,0.76,0.87,JUNGLE Lee Sin +2.8 | TOP Rumble +2.38 | MID Ahri +0.89 | ADC Ezreal +0.76 | TOP Ambessa +0.69
+LCK,2026-05-23,Dplus KIA vs BNK FearX,24,28.36,25.29,26,0.72,0.819,SUP Poppy +1.73 | SUP Alistar +1.45 | ADC Miss Fortune +1.31 | TOP Jayce +0.62 | JUNGLE Skarner -0.61
+LCK,2026-05-23,Hanwha Life Esports vs Nongshim RedForce,43,27.96,26.92,27.71,0.79,0.865,TOP Rumble +2.36 | MID Akali +1.34 | ADC Lucian -1.19 | JUNGLE Wukong +1.1 | MID Annie +1.08
+LCK,2026-05-23,Nongshim RedForce vs Hanwha Life Esports,54,28.64,29.25,29.74,0.49,0.852,JUNGLE Vi +1.67 | SUP Pyke +1.32 | SUP Nautilus +1.31 | ADC Ziggs +1.23 | ADC Ashe -1.04
+LCK,2026-05-23,Hanwha Life Esports vs Nongshim RedForce,36,29.28,32.6,31.3,-1.3,0.878,SUP Nami -2.2 | TOP Gnar -2.04 | MID Ryze -1.94 | JUNGLE Lee Sin +1.9 | JUNGLE Jarvan IV -1.5
+LCK,2026-05-24,Gen.G vs DN SOOPers,25,29.52,29.85,28.81,-1.05,0.866,SUP Seraphine -2.24 | MID Ryze -2.05 | JUNGLE Skarner -1.84 | ADC Ashe -1.81 | JUNGLE Lee Sin +1.76
+LCK,2026-05-24,Gen.G vs DN SOOPers,20,29.52,28.23,27.57,-0.65,0.815,ADC Lucian -2.34 | SUP Nami -1.97 | SUP Milio -1.95 | MID Akali +0.51 | JUNGLE Maokai -0.42
+LCK,2026-05-24,T1 vs HANJIN BRION,18,28.8,29.23,29.62,0.39,0.837,JUNGLE Lee Sin +2.19 | SUP Pyke +2.05 | TOP Rumble +1.55 | MID Ryze -1.4 | SUP Lux +1.2
+LCK,2026-05-24,T1 vs HANJIN BRION,29,28.84,27.08,26.36,-0.72,0.89,ADC Lucian -1.66 | SUP Milio -1.31 | SUP Seraphine -1.11 | JUNGLE Xin Zhao -0.79 | ADC Ashe -0.71
+LCKCL,2026-05-21,Nongshim Esports Academy vs Gen.G Global Academy,54,30.68,30.09,31.54,1.45,0.912,MID Akali +2.8 | JUNGLE Vi +2.8 | SUP Nautilus +2.8 | TOP Zaahen +0.73 | JUNGLE Xin Zhao +0.72
+LCKCL,2026-05-22,BNK FEARX Youth vs KT Rolster Challengers,37,31.08,32.74,32.24,-0.5,0.925,MID Akali +2.8 | SUP Bard -1.24 | SUP Lulu -1.04 | ADC Yunara -1.03 | TOP Jayce -0.84
+LCKCL,2026-05-22,KT Rolster Challengers vs BNK FEARX Youth,51,31.08,33.89,33.77,-0.12,0.905,SUP Nami -1.6 | TOP Gnar +1.18 | MID Annie +1.08 | ADC Kalista -0.88 | ADC Corki -0.85
+LCKCL,2026-05-22,BNK FEARX Youth vs KT Rolster Challengers,38,31.56,37.88,37.87,-0.01,0.885,SUP Rell -2.05 | ADC Jinx -1.99 | SUP Nautilus +1.86 | ADC Xayah +1.84 | MID Viktor -1.45
+LCKCL,2026-05-22,HANJIN BRION Challengers vs T1 Esports Academy,31,32.36,36.63,35.8,-0.82,0.891,TOP Jayce -2 | MID Mel -1.92 | TOP Sion -1.52 | JUNGLE Xin Zhao -1.45 | ADC Ashe +1.25
+LCKCL,2026-05-22,HANJIN BRION Challengers vs T1 Esports Academy,46,32.68,34.28,33.16,-1.12,0.904,SUP Bard -2.28 | ADC Caitlyn -1.64 | MID Ryze -1.31 | JUNGLE Wukong -1.22 | MID Anivia -0.8
+LCKCL,2026-05-25,Hanwha Life Esports Challengers vs Dplus KIA Challengers,24,33.52,34.65,32.84,-1.81,0.902,TOP Gwen -2.8 | SUP Milio -2.51 | ADC Ezreal -2.2 | TOP Sion -1.95 | MID Twisted Fate -1.3
+LCKCL,2026-05-25,Dplus KIA Challengers vs Hanwha Life Esports Challengers,43,33.32,32.82,32.23,-0.59,0.89,SUP Bard -2.23 | SUP Nautilus +1.76 | ADC Caitlyn -1.43 | MID Cassiopeia -1.03 | JUNGLE Jarvan IV -0.61
+LCKCL,2026-05-25,T1 Esports Academy vs BNK FEARX Youth,34,33.84,36.48,34.98,-1.5,0.908,SUP Nami -2.54 | SUP Bard -2.52 | ADC Ezreal -2.3 | MID Orianna -1.81 | JUNGLE Lee Sin -1.02
+LCKCL,2026-05-25,BNK FEARX Youth vs T1 Esports Academy,28,34.04,36.1,34.53,-1.56,0.903,TOP Jayce -2.37 | TOP Sion -2.02 | JUNGLE Xin Zhao -1.89 | SUP Lux -1.56 | ADC Caitlyn -1.54
+LCKCL,2026-05-25,T1 Esports Academy vs BNK FEARX Youth,25,33.48,35.41,34.74,-0.67,0.89,ADC Yunara -2.4 | SUP Milio -2.33 | TOP Renekton -1.28 | ADC Lucian -0.86 | JUNGLE Vi +0.82
+LCKCL,2026-05-25,HANJIN BRION Challengers vs KRX Challengers,17,33.64,31.83,31.62,-0.21,0.874,TOP Jayce -1.72 | ADC Ashe +1.48 | TOP Yorick -1.25 | JUNGLE Vi +1.11 | JUNGLE Wukong -0.89
+LCKCL,2026-05-25,HANJIN BRION Challengers vs KRX Challengers,26,33.32,30.29,30.07,-0.21,0.919,TOP Gnar +1.59 | SUP Milio -1.46 | MID Annie +1.25 | SUP Bard -1.06 | JUNGLE Skarner +0.6
+LCKCL,2026-05-26,KT Rolster Challengers vs Gen.G Global Academy,25,33.96,34.42,34.72,0.3,0.904,MID Akali +2.8 | JUNGLE Vi +1.83 | TOP Jayce -1.02 | SUP Nami -1.02 | JUNGLE Skarner +0.69
+LCKCL,2026-05-26,KT Rolster Challengers vs Gen.G Global Academy,48,33.4,33.97,34.52,0.55,0.913,SUP Nautilus +2.8 | TOP Ambessa +2 | MID Taliyah +1.06 | ADC Yunara -0.83 | SUP Lulu -0.76
+LPL,2026-05-23,LNG Esports vs Team WE,24,29.64,30.83,30.4,-0.43,0.813,ADC Caitlyn -1.94 | TOP Yorick -1.65 | ADC Miss Fortune +1.51 | JUNGLE Naafiri -1.28 | TOP Ornn +0.89
+LPL,2026-05-23,LNG Esports vs Team WE,17,29.52,29.98,30.53,0.55,0.855,ADC Ashe +1.9 | MID Smolder +1.49 | JUNGLE Poppy +1.33 | SUP Lulu -1 | SUP Seraphine +0.96
+LPL,2026-05-23,ThunderTalk Gaming vs Invictus Gaming,23,28.6,30.25,30.31,0.06,0.912,MID Orianna +2.28 | TOP KSante -1.3 | TOP Rumble +0.88 | SUP Neeko +0.84 | JUNGLE Naafiri -0.7
+LPL,2026-05-23,ThunderTalk Gaming vs Invictus Gaming,33,28.68,29.83,31.19,1.36,0.897,ADC Ashe +2.43 | TOP Jayce +1.64 | SUP Nautilus +1.61 | ADC Senna -1.34 | MID Akali +1.14
+LPL,2026-05-23,Invictus Gaming vs ThunderTalk Gaming,26,28.72,29.52,29.5,-0.02,0.901,TOP Varus +2.8 | ADC Jhin +2.76 | JUNGLE Trundle -2.06 | SUP Seraphine +1.3 | MID Annie -1.25
+LPL,2026-05-24,EDward Gaming vs Ninjas in Pyjamas,14,28.8,27.21,27.07,-0.14,0.9,SUP Milio -2.8 | ADC Ashe +2.35 | ADC Lucian -2.35 | TOP Jayce +1.58 | SUP Seraphine +1.35
+LPL,2026-05-24,EDward Gaming vs Ninjas in Pyjamas,37,28.6,25.64,26.96,1.31,0.921,MID Orianna +2.66 | JUNGLE Vi +1.62 | JUNGLE Jarvan IV +1.6 | TOP Tristana +0.98 | ADC Corki +0.86
+LPL,2026-05-24,Ninjas in Pyjamas vs EDward Gaming,32,29.4,27.26,27.97,0.71,0.879,ADC Jhin +2.8 | MID Viktor +1.93 | JUNGLE Trundle -1.89 | SUP Nautilus +1.69 | MID Aurora +1.08
+LPL,2026-05-24,EDward Gaming vs Ninjas in Pyjamas,32,29.64,27.06,27.52,0.46,0.799,SUP Leona +2.76 | ADC Caitlyn -1.4 | TOP Vayne +1.16 | TOP Ornn +1.15 | JUNGLE Pantheon +0.79
+LPL,2026-05-24,Ninjas in Pyjamas vs EDward Gaming,27,29.96,27.54,27.6,0.05,0.818,ADC Zeri +1.95 | SUP Yuumi +1.47 | TOP KSante -1.46 | JUNGLE Shyvana -0.55 | SUP Thresh -0.5
+LPL,2026-05-24,LGD Gaming vs Weibo Gaming,15,29.04,25.74,25.31,-0.43,0.911,SUP Milio -2.8 | ADC Lucian -2.68 | ADC Ashe +1.97 | MID Annie -1.54 | MID Akali +1.02
+LPL,2026-05-24,Weibo Gaming vs LGD Gaming,15,28.36,23.25,23.55,0.31,0.926,JUNGLE Vi +1.54 | JUNGLE Trundle -1.53 | TOP Rumble +1.29 | ADC Corki +0.79 | TOP Sion +0.72
+LPL,2026-05-24,LGD Gaming vs Weibo Gaming,30,27.96,21.68,22.78,1.1,0.9,ADC Miss Fortune +2.76 | SUP Nautilus +2.43 | MID Aurora +1.81 | JUNGLE Xin Zhao +1.36 | SUP Bard +1.18
+LPL,2026-05-24,Weibo Gaming vs LGD Gaming,22,28.36,23.61,23.61,0,0.679,MID Twisted Fate -0.97 | TOP Jax +0.79 | ADC Caitlyn -0.65 | SUP Camille +0.63 | JUNGLE Lee Sin +0.51
+LPL,2026-05-24,Weibo Gaming vs LGD Gaming,21,27.52,23,23.1,0.11,0.716,ADC Kalista -1.42 | TOP Zaahen +1.22 | JUNGLE Sylas +1.19 | TOP Ambessa +1.02 | SUP Renata Glasc -0.83
+CBLOL,2026-05-16,Fluxo W7M vs RED Canids,24,28.64,28.85,29.06,0.21,0.752,MID Taliyah +1.66 | JUNGLE Pantheon +1.45 | SUP Lulu -1.33 | JUNGLE Skarner -1.21 | MID Tristana -0.79
+CBLOL,2026-05-16,RED Canids vs Fluxo W7M,18,28.2,28.9,29.06,0.16,0.767,MID Ahri +1.52 | JUNGLE Xin Zhao +0.94 | MID Sylas -0.66 | TOP Renekton -0.41 | ADC Smolder -0.36
+CBLOL,2026-05-16,RED Canids vs Fluxo W7M,25,27.88,26.8,27,0.2,0.721,SUP Milio -1.77 | SUP Alistar +1.65 | MID Azir +1.6 | ADC Sivir +0.96 | JUNGLE Dr. Mundo -0.54
+CBLOL,2026-05-17,LOUD vs FURIA,26,27.92,25.57,26.32,0.75,0.825,ADC Ezreal +1.61 | TOP Rumble +1.32 | JUNGLE Vi +1.2 | MID Aurora +1.13 | SUP Seraphine +1.01
+CBLOL,2026-05-17,FURIA vs LOUD,23,27.44,24.58,24.43,-0.15,0.807,SUP Milio -1.69 | TOP Ambessa +1.58 | JUNGLE Skarner -0.94 | TOP KSante +0.81 | MID Annie +0.75
+CBLOL,2026-05-17,FURIA vs LOUD,26,27,24.76,25.14,0.38,0.818,MID Cassiopeia +1.49 | ADC Corki +1.48 | SUP Nami +1.08 | JUNGLE RekSai -0.82 | TOP Sion +0.68
+CBLOL,2026-05-23,Los Grandes vs Vivo Keyd Stars,32,27.48,24.85,26,1.16,0.848,JUNGLE Pantheon +2.26 | ADC Ezreal +1.81 | SUP Neeko +1.65 | TOP Rumble +1.54 | MID Cassiopeia +1.4
+CBLOL,2026-05-23,Los Grandes vs Vivo Keyd Stars,29,27.68,25.35,25.54,0.19,0.806,MID Taliyah +2.11 | SUP Milio -1.8 | TOP Aatrox -1.51 | JUNGLE Xin Zhao +1.3 | JUNGLE Vi +1.14
+CBLOL,2026-05-23,Los Grandes vs Vivo Keyd Stars,29,27.4,26.11,26.26,0.15,0.794,JUNGLE Jarvan IV +1.58 | SUP Anivia +1.28 | JUNGLE RekSai -0.85 | SUP Karma -0.58 | MID Ryze +0.52
+CBLOL,2026-05-24,FURIA vs RED Canids,24,27.16,26.91,27.83,0.91,0.856,ADC Varus +2.67 | ADC Ezreal +1.46 | SUP Neeko +1.35 | TOP Rumble +1.18 | JUNGLE Xin Zhao +1.15
+CBLOL,2026-05-24,FURIA vs RED Canids,25,27.08,27.1,27.5,0.41,0.779,JUNGLE Aatrox +1.56 | MID Cassiopeia +1.39 | SUP Seraphine +0.99 | ADC Ashe +0.87 | SUP Lulu -0.73
+CBLOL,2026-05-24,FURIA vs RED Canids,21,27.28,26.13,26.35,0.22,0.783,SUP Alistar +1.74 | TOP Ambessa +1.48 | ADC Xayah -1.08 | JUNGLE Naafiri -1.05 | ADC Sivir +0.98
+CBLOL,2026-05-25,Los Grandes vs LOUD,28,26.76,25.77,25.77,0,0.781,MID Cassiopeia +1.47 | SUP Milio -1.43 | TOP Sion +0.77 | SUP Bard +0.73 | MID Akali -0.46
+CBLOL,2026-05-25,Los Grandes vs LOUD,22,26.48,25.79,27.45,1.66,0.875,JUNGLE Jarvan IV +1.92 | ADC Ezreal +1.83 | JUNGLE Aatrox +1.71 | SUP Neeko +1.66 | TOP Rumble +1.58
+CBLOL,2026-05-25,Los Grandes vs LOUD,34,25.84,25.05,25.86,0.81,0.704,MID Taliyah +2.49 | JUNGLE Vi +1.56 | SUP Seraphine +1.29 | ADC Ashe +1.16 | MID Viktor +0.88
+LEC,2026-05-10,G2 Esports vs Movistar KOI,27,30.68,31.48,29.73,-1.75,0.907,SUP Karma -2.8 | TOP Ornn -2.15 | ADC Ezreal -2.04 | JUNGLE Pantheon -1.69 | MID Azir -1.66
+LEC,2026-05-10,Movistar KOI vs G2 Esports,32,30.32,31.34,30.61,-0.73,0.841,SUP Lulu -2.33 | TOP Gnar -2.19 | MID Lissandra +0.75 | JUNGLE Jarvan IV -0.68 | MID Ahri -0.61
+LEC,2026-05-10,G2 Esports vs Movistar KOI,44,30.52,31.85,30.58,-1.28,0.827,MID Galio -2.62 | MID LeBlanc -2.3 | JUNGLE Xin Zhao -2.04 | TOP KSante -2.01 | ADC Ashe -1.2
+LEC,2026-05-23,G2 Esports vs Karmine Corp,38,31.44,32.47,31.23,-1.24,0.847,JUNGLE Xin Zhao -2.48 | JUNGLE Vi -2.03 | MID Taliyah -1.88 | ADC Ashe -1.4 | SUP Seraphine -1.38
+LEC,2026-05-23,G2 Esports vs Karmine Corp,12,31.4,34.59,33.27,-1.33,0.868,ADC Ezreal -2.8 | SUP Karma -2.8 | MID Ryze -1.95 | TOP Rumble -1.93 | TOP Galio +1.7
+LEC,2026-05-23,G2 Esports vs Karmine Corp,36,30.76,31.35,29.73,-1.62,0.878,SUP Nami -2.8 | SUP Lulu -2.41 | TOP Gnar -2.23 | MID Azir -1.67 | MID LeBlanc -1.61
+LEC,2026-05-23,G2 Esports vs Karmine Corp,33,31.2,32.11,30.91,-1.19,0.821,ADC Jhin -2.67 | TOP Ambessa -2.56 | JUNGLE Aatrox -1.63 | ADC Varus -1.12 | MID Ahri -0.87
+LEC,2026-05-24,Movistar KOI vs Team Vitality,18,30.88,31.88,29.93,-1.95,0.877,SUP Nami -2.8 | ADC Ezreal -2.65 | MID Syndra -2.32 | JUNGLE Vi -1.67 | TOP Rumble -1.61
+LEC,2026-05-24,Movistar KOI vs Team Vitality,25,30.2,31.09,30.58,-0.51,0.866,MID Akali +1.89 | ADC Caitlyn -1.78 | JUNGLE Xin Zhao -1.56 | MID Ryze -1.15 | SUP Bard -0.94
+LEC,2026-05-24,Movistar KOI vs Team Vitality,17,29.88,30.88,31.01,0.13,0.76,ADC Xayah +1.28 | TOP Olaf +1.23 | ADC Lucian -1.05 | MID Taliyah -0.77 | JUNGLE Jayce -0.76
+LEC,2026-05-25,Movistar KOI vs G2 Esports,27,29.56,28.54,29,0.46,0.825,ADC Ezreal -1.47 | MID Galio -1.41 | JUNGLE Nocturne +1.32 | TOP Anivia +1.26 | SUP Nautilus +1.07
+LEC,2026-05-25,Movistar KOI vs G2 Esports,35,29.56,28.64,28.06,-0.58,0.867,SUP Nami -2.12 | SUP Lulu -1.28 | ADC Caitlyn -1.04 | JUNGLE Trundle +0.86 | TOP Varus -0.58
+LEC,2026-05-25,Movistar KOI vs G2 Esports,26,29.88,29.38,29.13,-0.25,0.866,TOP Kled -1.46 | TOP Sion -1.36 | JUNGLE Xin Zhao -1.08 | ADC Xayah +0.97 | ADC Zeri +0.85
+LEC,2026-05-25,G2 Esports vs Movistar KOI,38,29,29.72,29.86,0.15,0.839,MID Akali +2.08 | MID Aurora -1.61 | TOP Twisted Fate +1.1 | JUNGLE Naafiri -0.77 | ADC Miss Fortune +0.57
+LEC,2026-05-25,G2 Esports vs Movistar KOI,31,29.88,30.22,29.34,-0.88,0.832,ADC Jinx -2.02 | TOP Gnar -1.73 | JUNGLE Pantheon -1.3 | MID Azir -1.15 | JUNGLE Zaahen -1.11
+LCS,2026-05-17,Dignitas vs Sentinels,10,27.08,27.09,26.26,-0.83,0.776,ADC Caitlyn -1.71 | JUNGLE Xin Zhao -1.62 | MID Ryze -1.59 | TOP Sion +1.43 | JUNGLE Jarvan IV -1.36
+LCS,2026-05-17,Sentinels vs Dignitas,26,26.56,25.08,25.13,0.05,0.774,TOP Ornn -2.36 | ADC Varus +2.28 | JUNGLE Naafiri -0.73 | TOP Renekton +0.66 | MID Hwei -0.59
+LCS,2026-05-17,LYON vs FlyQuest,39,26.84,27.14,27.17,0.03,0.741,TOP Sion +1.75 | SUP Nautilus +1.61 | ADC Senna +1.43 | SUP Milio -1.28 | TOP Jayce -1.23
+LCS,2026-05-17,FlyQuest vs LYON,16,27.36,29.36,28.46,-0.89,0.803,ADC Caitlyn -2.06 | SUP Nami -2.03 | JUNGLE Jarvan IV -1.47 | ADC Corki -1.42 | JUNGLE Sejuani -1.37
+LCS,2026-05-17,LYON vs FlyQuest,29,26.68,28.68,28.45,-0.23,0.783,TOP Rumble -1.57 | SUP Lulu -1 | ADC Yunara -0.76 | TOP Yorick -0.71 | JUNGLE Vi +0.34
+LCS,2026-05-23,FlyQuest vs Cloud9,13,27.04,27.99,27.5,-0.49,0.824,TOP Sion +1.84 | SUP Nami -1.82 | TOP Rumble -1.6 | JUNGLE Xin Zhao -1.37 | MID Cassiopeia +1.24
+LCS,2026-05-23,Cloud9 vs FlyQuest,22,26.4,26.04,25.85,-0.19,0.803,ADC Caitlyn -1.61 | JUNGLE Jarvan IV -0.8 | MID Ryze -0.75 | SUP Bard +0.68 | MID Annie +0.56
+LCS,2026-05-23,Cloud9 vs FlyQuest,17,26.4,24.64,25.43,0.79,0.667,SUP Nautilus +2.47 | ADC Senna +2.39 | MID Sylas +2 | ADC Sivir +1.23 | JUNGLE Ambessa +0.62
+LCS,2026-05-23,FlyQuest vs Cloud9,28,25.48,23.89,24.97,1.08,0.809,SUP Neeko +2.26 | TOP Renekton +1.6 | JUNGLE Wukong +1.59 | MID Taliyah +1.03 | MID Aurora +0.98
+LCS,2026-05-23,FlyQuest vs Cloud9,27,25.48,24.33,25.01,0.68,0.684,ADC Jhin +2.24 | SUP Alistar +1.7 | MID Azir +1.23 | TOP Gnar +1.16 | JUNGLE Sejuani -0.97
+LCS,2026-05-24,Team Liquid vs LYON,13,25.16,25.1,26,0.9,0.792,TOP Sion +2.37 | ADC Jhin +2.15 | JUNGLE Wukong +1.42 | MID Anivia -0.95 | SUP Rell +0.94
+LCS,2026-05-24,Team Liquid vs LYON,26,24.8,22.76,23.68,0.92,0.78,SUP Nautilus +2.62 | ADC Senna +2.04 | TOP Ambessa +1.64 | JUNGLE Vi +1.61 | MID Aurora +1.3
+LCS,2026-05-24,LYON vs Team Liquid,35,25.08,22.75,22.81,0.06,0.695,MID Sylas +1.7 | ADC Caitlyn -1.11 | JUNGLE Xin Zhao -0.38 | SUP Braum +0.34 | ADC Mel +0.3
+LCS,2026-05-24,LYON vs Team Liquid,13,25.64,24.21,24.23,0.02,0.801,ADC Smolder -1.62 | TOP Renekton +1.38 | MID Cassiopeia +1.26 | SUP Nami -1.2 | TOP Gnar +1.09
+LCS,2026-05-24,Team Liquid vs LYON,14,25.64,21.84,22.53,0.69,0.669,MID Taliyah +1.33 | SUP Bard +1.3 | MID Annie +1.04 | ADC Aphelios +1 | SUP Sona +0.74

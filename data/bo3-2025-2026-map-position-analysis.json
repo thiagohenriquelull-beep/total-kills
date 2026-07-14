@@ -1,0 +1,2118 @@
+{
+  "createdAt": "2026-05-26T22:08:56.437Z",
+  "sourceMeta": {
+    "source": "GOL team-matchlist HTTP",
+    "createdAt": "2026-05-26T22:08:23.919Z",
+    "seasons": [
+      "S15",
+      "S16"
+    ],
+    "tournaments": [
+      {
+        "season": "S15",
+        "seasonYear": 2025,
+        "tournament": "LPL 2025 Regional Finals",
+        "league": "LPL",
+        "teams": 4,
+        "rawRows": 24
+      },
+      {
+        "season": "S15",
+        "seasonYear": 2025,
+        "tournament": "LCK CL 2025 Season Playoffs",
+        "league": "LCKCL",
+        "teams": 6,
+        "rawRows": 86
+      },
+      {
+        "season": "S15",
+        "seasonYear": 2025,
+        "tournament": "LTA 2025 Championship",
+        "league": "LTA Championship",
+        "teams": 6,
+        "rawRows": 44
+      },
+      {
+        "season": "S15",
+        "seasonYear": 2025,
+        "tournament": "LCK 2025 Season Playoffs",
+        "league": "LCK",
+        "teams": 6,
+        "rawRows": 80
+      },
+      {
+        "season": "S15",
+        "seasonYear": 2025,
+        "tournament": "LEC 2025 Summer Playoffs",
+        "league": "LEC",
+        "teams": 8,
+        "rawRows": 76
+      },
+      {
+        "season": "S15",
+        "seasonYear": 2025,
+        "tournament": "LCK 2025 Season Play-In",
+        "league": "LCK",
+        "teams": 4,
+        "rawRows": 42
+      },
+      {
+        "season": "S15",
+        "seasonYear": 2025,
+        "tournament": "LCK CL 2025 Season Play-In",
+        "league": "LCKCL",
+        "teams": 4,
+        "rawRows": 42
+      },
+      {
+        "season": "S15",
+        "seasonYear": 2025,
+        "tournament": "LPL 2025 Grand Finals",
+        "league": "LPL",
+        "teams": 12,
+        "rawRows": 146
+      },
+      {
+        "season": "S15",
+        "seasonYear": 2025,
+        "tournament": "LEC 2025 Summer Season",
+        "league": "LEC",
+        "teams": 10,
+        "rawRows": 94
+      },
+      {
+        "season": "S15",
+        "seasonYear": 2025,
+        "tournament": "LTA South 2025 Split 3",
+        "league": "CBLOL/LTA-S",
+        "teams": 8,
+        "rawRows": 134
+      },
+      {
+        "season": "S15",
+        "seasonYear": 2025,
+        "tournament": "LTA North 2025 Split 3",
+        "league": "LCS/LTA-N",
+        "teams": 8,
+        "rawRows": 136
+      },
+      {
+        "season": "S15",
+        "seasonYear": 2025,
+        "tournament": "LCK 2025 Rounds 3-5",
+        "league": "LCK",
+        "teams": 10,
+        "rawRows": 290
+      },
+      {
+        "season": "S15",
+        "seasonYear": 2025,
+        "tournament": "LCK CL 2025 Rounds 3-5",
+        "league": "LCKCL",
+        "teams": 10,
+        "rawRows": 292
+      },
+      {
+        "season": "S15",
+        "seasonYear": 2025,
+        "tournament": "LPL 2025 Split 3",
+        "league": "LPL",
+        "teams": 14,
+        "rawRows": 424
+      },
+      {
+        "season": "S15",
+        "seasonYear": 2025,
+        "tournament": "LCK 2025 Road to MSI",
+        "league": "LCK",
+        "teams": 6,
+        "rawRows": 36
+      },
+      {
+        "season": "S15",
+        "seasonYear": 2025,
+        "tournament": "LEC 2025 Spring Playoffs",
+        "league": "LEC",
+        "teams": 6,
+        "rawRows": 66
+      },
+      {
+        "season": "S15",
+        "seasonYear": 2025,
+        "tournament": "LTA North 2025 Split 2 Playoffs",
+        "league": "LCS/LTA-N",
+        "teams": 6,
+        "rawRows": 60
+      },
+      {
+        "season": "S15",
+        "seasonYear": 2025,
+        "tournament": "LTA South 2025 Split 2 Playoffs",
+        "league": "CBLOL/LTA-S",
+        "teams": 6,
+        "rawRows": 58
+      },
+      {
+        "season": "S15",
+        "seasonYear": 2025,
+        "tournament": "LPL 2025 Split 2 Playoffs",
+        "league": "LPL",
+        "teams": 12,
+        "rawRows": 142
+      },
+      {
+        "season": "S15",
+        "seasonYear": 2025,
+        "tournament": "LTA South 2025 Split 2",
+        "league": "CBLOL/LTA-S",
+        "teams": 8,
+        "rawRows": 80
+      },
+      {
+        "season": "S15",
+        "seasonYear": 2025,
+        "tournament": "LTA North 2025 Split 2",
+        "league": "LCS/LTA-N",
+        "teams": 8,
+        "rawRows": 74
+      },
+      {
+        "season": "S15",
+        "seasonYear": 2025,
+        "tournament": "LPL 2025 Split 2",
+        "league": "LPL",
+        "teams": 16,
+        "rawRows": 518
+      },
+      {
+        "season": "S15",
+        "seasonYear": 2025,
+        "tournament": "LCK 2025 Rounds 1-2",
+        "league": "LCK",
+        "teams": 10,
+        "rawRows": 444
+      },
+      {
+        "season": "S15",
+        "seasonYear": 2025,
+        "tournament": "LCK CL 2025 Rounds 1-2",
+        "league": "LCKCL",
+        "teams": 10,
+        "rawRows": 446
+      },
+      {
+        "season": "S15",
+        "seasonYear": 2025,
+        "tournament": "LEC 2025 Spring Season",
+        "league": "LEC",
+        "teams": 10,
+        "rawRows": 210
+      },
+      {
+        "season": "S15",
+        "seasonYear": 2025,
+        "tournament": "LPL 2025 Split 2 Placements",
+        "league": "LPL",
+        "teams": 16,
+        "rawRows": 16
+      },
+      {
+        "season": "S15",
+        "seasonYear": 2025,
+        "tournament": "LPL 2025 Split 1 Playoffs",
+        "league": "LPL",
+        "teams": 8,
+        "rawRows": 84
+      },
+      {
+        "season": "S15",
+        "seasonYear": 2025,
+        "tournament": "LEC 2025 Winter Playoffs",
+        "league": "LEC",
+        "teams": 8,
+        "rawRows": 78
+      },
+      {
+        "season": "S15",
+        "seasonYear": 2025,
+        "tournament": "LTA North 2025 Split 1",
+        "league": "LCS/LTA-N",
+        "teams": 8,
+        "rawRows": 48
+      },
+      {
+        "season": "S15",
+        "seasonYear": 2025,
+        "tournament": "LTA South 2025 Split 1",
+        "league": "CBLOL/LTA-S",
+        "teams": 8,
+        "rawRows": 56
+      },
+      {
+        "season": "S15",
+        "seasonYear": 2025,
+        "tournament": "LCK CL 2025 Kickoff",
+        "league": "LCKCL",
+        "teams": 10,
+        "rawRows": 214
+      },
+      {
+        "season": "S15",
+        "seasonYear": 2025,
+        "tournament": "LPL 2025 Split 1",
+        "league": "LPL",
+        "teams": 16,
+        "rawRows": 176
+      },
+      {
+        "season": "S16",
+        "seasonYear": 2026,
+        "tournament": "LEC 2026 Spring Playoffs",
+        "league": "LEC",
+        "teams": 4,
+        "rawRows": 24
+      },
+      {
+        "season": "S16",
+        "seasonYear": 2026,
+        "tournament": "LPL 2026 Split 2 Playoffs",
+        "league": "LPL",
+        "teams": 8,
+        "rawRows": 36
+      },
+      {
+        "season": "S16",
+        "seasonYear": 2026,
+        "tournament": "LCS 2026 Spring Playoffs",
+        "league": "LCS/LTA-N",
+        "teams": 4,
+        "rawRows": 20
+      },
+      {
+        "season": "S16",
+        "seasonYear": 2026,
+        "tournament": "CBLOL 2026 Split 1 Playoffs",
+        "league": "CBLOL/LTA-S",
+        "teams": 6,
+        "rawRows": 54
+      },
+      {
+        "season": "S16",
+        "seasonYear": 2026,
+        "tournament": "LCS 2026 Spring",
+        "league": "LCS/LTA-N",
+        "teams": 8,
+        "rawRows": 138
+      },
+      {
+        "season": "S16",
+        "seasonYear": 2026,
+        "tournament": "LPL 2026 Split 2",
+        "league": "LPL",
+        "teams": 14,
+        "rawRows": 342
+      },
+      {
+        "season": "S16",
+        "seasonYear": 2026,
+        "tournament": "LCK 2026 Rounds 1-2",
+        "league": "LCK",
+        "teams": 10,
+        "rawRows": 360
+      },
+      {
+        "season": "S16",
+        "seasonYear": 2026,
+        "tournament": "LCK CL 2026 Rounds 1-2",
+        "league": "LCKCL",
+        "teams": 10,
+        "rawRows": 416
+      },
+      {
+        "season": "S16",
+        "seasonYear": 2026,
+        "tournament": "LEC 2026 Spring Season",
+        "league": "LEC",
+        "teams": 10,
+        "rawRows": 222
+      },
+      {
+        "season": "S16",
+        "seasonYear": 2026,
+        "tournament": "CBLOL 2026 Split 1",
+        "league": "CBLOL/LTA-S",
+        "teams": 8,
+        "rawRows": 132
+      },
+      {
+        "season": "S16",
+        "seasonYear": 2026,
+        "tournament": "LEC 2026 Versus Playoffs",
+        "league": "LEC",
+        "teams": 8,
+        "rawRows": 78
+      },
+      {
+        "season": "S16",
+        "seasonYear": 2026,
+        "tournament": "LPL 2026 Split 1 Playoffs",
+        "league": "LPL",
+        "teams": 12,
+        "rawRows": 154
+      },
+      {
+        "season": "S16",
+        "seasonYear": 2026,
+        "tournament": "LCS 2026 Lock-In",
+        "league": "LCS/LTA-N",
+        "teams": 8,
+        "rawRows": 116
+      },
+      {
+        "season": "S16",
+        "seasonYear": 2026,
+        "tournament": "LEC 2026 Versus Season",
+        "league": "LEC",
+        "teams": 12,
+        "rawRows": 0
+      },
+      {
+        "season": "S16",
+        "seasonYear": 2026,
+        "tournament": "LPL 2026 Split 1",
+        "league": "LPL",
+        "teams": 14,
+        "rawRows": 274
+      },
+      {
+        "season": "S16",
+        "seasonYear": 2026,
+        "tournament": "LCK CL 2026 Kickoff",
+        "league": "LCKCL",
+        "teams": 10,
+        "rawRows": 234
+      }
+    ],
+    "rawRows": 7316,
+    "uniqueGamesInTargetTournaments": 3658,
+    "bo3Series": 1112,
+    "bo3Games": 2692,
+    "notes": [
+      "MD3/Bo3 confirmado apenas quando placar de serie chega a 2 vitorias (2-0 ou 2-1) e maximo mapa observado <= 3.",
+      "Series com placar 3-x foram excluidas para nao misturar Bo5 3-0 com Bo3."
+    ],
+    "collectReport": [
+      {
+        "season": "S15",
+        "seasonYear": 2025,
+        "tournament": "LPL 2025 Regional Finals",
+        "league": "LPL",
+        "teams": 4,
+        "rawRows": 24
+      },
+      {
+        "season": "S15",
+        "seasonYear": 2025,
+        "tournament": "LCK CL 2025 Season Playoffs",
+        "league": "LCKCL",
+        "teams": 6,
+        "rawRows": 86
+      },
+      {
+        "season": "S15",
+        "seasonYear": 2025,
+        "tournament": "LTA 2025 Championship",
+        "league": "LTA Championship",
+        "teams": 6,
+        "rawRows": 44
+      },
+      {
+        "season": "S15",
+        "seasonYear": 2025,
+        "tournament": "LCK 2025 Season Playoffs",
+        "league": "LCK",
+        "teams": 6,
+        "rawRows": 80
+      },
+      {
+        "season": "S15",
+        "seasonYear": 2025,
+        "tournament": "LEC 2025 Summer Playoffs",
+        "league": "LEC",
+        "teams": 8,
+        "rawRows": 76
+      },
+      {
+        "season": "S15",
+        "seasonYear": 2025,
+        "tournament": "LCK 2025 Season Play-In",
+        "league": "LCK",
+        "teams": 4,
+        "rawRows": 42
+      },
+      {
+        "season": "S15",
+        "seasonYear": 2025,
+        "tournament": "LCK CL 2025 Season Play-In",
+        "league": "LCKCL",
+        "teams": 4,
+        "rawRows": 42
+      },
+      {
+        "season": "S15",
+        "seasonYear": 2025,
+        "tournament": "LPL 2025 Grand Finals",
+        "league": "LPL",
+        "teams": 12,
+        "rawRows": 146
+      },
+      {
+        "season": "S15",
+        "seasonYear": 2025,
+        "tournament": "LEC 2025 Summer Season",
+        "league": "LEC",
+        "teams": 10,
+        "rawRows": 94
+      },
+      {
+        "season": "S15",
+        "seasonYear": 2025,
+        "tournament": "LTA South 2025 Split 3",
+        "league": "CBLOL/LTA-S",
+        "teams": 8,
+        "rawRows": 134
+      },
+      {
+        "season": "S15",
+        "seasonYear": 2025,
+        "tournament": "LTA North 2025 Split 3",
+        "league": "LCS/LTA-N",
+        "teams": 8,
+        "rawRows": 136
+      },
+      {
+        "season": "S15",
+        "seasonYear": 2025,
+        "tournament": "LCK 2025 Rounds 3-5",
+        "league": "LCK",
+        "teams": 10,
+        "rawRows": 290
+      },
+      {
+        "season": "S15",
+        "seasonYear": 2025,
+        "tournament": "LCK CL 2025 Rounds 3-5",
+        "league": "LCKCL",
+        "teams": 10,
+        "rawRows": 292
+      },
+      {
+        "season": "S15",
+        "seasonYear": 2025,
+        "tournament": "LPL 2025 Split 3",
+        "league": "LPL",
+        "teams": 14,
+        "rawRows": 424
+      },
+      {
+        "season": "S15",
+        "seasonYear": 2025,
+        "tournament": "LCK 2025 Road to MSI",
+        "league": "LCK",
+        "teams": 6,
+        "rawRows": 36
+      },
+      {
+        "season": "S15",
+        "seasonYear": 2025,
+        "tournament": "LEC 2025 Spring Playoffs",
+        "league": "LEC",
+        "teams": 6,
+        "rawRows": 66
+      },
+      {
+        "season": "S15",
+        "seasonYear": 2025,
+        "tournament": "LTA North 2025 Split 2 Playoffs",
+        "league": "LCS/LTA-N",
+        "teams": 6,
+        "rawRows": 60
+      },
+      {
+        "season": "S15",
+        "seasonYear": 2025,
+        "tournament": "LTA South 2025 Split 2 Playoffs",
+        "league": "CBLOL/LTA-S",
+        "teams": 6,
+        "rawRows": 58
+      },
+      {
+        "season": "S15",
+        "seasonYear": 2025,
+        "tournament": "LPL 2025 Split 2 Playoffs",
+        "league": "LPL",
+        "teams": 12,
+        "rawRows": 142
+      },
+      {
+        "season": "S15",
+        "seasonYear": 2025,
+        "tournament": "LTA South 2025 Split 2",
+        "league": "CBLOL/LTA-S",
+        "teams": 8,
+        "rawRows": 80
+      },
+      {
+        "season": "S15",
+        "seasonYear": 2025,
+        "tournament": "LTA North 2025 Split 2",
+        "league": "LCS/LTA-N",
+        "teams": 8,
+        "rawRows": 74
+      },
+      {
+        "season": "S15",
+        "seasonYear": 2025,
+        "tournament": "LPL 2025 Split 2",
+        "league": "LPL",
+        "teams": 16,
+        "rawRows": 518
+      },
+      {
+        "season": "S15",
+        "seasonYear": 2025,
+        "tournament": "LCK 2025 Rounds 1-2",
+        "league": "LCK",
+        "teams": 10,
+        "rawRows": 444
+      },
+      {
+        "season": "S15",
+        "seasonYear": 2025,
+        "tournament": "LCK CL 2025 Rounds 1-2",
+        "league": "LCKCL",
+        "teams": 10,
+        "rawRows": 446
+      },
+      {
+        "season": "S15",
+        "seasonYear": 2025,
+        "tournament": "LEC 2025 Spring Season",
+        "league": "LEC",
+        "teams": 10,
+        "rawRows": 210
+      },
+      {
+        "season": "S15",
+        "seasonYear": 2025,
+        "tournament": "LPL 2025 Split 2 Placements",
+        "league": "LPL",
+        "teams": 16,
+        "rawRows": 16
+      },
+      {
+        "season": "S15",
+        "seasonYear": 2025,
+        "tournament": "LPL 2025 Split 1 Playoffs",
+        "league": "LPL",
+        "teams": 8,
+        "rawRows": 84
+      },
+      {
+        "season": "S15",
+        "seasonYear": 2025,
+        "tournament": "LEC 2025 Winter Playoffs",
+        "league": "LEC",
+        "teams": 8,
+        "rawRows": 78
+      },
+      {
+        "season": "S15",
+        "seasonYear": 2025,
+        "tournament": "LTA North 2025 Split 1",
+        "league": "LCS/LTA-N",
+        "teams": 8,
+        "rawRows": 48
+      },
+      {
+        "season": "S15",
+        "seasonYear": 2025,
+        "tournament": "LTA South 2025 Split 1",
+        "league": "CBLOL/LTA-S",
+        "teams": 8,
+        "rawRows": 56
+      },
+      {
+        "season": "S15",
+        "seasonYear": 2025,
+        "tournament": "LCK CL 2025 Kickoff",
+        "league": "LCKCL",
+        "teams": 10,
+        "rawRows": 214
+      },
+      {
+        "season": "S15",
+        "seasonYear": 2025,
+        "tournament": "LPL 2025 Split 1",
+        "league": "LPL",
+        "teams": 16,
+        "rawRows": 176
+      },
+      {
+        "season": "S16",
+        "seasonYear": 2026,
+        "tournament": "LEC 2026 Spring Playoffs",
+        "league": "LEC",
+        "teams": 4,
+        "rawRows": 24
+      },
+      {
+        "season": "S16",
+        "seasonYear": 2026,
+        "tournament": "LPL 2026 Split 2 Playoffs",
+        "league": "LPL",
+        "teams": 8,
+        "rawRows": 36
+      },
+      {
+        "season": "S16",
+        "seasonYear": 2026,
+        "tournament": "LCS 2026 Spring Playoffs",
+        "league": "LCS/LTA-N",
+        "teams": 4,
+        "rawRows": 20
+      },
+      {
+        "season": "S16",
+        "seasonYear": 2026,
+        "tournament": "CBLOL 2026 Split 1 Playoffs",
+        "league": "CBLOL/LTA-S",
+        "teams": 6,
+        "rawRows": 54
+      },
+      {
+        "season": "S16",
+        "seasonYear": 2026,
+        "tournament": "LCS 2026 Spring",
+        "league": "LCS/LTA-N",
+        "teams": 8,
+        "rawRows": 138
+      },
+      {
+        "season": "S16",
+        "seasonYear": 2026,
+        "tournament": "LPL 2026 Split 2",
+        "league": "LPL",
+        "teams": 14,
+        "rawRows": 342
+      },
+      {
+        "season": "S16",
+        "seasonYear": 2026,
+        "tournament": "LCK 2026 Rounds 1-2",
+        "league": "LCK",
+        "teams": 10,
+        "rawRows": 360
+      },
+      {
+        "season": "S16",
+        "seasonYear": 2026,
+        "tournament": "LCK CL 2026 Rounds 1-2",
+        "league": "LCKCL",
+        "teams": 10,
+        "rawRows": 416
+      },
+      {
+        "season": "S16",
+        "seasonYear": 2026,
+        "tournament": "LEC 2026 Spring Season",
+        "league": "LEC",
+        "teams": 10,
+        "rawRows": 222
+      },
+      {
+        "season": "S16",
+        "seasonYear": 2026,
+        "tournament": "CBLOL 2026 Split 1",
+        "league": "CBLOL/LTA-S",
+        "teams": 8,
+        "rawRows": 132
+      },
+      {
+        "season": "S16",
+        "seasonYear": 2026,
+        "tournament": "LEC 2026 Versus Playoffs",
+        "league": "LEC",
+        "teams": 8,
+        "rawRows": 78
+      },
+      {
+        "season": "S16",
+        "seasonYear": 2026,
+        "tournament": "LPL 2026 Split 1 Playoffs",
+        "league": "LPL",
+        "teams": 12,
+        "rawRows": 154
+      },
+      {
+        "season": "S16",
+        "seasonYear": 2026,
+        "tournament": "LCS 2026 Lock-In",
+        "league": "LCS/LTA-N",
+        "teams": 8,
+        "rawRows": 116
+      },
+      {
+        "season": "S16",
+        "seasonYear": 2026,
+        "tournament": "LEC 2026 Versus Season",
+        "league": "LEC",
+        "teams": 12,
+        "rawRows": 0
+      },
+      {
+        "season": "S16",
+        "seasonYear": 2026,
+        "tournament": "LPL 2026 Split 1",
+        "league": "LPL",
+        "teams": 14,
+        "rawRows": 274
+      },
+      {
+        "season": "S16",
+        "seasonYear": 2026,
+        "tournament": "LCK CL 2026 Kickoff",
+        "league": "LCKCL",
+        "teams": 10,
+        "rawRows": 234
+      }
+    ]
+  },
+  "overall": {
+    "series": 1112,
+    "games": 2692,
+    "mean": 29.39,
+    "positions": {
+      "1": {
+        "games": 1112,
+        "mean": 29.04,
+        "median": 28,
+        "std": 8.54,
+        "aboveMean": 0.4308,
+        "centeredEffect": -0.37,
+        "decisiveGames": 0
+      },
+      "2": {
+        "games": 1112,
+        "mean": 30.21,
+        "median": 29,
+        "std": 8.73,
+        "aboveMean": 0.4892,
+        "centeredEffect": 0.79,
+        "decisiveGames": 644
+      },
+      "3": {
+        "games": 468,
+        "mean": 28.29,
+        "median": 28,
+        "std": 8.34,
+        "aboveMean": 0.4124,
+        "centeredEffect": -1.01,
+        "decisiveGames": 468
+      }
+    },
+    "fullThree": {
+      "series": 468,
+      "rows": {
+        "1": {
+          "games": 468,
+          "mean": 29.78,
+          "median": 29,
+          "std": 8.76,
+          "centeredEffect": 0.48
+        },
+        "2": {
+          "games": 468,
+          "mean": 29.83,
+          "median": 29,
+          "std": 8.95,
+          "centeredEffect": 0.53
+        },
+        "3": {
+          "games": 468,
+          "mean": 28.29,
+          "median": 28,
+          "std": 8.34,
+          "centeredEffect": -1.01
+        }
+      },
+      "pairs": {
+        "2vs1": {
+          "n": 468,
+          "diff": 0.053418803418803416,
+          "p": 0.9179929507915752,
+          "ci": {
+            "low": -0.9634686535765846,
+            "high": 1.0703062604141915
+          }
+        },
+        "3vs1": {
+          "n": 468,
+          "diff": -1.4893162393162394,
+          "p": 0.0039878860890789625,
+          "ci": {
+            "low": -2.5031853724356203,
+            "high": -0.47544710619685815
+          }
+        },
+        "3vs2": {
+          "n": 468,
+          "diff": -1.5427350427350428,
+          "p": 0.004161989781603204,
+          "ci": {
+            "low": -2.597918429380412,
+            "high": -0.48755165608967355
+          }
+        }
+      }
+    },
+    "tests": {
+      "map2vs1": {
+        "nA": 1112,
+        "nB": 1112,
+        "diff": 1.1609712230215834,
+        "p": 0.0015199176541349502,
+        "ci": {
+          "low": 0.4433456356711717,
+          "high": 1.8785968103719952
+        }
+      },
+      "map3vs1": {
+        "nA": 468,
+        "nB": 1112,
+        "diff": -0.7534664576031496,
+        "p": 0.10361281227308439,
+        "ci": {
+          "low": -1.6608193184560722,
+          "high": 0.15388640324977299
+        }
+      },
+      "map3vs2": {
+        "nA": 468,
+        "nB": 1112,
+        "diff": -1.914437680624733,
+        "p": 0.00004016305851384239,
+        "ci": {
+          "low": -2.8281466736398015,
+          "high": -1.0007286876096644
+        }
+      }
+    },
+    "context": {
+      "decisiveMean": 29.56,
+      "nonDecisiveMean": 29.28,
+      "decisiveVsNon": {
+        "nA": 1112,
+        "nB": 1580,
+        "diff": 0.2779072944176306,
+        "p": 0.4085378346325841,
+        "ci": {
+          "low": -0.3811593097549989,
+          "high": 0.9369738985902601
+        }
+      },
+      "map2DecisiveMean": 30.48,
+      "map2NonDecisiveMean": 29.83,
+      "map2DecisiveVsNon": {
+        "nA": 644,
+        "nB": 468,
+        "diff": 0.6418219461697738,
+        "p": 0.2292261924533423,
+        "ci": {
+          "low": -0.40443405911044894,
+          "high": 1.6880779514499966
+        }
+      }
+    }
+  },
+  "bySeason": {
+    "2025": {
+      "series": 674,
+      "games": 1643,
+      "mean": 29.64,
+      "positions": {
+        "1": {
+          "games": 674,
+          "mean": 29.55,
+          "median": 28,
+          "std": 8.67,
+          "aboveMean": 0.4525,
+          "centeredEffect": -0.13,
+          "decisiveGames": 0
+        },
+        "2": {
+          "games": 674,
+          "mean": 30.39,
+          "median": 30,
+          "std": 8.81,
+          "aboveMean": 0.5119,
+          "centeredEffect": 0.71,
+          "decisiveGames": 379
+        },
+        "3": {
+          "games": 295,
+          "mean": 28.13,
+          "median": 28,
+          "std": 8.46,
+          "aboveMean": 0.4102,
+          "centeredEffect": -1.34,
+          "decisiveGames": 295
+        }
+      },
+      "fullThree": {
+        "series": 295,
+        "rows": {
+          "1": {
+            "games": 295,
+            "mean": 30.55,
+            "median": 30,
+            "std": 9.07,
+            "centeredEffect": 1.07
+          },
+          "2": {
+            "games": 295,
+            "mean": 29.74,
+            "median": 29,
+            "std": 8.71,
+            "centeredEffect": 0.27
+          },
+          "3": {
+            "games": 295,
+            "mean": 28.13,
+            "median": 28,
+            "std": 8.46,
+            "centeredEffect": -1.34
+          }
+        },
+        "pairs": {
+          "2vs1": {
+            "n": 295,
+            "diff": -0.8033898305084746,
+            "p": 0.22161955139697032,
+            "ci": {
+              "low": -2.0917233080237505,
+              "high": 0.48494364700680115
+            }
+          },
+          "3vs1": {
+            "n": 295,
+            "diff": -2.4135593220338984,
+            "p": 0.0003485510620164778,
+            "ci": {
+              "low": -3.736311372667619,
+              "high": -1.0908072714001775
+            }
+          },
+          "3vs2": {
+            "n": 295,
+            "diff": -1.6101694915254237,
+            "p": 0.018844852758912012,
+            "ci": {
+              "low": -2.9539283833652656,
+              "high": -0.2664105996855817
+            }
+          }
+        }
+      },
+      "tests": {
+        "map2vs1": {
+          "nA": 674,
+          "nB": 674,
+          "diff": 0.8382789317507431,
+          "p": 0.07839665192873646,
+          "ci": {
+            "low": -0.09522434953546799,
+            "high": 1.7717822130369543
+          }
+        },
+        "map3vs1": {
+          "nA": 295,
+          "nB": 674,
+          "diff": -1.4197253935522802,
+          "p": 0.01708156050570553,
+          "ci": {
+            "low": -2.5864858014712073,
+            "high": -0.25296498563335335
+          }
+        },
+        "map3vs2": {
+          "nA": 295,
+          "nB": 674,
+          "diff": -2.2580043253030233,
+          "p": 0.00016057478796227542,
+          "ci": {
+            "low": -3.430621163725987,
+            "high": -1.0853874868800595
+          }
+        }
+      },
+      "context": {
+        "decisiveMean": 29.69,
+        "nonDecisiveMean": 29.61,
+        "decisiveVsNon": {
+          "nA": 674,
+          "nB": 969,
+          "diff": 0.07555281990978457,
+          "p": 0.8632873777944381,
+          "ci": {
+            "low": -0.7844429241871625,
+            "high": 0.9355485640067317
+          }
+        },
+        "map2DecisiveMean": 30.89,
+        "map2NonDecisiveMean": 29.74,
+        "map2DecisiveVsNon": {
+          "nA": 379,
+          "nB": 295,
+          "diff": 1.1520862215464405,
+          "p": 0.09101760582192231,
+          "ci": {
+            "low": -0.1840185653941553,
+            "high": 2.4881910084870364
+          }
+        }
+      }
+    },
+    "2026": {
+      "series": 438,
+      "games": 1049,
+      "mean": 29,
+      "positions": {
+        "1": {
+          "games": 438,
+          "mean": 28.26,
+          "median": 27,
+          "std": 8.27,
+          "aboveMean": 0.3973,
+          "centeredEffect": -0.74,
+          "decisiveGames": 0
+        },
+        "2": {
+          "games": 438,
+          "mean": 29.92,
+          "median": 28,
+          "std": 8.6,
+          "aboveMean": 0.4543,
+          "centeredEffect": 0.92,
+          "decisiveGames": 265
+        },
+        "3": {
+          "games": 173,
+          "mean": 28.56,
+          "median": 28,
+          "std": 8.16,
+          "aboveMean": 0.4162,
+          "centeredEffect": -0.45,
+          "decisiveGames": 173
+        }
+      },
+      "fullThree": {
+        "series": 173,
+        "rows": {
+          "1": {
+            "games": 173,
+            "mean": 28.47,
+            "median": 27,
+            "std": 8.06,
+            "centeredEffect": -0.53
+          },
+          "2": {
+            "games": 173,
+            "mean": 29.99,
+            "median": 28,
+            "std": 9.36,
+            "centeredEffect": 0.98
+          },
+          "3": {
+            "games": 173,
+            "mean": 28.56,
+            "median": 28,
+            "std": 8.16,
+            "centeredEffect": -0.45
+          }
+        },
+        "pairs": {
+          "2vs1": {
+            "n": 173,
+            "diff": 1.5144508670520231,
+            "p": 0.06988727752175872,
+            "ci": {
+              "low": -0.12311861096444288,
+              "high": 3.152020345068489
+            }
+          },
+          "3vs1": {
+            "n": 173,
+            "diff": 0.08670520231213873,
+            "p": 0.911957868698428,
+            "ci": {
+              "low": -1.4502706380366182,
+              "high": 1.6236810426608954
+            }
+          },
+          "3vs2": {
+            "n": 173,
+            "diff": -1.4277456647398843,
+            "p": 0.10117270272253531,
+            "ci": {
+              "low": -3.134914180992104,
+              "high": 0.2794228515123358
+            }
+          }
+        }
+      },
+      "tests": {
+        "map2vs1": {
+          "nA": 438,
+          "nB": 438,
+          "diff": 1.657534246575345,
+          "p": 0.0036471799304993446,
+          "ci": {
+            "low": 0.5400360708363969,
+            "high": 2.7750324223142933
+          }
+        },
+        "map3vs1": {
+          "nA": 173,
+          "nB": 438,
+          "diff": 0.29813656399292654,
+          "p": 0.68515296183428,
+          "ci": {
+            "low": -1.143125330549047,
+            "high": 1.7393984585349
+          }
+        },
+        "map3vs2": {
+          "nA": 173,
+          "nB": 438,
+          "diff": -1.3593976825824186,
+          "p": 0.06772238064803338,
+          "ci": {
+            "low": -2.81787598953012,
+            "high": 0.09908062436528264
+          }
+        }
+      },
+      "context": {
+        "decisiveMean": 29.36,
+        "nonDecisiveMean": 28.75,
+        "decisiveVsNon": {
+          "nA": 438,
+          "nB": 611,
+          "diff": 0.6049368876532988,
+          "p": 0.24661891512977485,
+          "ci": {
+            "low": -0.41843193611631446,
+            "high": 1.628305711422912
+          }
+        },
+        "map2DecisiveMean": 29.88,
+        "map2NonDecisiveMean": 29.99,
+        "map2DecisiveVsNon": {
+          "nA": 265,
+          "nB": 173,
+          "diff": -0.11296760824517094,
+          "p": 0.8964467263439766,
+          "ci": {
+            "low": -1.8141927686521062,
+            "high": 1.5882575521617643
+          }
+        }
+      }
+    }
+  },
+  "byLeague": {
+    "LEC": {
+      "series": 130,
+      "games": 309,
+      "mean": 27.56,
+      "positions": {
+        "1": {
+          "games": 130,
+          "mean": 26.7,
+          "median": 26,
+          "std": 8.44,
+          "aboveMean": 0.3462,
+          "centeredEffect": -0.8,
+          "decisiveGames": 0
+        },
+        "2": {
+          "games": 130,
+          "mean": 28.33,
+          "median": 27,
+          "std": 8.52,
+          "aboveMean": 0.4385,
+          "centeredEffect": 0.83,
+          "decisiveGames": 81
+        },
+        "3": {
+          "games": 49,
+          "mean": 27.8,
+          "median": 27,
+          "std": 9.83,
+          "aboveMean": 0.4694,
+          "centeredEffect": -0.06,
+          "decisiveGames": 49
+        }
+      },
+      "fullThree": {
+        "series": 49,
+        "rows": {
+          "1": {
+            "games": 49,
+            "mean": 26.92,
+            "median": 26,
+            "std": 8.28,
+            "centeredEffect": -0.94
+          },
+          "2": {
+            "games": 49,
+            "mean": 28.86,
+            "median": 27,
+            "std": 8.08,
+            "centeredEffect": 1
+          },
+          "3": {
+            "games": 49,
+            "mean": 27.8,
+            "median": 27,
+            "std": 9.83,
+            "centeredEffect": -0.06
+          }
+        },
+        "pairs": {
+          "2vs1": {
+            "n": 49,
+            "diff": 1.9387755102040816,
+            "p": 0.2775034965347636,
+            "ci": {
+              "low": -1.5604815538025052,
+              "high": 5.438032574210668
+            }
+          },
+          "3vs1": {
+            "n": 49,
+            "diff": 0.8775510204081632,
+            "p": 0.6069239988883552,
+            "ci": {
+              "low": -2.465700889534211,
+              "high": 4.220802930350538
+            }
+          },
+          "3vs2": {
+            "n": 49,
+            "diff": -1.0612244897959184,
+            "p": 0.5484244132621443,
+            "ci": {
+              "low": -4.5271827507486755,
+              "high": 2.404733771156839
+            }
+          }
+        }
+      },
+      "tests": {
+        "map2vs1": {
+          "nA": 130,
+          "nB": 130,
+          "diff": 1.630769230769232,
+          "p": 0.12122970330966476,
+          "ci": {
+            "low": -0.4318533928628572,
+            "high": 3.6933918544013213
+          }
+        },
+        "map3vs1": {
+          "nA": 49,
+          "nB": 130,
+          "diff": 1.0959183673469397,
+          "p": 0.4900694982479481,
+          "ci": {
+            "low": -2.0162317279829205,
+            "high": 4.2080684626768
+          }
+        },
+        "map3vs2": {
+          "nA": 49,
+          "nB": 130,
+          "diff": -0.5348508634222924,
+          "p": 0.7367663324061002,
+          "ci": {
+            "low": -3.653525882025106,
+            "high": 2.583824155180521
+          }
+        }
+      },
+      "context": {
+        "decisiveMean": 27.93,
+        "nonDecisiveMean": 27.29,
+        "decisiveVsNon": {
+          "nA": 130,
+          "nB": 179,
+          "diff": 0.6402664374731408,
+          "p": 0.5300678768854854,
+          "ci": {
+            "low": -1.3583285019263154,
+            "high": 2.638861376872597
+          }
+        },
+        "map2DecisiveMean": 28.01,
+        "map2NonDecisiveMean": 28.86,
+        "map2DecisiveVsNon": {
+          "nA": 81,
+          "nB": 49,
+          "diff": -0.8447971781305128,
+          "p": 0.5768966308978272,
+          "ci": {
+            "low": -3.8125925255565485,
+            "high": 2.122998169295523
+          }
+        }
+      }
+    },
+    "CBLOL/LTA-S": {
+      "series": 66,
+      "games": 164,
+      "mean": 27.77,
+      "positions": {
+        "1": {
+          "games": 66,
+          "mean": 28.26,
+          "median": 25,
+          "std": 9.35,
+          "aboveMean": 0.4394,
+          "centeredEffect": 0.47,
+          "decisiveGames": 0
+        },
+        "2": {
+          "games": 66,
+          "mean": 27.61,
+          "median": 26.5,
+          "std": 8.24,
+          "aboveMean": 0.4545,
+          "centeredEffect": -0.18,
+          "decisiveGames": 34
+        },
+        "3": {
+          "games": 32,
+          "mean": 27.13,
+          "median": 27,
+          "std": 5.79,
+          "aboveMean": 0.5,
+          "centeredEffect": -0.61,
+          "decisiveGames": 32
+        }
+      },
+      "fullThree": {
+        "series": 32,
+        "rows": {
+          "1": {
+            "games": 32,
+            "mean": 28.25,
+            "median": 27,
+            "std": 9.12,
+            "centeredEffect": 0.51
+          },
+          "2": {
+            "games": 32,
+            "mean": 27.84,
+            "median": 25,
+            "std": 9.39,
+            "centeredEffect": 0.1
+          },
+          "3": {
+            "games": 32,
+            "mean": 27.13,
+            "median": 27,
+            "std": 5.79,
+            "centeredEffect": -0.61
+          }
+        },
+        "pairs": {
+          "2vs1": {
+            "n": 32,
+            "diff": -0.40625,
+            "p": 0.8613335975563738,
+            "ci": {
+              "low": -4.964668429524545,
+              "high": 4.152168429524545
+            }
+          },
+          "3vs1": {
+            "n": 32,
+            "diff": -1.125,
+            "p": 0.5577337907944131,
+            "ci": {
+              "low": -4.886445651221983,
+              "high": 2.6364456512219836
+            }
+          },
+          "3vs2": {
+            "n": 32,
+            "diff": -0.71875,
+            "p": 0.7282355538403777,
+            "ci": {
+              "low": -4.773012883711653,
+              "high": 3.3355128837116528
+            }
+          }
+        }
+      },
+      "tests": {
+        "map2vs1": {
+          "nA": 66,
+          "nB": 66,
+          "diff": -0.6515151515151523,
+          "p": 0.6710332814963311,
+          "ci": {
+            "low": -3.6580567975514837,
+            "high": 2.355026494521179
+          }
+        },
+        "map3vs1": {
+          "nA": 32,
+          "nB": 66,
+          "diff": -1.1325757575757578,
+          "p": 0.4618789981471214,
+          "ci": {
+            "low": -4.149674026518319,
+            "high": 1.884522511366804
+          }
+        },
+        "map3vs2": {
+          "nA": 32,
+          "nB": 66,
+          "diff": -0.4810606060606055,
+          "p": 0.7384230243232068,
+          "ci": {
+            "low": -3.3045363972804145,
+            "high": 2.3424151851592034
+          }
+        }
+      },
+      "context": {
+        "decisiveMean": 27.26,
+        "nonDecisiveMean": 28.12,
+        "decisiveVsNon": {
+          "nA": 66,
+          "nB": 98,
+          "diff": -0.8648732220160795,
+          "p": 0.48279148492201207,
+          "ci": {
+            "low": -3.280239389868238,
+            "high": 1.550492945836079
+          }
+        },
+        "map2DecisiveMean": 27.38,
+        "map2NonDecisiveMean": 27.84,
+        "map2DecisiveVsNon": {
+          "nA": 34,
+          "nB": 32,
+          "diff": -0.461397058823529,
+          "p": 0.8229425452016743,
+          "ci": {
+            "low": -4.502914581218314,
+            "high": 3.580120463571256
+          }
+        }
+      }
+    },
+    "LCS/LTA-N": {
+      "series": 78,
+      "games": 187,
+      "mean": 27.39,
+      "positions": {
+        "1": {
+          "games": 78,
+          "mean": 26.18,
+          "median": 25,
+          "std": 7.47,
+          "aboveMean": 0.359,
+          "centeredEffect": -1.28,
+          "decisiveGames": 0
+        },
+        "2": {
+          "games": 78,
+          "mean": 28.96,
+          "median": 30,
+          "std": 7.5,
+          "aboveMean": 0.5897,
+          "centeredEffect": 1.5,
+          "decisiveGames": 47
+        },
+        "3": {
+          "games": 31,
+          "mean": 26.45,
+          "median": 27,
+          "std": 5.97,
+          "aboveMean": 0.4516,
+          "centeredEffect": -0.56,
+          "decisiveGames": 31
+        }
+      },
+      "fullThree": {
+        "series": 31,
+        "rows": {
+          "1": {
+            "games": 31,
+            "mean": 26.58,
+            "median": 25,
+            "std": 7.85,
+            "centeredEffect": -0.43
+          },
+          "2": {
+            "games": 31,
+            "mean": 28,
+            "median": 29,
+            "std": 8.74,
+            "centeredEffect": 0.99
+          },
+          "3": {
+            "games": 31,
+            "mean": 26.45,
+            "median": 27,
+            "std": 5.97,
+            "centeredEffect": -0.56
+          }
+        },
+        "pairs": {
+          "2vs1": {
+            "n": 31,
+            "diff": 1.4193548387096775,
+            "p": 0.4032269653993099,
+            "ci": {
+              "low": -1.9088298329188982,
+              "high": 4.747539510338253
+            }
+          },
+          "3vs1": {
+            "n": 31,
+            "diff": -0.12903225806451613,
+            "p": 0.9372152093374573,
+            "ci": {
+              "low": -3.33967498317268,
+              "high": 3.081610467043648
+            }
+          },
+          "3vs2": {
+            "n": 31,
+            "diff": -1.5483870967741935,
+            "p": 0.44026746496778335,
+            "ci": {
+              "low": -5.48084250830132,
+              "high": 2.3840683147529327
+            }
+          }
+        }
+      },
+      "tests": {
+        "map2vs1": {
+          "nA": 78,
+          "nB": 78,
+          "diff": 2.782051282051281,
+          "p": 0.020310576602325492,
+          "ci": {
+            "low": 0.43226439466898015,
+            "high": 5.131838169433582
+          }
+        },
+        "map3vs1": {
+          "nA": 31,
+          "nB": 78,
+          "diff": 0.272125723738629,
+          "p": 0.8420860151974714,
+          "ci": {
+            "low": -2.405067186368425,
+            "high": 2.949318633845683
+          }
+        },
+        "map3vs2": {
+          "nA": 31,
+          "nB": 78,
+          "diff": -2.509925558312652,
+          "p": 0.06658217997437355,
+          "ci": {
+            "low": -5.191582189788836,
+            "high": 0.17173107316353198
+          }
+        }
+      },
+      "context": {
+        "decisiveMean": 28.35,
+        "nonDecisiveMean": 26.7,
+        "decisiveVsNon": {
+          "nA": 78,
+          "nB": 109,
+          "diff": 1.648906139731828,
+          "p": 0.11708194318216236,
+          "ci": {
+            "low": -0.4133573563644459,
+            "high": 3.711169635828102
+          }
+        },
+        "map2DecisiveMean": 29.6,
+        "map2NonDecisiveMean": 28,
+        "map2DecisiveVsNon": {
+          "nA": 47,
+          "nB": 31,
+          "diff": 1.5957446808510625,
+          "p": 0.3859312571605886,
+          "ci": {
+            "low": -2.0116247780711958,
+            "high": 5.203114139773321
+          }
+        }
+      }
+    },
+    "LCK": {
+      "series": 231,
+      "games": 547,
+      "mean": 29.12,
+      "positions": {
+        "1": {
+          "games": 231,
+          "mean": 28.54,
+          "median": 28,
+          "std": 7.52,
+          "aboveMean": 0.4199,
+          "centeredEffect": -0.63,
+          "decisiveGames": 0
+        },
+        "2": {
+          "games": 231,
+          "mean": 30.13,
+          "median": 29,
+          "std": 7.85,
+          "aboveMean": 0.4848,
+          "centeredEffect": 0.96,
+          "decisiveGames": 146
+        },
+        "3": {
+          "games": 85,
+          "mean": 27.95,
+          "median": 27,
+          "std": 7.7,
+          "aboveMean": 0.4,
+          "centeredEffect": -0.9,
+          "decisiveGames": 85
+        }
+      },
+      "fullThree": {
+        "series": 85,
+        "rows": {
+          "1": {
+            "games": 85,
+            "mean": 28.46,
+            "median": 29,
+            "std": 7.3,
+            "centeredEffect": -0.39
+          },
+          "2": {
+            "games": 85,
+            "mean": 30.14,
+            "median": 30,
+            "std": 8.37,
+            "centeredEffect": 1.29
+          },
+          "3": {
+            "games": 85,
+            "mean": 27.95,
+            "median": 27,
+            "std": 7.7,
+            "centeredEffect": -0.9
+          }
+        },
+        "pairs": {
+          "2vs1": {
+            "n": 85,
+            "diff": 1.6823529411764706,
+            "p": 0.14996883101655456,
+            "ci": {
+              "low": -0.6080859312612341,
+              "high": 3.972791813614175
+            }
+          },
+          "3vs1": {
+            "n": 85,
+            "diff": -0.5058823529411764,
+            "p": 0.668312042088536,
+            "ci": {
+              "low": -2.820020905634409,
+              "high": 1.8082561997520563
+            }
+          },
+          "3vs2": {
+            "n": 85,
+            "diff": -2.1882352941176473,
+            "p": 0.07959400411523943,
+            "ci": {
+              "low": -4.634800221651082,
+              "high": 0.2583296334157872
+            }
+          }
+        }
+      },
+      "tests": {
+        "map2vs1": {
+          "nA": 231,
+          "nB": 231,
+          "diff": 1.5887445887445892,
+          "p": 0.026276528576896663,
+          "ci": {
+            "low": 0.1873941481152681,
+            "high": 2.9900950293739106
+          }
+        },
+        "map3vs1": {
+          "nA": 85,
+          "nB": 231,
+          "diff": -0.5881843646549534,
+          "p": 0.5443668219842421,
+          "ci": {
+            "low": -2.4898641816753146,
+            "high": 1.313495452365408
+          }
+        },
+        "map3vs2": {
+          "nA": 85,
+          "nB": 231,
+          "diff": -2.1769289533995426,
+          "p": 0.026577516817843927,
+          "ci": {
+            "low": -4.100924964195609,
+            "high": -0.2529329426034763
+          }
+        }
+      },
+      "context": {
+        "decisiveMean": 29.32,
+        "nonDecisiveMean": 28.97,
+        "decisiveVsNon": {
+          "nA": 231,
+          "nB": 316,
+          "diff": 0.3531563373335551,
+          "p": 0.5967774364340228,
+          "ci": {
+            "low": -0.9552248495515556,
+            "high": 1.6615375242186659
+          }
+        },
+        "map2DecisiveMean": 30.12,
+        "map2NonDecisiveMean": 30.14,
+        "map2DecisiveVsNon": {
+          "nA": 146,
+          "nB": 85,
+          "diff": -0.01788879935535803,
+          "p": 0.9870524115936483,
+          "ci": {
+            "low": -2.1784754650703655,
+            "high": 2.1426978663596494
+          }
+        }
+      }
+    },
+    "LCKCL": {
+      "series": 287,
+      "games": 698,
+      "mean": 31.16,
+      "positions": {
+        "1": {
+          "games": 287,
+          "mean": 30.46,
+          "median": 29,
+          "std": 9.3,
+          "aboveMean": 0.4146,
+          "centeredEffect": -0.64,
+          "decisiveGames": 0
+        },
+        "2": {
+          "games": 287,
+          "mean": 32.3,
+          "median": 31,
+          "std": 9.83,
+          "aboveMean": 0.4878,
+          "centeredEffect": 1.2,
+          "decisiveGames": 163
+        },
+        "3": {
+          "games": 124,
+          "mean": 30.16,
+          "median": 30,
+          "std": 8.52,
+          "aboveMean": 0.4032,
+          "centeredEffect": -1.29,
+          "decisiveGames": 124
+        }
+      },
+      "fullThree": {
+        "series": 124,
+        "rows": {
+          "1": {
+            "games": 124,
+            "mean": 32.15,
+            "median": 31,
+            "std": 9.35,
+            "centeredEffect": 0.69
+          },
+          "2": {
+            "games": 124,
+            "mean": 32.06,
+            "median": 31,
+            "std": 9.54,
+            "centeredEffect": 0.6
+          },
+          "3": {
+            "games": 124,
+            "mean": 30.16,
+            "median": 30,
+            "std": 8.52,
+            "centeredEffect": -1.29
+          }
+        },
+        "pairs": {
+          "2vs1": {
+            "n": 124,
+            "diff": -0.08870967741935484,
+            "p": 0.9316002090874049,
+            "ci": {
+              "low": -2.1144333170660397,
+              "high": 1.93701396222733
+            }
+          },
+          "3vs1": {
+            "n": 124,
+            "diff": -1.9838709677419355,
+            "p": 0.056038813465056236,
+            "ci": {
+              "low": -4.018895124859265,
+              "high": 0.05115318937539426
+            }
+          },
+          "3vs2": {
+            "n": 124,
+            "diff": -1.8951612903225807,
+            "p": 0.05552515682375381,
+            "ci": {
+              "low": -3.8351167776669444,
+              "high": 0.04479419702178267
+            }
+          }
+        }
+      },
+      "tests": {
+        "map2vs1": {
+          "nA": 287,
+          "nB": 287,
+          "diff": 1.8362369337979132,
+          "p": 0.021576933681250576,
+          "ci": {
+            "low": 0.2698998382632549,
+            "high": 3.4025740293325715
+          }
+        },
+        "map3vs1": {
+          "nA": 124,
+          "nB": 287,
+          "diff": -0.29863999100820493,
+          "p": 0.7510922909825264,
+          "ci": {
+            "low": -2.143958779966094,
+            "high": 1.5466787979496843
+          }
+        },
+        "map3vs2": {
+          "nA": 124,
+          "nB": 287,
+          "diff": -2.134876924806118,
+          "p": 0.026173049655558334,
+          "ci": {
+            "low": -4.016643618041957,
+            "high": -0.2531102315702787
+          }
+        }
+      },
+      "context": {
+        "decisiveMean": 31.48,
+        "nonDecisiveMean": 30.94,
+        "decisiveVsNon": {
+          "nA": 287,
+          "nB": 411,
+          "diff": 0.5357460769602476,
+          "p": 0.46112386964918484,
+          "ci": {
+            "low": -0.8890384488025531,
+            "high": 1.9605306027230482
+          }
+        },
+        "map2DecisiveMean": 32.48,
+        "map2NonDecisiveMean": 32.06,
+        "map2DecisiveVsNon": {
+          "nA": 163,
+          "nB": 124,
+          "diff": 0.4220759944587371,
+          "p": 0.7171084801380925,
+          "ci": {
+            "low": -1.8611405525713218,
+            "high": 2.705292541488796
+          }
+        }
+      }
+    },
+    "LPL": {
+      "series": 320,
+      "games": 787,
+      "mean": 29.55,
+      "positions": {
+        "1": {
+          "games": 320,
+          "mean": 29.95,
+          "median": 29,
+          "std": 8.25,
+          "aboveMean": 0.4844,
+          "centeredEffect": 0.29,
+          "decisiveGames": 0
+        },
+        "2": {
+          "games": 320,
+          "mean": 29.98,
+          "median": 29,
+          "std": 8.38,
+          "aboveMean": 0.475,
+          "centeredEffect": 0.32,
+          "decisiveGames": 173
+        },
+        "3": {
+          "games": 147,
+          "mean": 27.71,
+          "median": 27,
+          "std": 8.77,
+          "aboveMean": 0.3878,
+          "centeredEffect": -1.34,
+          "decisiveGames": 147
+        }
+      },
+      "fullThree": {
+        "series": 147,
+        "rows": {
+          "1": {
+            "games": 147,
+            "mean": 30.51,
+            "median": 30,
+            "std": 8.75,
+            "centeredEffect": 1.46
+          },
+          "2": {
+            "games": 147,
+            "mean": 28.93,
+            "median": 27,
+            "std": 8.73,
+            "centeredEffect": -0.12
+          },
+          "3": {
+            "games": 147,
+            "mean": 27.71,
+            "median": 27,
+            "std": 8.77,
+            "centeredEffect": -1.34
+          }
+        },
+        "pairs": {
+          "2vs1": {
+            "n": 147,
+            "diff": -1.5850340136054422,
+            "p": 0.06964091205994549,
+            "ci": {
+              "low": -3.2974145741615564,
+              "high": 0.12734654695067227
+            }
+          },
+          "3vs1": {
+            "n": 147,
+            "diff": -2.795918367346939,
+            "p": 0.002526957318742973,
+            "ci": {
+              "low": -4.6104210792005755,
+              "high": -0.9814156554933022
+            }
+          },
+          "3vs2": {
+            "n": 147,
+            "diff": -1.2108843537414966,
+            "p": 0.22994068067064255,
+            "ci": {
+              "low": -3.187818622243788,
+              "high": 0.7660499147607946
+            }
+          }
+        }
+      },
+      "tests": {
+        "map2vs1": {
+          "nA": 320,
+          "nB": 320,
+          "diff": 0.03437500000000071,
+          "p": 0.9583139405665766,
+          "ci": {
+            "low": -1.254621369211838,
+            "high": 1.3233713692118394
+          }
+        },
+        "map3vs1": {
+          "nA": 147,
+          "nB": 320,
+          "diff": -2.235714285714284,
+          "p": 0.009154293421514303,
+          "ci": {
+            "low": -3.9170635171015835,
+            "high": -0.5543650543269847
+          }
+        },
+        "map3vs2": {
+          "nA": 147,
+          "nB": 320,
+          "diff": -2.2700892857142847,
+          "p": 0.008429921574531374,
+          "ci": {
+            "low": -3.9590729741114035,
+            "high": -0.5811055973171659
+          }
+        }
+      },
+      "context": {
+        "decisiveMean": 29.43,
+        "nonDecisiveMean": 29.63,
+        "decisiveVsNon": {
+          "nA": 320,
+          "nB": 467,
+          "diff": -0.19928399357601734,
+          "p": 0.7454796225253737,
+          "ci": {
+            "low": -1.402579511356888,
+            "high": 1.0040115242048533
+          }
+        },
+        "map2DecisiveMean": 30.88,
+        "map2NonDecisiveMean": 28.93,
+        "map2DecisiveVsNon": {
+          "nA": 173,
+          "nB": 147,
+          "diff": 1.9592229955566047,
+          "p": 0.037556305641150756,
+          "ci": {
+            "low": 0.11273311666520569,
+            "high": 3.8057128744480035
+          }
+        }
+      }
+    }
+  }
+}

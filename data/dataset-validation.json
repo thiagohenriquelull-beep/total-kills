@@ -1,0 +1,92 @@
+{
+  "createdAt": "2026-05-26T10:00:17.912Z",
+  "totalGames": 1305,
+  "byLeague": [
+    {
+      "league": "LCK",
+      "games": 180,
+      "target": 300,
+      "reachedTarget": false,
+      "seasons": [
+        "S16"
+      ],
+      "tournaments": [
+        "LCK 2026 Rounds 1-2"
+      ]
+    },
+    {
+      "league": "LCKCL",
+      "games": 300,
+      "target": 300,
+      "reachedTarget": true,
+      "seasons": [
+        "S16"
+      ],
+      "tournaments": [
+        "LCK CL 2026 Kickoff",
+        "LCK CL 2026 Rounds 1-2"
+      ]
+    },
+    {
+      "league": "LPL",
+      "games": 300,
+      "target": 300,
+      "reachedTarget": true,
+      "seasons": [
+        "S16"
+      ],
+      "tournaments": [
+        "LPL 2026 Split 1",
+        "LPL 2026 Split 1 Playoffs",
+        "LPL 2026 Split 2",
+        "LPL 2026 Split 2 Playoffs"
+      ]
+    },
+    {
+      "league": "CBLOL",
+      "games": 159,
+      "target": 300,
+      "reachedTarget": false,
+      "seasons": [
+        "S16"
+      ],
+      "tournaments": [
+        "CBLOL 2026 Split 1",
+        "CBLOL 2026 Split 1 Playoffs",
+        "CBLOL Cup 2026"
+      ]
+    },
+    {
+      "league": "LEC",
+      "games": 228,
+      "target": 300,
+      "reachedTarget": false,
+      "seasons": [
+        "S16"
+      ],
+      "tournaments": [
+        "LEC 2026 Spring Playoffs",
+        "LEC 2026 Spring Season",
+        "LEC 2026 Versus Playoffs",
+        "LEC 2026 Versus Season"
+      ]
+    },
+    {
+      "league": "LCS",
+      "games": 138,
+      "target": 300,
+      "reachedTarget": false,
+      "seasons": [
+        "S16"
+      ],
+      "tournaments": [
+        "LCS 2026 Lock-In",
+        "LCS 2026 Spring",
+        "LCS 2026 Spring Playoffs"
+      ]
+    }
+  ],
+  "duplicates": [],
+  "invalid": [],
+  "ok": true
+}

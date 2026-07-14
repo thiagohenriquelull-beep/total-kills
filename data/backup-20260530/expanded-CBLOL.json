@@ -1,0 +1,6386 @@
+{
+  "meta": {
+    "source": "GOL logged session",
+    "createdAt": "2026-05-26T00:08:26.400Z",
+    "collectorVersion": "expanded-2026-1",
+    "league": "CBLOL",
+    "season": "S16",
+    "seasonYear": 2026,
+    "candidates": 159,
+    "target": 159,
+    "complete": true,
+    "lastBatch": {
+      "attempted": 9,
+      "valid": 9,
+      "at": "2026-05-26T00:00:17.553Z"
+    },
+    "games": 159,
+    "modelExcludes": [
+      "duration",
+      "side",
+      "bans"
+    ]
+  },
+  "games": [
+    {
+      "collectedAt": "2026-05-25T23:54:11.553Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-05-25",
+      "game": "LOUD vs Los Grandes",
+      "id": "78824",
+      "killsA": 16,
+      "killsB": 18,
+      "league": "CBLOL",
+      "patch": "16.10",
+      "picks": {
+        "teamA": [
+          "Jayce",
+          "Vi",
+          "Taliyah",
+          "Mel",
+          "Camille"
+        ],
+        "teamB": [
+          "Yorick",
+          "Sejuani",
+          "Viktor",
+          "Ashe",
+          "Seraphine"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "CBLOL 2026 Split 1 Playoffs",
+      "sourceUrl": "https://gol.gg/game/stats/78824/page-game/",
+      "stage": "playoffs",
+      "teamA": "Los Grandes",
+      "teamAId": "2895",
+      "teamB": "LOUD",
+      "teamBId": "2891",
+      "totalKills": 34,
+      "tournament": "CBLOL 2026 Split 1 Playoffs",
+      "tournamentLine": "CBLOL 2026 Split 1 Playoffs (BR) - Fearless Draft",
+      "week": "ROUND2"
+    },
+    {
+      "date": "2026-05-25",
+      "game": "LOUD vs Los Grandes",
+      "id": "78823",
+      "killsA": 14,
+      "killsB": 8,
+      "league": "CBLOL",
+      "patch": "16.10",
+      "picks": {
+        "teamA": [
+          "KSante",
+          "Jarvan IV",
+          "Ryze",
+          "Ezreal",
+          "Anivia"
+        ],
+        "teamB": [
+          "Rumble",
+          "Aatrox",
+          "Orianna",
+          "Jhin",
+          "Neeko"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/78823/page-game/",
+      "teamA": "Los Grandes",
+      "teamAId": "2895",
+      "teamB": "LOUD",
+      "teamBId": "2891",
+      "totalKills": 22,
+      "tournament": "CBLOL 2026 Split 1 Playoffs",
+      "tournamentLine": "CBLOL 2026 Split 1 Playoffs (BR) - Fearless Draft",
+      "week": "ROUND2",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "CBLOL 2026 Split 1 Playoffs",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-05-25",
+      "game": "LOUD vs Los Grandes",
+      "id": "78822",
+      "killsA": 20,
+      "killsB": 8,
+      "league": "CBLOL",
+      "patch": "16.10",
+      "picks": {
+        "teamA": [
+          "Twisted Fate",
+          "Trundle",
+          "Cassiopeia",
+          "Lucian",
+          "Milio"
+        ],
+        "teamB": [
+          "Sion",
+          "Qiyana",
+          "Akali",
+          "Caitlyn",
+          "Bard"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/78822/page-game/",
+      "teamA": "Los Grandes",
+      "teamAId": "2895",
+      "teamB": "LOUD",
+      "teamBId": "2891",
+      "totalKills": 28,
+      "tournament": "CBLOL 2026 Split 1 Playoffs",
+      "tournamentLine": "CBLOL 2026 Split 1 Playoffs (BR) - Fearless Draft",
+      "week": "ROUND2",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "CBLOL 2026 Split 1 Playoffs",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-05-24",
+      "game": "RED Canids vs FURIA",
+      "id": "78819",
+      "killsA": 14,
+      "killsB": 7,
+      "league": "CBLOL",
+      "patch": "16.10",
+      "picks": {
+        "teamA": [
+          "Ambessa",
+          "Trundle",
+          "Annie",
+          "Xayah",
+          "Rakan"
+        ],
+        "teamB": [
+          "Gnar",
+          "Naafiri",
+          "Akali",
+          "Sivir",
+          "Alistar"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/78819/page-game/",
+      "teamA": "FURIA",
+      "teamAId": "2889",
+      "teamB": "RED Canids",
+      "teamBId": "2893",
+      "totalKills": 21,
+      "tournament": "CBLOL 2026 Split 1 Playoffs",
+      "tournamentLine": "CBLOL 2026 Split 1 Playoffs (BR) - Fearless Draft",
+      "week": "ROUND4",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "CBLOL 2026 Split 1 Playoffs",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-05-24",
+      "game": "RED Canids vs FURIA",
+      "id": "78818",
+      "killsA": 16,
+      "killsB": 9,
+      "league": "CBLOL",
+      "patch": "16.10",
+      "picks": {
+        "teamA": [
+          "Sion",
+          "Lee Sin",
+          "Twisted Fate",
+          "Ashe",
+          "Lulu"
+        ],
+        "teamB": [
+          "Renekton",
+          "Aatrox",
+          "Cassiopeia",
+          "Senna",
+          "Seraphine"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/78818/page-game/",
+      "teamA": "FURIA",
+      "teamAId": "2889",
+      "teamB": "RED Canids",
+      "teamBId": "2893",
+      "totalKills": 25,
+      "tournament": "CBLOL 2026 Split 1 Playoffs",
+      "tournamentLine": "CBLOL 2026 Split 1 Playoffs (BR) - Fearless Draft",
+      "week": "ROUND4",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "CBLOL 2026 Split 1 Playoffs",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-05-24",
+      "game": "RED Canids vs FURIA",
+      "id": "78817",
+      "killsA": 20,
+      "killsB": 4,
+      "league": "CBLOL",
+      "patch": "16.10",
+      "picks": {
+        "teamA": [
+          "Ornn",
+          "Xin Zhao",
+          "Galio",
+          "Ezreal",
+          "Bard"
+        ],
+        "teamB": [
+          "Rumble",
+          "Nocturne",
+          "Orianna",
+          "Varus",
+          "Neeko"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/78817/page-game/",
+      "teamA": "FURIA",
+      "teamAId": "2889",
+      "teamB": "RED Canids",
+      "teamBId": "2893",
+      "totalKills": 24,
+      "tournament": "CBLOL 2026 Split 1 Playoffs",
+      "tournamentLine": "CBLOL 2026 Split 1 Playoffs (BR) - Fearless Draft",
+      "week": "ROUND4",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "CBLOL 2026 Split 1 Playoffs",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-05-17",
+      "game": "FURIA vs LOUD",
+      "id": "78132",
+      "killsA": 17,
+      "killsB": 9,
+      "league": "CBLOL",
+      "patch": "16.10",
+      "picks": {
+        "teamA": [
+          "Sion",
+          "RekSai",
+          "Cassiopeia",
+          "Yunara",
+          "Lulu"
+        ],
+        "teamB": [
+          "Gnar",
+          "Qiyana",
+          "Zoe",
+          "Corki",
+          "Nami"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/78132/page-game/",
+      "teamA": "FURIA",
+      "teamAId": "2889",
+      "teamB": "LOUD",
+      "teamBId": "2891",
+      "totalKills": 26,
+      "tournament": "CBLOL 2026 Split 1 Playoffs",
+      "tournamentLine": "CBLOL 2026 Split 1 Playoffs (BR) - Fearless Draft",
+      "week": "ROUND2",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "CBLOL 2026 Split 1 Playoffs",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-05-17",
+      "game": "FURIA vs LOUD",
+      "id": "78131",
+      "killsA": 14,
+      "killsB": 9,
+      "league": "CBLOL",
+      "patch": "16.10",
+      "picks": {
+        "teamA": [
+          "Ambessa",
+          "Skarner",
+          "Ryze",
+          "Lucian",
+          "Milio"
+        ],
+        "teamB": [
+          "KSante",
+          "Lee Sin",
+          "Annie",
+          "Caitlyn",
+          "Karma"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/78131/page-game/",
+      "teamA": "FURIA",
+      "teamAId": "2889",
+      "teamB": "LOUD",
+      "teamBId": "2891",
+      "totalKills": 23,
+      "tournament": "CBLOL 2026 Split 1 Playoffs",
+      "tournamentLine": "CBLOL 2026 Split 1 Playoffs (BR) - Fearless Draft",
+      "week": "ROUND2",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "CBLOL 2026 Split 1 Playoffs",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-05-17",
+      "game": "FURIA vs LOUD",
+      "id": "78130",
+      "killsA": 6,
+      "killsB": 20,
+      "league": "CBLOL",
+      "patch": "16.10",
+      "picks": {
+        "teamA": [
+          "Rumble",
+          "Vi",
+          "Aurora",
+          "Ashe",
+          "Seraphine"
+        ],
+        "teamB": [
+          "Ornn",
+          "Olaf",
+          "Orianna",
+          "Ezreal",
+          "Bard"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/78130/page-game/",
+      "teamA": "LOUD",
+      "teamAId": "2891",
+      "teamB": "FURIA",
+      "teamBId": "2889",
+      "totalKills": 26,
+      "tournament": "CBLOL 2026 Split 1 Playoffs",
+      "tournamentLine": "CBLOL 2026 Split 1 Playoffs (BR) - Fearless Draft",
+      "week": "ROUND2",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "CBLOL 2026 Split 1 Playoffs",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-05-16",
+      "game": "RED Canids vs Fluxo W7M",
+      "id": "78128",
+      "killsA": 13,
+      "killsB": 12,
+      "league": "CBLOL",
+      "patch": "16.10",
+      "picks": {
+        "teamA": [
+          "Anivia",
+          "Dr. Mundo",
+          "Azir",
+          "Zeri",
+          "Alistar"
+        ],
+        "teamB": [
+          "Vayne",
+          "Nocturne",
+          "Orianna",
+          "Sivir",
+          "Milio"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/78128/page-game/",
+      "teamA": "RED Canids",
+      "teamAId": "2893",
+      "teamB": "Fluxo W7M",
+      "teamBId": "2888",
+      "totalKills": 25,
+      "tournament": "CBLOL 2026 Split 1 Playoffs",
+      "tournamentLine": "CBLOL 2026 Split 1 Playoffs (BR) - Fearless Draft",
+      "week": "ROUND2",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "CBLOL 2026 Split 1 Playoffs",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-05-16",
+      "game": "RED Canids vs Fluxo W7M",
+      "id": "78127",
+      "killsA": 17,
+      "killsB": 1,
+      "league": "CBLOL",
+      "patch": "16.10",
+      "picks": {
+        "teamA": [
+          "Jayce",
+          "RekSai",
+          "Sylas",
+          "Jhin",
+          "Rakan"
+        ],
+        "teamB": [
+          "Renekton",
+          "Xin Zhao",
+          "Ahri",
+          "Smolder",
+          "Karma"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/78127/page-game/",
+      "teamA": "RED Canids",
+      "teamAId": "2893",
+      "teamB": "Fluxo W7M",
+      "teamBId": "2888",
+      "totalKills": 18,
+      "tournament": "CBLOL 2026 Split 1 Playoffs",
+      "tournamentLine": "CBLOL 2026 Split 1 Playoffs (BR) - Fearless Draft",
+      "week": "ROUND2",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "CBLOL 2026 Split 1 Playoffs",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-05-16",
+      "game": "RED Canids vs Fluxo W7M",
+      "id": "78126",
+      "killsA": 8,
+      "killsB": 16,
+      "league": "CBLOL",
+      "patch": "16.10",
+      "picks": {
+        "teamA": [
+          "Sion",
+          "Skarner",
+          "Tristana",
+          "Ashe",
+          "Lulu"
+        ],
+        "teamB": [
+          "Gwen",
+          "Pantheon",
+          "Taliyah",
+          "Senna",
+          "Seraphine"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/78126/page-game/",
+      "teamA": "Fluxo W7M",
+      "teamAId": "2888",
+      "teamB": "RED Canids",
+      "teamBId": "2893",
+      "totalKills": 24,
+      "tournament": "CBLOL 2026 Split 1 Playoffs",
+      "tournamentLine": "CBLOL 2026 Split 1 Playoffs (BR) - Fearless Draft",
+      "week": "ROUND2",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "CBLOL 2026 Split 1 Playoffs",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-05-16",
+      "game": "RED Canids vs Fluxo W7M",
+      "id": "78125",
+      "killsA": 21,
+      "killsB": 19,
+      "league": "CBLOL",
+      "patch": "16.10",
+      "picks": {
+        "teamA": [
+          "Yorick",
+          "Jarvan IV",
+          "Ryze",
+          "Ezreal",
+          "Neeko"
+        ],
+        "teamB": [
+          "Gnar",
+          "Vi",
+          "Zoe",
+          "Caitlyn",
+          "Bard"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/78125/page-game/",
+      "teamA": "Fluxo W7M",
+      "teamAId": "2888",
+      "teamB": "RED Canids",
+      "teamBId": "2893",
+      "totalKills": 40,
+      "tournament": "CBLOL 2026 Split 1 Playoffs",
+      "tournamentLine": "CBLOL 2026 Split 1 Playoffs (BR) - Fearless Draft",
+      "week": "ROUND2",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "CBLOL 2026 Split 1 Playoffs",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-05-23",
+      "game": "Los Grandes vs VKS",
+      "id": "78122",
+      "killsA": 23,
+      "killsB": 6,
+      "league": "CBLOL",
+      "patch": "16.10",
+      "picks": {
+        "teamA": [
+          "Sylas",
+          "RekSai",
+          "Ryze",
+          "Caitlyn",
+          "Anivia"
+        ],
+        "teamB": [
+          "Gnar",
+          "Jarvan IV",
+          "Syndra",
+          "Jhin",
+          "Karma"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/78122/page-game/",
+      "teamA": "Los Grandes",
+      "teamAId": "2895",
+      "teamB": "Vivo Keyd Stars",
+      "teamBId": "2894",
+      "totalKills": 29,
+      "tournament": "CBLOL 2026 Split 1 Playoffs",
+      "tournamentLine": "CBLOL 2026 Split 1 Playoffs (BR) - Fearless Draft",
+      "week": "ROUND1",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "CBLOL 2026 Split 1 Playoffs",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-05-23",
+      "game": "Los Grandes vs VKS",
+      "id": "78121",
+      "killsA": 23,
+      "killsB": 6,
+      "league": "CBLOL",
+      "patch": "16.10",
+      "picks": {
+        "teamA": [
+          "Aatrox",
+          "Vi",
+          "Taliyah",
+          "Lucian",
+          "Milio"
+        ],
+        "teamB": [
+          "Sion",
+          "Xin Zhao",
+          "Viktor",
+          "Zeri",
+          "Lulu"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/78121/page-game/",
+      "teamA": "Los Grandes",
+      "teamAId": "2895",
+      "teamB": "Vivo Keyd Stars",
+      "teamBId": "2894",
+      "totalKills": 29,
+      "tournament": "CBLOL 2026 Split 1 Playoffs",
+      "tournamentLine": "CBLOL 2026 Split 1 Playoffs (BR) - Fearless Draft",
+      "week": "ROUND1",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "CBLOL 2026 Split 1 Playoffs",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-05-23",
+      "game": "Los Grandes vs VKS",
+      "id": "78120",
+      "killsA": 23,
+      "killsB": 9,
+      "league": "CBLOL",
+      "patch": "16.10",
+      "picks": {
+        "teamA": [
+          "Rumble",
+          "Pantheon",
+          "Cassiopeia",
+          "Ezreal",
+          "Rakan"
+        ],
+        "teamB": [
+          "KSante",
+          "Naafiri",
+          "Orianna",
+          "Kaisa",
+          "Neeko"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/78120/page-game/",
+      "teamA": "Los Grandes",
+      "teamAId": "2895",
+      "teamB": "Vivo Keyd Stars",
+      "teamBId": "2894",
+      "totalKills": 32,
+      "tournament": "CBLOL 2026 Split 1 Playoffs",
+      "tournamentLine": "CBLOL 2026 Split 1 Playoffs (BR) - Fearless Draft",
+      "week": "ROUND1",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "CBLOL 2026 Split 1 Playoffs",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-05-10",
+      "game": "Los Grandes vs Fluxo W7M",
+      "id": "78041",
+      "killsA": 17,
+      "killsB": 10,
+      "league": "CBLOL",
+      "patch": "16.9",
+      "picks": {
+        "teamA": [
+          "Sion",
+          "Maokai",
+          "Yone",
+          "Jinx",
+          "Thresh"
+        ],
+        "teamB": [
+          "Olaf",
+          "Skarner",
+          "Twisted Fate",
+          "Aphelios",
+          "Lulu"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/78041/page-game/",
+      "teamA": "Fluxo W7M",
+      "teamAId": "2888",
+      "teamB": "Los Grandes",
+      "teamBId": "2895",
+      "totalKills": 27,
+      "tournament": "CBLOL 2026 Split 1 Playoffs",
+      "tournamentLine": "CBLOL 2026 Split 1 Playoffs (BR) - Fearless Draft",
+      "week": "ROUND1",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "CBLOL 2026 Split 1 Playoffs",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-05-10",
+      "game": "Los Grandes vs Fluxo W7M",
+      "id": "78040",
+      "killsA": 10,
+      "killsB": 19,
+      "league": "CBLOL",
+      "patch": "16.9",
+      "picks": {
+        "teamA": [
+          "Gwen",
+          "Zaahen",
+          "Cassiopeia",
+          "Varus",
+          "Nautilus"
+        ],
+        "teamB": [
+          "Vayne",
+          "Naafiri",
+          "Annie",
+          "Sivir",
+          "Rell"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/78040/page-game/",
+      "teamA": "Fluxo W7M",
+      "teamAId": "2888",
+      "teamB": "Los Grandes",
+      "teamBId": "2895",
+      "totalKills": 29,
+      "tournament": "CBLOL 2026 Split 1 Playoffs",
+      "tournamentLine": "CBLOL 2026 Split 1 Playoffs (BR) - Fearless Draft",
+      "week": "ROUND1",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "CBLOL 2026 Split 1 Playoffs",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-05-10",
+      "game": "Los Grandes vs Fluxo W7M",
+      "id": "78039",
+      "killsA": 21,
+      "killsB": 4,
+      "league": "CBLOL",
+      "patch": "16.9",
+      "picks": {
+        "teamA": [
+          "Ambessa",
+          "Aatrox",
+          "LeBlanc",
+          "Xayah",
+          "Rakan"
+        ],
+        "teamB": [
+          "Gnar",
+          "Xin Zhao",
+          "Taliyah",
+          "Yunara",
+          "Neeko"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/78039/page-game/",
+      "teamA": "Fluxo W7M",
+      "teamAId": "2888",
+      "teamB": "Los Grandes",
+      "teamBId": "2895",
+      "totalKills": 25,
+      "tournament": "CBLOL 2026 Split 1 Playoffs",
+      "tournamentLine": "CBLOL 2026 Split 1 Playoffs (BR) - Fearless Draft",
+      "week": "ROUND1",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "CBLOL 2026 Split 1 Playoffs",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-05-10",
+      "game": "Los Grandes vs Fluxo W7M",
+      "id": "78038",
+      "killsA": 8,
+      "killsB": 27,
+      "league": "CBLOL",
+      "patch": "16.9",
+      "picks": {
+        "teamA": [
+          "KSante",
+          "Jarvan IV",
+          "Ahri",
+          "Ezreal",
+          "Alistar"
+        ],
+        "teamB": [
+          "Rumble",
+          "Nocturne",
+          "Ryze",
+          "Corki",
+          "Nami"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/78038/page-game/",
+      "teamA": "Fluxo W7M",
+      "teamAId": "2888",
+      "teamB": "Los Grandes",
+      "teamBId": "2895",
+      "totalKills": 35,
+      "tournament": "CBLOL 2026 Split 1 Playoffs",
+      "tournamentLine": "CBLOL 2026 Split 1 Playoffs (BR) - Fearless Draft",
+      "week": "ROUND1",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "CBLOL 2026 Split 1 Playoffs",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-05-10",
+      "game": "Los Grandes vs Fluxo W7M",
+      "id": "78037",
+      "killsA": 16,
+      "killsB": 3,
+      "league": "CBLOL",
+      "patch": "16.9",
+      "picks": {
+        "teamA": [
+          "Renekton",
+          "Pantheon",
+          "Zoe",
+          "Lucian",
+          "Milio"
+        ],
+        "teamB": [
+          "Kennen",
+          "Trundle",
+          "Viktor",
+          "Caitlyn",
+          "Bard"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/78037/page-game/",
+      "teamA": "Fluxo W7M",
+      "teamAId": "2888",
+      "teamB": "Los Grandes",
+      "teamBId": "2895",
+      "totalKills": 19,
+      "tournament": "CBLOL 2026 Split 1 Playoffs",
+      "tournamentLine": "CBLOL 2026 Split 1 Playoffs (BR) - Fearless Draft",
+      "week": "ROUND1",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "CBLOL 2026 Split 1 Playoffs",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-05-09",
+      "game": "VKS vs LOUD",
+      "id": "78035",
+      "killsA": 4,
+      "killsB": 13,
+      "league": "CBLOL",
+      "patch": "16.9",
+      "picks": {
+        "teamA": [
+          "Ambessa",
+          "Skarner",
+          "Syndra",
+          "Sivir",
+          "Neeko"
+        ],
+        "teamB": [
+          "RekSai",
+          "Naafiri",
+          "Aurora",
+          "Jhin",
+          "Bard"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/78035/page-game/",
+      "teamA": "Vivo Keyd Stars",
+      "teamAId": "2894",
+      "teamB": "LOUD",
+      "teamBId": "2891",
+      "totalKills": 17,
+      "tournament": "CBLOL 2026 Split 1 Playoffs",
+      "tournamentLine": "CBLOL 2026 Split 1 Playoffs (BR) - Fearless Draft",
+      "week": "ROUND1",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "CBLOL 2026 Split 1 Playoffs",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-05-09",
+      "game": "VKS vs LOUD",
+      "id": "78034",
+      "killsA": 9,
+      "killsB": 12,
+      "league": "CBLOL",
+      "patch": "16.9",
+      "picks": {
+        "teamA": [
+          "Gnar",
+          "Trundle",
+          "LeBlanc",
+          "Draven",
+          "Milio"
+        ],
+        "teamB": [
+          "Yorick",
+          "Poppy",
+          "Viktor",
+          "Lucian",
+          "Nami"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/78034/page-game/",
+      "teamA": "LOUD",
+      "teamAId": "2891",
+      "teamB": "Vivo Keyd Stars",
+      "teamBId": "2894",
+      "totalKills": 21,
+      "tournament": "CBLOL 2026 Split 1 Playoffs",
+      "tournamentLine": "CBLOL 2026 Split 1 Playoffs (BR) - Fearless Draft",
+      "week": "ROUND1",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "CBLOL 2026 Split 1 Playoffs",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-05-09",
+      "game": "VKS vs LOUD",
+      "id": "78033",
+      "killsA": 22,
+      "killsB": 9,
+      "league": "CBLOL",
+      "patch": "16.9",
+      "picks": {
+        "teamA": [
+          "Sion",
+          "Vi",
+          "Ahri",
+          "Kalista",
+          "Renata Glasc"
+        ],
+        "teamB": [
+          "Jayce",
+          "Jarvan IV",
+          "Galio",
+          "Xayah",
+          "Rakan"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/78033/page-game/",
+      "teamA": "LOUD",
+      "teamAId": "2891",
+      "teamB": "Vivo Keyd Stars",
+      "teamBId": "2894",
+      "totalKills": 31,
+      "tournament": "CBLOL 2026 Split 1 Playoffs",
+      "tournamentLine": "CBLOL 2026 Split 1 Playoffs (BR) - Fearless Draft",
+      "week": "ROUND1",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "CBLOL 2026 Split 1 Playoffs",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-05-09",
+      "game": "VKS vs LOUD",
+      "id": "78032",
+      "killsA": 22,
+      "killsB": 9,
+      "league": "CBLOL",
+      "patch": "16.9",
+      "picks": {
+        "teamA": [
+          "Sion",
+          "Vi",
+          "Ahri",
+          "Kalista",
+          "Renata Glasc"
+        ],
+        "teamB": [
+          "Jayce",
+          "Jarvan IV",
+          "Galio",
+          "Xayah",
+          "Rakan"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/78032/page-game/",
+      "teamA": "LOUD",
+      "teamAId": "2891",
+      "teamB": "Vivo Keyd Stars",
+      "teamBId": "2894",
+      "totalKills": 31,
+      "tournament": "CBLOL 2026 Split 1 Playoffs",
+      "tournamentLine": "CBLOL 2026 Split 1 Playoffs (BR) - Fearless Draft",
+      "week": "ROUND1",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "CBLOL 2026 Split 1 Playoffs",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-05-03",
+      "game": "LOUD vs VKS",
+      "id": "77296",
+      "killsA": 14,
+      "killsB": 5,
+      "league": "CBLOL",
+      "patch": "16.9",
+      "picks": {
+        "teamA": [
+          "Renekton",
+          "Qiyana",
+          "Ryze",
+          "Jhin",
+          "Bard"
+        ],
+        "teamB": [
+          "Ornn",
+          "Aatrox",
+          "Akali",
+          "Caitlyn",
+          "Milio"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/77296/page-game/",
+      "teamA": "LOUD",
+      "teamAId": "2891",
+      "teamB": "Vivo Keyd Stars",
+      "teamBId": "2894",
+      "totalKills": 19,
+      "tournament": "CBLOL 2026 Split 1",
+      "tournamentLine": "CBLOL 2026 Split 1 (BR) - Fearless Draft",
+      "week": "WEEK6",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "CBLOL 2026 Split 1",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-05-03",
+      "game": "LOUD vs VKS",
+      "id": "77295",
+      "killsA": 21,
+      "killsB": 17,
+      "league": "CBLOL",
+      "patch": "16.9",
+      "picks": {
+        "teamA": [
+          "KSante",
+          "Pantheon",
+          "Orianna",
+          "Ezreal",
+          "Neeko"
+        ],
+        "teamB": [
+          "Rumble",
+          "Nocturne",
+          "Ahri",
+          "Corki",
+          "Nami"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/77295/page-game/",
+      "teamA": "LOUD",
+      "teamAId": "2891",
+      "teamB": "Vivo Keyd Stars",
+      "teamBId": "2894",
+      "totalKills": 38,
+      "tournament": "CBLOL 2026 Split 1",
+      "tournamentLine": "CBLOL 2026 Split 1 (BR) - Fearless Draft",
+      "week": "WEEK6",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "CBLOL 2026 Split 1",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-05-03",
+      "game": "Fluxo W7M vs Los Grandes",
+      "id": "77294",
+      "killsA": 22,
+      "killsB": 13,
+      "league": "CBLOL",
+      "patch": "16.9",
+      "picks": {
+        "teamA": [
+          "Camille",
+          "Nocturne",
+          "Viktor",
+          "Corki",
+          "Nami"
+        ],
+        "teamB": [
+          "Ambessa",
+          "Aatrox",
+          "Azir",
+          "Yunara",
+          "Lulu"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/77294/page-game/",
+      "teamA": "Los Grandes",
+      "teamAId": "2895",
+      "teamB": "Fluxo W7M",
+      "teamBId": "2888",
+      "totalKills": 35,
+      "tournament": "CBLOL 2026 Split 1",
+      "tournamentLine": "CBLOL 2026 Split 1 (BR) - Fearless Draft",
+      "week": "WEEK6",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "CBLOL 2026 Split 1",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-05-03",
+      "game": "Fluxo W7M vs Los Grandes",
+      "id": "77293",
+      "killsA": 11,
+      "killsB": 23,
+      "league": "CBLOL",
+      "patch": "16.9",
+      "picks": {
+        "teamA": [
+          "Kennen",
+          "Xin Zhao",
+          "Ahri",
+          "Ezreal",
+          "Nautilus"
+        ],
+        "teamB": [
+          "Renekton",
+          "Vi",
+          "Zoe",
+          "Lucian",
+          "Milio"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/77293/page-game/",
+      "teamA": "Los Grandes",
+      "teamAId": "2895",
+      "teamB": "Fluxo W7M",
+      "teamBId": "2888",
+      "totalKills": 34,
+      "tournament": "CBLOL 2026 Split 1",
+      "tournamentLine": "CBLOL 2026 Split 1 (BR) - Fearless Draft",
+      "week": "WEEK6",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "CBLOL 2026 Split 1",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-05-03",
+      "game": "Fluxo W7M vs Los Grandes",
+      "id": "77292",
+      "killsA": 4,
+      "killsB": 16,
+      "league": "CBLOL",
+      "patch": "16.9",
+      "picks": {
+        "teamA": [
+          "KSante",
+          "Pantheon",
+          "Cassiopeia",
+          "Sivir",
+          "Bard"
+        ],
+        "teamB": [
+          "Gnar",
+          "Trundle",
+          "Ryze",
+          "Varus",
+          "Alistar"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/77292/page-game/",
+      "teamA": "Fluxo W7M",
+      "teamAId": "2888",
+      "teamB": "Los Grandes",
+      "teamBId": "2895",
+      "totalKills": 20,
+      "tournament": "CBLOL 2026 Split 1",
+      "tournamentLine": "CBLOL 2026 Split 1 (BR) - Fearless Draft",
+      "week": "WEEK6",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "CBLOL 2026 Split 1",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-05-02",
+      "game": "FURIA vs RED Canids",
+      "id": "77291",
+      "killsA": 17,
+      "killsB": 9,
+      "league": "CBLOL",
+      "patch": "16.9",
+      "picks": {
+        "teamA": [
+          "Sion",
+          "Zaahen",
+          "Twisted Fate",
+          "Yunara",
+          "Lulu"
+        ],
+        "teamB": [
+          "Aatrox",
+          "Jayce",
+          "Aurora",
+          "Jhin",
+          "Neeko"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/77291/page-game/",
+      "teamA": "FURIA",
+      "teamAId": "2889",
+      "teamB": "RED Canids",
+      "teamBId": "2893",
+      "totalKills": 26,
+      "tournament": "CBLOL 2026 Split 1",
+      "tournamentLine": "CBLOL 2026 Split 1 (BR) - Fearless Draft",
+      "week": "WEEK6",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "CBLOL 2026 Split 1",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-05-02",
+      "game": "FURIA vs RED Canids",
+      "id": "77290",
+      "killsA": 9,
+      "killsB": 26,
+      "league": "CBLOL",
+      "patch": "16.9",
+      "picks": {
+        "teamA": [
+          "Renekton",
+          "Nocturne",
+          "Ryze",
+          "Lucian",
+          "Nami"
+        ],
+        "teamB": [
+          "Gnar",
+          "Pantheon",
+          "Orianna",
+          "Caitlyn",
+          "Milio"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/77290/page-game/",
+      "teamA": "RED Canids",
+      "teamAId": "2893",
+      "teamB": "FURIA",
+      "teamBId": "2889",
+      "totalKills": 35,
+      "tournament": "CBLOL 2026 Split 1",
+      "tournamentLine": "CBLOL 2026 Split 1 (BR) - Fearless Draft",
+      "week": "WEEK6",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "CBLOL 2026 Split 1",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-05-02",
+      "game": "FURIA vs RED Canids",
+      "id": "77289",
+      "killsA": 22,
+      "killsB": 14,
+      "league": "CBLOL",
+      "patch": "16.9",
+      "picks": {
+        "teamA": [
+          "Rumble",
+          "Trundle",
+          "Anivia",
+          "Varus",
+          "Alistar"
+        ],
+        "teamB": [
+          "KSante",
+          "Xin Zhao",
+          "Annie",
+          "Zeri",
+          "Yuumi"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/77289/page-game/",
+      "teamA": "RED Canids",
+      "teamAId": "2893",
+      "teamB": "FURIA",
+      "teamBId": "2889",
+      "totalKills": 36,
+      "tournament": "CBLOL 2026 Split 1",
+      "tournamentLine": "CBLOL 2026 Split 1 (BR) - Fearless Draft",
+      "week": "WEEK6",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "CBLOL 2026 Split 1",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-05-02",
+      "game": "Leviatan vs paiN Gaming",
+      "id": "77287",
+      "killsA": 22,
+      "killsB": 5,
+      "league": "CBLOL",
+      "patch": "16.9",
+      "picks": {
+        "teamA": [
+          "Sion",
+          "Pantheon",
+          "Aurora",
+          "Corki",
+          "Nami"
+        ],
+        "teamB": [
+          "Renekton",
+          "Skarner",
+          "Zoe",
+          "Ezreal",
+          "Nautilus"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/77287/page-game/",
+      "teamA": "paiN Gaming",
+      "teamAId": "2892",
+      "teamB": "Leviatan",
+      "teamBId": "2890",
+      "totalKills": 27,
+      "tournament": "CBLOL 2026 Split 1",
+      "tournamentLine": "CBLOL 2026 Split 1 (BR) - Fearless Draft",
+      "week": "WEEK6",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "CBLOL 2026 Split 1",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-05-02",
+      "game": "Leviatan vs paiN Gaming",
+      "id": "77286",
+      "killsA": 11,
+      "killsB": 3,
+      "league": "CBLOL",
+      "patch": "16.9",
+      "picks": {
+        "teamA": [
+          "Rumble",
+          "Vi",
+          "Ahri",
+          "Lucian",
+          "Milio"
+        ],
+        "teamB": [
+          "KSante",
+          "Nocturne",
+          "Lissandra",
+          "Kaisa",
+          "Neeko"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/77286/page-game/",
+      "teamA": "paiN Gaming",
+      "teamAId": "2892",
+      "teamB": "Leviatan",
+      "teamBId": "2890",
+      "totalKills": 14,
+      "tournament": "CBLOL 2026 Split 1",
+      "tournamentLine": "CBLOL 2026 Split 1 (BR) - Fearless Draft",
+      "week": "WEEK6",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "CBLOL 2026 Split 1",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-04-26",
+      "game": "Leviatan vs VKS",
+      "id": "76912",
+      "killsA": 25,
+      "killsB": 9,
+      "league": "CBLOL",
+      "patch": "16.8",
+      "picks": {
+        "teamA": [
+          "Sion",
+          "Skarner",
+          "Sylas",
+          "Caitlyn",
+          "Nami"
+        ],
+        "teamB": [
+          "Rumble",
+          "Trundle",
+          "Anivia",
+          "Ezreal",
+          "Neeko"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/76912/page-game/",
+      "teamA": "Vivo Keyd Stars",
+      "teamAId": "2894",
+      "teamB": "Leviatan",
+      "teamBId": "2890",
+      "totalKills": 34,
+      "tournament": "CBLOL 2026 Split 1",
+      "tournamentLine": "CBLOL 2026 Split 1 (BR) - Fearless Draft",
+      "week": "WEEK5",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "CBLOL 2026 Split 1",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-04-26",
+      "game": "Leviatan vs VKS",
+      "id": "76911",
+      "killsA": 26,
+      "killsB": 12,
+      "league": "CBLOL",
+      "patch": "16.8",
+      "picks": {
+        "teamA": [
+          "Ambessa",
+          "Aatrox",
+          "Annie",
+          "Varus",
+          "Lulu"
+        ],
+        "teamB": [
+          "KSante",
+          "Zaahen",
+          "Galio",
+          "Sivir",
+          "Bard"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/76911/page-game/",
+      "teamA": "Vivo Keyd Stars",
+      "teamAId": "2894",
+      "teamB": "Leviatan",
+      "teamBId": "2890",
+      "totalKills": 38,
+      "tournament": "CBLOL 2026 Split 1",
+      "tournamentLine": "CBLOL 2026 Split 1 (BR) - Fearless Draft",
+      "week": "WEEK5",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "CBLOL 2026 Split 1",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-04-26",
+      "game": "FURIA vs LOUD",
+      "id": "76910",
+      "killsA": 19,
+      "killsB": 5,
+      "league": "CBLOL",
+      "patch": "16.8",
+      "picks": {
+        "teamA": [
+          "Volibear",
+          "Xin Zhao",
+          "Galio",
+          "Lucian",
+          "Yuumi"
+        ],
+        "teamB": [
+          "Renekton",
+          "Zaahen",
+          "Viktor",
+          "Yunara",
+          "Karma"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/76910/page-game/",
+      "teamA": "FURIA",
+      "teamAId": "2889",
+      "teamB": "LOUD",
+      "teamBId": "2891",
+      "totalKills": 24,
+      "tournament": "CBLOL 2026 Split 1",
+      "tournamentLine": "CBLOL 2026 Split 1 (BR) - Fearless Draft",
+      "week": "WEEK5",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "CBLOL 2026 Split 1",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-04-26",
+      "game": "FURIA vs LOUD",
+      "id": "76909",
+      "killsA": 9,
+      "killsB": 17,
+      "league": "CBLOL",
+      "patch": "16.8",
+      "picks": {
+        "teamA": [
+          "Rumble",
+          "Jayce",
+          "Annie",
+          "Caitlyn",
+          "Neeko"
+        ],
+        "teamB": [
+          "Sion",
+          "Lee Sin",
+          "Ryze",
+          "Ezreal",
+          "Nami"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/76909/page-game/",
+      "teamA": "LOUD",
+      "teamAId": "2891",
+      "teamB": "FURIA",
+      "teamBId": "2889",
+      "totalKills": 26,
+      "tournament": "CBLOL 2026 Split 1",
+      "tournamentLine": "CBLOL 2026 Split 1 (BR) - Fearless Draft",
+      "week": "WEEK5",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "CBLOL 2026 Split 1",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-04-26",
+      "game": "FURIA vs LOUD",
+      "id": "76908",
+      "killsA": 15,
+      "killsB": 20,
+      "league": "CBLOL",
+      "patch": "16.8",
+      "picks": {
+        "teamA": [
+          "KSante",
+          "Aatrox",
+          "Akali",
+          "Ashe",
+          "Seraphine"
+        ],
+        "teamB": [
+          "Vayne",
+          "Naafiri",
+          "Orianna",
+          "Jhin",
+          "Bard"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/76908/page-game/",
+      "teamA": "FURIA",
+      "teamAId": "2889",
+      "teamB": "LOUD",
+      "teamBId": "2891",
+      "totalKills": 35,
+      "tournament": "CBLOL 2026 Split 1",
+      "tournamentLine": "CBLOL 2026 Split 1 (BR) - Fearless Draft",
+      "week": "WEEK5",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "CBLOL 2026 Split 1",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-04-25",
+      "game": "paiN Gaming vs Fluxo W7M",
+      "id": "76906",
+      "killsA": 14,
+      "killsB": 5,
+      "league": "CBLOL",
+      "patch": "16.8",
+      "picks": {
+        "teamA": [
+          "Rumble",
+          "Aatrox",
+          "Gragas",
+          "Corki",
+          "Nami"
+        ],
+        "teamB": [
+          "Sion",
+          "Nocturne",
+          "Akali",
+          "Yunara",
+          "Lulu"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/76906/page-game/",
+      "teamA": "Fluxo W7M",
+      "teamAId": "2888",
+      "teamB": "paiN Gaming",
+      "teamBId": "2892",
+      "totalKills": 19,
+      "tournament": "CBLOL 2026 Split 1",
+      "tournamentLine": "CBLOL 2026 Split 1 (BR) - Fearless Draft",
+      "week": "WEEK5",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "CBLOL 2026 Split 1",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-04-25",
+      "game": "paiN Gaming vs Fluxo W7M",
+      "id": "76905",
+      "killsA": 14,
+      "killsB": 25,
+      "league": "CBLOL",
+      "patch": "16.8",
+      "picks": {
+        "teamA": [
+          "Gnar",
+          "Xin Zhao",
+          "Anivia",
+          "Varus",
+          "Neeko"
+        ],
+        "teamB": [
+          "Kennen",
+          "Jarvan IV",
+          "Ryze",
+          "Sivir",
+          "Bard"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/76905/page-game/",
+      "teamA": "paiN Gaming",
+      "teamAId": "2892",
+      "teamB": "Fluxo W7M",
+      "teamBId": "2888",
+      "totalKills": 39,
+      "tournament": "CBLOL 2026 Split 1",
+      "tournamentLine": "CBLOL 2026 Split 1 (BR) - Fearless Draft",
+      "week": "WEEK5",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "CBLOL 2026 Split 1",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-04-25",
+      "game": "Los Grandes vs RED Canids",
+      "id": "76903",
+      "killsA": 19,
+      "killsB": 9,
+      "league": "CBLOL",
+      "patch": "16.8",
+      "picks": {
+        "teamA": [
+          "Jayce",
+          "Jarvan IV",
+          "Lissandra",
+          "Senna",
+          "Nautilus"
+        ],
+        "teamB": [
+          "Sion",
+          "Nocturne",
+          "Ahri",
+          "Yunara",
+          "Lulu"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/76903/page-game/",
+      "teamA": "RED Canids",
+      "teamAId": "2893",
+      "teamB": "Los Grandes",
+      "teamBId": "2895",
+      "totalKills": 28,
+      "tournament": "CBLOL 2026 Split 1",
+      "tournamentLine": "CBLOL 2026 Split 1 (BR) - Fearless Draft",
+      "week": "WEEK5",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "CBLOL 2026 Split 1",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-04-25",
+      "game": "Los Grandes vs RED Canids",
+      "id": "76902",
+      "killsA": 15,
+      "killsB": 26,
+      "league": "CBLOL",
+      "patch": "16.8",
+      "picks": {
+        "teamA": [
+          "KSante",
+          "Xin Zhao",
+          "Orianna",
+          "Ezreal",
+          "Nami"
+        ],
+        "teamB": [
+          "Rumble",
+          "Pantheon",
+          "LeBlanc",
+          "Caitlyn",
+          "Neeko"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/76902/page-game/",
+      "teamA": "Los Grandes",
+      "teamAId": "2895",
+      "teamB": "RED Canids",
+      "teamBId": "2893",
+      "totalKills": 41,
+      "tournament": "CBLOL 2026 Split 1",
+      "tournamentLine": "CBLOL 2026 Split 1 (BR) - Fearless Draft",
+      "week": "WEEK5",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "CBLOL 2026 Split 1",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-04-19",
+      "game": "RED Canids vs VKS",
+      "id": "76669",
+      "killsA": 17,
+      "killsB": 6,
+      "league": "CBLOL",
+      "patch": "16.8",
+      "picks": {
+        "teamA": [
+          "Sion",
+          "Lee Sin",
+          "Aurora",
+          "Caitlyn",
+          "Neeko"
+        ],
+        "teamB": [
+          "Renekton",
+          "Maokai",
+          "Zoe",
+          "Kalista",
+          "Renata Glasc"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/76669/page-game/",
+      "teamA": "RED Canids",
+      "teamAId": "2893",
+      "teamB": "Vivo Keyd Stars",
+      "teamBId": "2894",
+      "totalKills": 23,
+      "tournament": "CBLOL 2026 Split 1",
+      "tournamentLine": "CBLOL 2026 Split 1 (BR) - Fearless Draft",
+      "week": "WEEK4",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "CBLOL 2026 Split 1",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-04-19",
+      "game": "RED Canids vs VKS",
+      "id": "76668",
+      "killsA": 7,
+      "killsB": 17,
+      "league": "CBLOL",
+      "patch": "16.8",
+      "picks": {
+        "teamA": [
+          "Jayce",
+          "Vi",
+          "Ahri",
+          "Yunara",
+          "Lulu"
+        ],
+        "teamB": [
+          "KSante",
+          "Aatrox",
+          "Sylas",
+          "Ashe",
+          "Seraphine"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/76668/page-game/",
+      "teamA": "Vivo Keyd Stars",
+      "teamAId": "2894",
+      "teamB": "RED Canids",
+      "teamBId": "2893",
+      "totalKills": 24,
+      "tournament": "CBLOL 2026 Split 1",
+      "tournamentLine": "CBLOL 2026 Split 1 (BR) - Fearless Draft",
+      "week": "WEEK4",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "CBLOL 2026 Split 1",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-04-19",
+      "game": "RED Canids vs VKS",
+      "id": "76667",
+      "killsA": 17,
+      "killsB": 8,
+      "league": "CBLOL",
+      "patch": "16.8",
+      "picks": {
+        "teamA": [
+          "Ambessa",
+          "Pantheon",
+          "Twisted Fate",
+          "Sivir",
+          "Yuumi"
+        ],
+        "teamB": [
+          "Gnar",
+          "Xin Zhao",
+          "Orianna",
+          "Ezreal",
+          "Karma"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/76667/page-game/",
+      "teamA": "Vivo Keyd Stars",
+      "teamAId": "2894",
+      "teamB": "RED Canids",
+      "teamBId": "2893",
+      "totalKills": 25,
+      "tournament": "CBLOL 2026 Split 1",
+      "tournamentLine": "CBLOL 2026 Split 1 (BR) - Fearless Draft",
+      "week": "WEEK4",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "CBLOL 2026 Split 1",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-04-19",
+      "game": "LOUD vs Leviatan",
+      "id": "76666",
+      "killsA": 12,
+      "killsB": 22,
+      "league": "CBLOL",
+      "patch": "16.8",
+      "picks": {
+        "teamA": [
+          "Renekton",
+          "Lee Sin",
+          "Syndra",
+          "Ashe",
+          "Nautilus"
+        ],
+        "teamB": [
+          "Sion",
+          "Zaahen",
+          "Ryze",
+          "Ezreal",
+          "Rakan"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/76666/page-game/",
+      "teamA": "LOUD",
+      "teamAId": "2891",
+      "teamB": "Leviatan",
+      "teamBId": "2890",
+      "totalKills": 34,
+      "tournament": "CBLOL 2026 Split 1",
+      "tournamentLine": "CBLOL 2026 Split 1 (BR) - Fearless Draft",
+      "week": "WEEK4",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "CBLOL 2026 Split 1",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-04-19",
+      "game": "LOUD vs Leviatan",
+      "id": "76665",
+      "killsA": 12,
+      "killsB": 19,
+      "league": "CBLOL",
+      "patch": "16.8",
+      "picks": {
+        "teamA": [
+          "Aurora",
+          "Aatrox",
+          "Annie",
+          "Corki",
+          "Nami"
+        ],
+        "teamB": [
+          "Rumble",
+          "Jarvan IV",
+          "Galio",
+          "Yunara",
+          "Lulu"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/76665/page-game/",
+      "teamA": "LOUD",
+      "teamAId": "2891",
+      "teamB": "Leviatan",
+      "teamBId": "2890",
+      "totalKills": 31,
+      "tournament": "CBLOL 2026 Split 1",
+      "tournamentLine": "CBLOL 2026 Split 1 (BR) - Fearless Draft",
+      "week": "WEEK4",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "CBLOL 2026 Split 1",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-04-19",
+      "game": "LOUD vs Leviatan",
+      "id": "76664",
+      "killsA": 16,
+      "killsB": 7,
+      "league": "CBLOL",
+      "patch": "16.8",
+      "picks": {
+        "teamA": [
+          "KSante",
+          "Jax",
+          "Orianna",
+          "Jhin",
+          "Bard"
+        ],
+        "teamB": [
+          "Ambessa",
+          "Xin Zhao",
+          "Akali",
+          "Sivir",
+          "Neeko"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/76664/page-game/",
+      "teamA": "LOUD",
+      "teamAId": "2891",
+      "teamB": "Leviatan",
+      "teamBId": "2890",
+      "totalKills": 23,
+      "tournament": "CBLOL 2026 Split 1",
+      "tournamentLine": "CBLOL 2026 Split 1 (BR) - Fearless Draft",
+      "week": "WEEK4",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "CBLOL 2026 Split 1",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-04-18",
+      "game": "Los Grandes vs paiN Gaming",
+      "id": "76663",
+      "killsA": 16,
+      "killsB": 9,
+      "league": "CBLOL",
+      "patch": "16.8",
+      "picks": {
+        "teamA": [
+          "Ambessa",
+          "Wukong",
+          "Viktor",
+          "Xayah",
+          "Rakan"
+        ],
+        "teamB": [
+          "Gnar",
+          "Nocturne",
+          "Syndra",
+          "Aphelios",
+          "Thresh"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/76663/page-game/",
+      "teamA": "Los Grandes",
+      "teamAId": "2895",
+      "teamB": "paiN Gaming",
+      "teamBId": "2892",
+      "totalKills": 25,
+      "tournament": "CBLOL 2026 Split 1",
+      "tournamentLine": "CBLOL 2026 Split 1 (BR) - Fearless Draft",
+      "week": "WEEK4",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "CBLOL 2026 Split 1",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-04-18",
+      "game": "Los Grandes vs paiN Gaming",
+      "id": "76662",
+      "killsA": 16,
+      "killsB": 7,
+      "league": "CBLOL",
+      "patch": "16.8",
+      "picks": {
+        "teamA": [
+          "Aurora",
+          "Zaahen",
+          "Galio",
+          "Lucian",
+          "Milio"
+        ],
+        "teamB": [
+          "Rumble",
+          "Lee Sin",
+          "Ryze",
+          "Corki",
+          "Nami"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/76662/page-game/",
+      "teamA": "Los Grandes",
+      "teamAId": "2895",
+      "teamB": "paiN Gaming",
+      "teamBId": "2892",
+      "totalKills": 23,
+      "tournament": "CBLOL 2026 Split 1",
+      "tournamentLine": "CBLOL 2026 Split 1 (BR) - Fearless Draft",
+      "week": "WEEK4",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "CBLOL 2026 Split 1",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-04-18",
+      "game": "Los Grandes vs paiN Gaming",
+      "id": "76661",
+      "killsA": 7,
+      "killsB": 23,
+      "league": "CBLOL",
+      "patch": "16.8",
+      "picks": {
+        "teamA": [
+          "Jayce",
+          "Aatrox",
+          "Orianna",
+          "Ezreal",
+          "Bard"
+        ],
+        "teamB": [
+          "Yorick",
+          "Jarvan IV",
+          "Ahri",
+          "Varus",
+          "Neeko"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/76661/page-game/",
+      "teamA": "Los Grandes",
+      "teamAId": "2895",
+      "teamB": "paiN Gaming",
+      "teamBId": "2892",
+      "totalKills": 30,
+      "tournament": "CBLOL 2026 Split 1",
+      "tournamentLine": "CBLOL 2026 Split 1 (BR) - Fearless Draft",
+      "week": "WEEK4",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "CBLOL 2026 Split 1",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-04-18",
+      "game": "Fluxo W7M vs FURIA",
+      "id": "76659",
+      "killsA": 16,
+      "killsB": 12,
+      "league": "CBLOL",
+      "patch": "16.8",
+      "picks": {
+        "teamA": [
+          "Rumble",
+          "Wukong",
+          "Yone",
+          "Jhin",
+          "Karma"
+        ],
+        "teamB": [
+          "KSante",
+          "Xin Zhao",
+          "Viktor",
+          "Corki",
+          "Nami"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/76659/page-game/",
+      "teamA": "Fluxo W7M",
+      "teamAId": "2888",
+      "teamB": "FURIA",
+      "teamBId": "2889",
+      "totalKills": 28,
+      "tournament": "CBLOL 2026 Split 1",
+      "tournamentLine": "CBLOL 2026 Split 1 (BR) - Fearless Draft",
+      "week": "WEEK4",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "CBLOL 2026 Split 1",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-04-18",
+      "game": "Fluxo W7M vs FURIA",
+      "id": "76658",
+      "killsA": 18,
+      "killsB": 6,
+      "league": "CBLOL",
+      "patch": "16.8",
+      "picks": {
+        "teamA": [
+          "RekSai",
+          "Aatrox",
+          "Ryze",
+          "Ezreal",
+          "Bard"
+        ],
+        "teamB": [
+          "Ambessa",
+          "Jarvan IV",
+          "Anivia",
+          "Lucian",
+          "Milio"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/76658/page-game/",
+      "teamA": "Fluxo W7M",
+      "teamAId": "2888",
+      "teamB": "FURIA",
+      "teamBId": "2889",
+      "totalKills": 24,
+      "tournament": "CBLOL 2026 Split 1",
+      "tournamentLine": "CBLOL 2026 Split 1 (BR) - Fearless Draft",
+      "week": "WEEK4",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "CBLOL 2026 Split 1",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-04-14",
+      "game": "Fluxo W7M vs LOUD",
+      "id": "76236",
+      "killsA": 17,
+      "killsB": 3,
+      "league": "CBLOL",
+      "patch": "16.7",
+      "picks": {
+        "teamA": [
+          "Aatrox",
+          "Vi",
+          "LeBlanc",
+          "Xayah",
+          "Rakan"
+        ],
+        "teamB": [
+          "Sion",
+          "Xin Zhao",
+          "Lissandra",
+          "Yunara",
+          "Lulu"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/76236/page-game/",
+      "teamA": "Fluxo W7M",
+      "teamAId": "2888",
+      "teamB": "LOUD",
+      "teamBId": "2891",
+      "totalKills": 20,
+      "tournament": "CBLOL 2026 Split 1",
+      "tournamentLine": "CBLOL 2026 Split 1 (BR) - Fearless Draft",
+      "week": "WEEK3",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "CBLOL 2026 Split 1",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-04-14",
+      "game": "Fluxo W7M vs LOUD",
+      "id": "76235",
+      "killsA": 6,
+      "killsB": 16,
+      "league": "CBLOL",
+      "patch": "16.7",
+      "picks": {
+        "teamA": [
+          "Gnar",
+          "Nocturne",
+          "Zoe",
+          "Lucian",
+          "Milio"
+        ],
+        "teamB": [
+          "Renekton",
+          "Jarvan IV",
+          "Akali",
+          "Corki",
+          "Nami"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/76235/page-game/",
+      "teamA": "LOUD",
+      "teamAId": "2891",
+      "teamB": "Fluxo W7M",
+      "teamBId": "2888",
+      "totalKills": 22,
+      "tournament": "CBLOL 2026 Split 1",
+      "tournamentLine": "CBLOL 2026 Split 1 (BR) - Fearless Draft",
+      "week": "WEEK3",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "CBLOL 2026 Split 1",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-04-14",
+      "game": "Fluxo W7M vs LOUD",
+      "id": "76234",
+      "killsA": 17,
+      "killsB": 5,
+      "league": "CBLOL",
+      "patch": "16.7",
+      "picks": {
+        "teamA": [
+          "KSante",
+          "Pantheon",
+          "Annie",
+          "Caitlyn",
+          "Bard"
+        ],
+        "teamB": [
+          "Rumble",
+          "Ambessa",
+          "Aurora",
+          "Ezreal",
+          "Anivia"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/76234/page-game/",
+      "teamA": "LOUD",
+      "teamAId": "2891",
+      "teamB": "Fluxo W7M",
+      "teamBId": "2888",
+      "totalKills": 22,
+      "tournament": "CBLOL 2026 Split 1",
+      "tournamentLine": "CBLOL 2026 Split 1 (BR) - Fearless Draft",
+      "week": "WEEK3",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "CBLOL 2026 Split 1",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-04-14",
+      "game": "VKS vs Los Grandes",
+      "id": "76233",
+      "killsA": 12,
+      "killsB": 12,
+      "league": "CBLOL",
+      "patch": "16.7",
+      "picks": {
+        "teamA": [
+          "Jayce",
+          "Lee Sin",
+          "Galio",
+          "Aphelios",
+          "Milio"
+        ],
+        "teamB": [
+          "Yorick",
+          "Ambessa",
+          "Zoe",
+          "Yunara",
+          "Lulu"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/76233/page-game/",
+      "teamA": "Vivo Keyd Stars",
+      "teamAId": "2894",
+      "teamB": "Los Grandes",
+      "teamBId": "2895",
+      "totalKills": 24,
+      "tournament": "CBLOL 2026 Split 1",
+      "tournamentLine": "CBLOL 2026 Split 1 (BR) - Fearless Draft",
+      "week": "WEEK3",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "CBLOL 2026 Split 1",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-04-14",
+      "game": "VKS vs Los Grandes",
+      "id": "76232",
+      "killsA": 7,
+      "killsB": 16,
+      "league": "CBLOL",
+      "patch": "16.7",
+      "picks": {
+        "teamA": [
+          "KSante",
+          "Aatrox",
+          "Xerath",
+          "Ashe",
+          "Seraphine"
+        ],
+        "teamB": [
+          "Vayne",
+          "Zaahen",
+          "Mel",
+          "Caitlyn",
+          "Anivia"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/76232/page-game/",
+      "teamA": "Vivo Keyd Stars",
+      "teamAId": "2894",
+      "teamB": "Los Grandes",
+      "teamBId": "2895",
+      "totalKills": 23,
+      "tournament": "CBLOL 2026 Split 1",
+      "tournamentLine": "CBLOL 2026 Split 1 (BR) - Fearless Draft",
+      "week": "WEEK3",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "CBLOL 2026 Split 1",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-04-14",
+      "game": "VKS vs Los Grandes",
+      "id": "76231",
+      "killsA": 23,
+      "killsB": 23,
+      "league": "CBLOL",
+      "patch": "16.7",
+      "picks": {
+        "teamA": [
+          "Rumble",
+          "Pantheon",
+          "Ahri",
+          "Kalista",
+          "Renata Glasc"
+        ],
+        "teamB": [
+          "Aurora",
+          "Nocturne",
+          "Ryze",
+          "Corki",
+          "Neeko"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/76231/page-game/",
+      "teamA": "Vivo Keyd Stars",
+      "teamAId": "2894",
+      "teamB": "Los Grandes",
+      "teamBId": "2895",
+      "totalKills": 46,
+      "tournament": "CBLOL 2026 Split 1",
+      "tournamentLine": "CBLOL 2026 Split 1 (BR) - Fearless Draft",
+      "week": "WEEK3",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "CBLOL 2026 Split 1",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-04-13",
+      "game": "Leviatan vs RED Canids",
+      "id": "76229",
+      "killsA": 17,
+      "killsB": 6,
+      "league": "CBLOL",
+      "patch": "16.7",
+      "picks": {
+        "teamA": [
+          "Gwen",
+          "Aatrox",
+          "Azir",
+          "Jhin",
+          "Bard"
+        ],
+        "teamB": [
+          "Sion",
+          "Naafiri",
+          "Ryze",
+          "Varus",
+          "Neeko"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/76229/page-game/",
+      "teamA": "RED Canids",
+      "teamAId": "2893",
+      "teamB": "Leviatan",
+      "teamBId": "2890",
+      "totalKills": 23,
+      "tournament": "CBLOL 2026 Split 1",
+      "tournamentLine": "CBLOL 2026 Split 1 (BR) - Fearless Draft",
+      "week": "WEEK3",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "CBLOL 2026 Split 1",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-04-13",
+      "game": "Leviatan vs RED Canids",
+      "id": "76228",
+      "killsA": 25,
+      "killsB": 16,
+      "league": "CBLOL",
+      "patch": "16.7",
+      "picks": {
+        "teamA": [
+          "Renekton",
+          "Zaahen",
+          "Twisted Fate",
+          "Sivir",
+          "Karma"
+        ],
+        "teamB": [
+          "KSante",
+          "Xin Zhao",
+          "Aurora",
+          "Ezreal",
+          "Anivia"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/76228/page-game/",
+      "teamA": "RED Canids",
+      "teamAId": "2893",
+      "teamB": "Leviatan",
+      "teamBId": "2890",
+      "totalKills": 41,
+      "tournament": "CBLOL 2026 Split 1",
+      "tournamentLine": "CBLOL 2026 Split 1 (BR) - Fearless Draft",
+      "week": "WEEK3",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "CBLOL 2026 Split 1",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-04-13",
+      "game": "paiN Gaming vs FURIA",
+      "id": "76227",
+      "killsA": 4,
+      "killsB": 15,
+      "league": "CBLOL",
+      "patch": "16.7",
+      "picks": {
+        "teamA": [
+          "Renekton",
+          "Wukong",
+          "Orianna",
+          "Sivir",
+          "Nautilus"
+        ],
+        "teamB": [
+          "Volibear",
+          "Zaahen",
+          "Galio",
+          "Miss Fortune",
+          "Seraphine"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/76227/page-game/",
+      "teamA": "paiN Gaming",
+      "teamAId": "2892",
+      "teamB": "FURIA",
+      "teamBId": "2889",
+      "totalKills": 19,
+      "tournament": "CBLOL 2026 Split 1",
+      "tournamentLine": "CBLOL 2026 Split 1 (BR) - Fearless Draft",
+      "week": "WEEK3",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "CBLOL 2026 Split 1",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-04-13",
+      "game": "paiN Gaming vs FURIA",
+      "id": "76226",
+      "killsA": 21,
+      "killsB": 9,
+      "league": "CBLOL",
+      "patch": "16.7",
+      "picks": {
+        "teamA": [
+          "Ambessa",
+          "Xin Zhao",
+          "Viktor",
+          "Corki",
+          "Nami"
+        ],
+        "teamB": [
+          "Gnar",
+          "Jarvan IV",
+          "Syndra",
+          "Yunara",
+          "Lulu"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/76226/page-game/",
+      "teamA": "FURIA",
+      "teamAId": "2889",
+      "teamB": "paiN Gaming",
+      "teamBId": "2892",
+      "totalKills": 30,
+      "tournament": "CBLOL 2026 Split 1",
+      "tournamentLine": "CBLOL 2026 Split 1 (BR) - Fearless Draft",
+      "week": "WEEK3",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "CBLOL 2026 Split 1",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-04-13",
+      "game": "paiN Gaming vs FURIA",
+      "id": "76225",
+      "killsA": 14,
+      "killsB": 21,
+      "league": "CBLOL",
+      "patch": "16.7",
+      "picks": {
+        "teamA": [
+          "KSante",
+          "Pantheon",
+          "Annie",
+          "Ezreal",
+          "Anivia"
+        ],
+        "teamB": [
+          "Rumble",
+          "Skarner",
+          "Ahri",
+          "Caitlyn",
+          "Bard"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/76225/page-game/",
+      "teamA": "FURIA",
+      "teamAId": "2889",
+      "teamB": "paiN Gaming",
+      "teamBId": "2892",
+      "totalKills": 35,
+      "tournament": "CBLOL 2026 Split 1",
+      "tournamentLine": "CBLOL 2026 Split 1 (BR) - Fearless Draft",
+      "week": "WEEK3",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "CBLOL 2026 Split 1",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-04-12",
+      "game": "Los Grandes vs LOUD",
+      "id": "76223",
+      "killsA": 25,
+      "killsB": 15,
+      "league": "CBLOL",
+      "patch": "16.7",
+      "picks": {
+        "teamA": [
+          "Jayce",
+          "Pantheon",
+          "Aurora",
+          "Miss Fortune",
+          "Rell"
+        ],
+        "teamB": [
+          "Varus",
+          "Aatrox",
+          "Viktor",
+          "Jhin",
+          "Neeko"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/76223/page-game/",
+      "teamA": "LOUD",
+      "teamAId": "2891",
+      "teamB": "Los Grandes",
+      "teamBId": "2895",
+      "totalKills": 40,
+      "tournament": "CBLOL 2026 Split 1",
+      "tournamentLine": "CBLOL 2026 Split 1 (BR) - Fearless Draft",
+      "week": "WEEK3",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "CBLOL 2026 Split 1",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-04-12",
+      "game": "Los Grandes vs LOUD",
+      "id": "76222",
+      "killsA": 15,
+      "killsB": 3,
+      "league": "CBLOL",
+      "patch": "16.7",
+      "picks": {
+        "teamA": [
+          "KSante",
+          "Naafiri",
+          "Annie",
+          "Caitlyn",
+          "Bard"
+        ],
+        "teamB": [
+          "Rumble",
+          "Wukong",
+          "Ryze",
+          "Lucian",
+          "Nami"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/76222/page-game/",
+      "teamA": "LOUD",
+      "teamAId": "2891",
+      "teamB": "Los Grandes",
+      "teamBId": "2895",
+      "totalKills": 18,
+      "tournament": "CBLOL 2026 Split 1",
+      "tournamentLine": "CBLOL 2026 Split 1 (BR) - Fearless Draft",
+      "week": "WEEK3",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "CBLOL 2026 Split 1",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-04-12",
+      "game": "VKS vs Fluxo W7M",
+      "id": "76220",
+      "killsA": 16,
+      "killsB": 2,
+      "league": "CBLOL",
+      "patch": "16.7",
+      "picks": {
+        "teamA": [
+          "Ambessa",
+          "Aatrox",
+          "Syndra",
+          "Yunara",
+          "Lulu"
+        ],
+        "teamB": [
+          "KSante",
+          "Dr. Mundo",
+          "Ryze",
+          "Corki",
+          "Nami"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/76220/page-game/",
+      "teamA": "Vivo Keyd Stars",
+      "teamAId": "2894",
+      "teamB": "Fluxo W7M",
+      "teamBId": "2888",
+      "totalKills": 18,
+      "tournament": "CBLOL 2026 Split 1",
+      "tournamentLine": "CBLOL 2026 Split 1 (BR) - Fearless Draft",
+      "week": "WEEK3",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "CBLOL 2026 Split 1",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-04-12",
+      "game": "VKS vs Fluxo W7M",
+      "id": "76219",
+      "killsA": 16,
+      "killsB": 30,
+      "league": "CBLOL",
+      "patch": "16.7",
+      "picks": {
+        "teamA": [
+          "Sion",
+          "Xin Zhao",
+          "Taliyah",
+          "Varus",
+          "Nautilus"
+        ],
+        "teamB": [
+          "Rumble",
+          "Vi",
+          "Ahri",
+          "Kalista",
+          "Renata Glasc"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/76219/page-game/",
+      "teamA": "Fluxo W7M",
+      "teamAId": "2888",
+      "teamB": "Vivo Keyd Stars",
+      "teamBId": "2894",
+      "totalKills": 46,
+      "tournament": "CBLOL 2026 Split 1",
+      "tournamentLine": "CBLOL 2026 Split 1 (BR) - Fearless Draft",
+      "week": "WEEK3",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "CBLOL 2026 Split 1",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-04-11",
+      "game": "RED Canids vs paiN Gaming",
+      "id": "76217",
+      "killsA": 24,
+      "killsB": 8,
+      "league": "CBLOL",
+      "patch": "16.7",
+      "picks": {
+        "teamA": [
+          "Aurora",
+          "Nocturne",
+          "Sylas",
+          "Jhin",
+          "Rakan"
+        ],
+        "teamB": [
+          "Vayne",
+          "Wukong",
+          "Ahri",
+          "Caitlyn",
+          "Neeko"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/76217/page-game/",
+      "teamA": "RED Canids",
+      "teamAId": "2893",
+      "teamB": "paiN Gaming",
+      "teamBId": "2892",
+      "totalKills": 32,
+      "tournament": "CBLOL 2026 Split 1",
+      "tournamentLine": "CBLOL 2026 Split 1 (BR) - Fearless Draft",
+      "week": "WEEK3",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "CBLOL 2026 Split 1",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-04-11",
+      "game": "RED Canids vs paiN Gaming",
+      "id": "76216",
+      "killsA": 8,
+      "killsB": 27,
+      "league": "CBLOL",
+      "patch": "16.7",
+      "picks": {
+        "teamA": [
+          "Ambessa",
+          "Aatrox",
+          "Annie",
+          "Ashe",
+          "Seraphine"
+        ],
+        "teamB": [
+          "Gnar",
+          "Jarvan IV",
+          "Mel",
+          "Ezreal",
+          "Bard"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/76216/page-game/",
+      "teamA": "paiN Gaming",
+      "teamAId": "2892",
+      "teamB": "RED Canids",
+      "teamBId": "2893",
+      "totalKills": 35,
+      "tournament": "CBLOL 2026 Split 1",
+      "tournamentLine": "CBLOL 2026 Split 1 (BR) - Fearless Draft",
+      "week": "WEEK3",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "CBLOL 2026 Split 1",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-04-11",
+      "game": "FURIA vs Leviatan",
+      "id": "76214",
+      "killsA": 5,
+      "killsB": 19,
+      "league": "CBLOL",
+      "patch": "16.7",
+      "picks": {
+        "teamA": [
+          "Renekton",
+          "Xin Zhao",
+          "Azir",
+          "Jhin",
+          "Neeko"
+        ],
+        "teamB": [
+          "Gnar",
+          "Skarner",
+          "Viktor",
+          "Caitlyn",
+          "Nami"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/76214/page-game/",
+      "teamA": "Leviatan",
+      "teamAId": "2890",
+      "teamB": "FURIA",
+      "teamBId": "2889",
+      "totalKills": 24,
+      "tournament": "CBLOL 2026 Split 1",
+      "tournamentLine": "CBLOL 2026 Split 1 (BR) - Fearless Draft",
+      "week": "WEEK3",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "CBLOL 2026 Split 1",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-04-11",
+      "game": "FURIA vs Leviatan",
+      "id": "76213",
+      "killsA": 15,
+      "killsB": 23,
+      "league": "CBLOL",
+      "patch": "16.7",
+      "picks": {
+        "teamA": [
+          "KSante",
+          "Pantheon",
+          "Ryze",
+          "Corki",
+          "Bard"
+        ],
+        "teamB": [
+          "Ambessa",
+          "Jarvan IV",
+          "Akali",
+          "Ezreal",
+          "Anivia"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/76213/page-game/",
+      "teamA": "Leviatan",
+      "teamAId": "2890",
+      "teamB": "FURIA",
+      "teamBId": "2889",
+      "totalKills": 38,
+      "tournament": "CBLOL 2026 Split 1",
+      "tournamentLine": "CBLOL 2026 Split 1 (BR) - Fearless Draft",
+      "week": "WEEK3",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "CBLOL 2026 Split 1",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-04-05",
+      "game": "VKS vs FURIA",
+      "id": "75770",
+      "killsA": 7,
+      "killsB": 20,
+      "league": "CBLOL",
+      "patch": "16.7",
+      "picks": {
+        "teamA": [
+          "Rumble",
+          "Zaahen",
+          "Aurora",
+          "Varus",
+          "Lulu"
+        ],
+        "teamB": [
+          "Ornn",
+          "Aatrox",
+          "Twisted Fate",
+          "Caitlyn",
+          "Neeko"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/75770/page-game/",
+      "teamA": "Vivo Keyd Stars",
+      "teamAId": "2894",
+      "teamB": "FURIA",
+      "teamBId": "2889",
+      "totalKills": 27,
+      "tournament": "CBLOL 2026 Split 1",
+      "tournamentLine": "CBLOL 2026 Split 1 (BR) - Fearless Draft",
+      "week": "WEEK2",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "CBLOL 2026 Split 1",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-04-05",
+      "game": "VKS vs FURIA",
+      "id": "75769",
+      "killsA": 2,
+      "killsB": 17,
+      "league": "CBLOL",
+      "patch": "16.7",
+      "picks": {
+        "teamA": [
+          "KSante",
+          "Xin Zhao",
+          "Anivia",
+          "Ezreal",
+          "Karma"
+        ],
+        "teamB": [
+          "Ambessa",
+          "Pantheon",
+          "Ryze",
+          "Ashe",
+          "Seraphine"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/75769/page-game/",
+      "teamA": "Vivo Keyd Stars",
+      "teamAId": "2894",
+      "teamB": "FURIA",
+      "teamBId": "2889",
+      "totalKills": 19,
+      "tournament": "CBLOL 2026 Split 1",
+      "tournamentLine": "CBLOL 2026 Split 1 (BR) - Fearless Draft",
+      "week": "WEEK2",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "CBLOL 2026 Split 1",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-04-05",
+      "game": "Los Grandes vs Leviatan",
+      "id": "75767",
+      "killsA": 17,
+      "killsB": 9,
+      "league": "CBLOL",
+      "patch": "16.7",
+      "picks": {
+        "teamA": [
+          "Kennen",
+          "Jarvan IV",
+          "Ryze",
+          "Yunara",
+          "Alistar"
+        ],
+        "teamB": [
+          "Gnar",
+          "Pantheon",
+          "Taliyah",
+          "Kaisa",
+          "Leona"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/75767/page-game/",
+      "teamA": "Los Grandes",
+      "teamAId": "2895",
+      "teamB": "Leviatan",
+      "teamBId": "2890",
+      "totalKills": 26,
+      "tournament": "CBLOL 2026 Split 1",
+      "tournamentLine": "CBLOL 2026 Split 1 (BR) - Fearless Draft",
+      "week": "WEEK2",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "CBLOL 2026 Split 1",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-04-05",
+      "game": "Los Grandes vs Leviatan",
+      "id": "75766",
+      "killsA": 21,
+      "killsB": 7,
+      "league": "CBLOL",
+      "patch": "16.7",
+      "picks": {
+        "teamA": [
+          "Ambessa",
+          "Aatrox",
+          "Viktor",
+          "Sivir",
+          "Karma"
+        ],
+        "teamB": [
+          "Jayce",
+          "Xin Zhao",
+          "Aurora",
+          "Ezreal",
+          "Anivia"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/75766/page-game/",
+      "teamA": "Los Grandes",
+      "teamAId": "2895",
+      "teamB": "Leviatan",
+      "teamBId": "2890",
+      "totalKills": 28,
+      "tournament": "CBLOL 2026 Split 1",
+      "tournamentLine": "CBLOL 2026 Split 1 (BR) - Fearless Draft",
+      "week": "WEEK2",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "CBLOL 2026 Split 1",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-04-04",
+      "game": "LOUD vs paiN Gaming",
+      "id": "75764",
+      "killsA": 23,
+      "killsB": 6,
+      "league": "CBLOL",
+      "patch": "16.7",
+      "picks": {
+        "teamA": [
+          "KSante",
+          "Aatrox",
+          "LeBlanc",
+          "Caitlyn",
+          "Neeko"
+        ],
+        "teamB": [
+          "Renekton",
+          "Wukong",
+          "Azir",
+          "Corki",
+          "Alistar"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/75764/page-game/",
+      "teamA": "LOUD",
+      "teamAId": "2891",
+      "teamB": "paiN Gaming",
+      "teamBId": "2892",
+      "totalKills": 29,
+      "tournament": "CBLOL 2026 Split 1",
+      "tournamentLine": "CBLOL 2026 Split 1 (BR) - Fearless Draft",
+      "week": "WEEK2",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "CBLOL 2026 Split 1",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-04-04",
+      "game": "LOUD vs paiN Gaming",
+      "id": "75763",
+      "killsA": 11,
+      "killsB": 5,
+      "league": "CBLOL",
+      "patch": "16.7",
+      "picks": {
+        "teamA": [
+          "Gnar",
+          "Nocturne",
+          "Aurora",
+          "Ezreal",
+          "Bard"
+        ],
+        "teamB": [
+          "Malphite",
+          "Pantheon",
+          "Viktor",
+          "Ashe",
+          "Seraphine"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/75763/page-game/",
+      "teamA": "LOUD",
+      "teamAId": "2891",
+      "teamB": "paiN Gaming",
+      "teamBId": "2892",
+      "totalKills": 16,
+      "tournament": "CBLOL 2026 Split 1",
+      "tournamentLine": "CBLOL 2026 Split 1 (BR) - Fearless Draft",
+      "week": "WEEK2",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "CBLOL 2026 Split 1",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-04-04",
+      "game": "RED Canids vs Fluxo W7M",
+      "id": "75761",
+      "killsA": 20,
+      "killsB": 8,
+      "league": "CBLOL",
+      "patch": "16.7",
+      "picks": {
+        "teamA": [
+          "KSante",
+          "Zaahen",
+          "Aurora",
+          "Corki",
+          "Nami"
+        ],
+        "teamB": [
+          "Renekton",
+          "Vi",
+          "Zoe",
+          "Jhin",
+          "Neeko"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/75761/page-game/",
+      "teamA": "RED Canids",
+      "teamAId": "2893",
+      "teamB": "Fluxo W7M",
+      "teamBId": "2888",
+      "totalKills": 28,
+      "tournament": "CBLOL 2026 Split 1",
+      "tournamentLine": "CBLOL 2026 Split 1 (BR) - Fearless Draft",
+      "week": "WEEK2",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "CBLOL 2026 Split 1",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-04-04",
+      "game": "RED Canids vs Fluxo W7M",
+      "id": "75760",
+      "killsA": 3,
+      "killsB": 16,
+      "league": "CBLOL",
+      "patch": "16.7",
+      "picks": {
+        "teamA": [
+          "Rumble",
+          "Xin Zhao",
+          "Annie",
+          "Ezreal",
+          "Alistar"
+        ],
+        "teamB": [
+          "Ambessa",
+          "Pantheon",
+          "Ryze",
+          "Varus",
+          "Rakan"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/75760/page-game/",
+      "teamA": "Fluxo W7M",
+      "teamAId": "2888",
+      "teamB": "RED Canids",
+      "teamBId": "2893",
+      "totalKills": 19,
+      "tournament": "CBLOL 2026 Split 1",
+      "tournamentLine": "CBLOL 2026 Split 1 (BR) - Fearless Draft",
+      "week": "WEEK2",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "CBLOL 2026 Split 1",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-03-29",
+      "game": "Fluxo W7M vs Leviatan",
+      "id": "75684",
+      "killsA": 22,
+      "killsB": 16,
+      "league": "CBLOL",
+      "patch": "16.6",
+      "picks": {
+        "teamA": [
+          "KSante",
+          "Xin Zhao",
+          "Taliyah",
+          "Yunara",
+          "Bard"
+        ],
+        "teamB": [
+          "Ambessa",
+          "Aatrox",
+          "Hwei",
+          "Varus",
+          "Neeko"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/75684/page-game/",
+      "teamA": "Fluxo W7M",
+      "teamAId": "2888",
+      "teamB": "Leviatan",
+      "teamBId": "2890",
+      "totalKills": 38,
+      "tournament": "CBLOL 2026 Split 1",
+      "tournamentLine": "CBLOL 2026 Split 1 (BR) - Fearless Draft",
+      "week": "WEEK1",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "CBLOL 2026 Split 1",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-03-29",
+      "game": "Fluxo W7M vs Leviatan",
+      "id": "75683",
+      "killsA": 17,
+      "killsB": 6,
+      "league": "CBLOL",
+      "patch": "16.6",
+      "picks": {
+        "teamA": [
+          "Renekton",
+          "Vi",
+          "Ahri",
+          "Corki",
+          "Nami"
+        ],
+        "teamB": [
+          "Gnar",
+          "Jarvan IV",
+          "Aurora",
+          "Ezreal",
+          "Nautilus"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/75683/page-game/",
+      "teamA": "Fluxo W7M",
+      "teamAId": "2888",
+      "teamB": "Leviatan",
+      "teamBId": "2890",
+      "totalKills": 23,
+      "tournament": "CBLOL 2026 Split 1",
+      "tournamentLine": "CBLOL 2026 Split 1 (BR) - Fearless Draft",
+      "week": "WEEK1",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "CBLOL 2026 Split 1",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-03-29",
+      "game": "paiN Gaming vs VKS",
+      "id": "75681",
+      "killsA": 24,
+      "killsB": 7,
+      "league": "CBLOL",
+      "patch": "16.6",
+      "picks": {
+        "teamA": [
+          "Renekton",
+          "Aatrox",
+          "Twisted Fate",
+          "Sivir",
+          "Yuumi"
+        ],
+        "teamB": [
+          "KSante",
+          "Xin Zhao",
+          "Zoe",
+          "Ezreal",
+          "Karma"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/75681/page-game/",
+      "teamA": "Vivo Keyd Stars",
+      "teamAId": "2894",
+      "teamB": "paiN Gaming",
+      "teamBId": "2892",
+      "totalKills": 31,
+      "tournament": "CBLOL 2026 Split 1",
+      "tournamentLine": "CBLOL 2026 Split 1 (BR) - Fearless Draft",
+      "week": "WEEK1",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "CBLOL 2026 Split 1",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-03-29",
+      "game": "paiN Gaming vs VKS",
+      "id": "75680",
+      "killsA": 18,
+      "killsB": 7,
+      "league": "CBLOL",
+      "patch": "16.6",
+      "picks": {
+        "teamA": [
+          "Gnar",
+          "Vi",
+          "Akali",
+          "Yunara",
+          "Lulu"
+        ],
+        "teamB": [
+          "Yorick",
+          "Jarvan IV",
+          "Aurora",
+          "Corki",
+          "Nami"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/75680/page-game/",
+      "teamA": "Vivo Keyd Stars",
+      "teamAId": "2894",
+      "teamB": "paiN Gaming",
+      "teamBId": "2892",
+      "totalKills": 25,
+      "tournament": "CBLOL 2026 Split 1",
+      "tournamentLine": "CBLOL 2026 Split 1 (BR) - Fearless Draft",
+      "week": "WEEK1",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "CBLOL 2026 Split 1",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-03-28",
+      "game": "FURIA vs Los Grandes",
+      "id": "75679",
+      "killsA": 24,
+      "killsB": 15,
+      "league": "CBLOL",
+      "patch": "16.6",
+      "picks": {
+        "teamA": [
+          "Camille",
+          "Zaahen",
+          "Galio",
+          "Ezreal",
+          "Bard"
+        ],
+        "teamB": [
+          "KSante",
+          "Xin Zhao",
+          "Viktor",
+          "Jhin",
+          "Rakan"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/75679/page-game/",
+      "teamA": "Los Grandes",
+      "teamAId": "2895",
+      "teamB": "FURIA",
+      "teamBId": "2889",
+      "totalKills": 39,
+      "tournament": "CBLOL 2026 Split 1",
+      "tournamentLine": "CBLOL 2026 Split 1 (BR) - Fearless Draft",
+      "week": "WEEK1",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "CBLOL 2026 Split 1",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-03-28",
+      "game": "FURIA vs Los Grandes",
+      "id": "75678",
+      "killsA": 15,
+      "killsB": 3,
+      "league": "CBLOL",
+      "patch": "16.6",
+      "picks": {
+        "teamA": [
+          "Sion",
+          "Skarner",
+          "Ryze",
+          "Caitlyn",
+          "Milio"
+        ],
+        "teamB": [
+          "Aatrox",
+          "Pantheon",
+          "Syndra",
+          "Corki",
+          "Nami"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/75678/page-game/",
+      "teamA": "FURIA",
+      "teamAId": "2889",
+      "teamB": "Los Grandes",
+      "teamBId": "2895",
+      "totalKills": 18,
+      "tournament": "CBLOL 2026 Split 1",
+      "tournamentLine": "CBLOL 2026 Split 1 (BR) - Fearless Draft",
+      "week": "WEEK1",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "CBLOL 2026 Split 1",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-03-28",
+      "game": "FURIA vs Los Grandes",
+      "id": "75677",
+      "killsA": 4,
+      "killsB": 12,
+      "league": "CBLOL",
+      "patch": "16.6",
+      "picks": {
+        "teamA": [
+          "Ambessa",
+          "Gnar",
+          "LeBlanc",
+          "Varus",
+          "Lulu"
+        ],
+        "teamB": [
+          "Jayce",
+          "Jarvan IV",
+          "Ahri",
+          "Sivir",
+          "Neeko"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/75677/page-game/",
+      "teamA": "FURIA",
+      "teamAId": "2889",
+      "teamB": "Los Grandes",
+      "teamBId": "2895",
+      "totalKills": 16,
+      "tournament": "CBLOL 2026 Split 1",
+      "tournamentLine": "CBLOL 2026 Split 1 (BR) - Fearless Draft",
+      "week": "WEEK1",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "CBLOL 2026 Split 1",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-03-28",
+      "game": "LOUD vs RED Canids",
+      "id": "75675",
+      "killsA": 17,
+      "killsB": 4,
+      "league": "CBLOL",
+      "patch": "16.6",
+      "picks": {
+        "teamA": [
+          "Rumble",
+          "Aatrox",
+          "Yone",
+          "Lucian",
+          "Nami"
+        ],
+        "teamB": [
+          "Sion",
+          "Jarvan IV",
+          "Zoe",
+          "Kalista",
+          "Renata Glasc"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/75675/page-game/",
+      "teamA": "RED Canids",
+      "teamAId": "2893",
+      "teamB": "LOUD",
+      "teamBId": "2891",
+      "totalKills": 21,
+      "tournament": "CBLOL 2026 Split 1",
+      "tournamentLine": "CBLOL 2026 Split 1 (BR) - Fearless Draft",
+      "week": "WEEK1",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "CBLOL 2026 Split 1",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-03-28",
+      "game": "LOUD vs RED Canids",
+      "id": "75674",
+      "killsA": 30,
+      "killsB": 16,
+      "league": "CBLOL",
+      "patch": "16.6",
+      "picks": {
+        "teamA": [
+          "Ambessa",
+          "Xin Zhao",
+          "Ahri",
+          "Varus",
+          "Ashe"
+        ],
+        "teamB": [
+          "RekSai",
+          "Vi",
+          "Aurora",
+          "Ezreal",
+          "Seraphine"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/75674/page-game/",
+      "teamA": "RED Canids",
+      "teamAId": "2893",
+      "teamB": "LOUD",
+      "teamBId": "2891",
+      "totalKills": 46,
+      "tournament": "CBLOL 2026 Split 1",
+      "tournamentLine": "CBLOL 2026 Split 1 (BR) - Fearless Draft",
+      "week": "WEEK1",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "CBLOL 2026 Split 1",
+      "collectedAt": "2026-05-26T00:08:26.399Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "collectedAt": "2026-05-25T23:54:12.355Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-03-01",
+      "game": "LOUD vs RED Canids",
+      "id": "75050",
+      "killsA": 18,
+      "killsB": 22,
+      "league": "CBLOL",
+      "patch": "16.4",
+      "picks": {
+        "teamA": [
+          "Gwen",
+          "Trundle",
+          "Ryze",
+          "Kaisa",
+          "Leona"
+        ],
+        "teamB": [
+          "Ambessa",
+          "Malphite",
+          "Cassiopeia",
+          "Jhin",
+          "Alistar"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "CBLOL Cup 2026",
+      "sourceUrl": "https://gol.gg/game/stats/75050/page-game/",
+      "stage": "cup",
+      "teamA": "RED Canids",
+      "teamAId": "2893",
+      "teamB": "LOUD",
+      "teamBId": "2891",
+      "totalKills": 40,
+      "tournament": "CBLOL Cup 2026",
+      "tournamentLine": "CBLOL Cup 2026 (BR) - Fearless Draft",
+      "week": "FINALS"
+    },
+    {
+      "collectedAt": "2026-05-25T23:54:13.068Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-03-01",
+      "game": "LOUD vs RED Canids",
+      "id": "75049",
+      "killsA": 6,
+      "killsB": 12,
+      "league": "CBLOL",
+      "patch": "16.4",
+      "picks": {
+        "teamA": [
+          "Rumble",
+          "Vi",
+          "Akali",
+          "Ezreal",
+          "Bard"
+        ],
+        "teamB": [
+          "KSante",
+          "Jarvan IV",
+          "Orianna",
+          "Xayah",
+          "Rakan"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "CBLOL Cup 2026",
+      "sourceUrl": "https://gol.gg/game/stats/75049/page-game/",
+      "stage": "cup",
+      "teamA": "RED Canids",
+      "teamAId": "2893",
+      "teamB": "LOUD",
+      "teamBId": "2891",
+      "totalKills": 18,
+      "tournament": "CBLOL Cup 2026",
+      "tournamentLine": "CBLOL Cup 2026 (BR) - Fearless Draft",
+      "week": "FINALS"
+    },
+    {
+      "collectedAt": "2026-05-25T23:54:13.903Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-03-01",
+      "game": "LOUD vs RED Canids",
+      "id": "75048",
+      "killsA": 20,
+      "killsB": 13,
+      "league": "CBLOL",
+      "patch": "16.4",
+      "picks": {
+        "teamA": [
+          "RekSai",
+          "Nocturne",
+          "Aurora",
+          "Yunara",
+          "Lulu"
+        ],
+        "teamB": [
+          "Sion",
+          "Xin Zhao",
+          "Viktor",
+          "Ashe",
+          "Seraphine"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "CBLOL Cup 2026",
+      "sourceUrl": "https://gol.gg/game/stats/75048/page-game/",
+      "stage": "cup",
+      "teamA": "LOUD",
+      "teamAId": "2891",
+      "teamB": "RED Canids",
+      "teamBId": "2893",
+      "totalKills": 33,
+      "tournament": "CBLOL Cup 2026",
+      "tournamentLine": "CBLOL Cup 2026 (BR) - Fearless Draft",
+      "week": "FINALS"
+    },
+    {
+      "collectedAt": "2026-05-25T23:54:14.707Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-02-28",
+      "game": "RED Canids vs FURIA",
+      "id": "74840",
+      "killsA": 8,
+      "killsB": 12,
+      "league": "CBLOL",
+      "patch": "16.4",
+      "picks": {
+        "teamA": [
+          "Renekton",
+          "Sejuani",
+          "Aurora",
+          "Lucian",
+          "Milio"
+        ],
+        "teamB": [
+          "KSante",
+          "Nidalee",
+          "Tristana",
+          "Ziggs",
+          "Nautilus"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "CBLOL Cup 2026",
+      "sourceUrl": "https://gol.gg/game/stats/74840/page-game/",
+      "stage": "cup",
+      "teamA": "FURIA",
+      "teamAId": "2889",
+      "teamB": "RED Canids",
+      "teamBId": "2893",
+      "totalKills": 20,
+      "tournament": "CBLOL Cup 2026",
+      "tournamentLine": "CBLOL Cup 2026 (BR) - Fearless Draft",
+      "week": "ROUND4"
+    },
+    {
+      "collectedAt": "2026-05-25T23:54:15.941Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-02-28",
+      "game": "RED Canids vs FURIA",
+      "id": "74839",
+      "killsA": 14,
+      "killsB": 7,
+      "league": "CBLOL",
+      "patch": "16.4",
+      "picks": {
+        "teamA": [
+          "Rumble",
+          "Skarner",
+          "Cassiopeia",
+          "Miss Fortune",
+          "Alistar"
+        ],
+        "teamB": [
+          "Galio",
+          "Pantheon",
+          "Sylas",
+          "Jinx",
+          "Bard"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "CBLOL Cup 2026",
+      "sourceUrl": "https://gol.gg/game/stats/74839/page-game/",
+      "stage": "cup",
+      "teamA": "FURIA",
+      "teamAId": "2889",
+      "teamB": "RED Canids",
+      "teamBId": "2893",
+      "totalKills": 21,
+      "tournament": "CBLOL Cup 2026",
+      "tournamentLine": "CBLOL Cup 2026 (BR) - Fearless Draft",
+      "week": "ROUND4"
+    },
+    {
+      "collectedAt": "2026-05-25T23:54:17.364Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-02-28",
+      "game": "RED Canids vs FURIA",
+      "id": "74838",
+      "killsA": 8,
+      "killsB": 14,
+      "league": "CBLOL",
+      "patch": "16.4",
+      "picks": {
+        "teamA": [
+          "Sion",
+          "Jayce",
+          "Ryze",
+          "Corki",
+          "Nami"
+        ],
+        "teamB": [
+          "Gnar",
+          "Xin Zhao",
+          "Syndra",
+          "Ezreal",
+          "Leona"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "CBLOL Cup 2026",
+      "sourceUrl": "https://gol.gg/game/stats/74838/page-game/",
+      "stage": "cup",
+      "teamA": "FURIA",
+      "teamAId": "2889",
+      "teamB": "RED Canids",
+      "teamBId": "2893",
+      "totalKills": 22,
+      "tournament": "CBLOL Cup 2026",
+      "tournamentLine": "CBLOL Cup 2026 (BR) - Fearless Draft",
+      "week": "ROUND4"
+    },
+    {
+      "collectedAt": "2026-05-25T23:54:18.952Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-02-28",
+      "game": "RED Canids vs FURIA",
+      "id": "74837",
+      "killsA": 17,
+      "killsB": 11,
+      "league": "CBLOL",
+      "patch": "16.4",
+      "picks": {
+        "teamA": [
+          "Ambessa",
+          "Vi",
+          "Taliyah",
+          "Jhin",
+          "Karma"
+        ],
+        "teamB": [
+          "Zaahen",
+          "Wukong",
+          "Orianna",
+          "Yunara",
+          "Rakan"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "CBLOL Cup 2026",
+      "sourceUrl": "https://gol.gg/game/stats/74837/page-game/",
+      "stage": "cup",
+      "teamA": "RED Canids",
+      "teamAId": "2893",
+      "teamB": "FURIA",
+      "teamBId": "2889",
+      "totalKills": 28,
+      "tournament": "CBLOL Cup 2026",
+      "tournamentLine": "CBLOL Cup 2026 (BR) - Fearless Draft",
+      "week": "ROUND4"
+    },
+    {
+      "collectedAt": "2026-05-25T23:54:20.388Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-02-22",
+      "game": "Los Grandes vs FURIA",
+      "id": "74814",
+      "killsA": 4,
+      "killsB": 14,
+      "league": "CBLOL",
+      "patch": "16.4",
+      "picks": {
+        "teamA": [
+          "Aatrox",
+          "Nocturne",
+          "Aurora",
+          "Ezreal",
+          "Alistar"
+        ],
+        "teamB": [
+          "Camille",
+          "Naafiri",
+          "Syndra",
+          "Miss Fortune",
+          "Leona"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "CBLOL Cup 2026",
+      "sourceUrl": "https://gol.gg/game/stats/74814/page-game/",
+      "stage": "cup",
+      "teamA": "Los Grandes",
+      "teamAId": "2895",
+      "teamB": "FURIA",
+      "teamBId": "2889",
+      "totalKills": 18,
+      "tournament": "CBLOL Cup 2026",
+      "tournamentLine": "CBLOL Cup 2026 (BR) - Fearless Draft",
+      "week": "ROUND3"
+    },
+    {
+      "collectedAt": "2026-05-25T23:54:22.001Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-02-22",
+      "game": "Los Grandes vs FURIA",
+      "id": "74813",
+      "killsA": 8,
+      "killsB": 15,
+      "league": "CBLOL",
+      "patch": "16.4",
+      "picks": {
+        "teamA": [
+          "Zaahen",
+          "Dr. Mundo",
+          "Ryze",
+          "Jhin",
+          "Blitzcrank"
+        ],
+        "teamB": [
+          "Jax",
+          "Xin Zhao",
+          "Anivia",
+          "Ashe",
+          "Seraphine"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "CBLOL Cup 2026",
+      "sourceUrl": "https://gol.gg/game/stats/74813/page-game/",
+      "stage": "cup",
+      "teamA": "Los Grandes",
+      "teamAId": "2895",
+      "teamB": "FURIA",
+      "teamBId": "2889",
+      "totalKills": 23,
+      "tournament": "CBLOL Cup 2026",
+      "tournamentLine": "CBLOL Cup 2026 (BR) - Fearless Draft",
+      "week": "ROUND3"
+    },
+    {
+      "collectedAt": "2026-05-25T23:54:23.793Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-02-22",
+      "game": "Los Grandes vs FURIA",
+      "id": "74812",
+      "killsA": 6,
+      "killsB": 18,
+      "league": "CBLOL",
+      "patch": "16.4",
+      "picks": {
+        "teamA": [
+          "Gnar",
+          "Vi",
+          "Taliyah",
+          "Lucian",
+          "Nami"
+        ],
+        "teamB": [
+          "Sion",
+          "Jayce",
+          "Ahri",
+          "Xayah",
+          "Rakan"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "CBLOL Cup 2026",
+      "sourceUrl": "https://gol.gg/game/stats/74812/page-game/",
+      "stage": "cup",
+      "teamA": "Los Grandes",
+      "teamAId": "2895",
+      "teamB": "FURIA",
+      "teamBId": "2889",
+      "totalKills": 24,
+      "tournament": "CBLOL Cup 2026",
+      "tournamentLine": "CBLOL Cup 2026 (BR) - Fearless Draft",
+      "week": "ROUND3"
+    },
+    {
+      "collectedAt": "2026-05-25T23:54:25.266Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-02-22",
+      "game": "Los Grandes vs FURIA",
+      "id": "74811",
+      "killsA": 19,
+      "killsB": 4,
+      "league": "CBLOL",
+      "patch": "16.4",
+      "picks": {
+        "teamA": [
+          "Rumble",
+          "Wukong",
+          "Galio",
+          "Corki",
+          "Bard"
+        ],
+        "teamB": [
+          "Ornn",
+          "Jarvan IV",
+          "Akali",
+          "Kaisa",
+          "Neeko"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "CBLOL Cup 2026",
+      "sourceUrl": "https://gol.gg/game/stats/74811/page-game/",
+      "stage": "cup",
+      "teamA": "Los Grandes",
+      "teamAId": "2895",
+      "teamB": "FURIA",
+      "teamBId": "2889",
+      "totalKills": 23,
+      "tournament": "CBLOL Cup 2026",
+      "tournamentLine": "CBLOL Cup 2026 (BR) - Fearless Draft",
+      "week": "ROUND3"
+    },
+    {
+      "collectedAt": "2026-05-25T23:54:26.940Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-02-21",
+      "game": "LOUD vs RED Canids",
+      "id": "74809",
+      "killsA": 14,
+      "killsB": 18,
+      "league": "CBLOL",
+      "patch": "16.4",
+      "picks": {
+        "teamA": [
+          "Gwen",
+          "Aatrox",
+          "Ekko",
+          "Miss Fortune",
+          "Poppy"
+        ],
+        "teamB": [
+          "Akali",
+          "Qiyana",
+          "Syndra",
+          "Sivir",
+          "Alistar"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "CBLOL Cup 2026",
+      "sourceUrl": "https://gol.gg/game/stats/74809/page-game/",
+      "stage": "cup",
+      "teamA": "RED Canids",
+      "teamAId": "2893",
+      "teamB": "LOUD",
+      "teamBId": "2891",
+      "totalKills": 32,
+      "tournament": "CBLOL Cup 2026",
+      "tournamentLine": "CBLOL Cup 2026 (BR) - Fearless Draft",
+      "week": "ROUND4"
+    },
+    {
+      "collectedAt": "2026-05-25T23:54:28.382Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-02-21",
+      "game": "LOUD vs RED Canids",
+      "id": "74808",
+      "killsA": 14,
+      "killsB": 20,
+      "league": "CBLOL",
+      "patch": "16.4",
+      "picks": {
+        "teamA": [
+          "RekSai",
+          "Pantheon",
+          "Ahri",
+          "Ashe",
+          "Seraphine"
+        ],
+        "teamB": [
+          "KSante",
+          "Dr. Mundo",
+          "Mel",
+          "Corki",
+          "Nami"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "CBLOL Cup 2026",
+      "sourceUrl": "https://gol.gg/game/stats/74808/page-game/",
+      "stage": "cup",
+      "teamA": "RED Canids",
+      "teamAId": "2893",
+      "teamB": "LOUD",
+      "teamBId": "2891",
+      "totalKills": 34,
+      "tournament": "CBLOL Cup 2026",
+      "tournamentLine": "CBLOL Cup 2026 (BR) - Fearless Draft",
+      "week": "ROUND4"
+    },
+    {
+      "collectedAt": "2026-05-25T23:54:29.919Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-02-21",
+      "game": "LOUD vs RED Canids",
+      "id": "74807",
+      "killsA": 11,
+      "killsB": 18,
+      "league": "CBLOL",
+      "patch": "16.4",
+      "picks": {
+        "teamA": [
+          "Renekton",
+          "Vi",
+          "Taliyah",
+          "Kaisa",
+          "Nautilus"
+        ],
+        "teamB": [
+          "Gnar",
+          "Xin Zhao",
+          "Aurora",
+          "Ezreal",
+          "Leona"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "CBLOL Cup 2026",
+      "sourceUrl": "https://gol.gg/game/stats/74807/page-game/",
+      "stage": "cup",
+      "teamA": "RED Canids",
+      "teamAId": "2893",
+      "teamB": "LOUD",
+      "teamBId": "2891",
+      "totalKills": 29,
+      "tournament": "CBLOL Cup 2026",
+      "tournamentLine": "CBLOL Cup 2026 (BR) - Fearless Draft",
+      "week": "ROUND4"
+    },
+    {
+      "collectedAt": "2026-05-25T23:54:31.369Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-02-21",
+      "game": "LOUD vs RED Canids",
+      "id": "74806",
+      "killsA": 3,
+      "killsB": 18,
+      "league": "CBLOL",
+      "patch": "16.4",
+      "picks": {
+        "teamA": [
+          "Sion",
+          "Jarvan IV",
+          "Ryze",
+          "Yunara",
+          "Lulu"
+        ],
+        "teamB": [
+          "Rumble",
+          "Nocturne",
+          "Orianna",
+          "Jhin",
+          "Rakan"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "CBLOL Cup 2026",
+      "sourceUrl": "https://gol.gg/game/stats/74806/page-game/",
+      "stage": "cup",
+      "teamA": "LOUD",
+      "teamAId": "2891",
+      "teamB": "RED Canids",
+      "teamBId": "2893",
+      "totalKills": 21,
+      "tournament": "CBLOL Cup 2026",
+      "tournamentLine": "CBLOL Cup 2026 (BR) - Fearless Draft",
+      "week": "ROUND4"
+    },
+    {
+      "collectedAt": "2026-05-25T23:54:32.590Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-02-15",
+      "game": "FURIA vs Leviatan",
+      "id": "74564",
+      "killsA": 8,
+      "killsB": 18,
+      "league": "CBLOL",
+      "patch": "16.3",
+      "picks": {
+        "teamA": [
+          "Gwen",
+          "Xin Zhao",
+          "Galio",
+          "Sivir",
+          "Nautilus"
+        ],
+        "teamB": [
+          "Jax",
+          "Wukong",
+          "Akali",
+          "Sion",
+          "Senna"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "CBLOL Cup 2026",
+      "sourceUrl": "https://gol.gg/game/stats/74564/page-game/",
+      "stage": "cup",
+      "teamA": "Leviatan",
+      "teamAId": "2890",
+      "teamB": "FURIA",
+      "teamBId": "2889",
+      "totalKills": 26,
+      "tournament": "CBLOL Cup 2026",
+      "tournamentLine": "CBLOL Cup 2026 (BR) - Fearless Draft",
+      "week": "ROUND2"
+    },
+    {
+      "collectedAt": "2026-05-25T23:54:34.043Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-02-15",
+      "game": "FURIA vs Leviatan",
+      "id": "74563",
+      "killsA": 14,
+      "killsB": 22,
+      "league": "CBLOL",
+      "patch": "16.3",
+      "picks": {
+        "teamA": [
+          "Renekton",
+          "Vi",
+          "Taliyah",
+          "Corki",
+          "Bard"
+        ],
+        "teamB": [
+          "KSante",
+          "Aatrox",
+          "Orianna",
+          "Ashe",
+          "Seraphine"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "CBLOL Cup 2026",
+      "sourceUrl": "https://gol.gg/game/stats/74563/page-game/",
+      "stage": "cup",
+      "teamA": "Leviatan",
+      "teamAId": "2890",
+      "teamB": "FURIA",
+      "teamBId": "2889",
+      "totalKills": 36,
+      "tournament": "CBLOL Cup 2026",
+      "tournamentLine": "CBLOL Cup 2026 (BR) - Fearless Draft",
+      "week": "ROUND2"
+    },
+    {
+      "collectedAt": "2026-05-25T23:54:35.458Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-02-15",
+      "game": "FURIA vs Leviatan",
+      "id": "74562",
+      "killsA": 4,
+      "killsB": 20,
+      "league": "CBLOL",
+      "patch": "16.3",
+      "picks": {
+        "teamA": [
+          "Rumble",
+          "Ambessa",
+          "Ryze",
+          "Kaisa",
+          "Leona"
+        ],
+        "teamB": [
+          "Ornn",
+          "Pantheon",
+          "Anivia",
+          "Yunara",
+          "Alistar"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "CBLOL Cup 2026",
+      "sourceUrl": "https://gol.gg/game/stats/74562/page-game/",
+      "stage": "cup",
+      "teamA": "Leviatan",
+      "teamAId": "2890",
+      "teamB": "FURIA",
+      "teamBId": "2889",
+      "totalKills": 24,
+      "tournament": "CBLOL Cup 2026",
+      "tournamentLine": "CBLOL Cup 2026 (BR) - Fearless Draft",
+      "week": "ROUND2"
+    },
+    {
+      "collectedAt": "2026-05-25T23:54:36.698Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-02-14",
+      "game": "VKS vs Leviatan",
+      "id": "74208",
+      "killsA": 18,
+      "killsB": 6,
+      "league": "CBLOL",
+      "patch": "16.3",
+      "picks": {
+        "teamA": [
+          "Renekton",
+          "Trundle",
+          "Ahri",
+          "Sivir",
+          "Rell"
+        ],
+        "teamB": [
+          "Jax",
+          "Sejuani",
+          "Yone",
+          "Smolder",
+          "Bard"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "CBLOL Cup 2026",
+      "sourceUrl": "https://gol.gg/game/stats/74208/page-game/",
+      "stage": "cup",
+      "teamA": "Leviatan",
+      "teamAId": "2890",
+      "teamB": "Vivo Keyd Stars",
+      "teamBId": "2894",
+      "totalKills": 24,
+      "tournament": "CBLOL Cup 2026",
+      "tournamentLine": "CBLOL Cup 2026 (BR) - Fearless Draft",
+      "week": "ROUND1"
+    },
+    {
+      "collectedAt": "2026-05-25T23:57:56.967Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-02-14",
+      "game": "VKS vs Leviatan",
+      "id": "74207",
+      "killsA": 10,
+      "killsB": 18,
+      "league": "CBLOL",
+      "patch": "16.3",
+      "picks": {
+        "teamA": [
+          "Kennen",
+          "Pantheon",
+          "Zoe",
+          "Lucian",
+          "Nami"
+        ],
+        "teamB": [
+          "Ornn",
+          "Qiyana",
+          "Viktor",
+          "Ezreal",
+          "Neeko"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "CBLOL Cup 2026",
+      "sourceUrl": "https://gol.gg/game/stats/74207/page-game/",
+      "stage": "cup",
+      "teamA": "Leviatan",
+      "teamAId": "2890",
+      "teamB": "Vivo Keyd Stars",
+      "teamBId": "2894",
+      "totalKills": 28,
+      "tournament": "CBLOL Cup 2026",
+      "tournamentLine": "CBLOL Cup 2026 (BR) - Fearless Draft",
+      "week": "ROUND1"
+    },
+    {
+      "collectedAt": "2026-05-25T23:57:57.659Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-02-14",
+      "game": "VKS vs Leviatan",
+      "id": "74206",
+      "killsA": 16,
+      "killsB": 9,
+      "league": "CBLOL",
+      "patch": "16.3",
+      "picks": {
+        "teamA": [
+          "Sion",
+          "Nocturne",
+          "Aurora",
+          "Kaisa",
+          "Leona"
+        ],
+        "teamB": [
+          "Aatrox",
+          "Wukong",
+          "Orianna",
+          "Corki",
+          "Alistar"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "CBLOL Cup 2026",
+      "sourceUrl": "https://gol.gg/game/stats/74206/page-game/",
+      "stage": "cup",
+      "teamA": "Leviatan",
+      "teamAId": "2890",
+      "teamB": "Vivo Keyd Stars",
+      "teamBId": "2894",
+      "totalKills": 25,
+      "tournament": "CBLOL Cup 2026",
+      "tournamentLine": "CBLOL Cup 2026 (BR) - Fearless Draft",
+      "week": "ROUND1"
+    },
+    {
+      "collectedAt": "2026-05-25T23:57:58.389Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-02-14",
+      "game": "VKS vs Leviatan",
+      "id": "74205",
+      "killsA": 15,
+      "killsB": 6,
+      "league": "CBLOL",
+      "patch": "16.3",
+      "picks": {
+        "teamA": [
+          "Rumble",
+          "Vi",
+          "Ryze",
+          "Xayah",
+          "Rakan"
+        ],
+        "teamB": [
+          "KSante",
+          "Jarvan IV",
+          "Taliyah",
+          "Yunara",
+          "Nautilus"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "CBLOL Cup 2026",
+      "sourceUrl": "https://gol.gg/game/stats/74205/page-game/",
+      "stage": "cup",
+      "teamA": "Leviatan",
+      "teamAId": "2890",
+      "teamB": "Vivo Keyd Stars",
+      "teamBId": "2894",
+      "totalKills": 21,
+      "tournament": "CBLOL Cup 2026",
+      "tournamentLine": "CBLOL Cup 2026 (BR) - Fearless Draft",
+      "week": "ROUND1"
+    },
+    {
+      "collectedAt": "2026-05-25T23:57:59.780Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-02-08",
+      "game": "Los Grandes vs LOUD",
+      "id": "74204",
+      "killsA": 9,
+      "killsB": 14,
+      "league": "CBLOL",
+      "patch": "16.3",
+      "picks": {
+        "teamA": [
+          "Gnar",
+          "Jarvan IV",
+          "Zoe",
+          "Caitlyn",
+          "Karma"
+        ],
+        "teamB": [
+          "Renekton",
+          "Xin Zhao",
+          "Sylas",
+          "Jhin",
+          "Neeko"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "CBLOL Cup 2026",
+      "sourceUrl": "https://gol.gg/game/stats/74204/page-game/",
+      "stage": "cup",
+      "teamA": "Los Grandes",
+      "teamAId": "2895",
+      "teamB": "LOUD",
+      "teamBId": "2891",
+      "totalKills": 23,
+      "tournament": "CBLOL Cup 2026",
+      "tournamentLine": "CBLOL Cup 2026 (BR) - Fearless Draft",
+      "week": "ROUND2"
+    },
+    {
+      "collectedAt": "2026-05-25T23:58:00.590Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-02-08",
+      "game": "Los Grandes vs LOUD",
+      "id": "74203",
+      "killsA": 8,
+      "killsB": 18,
+      "league": "CBLOL",
+      "patch": "16.3",
+      "picks": {
+        "teamA": [
+          "KSante",
+          "Jayce",
+          "Viktor",
+          "Aphelios",
+          "Lulu"
+        ],
+        "teamB": [
+          "RekSai",
+          "Malphite",
+          "Aurora",
+          "Lucian",
+          "Nami"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "CBLOL Cup 2026",
+      "sourceUrl": "https://gol.gg/game/stats/74203/page-game/",
+      "stage": "cup",
+      "teamA": "Los Grandes",
+      "teamAId": "2895",
+      "teamB": "LOUD",
+      "teamBId": "2891",
+      "totalKills": 26,
+      "tournament": "CBLOL Cup 2026",
+      "tournamentLine": "CBLOL Cup 2026 (BR) - Fearless Draft",
+      "week": "ROUND2"
+    },
+    {
+      "collectedAt": "2026-05-25T23:58:02.352Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-02-08",
+      "game": "Los Grandes vs LOUD",
+      "id": "74202",
+      "killsA": 23,
+      "killsB": 16,
+      "league": "CBLOL",
+      "patch": "16.3",
+      "picks": {
+        "teamA": [
+          "Rumble",
+          "Pantheon",
+          "Taliyah",
+          "Corki",
+          "Alistar"
+        ],
+        "teamB": [
+          "Sion",
+          "Aatrox",
+          "Ryze",
+          "Ezreal",
+          "Nautilus"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "CBLOL Cup 2026",
+      "sourceUrl": "https://gol.gg/game/stats/74202/page-game/",
+      "stage": "cup",
+      "teamA": "Los Grandes",
+      "teamAId": "2895",
+      "teamB": "LOUD",
+      "teamBId": "2891",
+      "totalKills": 39,
+      "tournament": "CBLOL Cup 2026",
+      "tournamentLine": "CBLOL Cup 2026 (BR) - Fearless Draft",
+      "week": "ROUND2"
+    },
+    {
+      "collectedAt": "2026-05-25T23:58:04.295Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-02-08",
+      "game": "RED Canids vs FURIA",
+      "id": "74200",
+      "killsA": 12,
+      "killsB": 23,
+      "league": "CBLOL",
+      "patch": "16.3",
+      "picks": {
+        "teamA": [
+          "Jax",
+          "Pantheon",
+          "Taliyah",
+          "Yunara",
+          "Lulu"
+        ],
+        "teamB": [
+          "Renekton",
+          "Sejuani",
+          "Ryze",
+          "Miss Fortune",
+          "Rakan"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "CBLOL Cup 2026",
+      "sourceUrl": "https://gol.gg/game/stats/74200/page-game/",
+      "stage": "cup",
+      "teamA": "FURIA",
+      "teamAId": "2889",
+      "teamB": "RED Canids",
+      "teamBId": "2893",
+      "totalKills": 35,
+      "tournament": "CBLOL Cup 2026",
+      "tournamentLine": "CBLOL Cup 2026 (BR) - Fearless Draft",
+      "week": "ROUND2"
+    },
+    {
+      "collectedAt": "2026-05-25T23:58:06.640Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-02-08",
+      "game": "RED Canids vs FURIA",
+      "id": "74199",
+      "killsA": 20,
+      "killsB": 16,
+      "league": "CBLOL",
+      "patch": "16.3",
+      "picks": {
+        "teamA": [
+          "Ambessa",
+          "Nocturne",
+          "LeBlanc",
+          "Kaisa",
+          "Neeko"
+        ],
+        "teamB": [
+          "Rumble",
+          "Wukong",
+          "Ahri",
+          "Corki",
+          "Nami"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "CBLOL Cup 2026",
+      "sourceUrl": "https://gol.gg/game/stats/74199/page-game/",
+      "stage": "cup",
+      "teamA": "RED Canids",
+      "teamAId": "2893",
+      "teamB": "FURIA",
+      "teamBId": "2889",
+      "totalKills": 36,
+      "tournament": "CBLOL Cup 2026",
+      "tournamentLine": "CBLOL Cup 2026 (BR) - Fearless Draft",
+      "week": "ROUND2"
+    },
+    {
+      "collectedAt": "2026-05-25T23:58:11.418Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-02-07",
+      "game": "FURIA vs Leviatan",
+      "id": "74062",
+      "killsA": 9,
+      "killsB": 22,
+      "league": "CBLOL",
+      "patch": "16.3",
+      "picks": {
+        "teamA": [
+          "KSante",
+          "Vi",
+          "Cassiopeia",
+          "Caitlyn",
+          "Karma"
+        ],
+        "teamB": [
+          "Gwen",
+          "Jarvan IV",
+          "Ryze",
+          "Ashe",
+          "Seraphine"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "CBLOL Cup 2026",
+      "sourceUrl": "https://gol.gg/game/stats/74062/page-game/",
+      "stage": "cup",
+      "teamA": "Leviatan",
+      "teamAId": "2890",
+      "teamB": "FURIA",
+      "teamBId": "2889",
+      "totalKills": 31,
+      "tournament": "CBLOL Cup 2026",
+      "tournamentLine": "CBLOL Cup 2026 (BR) - Fearless Draft",
+      "week": "ROUND1"
+    },
+    {
+      "collectedAt": "2026-05-25T23:58:13.173Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-02-07",
+      "game": "FURIA vs Leviatan",
+      "id": "74061",
+      "killsA": 7,
+      "killsB": 21,
+      "league": "CBLOL",
+      "patch": "16.3",
+      "picks": {
+        "teamA": [
+          "Sion",
+          "Dr. Mundo",
+          "Orianna",
+          "Corki",
+          "Nami"
+        ],
+        "teamB": [
+          "Rumble",
+          "Pantheon",
+          "Syndra",
+          "Yunara",
+          "Lulu"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "CBLOL Cup 2026",
+      "sourceUrl": "https://gol.gg/game/stats/74061/page-game/",
+      "stage": "cup",
+      "teamA": "Leviatan",
+      "teamAId": "2890",
+      "teamB": "FURIA",
+      "teamBId": "2889",
+      "totalKills": 28,
+      "tournament": "CBLOL Cup 2026",
+      "tournamentLine": "CBLOL Cup 2026 (BR) - Fearless Draft",
+      "week": "ROUND1"
+    },
+    {
+      "collectedAt": "2026-05-25T23:58:14.607Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-02-07",
+      "game": "LOUD vs VKS",
+      "id": "74059",
+      "killsA": 11,
+      "killsB": 12,
+      "league": "CBLOL",
+      "patch": "16.3",
+      "picks": {
+        "teamA": [
+          "Sion",
+          "Xin Zhao",
+          "Azir",
+          "Aphelios",
+          "Thresh"
+        ],
+        "teamB": [
+          "Gwen",
+          "Qiyana",
+          "Yone",
+          "Ezreal",
+          "Leona"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "CBLOL Cup 2026",
+      "sourceUrl": "https://gol.gg/game/stats/74059/page-game/",
+      "stage": "cup",
+      "teamA": "Vivo Keyd Stars",
+      "teamAId": "2894",
+      "teamB": "LOUD",
+      "teamBId": "2891",
+      "totalKills": 23,
+      "tournament": "CBLOL Cup 2026",
+      "tournamentLine": "CBLOL Cup 2026 (BR) - Fearless Draft",
+      "week": "ROUND1"
+    },
+    {
+      "collectedAt": "2026-05-25T23:58:16.309Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-02-07",
+      "game": "LOUD vs VKS",
+      "id": "74058",
+      "killsA": 19,
+      "killsB": 16,
+      "league": "CBLOL",
+      "patch": "16.3",
+      "picks": {
+        "teamA": [
+          "Ambessa",
+          "Vi",
+          "Taliyah",
+          "Kaisa",
+          "Neeko"
+        ],
+        "teamB": [
+          "Rumble",
+          "Jarvan IV",
+          "Ryze",
+          "Yunara",
+          "Nami"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "CBLOL Cup 2026",
+      "sourceUrl": "https://gol.gg/game/stats/74058/page-game/",
+      "stage": "cup",
+      "teamA": "LOUD",
+      "teamAId": "2891",
+      "teamB": "Vivo Keyd Stars",
+      "teamBId": "2894",
+      "totalKills": 35,
+      "tournament": "CBLOL Cup 2026",
+      "tournamentLine": "CBLOL Cup 2026 (BR) - Fearless Draft",
+      "week": "ROUND1"
+    },
+    {
+      "collectedAt": "2026-05-25T23:58:18.287Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-02-03",
+      "game": "paiN Gaming vs Leviatan",
+      "id": "74039",
+      "killsA": 32,
+      "killsB": 15,
+      "league": "CBLOL",
+      "patch": "16.2",
+      "picks": {
+        "teamA": [
+          "Kennen",
+          "Aatrox",
+          "Syndra",
+          "Ezreal",
+          "Alistar"
+        ],
+        "teamB": [
+          "Jax",
+          "Jarvan IV",
+          "Aurora",
+          "Sivir",
+          "Leona"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "CBLOL Cup 2026",
+      "sourceUrl": "https://gol.gg/game/stats/74039/page-game/",
+      "stage": "cup",
+      "teamA": "Leviatan",
+      "teamAId": "2890",
+      "teamB": "paiN Gaming",
+      "teamBId": "2892",
+      "totalKills": 47,
+      "tournament": "CBLOL Cup 2026",
+      "tournamentLine": "CBLOL Cup 2026 (BR) - Fearless Draft",
+      "week": "PLAYIN.LASTCHANCE"
+    },
+    {
+      "collectedAt": "2026-05-25T23:58:19.699Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-02-03",
+      "game": "paiN Gaming vs Leviatan",
+      "id": "74038",
+      "killsA": 23,
+      "killsB": 8,
+      "league": "CBLOL",
+      "patch": "16.2",
+      "picks": {
+        "teamA": [
+          "Rumble",
+          "Ambessa",
+          "Zoe",
+          "Aphelios",
+          "Milio"
+        ],
+        "teamB": [
+          "Yorick",
+          "Qiyana",
+          "Azir",
+          "Lucian",
+          "Nami"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "CBLOL Cup 2026",
+      "sourceUrl": "https://gol.gg/game/stats/74038/page-game/",
+      "stage": "cup",
+      "teamA": "Leviatan",
+      "teamAId": "2890",
+      "teamB": "paiN Gaming",
+      "teamBId": "2892",
+      "totalKills": 31,
+      "tournament": "CBLOL Cup 2026",
+      "tournamentLine": "CBLOL Cup 2026 (BR) - Fearless Draft",
+      "week": "PLAYIN.LASTCHANCE"
+    },
+    {
+      "collectedAt": "2026-05-25T23:58:21.151Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-02-03",
+      "game": "paiN Gaming vs Leviatan",
+      "id": "74037",
+      "killsA": 8,
+      "killsB": 20,
+      "league": "CBLOL",
+      "patch": "16.2",
+      "picks": {
+        "teamA": [
+          "RekSai",
+          "Vi",
+          "Ahri",
+          "Yunara",
+          "Lulu"
+        ],
+        "teamB": [
+          "Sion",
+          "Pantheon",
+          "Sylas",
+          "Xayah",
+          "Rakan"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "CBLOL Cup 2026",
+      "sourceUrl": "https://gol.gg/game/stats/74037/page-game/",
+      "stage": "cup",
+      "teamA": "paiN Gaming",
+      "teamAId": "2892",
+      "teamB": "Leviatan",
+      "teamBId": "2890",
+      "totalKills": 28,
+      "tournament": "CBLOL Cup 2026",
+      "tournamentLine": "CBLOL Cup 2026 (BR) - Fearless Draft",
+      "week": "PLAYIN.LASTCHANCE"
+    },
+    {
+      "collectedAt": "2026-05-25T23:58:22.611Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-02-03",
+      "game": "paiN Gaming vs Leviatan",
+      "id": "74036",
+      "killsA": 5,
+      "killsB": 17,
+      "league": "CBLOL",
+      "patch": "16.2",
+      "picks": {
+        "teamA": [
+          "Renekton",
+          "Wukong",
+          "Ryze",
+          "Kaisa",
+          "Neeko"
+        ],
+        "teamB": [
+          "KSante",
+          "Nocturne",
+          "Orianna",
+          "Corki",
+          "Bard"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "CBLOL Cup 2026",
+      "sourceUrl": "https://gol.gg/game/stats/74036/page-game/",
+      "stage": "cup",
+      "teamA": "Leviatan",
+      "teamAId": "2890",
+      "teamB": "paiN Gaming",
+      "teamBId": "2892",
+      "totalKills": 22,
+      "tournament": "CBLOL Cup 2026",
+      "tournamentLine": "CBLOL Cup 2026 (BR) - Fearless Draft",
+      "week": "PLAYIN.LASTCHANCE"
+    },
+    {
+      "collectedAt": "2026-05-25T23:58:24.292Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-02-02",
+      "game": "Fluxo W7M vs Leviatan",
+      "id": "74024",
+      "killsA": 23,
+      "killsB": 12,
+      "league": "CBLOL",
+      "patch": "16.2",
+      "picks": {
+        "teamA": [
+          "KSante",
+          "Vi",
+          "Cassiopeia",
+          "Lucian",
+          "Milio"
+        ],
+        "teamB": [
+          "Gnar",
+          "Xin Zhao",
+          "Ryze",
+          "Corki",
+          "Nami"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "CBLOL Cup 2026",
+      "sourceUrl": "https://gol.gg/game/stats/74024/page-game/",
+      "stage": "cup",
+      "teamA": "Leviatan",
+      "teamAId": "2890",
+      "teamB": "Fluxo W7M",
+      "teamBId": "2888",
+      "totalKills": 35,
+      "tournament": "CBLOL Cup 2026",
+      "tournamentLine": "CBLOL Cup 2026 (BR) - Fearless Draft",
+      "week": "PLAYIN.ROUND1"
+    },
+    {
+      "collectedAt": "2026-05-25T23:58:26.227Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-02-02",
+      "game": "Fluxo W7M vs Leviatan",
+      "id": "74023",
+      "killsA": 20,
+      "killsB": 3,
+      "league": "CBLOL",
+      "patch": "16.2",
+      "picks": {
+        "teamA": [
+          "Sion",
+          "Nocturne",
+          "Orianna",
+          "Ezreal",
+          "Leona"
+        ],
+        "teamB": [
+          "Rumble",
+          "Jarvan IV",
+          "Taliyah",
+          "Kaisa",
+          "Nautilus"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "CBLOL Cup 2026",
+      "sourceUrl": "https://gol.gg/game/stats/74023/page-game/",
+      "stage": "cup",
+      "teamA": "Leviatan",
+      "teamAId": "2890",
+      "teamB": "Fluxo W7M",
+      "teamBId": "2888",
+      "totalKills": 23,
+      "tournament": "CBLOL Cup 2026",
+      "tournamentLine": "CBLOL Cup 2026 (BR) - Fearless Draft",
+      "week": "PLAYIN.ROUND1"
+    },
+    {
+      "collectedAt": "2026-05-25T23:58:28.292Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-02-02",
+      "game": "VKS vs paiN Gaming",
+      "id": "74022",
+      "killsA": 17,
+      "killsB": 6,
+      "league": "CBLOL",
+      "patch": "16.2",
+      "picks": {
+        "teamA": [
+          "Renekton",
+          "Aatrox",
+          "Ahri",
+          "Yunara",
+          "Nami"
+        ],
+        "teamB": [
+          "Gnar",
+          "Xin Zhao",
+          "Galio",
+          "Zeri",
+          "Lulu"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "CBLOL Cup 2026",
+      "sourceUrl": "https://gol.gg/game/stats/74022/page-game/",
+      "stage": "cup",
+      "teamA": "Vivo Keyd Stars",
+      "teamAId": "2894",
+      "teamB": "paiN Gaming",
+      "teamBId": "2892",
+      "totalKills": 23,
+      "tournament": "CBLOL Cup 2026",
+      "tournamentLine": "CBLOL Cup 2026 (BR) - Fearless Draft",
+      "week": "PLAYIN.ROUND1"
+    },
+    {
+      "collectedAt": "2026-05-25T23:58:30.056Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-02-02",
+      "game": "VKS vs paiN Gaming",
+      "id": "74021",
+      "killsA": 5,
+      "killsB": 19,
+      "league": "CBLOL",
+      "patch": "16.2",
+      "picks": {
+        "teamA": [
+          "Zaahen",
+          "Pantheon",
+          "Orianna",
+          "Sivir",
+          "Neeko"
+        ],
+        "teamB": [
+          "Sion",
+          "Wukong",
+          "Azir",
+          "Varus",
+          "Karma"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "CBLOL Cup 2026",
+      "sourceUrl": "https://gol.gg/game/stats/74021/page-game/",
+      "stage": "cup",
+      "teamA": "Vivo Keyd Stars",
+      "teamAId": "2894",
+      "teamB": "paiN Gaming",
+      "teamBId": "2892",
+      "totalKills": 24,
+      "tournament": "CBLOL Cup 2026",
+      "tournamentLine": "CBLOL Cup 2026 (BR) - Fearless Draft",
+      "week": "PLAYIN.ROUND1"
+    },
+    {
+      "collectedAt": "2026-05-25T23:59:49.137Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-02-02",
+      "game": "VKS vs paiN Gaming",
+      "id": "74020",
+      "killsA": 20,
+      "killsB": 12,
+      "league": "CBLOL",
+      "patch": "16.2",
+      "picks": {
+        "teamA": [
+          "Ambessa",
+          "Vi",
+          "Taliyah",
+          "Ezreal",
+          "Rell"
+        ],
+        "teamB": [
+          "Rumble",
+          "Jarvan IV",
+          "Ryze",
+          "Corki",
+          "Nautilus"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "CBLOL Cup 2026",
+      "sourceUrl": "https://gol.gg/game/stats/74020/page-game/",
+      "stage": "cup",
+      "teamA": "Vivo Keyd Stars",
+      "teamAId": "2894",
+      "teamB": "paiN Gaming",
+      "teamBId": "2892",
+      "totalKills": 32,
+      "tournament": "CBLOL Cup 2026",
+      "tournamentLine": "CBLOL Cup 2026 (BR) - Fearless Draft",
+      "week": "PLAYIN.ROUND1"
+    },
+    {
+      "collectedAt": "2026-05-25T23:59:50.211Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-02-01",
+      "game": "LOUD vs Fluxo W7M",
+      "id": "73746",
+      "killsA": 5,
+      "killsB": 18,
+      "league": "CBLOL",
+      "patch": "16.2",
+      "picks": {
+        "teamA": [
+          "Gnar",
+          "Malphite",
+          "Syndra",
+          "Corki",
+          "Rakan"
+        ],
+        "teamB": [
+          "Renekton",
+          "Jarvan IV",
+          "Ryze",
+          "Jhin",
+          "Alistar"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "CBLOL Cup 2026",
+      "sourceUrl": "https://gol.gg/game/stats/73746/page-game/",
+      "stage": "cup",
+      "teamA": "LOUD",
+      "teamAId": "2891",
+      "teamB": "Fluxo W7M",
+      "teamBId": "2888",
+      "totalKills": 23,
+      "tournament": "CBLOL Cup 2026",
+      "tournamentLine": "CBLOL Cup 2026 (BR) - Fearless Draft",
+      "week": "WEEK3"
+    },
+    {
+      "collectedAt": "2026-05-25T23:59:50.885Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-02-01",
+      "game": "paiN Gaming vs Leviatan",
+      "id": "73745",
+      "killsA": 9,
+      "killsB": 29,
+      "league": "CBLOL",
+      "patch": "16.2",
+      "picks": {
+        "teamA": [
+          "Rumble",
+          "Jarvan IV",
+          "Aurora",
+          "Kalista",
+          "Renata Glasc"
+        ],
+        "teamB": [
+          "Ambessa",
+          "Pantheon",
+          "Galio",
+          "Lucian",
+          "Nami"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "CBLOL Cup 2026",
+      "sourceUrl": "https://gol.gg/game/stats/73745/page-game/",
+      "stage": "cup",
+      "teamA": "Leviatan",
+      "teamAId": "2890",
+      "teamB": "paiN Gaming",
+      "teamBId": "2892",
+      "totalKills": 38,
+      "tournament": "CBLOL Cup 2026",
+      "tournamentLine": "CBLOL Cup 2026 (BR) - Fearless Draft",
+      "week": "WEEK3"
+    },
+    {
+      "collectedAt": "2026-05-25T23:59:51.542Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-02-01",
+      "game": "FURIA vs VKS",
+      "id": "73744",
+      "killsA": 4,
+      "killsB": 19,
+      "league": "CBLOL",
+      "patch": "16.2",
+      "picks": {
+        "teamA": [
+          "Rumble",
+          "Xin Zhao",
+          "Ryze",
+          "Corki",
+          "Bard"
+        ],
+        "teamB": [
+          "KSante",
+          "Jarvan IV",
+          "Syndra",
+          "Yunara",
+          "Lulu"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "CBLOL Cup 2026",
+      "sourceUrl": "https://gol.gg/game/stats/73744/page-game/",
+      "stage": "cup",
+      "teamA": "Vivo Keyd Stars",
+      "teamAId": "2894",
+      "teamB": "FURIA",
+      "teamBId": "2889",
+      "totalKills": 23,
+      "tournament": "CBLOL Cup 2026",
+      "tournamentLine": "CBLOL Cup 2026 (BR) - Fearless Draft",
+      "week": "WEEK3"
+    },
+    {
+      "collectedAt": "2026-05-25T23:59:52.254Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-02-01",
+      "game": "Los Grandes vs RED Canids",
+      "id": "73743",
+      "killsA": 14,
+      "killsB": 10,
+      "league": "CBLOL",
+      "patch": "16.2",
+      "picks": {
+        "teamA": [
+          "Renekton",
+          "Wukong",
+          "Orianna",
+          "Ezreal",
+          "Bard"
+        ],
+        "teamB": [
+          "Gnar",
+          "Jarvan IV",
+          "Sylas",
+          "Yunara",
+          "Rakan"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "CBLOL Cup 2026",
+      "sourceUrl": "https://gol.gg/game/stats/73743/page-game/",
+      "stage": "cup",
+      "teamA": "Los Grandes",
+      "teamAId": "2895",
+      "teamB": "RED Canids",
+      "teamBId": "2893",
+      "totalKills": 24,
+      "tournament": "CBLOL Cup 2026",
+      "tournamentLine": "CBLOL Cup 2026 (BR) - Fearless Draft",
+      "week": "WEEK3"
+    },
+    {
+      "collectedAt": "2026-05-25T23:59:52.982Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-01-31",
+      "game": "Leviatan vs LOUD",
+      "id": "73742",
+      "killsA": 10,
+      "killsB": 21,
+      "league": "CBLOL",
+      "patch": "16.2",
+      "picks": {
+        "teamA": [
+          "Renekton",
+          "Aatrox",
+          "Ryze",
+          "Sivir",
+          "Bard"
+        ],
+        "teamB": [
+          "Sion",
+          "Jarvan IV",
+          "Cassiopeia",
+          "Varus",
+          "Neeko"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "CBLOL Cup 2026",
+      "sourceUrl": "https://gol.gg/game/stats/73742/page-game/",
+      "stage": "cup",
+      "teamA": "LOUD",
+      "teamAId": "2891",
+      "teamB": "Leviatan",
+      "teamBId": "2890",
+      "totalKills": 31,
+      "tournament": "CBLOL Cup 2026",
+      "tournamentLine": "CBLOL Cup 2026 (BR) - Fearless Draft",
+      "week": "WEEK3"
+    },
+    {
+      "collectedAt": "2026-05-25T23:59:53.674Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-01-31",
+      "game": "Los Grandes vs paiN Gaming",
+      "id": "73741",
+      "killsA": 7,
+      "killsB": 19,
+      "league": "CBLOL",
+      "patch": "16.2",
+      "picks": {
+        "teamA": [
+          "Vayne",
+          "Malphite",
+          "Azir",
+          "Corki",
+          "Leona"
+        ],
+        "teamB": [
+          "Renekton",
+          "Dr. Mundo",
+          "Ryze",
+          "Sivir",
+          "Bard"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "CBLOL Cup 2026",
+      "sourceUrl": "https://gol.gg/game/stats/73741/page-game/",
+      "stage": "cup",
+      "teamA": "Los Grandes",
+      "teamAId": "2895",
+      "teamB": "paiN Gaming",
+      "teamBId": "2892",
+      "totalKills": 26,
+      "tournament": "CBLOL Cup 2026",
+      "tournamentLine": "CBLOL Cup 2026 (BR) - Fearless Draft",
+      "week": "WEEK3"
+    },
+    {
+      "collectedAt": "2026-05-25T23:59:54.388Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-01-31",
+      "game": "FURIA vs Fluxo W7M",
+      "id": "73740",
+      "killsA": 24,
+      "killsB": 9,
+      "league": "CBLOL",
+      "patch": "16.2",
+      "picks": {
+        "teamA": [
+          "Rumble",
+          "Pantheon",
+          "Akali",
+          "Yunara",
+          "Rell"
+        ],
+        "teamB": [
+          "Aurora",
+          "Jarvan IV",
+          "Azir",
+          "Corki",
+          "Nautilus"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "CBLOL Cup 2026",
+      "sourceUrl": "https://gol.gg/game/stats/73740/page-game/",
+      "stage": "cup",
+      "teamA": "FURIA",
+      "teamAId": "2889",
+      "teamB": "Fluxo W7M",
+      "teamBId": "2888",
+      "totalKills": 33,
+      "tournament": "CBLOL Cup 2026",
+      "tournamentLine": "CBLOL Cup 2026 (BR) - Fearless Draft",
+      "week": "WEEK3"
+    },
+    {
+      "collectedAt": "2026-05-25T23:59:55.112Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-01-31",
+      "game": "VKS vs RED Canids",
+      "id": "73739",
+      "killsA": 4,
+      "killsB": 28,
+      "league": "CBLOL",
+      "patch": "16.2",
+      "picks": {
+        "teamA": [
+          "Rumble",
+          "Nocturne",
+          "Yone",
+          "Sivir",
+          "Leona"
+        ],
+        "teamB": [
+          "Sion",
+          "Pantheon",
+          "Ahri",
+          "Varus",
+          "Bard"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "CBLOL Cup 2026",
+      "sourceUrl": "https://gol.gg/game/stats/73739/page-game/",
+      "stage": "cup",
+      "teamA": "Vivo Keyd Stars",
+      "teamAId": "2894",
+      "teamB": "RED Canids",
+      "teamBId": "2893",
+      "totalKills": 32,
+      "tournament": "CBLOL Cup 2026",
+      "tournamentLine": "CBLOL Cup 2026 (BR) - Fearless Draft",
+      "week": "WEEK3"
+    },
+    {
+      "collectedAt": "2026-05-25T23:59:55.898Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-01-25",
+      "game": "Los Grandes vs FURIA",
+      "id": "73426",
+      "killsA": 14,
+      "killsB": 4,
+      "league": "CBLOL",
+      "patch": "16.2",
+      "picks": {
+        "teamA": [
+          "Rumble",
+          "Wukong",
+          "Taliyah",
+          "Corki",
+          "Nautilus"
+        ],
+        "teamB": [
+          "Ambessa",
+          "Xin Zhao",
+          "Ryze",
+          "Ezreal",
+          "Leona"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "CBLOL Cup 2026",
+      "sourceUrl": "https://gol.gg/game/stats/73426/page-game/",
+      "stage": "cup",
+      "teamA": "Los Grandes",
+      "teamAId": "2895",
+      "teamB": "FURIA",
+      "teamBId": "2889",
+      "totalKills": 18,
+      "tournament": "CBLOL Cup 2026",
+      "tournamentLine": "CBLOL Cup 2026 (BR) - Fearless Draft",
+      "week": "WEEK2"
+    },
+    {
+      "collectedAt": "2026-05-25T23:59:56.806Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-01-25",
+      "game": "LOUD vs VKS",
+      "id": "73425",
+      "killsA": 9,
+      "killsB": 6,
+      "league": "CBLOL",
+      "patch": "16.2",
+      "picks": {
+        "teamA": [
+          "KSante",
+          "Qiyana",
+          "Ryze",
+          "Ezreal",
+          "Leona"
+        ],
+        "teamB": [
+          "Rumble",
+          "Wukong",
+          "Orianna",
+          "Yunara",
+          "Nautilus"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "CBLOL Cup 2026",
+      "sourceUrl": "https://gol.gg/game/stats/73425/page-game/",
+      "stage": "cup",
+      "teamA": "LOUD",
+      "teamAId": "2891",
+      "teamB": "Vivo Keyd Stars",
+      "teamBId": "2894",
+      "totalKills": 15,
+      "tournament": "CBLOL Cup 2026",
+      "tournamentLine": "CBLOL Cup 2026 (BR) - Fearless Draft",
+      "week": "WEEK2"
+    },
+    {
+      "collectedAt": "2026-05-25T23:59:57.838Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-01-25",
+      "game": "paiN Gaming vs RED Canids",
+      "id": "73424",
+      "killsA": 31,
+      "killsB": 9,
+      "league": "CBLOL",
+      "patch": "16.2",
+      "picks": {
+        "teamA": [
+          "Sion",
+          "Xin Zhao",
+          "Taliyah",
+          "Yunara",
+          "Leona"
+        ],
+        "teamB": [
+          "Rumble",
+          "Wukong",
+          "Azir",
+          "Ashe",
+          "Seraphine"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "CBLOL Cup 2026",
+      "sourceUrl": "https://gol.gg/game/stats/73424/page-game/",
+      "stage": "cup",
+      "teamA": "RED Canids",
+      "teamAId": "2893",
+      "teamB": "paiN Gaming",
+      "teamBId": "2892",
+      "totalKills": 40,
+      "tournament": "CBLOL Cup 2026",
+      "tournamentLine": "CBLOL Cup 2026 (BR) - Fearless Draft",
+      "week": "WEEK2"
+    },
+    {
+      "collectedAt": "2026-05-25T23:59:59.275Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-01-25",
+      "game": "Fluxo W7M vs Leviatan",
+      "id": "73423",
+      "killsA": 25,
+      "killsB": 12,
+      "league": "CBLOL",
+      "patch": "16.2",
+      "picks": {
+        "teamA": [
+          "Rumble",
+          "Jarvan IV",
+          "Cassiopeia",
+          "Miss Fortune",
+          "Alistar"
+        ],
+        "teamB": [
+          "KSante",
+          "Xin Zhao",
+          "Ryze",
+          "Jhin",
+          "Bard"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "CBLOL Cup 2026",
+      "sourceUrl": "https://gol.gg/game/stats/73423/page-game/",
+      "stage": "cup",
+      "teamA": "Leviatan",
+      "teamAId": "2890",
+      "teamB": "Fluxo W7M",
+      "teamBId": "2888",
+      "totalKills": 37,
+      "tournament": "CBLOL Cup 2026",
+      "tournamentLine": "CBLOL Cup 2026 (BR) - Fearless Draft",
+      "week": "WEEK2"
+    },
+    {
+      "collectedAt": "2026-05-26T00:00:00.100Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-01-25",
+      "game": "RED Canids vs LOUD",
+      "id": "73422",
+      "killsA": 31,
+      "killsB": 17,
+      "league": "CBLOL",
+      "patch": "16.2",
+      "picks": {
+        "teamA": [
+          "Rumble",
+          "Pantheon",
+          "Azir",
+          "Lucian",
+          "Pyke"
+        ],
+        "teamB": [
+          "Ambessa",
+          "Jarvan IV",
+          "Ryze",
+          "Corki",
+          "Nami"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "CBLOL Cup 2026",
+      "sourceUrl": "https://gol.gg/game/stats/73422/page-game/",
+      "stage": "cup",
+      "teamA": "RED Canids",
+      "teamAId": "2893",
+      "teamB": "LOUD",
+      "teamBId": "2891",
+      "totalKills": 48,
+      "tournament": "CBLOL Cup 2026",
+      "tournamentLine": "CBLOL Cup 2026 (BR) - Fearless Draft",
+      "week": "WEEK2"
+    },
+    {
+      "collectedAt": "2026-05-26T00:00:01.182Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-01-24",
+      "game": "Fluxo W7M vs paiN Gaming",
+      "id": "73421",
+      "killsA": 14,
+      "killsB": 19,
+      "league": "CBLOL",
+      "patch": "16.2",
+      "picks": {
+        "teamA": [
+          "Olaf",
+          "Pantheon",
+          "Taliyah",
+          "Yunara",
+          "Rakan"
+        ],
+        "teamB": [
+          "Renekton",
+          "Jarvan IV",
+          "Ryze",
+          "Kaisa",
+          "Alistar"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "CBLOL Cup 2026",
+      "sourceUrl": "https://gol.gg/game/stats/73421/page-game/",
+      "stage": "cup",
+      "teamA": "paiN Gaming",
+      "teamAId": "2892",
+      "teamB": "Fluxo W7M",
+      "teamBId": "2888",
+      "totalKills": 33,
+      "tournament": "CBLOL Cup 2026",
+      "tournamentLine": "CBLOL Cup 2026 (BR) - Fearless Draft",
+      "week": "WEEK2"
+    },
+    {
+      "collectedAt": "2026-05-26T00:00:01.997Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-01-24",
+      "game": "LOUD vs Los Grandes",
+      "id": "73420",
+      "killsA": 27,
+      "killsB": 4,
+      "league": "CBLOL",
+      "patch": "16.2",
+      "picks": {
+        "teamA": [
+          "Aurora",
+          "Wukong",
+          "Akali",
+          "Corki",
+          "Bard"
+        ],
+        "teamB": [
+          "Rumble",
+          "Nocturne",
+          "Orianna",
+          "Lucian",
+          "Alistar"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "CBLOL Cup 2026",
+      "sourceUrl": "https://gol.gg/game/stats/73420/page-game/",
+      "stage": "cup",
+      "teamA": "Los Grandes",
+      "teamAId": "2895",
+      "teamB": "LOUD",
+      "teamBId": "2891",
+      "totalKills": 31,
+      "tournament": "CBLOL Cup 2026",
+      "tournamentLine": "CBLOL Cup 2026 (BR) - Fearless Draft",
+      "week": "WEEK2"
+    },
+    {
+      "collectedAt": "2026-05-26T00:00:02.791Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-01-24",
+      "game": "VKS vs Leviatan",
+      "id": "73419",
+      "killsA": 17,
+      "killsB": 2,
+      "league": "CBLOL",
+      "patch": "16.2",
+      "picks": {
+        "teamA": [
+          "Rumble",
+          "Wukong",
+          "Ahri",
+          "Yunara",
+          "Nautilus"
+        ],
+        "teamB": [
+          "KSante",
+          "Xin Zhao",
+          "Orianna",
+          "Kaisa",
+          "Rell"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "CBLOL Cup 2026",
+      "sourceUrl": "https://gol.gg/game/stats/73419/page-game/",
+      "stage": "cup",
+      "teamA": "Vivo Keyd Stars",
+      "teamAId": "2894",
+      "teamB": "Leviatan",
+      "teamBId": "2890",
+      "totalKills": 19,
+      "tournament": "CBLOL Cup 2026",
+      "tournamentLine": "CBLOL Cup 2026 (BR) - Fearless Draft",
+      "week": "WEEK2"
+    },
+    {
+      "collectedAt": "2026-05-26T00:00:03.577Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-01-24",
+      "game": "RED Canids vs FURIA",
+      "id": "73418",
+      "killsA": 21,
+      "killsB": 7,
+      "league": "CBLOL",
+      "patch": "16.2",
+      "picks": {
+        "teamA": [
+          "Rumble",
+          "Xin Zhao",
+          "Ryze",
+          "Yunara",
+          "Bard"
+        ],
+        "teamB": [
+          "KSante",
+          "Wukong",
+          "Anivia",
+          "Corki",
+          "Alistar"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "CBLOL Cup 2026",
+      "sourceUrl": "https://gol.gg/game/stats/73418/page-game/",
+      "stage": "cup",
+      "teamA": "RED Canids",
+      "teamAId": "2893",
+      "teamB": "FURIA",
+      "teamBId": "2889",
+      "totalKills": 28,
+      "tournament": "CBLOL Cup 2026",
+      "tournamentLine": "CBLOL Cup 2026 (BR) - Fearless Draft",
+      "week": "WEEK2"
+    },
+    {
+      "collectedAt": "2026-05-26T00:00:04.568Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-01-24",
+      "game": "Leviatan vs Los Grandes",
+      "id": "73417",
+      "killsA": 11,
+      "killsB": 19,
+      "league": "CBLOL",
+      "patch": "16.2",
+      "picks": {
+        "teamA": [
+          "Ambessa",
+          "Jarvan IV",
+          "Ryze",
+          "Yunara",
+          "Nautilus"
+        ],
+        "teamB": [
+          "Rumble",
+          "Vi",
+          "Taliyah",
+          "Tristana",
+          "Rakan"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "CBLOL Cup 2026",
+      "sourceUrl": "https://gol.gg/game/stats/73417/page-game/",
+      "stage": "cup",
+      "teamA": "Leviatan",
+      "teamAId": "2890",
+      "teamB": "Los Grandes",
+      "teamBId": "2895",
+      "totalKills": 30,
+      "tournament": "CBLOL Cup 2026",
+      "tournamentLine": "CBLOL Cup 2026 (BR) - Fearless Draft",
+      "week": "WEEK2"
+    },
+    {
+      "collectedAt": "2026-05-26T00:00:05.578Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-01-18",
+      "game": "Leviatan vs RED Canids",
+      "id": "73264",
+      "killsA": 17,
+      "killsB": 28,
+      "league": "CBLOL",
+      "patch": "16.1",
+      "picks": {
+        "teamA": [
+          "Renekton",
+          "Pantheon",
+          "Taliyah",
+          "Ezreal",
+          "Rell"
+        ],
+        "teamB": [
+          "Gnar",
+          "Wukong",
+          "Aurora",
+          "Varus",
+          "Rakan"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "CBLOL Cup 2026",
+      "sourceUrl": "https://gol.gg/game/stats/73264/page-game/",
+      "stage": "cup",
+      "teamA": "Leviatan",
+      "teamAId": "2890",
+      "teamB": "RED Canids",
+      "teamBId": "2893",
+      "totalKills": 45,
+      "tournament": "CBLOL Cup 2026",
+      "tournamentLine": "CBLOL Cup 2026 (BR) - Fearless Draft",
+      "week": "WEEK1"
+    },
+    {
+      "collectedAt": "2026-05-26T00:00:10.449Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-01-18",
+      "game": "paiN Gaming vs LOUD",
+      "id": "73263",
+      "killsA": 23,
+      "killsB": 16,
+      "league": "CBLOL",
+      "patch": "16.1",
+      "picks": {
+        "teamA": [
+          "Sion",
+          "Jarvan IV",
+          "Syndra",
+          "Sivir",
+          "Rell"
+        ],
+        "teamB": [
+          "Poppy",
+          "Jayce",
+          "Ryze",
+          "Varus",
+          "Neeko"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "CBLOL Cup 2026",
+      "sourceUrl": "https://gol.gg/game/stats/73263/page-game/",
+      "stage": "cup",
+      "teamA": "LOUD",
+      "teamAId": "2891",
+      "teamB": "paiN Gaming",
+      "teamBId": "2892",
+      "totalKills": 39,
+      "tournament": "CBLOL Cup 2026",
+      "tournamentLine": "CBLOL Cup 2026 (BR) - Fearless Draft",
+      "week": "WEEK1"
+    },
+    {
+      "collectedAt": "2026-05-26T00:00:12.020Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-01-18",
+      "game": "VKS vs Fluxo W7M",
+      "id": "73262",
+      "killsA": 5,
+      "killsB": 25,
+      "league": "CBLOL",
+      "patch": "16.1",
+      "picks": {
+        "teamA": [
+          "Ambessa",
+          "Xin Zhao",
+          "Ahri",
+          "Corki",
+          "Leona"
+        ],
+        "teamB": [
+          "Rumble",
+          "Qiyana",
+          "Taliyah",
+          "Varus",
+          "Alistar"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "CBLOL Cup 2026",
+      "sourceUrl": "https://gol.gg/game/stats/73262/page-game/",
+      "stage": "cup",
+      "teamA": "Fluxo W7M",
+      "teamAId": "2888",
+      "teamB": "Vivo Keyd Stars",
+      "teamBId": "2894",
+      "totalKills": 30,
+      "tournament": "CBLOL Cup 2026",
+      "tournamentLine": "CBLOL Cup 2026 (BR) - Fearless Draft",
+      "week": "WEEK1"
+    },
+    {
+      "collectedAt": "2026-05-26T00:00:12.724Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-01-18",
+      "game": "paiN Gaming vs FURIA",
+      "id": "73261",
+      "killsA": 9,
+      "killsB": 21,
+      "league": "CBLOL",
+      "patch": "16.1",
+      "picks": {
+        "teamA": [
+          "Zaahen",
+          "Xin Zhao",
+          "Orianna",
+          "Ezreal",
+          "Leona"
+        ],
+        "teamB": [
+          "Jax",
+          "Wukong",
+          "Akali",
+          "Varus",
+          "Rakan"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "CBLOL Cup 2026",
+      "sourceUrl": "https://gol.gg/game/stats/73261/page-game/",
+      "stage": "cup",
+      "teamA": "paiN Gaming",
+      "teamAId": "2892",
+      "teamB": "FURIA",
+      "teamBId": "2889",
+      "totalKills": 30,
+      "tournament": "CBLOL Cup 2026",
+      "tournamentLine": "CBLOL Cup 2026 (BR) - Fearless Draft",
+      "week": "WEEK1"
+    },
+    {
+      "collectedAt": "2026-05-26T00:00:13.435Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-01-18",
+      "game": "Fluxo W7M vs Los Grandes",
+      "id": "73260",
+      "killsA": 10,
+      "killsB": 22,
+      "league": "CBLOL",
+      "patch": "16.1",
+      "picks": {
+        "teamA": [
+          "Aatrox",
+          "Wukong",
+          "Orianna",
+          "Yunara",
+          "Leona"
+        ],
+        "teamB": [
+          "Ambessa",
+          "Jarvan IV",
+          "Azir",
+          "Aphelios",
+          "Alistar"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "CBLOL Cup 2026",
+      "sourceUrl": "https://gol.gg/game/stats/73260/page-game/",
+      "stage": "cup",
+      "teamA": "Fluxo W7M",
+      "teamAId": "2888",
+      "teamB": "Los Grandes",
+      "teamBId": "2895",
+      "totalKills": 32,
+      "tournament": "CBLOL Cup 2026",
+      "tournamentLine": "CBLOL Cup 2026 (BR) - Fearless Draft",
+      "week": "WEEK1"
+    },
+    {
+      "collectedAt": "2026-05-26T00:00:14.237Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-01-17",
+      "game": "Leviatan vs FURIA",
+      "id": "73259",
+      "killsA": 5,
+      "killsB": 22,
+      "league": "CBLOL",
+      "patch": "16.1",
+      "picks": {
+        "teamA": [
+          "KSante",
+          "Wukong",
+          "Ryze",
+          "Yunara",
+          "Bard"
+        ],
+        "teamB": [
+          "Zaahen",
+          "Ambessa",
+          "Syndra",
+          "Varus",
+          "Alistar"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "CBLOL Cup 2026",
+      "sourceUrl": "https://gol.gg/game/stats/73259/page-game/",
+      "stage": "cup",
+      "teamA": "Leviatan",
+      "teamAId": "2890",
+      "teamB": "FURIA",
+      "teamBId": "2889",
+      "totalKills": 27,
+      "tournament": "CBLOL Cup 2026",
+      "tournamentLine": "CBLOL Cup 2026 (BR) - Fearless Draft",
+      "week": "WEEK1"
+    },
+    {
+      "collectedAt": "2026-05-26T00:00:15.158Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-01-17",
+      "game": "Los Grandes vs VKS",
+      "id": "73258",
+      "killsA": 17,
+      "killsB": 3,
+      "league": "CBLOL",
+      "patch": "16.1",
+      "picks": {
+        "teamA": [
+          "Rumble",
+          "Vi",
+          "Taliyah",
+          "Ezreal",
+          "Leona"
+        ],
+        "teamB": [
+          "Ambessa",
+          "Jarvan IV",
+          "Ryze",
+          "Miss Fortune",
+          "Rakan"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "CBLOL Cup 2026",
+      "sourceUrl": "https://gol.gg/game/stats/73258/page-game/",
+      "stage": "cup",
+      "teamA": "Los Grandes",
+      "teamAId": "2895",
+      "teamB": "Vivo Keyd Stars",
+      "teamBId": "2894",
+      "totalKills": 20,
+      "tournament": "CBLOL Cup 2026",
+      "tournamentLine": "CBLOL Cup 2026 (BR) - Fearless Draft",
+      "week": "WEEK1"
+    },
+    {
+      "collectedAt": "2026-05-26T00:00:16.055Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-01-17",
+      "game": "FURIA vs LOUD",
+      "id": "73257",
+      "killsA": 6,
+      "killsB": 28,
+      "league": "CBLOL",
+      "patch": "16.1",
+      "picks": {
+        "teamA": [
+          "Rumble",
+          "Lee Sin",
+          "Orianna",
+          "Kaisa",
+          "Rakan"
+        ],
+        "teamB": [
+          "KSante",
+          "Jayce",
+          "Viktor",
+          "Yunara",
+          "Alistar"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "CBLOL Cup 2026",
+      "sourceUrl": "https://gol.gg/game/stats/73257/page-game/",
+      "stage": "cup",
+      "teamA": "LOUD",
+      "teamAId": "2891",
+      "teamB": "FURIA",
+      "teamBId": "2889",
+      "totalKills": 34,
+      "tournament": "CBLOL Cup 2026",
+      "tournamentLine": "CBLOL Cup 2026 (BR) - Fearless Draft",
+      "week": "WEEK1"
+    },
+    {
+      "collectedAt": "2026-05-26T00:00:16.874Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-01-17",
+      "game": "RED Canids vs Fluxo W7M",
+      "id": "73256",
+      "killsA": 20,
+      "killsB": 16,
+      "league": "CBLOL",
+      "patch": "16.1",
+      "picks": {
+        "teamA": [
+          "Sion",
+          "Jayce",
+          "Zoe",
+          "Varus",
+          "Bard"
+        ],
+        "teamB": [
+          "Rumble",
+          "Ambessa",
+          "Galio",
+          "Jhin",
+          "Alistar"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "CBLOL Cup 2026",
+      "sourceUrl": "https://gol.gg/game/stats/73256/page-game/",
+      "stage": "cup",
+      "teamA": "RED Canids",
+      "teamAId": "2893",
+      "teamB": "Fluxo W7M",
+      "teamBId": "2888",
+      "totalKills": 36,
+      "tournament": "CBLOL Cup 2026",
+      "tournamentLine": "CBLOL Cup 2026 (BR) - Fearless Draft",
+      "week": "WEEK1"
+    },
+    {
+      "collectedAt": "2026-05-26T00:00:17.553Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-01-17",
+      "game": "VKS vs paiN Gaming",
+      "id": "73255",
+      "killsA": 23,
+      "killsB": 8,
+      "league": "CBLOL",
+      "patch": "16.1",
+      "picks": {
+        "teamA": [
+          "Ambessa",
+          "Qiyana",
+          "Ryze",
+          "Varus",
+          "Bard"
+        ],
+        "teamB": [
+          "Rumble",
+          "Jarvan IV",
+          "Cassiopeia",
+          "Sivir",
+          "Rell"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "CBLOL Cup 2026",
+      "sourceUrl": "https://gol.gg/game/stats/73255/page-game/",
+      "stage": "cup",
+      "teamA": "Vivo Keyd Stars",
+      "teamAId": "2894",
+      "teamB": "paiN Gaming",
+      "teamBId": "2892",
+      "totalKills": 31,
+      "tournament": "CBLOL Cup 2026",
+      "tournamentLine": "CBLOL Cup 2026 (BR) - Fearless Draft",
+      "week": "WEEK1"
+    }
+  ]
+}

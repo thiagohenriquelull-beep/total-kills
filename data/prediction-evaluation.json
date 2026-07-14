@@ -1,0 +1,4873 @@
+{
+  "report": {
+    "createdAt": "2026-05-26T09:59:51.914Z",
+    "method": "walk-forward",
+    "testsPerLeague": 15,
+    "overall": {
+      "tests": 90,
+      "baseline": {
+        "n": 90,
+        "avgExpected": 29.16,
+        "avgActual": 27.39,
+        "bias": 1.77,
+        "mae": 7.53,
+        "rmse": 9.34,
+        "within2": 0.1556,
+        "within3": 0.2889,
+        "within5": 0.4111
+      },
+      "preDraft": {
+        "n": 90,
+        "avgExpected": 28.53,
+        "avgActual": 27.39,
+        "bias": 1.15,
+        "mae": 7.28,
+        "rmse": 9.14,
+        "within2": 0.2,
+        "within3": 0.2667,
+        "within5": 0.4556
+      },
+      "postDraft": {
+        "n": 90,
+        "avgExpected": 28.48,
+        "avgActual": 27.39,
+        "bias": 1.1,
+        "mae": 7.15,
+        "rmse": 8.94,
+        "within2": 0.1778,
+        "within3": 0.2889,
+        "within5": 0.4333
+      },
+      "postMinusPreMae": -0.13,
+      "preMinusBaselineMae": -0.25
+    },
+    "byLeague": [
+      {
+        "league": "LCK",
+        "tests": 15,
+        "baseline": {
+          "n": 15,
+          "avgExpected": 29.5,
+          "avgActual": 27.8,
+          "bias": 1.7,
+          "mae": 9.1,
+          "rmse": 11,
+          "within2": 0.0667,
+          "within3": 0.2,
+          "within5": 0.3333
+        },
+        "preDraft": {
+          "n": 15,
+          "avgExpected": 27.68,
+          "avgActual": 27.8,
+          "bias": -0.12,
+          "mae": 8.03,
+          "rmse": 10.25,
+          "within2": 0.2667,
+          "within3": 0.2667,
+          "within5": 0.4
+        },
+        "postDraft": {
+          "n": 15,
+          "avgExpected": 27.7,
+          "avgActual": 27.8,
+          "bias": -0.1,
+          "mae": 7.92,
+          "rmse": 10.04,
+          "within2": 0.1333,
+          "within3": 0.2667,
+          "within5": 0.4
+        },
+        "postMinusPreMae": -0.11,
+        "preMinusBaselineMae": -1.07
+      },
+      {
+        "league": "LCKCL",
+        "tests": 15,
+        "baseline": {
+          "n": 15,
+          "avgExpected": 32.8,
+          "avgActual": 35.13,
+          "bias": -2.34,
+          "mae": 10.11,
+          "rmse": 11.87,
+          "within2": 0.1333,
+          "within3": 0.1333,
+          "within5": 0.1333
+        },
+        "preDraft": {
+          "n": 15,
+          "avgExpected": 34.1,
+          "avgActual": 35.13,
+          "bias": -1.03,
+          "mae": 9.81,
+          "rmse": 11.47,
+          "within2": 0.0667,
+          "within3": 0.1333,
+          "within5": 0.2667
+        },
+        "postDraft": {
+          "n": 15,
+          "avgExpected": 33.64,
+          "avgActual": 35.13,
+          "bias": -1.49,
+          "mae": 9.4,
+          "rmse": 11.11,
+          "within2": 0.1333,
+          "within3": 0.1333,
+          "within5": 0.3333
+        },
+        "postMinusPreMae": -0.41,
+        "preMinusBaselineMae": -0.3
+      },
+      {
+        "league": "LPL",
+        "tests": 15,
+        "baseline": {
+          "n": 15,
+          "avgExpected": 28.85,
+          "avgActual": 24.53,
+          "bias": 4.32,
+          "mae": 6.95,
+          "rmse": 8.24,
+          "within2": 0,
+          "within3": 0.3333,
+          "within5": 0.4
+        },
+        "preDraft": {
+          "n": 15,
+          "avgExpected": 26.83,
+          "avgActual": 24.53,
+          "bias": 2.29,
+          "mae": 6.63,
+          "rmse": 7.75,
+          "within2": 0.2,
+          "within3": 0.2,
+          "within5": 0.4667
+        },
+        "postDraft": {
+          "n": 15,
+          "avgExpected": 27.16,
+          "avgActual": 24.53,
+          "bias": 2.63,
+          "mae": 6.31,
+          "rmse": 7.48,
+          "within2": 0.2,
+          "within3": 0.2667,
+          "within5": 0.4667
+        },
+        "postMinusPreMae": -0.32,
+        "preMinusBaselineMae": -0.32
+      },
+      {
+        "league": "CBLOL",
+        "tests": 15,
+        "baseline": {
+          "n": 15,
+          "avgExpected": 27.35,
+          "avgActual": 25.73,
+          "bias": 1.62,
+          "mae": 3.86,
+          "rmse": 4.65,
+          "within2": 0.3333,
+          "within3": 0.4667,
+          "within5": 0.8
+        },
+        "preDraft": {
+          "n": 15,
+          "avgExpected": 26.17,
+          "avgActual": 25.73,
+          "bias": 0.43,
+          "mae": 3.97,
+          "rmse": 4.91,
+          "within2": 0.2667,
+          "within3": 0.5333,
+          "within5": 0.7333
+        },
+        "postDraft": {
+          "n": 15,
+          "avgExpected": 26.64,
+          "avgActual": 25.73,
+          "bias": 0.91,
+          "mae": 4.03,
+          "rmse": 4.9,
+          "within2": 0.2667,
+          "within3": 0.4667,
+          "within5": 0.6
+        },
+        "postMinusPreMae": 0.06,
+        "preMinusBaselineMae": 0.11
+      },
+      {
+        "league": "LEC",
+        "tests": 15,
+        "baseline": {
+          "n": 15,
+          "avgExpected": 30.34,
+          "avgActual": 29.27,
+          "bias": 1.08,
+          "mae": 6.99,
+          "rmse": 8.72,
+          "within2": 0.2,
+          "within3": 0.2667,
+          "within5": 0.4
+        },
+        "preDraft": {
+          "n": 15,
+          "avgExpected": 31.04,
+          "avgActual": 29.27,
+          "bias": 1.77,
+          "mae": 7.01,
+          "rmse": 9.23,
+          "within2": 0.2667,
+          "within3": 0.2667,
+          "within5": 0.4667
+        },
+        "postDraft": {
+          "n": 15,
+          "avgExpected": 30.2,
+          "avgActual": 29.27,
+          "bias": 0.93,
+          "mae": 7.16,
+          "rmse": 9.06,
+          "within2": 0.1333,
+          "within3": 0.3333,
+          "within5": 0.4
+        },
+        "postMinusPreMae": 0.15,
+        "preMinusBaselineMae": 0.02
+      },
+      {
+        "league": "LCS",
+        "tests": 15,
+        "baseline": {
+          "n": 15,
+          "avgExpected": 26.11,
+          "avgActual": 21.87,
+          "bias": 4.24,
+          "mae": 8.19,
+          "rmse": 9.77,
+          "within2": 0.2,
+          "within3": 0.3333,
+          "within5": 0.4
+        },
+        "preDraft": {
+          "n": 15,
+          "avgExpected": 25.39,
+          "avgActual": 21.87,
+          "bias": 3.53,
+          "mae": 8.24,
+          "rmse": 9.76,
+          "within2": 0.1333,
+          "within3": 0.2,
+          "within5": 0.4
+        },
+        "postDraft": {
+          "n": 15,
+          "avgExpected": 25.57,
+          "avgActual": 21.87,
+          "bias": 3.7,
+          "mae": 8.07,
+          "rmse": 9.63,
+          "within2": 0.2,
+          "within3": 0.2667,
+          "within5": 0.4
+        },
+        "postMinusPreMae": -0.17,
+        "preMinusBaselineMae": 0.05
+      }
+    ]
+  },
+  "rows": [
+    {
+      "id": "78233",
+      "league": "LCK",
+      "date": "2026-05-21",
+      "patch": "16.10",
+      "game": "HANJIN BRION vs Dplus KIA",
+      "actual": 20,
+      "baseline": 31.28,
+      "preDraft": 27.736741591325785,
+      "postDraft": 27.562095200042467,
+      "draftDelta": -0.17464639128331783,
+      "draftConfidence": 0.8447204968944099,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Naafiri",
+          "role": "JUNGLE",
+          "value": 0.83,
+          "n": 22,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Renekton",
+          "role": "TOP",
+          "value": -0.82,
+          "n": 74,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Neeko",
+          "role": "SUP",
+          "value": 0.63,
+          "n": 80,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Illaoi",
+          "role": "TOP",
+          "value": -0.6,
+          "n": 2,
+          "source": "global"
+        },
+        {
+          "champion": "Yunara",
+          "role": "ADC",
+          "value": -0.55,
+          "n": 90,
+          "source": "liga+global"
+        }
+      ]
+    },
+    {
+      "id": "78234",
+      "league": "LCK",
+      "date": "2026-05-22",
+      "patch": "16.10",
+      "game": "DN SOOPers vs Kiwoom DRX",
+      "actual": 22,
+      "baseline": 30.48,
+      "preDraft": 27.70468810121226,
+      "postDraft": 27.5730383970366,
+      "draftDelta": -0.1316497041756577,
+      "draftConfidence": 0.8338870431893688,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Rumble",
+          "role": "TOP",
+          "value": 1.7,
+          "n": 36,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Lucian",
+          "role": "ADC",
+          "value": -1.63,
+          "n": 52,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Xin Zhao",
+          "role": "JUNGLE",
+          "value": -1.26,
+          "n": 124,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Milio",
+          "role": "SUP",
+          "value": -1.22,
+          "n": 48,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Miss Fortune",
+          "role": "ADC",
+          "value": 1.02,
+          "n": 28,
+          "source": "liga+global"
+        }
+      ]
+    },
+    {
+      "id": "78235",
+      "league": "LCK",
+      "date": "2026-05-22",
+      "patch": "16.10",
+      "game": "Kiwoom DRX vs DN SOOPers",
+      "actual": 28,
+      "baseline": 30.44,
+      "preDraft": 27.086173655872486,
+      "postDraft": 27.586697624439992,
+      "draftDelta": 0.5005239685675065,
+      "draftConfidence": 0.8567335243553008,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Lee Sin",
+          "role": "JUNGLE",
+          "value": 2.71,
+          "n": 50,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Sivir",
+          "role": "ADC",
+          "value": 1.73,
+          "n": 34,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Nautilus",
+          "role": "SUP",
+          "value": 1.46,
+          "n": 54,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Gnar",
+          "role": "TOP",
+          "value": -0.79,
+          "n": 92,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Pantheon",
+          "role": "JUNGLE",
+          "value": -0.52,
+          "n": 94,
+          "source": "liga+global"
+        }
+      ]
+    },
+    {
+      "id": "78237",
+      "league": "LCK",
+      "date": "2026-05-22",
+      "patch": "16.10",
+      "game": "KT Rolster vs Gen.G",
+      "actual": 17,
+      "baseline": 30.4,
+      "preDraft": 27.828587911061994,
+      "postDraft": 28.02585145938212,
+      "draftDelta": 0.1972635483201266,
+      "draftConfidence": 0.8644986449864499,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Sion",
+          "role": "TOP",
+          "value": 1.43,
+          "n": 60,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Nami",
+          "role": "SUP",
+          "value": -0.91,
+          "n": 30,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Naafiri",
+          "role": "JUNGLE",
+          "value": 0.91,
+          "n": 24,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Anivia",
+          "role": "MID",
+          "value": 0.81,
+          "n": 36,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Pantheon",
+          "role": "JUNGLE",
+          "value": -0.5,
+          "n": 96,
+          "source": "liga+global"
+        }
+      ]
+    },
+    {
+      "id": "78238",
+      "league": "LCK",
+      "date": "2026-05-22",
+      "patch": "16.10",
+      "game": "KT Rolster vs Gen.G",
+      "actual": 28,
+      "baseline": 30.2,
+      "preDraft": 27.03104609925787,
+      "postDraft": 27.469869046564895,
+      "draftDelta": 0.438822947307024,
+      "draftConfidence": 0.8355263157894737,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Nautilus",
+          "role": "SUP",
+          "value": 1.87,
+          "n": 56,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Nocturne",
+          "role": "JUNGLE",
+          "value": 1.52,
+          "n": 60,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Cassiopeia",
+          "role": "MID",
+          "value": 1.11,
+          "n": 40,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Galio",
+          "role": "MID",
+          "value": -0.98,
+          "n": 8,
+          "source": "global"
+        },
+        {
+          "champion": "Seraphine",
+          "role": "SUP",
+          "value": -0.77,
+          "n": 84,
+          "source": "liga+global"
+        }
+      ]
+    },
+    {
+      "id": "78240",
+      "league": "LCK",
+      "date": "2026-05-23",
+      "patch": "16.10",
+      "game": "Dplus KIA vs BNK FearX",
+      "actual": 16,
+      "baseline": 30,
+      "preDraft": 25.456174551707687,
+      "postDraft": 25.4679287272751,
+      "draftDelta": 0.011754175567414649,
+      "draftConfidence": 0.8721227621483376,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Sion",
+          "role": "TOP",
+          "value": 1.56,
+          "n": 62,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Lucian",
+          "role": "ADC",
+          "value": -1.09,
+          "n": 54,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Caitlyn",
+          "role": "ADC",
+          "value": 1.06,
+          "n": 68,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Orianna",
+          "role": "MID",
+          "value": -0.94,
+          "n": 44,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Milio",
+          "role": "SUP",
+          "value": -0.73,
+          "n": 50,
+          "source": "liga+global"
+        }
+      ]
+    },
+    {
+      "id": "78241",
+      "league": "LCK",
+      "date": "2026-05-23",
+      "patch": "16.10",
+      "game": "BNK FearX vs Dplus KIA",
+      "actual": 37,
+      "baseline": 28.72,
+      "preDraft": 23.95820359626836,
+      "postDraft": 24.719381448420524,
+      "draftDelta": 0.7611778521521657,
+      "draftConfidence": 0.8701298701298701,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Lee Sin",
+          "role": "JUNGLE",
+          "value": 2.8,
+          "n": 52,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Rumble",
+          "role": "TOP",
+          "value": 2.38,
+          "n": 38,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Ahri",
+          "role": "MID",
+          "value": 0.89,
+          "n": 38,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Ezreal",
+          "role": "ADC",
+          "value": 0.76,
+          "n": 106,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Ambessa",
+          "role": "TOP",
+          "value": 0.69,
+          "n": 54,
+          "source": "liga+global"
+        }
+      ]
+    },
+    {
+      "id": "78242",
+      "league": "LCK",
+      "date": "2026-05-23",
+      "patch": "16.10",
+      "game": "Dplus KIA vs BNK FearX",
+      "actual": 24,
+      "baseline": 28.36,
+      "preDraft": 25.285302811635535,
+      "postDraft": 26.00199994134498,
+      "draftDelta": 0.7166971297094449,
+      "draftConfidence": 0.8194945848375451,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Poppy",
+          "role": "SUP",
+          "value": 1.73,
+          "n": 6,
+          "source": "global"
+        },
+        {
+          "champion": "Alistar",
+          "role": "SUP",
+          "value": 1.45,
+          "n": 20,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Miss Fortune",
+          "role": "ADC",
+          "value": 1.31,
+          "n": 30,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Jayce",
+          "role": "TOP",
+          "value": 0.62,
+          "n": 98,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Skarner",
+          "role": "JUNGLE",
+          "value": -0.61,
+          "n": 22,
+          "source": "liga+global"
+        }
+      ]
+    },
+    {
+      "id": "78243",
+      "league": "LCK",
+      "date": "2026-05-23",
+      "patch": "16.10",
+      "game": "Hanwha Life Esports vs Nongshim RedForce",
+      "actual": 43,
+      "baseline": 27.96,
+      "preDraft": 26.91902837128867,
+      "postDraft": 27.70668888217441,
+      "draftDelta": 0.7876605108857397,
+      "draftConfidence": 0.8652291105121294,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Rumble",
+          "role": "TOP",
+          "value": 2.36,
+          "n": 40,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Akali",
+          "role": "MID",
+          "value": 1.34,
+          "n": 34,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Lucian",
+          "role": "ADC",
+          "value": -1.19,
+          "n": 56,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Wukong",
+          "role": "JUNGLE",
+          "value": 1.1,
+          "n": 34,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Annie",
+          "role": "MID",
+          "value": 1.08,
+          "n": 86,
+          "source": "liga+global"
+        }
+      ]
+    },
+    {
+      "id": "78244",
+      "league": "LCK",
+      "date": "2026-05-23",
+      "patch": "16.10",
+      "game": "Nongshim RedForce vs Hanwha Life Esports",
+      "actual": 54,
+      "baseline": 28.64,
+      "preDraft": 29.24630400260021,
+      "postDraft": 29.73570419874309,
+      "draftDelta": 0.4894001961428813,
+      "draftConfidence": 0.8516320474777447,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Vi",
+          "role": "JUNGLE",
+          "value": 1.67,
+          "n": 72,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Pyke",
+          "role": "SUP",
+          "value": 1.32,
+          "n": 16,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Nautilus",
+          "role": "SUP",
+          "value": 1.31,
+          "n": 58,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Ziggs",
+          "role": "ADC",
+          "value": 1.23,
+          "n": 18,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Ashe",
+          "role": "ADC",
+          "value": -1.04,
+          "n": 84,
+          "source": "liga+global"
+        }
+      ]
+    },
+    {
+      "id": "78245",
+      "league": "LCK",
+      "date": "2026-05-23",
+      "patch": "16.10",
+      "game": "Hanwha Life Esports vs Nongshim RedForce",
+      "actual": 36,
+      "baseline": 29.28,
+      "preDraft": 32.6001878943174,
+      "postDraft": 31.29537542490479,
+      "draftDelta": -1.3048124694126102,
+      "draftConfidence": 0.8777506112469438,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Nami",
+          "role": "SUP",
+          "value": -2.2,
+          "n": 32,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Gnar",
+          "role": "TOP",
+          "value": -2.04,
+          "n": 96,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Ryze",
+          "role": "MID",
+          "value": -1.94,
+          "n": 98,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Lee Sin",
+          "role": "JUNGLE",
+          "value": 1.9,
+          "n": 54,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Jarvan IV",
+          "role": "JUNGLE",
+          "value": -1.5,
+          "n": 124,
+          "source": "liga+global"
+        }
+      ]
+    },
+    {
+      "id": "78246",
+      "league": "LCK",
+      "date": "2026-05-24",
+      "patch": "16.10",
+      "game": "Gen.G vs DN SOOPers",
+      "actual": 25,
+      "baseline": 29.52,
+      "preDraft": 29.853786275048368,
+      "postDraft": 28.80730080925519,
+      "draftDelta": -1.0464854657931788,
+      "draftConfidence": 0.8655913978494624,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Seraphine",
+          "role": "SUP",
+          "value": -2.24,
+          "n": 88,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Ryze",
+          "role": "MID",
+          "value": -2.05,
+          "n": 100,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Skarner",
+          "role": "JUNGLE",
+          "value": -1.84,
+          "n": 24,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Ashe",
+          "role": "ADC",
+          "value": -1.81,
+          "n": 86,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Lee Sin",
+          "role": "JUNGLE",
+          "value": 1.76,
+          "n": 56,
+          "source": "liga+global"
+        }
+      ]
+    },
+    {
+      "id": "78247",
+      "league": "LCK",
+      "date": "2026-05-24",
+      "patch": "16.10",
+      "game": "Gen.G vs DN SOOPers",
+      "actual": 20,
+      "baseline": 29.52,
+      "preDraft": 28.22522082513688,
+      "postDraft": 27.574434173727234,
+      "draftDelta": -0.6507866514096463,
+      "draftConfidence": 0.8148148148148148,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Lucian",
+          "role": "ADC",
+          "value": -2.34,
+          "n": 58,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Nami",
+          "role": "SUP",
+          "value": -1.97,
+          "n": 34,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Milio",
+          "role": "SUP",
+          "value": -1.95,
+          "n": 54,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Akali",
+          "role": "MID",
+          "value": 0.51,
+          "n": 36,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Maokai",
+          "role": "JUNGLE",
+          "value": -0.42,
+          "n": 4,
+          "source": "global"
+        }
+      ]
+    },
+    {
+      "id": "78249",
+      "league": "LCK",
+      "date": "2026-05-24",
+      "patch": "16.10",
+      "game": "T1 vs HANJIN BRION",
+      "actual": 18,
+      "baseline": 28.8,
+      "preDraft": 29.232481184660024,
+      "postDraft": 29.620124356683476,
+      "draftDelta": 0.3876431720234521,
+      "draftConfidence": 0.8371335504885994,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Lee Sin",
+          "role": "JUNGLE",
+          "value": 2.19,
+          "n": 58,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Pyke",
+          "role": "SUP",
+          "value": 2.05,
+          "n": 18,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Rumble",
+          "role": "TOP",
+          "value": 1.55,
+          "n": 44,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Ryze",
+          "role": "MID",
+          "value": -1.4,
+          "n": 102,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Lux",
+          "role": "SUP",
+          "value": 1.2,
+          "n": 14,
+          "source": "global"
+        }
+      ]
+    },
+    {
+      "id": "78250",
+      "league": "LCK",
+      "date": "2026-05-24",
+      "patch": "16.10",
+      "game": "T1 vs HANJIN BRION",
+      "actual": 29,
+      "baseline": 28.84,
+      "preDraft": 27.080348494023355,
+      "postDraft": 26.358100609874665,
+      "draftDelta": -0.7222478841486897,
+      "draftConfidence": 0.8901098901098901,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Lucian",
+          "role": "ADC",
+          "value": -1.66,
+          "n": 60,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Milio",
+          "role": "SUP",
+          "value": -1.31,
+          "n": 56,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Seraphine",
+          "role": "SUP",
+          "value": -1.11,
+          "n": 90,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Xin Zhao",
+          "role": "JUNGLE",
+          "value": -0.79,
+          "n": 130,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Ashe",
+          "role": "ADC",
+          "value": -0.71,
+          "n": 88,
+          "source": "liga+global"
+        }
+      ]
+    },
+    {
+      "id": "78274",
+      "league": "LCKCL",
+      "date": "2026-05-21",
+      "patch": "16.10",
+      "game": "Nongshim Esports Academy vs Gen.G Global Academy",
+      "actual": 54,
+      "baseline": 30.68,
+      "preDraft": 30.089950603916098,
+      "postDraft": 31.536783018752768,
+      "draftDelta": 1.4468324148366705,
+      "draftConfidence": 0.9121265377855887,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Akali",
+          "role": "MID",
+          "value": 2.8,
+          "n": 68,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Vi",
+          "role": "JUNGLE",
+          "value": 2.8,
+          "n": 126,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Nautilus",
+          "role": "SUP",
+          "value": 2.8,
+          "n": 104,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Zaahen",
+          "role": "TOP",
+          "value": 0.73,
+          "n": 36,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Xin Zhao",
+          "role": "JUNGLE",
+          "value": 0.72,
+          "n": 178,
+          "source": "liga+global"
+        }
+      ]
+    },
+    {
+      "id": "78276",
+      "league": "LCKCL",
+      "date": "2026-05-22",
+      "patch": "16.10",
+      "game": "BNK FEARX Youth vs KT Rolster Challengers",
+      "actual": 37,
+      "baseline": 31.08,
+      "preDraft": 32.74415821780972,
+      "postDraft": 32.23966927510817,
+      "draftDelta": -0.5044889427015491,
+      "draftConfidence": 0.9246987951807228,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Akali",
+          "role": "MID",
+          "value": 2.8,
+          "n": 70,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Bard",
+          "role": "SUP",
+          "value": -1.24,
+          "n": 136,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Lulu",
+          "role": "SUP",
+          "value": -1.04,
+          "n": 152,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Yunara",
+          "role": "ADC",
+          "value": -1.03,
+          "n": 174,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Jayce",
+          "role": "TOP",
+          "value": -0.84,
+          "n": 116,
+          "source": "liga+global"
+        }
+      ]
+    },
+    {
+      "id": "78277",
+      "league": "LCKCL",
+      "date": "2026-05-22",
+      "patch": "16.10",
+      "game": "KT Rolster Challengers vs BNK FEARX Youth",
+      "actual": 51,
+      "baseline": 31.08,
+      "preDraft": 33.8921029599559,
+      "postDraft": 33.77241393787974,
+      "draftDelta": -0.11968902207615884,
+      "draftConfidence": 0.9054820415879017,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Nami",
+          "role": "SUP",
+          "value": -1.6,
+          "n": 78,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Gnar",
+          "role": "TOP",
+          "value": 1.18,
+          "n": 154,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Annie",
+          "role": "MID",
+          "value": 1.08,
+          "n": 70,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Kalista",
+          "role": "ADC",
+          "value": -0.88,
+          "n": 12,
+          "source": "global"
+        },
+        {
+          "champion": "Corki",
+          "role": "ADC",
+          "value": -0.85,
+          "n": 110,
+          "source": "liga+global"
+        }
+      ]
+    },
+    {
+      "id": "78278",
+      "league": "LCKCL",
+      "date": "2026-05-22",
+      "patch": "16.10",
+      "game": "BNK FEARX Youth vs KT Rolster Challengers",
+      "actual": 38,
+      "baseline": 31.56,
+      "preDraft": 37.879883188865264,
+      "postDraft": 37.86942328985362,
+      "draftDelta": -0.010459899011642904,
+      "draftConfidence": 0.8845265588914549,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Rell",
+          "role": "SUP",
+          "value": -2.05,
+          "n": 46,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Jinx",
+          "role": "ADC",
+          "value": -1.99,
+          "n": 14,
+          "source": "global"
+        },
+        {
+          "champion": "Nautilus",
+          "role": "SUP",
+          "value": 1.86,
+          "n": 106,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Xayah",
+          "role": "ADC",
+          "value": 1.84,
+          "n": 22,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Viktor",
+          "role": "MID",
+          "value": -1.45,
+          "n": 54,
+          "source": "liga+global"
+        }
+      ]
+    },
+    {
+      "id": "78279",
+      "league": "LCKCL",
+      "date": "2026-05-22",
+      "patch": "16.10",
+      "game": "HANJIN BRION Challengers vs T1 Esports Academy",
+      "actual": 31,
+      "baseline": 32.36,
+      "preDraft": 36.62712494616827,
+      "postDraft": 35.80467790441344,
+      "draftDelta": -0.8224470417548346,
+      "draftConfidence": 0.8908296943231441,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Jayce",
+          "role": "TOP",
+          "value": -2,
+          "n": 118,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Mel",
+          "role": "MID",
+          "value": -1.92,
+          "n": 24,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Sion",
+          "role": "TOP",
+          "value": -1.52,
+          "n": 120,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Xin Zhao",
+          "role": "JUNGLE",
+          "value": -1.45,
+          "n": 182,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Ashe",
+          "role": "ADC",
+          "value": 1.25,
+          "n": 92,
+          "source": "liga+global"
+        }
+      ]
+    },
+    {
+      "id": "78280",
+      "league": "LCKCL",
+      "date": "2026-05-22",
+      "patch": "16.10",
+      "game": "HANJIN BRION Challengers vs T1 Esports Academy",
+      "actual": 46,
+      "baseline": 32.68,
+      "preDraft": 34.281376301858884,
+      "postDraft": 33.15987313794548,
+      "draftDelta": -1.1215031639134025,
+      "draftConfidence": 0.9042145593869731,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Bard",
+          "role": "SUP",
+          "value": -2.28,
+          "n": 138,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Caitlyn",
+          "role": "ADC",
+          "value": -1.64,
+          "n": 66,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Ryze",
+          "role": "MID",
+          "value": -1.31,
+          "n": 140,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Wukong",
+          "role": "JUNGLE",
+          "value": -1.22,
+          "n": 104,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Anivia",
+          "role": "MID",
+          "value": -0.8,
+          "n": 34,
+          "source": "liga+global"
+        }
+      ]
+    },
+    {
+      "id": "78706",
+      "league": "LCKCL",
+      "date": "2026-05-25",
+      "patch": "16.10",
+      "game": "Hanwha Life Esports Challengers vs Dplus KIA Challengers",
+      "actual": 24,
+      "baseline": 33.52,
+      "preDraft": 34.65175370658743,
+      "postDraft": 32.83746854459346,
+      "draftDelta": -1.8142851619939648,
+      "draftConfidence": 0.9017681728880157,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Gwen",
+          "role": "TOP",
+          "value": -2.8,
+          "n": 50,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Milio",
+          "role": "SUP",
+          "value": -2.51,
+          "n": 80,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Ezreal",
+          "role": "ADC",
+          "value": -2.2,
+          "n": 152,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Sion",
+          "role": "TOP",
+          "value": -1.95,
+          "n": 122,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Twisted Fate",
+          "role": "MID",
+          "value": -1.3,
+          "n": 26,
+          "source": "liga+global"
+        }
+      ]
+    },
+    {
+      "id": "78707",
+      "league": "LCKCL",
+      "date": "2026-05-25",
+      "patch": "16.10",
+      "game": "Dplus KIA Challengers vs Hanwha Life Esports Challengers",
+      "actual": 43,
+      "baseline": 33.32,
+      "preDraft": 32.82409432654822,
+      "postDraft": 32.22923257124684,
+      "draftDelta": -0.5948617553013804,
+      "draftConfidence": 0.8898678414096917,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Bard",
+          "role": "SUP",
+          "value": -2.23,
+          "n": 140,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Nautilus",
+          "role": "SUP",
+          "value": 1.76,
+          "n": 108,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Caitlyn",
+          "role": "ADC",
+          "value": -1.43,
+          "n": 68,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Cassiopeia",
+          "role": "MID",
+          "value": -1.03,
+          "n": 22,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Jarvan IV",
+          "role": "JUNGLE",
+          "value": -0.61,
+          "n": 156,
+          "source": "liga+global"
+        }
+      ]
+    },
+    {
+      "id": "78709",
+      "league": "LCKCL",
+      "date": "2026-05-25",
+      "patch": "16.10",
+      "game": "T1 Esports Academy vs BNK FEARX Youth",
+      "actual": 34,
+      "baseline": 33.84,
+      "preDraft": 36.48002639998442,
+      "postDraft": 34.98212192270188,
+      "draftDelta": -1.497904477282539,
+      "draftConfidence": 0.9075785582255084,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Nami",
+          "role": "SUP",
+          "value": -2.54,
+          "n": 80,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Bard",
+          "role": "SUP",
+          "value": -2.52,
+          "n": 142,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Ezreal",
+          "role": "ADC",
+          "value": -2.3,
+          "n": 154,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Orianna",
+          "role": "MID",
+          "value": -1.81,
+          "n": 114,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Lee Sin",
+          "role": "JUNGLE",
+          "value": -1.02,
+          "n": 62,
+          "source": "liga+global"
+        }
+      ]
+    },
+    {
+      "id": "78710",
+      "league": "LCKCL",
+      "date": "2026-05-25",
+      "patch": "16.10",
+      "game": "BNK FEARX Youth vs T1 Esports Academy",
+      "actual": 28,
+      "baseline": 34.04,
+      "preDraft": 36.09770333360433,
+      "postDraft": 34.53329747019291,
+      "draftDelta": -1.564405863411416,
+      "draftConfidence": 0.9032882011605415,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Jayce",
+          "role": "TOP",
+          "value": -2.37,
+          "n": 120,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Sion",
+          "role": "TOP",
+          "value": -2.02,
+          "n": 124,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Xin Zhao",
+          "role": "JUNGLE",
+          "value": -1.89,
+          "n": 184,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Lux",
+          "role": "SUP",
+          "value": -1.56,
+          "n": 4,
+          "source": "global"
+        },
+        {
+          "champion": "Caitlyn",
+          "role": "ADC",
+          "value": -1.54,
+          "n": 70,
+          "source": "liga+global"
+        }
+      ]
+    },
+    {
+      "id": "78711",
+      "league": "LCKCL",
+      "date": "2026-05-25",
+      "patch": "16.10",
+      "game": "T1 Esports Academy vs BNK FEARX Youth",
+      "actual": 25,
+      "baseline": 33.48,
+      "preDraft": 35.40581810579367,
+      "postDraft": 34.738586099916255,
+      "draftDelta": -0.6672320058774162,
+      "draftConfidence": 0.8901098901098901,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Yunara",
+          "role": "ADC",
+          "value": -2.4,
+          "n": 176,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Milio",
+          "role": "SUP",
+          "value": -2.33,
+          "n": 82,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Renekton",
+          "role": "TOP",
+          "value": -1.28,
+          "n": 114,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Lucian",
+          "role": "ADC",
+          "value": -0.86,
+          "n": 98,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Vi",
+          "role": "JUNGLE",
+          "value": 0.82,
+          "n": 132,
+          "source": "liga+global"
+        }
+      ]
+    },
+    {
+      "id": "78712",
+      "league": "LCKCL",
+      "date": "2026-05-25",
+      "patch": "16.10",
+      "game": "HANJIN BRION Challengers vs KRX Challengers",
+      "actual": 17,
+      "baseline": 33.64,
+      "preDraft": 31.830639623996344,
+      "postDraft": 31.624682333842763,
+      "draftDelta": -0.20595729015358089,
+      "draftConfidence": 0.8737373737373737,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Jayce",
+          "role": "TOP",
+          "value": -1.72,
+          "n": 122,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Ashe",
+          "role": "ADC",
+          "value": 1.48,
+          "n": 94,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Yorick",
+          "role": "TOP",
+          "value": -1.25,
+          "n": 38,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Vi",
+          "role": "JUNGLE",
+          "value": 1.11,
+          "n": 134,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Wukong",
+          "role": "JUNGLE",
+          "value": -0.89,
+          "n": 108,
+          "source": "liga+global"
+        }
+      ]
+    },
+    {
+      "id": "78713",
+      "league": "LCKCL",
+      "date": "2026-05-25",
+      "patch": "16.10",
+      "game": "HANJIN BRION Challengers vs KRX Challengers",
+      "actual": 26,
+      "baseline": 33.32,
+      "preDraft": 30.28521192899591,
+      "postDraft": 30.07327478916889,
+      "draftDelta": -0.21193713982701823,
+      "draftConfidence": 0.9193548387096774,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Gnar",
+          "role": "TOP",
+          "value": 1.59,
+          "n": 160,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Milio",
+          "role": "SUP",
+          "value": -1.46,
+          "n": 84,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Annie",
+          "role": "MID",
+          "value": 1.25,
+          "n": 74,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Bard",
+          "role": "SUP",
+          "value": -1.06,
+          "n": 144,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Skarner",
+          "role": "JUNGLE",
+          "value": 0.6,
+          "n": 62,
+          "source": "liga+global"
+        }
+      ]
+    },
+    {
+      "id": "78715",
+      "league": "LCKCL",
+      "date": "2026-05-26",
+      "patch": "16.10",
+      "game": "KT Rolster Challengers vs Gen.G Global Academy",
+      "actual": 25,
+      "baseline": 33.96,
+      "preDraft": 34.4189428340478,
+      "postDraft": 34.72315827997459,
+      "draftDelta": 0.3042154459267934,
+      "draftConfidence": 0.9042145593869731,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Akali",
+          "role": "MID",
+          "value": 2.8,
+          "n": 72,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Vi",
+          "role": "JUNGLE",
+          "value": 1.83,
+          "n": 136,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Jayce",
+          "role": "TOP",
+          "value": -1.02,
+          "n": 124,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Nami",
+          "role": "SUP",
+          "value": -1.02,
+          "n": 82,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Skarner",
+          "role": "JUNGLE",
+          "value": 0.69,
+          "n": 64,
+          "source": "liga+global"
+        }
+      ]
+    },
+    {
+      "id": "78716",
+      "league": "LCKCL",
+      "date": "2026-05-26",
+      "patch": "16.10",
+      "game": "KT Rolster Challengers vs Gen.G Global Academy",
+      "actual": 48,
+      "baseline": 33.4,
+      "preDraft": 33.96641847655517,
+      "postDraft": 34.519667132692284,
+      "draftDelta": 0.5532486561371144,
+      "draftConfidence": 0.9131944444444444,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Nautilus",
+          "role": "SUP",
+          "value": 2.8,
+          "n": 110,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Ambessa",
+          "role": "TOP",
+          "value": 2,
+          "n": 108,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Taliyah",
+          "role": "MID",
+          "value": 1.06,
+          "n": 78,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Yunara",
+          "role": "ADC",
+          "value": -0.83,
+          "n": 178,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Lulu",
+          "role": "SUP",
+          "value": -0.76,
+          "n": 154,
+          "source": "liga+global"
+        }
+      ]
+    },
+    {
+      "id": "78362",
+      "league": "LPL",
+      "date": "2026-05-23",
+      "patch": "16.10",
+      "game": "LNG Esports vs Team WE",
+      "actual": 24,
+      "baseline": 29.64,
+      "preDraft": 30.831141009051453,
+      "postDraft": 30.397666151910432,
+      "draftDelta": -0.43347485714102163,
+      "draftConfidence": 0.8127340823970037,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Caitlyn",
+          "role": "ADC",
+          "value": -1.94,
+          "n": 42,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Yorick",
+          "role": "TOP",
+          "value": -1.65,
+          "n": 54,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Miss Fortune",
+          "role": "ADC",
+          "value": 1.51,
+          "n": 56,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Naafiri",
+          "role": "JUNGLE",
+          "value": -1.28,
+          "n": 70,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Ornn",
+          "role": "TOP",
+          "value": 0.89,
+          "n": 18,
+          "source": "liga+global"
+        }
+      ]
+    },
+    {
+      "id": "78363",
+      "league": "LPL",
+      "date": "2026-05-23",
+      "patch": "16.10",
+      "game": "LNG Esports vs Team WE",
+      "actual": 17,
+      "baseline": 29.52,
+      "preDraft": 29.983221242134665,
+      "postDraft": 30.534656845753783,
+      "draftDelta": 0.5514356036191188,
+      "draftConfidence": 0.855072463768116,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Ashe",
+          "role": "ADC",
+          "value": 1.9,
+          "n": 114,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Smolder",
+          "role": "MID",
+          "value": 1.49,
+          "n": 4,
+          "source": "global"
+        },
+        {
+          "champion": "Poppy",
+          "role": "JUNGLE",
+          "value": 1.33,
+          "n": 22,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Lulu",
+          "role": "SUP",
+          "value": -1,
+          "n": 134,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Seraphine",
+          "role": "SUP",
+          "value": 0.96,
+          "n": 122,
+          "source": "liga+global"
+        }
+      ]
+    },
+    {
+      "id": "78364",
+      "league": "LPL",
+      "date": "2026-05-23",
+      "patch": "16.10",
+      "game": "ThunderTalk Gaming vs Invictus Gaming",
+      "actual": 23,
+      "baseline": 28.6,
+      "preDraft": 30.249041200732904,
+      "postDraft": 30.308833555351338,
+      "draftDelta": 0.05979235461843402,
+      "draftConfidence": 0.9121265377855887,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Orianna",
+          "role": "MID",
+          "value": 2.28,
+          "n": 54,
+          "source": "liga+global"
+        },
+        {
+          "champion": "KSante",
+          "role": "TOP",
+          "value": -1.3,
+          "n": 92,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Rumble",
+          "role": "TOP",
+          "value": 0.88,
+          "n": 128,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Neeko",
+          "role": "SUP",
+          "value": 0.84,
+          "n": 90,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Naafiri",
+          "role": "JUNGLE",
+          "value": -0.7,
+          "n": 72,
+          "source": "liga+global"
+        }
+      ]
+    },
+    {
+      "id": "78365",
+      "league": "LPL",
+      "date": "2026-05-23",
+      "patch": "16.10",
+      "game": "ThunderTalk Gaming vs Invictus Gaming",
+      "actual": 33,
+      "baseline": 28.68,
+      "preDraft": 29.834087336146837,
+      "postDraft": 31.189402814311897,
+      "draftDelta": 1.3553154781650605,
+      "draftConfidence": 0.897119341563786,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Ashe",
+          "role": "ADC",
+          "value": 2.43,
+          "n": 116,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Jayce",
+          "role": "TOP",
+          "value": 1.64,
+          "n": 92,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Nautilus",
+          "role": "SUP",
+          "value": 1.61,
+          "n": 80,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Senna",
+          "role": "ADC",
+          "value": -1.34,
+          "n": 8,
+          "source": "global"
+        },
+        {
+          "champion": "Akali",
+          "role": "MID",
+          "value": 1.14,
+          "n": 46,
+          "source": "liga+global"
+        }
+      ]
+    },
+    {
+      "id": "78366",
+      "league": "LPL",
+      "date": "2026-05-23",
+      "patch": "16.10",
+      "game": "Invictus Gaming vs ThunderTalk Gaming",
+      "actual": 26,
+      "baseline": 28.72,
+      "preDraft": 29.521315472119696,
+      "postDraft": 29.500218560663725,
+      "draftDelta": -0.021096911455970258,
+      "draftConfidence": 0.900990099009901,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Varus",
+          "role": "TOP",
+          "value": 2.8,
+          "n": 20,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Jhin",
+          "role": "ADC",
+          "value": 2.76,
+          "n": 106,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Trundle",
+          "role": "JUNGLE",
+          "value": -2.06,
+          "n": 42,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Seraphine",
+          "role": "SUP",
+          "value": 1.3,
+          "n": 124,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Annie",
+          "role": "MID",
+          "value": -1.25,
+          "n": 90,
+          "source": "liga+global"
+        }
+      ]
+    },
+    {
+      "id": "78369",
+      "league": "LPL",
+      "date": "2026-05-24",
+      "patch": "16.10",
+      "game": "EDward Gaming vs Ninjas in Pyjamas",
+      "actual": 14,
+      "baseline": 28.8,
+      "preDraft": 27.209665283254186,
+      "postDraft": 27.06949661784013,
+      "draftDelta": -0.14016866541405548,
+      "draftConfidence": 0.9,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Milio",
+          "role": "SUP",
+          "value": -2.8,
+          "n": 80,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Ashe",
+          "role": "ADC",
+          "value": 2.35,
+          "n": 118,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Lucian",
+          "role": "ADC",
+          "value": -2.35,
+          "n": 94,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Jayce",
+          "role": "TOP",
+          "value": 1.58,
+          "n": 94,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Seraphine",
+          "role": "SUP",
+          "value": 1.35,
+          "n": 126,
+          "source": "liga+global"
+        }
+      ]
+    },
+    {
+      "id": "78370",
+      "league": "LPL",
+      "date": "2026-05-24",
+      "patch": "16.10",
+      "game": "EDward Gaming vs Ninjas in Pyjamas",
+      "actual": 37,
+      "baseline": 28.6,
+      "preDraft": 25.642930646837886,
+      "postDraft": 26.95558880848231,
+      "draftDelta": 1.3126581616444248,
+      "draftConfidence": 0.9210110584518167,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Orianna",
+          "role": "MID",
+          "value": 2.66,
+          "n": 56,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Vi",
+          "role": "JUNGLE",
+          "value": 1.62,
+          "n": 132,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Jarvan IV",
+          "role": "JUNGLE",
+          "value": 1.6,
+          "n": 144,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Tristana",
+          "role": "TOP",
+          "value": 0.98,
+          "n": 2,
+          "source": "global"
+        },
+        {
+          "champion": "Corki",
+          "role": "ADC",
+          "value": 0.86,
+          "n": 142,
+          "source": "liga+global"
+        }
+      ]
+    },
+    {
+      "id": "78371",
+      "league": "LPL",
+      "date": "2026-05-24",
+      "patch": "16.10",
+      "game": "Ninjas in Pyjamas vs EDward Gaming",
+      "actual": 32,
+      "baseline": 29.4,
+      "preDraft": 27.256272539768023,
+      "postDraft": 27.96896499377953,
+      "draftDelta": 0.7126924540115063,
+      "draftConfidence": 0.8786407766990292,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Jhin",
+          "role": "ADC",
+          "value": 2.8,
+          "n": 108,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Viktor",
+          "role": "MID",
+          "value": 1.93,
+          "n": 48,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Trundle",
+          "role": "JUNGLE",
+          "value": -1.89,
+          "n": 44,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Nautilus",
+          "role": "SUP",
+          "value": 1.69,
+          "n": 82,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Aurora",
+          "role": "MID",
+          "value": 1.08,
+          "n": 94,
+          "source": "liga+global"
+        }
+      ]
+    },
+    {
+      "id": "78372",
+      "league": "LPL",
+      "date": "2026-05-24",
+      "patch": "16.10",
+      "game": "EDward Gaming vs Ninjas in Pyjamas",
+      "actual": 32,
+      "baseline": 29.64,
+      "preDraft": 27.058368409510802,
+      "postDraft": 27.51634843976473,
+      "draftDelta": 0.4579800302539283,
+      "draftConfidence": 0.7991967871485943,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Leona",
+          "role": "SUP",
+          "value": 2.76,
+          "n": 16,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Caitlyn",
+          "role": "ADC",
+          "value": -1.4,
+          "n": 44,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Vayne",
+          "role": "TOP",
+          "value": 1.16,
+          "n": 22,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Ornn",
+          "role": "TOP",
+          "value": 1.15,
+          "n": 20,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Pantheon",
+          "role": "JUNGLE",
+          "value": 0.79,
+          "n": 154,
+          "source": "liga+global"
+        }
+      ]
+    },
+    {
+      "id": "78373",
+      "league": "LPL",
+      "date": "2026-05-24",
+      "patch": "16.10",
+      "game": "Ninjas in Pyjamas vs EDward Gaming",
+      "actual": 27,
+      "baseline": 29.96,
+      "preDraft": 27.544557177951777,
+      "postDraft": 27.59633414380126,
+      "draftDelta": 0.05177696584948421,
+      "draftConfidence": 0.8181818181818182,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Zeri",
+          "role": "ADC",
+          "value": 1.95,
+          "n": 10,
+          "source": "global"
+        },
+        {
+          "champion": "Yuumi",
+          "role": "SUP",
+          "value": 1.47,
+          "n": 12,
+          "source": "global"
+        },
+        {
+          "champion": "KSante",
+          "role": "TOP",
+          "value": -1.46,
+          "n": 94,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Shyvana",
+          "role": "JUNGLE",
+          "value": -0.55,
+          "n": 4,
+          "source": "global"
+        },
+        {
+          "champion": "Thresh",
+          "role": "SUP",
+          "value": -0.5,
+          "n": 30,
+          "source": "liga+global"
+        }
+      ]
+    },
+    {
+      "id": "78374",
+      "league": "LPL",
+      "date": "2026-05-24",
+      "patch": "16.10",
+      "game": "LGD Gaming vs Weibo Gaming",
+      "actual": 15,
+      "baseline": 29.04,
+      "preDraft": 25.744359223185835,
+      "postDraft": 25.313686506649887,
+      "draftDelta": -0.4306727165359483,
+      "draftConfidence": 0.9105545617173524,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Milio",
+          "role": "SUP",
+          "value": -2.8,
+          "n": 82,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Lucian",
+          "role": "ADC",
+          "value": -2.68,
+          "n": 96,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Ashe",
+          "role": "ADC",
+          "value": 1.97,
+          "n": 120,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Annie",
+          "role": "MID",
+          "value": -1.54,
+          "n": 94,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Akali",
+          "role": "MID",
+          "value": 1.02,
+          "n": 48,
+          "source": "liga+global"
+        }
+      ]
+    },
+    {
+      "id": "78375",
+      "league": "LPL",
+      "date": "2026-05-24",
+      "patch": "16.10",
+      "game": "Weibo Gaming vs LGD Gaming",
+      "actual": 15,
+      "baseline": 28.36,
+      "preDraft": 23.247704737246718,
+      "postDraft": 23.55277496682253,
+      "draftDelta": 0.3050702295758114,
+      "draftConfidence": 0.9261447562776958,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Vi",
+          "role": "JUNGLE",
+          "value": 1.54,
+          "n": 134,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Trundle",
+          "role": "JUNGLE",
+          "value": -1.53,
+          "n": 46,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Rumble",
+          "role": "TOP",
+          "value": 1.29,
+          "n": 130,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Corki",
+          "role": "ADC",
+          "value": 0.79,
+          "n": 144,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Sion",
+          "role": "TOP",
+          "value": 0.72,
+          "n": 142,
+          "source": "liga+global"
+        }
+      ]
+    },
+    {
+      "id": "78376",
+      "league": "LPL",
+      "date": "2026-05-24",
+      "patch": "16.10",
+      "game": "LGD Gaming vs Weibo Gaming",
+      "actual": 30,
+      "baseline": 27.96,
+      "preDraft": 21.68116104136037,
+      "postDraft": 22.777449860862973,
+      "draftDelta": 1.096288819502604,
+      "draftConfidence": 0.900398406374502,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Miss Fortune",
+          "role": "ADC",
+          "value": 2.76,
+          "n": 58,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Nautilus",
+          "role": "SUP",
+          "value": 2.43,
+          "n": 84,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Aurora",
+          "role": "MID",
+          "value": 1.81,
+          "n": 96,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Xin Zhao",
+          "role": "JUNGLE",
+          "value": 1.36,
+          "n": 178,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Bard",
+          "role": "SUP",
+          "value": 1.18,
+          "n": 132,
+          "source": "liga+global"
+        }
+      ]
+    },
+    {
+      "id": "78377",
+      "league": "LPL",
+      "date": "2026-05-24",
+      "patch": "16.10",
+      "game": "Weibo Gaming vs LGD Gaming",
+      "actual": 22,
+      "baseline": 28.36,
+      "preDraft": 23.612245506854862,
+      "postDraft": 23.612448803141294,
+      "draftDelta": 0.00020329628643267483,
+      "draftConfidence": 0.6794871794871795,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Twisted Fate",
+          "role": "MID",
+          "value": -0.97,
+          "n": 50,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Jax",
+          "role": "TOP",
+          "value": 0.79,
+          "n": 30,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Caitlyn",
+          "role": "ADC",
+          "value": -0.65,
+          "n": 46,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Camille",
+          "role": "SUP",
+          "value": 0.63,
+          "n": 2,
+          "source": "global"
+        },
+        {
+          "champion": "Lee Sin",
+          "role": "JUNGLE",
+          "value": 0.51,
+          "n": 46,
+          "source": "liga+global"
+        }
+      ]
+    },
+    {
+      "id": "78378",
+      "league": "LPL",
+      "date": "2026-05-24",
+      "patch": "16.10",
+      "game": "Weibo Gaming vs LGD Gaming",
+      "actual": 21,
+      "baseline": 27.52,
+      "preDraft": 22.996935685468156,
+      "postDraft": 23.10327614251693,
+      "draftDelta": 0.10634045704877337,
+      "draftConfidence": 0.7159090909090908,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Kalista",
+          "role": "ADC",
+          "value": -1.42,
+          "n": 12,
+          "source": "global"
+        },
+        {
+          "champion": "Zaahen",
+          "role": "TOP",
+          "value": 1.22,
+          "n": 24,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Sylas",
+          "role": "JUNGLE",
+          "value": 1.19,
+          "n": 4,
+          "source": "global"
+        },
+        {
+          "champion": "Ambessa",
+          "role": "TOP",
+          "value": 1.02,
+          "n": 132,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Renata Glasc",
+          "role": "SUP",
+          "value": -0.83,
+          "n": 16,
+          "source": "liga+global"
+        }
+      ]
+    },
+    {
+      "id": "78126",
+      "league": "CBLOL",
+      "date": "2026-05-16",
+      "patch": "16.10",
+      "game": "Fluxo W7M vs RED Canids",
+      "actual": 24,
+      "baseline": 28.64,
+      "preDraft": 28.852668512972187,
+      "postDraft": 29.06049511644595,
+      "draftDelta": 0.20782660347376236,
+      "draftConfidence": 0.7524752475247525,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Taliyah",
+          "role": "MID",
+          "value": 1.66,
+          "n": 42,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Pantheon",
+          "role": "JUNGLE",
+          "value": 1.45,
+          "n": 64,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Lulu",
+          "role": "SUP",
+          "value": -1.33,
+          "n": 46,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Skarner",
+          "role": "JUNGLE",
+          "value": -1.21,
+          "n": 16,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Tristana",
+          "role": "MID",
+          "value": -0.79,
+          "n": 2,
+          "source": "global"
+        }
+      ]
+    },
+    {
+      "id": "78127",
+      "league": "CBLOL",
+      "date": "2026-05-16",
+      "patch": "16.10",
+      "game": "RED Canids vs Fluxo W7M",
+      "actual": 18,
+      "baseline": 28.2,
+      "preDraft": 28.896838988432542,
+      "postDraft": 29.05611790100043,
+      "draftDelta": 0.1592789125678884,
+      "draftConfidence": 0.7674418604651163,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Ahri",
+          "role": "MID",
+          "value": 1.52,
+          "n": 50,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Xin Zhao",
+          "role": "JUNGLE",
+          "value": 0.94,
+          "n": 76,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Sylas",
+          "role": "MID",
+          "value": -0.66,
+          "n": 14,
+          "source": "global"
+        },
+        {
+          "champion": "Renekton",
+          "role": "TOP",
+          "value": -0.41,
+          "n": 60,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Smolder",
+          "role": "ADC",
+          "value": -0.36,
+          "n": 2,
+          "source": "global"
+        }
+      ]
+    },
+    {
+      "id": "78128",
+      "league": "CBLOL",
+      "date": "2026-05-16",
+      "patch": "16.10",
+      "game": "RED Canids vs Fluxo W7M",
+      "actual": 25,
+      "baseline": 27.88,
+      "preDraft": 26.795949392554608,
+      "postDraft": 26.996519789560807,
+      "draftDelta": 0.20057039700619939,
+      "draftConfidence": 0.7206703910614526,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Milio",
+          "role": "SUP",
+          "value": -1.77,
+          "n": 28,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Alistar",
+          "role": "SUP",
+          "value": 1.65,
+          "n": 48,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Azir",
+          "role": "MID",
+          "value": 1.6,
+          "n": 24,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Sivir",
+          "role": "ADC",
+          "value": 0.96,
+          "n": 44,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Dr. Mundo",
+          "role": "JUNGLE",
+          "value": -0.54,
+          "n": 10,
+          "source": "global"
+        }
+      ]
+    },
+    {
+      "id": "78130",
+      "league": "CBLOL",
+      "date": "2026-05-17",
+      "patch": "16.10",
+      "game": "LOUD vs FURIA",
+      "actual": 26,
+      "baseline": 27.92,
+      "preDraft": 25.56602429023836,
+      "postDraft": 26.316928036296208,
+      "draftDelta": 0.7509037460578476,
+      "draftConfidence": 0.8245614035087719,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Ezreal",
+          "role": "ADC",
+          "value": 1.61,
+          "n": 82,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Rumble",
+          "role": "TOP",
+          "value": 1.32,
+          "n": 100,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Vi",
+          "role": "JUNGLE",
+          "value": 1.2,
+          "n": 50,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Aurora",
+          "role": "MID",
+          "value": 1.13,
+          "n": 46,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Seraphine",
+          "role": "SUP",
+          "value": 1.01,
+          "n": 30,
+          "source": "liga+global"
+        }
+      ]
+    },
+    {
+      "id": "78131",
+      "league": "CBLOL",
+      "date": "2026-05-17",
+      "patch": "16.10",
+      "game": "FURIA vs LOUD",
+      "actual": 23,
+      "baseline": 27.44,
+      "preDraft": 24.57782544725925,
+      "postDraft": 24.429283858428,
+      "draftDelta": -0.14854158883125024,
+      "draftConfidence": 0.8069498069498069,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Milio",
+          "role": "SUP",
+          "value": -1.69,
+          "n": 30,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Ambessa",
+          "role": "TOP",
+          "value": 1.58,
+          "n": 62,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Skarner",
+          "role": "JUNGLE",
+          "value": -0.94,
+          "n": 18,
+          "source": "liga+global"
+        },
+        {
+          "champion": "KSante",
+          "role": "TOP",
+          "value": 0.81,
+          "n": 80,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Annie",
+          "role": "MID",
+          "value": 0.75,
+          "n": 20,
+          "source": "liga+global"
+        }
+      ]
+    },
+    {
+      "id": "78132",
+      "league": "CBLOL",
+      "date": "2026-05-17",
+      "patch": "16.10",
+      "game": "FURIA vs LOUD",
+      "actual": 26,
+      "baseline": 27,
+      "preDraft": 24.76431310319112,
+      "postDraft": 25.144829517876044,
+      "draftDelta": 0.3805164146849229,
+      "draftConfidence": 0.8181818181818182,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Cassiopeia",
+          "role": "MID",
+          "value": 1.49,
+          "n": 18,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Corki",
+          "role": "ADC",
+          "value": 1.48,
+          "n": 76,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Nami",
+          "role": "SUP",
+          "value": 1.08,
+          "n": 72,
+          "source": "liga+global"
+        },
+        {
+          "champion": "RekSai",
+          "role": "JUNGLE",
+          "value": -0.82,
+          "n": 2,
+          "source": "global"
+        },
+        {
+          "champion": "Sion",
+          "role": "TOP",
+          "value": 0.68,
+          "n": 66,
+          "source": "liga+global"
+        }
+      ]
+    },
+    {
+      "id": "78120",
+      "league": "CBLOL",
+      "date": "2026-05-23",
+      "patch": "16.10",
+      "game": "Los Grandes vs Vivo Keyd Stars",
+      "actual": 32,
+      "baseline": 27.48,
+      "preDraft": 24.84674566266264,
+      "postDraft": 26.003371012330984,
+      "draftDelta": 1.1566253496683423,
+      "draftConfidence": 0.8484848484848485,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Pantheon",
+          "role": "JUNGLE",
+          "value": 2.26,
+          "n": 66,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Ezreal",
+          "role": "ADC",
+          "value": 1.81,
+          "n": 84,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Neeko",
+          "role": "SUP",
+          "value": 1.65,
+          "n": 64,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Rumble",
+          "role": "TOP",
+          "value": 1.54,
+          "n": 102,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Cassiopeia",
+          "role": "MID",
+          "value": 1.4,
+          "n": 20,
+          "source": "liga+global"
+        }
+      ]
+    },
+    {
+      "id": "78121",
+      "league": "CBLOL",
+      "date": "2026-05-23",
+      "patch": "16.10",
+      "game": "Los Grandes vs Vivo Keyd Stars",
+      "actual": 29,
+      "baseline": 27.68,
+      "preDraft": 25.351550052347715,
+      "postDraft": 25.543289153253987,
+      "draftDelta": 0.1917391009062719,
+      "draftConfidence": 0.8062015503875969,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Taliyah",
+          "role": "MID",
+          "value": 2.11,
+          "n": 44,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Milio",
+          "role": "SUP",
+          "value": -1.8,
+          "n": 32,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Aatrox",
+          "role": "TOP",
+          "value": -1.51,
+          "n": 12,
+          "source": "global"
+        },
+        {
+          "champion": "Xin Zhao",
+          "role": "JUNGLE",
+          "value": 1.3,
+          "n": 78,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Vi",
+          "role": "JUNGLE",
+          "value": 1.14,
+          "n": 52,
+          "source": "liga+global"
+        }
+      ]
+    },
+    {
+      "id": "78122",
+      "league": "CBLOL",
+      "date": "2026-05-23",
+      "patch": "16.10",
+      "game": "Los Grandes vs Vivo Keyd Stars",
+      "actual": 29,
+      "baseline": 27.4,
+      "preDraft": 26.113867293526102,
+      "postDraft": 26.26167446122419,
+      "draftDelta": 0.14780716769808677,
+      "draftConfidence": 0.7942386831275721,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Jarvan IV",
+          "role": "JUNGLE",
+          "value": 1.58,
+          "n": 84,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Anivia",
+          "role": "SUP",
+          "value": 1.28,
+          "n": 12,
+          "source": "global"
+        },
+        {
+          "champion": "RekSai",
+          "role": "JUNGLE",
+          "value": -0.85,
+          "n": 4,
+          "source": "global"
+        },
+        {
+          "champion": "Karma",
+          "role": "SUP",
+          "value": -0.58,
+          "n": 26,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Ryze",
+          "role": "MID",
+          "value": 0.52,
+          "n": 96,
+          "source": "liga+global"
+        }
+      ]
+    },
+    {
+      "id": "78817",
+      "league": "CBLOL",
+      "date": "2026-05-24",
+      "patch": "16.10",
+      "game": "FURIA vs RED Canids",
+      "actual": 24,
+      "baseline": 27.16,
+      "preDraft": 26.913942161443995,
+      "postDraft": 27.826620938506657,
+      "draftDelta": 0.9126787770626628,
+      "draftConfidence": 0.8563218390804599,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Varus",
+          "role": "ADC",
+          "value": 2.67,
+          "n": 46,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Ezreal",
+          "role": "ADC",
+          "value": 1.46,
+          "n": 86,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Neeko",
+          "role": "SUP",
+          "value": 1.35,
+          "n": 66,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Rumble",
+          "role": "TOP",
+          "value": 1.18,
+          "n": 104,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Xin Zhao",
+          "role": "JUNGLE",
+          "value": 1.15,
+          "n": 80,
+          "source": "liga+global"
+        }
+      ]
+    },
+    {
+      "id": "78818",
+      "league": "CBLOL",
+      "date": "2026-05-24",
+      "patch": "16.10",
+      "game": "FURIA vs RED Canids",
+      "actual": 25,
+      "baseline": 27.08,
+      "preDraft": 27.09778562656866,
+      "postDraft": 27.503996750541315,
+      "draftDelta": 0.4062111239726569,
+      "draftConfidence": 0.7787610619469026,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Aatrox",
+          "role": "JUNGLE",
+          "value": 1.56,
+          "n": 54,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Cassiopeia",
+          "role": "MID",
+          "value": 1.39,
+          "n": 22,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Seraphine",
+          "role": "SUP",
+          "value": 0.99,
+          "n": 32,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Ashe",
+          "role": "ADC",
+          "value": 0.87,
+          "n": 30,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Lulu",
+          "role": "SUP",
+          "value": -0.73,
+          "n": 52,
+          "source": "liga+global"
+        }
+      ]
+    },
+    {
+      "id": "78819",
+      "league": "CBLOL",
+      "date": "2026-05-24",
+      "patch": "16.10",
+      "game": "FURIA vs RED Canids",
+      "actual": 21,
+      "baseline": 27.28,
+      "preDraft": 26.129158674760387,
+      "postDraft": 26.34764209102408,
+      "draftDelta": 0.2184834162636946,
+      "draftConfidence": 0.782608695652174,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Alistar",
+          "role": "SUP",
+          "value": 1.74,
+          "n": 50,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Ambessa",
+          "role": "TOP",
+          "value": 1.48,
+          "n": 64,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Xayah",
+          "role": "ADC",
+          "value": -1.08,
+          "n": 18,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Naafiri",
+          "role": "JUNGLE",
+          "value": -1.05,
+          "n": 14,
+          "source": "global"
+        },
+        {
+          "champion": "Sivir",
+          "role": "ADC",
+          "value": 0.98,
+          "n": 46,
+          "source": "liga+global"
+        }
+      ]
+    },
+    {
+      "id": "78822",
+      "league": "CBLOL",
+      "date": "2026-05-25",
+      "patch": "16.10",
+      "game": "Los Grandes vs LOUD",
+      "actual": 28,
+      "baseline": 26.76,
+      "preDraft": 25.769746597634327,
+      "postDraft": 25.771074955694832,
+      "draftDelta": 0.0013283580605047973,
+      "draftConfidence": 0.7807017543859649,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Cassiopeia",
+          "role": "MID",
+          "value": 1.47,
+          "n": 24,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Milio",
+          "role": "SUP",
+          "value": -1.43,
+          "n": 34,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Sion",
+          "role": "TOP",
+          "value": 0.77,
+          "n": 72,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Bard",
+          "role": "SUP",
+          "value": 0.73,
+          "n": 78,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Akali",
+          "role": "MID",
+          "value": -0.46,
+          "n": 28,
+          "source": "liga+global"
+        }
+      ]
+    },
+    {
+      "id": "78823",
+      "league": "CBLOL",
+      "date": "2026-05-25",
+      "patch": "16.10",
+      "game": "Los Grandes vs LOUD",
+      "actual": 22,
+      "baseline": 26.48,
+      "preDraft": 25.793795943173006,
+      "postDraft": 27.454028979644892,
+      "draftDelta": 1.6602330364718867,
+      "draftConfidence": 0.875,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Jarvan IV",
+          "role": "JUNGLE",
+          "value": 1.92,
+          "n": 86,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Ezreal",
+          "role": "ADC",
+          "value": 1.83,
+          "n": 88,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Aatrox",
+          "role": "JUNGLE",
+          "value": 1.71,
+          "n": 56,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Neeko",
+          "role": "SUP",
+          "value": 1.66,
+          "n": 68,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Rumble",
+          "role": "TOP",
+          "value": 1.58,
+          "n": 106,
+          "source": "liga+global"
+        }
+      ]
+    },
+    {
+      "id": "78824",
+      "league": "CBLOL",
+      "date": "2026-05-25",
+      "patch": "16.10",
+      "game": "Los Grandes vs LOUD",
+      "actual": 34,
+      "baseline": 25.84,
+      "preDraft": 25.050013750152978,
+      "postDraft": 25.864852419981055,
+      "draftDelta": 0.8148386698280774,
+      "draftConfidence": 0.7041420118343196,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Taliyah",
+          "role": "MID",
+          "value": 2.49,
+          "n": 46,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Vi",
+          "role": "JUNGLE",
+          "value": 1.56,
+          "n": 54,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Seraphine",
+          "role": "SUP",
+          "value": 1.29,
+          "n": 34,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Ashe",
+          "role": "ADC",
+          "value": 1.16,
+          "n": 32,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Viktor",
+          "role": "MID",
+          "value": 0.88,
+          "n": 34,
+          "source": "liga+global"
+        }
+      ]
+    },
+    {
+      "id": "77801",
+      "league": "LEC",
+      "date": "2026-05-10",
+      "patch": "16.9",
+      "game": "G2 Esports vs Movistar KOI",
+      "actual": 27,
+      "baseline": 30.68,
+      "preDraft": 31.47725820494665,
+      "postDraft": 29.731894047941868,
+      "draftDelta": -1.7453641570047829,
+      "draftConfidence": 0.9074074074074074,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Karma",
+          "role": "SUP",
+          "value": -2.8,
+          "n": 74,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Ornn",
+          "role": "TOP",
+          "value": -2.15,
+          "n": 30,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Ezreal",
+          "role": "ADC",
+          "value": -2.04,
+          "n": 116,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Pantheon",
+          "role": "JUNGLE",
+          "value": -1.69,
+          "n": 114,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Azir",
+          "role": "MID",
+          "value": -1.66,
+          "n": 156,
+          "source": "liga+global"
+        }
+      ]
+    },
+    {
+      "id": "77802",
+      "league": "LEC",
+      "date": "2026-05-10",
+      "patch": "16.9",
+      "game": "Movistar KOI vs G2 Esports",
+      "actual": 32,
+      "baseline": 30.32,
+      "preDraft": 31.33993740248577,
+      "postDraft": 30.608888493361405,
+      "draftDelta": -0.7310489091243646,
+      "draftConfidence": 0.8407643312101911,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Lulu",
+          "role": "SUP",
+          "value": -2.33,
+          "n": 86,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Gnar",
+          "role": "TOP",
+          "value": -2.19,
+          "n": 80,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Lissandra",
+          "role": "MID",
+          "value": 0.75,
+          "n": 6,
+          "source": "global"
+        },
+        {
+          "champion": "Jarvan IV",
+          "role": "JUNGLE",
+          "value": -0.68,
+          "n": 98,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Ahri",
+          "role": "MID",
+          "value": -0.61,
+          "n": 60,
+          "source": "liga+global"
+        }
+      ]
+    },
+    {
+      "id": "77803",
+      "league": "LEC",
+      "date": "2026-05-10",
+      "patch": "16.9",
+      "game": "G2 Esports vs Movistar KOI",
+      "actual": 44,
+      "baseline": 30.52,
+      "preDraft": 31.854564488699943,
+      "postDraft": 30.577152275953335,
+      "draftDelta": -1.2774122127466079,
+      "draftConfidence": 0.8269896193771626,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Galio",
+          "role": "MID",
+          "value": -2.62,
+          "n": 26,
+          "source": "liga+global"
+        },
+        {
+          "champion": "LeBlanc",
+          "role": "MID",
+          "value": -2.3,
+          "n": 22,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Xin Zhao",
+          "role": "JUNGLE",
+          "value": -2.04,
+          "n": 130,
+          "source": "liga+global"
+        },
+        {
+          "champion": "KSante",
+          "role": "TOP",
+          "value": -2.01,
+          "n": 126,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Ashe",
+          "role": "ADC",
+          "value": -1.2,
+          "n": 60,
+          "source": "liga+global"
+        }
+      ]
+    },
+    {
+      "id": "78292",
+      "league": "LEC",
+      "date": "2026-05-23",
+      "patch": "16.10",
+      "game": "G2 Esports vs Karmine Corp",
+      "actual": 38,
+      "baseline": 31.44,
+      "preDraft": 32.47361838183852,
+      "postDraft": 31.231694312231518,
+      "draftDelta": -1.241924069607002,
+      "draftConfidence": 0.8466257668711656,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Xin Zhao",
+          "role": "JUNGLE",
+          "value": -2.48,
+          "n": 132,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Vi",
+          "role": "JUNGLE",
+          "value": -2.03,
+          "n": 102,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Taliyah",
+          "role": "MID",
+          "value": -1.88,
+          "n": 80,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Ashe",
+          "role": "ADC",
+          "value": -1.4,
+          "n": 62,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Seraphine",
+          "role": "SUP",
+          "value": -1.38,
+          "n": 66,
+          "source": "liga+global"
+        }
+      ]
+    },
+    {
+      "id": "78293",
+      "league": "LEC",
+      "date": "2026-05-23",
+      "patch": "16.10",
+      "game": "G2 Esports vs Karmine Corp",
+      "actual": 12,
+      "baseline": 31.4,
+      "preDraft": 34.59482649267713,
+      "postDraft": 33.265148565880466,
+      "draftDelta": -1.3296779267966627,
+      "draftConfidence": 0.8677248677248677,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Ezreal",
+          "role": "ADC",
+          "value": -2.8,
+          "n": 118,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Karma",
+          "role": "SUP",
+          "value": -2.8,
+          "n": 76,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Ryze",
+          "role": "MID",
+          "value": -1.95,
+          "n": 102,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Rumble",
+          "role": "TOP",
+          "value": -1.93,
+          "n": 136,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Galio",
+          "role": "TOP",
+          "value": 1.7,
+          "n": 2,
+          "source": "global"
+        }
+      ]
+    },
+    {
+      "id": "78294",
+      "league": "LEC",
+      "date": "2026-05-23",
+      "patch": "16.10",
+      "game": "G2 Esports vs Karmine Corp",
+      "actual": 36,
+      "baseline": 30.76,
+      "preDraft": 31.348157358798268,
+      "postDraft": 29.72620125435383,
+      "draftDelta": -1.6219561044444397,
+      "draftConfidence": 0.8780487804878049,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Nami",
+          "role": "SUP",
+          "value": -2.8,
+          "n": 94,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Lulu",
+          "role": "SUP",
+          "value": -2.41,
+          "n": 88,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Gnar",
+          "role": "TOP",
+          "value": -2.23,
+          "n": 82,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Azir",
+          "role": "MID",
+          "value": -1.67,
+          "n": 158,
+          "source": "liga+global"
+        },
+        {
+          "champion": "LeBlanc",
+          "role": "MID",
+          "value": -1.61,
+          "n": 24,
+          "source": "liga+global"
+        }
+      ]
+    },
+    {
+      "id": "78295",
+      "league": "LEC",
+      "date": "2026-05-23",
+      "patch": "16.10",
+      "game": "G2 Esports vs Karmine Corp",
+      "actual": 33,
+      "baseline": 31.2,
+      "preDraft": 32.10770958898065,
+      "postDraft": 30.914425139408927,
+      "draftDelta": -1.1932844495717205,
+      "draftConfidence": 0.8214285714285714,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Jhin",
+          "role": "ADC",
+          "value": -2.67,
+          "n": 58,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Ambessa",
+          "role": "TOP",
+          "value": -2.56,
+          "n": 70,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Aatrox",
+          "role": "JUNGLE",
+          "value": -1.63,
+          "n": 44,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Varus",
+          "role": "ADC",
+          "value": -1.12,
+          "n": 60,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Ahri",
+          "role": "MID",
+          "value": -0.87,
+          "n": 62,
+          "source": "liga+global"
+        }
+      ]
+    },
+    {
+      "id": "78297",
+      "league": "LEC",
+      "date": "2026-05-24",
+      "patch": "16.10",
+      "game": "Movistar KOI vs Team Vitality",
+      "actual": 18,
+      "baseline": 30.88,
+      "preDraft": 31.877197084839302,
+      "postDraft": 29.92731003705482,
+      "draftDelta": -1.9498870477844825,
+      "draftConfidence": 0.8774509803921569,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Nami",
+          "role": "SUP",
+          "value": -2.8,
+          "n": 96,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Ezreal",
+          "role": "ADC",
+          "value": -2.65,
+          "n": 120,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Syndra",
+          "role": "MID",
+          "value": -2.32,
+          "n": 16,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Vi",
+          "role": "JUNGLE",
+          "value": -1.67,
+          "n": 104,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Rumble",
+          "role": "TOP",
+          "value": -1.61,
+          "n": 138,
+          "source": "liga+global"
+        }
+      ]
+    },
+    {
+      "id": "78298",
+      "league": "LEC",
+      "date": "2026-05-24",
+      "patch": "16.10",
+      "game": "Movistar KOI vs Team Vitality",
+      "actual": 25,
+      "baseline": 30.2,
+      "preDraft": 31.091587329154766,
+      "postDraft": 30.58012938888416,
+      "draftDelta": -0.5114579402706063,
+      "draftConfidence": 0.8659517426273459,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Akali",
+          "role": "MID",
+          "value": 1.89,
+          "n": 24,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Caitlyn",
+          "role": "ADC",
+          "value": -1.78,
+          "n": 68,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Xin Zhao",
+          "role": "JUNGLE",
+          "value": -1.56,
+          "n": 134,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Ryze",
+          "role": "MID",
+          "value": -1.15,
+          "n": 104,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Bard",
+          "role": "SUP",
+          "value": -0.94,
+          "n": 114,
+          "source": "liga+global"
+        }
+      ]
+    },
+    {
+      "id": "78299",
+      "league": "LEC",
+      "date": "2026-05-24",
+      "patch": "16.10",
+      "game": "Movistar KOI vs Team Vitality",
+      "actual": 17,
+      "baseline": 29.88,
+      "preDraft": 30.881416011106246,
+      "postDraft": 31.009997743202078,
+      "draftDelta": 0.12858173209583157,
+      "draftConfidence": 0.7596153846153846,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Xayah",
+          "role": "ADC",
+          "value": 1.28,
+          "n": 26,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Olaf",
+          "role": "TOP",
+          "value": 1.23,
+          "n": 2,
+          "source": "global"
+        },
+        {
+          "champion": "Lucian",
+          "role": "ADC",
+          "value": -1.05,
+          "n": 32,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Taliyah",
+          "role": "MID",
+          "value": -0.77,
+          "n": 82,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Jayce",
+          "role": "JUNGLE",
+          "value": -0.76,
+          "n": 24,
+          "source": "liga+global"
+        }
+      ]
+    },
+    {
+      "id": "78837",
+      "league": "LEC",
+      "date": "2026-05-25",
+      "patch": "16.10",
+      "game": "Movistar KOI vs G2 Esports",
+      "actual": 27,
+      "baseline": 29.56,
+      "preDraft": 28.540120012242486,
+      "postDraft": 29.003109390899155,
+      "draftDelta": 0.462989378656669,
+      "draftConfidence": 0.8245614035087719,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Ezreal",
+          "role": "ADC",
+          "value": -1.47,
+          "n": 122,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Galio",
+          "role": "MID",
+          "value": -1.41,
+          "n": 28,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Nocturne",
+          "role": "JUNGLE",
+          "value": 1.32,
+          "n": 52,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Anivia",
+          "role": "TOP",
+          "value": 1.26,
+          "n": 12,
+          "source": "global"
+        },
+        {
+          "champion": "Nautilus",
+          "role": "SUP",
+          "value": 1.07,
+          "n": 72,
+          "source": "liga+global"
+        }
+      ]
+    },
+    {
+      "id": "78838",
+      "league": "LEC",
+      "date": "2026-05-25",
+      "patch": "16.10",
+      "game": "Movistar KOI vs G2 Esports",
+      "actual": 35,
+      "baseline": 29.56,
+      "preDraft": 28.637785912326823,
+      "postDraft": 28.05887781784734,
+      "draftDelta": -0.578908094479484,
+      "draftConfidence": 0.8670212765957447,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Nami",
+          "role": "SUP",
+          "value": -2.12,
+          "n": 98,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Lulu",
+          "role": "SUP",
+          "value": -1.28,
+          "n": 90,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Caitlyn",
+          "role": "ADC",
+          "value": -1.04,
+          "n": 70,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Trundle",
+          "role": "JUNGLE",
+          "value": 0.86,
+          "n": 10,
+          "source": "global"
+        },
+        {
+          "champion": "Varus",
+          "role": "TOP",
+          "value": -0.58,
+          "n": 12,
+          "source": "global"
+        }
+      ]
+    },
+    {
+      "id": "78839",
+      "league": "LEC",
+      "date": "2026-05-25",
+      "patch": "16.10",
+      "game": "Movistar KOI vs G2 Esports",
+      "actual": 26,
+      "baseline": 29.88,
+      "preDraft": 29.377006827617414,
+      "postDraft": 29.131172708834587,
+      "draftDelta": -0.24583411878282746,
+      "draftConfidence": 0.8659517426273459,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Kled",
+          "role": "TOP",
+          "value": -1.46,
+          "n": 12,
+          "source": "global"
+        },
+        {
+          "champion": "Sion",
+          "role": "TOP",
+          "value": -1.36,
+          "n": 88,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Xin Zhao",
+          "role": "JUNGLE",
+          "value": -1.08,
+          "n": 136,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Xayah",
+          "role": "ADC",
+          "value": 0.97,
+          "n": 28,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Zeri",
+          "role": "ADC",
+          "value": 0.85,
+          "n": 8,
+          "source": "global"
+        }
+      ]
+    },
+    {
+      "id": "78840",
+      "league": "LEC",
+      "date": "2026-05-25",
+      "patch": "16.10",
+      "game": "G2 Esports vs Movistar KOI",
+      "actual": 38,
+      "baseline": 29,
+      "preDraft": 29.716240080738327,
+      "postDraft": 29.86124178018236,
+      "draftDelta": 0.14500169944403396,
+      "draftConfidence": 0.8392282958199357,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Akali",
+          "role": "MID",
+          "value": 2.08,
+          "n": 26,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Aurora",
+          "role": "MID",
+          "value": -1.61,
+          "n": 62,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Twisted Fate",
+          "role": "TOP",
+          "value": 1.1,
+          "n": 6,
+          "source": "global"
+        },
+        {
+          "champion": "Naafiri",
+          "role": "JUNGLE",
+          "value": -0.77,
+          "n": 14,
+          "source": "global"
+        },
+        {
+          "champion": "Miss Fortune",
+          "role": "ADC",
+          "value": 0.57,
+          "n": 12,
+          "source": "global"
+        }
+      ]
+    },
+    {
+      "id": "78841",
+      "league": "LEC",
+      "date": "2026-05-25",
+      "patch": "16.10",
+      "game": "G2 Esports vs Movistar KOI",
+      "actual": 31,
+      "baseline": 29.88,
+      "preDraft": 30.224576889315284,
+      "postDraft": 29.343043709048946,
+      "draftDelta": -0.881533180266338,
+      "draftConfidence": 0.8316498316498316,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Jinx",
+          "role": "ADC",
+          "value": -2.02,
+          "n": 8,
+          "source": "global"
+        },
+        {
+          "champion": "Gnar",
+          "role": "TOP",
+          "value": -1.73,
+          "n": 84,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Pantheon",
+          "role": "JUNGLE",
+          "value": -1.3,
+          "n": 116,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Azir",
+          "role": "MID",
+          "value": -1.15,
+          "n": 160,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Zaahen",
+          "role": "JUNGLE",
+          "value": -1.11,
+          "n": 28,
+          "source": "liga+global"
+        }
+      ]
+    },
+    {
+      "id": "78141",
+      "league": "LCS",
+      "date": "2026-05-17",
+      "patch": "16.10",
+      "game": "Dignitas vs Sentinels",
+      "actual": 10,
+      "baseline": 27.08,
+      "preDraft": 27.085176210729905,
+      "postDraft": 26.258225988442266,
+      "draftDelta": -0.826950222287639,
+      "draftConfidence": 0.7757847533632287,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Caitlyn",
+          "role": "ADC",
+          "value": -1.71,
+          "n": 30,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Xin Zhao",
+          "role": "JUNGLE",
+          "value": -1.62,
+          "n": 62,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Ryze",
+          "role": "MID",
+          "value": -1.59,
+          "n": 66,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Sion",
+          "role": "TOP",
+          "value": 1.43,
+          "n": 62,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Jarvan IV",
+          "role": "JUNGLE",
+          "value": -1.36,
+          "n": 58,
+          "source": "liga+global"
+        }
+      ]
+    },
+    {
+      "id": "78142",
+      "league": "LCS",
+      "date": "2026-05-17",
+      "patch": "16.10",
+      "game": "Sentinels vs Dignitas",
+      "actual": 26,
+      "baseline": 26.56,
+      "preDraft": 25.081702819254417,
+      "postDraft": 25.129953070374512,
+      "draftDelta": 0.048250251120094845,
+      "draftConfidence": 0.7737556561085973,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Ornn",
+          "role": "TOP",
+          "value": -2.36,
+          "n": 18,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Varus",
+          "role": "ADC",
+          "value": 2.28,
+          "n": 34,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Naafiri",
+          "role": "JUNGLE",
+          "value": -0.73,
+          "n": 6,
+          "source": "global"
+        },
+        {
+          "champion": "Renekton",
+          "role": "TOP",
+          "value": 0.66,
+          "n": 62,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Hwei",
+          "role": "MID",
+          "value": -0.59,
+          "n": 16,
+          "source": "liga+global"
+        }
+      ]
+    },
+    {
+      "id": "78144",
+      "league": "LCS",
+      "date": "2026-05-17",
+      "patch": "16.10",
+      "game": "LYON vs FlyQuest",
+      "actual": 39,
+      "baseline": 26.84,
+      "preDraft": 27.144555811894943,
+      "postDraft": 27.170548858772694,
+      "draftDelta": 0.02599304687775117,
+      "draftConfidence": 0.7409326424870466,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Sion",
+          "role": "TOP",
+          "value": 1.75,
+          "n": 64,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Nautilus",
+          "role": "SUP",
+          "value": 1.61,
+          "n": 34,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Senna",
+          "role": "ADC",
+          "value": 1.43,
+          "n": 8,
+          "source": "global"
+        },
+        {
+          "champion": "Milio",
+          "role": "SUP",
+          "value": -1.28,
+          "n": 12,
+          "source": "global"
+        },
+        {
+          "champion": "Jayce",
+          "role": "TOP",
+          "value": -1.23,
+          "n": 24,
+          "source": "liga+global"
+        }
+      ]
+    },
+    {
+      "id": "78145",
+      "league": "LCS",
+      "date": "2026-05-17",
+      "patch": "16.10",
+      "game": "FlyQuest vs LYON",
+      "actual": 16,
+      "baseline": 27.36,
+      "preDraft": 29.355224609986298,
+      "postDraft": 28.46217205207951,
+      "draftDelta": -0.8930525579067883,
+      "draftConfidence": 0.8031496062992126,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Caitlyn",
+          "role": "ADC",
+          "value": -2.06,
+          "n": 32,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Nami",
+          "role": "SUP",
+          "value": -2.03,
+          "n": 76,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Jarvan IV",
+          "role": "JUNGLE",
+          "value": -1.47,
+          "n": 60,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Corki",
+          "role": "ADC",
+          "value": -1.42,
+          "n": 72,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Sejuani",
+          "role": "JUNGLE",
+          "value": -1.37,
+          "n": 18,
+          "source": "liga+global"
+        }
+      ]
+    },
+    {
+      "id": "78146",
+      "league": "LCS",
+      "date": "2026-05-17",
+      "patch": "16.10",
+      "game": "LYON vs FlyQuest",
+      "actual": 29,
+      "baseline": 26.68,
+      "preDraft": 28.68068438619143,
+      "postDraft": 28.451086983525826,
+      "draftDelta": -0.22959740266560402,
+      "draftConfidence": 0.782608695652174,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Rumble",
+          "role": "TOP",
+          "value": -1.57,
+          "n": 74,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Lulu",
+          "role": "SUP",
+          "value": -1,
+          "n": 44,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Yunara",
+          "role": "ADC",
+          "value": -0.76,
+          "n": 50,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Yorick",
+          "role": "TOP",
+          "value": -0.71,
+          "n": 10,
+          "source": "global"
+        },
+        {
+          "champion": "Vi",
+          "role": "JUNGLE",
+          "value": 0.34,
+          "n": 62,
+          "source": "liga+global"
+        }
+      ]
+    },
+    {
+      "id": "78676",
+      "league": "LCS",
+      "date": "2026-05-23",
+      "patch": "16.10",
+      "game": "FlyQuest vs Cloud9",
+      "actual": 13,
+      "baseline": 27.04,
+      "preDraft": 27.987622549119315,
+      "postDraft": 27.500716074219948,
+      "draftDelta": -0.4869064748993672,
+      "draftConfidence": 0.823943661971831,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Sion",
+          "role": "TOP",
+          "value": 1.84,
+          "n": 66,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Nami",
+          "role": "SUP",
+          "value": -1.82,
+          "n": 78,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Rumble",
+          "role": "TOP",
+          "value": -1.6,
+          "n": 76,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Xin Zhao",
+          "role": "JUNGLE",
+          "value": -1.37,
+          "n": 64,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Cassiopeia",
+          "role": "MID",
+          "value": 1.24,
+          "n": 24,
+          "source": "liga+global"
+        }
+      ]
+    },
+    {
+      "id": "78677",
+      "league": "LCS",
+      "date": "2026-05-23",
+      "patch": "16.10",
+      "game": "Cloud9 vs FlyQuest",
+      "actual": 22,
+      "baseline": 26.4,
+      "preDraft": 26.039514707819222,
+      "postDraft": 25.849637141990186,
+      "draftDelta": -0.18987756582903614,
+      "draftConfidence": 0.8031496062992126,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Caitlyn",
+          "role": "ADC",
+          "value": -1.61,
+          "n": 34,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Jarvan IV",
+          "role": "JUNGLE",
+          "value": -0.8,
+          "n": 62,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Ryze",
+          "role": "MID",
+          "value": -0.75,
+          "n": 68,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Bard",
+          "role": "SUP",
+          "value": 0.68,
+          "n": 58,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Annie",
+          "role": "MID",
+          "value": 0.56,
+          "n": 36,
+          "source": "liga+global"
+        }
+      ]
+    },
+    {
+      "id": "78678",
+      "league": "LCS",
+      "date": "2026-05-23",
+      "patch": "16.10",
+      "game": "Cloud9 vs FlyQuest",
+      "actual": 17,
+      "baseline": 26.4,
+      "preDraft": 24.639357113986474,
+      "postDraft": 25.43361613963902,
+      "draftDelta": 0.794259025652547,
+      "draftConfidence": 0.6666666666666666,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Nautilus",
+          "role": "SUP",
+          "value": 2.47,
+          "n": 36,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Senna",
+          "role": "ADC",
+          "value": 2.39,
+          "n": 10,
+          "source": "global"
+        },
+        {
+          "champion": "Sylas",
+          "role": "MID",
+          "value": 2,
+          "n": 10,
+          "source": "global"
+        },
+        {
+          "champion": "Sivir",
+          "role": "ADC",
+          "value": 1.23,
+          "n": 16,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Ambessa",
+          "role": "JUNGLE",
+          "value": 0.62,
+          "n": 16,
+          "source": "liga+global"
+        }
+      ]
+    },
+    {
+      "id": "78679",
+      "league": "LCS",
+      "date": "2026-05-23",
+      "patch": "16.10",
+      "game": "FlyQuest vs Cloud9",
+      "actual": 28,
+      "baseline": 25.48,
+      "preDraft": 23.885913381334415,
+      "postDraft": 24.96648311370588,
+      "draftDelta": 1.0805697323714654,
+      "draftConfidence": 0.8091603053435115,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Neeko",
+          "role": "SUP",
+          "value": 2.26,
+          "n": 54,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Renekton",
+          "role": "TOP",
+          "value": 1.6,
+          "n": 64,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Wukong",
+          "role": "JUNGLE",
+          "value": 1.59,
+          "n": 46,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Taliyah",
+          "role": "MID",
+          "value": 1.03,
+          "n": 44,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Aurora",
+          "role": "MID",
+          "value": 0.98,
+          "n": 30,
+          "source": "liga+global"
+        }
+      ]
+    },
+    {
+      "id": "78680",
+      "league": "LCS",
+      "date": "2026-05-23",
+      "patch": "16.10",
+      "game": "FlyQuest vs Cloud9",
+      "actual": 27,
+      "baseline": 25.48,
+      "preDraft": 24.3292255442176,
+      "postDraft": 25.009033141944204,
+      "draftDelta": 0.6798075977266045,
+      "draftConfidence": 0.6835443037974683,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Jhin",
+          "role": "ADC",
+          "value": 2.24,
+          "n": 38,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Alistar",
+          "role": "SUP",
+          "value": 1.7,
+          "n": 30,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Azir",
+          "role": "MID",
+          "value": 1.23,
+          "n": 52,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Gnar",
+          "role": "TOP",
+          "value": 1.16,
+          "n": 46,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Sejuani",
+          "role": "JUNGLE",
+          "value": -0.97,
+          "n": 20,
+          "source": "liga+global"
+        }
+      ]
+    },
+    {
+      "id": "78681",
+      "league": "LCS",
+      "date": "2026-05-24",
+      "patch": "16.10",
+      "game": "Team Liquid vs LYON",
+      "actual": 13,
+      "baseline": 25.16,
+      "preDraft": 25.09804087916108,
+      "postDraft": 26.002392631404668,
+      "draftDelta": 0.9043517522435884,
+      "draftConfidence": 0.7916666666666666,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Sion",
+          "role": "TOP",
+          "value": 2.37,
+          "n": 68,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Jhin",
+          "role": "ADC",
+          "value": 2.15,
+          "n": 40,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Wukong",
+          "role": "JUNGLE",
+          "value": 1.42,
+          "n": 48,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Anivia",
+          "role": "MID",
+          "value": -0.95,
+          "n": 20,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Rell",
+          "role": "SUP",
+          "value": 0.94,
+          "n": 20,
+          "source": "liga+global"
+        }
+      ]
+    },
+    {
+      "id": "78682",
+      "league": "LCS",
+      "date": "2026-05-24",
+      "patch": "16.10",
+      "game": "Team Liquid vs LYON",
+      "actual": 26,
+      "baseline": 24.8,
+      "preDraft": 22.7614573488197,
+      "postDraft": 23.677083276603167,
+      "draftDelta": 0.9156259277834664,
+      "draftConfidence": 0.7797356828193832,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Nautilus",
+          "role": "SUP",
+          "value": 2.62,
+          "n": 38,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Senna",
+          "role": "ADC",
+          "value": 2.04,
+          "n": 12,
+          "source": "global"
+        },
+        {
+          "champion": "Ambessa",
+          "role": "TOP",
+          "value": 1.64,
+          "n": 28,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Vi",
+          "role": "JUNGLE",
+          "value": 1.61,
+          "n": 64,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Aurora",
+          "role": "MID",
+          "value": 1.3,
+          "n": 32,
+          "source": "liga+global"
+        }
+      ]
+    },
+    {
+      "id": "78683",
+      "league": "LCS",
+      "date": "2026-05-24",
+      "patch": "16.10",
+      "game": "LYON vs Team Liquid",
+      "actual": 35,
+      "baseline": 25.08,
+      "preDraft": 22.748607072609122,
+      "postDraft": 22.812291433860878,
+      "draftDelta": 0.06368436125175592,
+      "draftConfidence": 0.6951219512195123,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Sylas",
+          "role": "MID",
+          "value": 1.7,
+          "n": 12,
+          "source": "global"
+        },
+        {
+          "champion": "Caitlyn",
+          "role": "ADC",
+          "value": -1.11,
+          "n": 36,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Xin Zhao",
+          "role": "JUNGLE",
+          "value": -0.38,
+          "n": 66,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Braum",
+          "role": "SUP",
+          "value": 0.34,
+          "n": 8,
+          "source": "global"
+        },
+        {
+          "champion": "Mel",
+          "role": "ADC",
+          "value": 0.3,
+          "n": 2,
+          "source": "global"
+        }
+      ]
+    },
+    {
+      "id": "78684",
+      "league": "LCS",
+      "date": "2026-05-24",
+      "patch": "16.10",
+      "game": "LYON vs Team Liquid",
+      "actual": 13,
+      "baseline": 25.64,
+      "preDraft": 24.212123432727946,
+      "postDraft": 24.227984197426316,
+      "draftDelta": 0.01586076469837039,
+      "draftConfidence": 0.800796812749004,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Smolder",
+          "role": "ADC",
+          "value": -1.62,
+          "n": 6,
+          "source": "global"
+        },
+        {
+          "champion": "Renekton",
+          "role": "TOP",
+          "value": 1.38,
+          "n": 66,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Cassiopeia",
+          "role": "MID",
+          "value": 1.26,
+          "n": 26,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Nami",
+          "role": "SUP",
+          "value": -1.2,
+          "n": 80,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Gnar",
+          "role": "TOP",
+          "value": 1.09,
+          "n": 48,
+          "source": "liga+global"
+        }
+      ]
+    },
+    {
+      "id": "78685",
+      "league": "LCS",
+      "date": "2026-05-24",
+      "patch": "16.10",
+      "game": "Team Liquid vs LYON",
+      "actual": 14,
+      "baseline": 25.64,
+      "preDraft": 21.84114059660022,
+      "postDraft": 22.532655465262557,
+      "draftDelta": 0.6915148686623382,
+      "draftConfidence": 0.6688741721854304,
+      "draftCount": 10,
+      "topPickEffects": [
+        {
+          "champion": "Taliyah",
+          "role": "MID",
+          "value": 1.33,
+          "n": 46,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Bard",
+          "role": "SUP",
+          "value": 1.3,
+          "n": 60,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Annie",
+          "role": "MID",
+          "value": 1.04,
+          "n": 38,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Aphelios",
+          "role": "ADC",
+          "value": 1,
+          "n": 24,
+          "source": "liga+global"
+        },
+        {
+          "champion": "Sona",
+          "role": "SUP",
+          "value": 0.74,
+          "n": 2,
+          "source": "global"
+        }
+      ]
+    }
+  ]
+}

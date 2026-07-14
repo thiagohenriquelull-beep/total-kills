@@ -1,0 +1,2493 @@
+const TARGET_LEAGUES = ["LCK", "LCKCL", "LPL", "CBLOL", "LEC", "LCS"];
+const LEAGUE_LABELS = { LCKCL: "LCK CL" };
+const ROLES = ["TOP", "JUNGLE", "MID", "ADC", "SUP"];
+const DEFAULT_SIGMA = 8.3;
+const EXCLUDED_DRAFT_LEAGUES = [];
+const DEFAULT_EDGE_THRESHOLD = 1.0;
+const MIN_RANKING_SAMPLE = 8;
+const DEFAULT_BET_POLICY = {
+  minEv: 0.05,
+  contrarianMinEv: 0.12,
+  contrarianMaxAgainstEdge: 2.5,
+  minContrarianProbability: 0.28,
+};
+const DRAFT_CONFLUENCE_THRESHOLD = 0.45;
+
+// Dados históricos de sinalizadores (1252 jogos, n≥15). Fonte: scripts/analyze-signal-champs.js
+const SIGNAL_CHAMPS = {
+  over: [
+    { role: "SUP",    champ: "Nautilus",     n: 199, delta: 0.427, hit: 0.668 },
+    { role: "JG",     champ: "Vi",           n: 278, delta: 0.359, hit: 0.647 },
+    { role: "SUP",    champ: "Leona",        n: 60,  delta: 0.331, hit: 0.600 },
+    { role: "SUP",    champ: "Yuumi",        n: 23,  delta: 0.312, hit: 0.609 },
+    { role: "SUP",    champ: "Neeko",        n: 255, delta: 0.298, hit: 0.635 },
+    { role: "SUP",    champ: "Seraphine",    n: 226, delta: 0.243, hit: 0.602 },
+    { role: "JG",     champ: "Lee Sin",      n: 105, delta: 0.243, hit: 0.657 },
+    { role: "JG",     champ: "Ambessa",      n: 39,  delta: 0.241, hit: 0.667 },
+    { role: "JG",     champ: "Nocturne",     n: 199, delta: 0.217, hit: 0.623 },
+    { role: "SUP",    champ: "Rakan",        n: 131, delta: 0.211, hit: 0.664 },
+    { role: "JG",     champ: "Jarvan IV",    n: 336, delta: 0.180, hit: 0.598 },
+    { role: "SUP",    champ: "Alistar",      n: 155, delta: 0.181, hit: 0.665 },
+    { role: "JG",     champ: "Malphite",     n: 21,  delta: 0.170, hit: 0.714 },
+    { role: "JG",     champ: "Pantheon",     n: 302, delta: 0.165, hit: 0.652 },
+    { role: "SUP",    champ: "Renata Glasc", n: 36,  delta: 0.140, hit: 0.583 },
+    { role: "SUP",    champ: "Rell",         n: 77,  delta: 0.051, hit: 0.714 },
+    { role: "SUP",    champ: "Braum",        n: 29,  delta: 0.051, hit: 0.793 },
+    { role: "JG",     champ: "Aatrox",       n: 67,  delta: 0.046, hit: 0.672 },
+    { role: "JG",     champ: "Jayce",        n: 30,  delta: 0.033, hit: 0.600 },
+  ],
+  under: [
+    { role: "SUP",    champ: "Milio",        n: 148, delta: -0.654, hit: 0.595 },
+    { role: "JG",     champ: "Dr. Mundo",    n: 63,  delta: -0.297, hit: 0.794 },
+    { role: "SUP",    champ: "Nami",         n: 239, delta: -0.226, hit: 0.686 },
+    { role: "SUP",    champ: "Karma",        n: 171, delta: -0.224, hit: 0.637 },
+    { role: "JG",     champ: "Sejuani",      n: 31,  delta: -0.203, hit: 0.677 },
+    { role: "SUP",    champ: "Lulu",         n: 272, delta: -0.203, hit: 0.625 },
+    { role: "JG",     champ: "Trundle",      n: 80,  delta: -0.176, hit: 0.588 },
+    { role: "JG",     champ: "Maokai",       n: 24,  delta: -0.165, hit: 0.625 },
+    { role: "JG",     champ: "Naafiri",      n: 92,  delta: -0.134, hit: 0.717 },
+    { role: "SUP",    champ: "Anivia",       n: 42,  delta: -0.096, hit: 0.667 },
+    { role: "JG",     champ: "Zaahen",       n: 34,  delta: -0.088, hit: 0.647 },
+    { role: "SUP",    champ: "Lux",          n: 17,  delta: -0.079, hit: 0.529 },
+    { role: "JG",     champ: "Xin Zhao",     n: 382, delta: -0.062, hit: 0.623 },
+    { role: "JG",     champ: "Skarner",      n: 107, delta: -0.045, hit: 0.589 },
+    { role: "SUP",    champ: "Poppy",        n: 15,  delta: -0.162, hit: 0.600 },
+    { role: "JG",     champ: "Poppy",        n: 29,  delta: -0.033, hit: 0.793 },
+    { role: "JG",     champ: "Wukong",       n: 184, delta: -0.028, hit: 0.620 },
+    { role: "SUP",    champ: "Bard",         n: 298, delta: -0.036, hit: 0.664 },
+    { role: "SUP",    champ: "Thresh",       n: 42,  delta: -0.023, hit: 0.619 },
+    { role: "JG",     champ: "Qiyana",       n: 39,  delta: -0.009, hit: 0.744 },
+  ],
+};
+const DRAFT_CONFLUENCE_SETS = {
+  "mid-jungle": { label: "MID+JUNGLE", roles: ["MID", "JUNGLE"] },
+  "adc-sup": { label: "ADC+SUP", roles: ["ADC", "SUP"] },
+  "sup-only": { label: "SUP", roles: ["SUP"] },
+  "jungle-only": { label: "JUNGLE", roles: ["JUNGLE"] },
+};
+
+const state = {
+  games: [],
+  indexes: null,
+  elements: {},
+  lastPrediction: null,
+};
+
+function getEl(id) {
+  return document.getElementById(id);
+}
+
+function round(value, digits = 2) {
+  if (!Number.isFinite(value)) return "--";
+  return value.toFixed(digits);
+}
+
+function mean(values) {
+  if (!values.length) return 0;
+  return values.reduce((sum, value) => sum + value, 0) / values.length;
+}
+
+function std(values) {
+  if (values.length < 2) return DEFAULT_SIGMA;
+  const avg = mean(values);
+  const variance = mean(values.map((value) => (value - avg) ** 2));
+  return Math.max(3.5, Math.sqrt(variance));
+}
+
+function shrink(n, k) {
+  return n / (n + k);
+}
+
+function erf(x) {
+  const sign = x < 0 ? -1 : 1;
+  const abs = Math.abs(x);
+  const t = 1 / (1 + 0.3275911 * abs);
+  const y = 1 - (((((1.061405429 * t - 1.453152027) * t) + 1.421413741) * t - 0.284496736) * t + 0.254829592) * t * Math.exp(-abs * abs);
+  return sign * y;
+}
+
+function normalCdf(x, mu, sigma) {
+  return 0.5 * (1 + erf((x - mu) / (sigma * Math.sqrt(2))));
+}
+
+function normalizeChampion(value) {
+  return String(value || "").trim();
+}
+
+function getAllPicks(game) {
+  return [...(game.picks?.teamA || []), ...(game.picks?.teamB || [])].filter(Boolean);
+}
+
+function buildIndexes(games) {
+  const leagues = new Map();
+  const patchesByLeague = new Map();
+  const teamsByLeague = new Map();
+  const teamGames = new Map();
+  const championResiduals = new Map();
+  const championTotals = new Map();
+  const championRoleResiduals = new Map();
+  const championRoleTotals = new Map();
+  const champions = new Set();
+
+  for (const game of games) {
+    const leagueGames = leagues.get(game.league) || [];
+    leagueGames.push(game);
+    leagues.set(game.league, leagueGames);
+
+    if (!patchesByLeague.has(game.league)) patchesByLeague.set(game.league, new Set());
+    patchesByLeague.get(game.league).add(game.patch || "ALL");
+
+    if (!teamsByLeague.has(game.league)) teamsByLeague.set(game.league, new Set());
+    teamsByLeague.get(game.league).add(game.teamA);
+    teamsByLeague.get(game.league).add(game.teamB);
+
+    for (const team of [game.teamA, game.teamB]) {
+      const key = `${game.league}::${team}`;
+      const list = teamGames.get(key) || [];
+      list.push(game);
+      teamGames.set(key, list);
+    }
+
+    for (const champ of getAllPicks(game)) champions.add(champ);
+  }
+
+  const leagueMeans = new Map();
+  const leagueSigmas = new Map();
+  for (const [league, list] of leagues) {
+    const totals = list.map((game) => game.totalKills);
+    leagueMeans.set(league, mean(totals));
+    leagueSigmas.set(league, std(totals));
+  }
+
+  for (const game of games) {
+    const residual = game.totalKills - (leagueMeans.get(game.league) || mean(games.map((item) => item.totalKills)));
+    for (const champ of getAllPicks(game)) {
+      addChampionSample(championResiduals, championTotals, champ, residual, game.totalKills);
+    }
+
+    for (const side of ["teamA", "teamB"]) {
+      (game.picks?.[side] || []).forEach((champ, index) => {
+        const role = ROLES[index] || "UNK";
+        const key = `${role}::${champ}`;
+        addChampionSample(championRoleResiduals, championRoleTotals, key, residual, game.totalKills);
+      });
+    }
+  }
+
+  return {
+    leagues,
+    leagueMeans,
+    leagueSigmas,
+    patchesByLeague,
+    teamsByLeague,
+    teamGames,
+    championResiduals,
+    championTotals,
+    championRoleResiduals,
+    championRoleTotals,
+    champions: [...champions].sort((a, b) => a.localeCompare(b)),
+  };
+}
+
+function addChampionSample(residualMap, totalMap, key, residual, totalKills) {
+  const residuals = residualMap.get(key) || [];
+  residuals.push(residual);
+  residualMap.set(key, residuals);
+
+  const totals = totalMap.get(key) || [];
+  totals.push(totalKills);
+  totalMap.set(key, totals);
+}
+
+function option(value, label = value) {
+  const el = document.createElement("option");
+  el.value = value;
+  el.textContent = label;
+  return el;
+}
+
+function leagueLabel(league) {
+  return LEAGUE_LABELS[league] || league;
+}
+
+function setOptions(select, values, includeAll = false) {
+  select.innerHTML = "";
+  if (includeAll) select.appendChild(option("ALL", "Todos"));
+  for (const value of values) select.appendChild(option(value));
+}
+
+function populateMarketLines() {
+  const values = [];
+  for (let line = 20.5; line <= 34.5; line += 1) {
+    values.push(line.toFixed(1));
+  }
+  setOptions(state.elements.marketLineInput, values);
+  state.elements.marketLineInput.value = "24.5";
+}
+
+function buildDraftInputs() {
+  const grid = state.elements.draftGrid;
+  grid.innerHTML = "";
+
+  for (const side of ["A", "B"]) {
+    const team = document.createElement("section");
+    team.className = "draft-team";
+    team.dataset.draftTeam = side;
+    team.innerHTML = `
+      <div class="draft-team-header">
+        <strong data-draft-title="${side}">Time ${side}</strong>
+        <span>${side === "A" ? "esquerda" : "direita"}</span>
+      </div>
+    `;
+
+    for (const role of ROLES) {
+      const slot = `${side} ${role}`;
+      const row = document.createElement("label");
+      row.className = "draft-row";
+      row.dataset.pickRow = slot;
+
+      const text = document.createElement("span");
+      text.textContent = role;
+
+      const wrap = document.createElement("div");
+      wrap.className = "draft-input-wrap";
+
+      const input = document.createElement("select");
+      input.dataset.pickSlot = slot;
+      input.dataset.role = role;
+      input.appendChild(option("", "Sem pick"));
+      input.addEventListener("change", updatePrediction);
+
+      const meta = document.createElement("small");
+      meta.className = "pick-meta";
+      meta.dataset.pickMeta = slot;
+      meta.textContent = "Sem pick";
+
+      wrap.append(input, meta);
+      row.append(text, wrap);
+      team.appendChild(row);
+    }
+
+    grid.appendChild(team);
+  }
+}
+
+function championRoleSample(champion, role) {
+  if (!role) return 0;
+  const effect = state.indexes?.championRoleEffect?.(champion, role, state.elements.leagueSelect?.value);
+  return effect?.n || 0;
+}
+
+function sortedChampionsForRole(role = "") {
+  return [...state.indexes.champions].sort((a, b) => {
+    const roleDiff = championRoleSample(b, role) - championRoleSample(a, role);
+    if (roleDiff !== 0) return roleDiff;
+    return a.localeCompare(b);
+  });
+}
+
+function refreshDraftPickOptions() {
+  for (const select of document.querySelectorAll("[data-pick-slot]")) {
+    const selected = select.value;
+    const role = select.dataset.role || roleFromSlot(select.dataset.pickSlot);
+    select.innerHTML = "";
+    select.appendChild(option("", "Sem pick"));
+    for (const champ of sortedChampionsForRole(role)) {
+      select.appendChild(option(champ));
+    }
+    if (selected && [...select.options].some((item) => item.value === selected)) {
+      select.value = selected;
+    }
+  }
+}
+
+function populateOddsSelects() {
+  const selects = [state.elements.oddsOverInput, state.elements.oddsUnderInput].filter(Boolean);
+  for (const select of selects) {
+    select.innerHTML = "";
+    select.appendChild(option("", "1.80 padrao"));
+  }
+  for (let value = 150; value <= 300; value += 5) {
+    const formatted = (value / 100).toFixed(2);
+    for (const select of selects) select.appendChild(option(formatted));
+  }
+}
+
+function updateLeagueControls() {
+  const availableLeagues = TARGET_LEAGUES.filter((league) => state.indexes.leagues.has(league));
+  const leagues = availableLeagues.length ? availableLeagues : [...state.indexes.leagues.keys()].sort();
+  state.elements.leagueSelect.innerHTML = "";
+  for (const league of leagues) state.elements.leagueSelect.appendChild(option(league, leagueLabel(league)));
+  updatePatchAndTeams();
+}
+
+function updatePatchAndTeams() {
+  const league = state.elements.leagueSelect.value;
+  const patches = [...(state.indexes.patchesByLeague.get(league) || [])].sort((a, b) => b.localeCompare(a, undefined, { numeric: true }));
+  const teams = [...(state.indexes.teamsByLeague.get(league) || [])].sort((a, b) => a.localeCompare(b));
+  setOptions(state.elements.patchSelect, patches, true);
+  setOptions(state.elements.teamASelect, teams);
+  setOptions(state.elements.teamBSelect, teams);
+  if (teams.length > 1 && state.elements.teamASelect.value === state.elements.teamBSelect.value) {
+    state.elements.teamBSelect.value = teams[1];
+  }
+  refreshDraftPickOptions();
+  updateDraftTeamNames();
+  updatePrediction();
+}
+
+function updateDraftTeamNames() {
+  const titleA = document.querySelector('[data-draft-title="A"]');
+  const titleB = document.querySelector('[data-draft-title="B"]');
+  if (titleA) titleA.textContent = state.elements.teamASelect.value || "Time A";
+  if (titleB) titleB.textContent = state.elements.teamBSelect.value || "Time B";
+}
+
+function getPatchAdjustment(league, patch, leagueMean) {
+  if (!patch || patch === "ALL") {
+    return { value: 0, n: 0, raw: 0 };
+  }
+  const list = (state.indexes.leagues.get(league) || []).filter((game) => game.patch === patch);
+  if (!list.length) return { value: 0, n: 0, raw: 0 };
+  const patchMean = mean(list.map((game) => game.totalKills));
+  const raw = patchMean - leagueMean;
+  return { value: raw * shrink(list.length, 12), n: list.length, raw };
+}
+
+function getTeamAdjustment(league, team, baseline) {
+  const list = state.indexes.teamGames.get(`${league}::${team}`) || [];
+  if (!list.length) return { team, n: 0, mean: baseline, value: 0, raw: 0 };
+  const recent = list.slice(0, 20);
+  const teamMean = mean(recent.map((game) => game.totalKills));
+  const raw = teamMean - baseline;
+  return {
+    team,
+    n: recent.length,
+    mean: teamMean,
+    raw,
+    value: raw * shrink(recent.length, 8) * 0.5,
+  };
+}
+
+function roleFromSlot(slot) {
+  return String(slot || "").split(" ")[1] || "";
+}
+
+function getChampionEffect(champion, role = "") {
+  const resolvedChampion = resolveChampionName(champion);
+  if (!resolvedChampion || !role) return { champion: resolvedChampion || champion, role, n: 0, raw: 0, value: 0, average: 0 };
+  return state.indexes.championRoleEffect(resolvedChampion, role, state.elements.leagueSelect.value);
+}
+
+function championKey(value) {
+  return String(value || "").toLowerCase().replace(/[^a-z0-9]/g, "");
+}
+
+function resolveChampionName(value) {
+  const typed = normalizeChampion(value);
+  if (!typed) return "";
+  if (state.indexes.champions.includes(typed)) return typed;
+  const key = championKey(typed);
+  const exact = state.indexes.champions.find((champion) => championKey(champion) === key);
+  if (exact) return exact;
+  const prefixMatches = state.indexes.champions.filter((champion) => championKey(champion).startsWith(key));
+  if (prefixMatches.length === 1) return prefixMatches[0];
+  return typed;
+}
+
+function getSelectedPicks() {
+  return [...document.querySelectorAll("[data-pick-slot]")]
+    .map((input) => ({
+      side: String(input.dataset.pickSlot || "").split(" ")[0],
+      champion: resolveChampionName(input.value),
+      role: roleFromSlot(input.dataset.pickSlot),
+    }))
+    .filter((item) => item.champion);
+}
+
+function selectedPicksBySide(selectedPicks) {
+  return {
+    teamA: ROLES.map((role) => selectedPicks.find((pick) => pick.side === "A" && pick.role === role)?.champion || ""),
+    teamB: ROLES.map((role) => selectedPicks.find((pick) => pick.side === "B" && pick.role === role)?.champion || ""),
+  };
+}
+
+function getDraftAdjustment(picks) {
+  const known = picks.map((pick) => getChampionEffect(pick.champion, pick.role));
+  if (!known.length) return { value: 0, picks: known, count: 0 };
+  const sumEffects = known.reduce((sum, item) => sum + item.value, 0);
+  return {
+    value: (sumEffects / 10) * 0.9,
+    picks: known,
+    count: known.length,
+  };
+}
+
+function classifyLean(edge) {
+  const abs = Math.abs(edge);
+  if (abs < 0.75) return { label: "Sem entrada", className: "lean-pass" };
+  if (edge > 0) {
+    if (abs >= 2.5) return { label: "Over forte", className: "lean-over" };
+    if (abs >= 1.5) return { label: "Over medio", className: "lean-over" };
+    return { label: "Over leve", className: "lean-over" };
+  }
+  if (abs >= 2.5) return { label: "Under forte", className: "lean-under" };
+  if (abs >= 1.5) return { label: "Under medio", className: "lean-under" };
+  return { label: "Under leve", className: "lean-under" };
+}
+
+function pickDirection(value) {
+  const abs = Math.abs(value);
+  if (abs < 0.5) return { label: "neutro", className: "neutral" };
+  if (value > 0) return { label: abs >= 1 ? "puxa over" : "over leve", className: "over" };
+  return { label: abs >= 1 ? "puxa under" : "under leve", className: "under" };
+}
+
+function formatDraftSignal(signal) {
+  if (!signal) return { label: "--", className: "lean-pass" };
+  if (signal.action && signal.lean === "over") return { label: "OVER", className: "lean-over" };
+  if (signal.action && signal.lean === "under") return { label: "UNDER", className: "lean-under" };
+  if (signal.reason && signal.reason.includes("bloqueado")) {
+    const side = signal.side ? signal.side.toUpperCase() : "LADO";
+    return { label: `EVITAR ${side}`, className: "lean-pass" };
+  }
+  if (signal.reason === "confiança baixa") return { label: "BAIXA CONF.", className: "lean-pass" };
+  return { label: "NEUTRO", className: "lean-pass" };
+}
+
+function historicalStatsForSide(league, side) {
+  return GOLPredictorModel.DEFAULT_HOUSE_POLICY.validationStats?.[league]?.[side] || { games: 0, hitRate: 0 };
+}
+
+function formatHistoricalRoi(league, side, odds, enabled = true) {
+  if (!enabled) return { text: "--", className: "lean-pass", roi: null };
+  const hitRate = historicalStatsForSide(league, side)?.hitRate || 0;
+  if (!side || !hitRate) return { text: "--", className: "lean-pass", roi: null };
+  const roi = hitRate * odds - 1;
+  const className = roi > 0 ? "lean-under" : roi < 0 ? "lean-over" : "lean-pass";
+  return {
+    text: `${roi >= 0 ? "+" : ""}${round(roi * 100, 1)}%`,
+    className,
+    roi,
+  };
+}
+
+function formatHitRate(league, side, enabled = true) {
+  if (!enabled) return "--";
+  const stats = historicalStatsForSide(league, side);
+  if (!stats?.games || !stats.hitRate) return "--";
+  return `${round(stats.hitRate * 100, 1)}% / n=${stats.games}`;
+}
+
+function formatSignedNumber(value, digits = 2) {
+  if (!Number.isFinite(value)) return "--";
+  return `${value >= 0 ? "+" : ""}${round(value, digits)}`;
+}
+
+function formatPlainPercent(value, digits = 1) {
+  if (!Number.isFinite(value)) return "--";
+  return `${round(value * 100, digits)}%`;
+}
+
+function draftMarketLabel(draftMarket) {
+  if (!draftMarket?.side) return "NEUTRO";
+  if (draftMarket.allowed) return `${sideUpper(draftMarket.side)} ${String(draftMarket.bucketLabel || "").toUpperCase()}`;
+  if (draftMarket.leagueBlocked) return "EVITAR LIGA";
+  return "PASS DRAFT";
+}
+
+function decisionFromDraftMarket(draftMarket) {
+  if (!draftMarket?.allowed) {
+    return {
+      label: draftMarketLabel(draftMarket),
+      className: "lean-pass",
+      side: null,
+      reason: draftMarket?.reason || "sem edge draft",
+      source: "draft",
+      draftMarket,
+    };
+  }
+  const premium = draftMarket.confluence?.premium;
+  return {
+    label: premium ? `${sideUpper(draftMarket.side)} premium` : `${sideUpper(draftMarket.side)} ${draftMarket.bucketLabel}`,
+    className: draftMarket.className,
+    side: draftMarket.side,
+    reason: premium ? "draft premium" : "draft edge",
+    ev: draftMarket.ev,
+    source: "draft",
+    draftMarket,
+  };
+}
+
+function partialDraftDelta(effects, roles) {
+  const selected = (effects || []).filter((effect) => roles.includes(effect.role));
+  if (!selected.length) return { delta: 0, count: 0, avgN: 0 };
+  const pickMean = mean(selected.map((effect) => effect.value || 0));
+  const avgN = mean(selected.map((effect) => effect.n || 0));
+  const countConfidence = Math.sqrt(selected.length / 10);
+  const sampleConfidence = shrink(avgN, GOLPredictorModel.DEFAULT_OPTIONS.champShrink);
+  const confidence = Math.max(0.1, Math.min(1, countConfidence * sampleConfidence));
+  const raw = pickMean * GOLPredictorModel.DEFAULT_OPTIONS.draftWeight;
+  const cap = GOLPredictorModel.DEFAULT_OPTIONS.draftCap;
+  return {
+    delta: Math.max(-cap, Math.min(cap, raw * confidence)),
+    count: selected.length,
+    avgN,
+  };
+}
+
+function confluencePasses(partial, side) {
+  if (!partial || !side) return false;
+  if (side === "over") return partial.delta >= DRAFT_CONFLUENCE_THRESHOLD;
+  if (side === "under") return partial.delta <= -DRAFT_CONFLUENCE_THRESHOLD;
+  return false;
+}
+
+function evaluateDraftConfluence(draftMarket, draftAdjustment) {
+  const effects = draftAdjustment?.effects || [];
+  const base = {
+    premium: false,
+    label: "SEM CONF.",
+    reason: draftMarket?.hasPicks ? "sem confirmacao parcial forte" : "sem picks",
+    set: null,
+    delta: null,
+    threshold: DRAFT_CONFLUENCE_THRESHOLD,
+    stats: null,
+  };
+  if (!draftMarket?.allowed || !draftMarket.side || !effects.length) return base;
+
+  const partials = Object.fromEntries(Object.entries(DRAFT_CONFLUENCE_SETS).map(([key, config]) => [
+    key,
+    { ...config, ...partialDraftDelta(effects, config.roles) },
+  ]));
+  const move = Number.isFinite(draftMarket.sameDirectionMove) ? draftMarket.sameDirectionMove : 0;
+  const side = draftMarket.side;
+  const candidates = [];
+
+  if (move <= 0.25) {
+    candidates.push({
+      key: "mid-jungle",
+      why: "sem movimento da casa",
+      stats: { bets: 243, hitRate: 0.667, roi: 0.2 },
+    });
+  } else if (move <= 1) {
+    if (side === "over") {
+      candidates.push({
+        key: "jungle-only",
+        why: "OVER apos 1 kill de movimento",
+        stats: { bets: 101, hitRate: 0.644, roi: 0.158 },
+      });
+    } else {
+      candidates.push({
+        key: "adc-sup",
+        why: "UNDER apos 1 kill de movimento",
+        stats: { bets: 80, hitRate: 0.638, roi: 0.148 },
+      });
+    }
+    candidates.push({
+      key: "sup-only",
+      why: "movimento de ate 1 kill",
+      stats: { bets: 156, hitRate: 0.635, roi: 0.142 },
+    });
+  } else if (move <= 2) {
+    candidates.push({
+      key: side === "over" ? "jungle-only" : "mid-jungle",
+      why: "linha ja andou, exige confirmacao mais forte",
+      stats: side === "over"
+        ? { bets: 96, hitRate: 0.635, roi: 0.144 }
+        : { bets: 131, hitRate: 0.626, roi: 0.127 },
+    });
+  }
+
+  for (const candidate of candidates) {
+    const partial = partials[candidate.key];
+    if (!confluencePasses(partial, side)) continue;
+    return {
+      premium: true,
+      label: `${partial.label} CONFIRMA`,
+      reason: `${partial.label} confirma ${sideUpper(side)} (${candidate.why})`,
+      set: candidate.key,
+      delta: partial.delta,
+      count: partial.count,
+      avgN: partial.avgN,
+      threshold: DRAFT_CONFLUENCE_THRESHOLD,
+      stats: candidate.stats,
+    };
+  }
+
+  const strongest = Object.values(partials)
+    .filter((partial) => partial.count)
+    .sort((a, b) => Math.abs(b.delta) - Math.abs(a.delta))[0];
+  if (strongest) {
+    base.label = "NORMAL";
+    base.reason = `${strongest.label} nao confirmou o lado com forca minima`;
+    base.delta = strongest.delta;
+  }
+  return base;
+}
+
+function chooseFinalDecision(draftMarket, modelDecision) {
+  if (!draftMarket?.hasPicks) {
+    return { ...modelDecision, source: "pre" };
+  }
+  const draftDecision = decisionFromDraftMarket(draftMarket);
+  if (draftDecision.side) return draftDecision;
+  if (modelDecision?.side && modelDecision.reason === "odd alta") {
+    return { ...modelDecision, source: "odd" };
+  }
+  return draftDecision;
+}
+
+// ─── TIMING ALERTS (Componente 1) ─────────────────────────────────────────────
+
+function updateTimingAlerts(pickCount, evOverValue, evUnderValue) {
+  const evOver  = Number.isFinite(evOverValue)  ? evOverValue  : -Infinity;
+  const evUnder = Number.isFinite(evUnderValue) ? evUnderValue : -Infinity;
+  const bestEv   = Math.max(evOver, evUnder);
+  const bestSide = evOver >= evUnder ? "over" : "under";
+
+  const p5El     = document.getElementById("timingPick5");
+  const p8El     = document.getElementById("timingPick8");
+  const p5EvEl   = document.getElementById("timingPick5Ev");
+  const p8EvEl   = document.getElementById("timingPick8Ev");
+  const p8LabelEl = document.getElementById("timingPick8Label");
+
+  const evText = Number.isFinite(bestEv) ? `EV ${bestSide.toUpperCase()} ${bestEv >= 0 ? "+" : ""}${(bestEv * 100).toFixed(1)}%` : "";
+
+  // Pick 5: primeiro sinal confiável — visível de pick 5 a pick 7
+  const showP5 = pickCount >= 5 && pickCount < 8 && bestEv >= 0.05;
+  if (p5El) p5El.classList.toggle("ta-visible", showP5);
+  if (p5EvEl) p5EvEl.textContent = showP5 ? evText : "";
+
+  // Pick 8: ponto ótimo de precisão
+  const showP8    = pickCount >= 8 && bestEv >= 0.05;
+  const isPremium = showP8 && bestEv >= 0.10;
+  if (p8El) {
+    p8El.classList.toggle("ta-visible", showP8);
+    p8El.className = "timing-alert" + (showP8 ? " ta-visible" : "") + (isPremium ? " timing-alert-premium" : " timing-alert-p8");
+  }
+  if (p8LabelEl) {
+    p8LabelEl.textContent = isPremium
+      ? "★ SINAL PREMIUM — histórico 19/19, quase sempre OVER"
+      : "Pick 8 — ponto ótimo de precisão";
+  }
+  if (p8EvEl) p8EvEl.textContent = showP8 ? evText : "";
+}
+
+// ─── DRAFT STAGE INDICATOR (Bloco 1) ──────────────────────────────────────────
+
+function updateDraftStageIndicator(pickCount) {
+  const el       = document.getElementById("draftStageIndicator");
+  const countEl  = document.getElementById("draftStageCount");
+  const labelEl  = document.getElementById("draftStageLabel");
+  if (!el) return;
+  el.classList.remove("stage-early", "stage-entry", "stage-optimal");
+  if (pickCount < 5) {
+    el.classList.add("stage-early");
+    if (countEl) countEl.textContent = `${pickCount}/10`;
+    if (labelEl) labelEl.textContent = pickCount === 0 ? "Selecione picks" : "Cedo demais";
+  } else if (pickCount < 8) {
+    el.classList.add("stage-entry");
+    if (countEl) countEl.textContent = `${pickCount}/10`;
+    if (labelEl) labelEl.textContent = "Zona de entrada";
+  } else {
+    el.classList.add("stage-optimal");
+    if (countEl) countEl.textContent = `${pickCount}/10`;
+    if (labelEl) labelEl.textContent = "Ponto ótimo";
+  }
+}
+
+// ─── EXPERIMENT ALERT (Bloco 4 — EV 3-5%) ────────────────────────────────────
+
+function updateExperimentAlert(pickCount, evOverValue, evUnderValue) {
+  const el   = document.getElementById("timingExpEv35");
+  const evEl = document.getElementById("timingExpEv");
+  if (!el) return;
+  const evOver  = Number.isFinite(evOverValue)  ? evOverValue  : -Infinity;
+  const evUnder = Number.isFinite(evUnderValue) ? evUnderValue : -Infinity;
+  const bestEv   = Math.max(evOver, evUnder);
+  const bestSide = evOver >= evUnder ? "over" : "under";
+  const show = (pickCount === 7 || pickCount === 8) && bestEv >= 0.03 && bestEv < 0.05;
+  el.classList.toggle("ta-visible", show);
+  if (evEl) evEl.textContent = show ? `EV ${bestSide.toUpperCase()} +${(bestEv * 100).toFixed(1)}%` : "";
+  if (!show) hideExpBetSideSelector();
+}
+
+function showExpBetSideSelector() {
+  const sel = document.getElementById("expBetSideSelector");
+  const btn = document.getElementById("saveExpSnapshotButton");
+  if (sel) sel.hidden = false;
+  if (btn) btn.hidden = true;
+}
+
+function hideExpBetSideSelector() {
+  const sel = document.getElementById("expBetSideSelector");
+  const btn = document.getElementById("saveExpSnapshotButton");
+  if (sel) sel.hidden = true;
+  if (btn) btn.hidden = false;
+}
+
+function registerExperimentBet(side) {
+  hideExpBetSideSelector();
+  registerBet(side, "ev35-test");
+}
+
+// ─── SIGNAL PANEL (Componente 3) ──────────────────────────────────────────────
+
+function renderSignalPanel(selectedPicks) {
+  const body = document.getElementById("signalPanelBody");
+  if (!body) return;
+
+  const activeLower = new Set(
+    (selectedPicks || []).map((p) => (p.champion || "").toLowerCase())
+  );
+
+  function buildActiveRows(list, dir) {
+    return list
+      .filter((c) => activeLower.has(c.champ.toLowerCase()))
+      .map((c) => {
+        const smallSample = c.n < 30;
+        const deltaFmt = (c.delta >= 0 ? "+" : "") + c.delta.toFixed(3);
+        const hitFmt = (c.hit * 100).toFixed(0) + "%";
+        const sampleBadge = smallSample
+          ? `<span class="signal-sample-warn" title="${c.n} jogos">n=${c.n}</span>`
+          : `<span style="color:var(--ink-ghost);font-size:10px;font-family:var(--font-mono)">n=${c.n}</span>`;
+        return `<div class="signal-row signal-${dir} active">
+          <span class="signal-role-badge">${c.role}</span>
+          <span class="signal-champ-name">${c.champ}</span>
+          <span class="signal-delta">${deltaFmt}</span>
+          <span class="signal-hit">${hitFmt}</span>
+          ${sampleBadge}
+        </div>`;
+      }).join("");
+  }
+
+  const overRows  = buildActiveRows(SIGNAL_CHAMPS.over,  "over");
+  const underRows = buildActiveRows(SIGNAL_CHAMPS.under, "under");
+
+  const warning = `<p class="signal-warning">Lembrete visual apenas. Os deltas já estão embutidos no EV do modelo. Não some manualmente ao EV.</p>`;
+
+  if (!overRows && !underRows) {
+    body.innerHTML = warning + `<p class="signal-empty">Nenhum sinalizador no draft atual.</p>`;
+    return;
+  }
+
+  body.innerHTML = warning
+    + (overRows  ? `<div class="signal-list-title">▲ OVER — empurrão positivo</div>${overRows}`   : "")
+    + (underRows ? `<div class="signal-list-title">▼ UNDER — empurrão negativo</div>${underRows}` : "");
+}
+
+// toggle recolher/expandir o painel de sinalizadores
+function initSignalPanelToggle() {
+  const header = document.getElementById("signalPanelHeader");
+  const body = document.getElementById("signalPanelBody");
+  const btn = document.getElementById("signalPanelToggle");
+  if (!header || !body) return;
+  header.addEventListener("click", () => {
+    const collapsed = body.classList.toggle("collapsed");
+    if (btn) btn.textContent = collapsed ? "▸" : "▾";
+  });
+}
+
+function updateDraftEdgeCard(draftMarket) {
+  const card = state.elements.draftEdgeCard;
+  if (!card) return;
+  card.className = `draft-edge-card ${draftMarket?.allowed ? `draft-edge-${draftMarket.side}` : "draft-edge-pass"}`;
+  state.elements.draftEdgeValue.textContent = draftMarketLabel(draftMarket);
+  state.elements.draftEdgeValue.className = draftMarket?.allowed ? `draft-side-${draftMarket.side}` : "lean-pass";
+  state.elements.draftEdgeDelta.textContent = formatSignedNumber(draftMarket?.delta, 2);
+  state.elements.draftEdgeMove.textContent = Number.isFinite(draftMarket?.sameDirectionMove)
+    ? `${round(draftMarket.sameDirectionMove, 1)}`
+    : "--";
+  state.elements.draftEdgeHit.textContent = draftMarket?.hitRate
+    ? `${formatPlainPercent(draftMarket.hitRate)} / n=${draftMarket.sample}`
+    : "--";
+  state.elements.draftEdgeRoi.textContent = Number.isFinite(draftMarket?.ev)
+    ? formatPercent(draftMarket.ev)
+    : "--";
+  state.elements.draftEdgeRoi.className = draftMarket?.ev > 0 ? "lean-under" : draftMarket?.ev < 0 ? "lean-over" : "lean-pass";
+  const confluence = draftMarket?.confluence;
+  if (state.elements.draftConfluenceBox && state.elements.draftConfluenceValue && state.elements.draftConfluenceMeta) {
+    state.elements.draftConfluenceBox.className = `draft-confluence ${confluence?.premium ? `draft-confluence-${draftMarket.side}` : ""}`;
+    state.elements.draftConfluenceValue.textContent = confluence?.label || "--";
+    state.elements.draftConfluenceValue.className = confluence?.premium ? `draft-side-${draftMarket.side}` : "lean-pass";
+    state.elements.draftConfluenceMeta.textContent = confluence?.premium
+      ? `${confluence.reason} | hit ${formatPlainPercent(confluence.stats?.hitRate)} ROI ${formatPercent(confluence.stats?.roi)} n=${confluence.stats?.bets}`
+      : (confluence?.reason || "sem confirmacao parcial");
+  }
+
+  if (!draftMarket?.side) {
+    state.elements.draftEdgeReason.textContent = draftMarket?.hasPicks
+      ? "Draft ainda neutro para over/under."
+      : "Sem picks: decisao principal vem do pre-game.";
+  } else if (draftMarket.allowed) {
+    const premiumText = draftMarket.confluence?.premium ? ` Premium: ${draftMarket.confluence.reason}.` : "";
+    state.elements.draftEdgeReason.textContent = `Historico da faixa ${draftMarket.bucketLabel}: mesmo com ${round(draftMarket.sameDirectionMove, 1)} kill de movimento, ainda tem EV pela odd.${premiumText}`;
+  } else if (String(draftMarket.reason || "").startsWith("linha ja moveu")) {
+    state.elements.draftEdgeReason.textContent = "A linha ja andou demais na direcao do draft.";
+  } else {
+    state.elements.draftEdgeReason.textContent = `Sem entrada pelo draft: ${draftMarket.reason || "sem edge"}.`;
+  }
+
+  const fair = draftMarket?.fairOdds ? round(draftMarket.fairOdds, 2) : "--";
+  const remaining = Number.isFinite(draftMarket?.remainingDelta) ? formatSignedNumber(draftMarket.remainingDelta, 2) : "--";
+  const warning = draftMarket?.warning ? ` | alerta: ${draftMarket.warning}` : "";
+  state.elements.draftEdgeMeta.textContent = `Faixa ${draftMarket?.bucketLabel || "--"} | max mov. ${Number.isFinite(draftMarket?.maxMove) ? round(draftMarket.maxMove, 1) : "--"} | sobra modelo ${remaining} | justa ${fair}${warning}`;
+}
+
+function renderBreakdown(items) {
+  state.elements.breakdown.innerHTML = "";
+  for (const item of items) {
+    const el = document.createElement("div");
+    el.className = "breakdown-item";
+    el.innerHTML = `<span>${item.label}</span><strong>${item.value}</strong>`;
+    state.elements.breakdown.appendChild(el);
+  }
+}
+
+function renderTeamStats(rows) {
+  if (!state.elements.teamStatsBody) return;
+  state.elements.teamStatsBody.innerHTML = "";
+  for (const row of rows) {
+    const tr = document.createElement("tr");
+    tr.innerHTML = `
+      <td>${row.team || "--"}</td>
+      <td class="numeric">${row.n}</td>
+      <td class="numeric">${round(row.mean)}</td>
+      <td class="numeric">${row.value >= 0 ? "+" : ""}${round(row.value)}</td>
+    `;
+    state.elements.teamStatsBody.appendChild(tr);
+  }
+}
+
+function formatTeamHint(row) {
+  if (!row || !row.n) return "Sem amostra";
+  return `Media ${round(row.mean, 2)} | ajuste ${row.value >= 0 ? "+" : ""}${round(row.value, 2)}\n${row.n} jogos`;
+}
+
+function renderPickStats(rows) {
+  if (!state.elements.pickStatsBody) return;
+  state.elements.pickStatsBody.innerHTML = "";
+  if (!rows.length) {
+    const tr = document.createElement("tr");
+    tr.innerHTML = `<td class="empty-row" colspan="3">Sem picks selecionados</td>`;
+    state.elements.pickStatsBody.appendChild(tr);
+    return;
+  }
+  for (const row of rows) {
+    const direction = pickDirection(row.value);
+    const tr = document.createElement("tr");
+    tr.innerHTML = `
+      <td>${row.champion}${row.role ? ` (${row.role})` : ""}</td>
+      <td class="numeric">${row.n} / ${round(row.average, 1)}</td>
+      <td class="numeric">${row.value >= 0 ? "+" : ""}${round(row.value)} ${direction.label}</td>
+    `;
+    state.elements.pickStatsBody.appendChild(tr);
+  }
+}
+
+function championRoleRanking(league, roleFilter = "ALL") {
+  if (!state.indexes?.champions?.length) return [];
+  const roles = roleFilter === "ALL" ? ROLES : [roleFilter];
+  const seen = new Set();
+  const rows = [];
+
+  for (const champion of state.indexes.champions) {
+    for (const role of roles) {
+      const effect = state.indexes.championRoleEffect(champion, role, league);
+      const key = `${effect.champion}::${effect.role}`;
+      if (seen.has(key) || effect.n < MIN_RANKING_SAMPLE || Math.abs(effect.value) < 0.35) continue;
+      seen.add(key);
+      rows.push(effect);
+    }
+  }
+
+  return rows;
+}
+
+function rankingRow(effect, side) {
+  const div = document.createElement("div");
+  div.className = `ranking-row ${side}`;
+  div.innerHTML = `
+    <div>
+      <strong>${effect.champion}</strong>
+      <span>${effect.role} | media ${round(effect.average, 1)}</span>
+    </div>
+    <div>
+      <strong>${effect.value >= 0 ? "+" : ""}${round(effect.value, 2)}</strong>
+      <span>n=${effect.n}</span>
+    </div>
+  `;
+  return div;
+}
+
+function renderChampionRanking(league) {
+  if (!state.elements.rankingOverList || !state.elements.rankingUnderList) return;
+  const role = state.elements.rankingRoleSelect?.value || "ALL";
+  const rows = championRoleRanking(league, role);
+  const over = rows
+    .filter((effect) => effect.value > 0)
+    .sort((a, b) => b.value - a.value)
+    .slice(0, 12);
+  const under = rows
+    .filter((effect) => effect.value < 0)
+    .sort((a, b) => a.value - b.value)
+    .slice(0, 12);
+
+  state.elements.rankingOverList.innerHTML = "";
+  state.elements.rankingUnderList.innerHTML = "";
+  for (const effect of over) state.elements.rankingOverList.appendChild(rankingRow(effect, "over"));
+  for (const effect of under) state.elements.rankingUnderList.appendChild(rankingRow(effect, "under"));
+
+  if (!over.length) state.elements.rankingOverList.innerHTML = `<div class="ranking-empty">--</div>`;
+  if (!under.length) state.elements.rankingUnderList.innerHTML = `<div class="ranking-empty">--</div>`;
+  if (state.elements.rankingOverMeta) state.elements.rankingOverMeta.textContent = `${over.length} picks`;
+  if (state.elements.rankingUnderMeta) state.elements.rankingUnderMeta.textContent = `${under.length} picks`;
+}
+
+function getMarketLine() {
+  const raw = state.elements.marketLineInput.value;
+  if (raw === "") return null;
+  const value = Number(raw);
+  if (!Number.isFinite(value)) return null;
+  return Number.isInteger(value) ? value + 0.5 : value;
+}
+
+function updateMarketLineHint(marketLine) {
+  if (marketLine === null) {
+    state.elements.marketLineHint.textContent = "Informe a linha para edge/lean";
+    return;
+  }
+  state.elements.marketLineHint.textContent = `Linha ${round(marketLine, 1)}`;
+}
+
+function getOdds(side) {
+  const input = side === "under" ? state.elements.oddsUnderInput : state.elements.oddsOverInput;
+  const raw = input.value;
+  const value = Number(raw);
+  return Number.isFinite(value) && value > 1 ? value : 1.8;
+}
+
+function updateOddsHints(oddsOver, oddsUnder) {
+  state.elements.oddsOverHint.textContent = `${state.elements.oddsOverInput.value === "" ? "Default" : "Usando"} ${round(oddsOver, 2)}`;
+  state.elements.oddsUnderHint.textContent = `${state.elements.oddsUnderInput.value === "" ? "Default" : "Usando"} ${round(oddsUnder, 2)}`;
+}
+
+function updateFairOddsHints(overProbability) {
+  const fairOver = fairOddsForProbability(overProbability);
+  const fairUnder = fairOddsForProbability(Number.isFinite(overProbability) ? 1 - overProbability : null);
+  state.elements.fairOddsOverHint.textContent = `Justa over ${fairOver}`;
+  state.elements.fairOddsUnderHint.textContent = `Justa under ${fairUnder}`;
+}
+
+function formatEvSide(probability, odds) {
+  if (!Number.isFinite(probability)) return { text: "--", className: "lean-pass", ev: null };
+  const ev = probability * odds - 1;
+  const className = ev > 0 ? "lean-under" : ev < 0 ? "lean-over" : "lean-pass";
+  return {
+    text: `${ev >= 0 ? "+" : ""}${round(ev * 100, 1)}%`,
+    className,
+    ev,
+  };
+}
+
+function fairOddsForProbability(probability) {
+  if (!Number.isFinite(probability) || probability <= 0) return "--";
+  return round(1 / probability, 2);
+}
+
+function fairOddsForEdge(edge, overProbability) {
+  if (edge === null || overProbability === null) return "--";
+  const probability = edge >= 0 ? overProbability : 1 - overProbability;
+  return fairOddsForProbability(probability);
+}
+
+function edgeConfidence(edge) {
+  if (edge === null || !Number.isFinite(edge)) return { label: "--", className: "edge-conf" };
+  const abs = Math.abs(edge);
+  if (abs >= 1.5) return { label: "forte", className: "edge-conf conf-strong" };
+  if (abs >= 1.0) return { label: "médio", className: "edge-conf conf-medium" };
+  if (abs >= 0.5) return { label: "fraco", className: "edge-conf conf-weak" };
+  return { label: "--", className: "edge-conf" };
+}
+
+function evaluateBetSide(side, probability, odds, edge, minEdge, policy = DEFAULT_BET_POLICY) {
+  if (!Number.isFinite(probability) || !Number.isFinite(edge)) {
+    return { side, ev: null, allowed: false, score: -Infinity, reason: "sem probabilidade" };
+  }
+  const ev = probability * odds - 1;
+  const sideEdge = side === "over" ? edge : -edge;
+  const againstEdge = sideEdge < 0;
+  const label = side === "over" ? "Over" : "Under";
+  const className = side === "over" ? "lean-over" : "lean-under";
+  let allowed = false;
+  let reason = "";
+  let score = ev;
+
+  if (ev < policy.minEv) {
+    reason = "EV baixo";
+  } else if (sideEdge >= minEdge) {
+    allowed = true;
+    reason = "EV + edge";
+  } else if (sideEdge >= 0) {
+    reason = "edge baixo";
+  } else if (
+    ev >= policy.contrarianMinEv &&
+    Math.abs(sideEdge) <= policy.contrarianMaxAgainstEdge &&
+    probability >= policy.minContrarianProbability
+  ) {
+    allowed = true;
+    reason = "odd alta";
+    score = ev - 0.04;
+  } else {
+    reason = "contra a linha";
+  }
+
+  return { side, label, className, ev, sideEdge, againstEdge, allowed, score, reason, probability, odds };
+}
+
+function classifyDecision(overEval, underEval) {
+  const allowed = [overEval, underEval].filter((item) => item.allowed);
+  if (!allowed.length) {
+    const best = [overEval, underEval]
+      .filter((item) => Number.isFinite(item.ev))
+      .sort((a, b) => b.ev - a.ev)[0];
+    return {
+      label: best ? `PASS ${best.reason}` : "--",
+      className: "lean-pass",
+      side: null,
+      reason: best?.reason || "sem valor",
+    };
+  }
+  allowed.sort((a, b) => b.score - a.score);
+  const best = allowed[0];
+  const strength = best.ev >= 0.2 ? "forte" : best.ev >= 0.08 ? "medio" : "leve";
+  return {
+    label: `${best.label} ${strength}`,
+    className: best.className,
+    side: best.side,
+    reason: best.reason,
+    ev: best.ev,
+    againstEdge: best.againstEdge,
+  };
+}
+
+function sideUpper(side) {
+  if (side === "over") return "OVER";
+  if (side === "under") return "UNDER";
+  return "--";
+}
+
+function formatPercent(value, digits = 1) {
+  if (!Number.isFinite(value)) return "--";
+  return `${value >= 0 ? "+" : ""}${round(value * 100, digits)}%`;
+}
+
+function formatProbability(value) {
+  if (!Number.isFinite(value)) return "--";
+  return `${round(value * 100, 1)}%`;
+}
+
+function passReasonText(bestEval, marketLine, threshold) {
+  if (marketLine === null) return "Informe a linha da casa para decidir se existe entrada.";
+  if (!bestEval || !Number.isFinite(bestEval.ev)) return "Sem probabilidade confiavel para decidir.";
+  const side = sideUpper(bestEval.side);
+  if (bestEval.reason === "EV baixo") {
+    return `${side} e o lado mais perto, mas EV ${formatPercent(bestEval.ev)} fica abaixo do minimo ${formatPercent(DEFAULT_BET_POLICY.minEv)}.`;
+  }
+  if (bestEval.reason === "edge baixo") {
+    return `${side} tem EV positivo, mas a diferenca da linha e so ${round(bestEval.sideEdge, 2)} kill; minimo ${round(threshold, 1)}.`;
+  }
+  if (bestEval.reason === "contra a linha") {
+    return `${side} paga bem, mas esta ${round(Math.abs(bestEval.sideEdge), 2)} kills contra o modelo. PASS.`;
+  }
+  return `Sem aposta: ${bestEval.reason}.`;
+}
+
+function updateBetGuidance(decision, overEval, underEval, marketLine, fairOddsOver, fairOddsUnder, threshold) {
+  const callout = state.elements.betCallout;
+  const action = state.elements.betActionValue;
+  const reason = state.elements.betReasonValue;
+  const meta = state.elements.betMetaValue;
+  const button = state.elements.saveSnapshotButton;
+  if (!callout || !action || !reason || !meta || !button) return;
+
+  if (decision?.source === "draft") {
+    const draftMarket = decision.draftMarket;
+    if (decision.side && draftMarket) {
+      callout.className = `bet-callout bet-callout-${decision.side}`;
+      const premium = draftMarket.confluence?.premium;
+      action.textContent = `${premium ? "PREMIUM: " : ""}APOSTAR ${sideUpper(decision.side)}`;
+      reason.textContent = premium
+        ? `Draft + confluencia: ${draftMarket.confluence.reason}. Delta ${formatSignedNumber(draftMarket.absDelta, 2)}, casa moveu ${round(draftMarket.sameDirectionMove, 1)}.`
+        : `Entrada por draft ${draftMarket.bucketLabel}: delta ${formatSignedNumber(draftMarket.absDelta, 2)}, casa moveu ${round(draftMarket.sameDirectionMove, 1)}, hit hist. ${formatPlainPercent(draftMarket.hitRate)}.`;
+      const premiumMeta = premium ? ` | Premium hit ${formatPlainPercent(draftMarket.confluence.stats?.hitRate)} ROI ${formatPercent(draftMarket.confluence.stats?.roi)}` : "";
+      meta.textContent = `Linha ${marketLine ?? "--"} | Odd ${round(draftMarket.odds, 2)} | Justa hist. ${draftMarket.fairOdds ? round(draftMarket.fairOdds, 2) : "--"} | ROI ${formatPercent(draftMarket.ev)}${premiumMeta}`;
+      button.disabled = false;
+      button.textContent = `Registrar ${sideUpper(decision.side)} ${premium ? "premium" : "recomendado"}`;
+      button.className = decision.side === "over" ? "bet-suggested-over" : "bet-suggested-under";
+      return;
+    }
+
+    callout.className = "bet-callout bet-callout-pass";
+    action.textContent = "NAO APOSTAR";
+    reason.textContent = draftMarket?.leagueBlocked
+      ? `Liga bloqueada para draft: ${draftMarket.reason}.`
+      : `PASS pelo draft: ${draftMarket?.reason || "sem edge"}.`;
+    meta.textContent = draftMarket?.side
+      ? `Lado draft: ${sideUpper(draftMarket.side)} | delta ${formatSignedNumber(draftMarket.absDelta, 2)} | mov. casa ${Number.isFinite(draftMarket.sameDirectionMove) ? round(draftMarket.sameDirectionMove, 1) : "--"}`
+      : "Sem sinal forte de draft.";
+    button.disabled = true;
+    button.textContent = "PASS - sem aposta";
+    button.className = "";
+    return;
+  }
+
+  if (decision?.source === "pre") {
+    const chosen = decision.side === "under" ? underEval : decision.side === "over" ? overEval : null;
+    if (chosen) {
+      const fair = decision.side === "under" ? fairOddsUnder : fairOddsOver;
+      callout.className = `bet-callout bet-callout-${decision.side}`;
+      action.textContent = `PRE: APOSTAR ${sideUpper(decision.side)}`;
+      reason.textContent = `Entrada pre-game: EV ${formatPercent(chosen.ev)} e edge a favor de ${round(chosen.sideEdge, 2)} kills.`;
+      meta.textContent = `Linha ${marketLine ?? "--"} | Odd ${round(chosen.odds, 2)} | Justa ${fair} | Draft ainda vazio`;
+      button.disabled = false;
+      button.textContent = `Registrar ${sideUpper(decision.side)} pre-game`;
+      button.className = decision.side === "over" ? "bet-suggested-over" : "bet-suggested-under";
+      return;
+    }
+  }
+
+  const chosen = decision.side === "under" ? underEval : decision.side === "over" ? overEval : null;
+  if (chosen) {
+    const fair = decision.side === "under" ? fairOddsUnder : fairOddsOver;
+    callout.className = `bet-callout bet-callout-${decision.side}`;
+    action.textContent = `APOSTAR ${sideUpper(decision.side)}`;
+    if (decision.reason === "odd alta") {
+      reason.textContent = `Entrada por odd alta: EV ${formatPercent(chosen.ev)}, prob. ${formatProbability(chosen.probability)}, contra-edge ${round(Math.abs(chosen.sideEdge), 2)} dentro do limite.`;
+    } else {
+      reason.textContent = `Entrada aprovada: EV ${formatPercent(chosen.ev)} e edge a favor de ${round(chosen.sideEdge, 2)} kills.`;
+    }
+    meta.textContent = `Linha ${marketLine ?? "--"} | Odd ${round(chosen.odds, 2)} | Justa ${fair} | Regra: ${decision.reason || "--"}`;
+    button.disabled = false;
+    button.textContent = `Registrar ${sideUpper(decision.side)} recomendado`;
+    button.className = decision.side === "over" ? "bet-suggested-over" : "bet-suggested-under";
+    return;
+  }
+
+  const best = [overEval, underEval]
+    .filter((item) => item && Number.isFinite(item.ev))
+    .sort((a, b) => b.ev - a.ev)[0];
+  callout.className = "bet-callout bet-callout-pass";
+  action.textContent = "NAO APOSTAR";
+  reason.textContent = passReasonText(best, marketLine, threshold);
+  meta.textContent = best
+    ? `Melhor lado: ${sideUpper(best.side)} | EV ${formatPercent(best.ev)} | Edge lado ${round(best.sideEdge, 2)}`
+    : "Sem lado valido.";
+  button.disabled = true;
+  button.textContent = "PASS - sem aposta";
+  button.className = "";
+}
+
+function getMarketSnapshots() {
+  try {
+    return JSON.parse(localStorage.getItem("golMarketSnapshots") || "[]");
+  } catch {
+    // kept for compatibility — use getBettingHistory() for new bets
+    return [];
+  }
+}
+
+function updateSnapshotStatus() {
+  if (!state.elements.snapshotStatus) return;
+  const n = getBettingHistory().length;
+  state.elements.snapshotStatus.textContent = `${n} aposta${n !== 1 ? "s" : ""} registrada${n !== 1 ? "s" : ""}`;
+}
+
+function renderPickMetas() {
+  for (const input of document.querySelectorAll("[data-pick-slot]")) {
+    const meta = document.querySelector(`[data-pick-meta="${input.dataset.pickSlot}"]`);
+    if (!meta) continue;
+    const typed = normalizeChampion(input.value);
+    if (!typed) {
+      meta.textContent = "Sem pick";
+      meta.className = "pick-meta";
+      continue;
+    }
+
+    const role = roleFromSlot(input.dataset.pickSlot);
+    const effect = getChampionEffect(typed, role);
+    if (!effect.n) {
+      meta.textContent = "Sem amostra";
+      meta.className = "pick-meta neutral";
+      continue;
+    }
+
+    const direction = pickDirection(effect.value);
+    const source = effect.source || "global";
+    meta.textContent = `${effect.champion}: media ${round(effect.average, 1)} | ${effect.value >= 0 ? "+" : ""}${round(effect.value)} ${direction.label} | ${source} n=${effect.n}`;
+    meta.className = `pick-meta ${direction.className}`;
+  }
+}
+
+function updatePrediction() {
+  if (!state.indexes) return;
+
+  const league = state.elements.leagueSelect.value;
+  const patch = state.elements.patchSelect.value;
+  const teamA = state.elements.teamASelect.value;
+  const teamB = state.elements.teamBSelect.value;
+  const marketLine = getMarketLine();
+  const oddsOver = getOdds("over");
+  const oddsUnder = getOdds("under");
+  updateDraftTeamNames();
+  updateMarketLineHint(marketLine);
+  updateOddsHints(oddsOver, oddsUnder);
+  const leagueGames = state.indexes.leagues.get(league) || [];
+  const selectedPicks = getSelectedPicks();
+  const gameLike = {
+    league,
+    patch: patch === "ALL" ? "" : patch,
+    teamA,
+    teamB,
+    picks: selectedPicksBySide(selectedPicks),
+  };
+  const house = state.indexes.houseLine(gameLike, state.games);
+  const preResult = house.pre;
+  const result = house.post;
+  const leagueMean = result.leagueMean;
+  const patchAdjustment = result.patch;
+  const teamAAdjustment = result.teamA;
+  const teamBAdjustment = result.teamB;
+  const draftAdjustment = result.draft;
+  const correction = result.correction || { value: 0, raw: 0, n: 0 };
+  const lineAdjustment = house.calibration.adjustment || 0;
+  const prediction = result.prediction + lineAdjustment;
+  const prePrediction = preResult.prediction + lineAdjustment;
+  const draftDelta = house.delta;
+  const edge = marketLine === null ? null : prediction - marketLine;
+  const sigma = result.sigma || state.indexes.leagueSigmas.get(league) || DEFAULT_SIGMA;
+  const overProbability = marketLine === null ? null : 1 - normalCdf(marketLine, prediction, sigma);
+  const underProbability = overProbability === null ? null : 1 - overProbability;
+  const evOver = formatEvSide(overProbability, oddsOver);
+  const evUnder = formatEvSide(underProbability, oddsUnder);
+  const threshold = parseFloat(state.elements.edgeThresholdInput?.value) || DEFAULT_EDGE_THRESHOLD;
+  const overEval = evaluateBetSide("over", overProbability, oddsOver, edge, threshold);
+  const underEval = evaluateBetSide("under", underProbability, oddsUnder, edge, threshold);
+  const modelDecision = marketLine === null ? { label: "Linha vazia", className: "lean-pass", side: null, reason: "sem linha" } : classifyDecision(overEval, underEval);
+  const draftMarket = GOLPredictorModel.evaluateDraftMarket({
+    league,
+    preLine: house.preLine,
+    marketLine,
+    delta: draftDelta,
+    oddsOver,
+    oddsUnder,
+  });
+  draftMarket.hasPicks = selectedPicks.length > 0;
+  draftMarket.confluence = evaluateDraftConfluence(draftMarket, draftAdjustment);
+  let decision = marketLine === null ? modelDecision : chooseFinalDecision(draftMarket, modelDecision);
+  if (EXCLUDED_DRAFT_LEAGUES.includes(league)) {
+    decision = { label: "PASS - liga excluida", className: "lean-pass", side: null, reason: "liga bloqueada" };
+  }
+  const draftSignal = formatDraftSignal(house.signal);
+  const decisionOdds = decision.side === "under" ? oddsUnder : oddsOver;
+  const draftHistoricalEnabled = Boolean(decision.side && decision.source === "draft" && draftMarket?.side === decision.side && draftMarket?.hitRate);
+  const historicalEnabled = draftHistoricalEnabled || Boolean(decision.side && house.signal?.action && house.signal.lean === decision.side);
+  const theoreticalRoi = draftHistoricalEnabled
+    ? {
+      text: formatPercent(draftMarket.ev),
+      className: draftMarket.ev > 0 ? "lean-under" : draftMarket.ev < 0 ? "lean-over" : "lean-pass",
+      roi: draftMarket.ev,
+    }
+    : formatHistoricalRoi(league, decision.side, decisionOdds, historicalEnabled);
+  const fairOddsOver = fairOddsForProbability(overProbability);
+  const fairOddsUnder = fairOddsForProbability(underProbability);
+  updateFairOddsHints(overProbability);
+  updateDraftEdgeCard(draftMarket);
+  updateBetGuidance(decision, overEval, underEval, marketLine, fairOddsOver, fairOddsUnder, threshold);
+  state.lastPrediction = {
+    createdAt: new Date().toISOString(),
+    league,
+    patch,
+    teamA,
+    teamB,
+    marketLine,
+    oddsOver,
+    oddsUnder,
+    fairOddsOver,
+    fairOddsUnder,
+    preDraft: prePrediction,
+    prediction,
+    draftDelta,
+    edge,
+    overProbability,
+    underProbability,
+    evOver: evOver.ev,
+    evUnder: evUnder.ev,
+    overSideEdge: overEval.sideEdge,
+    underSideEdge: underEval.sideEdge,
+    decisionSide: decision.side,
+    decisionReason: decision.reason || null,
+    decisionSource: decision.source || "modelo",
+    decisionAgainstEdge: Boolean(decision.againstEdge),
+    draftMarket,
+    draftConfluence: draftMarket.confluence || null,
+    fairOdds: fairOddsForEdge(edge, overProbability),
+    theoreticalRoi: theoreticalRoi.roi,
+    historicalRoiEnabled: historicalEnabled,
+    theoreticalHitRate: draftHistoricalEnabled ? draftMarket.hitRate : house.signal?.stats?.hitRate || null,
+    theoreticalSample: draftHistoricalEnabled ? draftMarket.sample : house.signal?.stats?.games || 0,
+    picks: selectedPicks,
+    draftEffects: draftAdjustment.effects || [],
+    draftConfidence: draftAdjustment.confidence || 0,
+    lineAdjustment,
+    signal: house.signal,
+  };
+
+  state.elements.preDraftValue.textContent = round(prePrediction, 2);
+  state.elements.predictionValue.textContent = round(prediction, 2);
+  state.elements.draftDeltaValue.textContent = `${draftDelta >= 0 ? "+" : ""}${round(draftDelta, 2)}`;
+  state.elements.draftDeltaValue.className = draftDelta > 0.15 ? "lean-over" : draftDelta < -0.15 ? "lean-under" : "lean-pass";
+  state.elements.draftSignalValue.textContent = draftSignal.label;
+  state.elements.draftSignalValue.className = draftSignal.className;
+  state.elements.edgeValue.textContent = edge === null ? "--" : `${edge >= 0 ? "+" : ""}${round(edge, 2)}`;
+  const conf = edgeConfidence(edge);
+  if (state.elements.edgeConfidence) {
+    state.elements.edgeConfidence.textContent = conf.label;
+    state.elements.edgeConfidence.className = conf.className;
+  }
+  state.elements.leanValue.textContent = decision.label;
+  state.elements.leanValue.className = decision.className;
+  state.elements.overProbValue.textContent = overProbability === null ? "--" : `${round(overProbability * 100, 1)}%`;
+  state.elements.evOverValue.textContent = evOver.text;
+  state.elements.evOverValue.className = evOver.className;
+  state.elements.evUnderValue.textContent = evUnder.text;
+  state.elements.evUnderValue.className = evUnder.className;
+  state.elements.theoreticalRoiValue.textContent = theoreticalRoi.text;
+  state.elements.theoreticalRoiValue.className = theoreticalRoi.className;
+  state.elements.historicalHitValue.textContent = draftHistoricalEnabled
+    ? `${formatPlainPercent(draftMarket.hitRate)} / n=${draftMarket.sample}`
+    : formatHitRate(league, decision.side, historicalEnabled);
+  state.elements.leagueBaseHint.textContent = `Base liga ${round(leagueMean, 2)}\n${leagueGames.length} mapas`;
+  state.elements.teamAHint.textContent = formatTeamHint(teamAAdjustment);
+  state.elements.teamAHint.className = teamAAdjustment.value > 0.15 ? "inline-meta over" : teamAAdjustment.value < -0.15 ? "inline-meta under" : "inline-meta";
+  state.elements.teamBHint.textContent = formatTeamHint(teamBAdjustment);
+  state.elements.teamBHint.className = teamBAdjustment.value > 0.15 ? "inline-meta over" : teamBAdjustment.value < -0.15 ? "inline-meta under" : "inline-meta";
+
+  renderBreakdown([
+    { label: "Patch", value: `${patchAdjustment.value >= 0 ? "+" : ""}${round(patchAdjustment.value, 2)}` },
+    { label: "Time A", value: `${teamAAdjustment.value >= 0 ? "+" : ""}${round(teamAAdjustment.value, 2)}` },
+    { label: "Time B", value: `${teamBAdjustment.value >= 0 ? "+" : ""}${round(teamBAdjustment.value, 2)}` },
+    { label: "Calib. liga", value: `${correction.value >= 0 ? "+" : ""}${round(correction.value, 2)}` },
+    { label: "Calib. linha", value: `${lineAdjustment >= 0 ? "+" : ""}${round(lineAdjustment, 2)}` },
+    { label: `Picks ${draftAdjustment.count}/10`, value: `${draftAdjustment.value >= 0 ? "+" : ""}${round(draftAdjustment.value, 2)}` },
+    { label: "Conf. draft", value: `${round((draftAdjustment.confidence || 0) * 100, 0)}%` },
+    { label: "Confluencia", value: draftMarket.confluence?.premium ? "Premium" : "Normal" },
+    { label: "Politica", value: house.signal.reason },
+    { label: "Decisao", value: decision.reason || "--" },
+  ]);
+
+  renderTeamStats([teamAAdjustment, teamBAdjustment]);
+  renderPickStats(draftAdjustment.effects || []);
+  renderPickMetas();
+  renderChampionRanking(league);
+  updateDraftStageIndicator(selectedPicks.length);
+  updateTimingAlerts(selectedPicks.length, evOver.ev, evUnder.ev);
+  updateExperimentAlert(selectedPicks.length, evOver.ev, evUnder.ev);
+  renderSignalPanel(selectedPicks);
+
+  state.elements.datasetStatus.textContent = `${leagueGames.length} mapas carregados para ${leagueLabel(league)}. Modelo calibrado por liga, recencia, times e picks por role.`;
+}
+
+function saveMarketSnapshot() {
+  if (!state.lastPrediction) return;
+  if (state.lastPrediction.decisionSide) {
+    registerBet(state.lastPrediction.decisionSide);
+  } else {
+    showBetSideSelector();
+  }
+}
+
+function showBetSideSelector() {
+  const pred = state.lastPrediction;
+  const selector = document.getElementById("betSideSelector");
+  const mainBtn = state.elements.saveSnapshotButton;
+  const overBtn = document.getElementById("betOverButton");
+  const underBtn = document.getElementById("betUnderButton");
+  if (!selector || !overBtn || !underBtn) return;
+
+  const oddsOver = Number.isFinite(pred.oddsOver) ? pred.oddsOver.toFixed(2) : "1.80";
+  const oddsUnder = Number.isFinite(pred.oddsUnder) ? pred.oddsUnder.toFixed(2) : "1.80";
+  overBtn.textContent = `↑ OVER ${oddsOver}`;
+  underBtn.textContent = `↓ UNDER ${oddsUnder}`;
+
+  overBtn.className = "bet-side-btn" + (pred.decisionSide === "over" ? " bet-suggested-over" : "");
+  underBtn.className = "bet-side-btn" + (pred.decisionSide === "under" ? " bet-suggested-under" : "");
+
+  mainBtn.hidden = true;
+  selector.hidden = false;
+}
+
+function hideBetSideSelector() {
+  const selector = document.getElementById("betSideSelector");
+  const mainBtn = state.elements.saveSnapshotButton;
+  if (selector) selector.hidden = true;
+  if (mainBtn) mainBtn.hidden = false;
+}
+
+function buildIndexes(games) {
+  return GOLPredictorModel.buildModel(games);
+}
+
+function clearPicks() {
+  for (const input of document.querySelectorAll("[data-pick-slot]")) {
+    input.value = "";
+    input.dispatchEvent(new Event("change", { bubbles: true }));
+  }
+  updatePrediction();
+}
+
+function bindElements() {
+  state.elements = {
+    datasetStatus: getEl("datasetStatus"),
+    gamesCount: getEl("gamesCount"),
+    championsCount: getEl("championsCount"),
+    leaguesCount: getEl("leaguesCount"),
+    leagueSelect: getEl("leagueSelect"),
+    patchSelect: getEl("patchSelect"),
+    teamASelect: getEl("teamASelect"),
+    teamAHint: getEl("teamAHint"),
+    teamBSelect: getEl("teamBSelect"),
+    teamBHint: getEl("teamBHint"),
+    marketLineInput: getEl("marketLineInput"),
+    marketLineHint: getEl("marketLineHint"),
+    leagueBaseHint: getEl("leagueBaseHint"),
+    oddsOverInput: getEl("oddsOverInput"),
+    oddsOverHint: getEl("oddsOverHint"),
+    oddsUnderInput: getEl("oddsUnderInput"),
+    oddsUnderHint: getEl("oddsUnderHint"),
+    fairOddsOverHint: getEl("fairOddsOverHint"),
+    fairOddsUnderHint: getEl("fairOddsUnderHint"),
+    betCallout: getEl("betCallout"),
+    betActionValue: getEl("betActionValue"),
+    betReasonValue: getEl("betReasonValue"),
+    betMetaValue: getEl("betMetaValue"),
+    draftEdgeCard: getEl("draftEdgeCard"),
+    draftEdgeValue: getEl("draftEdgeValue"),
+    draftEdgeReason: getEl("draftEdgeReason"),
+    draftEdgeDelta: getEl("draftEdgeDelta"),
+    draftEdgeMove: getEl("draftEdgeMove"),
+    draftEdgeHit: getEl("draftEdgeHit"),
+    draftEdgeRoi: getEl("draftEdgeRoi"),
+    draftEdgeMeta: getEl("draftEdgeMeta"),
+    draftConfluenceBox: getEl("draftConfluenceBox"),
+    draftConfluenceValue: getEl("draftConfluenceValue"),
+    draftConfluenceMeta: getEl("draftConfluenceMeta"),
+    saveSnapshotButton: getEl("saveSnapshotButton"),
+    snapshotStatus: getEl("snapshotStatus"),
+    draftGrid: getEl("draftGrid"),
+    rankingRoleSelect: getEl("rankingRoleSelect"),
+    rankingOverList: getEl("rankingOverList"),
+    rankingUnderList: getEl("rankingUnderList"),
+    rankingOverMeta: getEl("rankingOverMeta"),
+    rankingUnderMeta: getEl("rankingUnderMeta"),
+    clearPicksButton: getEl("clearPicksButton"),
+    preDraftValue: getEl("preDraftValue"),
+    predictionValue: getEl("predictionValue"),
+    draftDeltaValue: getEl("draftDeltaValue"),
+    draftSignalValue: getEl("draftSignalValue"),
+    edgeValue: getEl("edgeValue"),
+    edgeConfidence: getEl("edgeConfidence"),
+    edgeThresholdInput: getEl("edgeThresholdInput"),
+    leanValue: getEl("leanValue"),
+    overProbValue: getEl("overProbValue"),
+    evOverValue: getEl("evOverValue"),
+    evUnderValue: getEl("evUnderValue"),
+    theoreticalRoiValue: getEl("theoreticalRoiValue"),
+    historicalHitValue: getEl("historicalHitValue"),
+    breakdown: getEl("breakdown"),
+    teamStatsBody: getEl("teamStatsBody"),
+    pickStatsBody: getEl("pickStatsBody"),
+  };
+}
+
+function init() {
+  bindElements();
+  const data = window.GOL_GAMES_DATA || { games: [] };
+  state.games = (data.games || []).filter((game) => TARGET_LEAGUES.includes(game.league) && Number.isFinite(game.totalKills));
+  state.indexes = buildIndexes(state.games);
+  populateMarketLines();
+  buildDraftInputs();
+  populateOddsSelects();
+  updateLeagueControls();
+
+  state.elements.gamesCount.textContent = state.games.length;
+  state.elements.championsCount.textContent = state.indexes.champions.length;
+  state.elements.leaguesCount.textContent = state.indexes.leagues.size;
+
+  state.elements.leagueSelect.addEventListener("change", updatePatchAndTeams);
+  state.elements.patchSelect.addEventListener("change", updatePrediction);
+  state.elements.teamASelect.addEventListener("change", updatePrediction);
+  state.elements.teamBSelect.addEventListener("change", updatePrediction);
+  state.elements.marketLineInput.addEventListener("change", updatePrediction);
+  state.elements.oddsOverInput.addEventListener("change", updatePrediction);
+  state.elements.oddsUnderInput.addEventListener("change", updatePrediction);
+  state.elements.rankingRoleSelect?.addEventListener("change", updatePrediction);
+  state.elements.clearPicksButton.addEventListener("click", clearPicks);
+  state.elements.saveSnapshotButton.addEventListener("click", saveMarketSnapshot);
+  const betOverBtn = document.getElementById("betOverButton");
+  const betUnderBtn = document.getElementById("betUnderButton");
+  const betCancelBtn = document.getElementById("betCancelButton");
+  if (betOverBtn) betOverBtn.addEventListener("click", () => registerBet("over"));
+  if (betUnderBtn) betUnderBtn.addEventListener("click", () => registerBet("under"));
+  if (betCancelBtn) betCancelBtn.addEventListener("click", hideBetSideSelector);
+  if (state.elements.edgeThresholdInput) {
+    state.elements.edgeThresholdInput.addEventListener("input", updatePrediction);
+  }
+  const clearHistBtn = document.getElementById("clearHistoryButton");
+  if (clearHistBtn) clearHistBtn.addEventListener("click", clearBettingHistory);
+  document.getElementById("exportHistoryButton")?.addEventListener("click", exportHistory);
+  document.getElementById("historyToggleBtn")?.addEventListener("click", toggleHistoryDrawer);
+  document.getElementById("drawerOverlay")?.addEventListener("click", closeHistoryDrawer);
+  document.getElementById("drawerHandle")?.addEventListener("click", closeHistoryDrawer);
+  initSignalPanelToggle();
+  const saveExpBtn = document.getElementById("saveExpSnapshotButton");
+  const expOverBtn = document.getElementById("expBetOverButton");
+  const expUnderBtn = document.getElementById("expBetUnderButton");
+  const expCancelBtn = document.getElementById("expBetCancelButton");
+  if (saveExpBtn)  saveExpBtn.addEventListener("click", showExpBetSideSelector);
+  if (expOverBtn)  expOverBtn.addEventListener("click", () => registerExperimentBet("over"));
+  if (expUnderBtn) expUnderBtn.addEventListener("click", () => registerExperimentBet("under"));
+  if (expCancelBtn) expCancelBtn.addEventListener("click", hideExpBetSideSelector);
+  updateSnapshotStatus();
+  renderBettingHistory();
+}
+
+// ─── BETTING HISTORY ──────────────────────────────────────────────────────────
+
+const BET_KEY = "golBettingHistory";
+
+function getBettingHistory() {
+  try { return JSON.parse(localStorage.getItem(BET_KEY) || "[]"); } catch { return []; }
+}
+
+function saveBettingHistory(history) {
+  localStorage.setItem(BET_KEY, JSON.stringify(history));
+}
+
+function betModelMetrics(pred, side) {
+  const isOver = side === "over";
+  return {
+    fairOdds: isOver ? pred.fairOddsOver : pred.fairOddsUnder,
+    ev: isOver ? pred.evOver : pred.evUnder,
+  };
+}
+
+function betDraftMetricsFromPrediction(pred, side) {
+  const draft = pred?.draftMarket;
+  if (!draft || draft.side !== side) return { fairOdds: null, ev: null, hitRate: null, sample: 0, bucket: null, premium: false };
+  return {
+    fairOdds: Number.isFinite(draft.fairOdds) ? draft.fairOdds : null,
+    ev: Number.isFinite(draft.ev) ? draft.ev : null,
+    hitRate: Number.isFinite(draft.hitRate) ? draft.hitRate : null,
+    sample: draft.sample || 0,
+    bucket: draft.bucketLabel || null,
+    premium: Boolean(pred?.draftConfluence?.premium),
+  };
+}
+
+function betDraftMetricsFromRecord(bet, side) {
+  const draft = bet?.draftMarket;
+  if (!draft || draft.side !== side) return { fairOdds: null, ev: null, hitRate: null, sample: 0, bucket: null, premium: false };
+  return {
+    fairOdds: Number.isFinite(draft.fairOdds) ? draft.fairOdds : null,
+    ev: Number.isFinite(draft.ev) ? draft.ev : null,
+    hitRate: Number.isFinite(draft.hitRate) ? draft.hitRate : null,
+    sample: draft.sample || 0,
+    bucket: draft.bucketLabel || null,
+    premium: Boolean(bet?.draftConfluence?.premium),
+  };
+}
+
+function decisionMetricsForPrediction(pred, side) {
+  const model = betModelMetrics(pred, side);
+  const draft = betDraftMetricsFromPrediction(pred, side);
+  const useDraft = pred.decisionSource === "draft" && Number.isFinite(draft.ev);
+  return {
+    engine: useDraft ? (draft.premium ? "draft premium" : "draft") : (pred.decisionSource || "modelo"),
+    fairOdds: useDraft ? draft.fairOdds : model.fairOdds,
+    ev: useDraft ? draft.ev : model.ev,
+    model,
+    draft,
+  };
+}
+
+function decisionMetricsForRecord(bet, side) {
+  const model = {
+    fairOdds: side === "over" ? bet.fairOddsOver : bet.fairOddsUnder,
+    ev: side === "over" ? bet.evOver : bet.evUnder,
+  };
+  const draft = betDraftMetricsFromRecord(bet, side);
+  const savedEngine = bet.decisionEngine || bet.decisionSource || "";
+  const useDraft = String(savedEngine).startsWith("draft") && Number.isFinite(draft.ev);
+  return {
+    engine: useDraft ? savedEngine : (savedEngine || "modelo"),
+    fairOdds: Number.isFinite(bet.decisionFairOdds) ? bet.decisionFairOdds : (useDraft ? draft.fairOdds : (Number.isFinite(bet.fairOdds) ? bet.fairOdds : model.fairOdds)),
+    ev: Number.isFinite(bet.decisionEv) ? bet.decisionEv : (useDraft ? draft.ev : (Number.isFinite(bet.ev) ? bet.ev : model.ev)),
+    model,
+    draft,
+  };
+}
+
+function computeH2HContext(teamA, teamB, modelPred) {
+  const h2hGames = state.games
+    .filter((g) =>
+      (g.teamA === teamA && g.teamB === teamB) ||
+      (g.teamA === teamB && g.teamB === teamA)
+    )
+    .sort((a, b) => new Date(b.date) - new Date(a.date))
+    .slice(0, 2);
+  if (h2hGames.length < 2) return { n: h2hGames.length, extreme: false };
+  const h2hMean = (h2hGames[0].totalKills + h2hGames[1].totalKills) / 2;
+  const deviation = h2hMean - modelPred;
+  const extreme = Math.abs(deviation) > 5;
+  return {
+    n: 2,
+    h2hMean: Math.round(h2hMean * 10) / 10,
+    modelPred: Math.round(modelPred * 10) / 10,
+    deviation: Math.round(deviation * 10) / 10,
+    extreme,
+    direction: extreme ? (deviation > 0 ? "alto" : "baixo") : null,
+  };
+}
+
+function registerBet(side, category = "standard") {
+  const pred = state.lastPrediction;
+  if (!pred) return;
+  hideBetSideSelector();
+  const isOver = side === "over";
+  const betOdds = isOver ? (pred.oddsOver || 1.80) : (pred.oddsUnder || 1.80);
+  const metrics = decisionMetricsForPrediction(pred, side);
+  const betFairOdds = metrics.fairOdds;
+  const betEv = metrics.ev;
+  const history = getBettingHistory();
+  history.unshift({
+    betId: `${Date.now()}-${Math.random().toString(36).slice(2, 7)}`,
+    createdAt: new Date().toISOString(),
+    league: pred.league,
+    teamA: pred.teamA,
+    teamB: pred.teamB,
+    marketLine: pred.marketLine,
+    betSide: side,
+    odds: betOdds,
+    fairOdds: Number.isFinite(betFairOdds) ? betFairOdds : null,
+    ev: Number.isFinite(betEv) ? betEv : null,
+    decisionFairOdds: Number.isFinite(metrics.fairOdds) ? metrics.fairOdds : null,
+    decisionEv: Number.isFinite(metrics.ev) ? metrics.ev : null,
+    decisionEngine: metrics.engine,
+    modelFairOdds: Number.isFinite(metrics.model.fairOdds) ? metrics.model.fairOdds : null,
+    modelEv: Number.isFinite(metrics.model.ev) ? metrics.model.ev : null,
+    draftFairOdds: Number.isFinite(metrics.draft.fairOdds) ? metrics.draft.fairOdds : null,
+    draftEv: Number.isFinite(metrics.draft.ev) ? metrics.draft.ev : null,
+    draftHitRate: Number.isFinite(metrics.draft.hitRate) ? metrics.draft.hitRate : null,
+    draftSample: metrics.draft.sample || 0,
+    draftBucket: metrics.draft.bucket,
+    draftPremium: metrics.draft.premium,
+    oddsOver: pred.oddsOver,
+    oddsUnder: pred.oddsUnder,
+    fairOddsOver: pred.fairOddsOver,
+    fairOddsUnder: pred.fairOddsUnder,
+    prediction: pred.prediction,
+    preDraft: pred.preDraft,
+    edge: pred.edge,
+    overProbability: pred.overProbability,
+    evOver: pred.evOver,
+    evUnder: pred.evUnder,
+    suggestion: pred.decisionSide,
+    decisionReason: pred.decisionReason,
+    decisionSource: pred.decisionSource,
+    draftMarket: pred.draftMarket || null,
+    draftConfluence: pred.draftConfluence || null,
+    recommended: pred.decisionSide === side,
+    draftStage: Array.isArray(pred.picks) ? pred.picks.filter((p) => p.champion).length : null,
+    category: category,
+    h2hContext: computeH2HContext(pred.teamA, pred.teamB, pred.preDraft ?? pred.prediction),
+    result: null,
+    resolvedAt: null,
+    pnl: null,
+  });
+  saveBettingHistory(history);
+  renderBettingHistory();
+  updateSnapshotStatus();
+}
+
+function markBetResult(betId, result, actualKills) {
+  const history = getBettingHistory();
+  const bet = history.find((b) => b.betId === betId);
+  if (!bet || bet.result !== null) return;
+  bet.result = result;
+  bet.resolvedAt = new Date().toISOString();
+  bet.pnl = result === "green" ? Number((bet.odds - 1).toFixed(4)) : -1;
+  if (Number.isFinite(actualKills) && actualKills > 0) bet.actualKills = actualKills;
+  saveBettingHistory(history);
+  renderBettingHistory();
+  updateSnapshotStatus();
+}
+
+function deleteBet(betId) {
+  if (!confirm("Apagar esta aposta? Não pode ser desfeito.")) return;
+  const history = getBettingHistory().filter((b) => b.betId !== betId);
+  saveBettingHistory(history);
+  renderBettingHistory();
+  updateSnapshotStatus();
+}
+
+function confirmBetResult(betId, result) {
+  const input = document.getElementById(`kills-${betId}`);
+  const raw = input && input.value !== "" ? Number(input.value) : NaN;
+  const actualKills = Number.isFinite(raw) && raw > 0 ? raw : null;
+  markBetResult(betId, result, actualKills);
+}
+
+function clearBettingHistory() {
+  if (!confirm("Apagar todo o histórico de apostas?")) return;
+  localStorage.removeItem(BET_KEY);
+  renderBettingHistory();
+  updateSnapshotStatus();
+}
+
+function calcHistoryStats(history) {
+  const resolved = history.filter((b) => b.result !== null);
+  const greens = resolved.filter((b) => b.result === "green");
+  const reds = resolved.filter((b) => b.result === "red");
+  const totalPnl = resolved.reduce((sum, b) => sum + (b.pnl || 0), 0);
+  const roi = resolved.length ? totalPnl / resolved.length : null;
+
+  let streak = 0;
+  let streakType = null;
+  for (const bet of history) {
+    if (bet.result === null) continue;
+    if (streakType === null) { streakType = bet.result; streak = 1; }
+    else if (bet.result === streakType) streak++;
+    else break;
+  }
+
+  const leagues = {};
+  for (const bet of resolved) {
+    if (!leagues[bet.league]) leagues[bet.league] = { bets: 0, greens: 0, pnl: 0 };
+    leagues[bet.league].bets++;
+    if (bet.result === "green") leagues[bet.league].greens++;
+    leagues[bet.league].pnl += bet.pnl || 0;
+  }
+
+  return {
+    total: history.length,
+    resolved: resolved.length,
+    pending: history.length - resolved.length,
+    greens: greens.length,
+    reds: reds.length,
+    totalPnl,
+    roi,
+    streak,
+    streakType,
+    leagues,
+  };
+}
+
+function calcEvRangeStats(history) {
+  const brackets = [
+    { label: "EV < 0%", min: -Infinity, max: 0 },
+    { label: "EV 0–5%", min: 0, max: 0.05 },
+    { label: "EV 5–10%", min: 0.05, max: 0.10 },
+    { label: "EV 10–15%", min: 0.10, max: 0.15 },
+    { label: "EV > 15%", min: 0.15, max: Infinity },
+  ];
+  return brackets.map((bracket) => {
+    const bets = history.filter((b) => {
+      const ev = Number.isFinite(b.decisionEv) ? b.decisionEv : (Number.isFinite(b.ev) ? b.ev : null);
+      return ev !== null && ev >= bracket.min && ev < bracket.max;
+    });
+    const resolved = bets.filter((b) => b.result !== null);
+    const greens = resolved.filter((b) => b.result === "green");
+    const pnl = resolved.reduce((sum, b) => sum + (b.pnl || 0), 0);
+    return {
+      label: bracket.label,
+      total: bets.length,
+      resolved: resolved.length,
+      greens: greens.length,
+      hitRate: resolved.length ? greens.length / resolved.length : null,
+      pnl,
+      roi: resolved.length ? pnl / resolved.length : null,
+    };
+  }).filter((b) => b.total > 0);
+}
+
+function calcLineDeviationStats(history) {
+  const withActual = history.filter(
+    (b) => Number.isFinite(b.actualKills) && b.result !== null && Number.isFinite(b.prediction)
+  );
+
+  function sideStats(bets) {
+    if (!bets.length) return null;
+    const devFromPred = bets.map((b) => b.actualKills - b.prediction);
+    const devFromLine = bets.map((b) => b.actualKills - (b.marketLine || b.prediction));
+    const avgFromPred = devFromPred.reduce((s, d) => s + d, 0) / bets.length;
+    const avgFromLine = devFromLine.reduce((s, d) => s + d, 0) / bets.length;
+    const greens = bets.filter((b) => b.result === "green");
+    return { n: bets.length, avgDevFromPred: avgFromPred, avgDevFromLine: avgFromLine, greens: greens.length };
+  }
+
+  const bySide = (side) => withActual.filter((b) => (b.betSide || b.suggestion) === side);
+  return { over: sideStats(bySide("over")), under: sideStats(bySide("under")), total: withActual.length };
+}
+
+// ─── HISTORICAL ANALYSIS (gol.gg) ────────────────────────────────────────────
+
+function getHistoricalGames() {
+  return window.GOL_HISTORICAL_ANALYSIS?.games || [];
+}
+
+function computeHistoricalEvRangeStats() {
+  const games = getHistoricalGames();
+  if (!games.length) return [];
+  const ODDS = 1.80;
+  const brackets = [
+    { label: "EV < 0%", min: -Infinity, max: 0 },
+    { label: "EV 0–5%", min: 0, max: 0.05 },
+    { label: "EV 5–10%", min: 0.05, max: 0.10 },
+    { label: "EV 10–15%", min: 0.10, max: 0.15 },
+    { label: "EV > 15%", min: 0.15, max: Infinity },
+  ];
+  return brackets.map((bracket) => {
+    const bets = games.filter((g) => {
+      const evo = g.evo ?? -Infinity;
+      const evu = g.evu ?? -Infinity;
+      const ev = g.s ? (g.s === "over" ? evo : evu) : Math.max(evo, evu);
+      return Number.isFinite(ev) && ev >= bracket.min && ev < bracket.max;
+    });
+    const scored = bets.map((g) => {
+      const side = g.s || ((g.evo ?? -Infinity) >= (g.evu ?? -Infinity) ? "over" : "under");
+      return { correct: side === g.as };
+    });
+    const greens = scored.filter((x) => x.correct).length;
+    const pnl = greens * (ODDS - 1) - (scored.length - greens) * 1;
+    return {
+      label: bracket.label,
+      total: bets.length,
+      resolved: bets.length,
+      greens,
+      hitRate: bets.length ? greens / bets.length : null,
+      pnl,
+      roi: bets.length ? pnl / bets.length : null,
+    };
+  }).filter((b) => b.total > 0);
+}
+
+function computeHistoricalLineDeviation() {
+  const games = getHistoricalGames();
+  if (!games.length) return { over: null, under: null, total: 0 };
+  function sideStats(items, side) {
+    if (!items.length) return null;
+    const devPred = items.map((g) => g.a - g.pred);
+    const devLine = items.map((g) => g.a - g.ml);
+    const avg = (arr) => arr.reduce((s, v) => s + v, 0) / arr.length;
+    const greens = items.filter((g) => g.as === side).length;
+    return { n: items.length, greens, avgDevFromPred: avg(devPred), avgDevFromLine: avg(devLine) };
+  }
+  const over = games.filter((g) => g.pred >= g.ml);
+  const under = games.filter((g) => g.pred < g.ml);
+  return { over: sideStats(over, "over"), under: sideStats(under, "under"), total: games.length };
+}
+
+function mergeEvRangeStats(histStats, manualStats) {
+  const labels = ["EV < 0%", "EV 0–5%", "EV 5–10%", "EV 10–15%", "EV > 15%"];
+  return labels.map((label) => {
+    const h = (histStats || []).find((s) => s.label === label);
+    const m = (manualStats || []).find((s) => s.label === label);
+    if (!h && !m) return null;
+    const total = (h?.total || 0) + (m?.total || 0);
+    const resolved = (h?.resolved || 0) + (m?.resolved || 0);
+    const greens = (h?.greens || 0) + (m?.greens || 0);
+    if (!total) return null;
+    return { label, total, resolved, greens, hitRate: resolved ? greens / resolved : null };
+  }).filter(Boolean);
+}
+
+function mergeLineDeviationStats(histStats, manualStats) {
+  function mergeSide(h, m) {
+    if (!h && !m) return null;
+    const n = (h?.n || 0) + (m?.n || 0);
+    if (!n) return null;
+    const sumPred = (h ? h.avgDevFromPred * h.n : 0) + (m ? m.avgDevFromPred * m.n : 0);
+    const sumLine = (h ? h.avgDevFromLine * h.n : 0) + (m ? m.avgDevFromLine * m.n : 0);
+    return { n, greens: (h?.greens || 0) + (m?.greens || 0), avgDevFromPred: sumPred / n, avgDevFromLine: sumLine / n };
+  }
+  return {
+    over: mergeSide(histStats?.over, manualStats?.over),
+    under: mergeSide(histStats?.under, manualStats?.under),
+    total: (histStats?.total || 0) + (manualStats?.total || 0),
+  };
+}
+
+function renderEvTableHTML(stats, showRoi) {
+  if (!stats || !stats.length) return `<p class="analytics-empty">Sem dados suficientes.</p>`;
+  const head = showRoi
+    ? `<tr><th>Faixa EV</th><th class="numeric">Total</th><th class="numeric">Resol.</th><th class="numeric">V/D</th><th class="numeric">Hit%</th><th class="numeric">P&amp;L</th><th class="numeric">ROI</th></tr>`
+    : `<tr><th>Faixa EV</th><th class="numeric">Total</th><th class="numeric">V/D</th><th class="numeric">Hit%</th></tr>`;
+  const rows = stats.map((s) => {
+    const hit = s.hitRate !== null ? `${(s.hitRate * 100).toFixed(1)}%` : "--";
+    const hiCls = s.hitRate !== null ? (s.hitRate > 0.556 ? "lean-under" : s.hitRate < 0.4 ? "lean-over" : "") : "";
+    if (showRoi) {
+      const roi = s.roi !== null ? `${s.roi >= 0 ? "+" : ""}${(s.roi * 100).toFixed(1)}%` : "--";
+      const pnl = s.resolved ? `${s.pnl >= 0 ? "+" : ""}${s.pnl.toFixed(2)}u` : "--";
+      const roiCls = s.roi > 0 ? "lean-under" : s.roi < 0 ? "lean-over" : "";
+      return `<tr><td>${s.label}</td><td class="numeric">${s.total}</td><td class="numeric">${s.resolved}</td><td class="numeric">${s.greens}V / ${s.resolved - s.greens}D</td><td class="numeric ${hiCls}">${hit}</td><td class="numeric">${pnl}</td><td class="numeric ${roiCls}">${roi}</td></tr>`;
+    }
+    return `<tr><td>${s.label}</td><td class="numeric">${s.total}</td><td class="numeric">${s.greens}V / ${s.total - s.greens}D</td><td class="numeric ${hiCls}">${hit}</td></tr>`;
+  }).join("");
+  return `<table><thead>${head}</thead><tbody>${rows}</tbody></table>`;
+}
+
+function renderDevTableHTML(stats) {
+  if (!stats || !stats.total) return `<p class="analytics-empty">Sem dados com kills registrado.</p>`;
+  const fmt = (v) => v === null ? "--" : `${v >= 0 ? "+" : ""}${v.toFixed(1)}`;
+  const mkRow = (label, s) => s
+    ? `<tr><td class="${label === "OVER" ? "lean-over" : "lean-under"}">${label}</td><td class="numeric">${s.n}</td><td class="numeric">${s.greens}V / ${s.n - s.greens}D</td><td class="numeric">${fmt(s.avgDevFromPred)}</td><td class="numeric">${fmt(s.avgDevFromLine)}</td></tr>`
+    : "";
+  return `<table><thead><tr><th>Lado</th><th class="numeric">n</th><th class="numeric">V/D</th><th class="numeric">Δ previsão</th><th class="numeric">Δ linha casa</th></tr></thead><tbody>${mkRow("OVER", stats.over)}${mkRow("UNDER", stats.under)}</tbody></table>`;
+}
+
+function renderAnalyticsSectionsHTML(history) {
+  const histEv = computeHistoricalEvRangeStats();
+  const histDev = computeHistoricalLineDeviation();
+  const manualEv = calcEvRangeStats(history);
+  const manualDev = calcLineDeviationStats(history);
+  const combinedEv = mergeEvRangeStats(histEv, manualEv);
+  const combinedDev = mergeLineDeviationStats(histDev, manualDev);
+  const histCount = window.GOL_HISTORICAL_ANALYSIS?.count || 0;
+  const hasManualResolved = history.some((b) => b.result !== null);
+  let html = "";
+
+  // — EV Range —
+  html += `<div class="analytics-block">`;
+  html += `<h2 class="analytics-title">Análise por Faixa de EV</h2>`;
+  if (histCount) {
+    html += `<div class="analytics-sub"><div class="analytics-source-label source-hist">Histórico gol.gg &mdash; ${histCount.toLocaleString("pt-BR")} jogos (walk-forward, odds 1.80)</div>${renderEvTableHTML(histEv, true)}</div>`;
+  }
+  if (hasManualResolved) {
+    html += `<div class="analytics-sub"><div class="analytics-source-label source-manual">Apostas registradas</div>${renderEvTableHTML(manualEv, true)}</div>`;
+  }
+  if (combinedEv.length && histCount && hasManualResolved) {
+    html += `<div class="analytics-sub"><div class="analytics-source-label source-combined">Total combinado</div>${renderEvTableHTML(combinedEv, false)}</div>`;
+  }
+  html += `</div>`;
+
+  // — Line Deviation —
+  html += `<div class="analytics-block">`;
+  html += `<h2 class="analytics-title">Desvio da Linha</h2>`;
+  html += `<p class="analytics-note">Positivo = resultado acima da previsão. &Delta; previsão: real &minus; previsão modelo. &Delta; linha: real &minus; linha casa.</p>`;
+  if (histCount) {
+    html += `<div class="analytics-sub"><div class="analytics-source-label source-hist">Histórico gol.gg &mdash; ${histCount.toLocaleString("pt-BR")} jogos</div>${renderDevTableHTML(histDev)}</div>`;
+  }
+  if (manualDev.total > 0) {
+    html += `<div class="analytics-sub"><div class="analytics-source-label source-manual">Apostas com kills registrado &mdash; ${manualDev.total}</div>${renderDevTableHTML(manualDev)}</div>`;
+  }
+  if (combinedDev.total > 0 && histCount && manualDev.total > 0) {
+    html += `<div class="analytics-sub"><div class="analytics-source-label source-combined">Total combinado</div>${renderDevTableHTML(combinedDev)}</div>`;
+  }
+  html += `</div>`;
+
+  return html;
+}
+
+function setStat(id, text, className) {
+  const el = document.getElementById(id);
+  if (!el) return;
+  el.textContent = text;
+  if (className !== undefined) el.className = className;
+}
+
+// ─── HISTORY HELPERS ─────────────────────────────────────────────────────────
+
+function toggleCollapsible(id) {
+  const el = document.getElementById(id);
+  if (el) el.classList.toggle("open");
+}
+
+function renderBetRowHTML(bet) {
+  const dt = new Date(bet.createdAt);
+  const date = dt.toLocaleDateString("pt-BR", { day: "2-digit", month: "2-digit" });
+  const time = dt.toLocaleTimeString("pt-BR", { hour: "2-digit", minute: "2-digit" });
+  const game = `${bet.teamA || "?"} vs ${bet.teamB || "?"}`;
+
+  const side = bet.betSide || bet.suggestion;
+  const sideTxt = side ? side.toUpperCase() : "PASS";
+  const sideCls = side === "over" ? "lean-over" : side === "under" ? "lean-under" : "lean-pass";
+
+  const sugg = bet.suggestion ? bet.suggestion.toUpperCase() : "--";
+  const suggCls = bet.suggestion === "over" ? "lean-over" : bet.suggestion === "under" ? "lean-under" : "lean-pass";
+
+  const decisionMetrics = decisionMetricsForRecord(bet, side);
+  const pred = Number.isFinite(bet.prediction) ? bet.prediction.toFixed(1) : "--";
+  const edge = Number.isFinite(bet.edge) ? `${bet.edge >= 0 ? "+" : ""}${bet.edge.toFixed(1)}` : "--";
+  const odds = Number.isFinite(bet.odds) ? bet.odds.toFixed(2) : "--";
+  const fairOdds = Number.isFinite(decisionMetrics.fairOdds) ? decisionMetrics.fairOdds.toFixed(2) : "--";
+  const ev = Number.isFinite(decisionMetrics.ev) ? `${decisionMetrics.ev >= 0 ? "+" : ""}${(decisionMetrics.ev * 100).toFixed(1)}%` : "--";
+  const evCls = Number.isFinite(decisionMetrics.ev) && decisionMetrics.ev > 0 ? "lean-under" : Number.isFinite(decisionMetrics.ev) && decisionMetrics.ev < 0 ? "lean-over" : "";
+  const modelEv = Number.isFinite(decisionMetrics.model.ev)
+    ? `${decisionMetrics.model.ev >= 0 ? "+" : ""}${(decisionMetrics.model.ev * 100).toFixed(1)}%`
+    : "--";
+  const modelEvCls = Number.isFinite(decisionMetrics.model.ev) && decisionMetrics.model.ev > 0 ? "lean-under" : Number.isFinite(decisionMetrics.model.ev) && decisionMetrics.model.ev < 0 ? "lean-over" : "";
+  const engine = String(decisionMetrics.engine || "--")
+    .replace("draft premium", "DRAFT+")
+    .replace("draft", "DRAFT")
+    .replace("pre", "PRE")
+    .replace("modelo", "MODELO")
+    .toUpperCase();
+  const engineTitle = decisionMetrics.draft?.hitRate
+    ? `Draft hit ${(decisionMetrics.draft.hitRate * 100).toFixed(1)}%, n=${decisionMetrics.draft.sample || 0}, EV modelo ${modelEv}`
+    : `EV modelo ${modelEv}`;
+  const line = bet.marketLine ?? "--";
+  const safeId = String(bet.betId).replace(/'/g, "");
+
+  let resultCell;
+  if (bet.result === null) {
+    resultCell = `<td class="result-actions"><input type="number" id="kills-${safeId}" class="kills-input" placeholder="kills" min="0" max="99" step="1"><button class="btn-green" onclick="confirmBetResult('${safeId}','green')">GREEN</button><button class="btn-red" onclick="confirmBetResult('${safeId}','red')">RED</button><button class="btn-delete" onclick="deleteBet('${safeId}')" title="Apagar aposta">🗑</button></td>`;
+  } else {
+    const pnlTxt = bet.pnl >= 0 ? `+${bet.pnl.toFixed(2)}u` : `${bet.pnl.toFixed(2)}u`;
+    const cls = bet.result === "green" ? "lean-under" : "lean-over";
+    const killsTxt = Number.isFinite(bet.actualKills) ? ` | ${bet.actualKills}k` : "";
+    resultCell = `<td class="result-actions"><span class="${cls}">${bet.result.toUpperCase()} ${pnlTxt}${killsTxt}</span><button class="btn-delete" onclick="deleteBet('${safeId}')" title="Apagar aposta">🗑</button></td>`;
+  }
+
+  const h2hCtx = bet.h2hContext;
+  const h2hTxt = h2hCtx?.extreme
+    ? (h2hCtx.direction === "alto" ? `↑ +${h2hCtx.deviation}` : `↓ ${h2hCtx.deviation}`)
+    : "—";
+  const h2hCls = h2hCtx?.extreme
+    ? (h2hCtx.direction === "alto" ? "lean-over" : "lean-under")
+    : "";
+  const h2hTitle = h2hCtx?.n >= 2
+    ? `H2H 2 últimas: ${h2hCtx.h2hMean} kills | modelo: ${h2hCtx.modelPred} | desvio: ${h2hCtx.deviation > 0 ? "+" : ""}${h2hCtx.deviation}`
+    : `H2H: menos de 2 jogos anteriores (n=${h2hCtx?.n ?? 0})`;
+
+  const stageBadge = Number.isFinite(bet.draftStage)
+    ? `<span class="stage-badge" title="Registrado com ${bet.draftStage} picks">p${bet.draftStage}</span>`
+    : "";
+  const catBadge = bet.category === "ev35-test"
+    ? `<span class="cat-badge" title="Experimento EV 3-5%">EXP</span>`
+    : "";
+  const resultCls = bet.result === "green" ? "row-green" : bet.result === "red" ? "row-red" : "row-pending";
+  const rowCls = bet.category === "ev35-test" ? `row-exp ${resultCls}` : resultCls;
+
+  return `<tr class="${rowCls}">
+      <td>${date} ${time}</td>
+      <td>${bet.league || "--"}</td>
+      <td>${game}${stageBadge}${catBadge}</td>
+      <td class="numeric">${line}</td>
+      <td class="numeric ${sideCls}">${sideTxt}</td>
+      <td class="numeric">${odds}</td>
+      <td class="numeric">${fairOdds}</td>
+      <td class="numeric ${evCls}">${ev}</td>
+      <td class="numeric ${modelEvCls}">${modelEv}</td>
+      <td class="numeric" title="${engineTitle}">${engine}</td>
+      <td class="numeric ${suggCls}">${sugg}</td>
+      <td class="numeric">${pred}</td>
+      <td class="numeric">${edge}</td>
+      <td class="numeric ${h2hCls}" title="${h2hTitle}">${h2hTxt}</td>
+      ${resultCell}
+    </tr>`;
+}
+
+function renderBetsTableHTML(bets) {
+  if (!bets.length) return "";
+  const rows = bets.map(renderBetRowHTML).join("");
+  return `<div class="bets-table-wrap"><table><thead><tr>
+    <th>Data</th><th>Liga</th><th>Jogo</th>
+    <th class="numeric">Linha</th>
+    <th class="numeric">Lado</th>
+    <th class="numeric">Odd casa</th>
+    <th class="numeric">Odd justa</th>
+    <th class="numeric">EV</th>
+    <th class="numeric">EV modelo</th>
+    <th class="numeric">Motor</th>
+    <th class="numeric">Sugestão</th>
+    <th class="numeric">Previsão</th>
+    <th class="numeric">Edge</th>
+    <th class="numeric">H2H</th>
+    <th class="numeric">Resultado</th>
+  </tr></thead><tbody>${rows}</tbody></table></div>`;
+}
+
+function calcEngineStats(history) {
+  const resolved = history.filter((b) => b.result !== null);
+  const engines = {};
+  for (const bet of resolved) {
+    const side = bet.betSide || bet.suggestion;
+    const metrics = decisionMetricsForRecord(bet, side);
+    const raw = String(metrics.engine || "").toLowerCase();
+    const key = raw.includes("premium") ? "DRAFT+" : raw.startsWith("draft") ? "DRAFT" : "PRE";
+    if (!engines[key]) engines[key] = { bets: 0, greens: 0, pnl: 0 };
+    engines[key].bets++;
+    if (bet.result === "green") engines[key].greens++;
+    engines[key].pnl += (bet.pnl || 0);
+  }
+  return engines;
+}
+
+function calcEngineConvergence(history) {
+  const resolved = history.filter((b) => b.result !== null);
+  const withBoth = resolved.filter(
+    (b) => Number.isFinite(b.evOver) && Number.isFinite(b.evUnder) && b.draftMarket?.side
+  );
+  if (!withBoth.length) return null;
+  const preSide = (b) => ((b.evOver ?? -Infinity) >= (b.evUnder ?? -Infinity) ? "over" : "under");
+  const agree    = withBoth.filter((b) => preSide(b) === b.draftMarket.side);
+  const disagree = withBoth.filter((b) => preSide(b) !== b.draftMarket.side);
+  function sStats(bets) {
+    const greens = bets.filter((b) => b.result === "green").length;
+    const pnl = bets.reduce((s, b) => s + (b.pnl || 0), 0);
+    return { n: bets.length, greens, pnl, roi: bets.length ? pnl / bets.length : null };
+  }
+  return { agree: sStats(agree), disagree: sStats(disagree), total: withBoth.length };
+}
+
+function renderCollapsibleSection(id, title, contentHTML) {
+  return `<div class="collapsible-section" id="${id}">
+    <div class="collapsible-header" onclick="toggleCollapsible('${id}')">
+      <span class="collapsible-arrow">&#9658;</span>
+      <span class="collapsible-title">${title}</span>
+    </div>
+    <div class="collapsible-body"><div class="collapsible-inner">${contentHTML}</div></div>
+  </div>`;
+}
+
+function renderEngineRoiSectionHTML(history) {
+  const resolved = history.filter((b) => b.result !== null);
+  if (!resolved.length) return "";
+  const engines = calcEngineStats(history);
+  if (!Object.values(engines).some((e) => e.bets > 0)) return "";
+
+  const engineOrder = ["PRE", "DRAFT", "DRAFT+"];
+  const rows = engineOrder.filter((k) => engines[k]?.bets).map((k) => {
+    const d = engines[k];
+    const hit = `${Math.round(d.greens / d.bets * 100)}%`;
+    const pnl = `${d.pnl >= 0 ? "+" : ""}${d.pnl.toFixed(2)}u`;
+    const roi = `${(d.pnl / d.bets * 100).toFixed(1)}%`;
+    const cls = d.pnl >= 0 ? "lean-under" : "lean-over";
+    return `<tr><td>${k}</td><td class="numeric">${d.bets}</td><td class="numeric">${d.greens}V / ${d.bets - d.greens}D</td><td class="numeric">${hit}</td><td class="numeric">${pnl}</td><td class="numeric ${cls}">${roi}</td></tr>`;
+  }).join("");
+
+  let inner = `<div class="bets-table-wrap"><table><thead><tr>
+    <th>Motor</th><th class="numeric">Apostas</th><th class="numeric">V/D</th><th class="numeric">Hit%</th><th class="numeric">P&amp;L</th><th class="numeric">ROI</th>
+  </tr></thead><tbody>${rows}</tbody></table></div>`;
+
+  const conv = calcEngineConvergence(history);
+  if (conv === null) {
+    inner += `<p class="analytics-note" style="margin-top:8px">Análise de concordância PRE/DRAFT não disponível — requer apostas com sinal de draft registrado.</p>`;
+  } else if (conv.total > 0) {
+    const convRow = (label, d) => {
+      if (!d.n) return "";
+      const hit = `${Math.round(d.greens / d.n * 100)}%`;
+      const pnl = `${d.pnl >= 0 ? "+" : ""}${d.pnl.toFixed(2)}u`;
+      const roi = d.roi !== null ? `${(d.roi * 100).toFixed(1)}%` : "--";
+      const cls = d.roi > 0 ? "lean-under" : d.roi < 0 ? "lean-over" : "";
+      return `<tr><td>${label}</td><td class="numeric">${d.n}</td><td class="numeric">${d.greens}V / ${d.n - d.greens}D</td><td class="numeric">${hit}</td><td class="numeric">${pnl}</td><td class="numeric ${cls}">${roi}</td></tr>`;
+    };
+    inner += `<h3 class="analytics-title" style="margin-top:14px">PRE vs DRAFT — Concordância (n=${conv.total})</h3>
+      <p class="analytics-note">Apostas com ambos os sinais disponíveis. PRE = lado com maior EV modelo; DRAFT = lado do sinal de draft.</p>
+      <div class="bets-table-wrap"><table><thead><tr>
+        <th>Cenário</th><th class="numeric">n</th><th class="numeric">V/D</th><th class="numeric">Hit%</th><th class="numeric">P&amp;L</th><th class="numeric">ROI</th>
+      </tr></thead><tbody>${convRow("Concordavam", conv.agree)}${convRow("Divergiam", conv.disagree)}</tbody></table></div>`;
+  }
+
+  return renderCollapsibleSection("section-engine-roi", "ROI por Motor", inner);
+}
+
+function renderLeagueRoiSectionHTML(stats) {
+  const leagueEntries = Object.entries(stats.leagues).sort((a, b) => b[1].bets - a[1].bets);
+  if (!leagueEntries.length) return "";
+  const rows = leagueEntries.map(([league, d]) => {
+    const roi = d.bets ? `${(d.pnl / d.bets * 100).toFixed(1)}%` : "--";
+    const hit = d.bets ? `${Math.round(d.greens / d.bets * 100)}%` : "--";
+    const pnl = `${d.pnl >= 0 ? "+" : ""}${d.pnl.toFixed(2)}u`;
+    const cls = d.pnl >= 0 ? "lean-under" : "lean-over";
+    return `<tr><td>${league}</td><td class="numeric">${d.bets}</td><td class="numeric">${d.greens}V / ${d.bets - d.greens}D</td><td class="numeric">${hit}</td><td class="numeric">${pnl}</td><td class="numeric ${cls}">${roi}</td></tr>`;
+  }).join("");
+  const inner = `<div class="bets-table-wrap"><table><thead><tr>
+    <th>Liga</th><th class="numeric">Apostas</th><th class="numeric">V/D</th><th class="numeric">Hit%</th><th class="numeric">P&amp;L</th><th class="numeric">ROI</th>
+  </tr></thead><tbody>${rows}</tbody></table></div>`;
+  return renderCollapsibleSection("section-league-roi", "ROI por Liga", inner);
+}
+
+function renderExpStatsSectionHTML(expHistory) {
+  if (!expHistory.length) return "";
+  const expStats = calcHistoryStats(expHistory);
+  const roiTxt = expStats.roi !== null ? `${(expStats.roi * 100).toFixed(1)}%` : "--";
+  const hitTxt = expStats.resolved > 0 ? `${Math.round(expStats.greens / expStats.resolved * 100)}%` : "--";
+  const pnlTxt = expStats.resolved > 0 ? `${expStats.totalPnl >= 0 ? "+" : ""}${expStats.totalPnl.toFixed(2)}u` : "--";
+  const inner = `<div class="exp-stats-block">
+    <div class="exp-stats-row">
+      <div><span>Registradas</span> <strong>${expStats.total}</strong></div>
+      <div><span>Resolvidas</span> <strong>${expStats.resolved}</strong></div>
+      <div><span>Hit%</span> <strong>${hitTxt}</strong></div>
+      <div><span>P&amp;L</span> <strong>${pnlTxt}</strong></div>
+      <div><span>ROI</span> <strong>${roiTxt}</strong></div>
+    </div>
+  </div>`;
+  return renderCollapsibleSection("section-exp-stats", "&#128300; Experimento EV 3-5% (pick 7-8)", inner);
+}
+
+function renderAnalyticsCollapsibleHTML(history) {
+  const histCount = window.GOL_HISTORICAL_ANALYSIS?.count || 0;
+  const hasManualResolved = history.some((b) => b.result !== null);
+  if (!histCount && !hasManualResolved) return "";
+  const content = renderAnalyticsSectionsHTML(history);
+  return renderCollapsibleSection("section-analytics", "An&#225;lise por Faixa de EV e Desvio da Linha", content);
+}
+
+function renderBettingHistory() {
+  const history = getBettingHistory();
+  const standardHistory = history.filter((b) => !b.category || b.category === "standard");
+  const expHistory      = history.filter((b) => b.category === "ev35-test");
+  const stats = calcHistoryStats(standardHistory);
+
+  // ── Stat cards
+  setStat("statTotal", stats.total);
+  setStat("statResolved", stats.resolved);
+  setStat("statGreens", stats.greens, "lean-under");
+  setStat("statReds", stats.reds, "lean-over");
+  const pnlText = stats.resolved > 0
+    ? `${stats.totalPnl >= 0 ? "+" : ""}${stats.totalPnl.toFixed(2)}u`
+    : "--";
+  setStat("statPnl", pnlText, stats.totalPnl >= 0 ? "lean-under" : "lean-over");
+  const roiText = stats.roi !== null ? `${(stats.roi * 100).toFixed(1)}%` : "--";
+  setStat("statRoi", roiText, stats.roi > 0 ? "lean-under" : stats.roi < 0 ? "lean-over" : "");
+  const streakText = stats.streak > 0
+    ? `${stats.streak}\xD7 ${stats.streakType === "green" ? "GREEN" : "RED"}`
+    : "--";
+  setStat("statStreak", streakText, stats.streakType === "green" ? "lean-under" : stats.streakType === "red" ? "lean-over" : "");
+
+  // ── Esvazia containers legados (conteúdo migrado para betsTable)
+  ["leagueRoiTable", "expStatsSection", "analyticsSection"].forEach((id) => {
+    const el = document.getElementById(id);
+    if (el) el.innerHTML = "";
+  });
+
+  const tableEl = document.getElementById("betsTable");
+  if (!tableEl) return;
+
+  if (!history.length) {
+    tableEl.innerHTML = `<p class="empty-history">Nenhuma aposta registrada. Configure uma previsão e clique "Registrar aposta".</p>`;
+    return;
+  }
+
+  let html = "";
+
+  // ── 1. Apostas pendentes — sempre visíveis
+  const pending = history.filter((b) => b.result === null);
+  if (pending.length) {
+    html += `<div class="pending-section">`;
+    html += `<div class="pending-header">Pendentes (${pending.length})</div>`;
+    html += renderBetsTableHTML(pending);
+    html += `</div>`;
+  }
+
+  // ── 2. Apostas resolvidas agrupadas por dia
+  const resolvedAll = history.filter((b) => b.result !== null);
+  if (resolvedAll.length) {
+    const todayFmt = new Date().toLocaleDateString("pt-BR", { day: "2-digit", month: "2-digit" });
+    const groups = new Map();
+    for (const bet of resolvedAll) {
+      const key = new Date(bet.createdAt).toLocaleDateString("pt-BR", { day: "2-digit", month: "2-digit" });
+      if (!groups.has(key)) groups.set(key, []);
+      groups.get(key).push(bet);
+    }
+    const sortedDays = [...groups.entries()].sort(([a], [b]) => {
+      const [da, ma] = a.split("/").map(Number);
+      const [db, mb] = b.split("/").map(Number);
+      return mb !== ma ? mb - ma : db - da;
+    });
+
+    html += `<div class="resolved-groups">`;
+    for (const [day, bets] of sortedDays) {
+      const isToday = day === todayFmt;
+      const greens = bets.filter((b) => b.result === "green").length;
+      const reds   = bets.filter((b) => b.result === "red").length;
+      const dayPnl = bets.reduce((s, b) => s + (b.pnl || 0), 0);
+      const pnlStr = `${dayPnl >= 0 ? "+" : ""}${dayPnl.toFixed(1)}u`;
+      const pnlCls = dayPnl >= 0 ? "lean-under" : "lean-over";
+      const dayId  = `day-group-${day.replace("/", "-")}`;
+      html += `<div class="day-group${isToday ? " open" : ""}" id="${dayId}">
+        <div class="day-group-header" onclick="toggleCollapsible('${dayId}')">
+          <span class="day-group-arrow">&#9658;</span>
+          <span class="day-group-date">${isToday ? "Hoje" : day}</span>
+          <span class="day-group-meta">${bets.length} apostas &middot; ${greens}V/${reds}D &middot; <span class="${pnlCls}">${pnlStr}</span></span>
+        </div>
+        <div class="day-group-body">${renderBetsTableHTML(bets)}</div>
+      </div>`;
+    }
+    html += `</div>`;
+  }
+
+  // ── 3. Seções de análise recolhíveis (fechadas por padrão)
+  html += renderEngineRoiSectionHTML(standardHistory);
+  html += renderLeagueRoiSectionHTML(stats);
+  html += renderExpStatsSectionHTML(expHistory);
+  html += renderAnalyticsCollapsibleHTML(standardHistory);
+
+  tableEl.innerHTML = html;
+}
+
+// ─── HISTORY DRAWER ───────────────────────────────────────────────────────────
+
+function openHistoryDrawer() {
+  document.getElementById("historyDrawer")?.classList.add("open");
+  document.getElementById("drawerOverlay")?.classList.add("open");
+}
+
+function closeHistoryDrawer() {
+  document.getElementById("historyDrawer")?.classList.remove("open");
+  document.getElementById("drawerOverlay")?.classList.remove("open");
+}
+
+function toggleHistoryDrawer() {
+  const drawer = document.getElementById("historyDrawer");
+  if (drawer?.classList.contains("open")) closeHistoryDrawer();
+  else openHistoryDrawer();
+}
+
+// ─── DARK MODE ────────────────────────────────────────────────────────────────
+
+(function initDarkMode() {
+  const btn = document.getElementById("darkModeToggle");
+  const STORAGE_KEY = "gol-kills-theme";
+
+  function applyTheme(dark) {
+    document.body.classList.toggle("dark", dark);
+    if (btn) btn.textContent = dark ? "☀️" : "🌙";
+  }
+
+  const saved = localStorage.getItem(STORAGE_KEY);
+  const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+  applyTheme(saved !== null ? saved === "dark" : prefersDark);
+
+  if (btn) {
+    btn.addEventListener("click", () => {
+      document.body.classList.add("is-switching-theme");
+      const isDark = document.body.classList.toggle("dark");
+      btn.textContent = isDark ? "☀️" : "🌙";
+      localStorage.setItem(STORAGE_KEY, isDark ? "dark" : "light");
+      setTimeout(() => document.body.classList.remove("is-switching-theme"), 300);
+    });
+  }
+})();
+
+// ─── EXPORT ───────────────────────────────────────────────────────────────────
+
+function csvEscape(v) {
+  const s = String(v ?? "");
+  return s.includes(",") || s.includes('"') || s.includes("\n")
+    ? `"${s.replace(/"/g, '""')}"`
+    : s;
+}
+
+function datestamp() {
+  return new Date().toISOString().slice(0, 10);
+}
+
+function downloadFile(filename, content, mime) {
+  const blob = new Blob([content], { type: mime });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = filename;
+  a.click();
+  URL.revokeObjectURL(url);
+}
+
+function exportHistory() {
+  const history = getBettingHistory();
+  if (!history.length) {
+    alert("Nenhuma aposta registrada para exportar.");
+    return;
+  }
+
+  const standardHistory = history.filter((b) => !b.category || b.category === "standard");
+
+  // ── JSON
+  const stats = calcHistoryStats(standardHistory);
+  const evStats = calcEvRangeStats(standardHistory);
+  const lineDevStats = calcLineDeviationStats(standardHistory);
+  const jsonPayload = {
+    exportedAt: new Date().toISOString(),
+    summary: {
+      total: stats.total,
+      resolved: stats.resolved,
+      greens: stats.greens,
+      reds: stats.reds,
+      pnl: stats.totalPnl,
+      roi: stats.roi,
+      streak: { count: stats.streak, type: stats.streakType },
+    },
+    byLeague: stats.leagues,
+    byEvRange: evStats,
+    lineDeviation: lineDevStats,
+    bets: history,
+  };
+  downloadFile(
+    `apostas-${datestamp()}.json`,
+    JSON.stringify(jsonPayload, null, 2),
+    "application/json"
+  );
+
+  // ── CSV  (BOM para Excel/LibreOffice no Windows reconhecer UTF-8)
+  const SEP = ",";
+  const headers = [
+    "Data", "Liga", "Time A", "Time B", "Linha Casa", "Lado", "Odd",
+    "EV (%)", "EV Modelo (%)", "Motor", "Previsão", "Pre-Draft", "Edge",
+    "Estágio Draft", "Categoria", "H2H extremo", "H2H direção", "H2H desvio",
+    "Resultado", "P&L", "Kills reais",
+  ];
+  const rows = history.map((bet) => {
+    const side = bet.betSide || bet.suggestion;
+    const metrics = decisionMetricsForRecord(bet, side);
+    const engine = String(metrics.engine || "")
+      .replace("draft premium", "DRAFT+")
+      .replace("draft", "DRAFT")
+      .replace("pre", "PRE")
+      .replace("modelo", "MODELO")
+      .toUpperCase() || "--";
+    const h2h = bet.h2hContext;
+    return [
+      bet.createdAt ? new Date(bet.createdAt).toLocaleString("pt-BR") : "",
+      bet.league || "",
+      bet.teamA || "",
+      bet.teamB || "",
+      bet.marketLine ?? "",
+      side ? side.toUpperCase() : "",
+      Number.isFinite(bet.odds) ? bet.odds.toFixed(2) : "",
+      Number.isFinite(metrics.ev) ? (metrics.ev * 100).toFixed(2) : "",
+      Number.isFinite(metrics.model?.ev) ? (metrics.model.ev * 100).toFixed(2) : "",
+      engine,
+      Number.isFinite(bet.prediction) ? bet.prediction.toFixed(2) : "",
+      Number.isFinite(bet.preDraft) ? bet.preDraft.toFixed(2) : "",
+      Number.isFinite(bet.edge) ? bet.edge.toFixed(2) : "",
+      Number.isFinite(bet.draftStage) ? bet.draftStage : "",
+      bet.category || "standard",
+      h2h?.extreme ? "sim" : (h2h ? "não" : ""),
+      h2h?.direction || "",
+      Number.isFinite(h2h?.deviation) ? h2h.deviation : "",
+      bet.result || "pendente",
+      Number.isFinite(bet.pnl) ? bet.pnl.toFixed(4) : "",
+      Number.isFinite(bet.actualKills) ? bet.actualKills : "",
+    ].map(csvEscape).join(SEP);
+  });
+  downloadFile(
+    `apostas-${datestamp()}.csv`,
+    "﻿" + [headers.map(csvEscape).join(SEP), ...rows].join("\n"),
+    "text/csv;charset=utf-8"
+  );
+}
+
+document.addEventListener("DOMContentLoaded", init);

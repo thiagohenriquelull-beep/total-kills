@@ -1,0 +1,6722 @@
+{
+  "report": {
+    "createdAt": "2026-05-26T20:07:52.878Z",
+    "minTrain": 30,
+    "odds": 1.8,
+    "moves": [
+      0,
+      0.5,
+      1,
+      1.5,
+      2
+    ],
+    "criteria": {
+      "minRoiGain": 0.02,
+      "minVolumeRatio": 0.8
+    },
+    "baseline": {
+      "move0": {
+        "bets": 345,
+        "roi": 0.1478
+      },
+      "move1": {
+        "bets": 261,
+        "roi": 0.0966
+      }
+    },
+    "baseRows": 1125,
+    "fullDraft": [
+      {
+        "name": "baseline",
+        "label": "Baseline atual",
+        "type": "full",
+        "config": {
+          "name": "baseline",
+          "label": "Baseline atual"
+        },
+        "byMove": {
+          "0": {
+            "rows": 1125,
+            "bets": 345,
+            "pass": 780,
+            "correct": 220,
+            "hitRate": 0.6377,
+            "roi": 0.1478,
+            "profit": 51,
+            "overBets": 216,
+            "underBets": 129,
+            "preMae": 6.5676,
+            "postMae": 6.4699
+          },
+          "1": {
+            "rows": 1125,
+            "bets": 261,
+            "pass": 864,
+            "correct": 159,
+            "hitRate": 0.6092,
+            "roi": 0.0966,
+            "profit": 25.2,
+            "overBets": 165,
+            "underBets": 96,
+            "preMae": 6.5676,
+            "postMae": 6.4699
+          },
+          "2": {
+            "rows": 1125,
+            "bets": 143,
+            "pass": 982,
+            "correct": 85,
+            "hitRate": 0.5944,
+            "roi": 0.0699,
+            "profit": 10,
+            "overBets": 94,
+            "underBets": 49,
+            "preMae": 6.5676,
+            "postMae": 6.4699
+          },
+          "0.5": {
+            "rows": 1125,
+            "bets": 249,
+            "pass": 876,
+            "correct": 159,
+            "hitRate": 0.6386,
+            "roi": 0.1494,
+            "profit": 37.2,
+            "overBets": 160,
+            "underBets": 89,
+            "preMae": 6.5676,
+            "postMae": 6.4699
+          },
+          "1.5": {
+            "rows": 1125,
+            "bets": 138,
+            "pass": 987,
+            "correct": 85,
+            "hitRate": 0.6159,
+            "roi": 0.1087,
+            "profit": 15,
+            "overBets": 89,
+            "underBets": 49,
+            "preMae": 6.5676,
+            "postMae": 6.4699
+          }
+        },
+        "byMoveSide": {
+          "0": {
+            "under": {
+              "rows": 129,
+              "bets": 129,
+              "pass": 0,
+              "correct": 84,
+              "hitRate": 0.6512,
+              "roi": 0.1721,
+              "profit": 22.2,
+              "overBets": 0,
+              "underBets": 129,
+              "preMae": 6.8297,
+              "postMae": 6.5446
+            },
+            "over": {
+              "rows": 216,
+              "bets": 216,
+              "pass": 0,
+              "correct": 136,
+              "hitRate": 0.6296,
+              "roi": 0.1333,
+              "profit": 28.8,
+              "overBets": 216,
+              "underBets": 0,
+              "preMae": 7.1725,
+              "postMae": 6.8563
+            }
+          },
+          "1": {
+            "under": {
+              "rows": 96,
+              "bets": 96,
+              "pass": 0,
+              "correct": 59,
+              "hitRate": 0.6146,
+              "roi": 0.1063,
+              "profit": 10.2,
+              "overBets": 0,
+              "underBets": 96,
+              "preMae": 7.072,
+              "postMae": 6.7103
+            },
+            "over": {
+              "rows": 165,
+              "bets": 165,
+              "pass": 0,
+              "correct": 100,
+              "hitRate": 0.6061,
+              "roi": 0.0909,
+              "profit": 15,
+              "overBets": 165,
+              "underBets": 0,
+              "preMae": 7.1029,
+              "postMae": 6.7615
+            }
+          },
+          "2": {
+            "under": {
+              "rows": 49,
+              "bets": 49,
+              "pass": 0,
+              "correct": 30,
+              "hitRate": 0.6122,
+              "roi": 0.102,
+              "profit": 5,
+              "overBets": 0,
+              "underBets": 49,
+              "preMae": 7.7619,
+              "postMae": 7.3458
+            },
+            "over": {
+              "rows": 94,
+              "bets": 94,
+              "pass": 0,
+              "correct": 55,
+              "hitRate": 0.5851,
+              "roi": 0.0532,
+              "profit": 5,
+              "overBets": 94,
+              "underBets": 0,
+              "preMae": 7.3984,
+              "postMae": 6.9087
+            }
+          },
+          "0.5": {
+            "under": {
+              "rows": 89,
+              "bets": 89,
+              "pass": 0,
+              "correct": 59,
+              "hitRate": 0.6629,
+              "roi": 0.1933,
+              "profit": 17.2,
+              "overBets": 0,
+              "underBets": 89,
+              "preMae": 7.588,
+              "postMae": 7.1926
+            },
+            "over": {
+              "rows": 160,
+              "bets": 160,
+              "pass": 0,
+              "correct": 100,
+              "hitRate": 0.625,
+              "roi": 0.125,
+              "profit": 20,
+              "overBets": 160,
+              "underBets": 0,
+              "preMae": 7.31,
+              "postMae": 6.9479
+            }
+          },
+          "1.5": {
+            "under": {
+              "rows": 49,
+              "bets": 49,
+              "pass": 0,
+              "correct": 30,
+              "hitRate": 0.6122,
+              "roi": 0.102,
+              "profit": 5,
+              "overBets": 0,
+              "underBets": 49,
+              "preMae": 7.7619,
+              "postMae": 7.3458
+            },
+            "over": {
+              "rows": 89,
+              "bets": 89,
+              "pass": 0,
+              "correct": 55,
+              "hitRate": 0.618,
+              "roi": 0.1124,
+              "profit": 10,
+              "overBets": 89,
+              "underBets": 0,
+              "preMae": 7.7367,
+              "postMae": 7.2725
+            }
+          }
+        },
+        "byLeagueMove0": {
+          "LCK": {
+            "rows": 150,
+            "bets": 34,
+            "pass": 116,
+            "correct": 24,
+            "hitRate": 0.7059,
+            "roi": 0.2706,
+            "profit": 9.2,
+            "overBets": 4,
+            "underBets": 30,
+            "preMae": 6.7227,
+            "postMae": 6.6611
+          },
+          "LCKCL": {
+            "rows": 270,
+            "bets": 118,
+            "pass": 152,
+            "correct": 77,
+            "hitRate": 0.6525,
+            "roi": 0.1746,
+            "profit": 20.6,
+            "overBets": 74,
+            "underBets": 44,
+            "preMae": 7.1195,
+            "postMae": 6.9762
+          },
+          "LPL": {
+            "rows": 270,
+            "bets": 108,
+            "pass": 162,
+            "correct": 68,
+            "hitRate": 0.6296,
+            "roi": 0.1333,
+            "profit": 14.4,
+            "overBets": 99,
+            "underBets": 9,
+            "preMae": 6.3246,
+            "postMae": 6.2015
+          },
+          "CBLOL": {
+            "rows": 129,
+            "bets": 0,
+            "pass": 129,
+            "correct": 0,
+            "hitRate": null,
+            "roi": null,
+            "profit": 0,
+            "overBets": 0,
+            "underBets": 0,
+            "preMae": 6.2431,
+            "postMae": 6.2344
+          },
+          "LEC": {
+            "rows": 198,
+            "bets": 71,
+            "pass": 127,
+            "correct": 41,
+            "hitRate": 0.5775,
+            "roi": 0.0394,
+            "profit": 2.8,
+            "overBets": 31,
+            "underBets": 40,
+            "preMae": 6.6914,
+            "postMae": 6.6047
+          },
+          "LCS": {
+            "rows": 108,
+            "bets": 14,
+            "pass": 94,
+            "correct": 10,
+            "hitRate": 0.7143,
+            "roi": 0.2857,
+            "profit": 4,
+            "overBets": 8,
+            "underBets": 6,
+            "preMae": 5.74,
+            "postMae": 5.6437
+          }
+        }
+      },
+      {
+        "name": "role-side",
+        "label": "A: peso por role/lado",
+        "type": "full",
+        "config": {
+          "name": "role-side",
+          "label": "A: peso por role/lado",
+          "roleSide": true
+        },
+        "byMove": {
+          "0": {
+            "rows": 1125,
+            "bets": 352,
+            "pass": 773,
+            "correct": 222,
+            "hitRate": 0.6307,
+            "roi": 0.1352,
+            "profit": 47.6,
+            "overBets": 216,
+            "underBets": 136,
+            "preMae": 6.5676,
+            "postMae": 6.4663
+          },
+          "1": {
+            "rows": 1125,
+            "bets": 277,
+            "pass": 848,
+            "correct": 165,
+            "hitRate": 0.5957,
+            "roi": 0.0722,
+            "profit": 20,
+            "overBets": 168,
+            "underBets": 109,
+            "preMae": 6.5676,
+            "postMae": 6.4663
+          },
+          "2": {
+            "rows": 1125,
+            "bets": 152,
+            "pass": 973,
+            "correct": 88,
+            "hitRate": 0.5789,
+            "roi": 0.0421,
+            "profit": 6.4,
+            "overBets": 95,
+            "underBets": 57,
+            "preMae": 6.5676,
+            "postMae": 6.4663
+          },
+          "0.5": {
+            "rows": 1125,
+            "bets": 266,
+            "pass": 859,
+            "correct": 165,
+            "hitRate": 0.6203,
+            "roi": 0.1165,
+            "profit": 31,
+            "overBets": 163,
+            "underBets": 103,
+            "preMae": 6.5676,
+            "postMae": 6.4663
+          },
+          "1.5": {
+            "rows": 1125,
+            "bets": 146,
+            "pass": 979,
+            "correct": 88,
+            "hitRate": 0.6027,
+            "roi": 0.0849,
+            "profit": 12.4,
+            "overBets": 90,
+            "underBets": 56,
+            "preMae": 6.5676,
+            "postMae": 6.4663
+          }
+        },
+        "byMoveSide": {
+          "0": {
+            "under": {
+              "rows": 136,
+              "bets": 136,
+              "pass": 0,
+              "correct": 86,
+              "hitRate": 0.6324,
+              "roi": 0.1382,
+              "profit": 18.8,
+              "overBets": 0,
+              "underBets": 136,
+              "preMae": 6.7543,
+              "postMae": 6.4901
+            },
+            "over": {
+              "rows": 216,
+              "bets": 216,
+              "pass": 0,
+              "correct": 136,
+              "hitRate": 0.6296,
+              "roi": 0.1333,
+              "profit": 28.8,
+              "overBets": 216,
+              "underBets": 0,
+              "preMae": 7.1377,
+              "postMae": 6.8214
+            }
+          },
+          "1": {
+            "under": {
+              "rows": 109,
+              "bets": 109,
+              "pass": 0,
+              "correct": 63,
+              "hitRate": 0.578,
+              "roi": 0.0404,
+              "profit": 4.4,
+              "overBets": 0,
+              "underBets": 109,
+              "preMae": 6.7684,
+              "postMae": 6.5002
+            },
+            "over": {
+              "rows": 168,
+              "bets": 168,
+              "pass": 0,
+              "correct": 102,
+              "hitRate": 0.6071,
+              "roi": 0.0929,
+              "profit": 15.6,
+              "overBets": 168,
+              "underBets": 0,
+              "preMae": 7.0967,
+              "postMae": 6.7533
+            }
+          },
+          "2": {
+            "under": {
+              "rows": 57,
+              "bets": 57,
+              "pass": 0,
+              "correct": 32,
+              "hitRate": 0.5614,
+              "roi": 0.0105,
+              "profit": 0.6,
+              "overBets": 0,
+              "underBets": 57,
+              "preMae": 7.1579,
+              "postMae": 6.8281
+            },
+            "over": {
+              "rows": 95,
+              "bets": 95,
+              "pass": 0,
+              "correct": 56,
+              "hitRate": 0.5895,
+              "roi": 0.0611,
+              "profit": 5.8,
+              "overBets": 95,
+              "underBets": 0,
+              "preMae": 7.4524,
+              "postMae": 6.9527
+            }
+          },
+          "0.5": {
+            "under": {
+              "rows": 103,
+              "bets": 103,
+              "pass": 0,
+              "correct": 63,
+              "hitRate": 0.6117,
+              "roi": 0.101,
+              "profit": 10.4,
+              "overBets": 0,
+              "underBets": 103,
+              "preMae": 7.1373,
+              "postMae": 6.8363
+            },
+            "over": {
+              "rows": 163,
+              "bets": 163,
+              "pass": 0,
+              "correct": 102,
+              "hitRate": 0.6258,
+              "roi": 0.1264,
+              "profit": 20.6,
+              "overBets": 163,
+              "underBets": 0,
+              "preMae": 7.2998,
+              "postMae": 6.9357
+            }
+          },
+          "1.5": {
+            "under": {
+              "rows": 56,
+              "bets": 56,
+              "pass": 0,
+              "correct": 32,
+              "hitRate": 0.5714,
+              "roi": 0.0286,
+              "profit": 1.6,
+              "overBets": 0,
+              "underBets": 56,
+              "preMae": 7.2626,
+              "postMae": 6.9498
+            },
+            "over": {
+              "rows": 90,
+              "bets": 90,
+              "pass": 0,
+              "correct": 56,
+              "hitRate": 0.6222,
+              "roi": 0.12,
+              "profit": 10.8,
+              "overBets": 90,
+              "underBets": 0,
+              "preMae": 7.7898,
+              "postMae": 7.3147
+            }
+          }
+        },
+        "byLeagueMove0": {
+          "LCK": {
+            "rows": 150,
+            "bets": 34,
+            "pass": 116,
+            "correct": 22,
+            "hitRate": 0.6471,
+            "roi": 0.1647,
+            "profit": 5.6,
+            "overBets": 2,
+            "underBets": 32,
+            "preMae": 6.7227,
+            "postMae": 6.6595
+          },
+          "LCKCL": {
+            "rows": 270,
+            "bets": 120,
+            "pass": 150,
+            "correct": 79,
+            "hitRate": 0.6583,
+            "roi": 0.185,
+            "profit": 22.2,
+            "overBets": 75,
+            "underBets": 45,
+            "preMae": 7.1195,
+            "postMae": 6.969
+          },
+          "LPL": {
+            "rows": 270,
+            "bets": 111,
+            "pass": 159,
+            "correct": 70,
+            "hitRate": 0.6306,
+            "roi": 0.1351,
+            "profit": 15,
+            "overBets": 100,
+            "underBets": 11,
+            "preMae": 6.3246,
+            "postMae": 6.1971
+          },
+          "CBLOL": {
+            "rows": 129,
+            "bets": 0,
+            "pass": 129,
+            "correct": 0,
+            "hitRate": null,
+            "roi": null,
+            "profit": 0,
+            "overBets": 0,
+            "underBets": 0,
+            "preMae": 6.2431,
+            "postMae": 6.233
+          },
+          "LEC": {
+            "rows": 198,
+            "bets": 73,
+            "pass": 125,
+            "correct": 41,
+            "hitRate": 0.5616,
+            "roi": 0.011,
+            "profit": 0.8,
+            "overBets": 31,
+            "underBets": 42,
+            "preMae": 6.6914,
+            "postMae": 6.6042
+          },
+          "LCS": {
+            "rows": 108,
+            "bets": 14,
+            "pass": 94,
+            "correct": 10,
+            "hitRate": 0.7143,
+            "roi": 0.2857,
+            "profit": 4,
+            "overBets": 8,
+            "underBets": 6,
+            "preMae": 5.74,
+            "postMae": 5.6401
+          }
+        }
+      },
+      {
+        "name": "sample-confidence",
+        "label": "B: confianca por amostra",
+        "type": "full",
+        "config": {
+          "name": "sample-confidence",
+          "label": "B: confianca por amostra",
+          "sampleConfidence": true
+        },
+        "byMove": {
+          "0": {
+            "rows": 1125,
+            "bets": 311,
+            "pass": 814,
+            "correct": 196,
+            "hitRate": 0.6302,
+            "roi": 0.1344,
+            "profit": 41.8,
+            "overBets": 201,
+            "underBets": 110,
+            "preMae": 6.5676,
+            "postMae": 6.4733
+          },
+          "1": {
+            "rows": 1125,
+            "bets": 234,
+            "pass": 891,
+            "correct": 138,
+            "hitRate": 0.5897,
+            "roi": 0.0615,
+            "profit": 14.4,
+            "overBets": 156,
+            "underBets": 78,
+            "preMae": 6.5676,
+            "postMae": 6.4733
+          },
+          "2": {
+            "rows": 1125,
+            "bets": 135,
+            "pass": 990,
+            "correct": 79,
+            "hitRate": 0.5852,
+            "roi": 0.0533,
+            "profit": 7.2,
+            "overBets": 91,
+            "underBets": 44,
+            "preMae": 6.5676,
+            "postMae": 6.4733
+          },
+          "0.5": {
+            "rows": 1125,
+            "bets": 223,
+            "pass": 902,
+            "correct": 138,
+            "hitRate": 0.6188,
+            "roi": 0.1139,
+            "profit": 25.4,
+            "overBets": 152,
+            "underBets": 71,
+            "preMae": 6.5676,
+            "postMae": 6.4733
+          },
+          "1.5": {
+            "rows": 1125,
+            "bets": 131,
+            "pass": 994,
+            "correct": 79,
+            "hitRate": 0.6031,
+            "roi": 0.0855,
+            "profit": 11.2,
+            "overBets": 87,
+            "underBets": 44,
+            "preMae": 6.5676,
+            "postMae": 6.4733
+          }
+        },
+        "byMoveSide": {
+          "0": {
+            "under": {
+              "rows": 110,
+              "bets": 110,
+              "pass": 0,
+              "correct": 69,
+              "hitRate": 0.6273,
+              "roi": 0.1291,
+              "profit": 14.2,
+              "overBets": 0,
+              "underBets": 110,
+              "preMae": 6.7774,
+              "postMae": 6.5187
+            },
+            "over": {
+              "rows": 201,
+              "bets": 201,
+              "pass": 0,
+              "correct": 127,
+              "hitRate": 0.6318,
+              "roi": 0.1373,
+              "profit": 27.6,
+              "overBets": 201,
+              "underBets": 0,
+              "preMae": 7.2089,
+              "postMae": 6.8886
+            }
+          },
+          "1": {
+            "under": {
+              "rows": 78,
+              "bets": 78,
+              "pass": 0,
+              "correct": 45,
+              "hitRate": 0.5769,
+              "roi": 0.0385,
+              "profit": 3,
+              "overBets": 0,
+              "underBets": 78,
+              "preMae": 6.9639,
+              "postMae": 6.6319
+            },
+            "over": {
+              "rows": 156,
+              "bets": 156,
+              "pass": 0,
+              "correct": 93,
+              "hitRate": 0.5962,
+              "roi": 0.0731,
+              "profit": 11.4,
+              "overBets": 156,
+              "underBets": 0,
+              "preMae": 6.9785,
+              "postMae": 6.6667
+            }
+          },
+          "2": {
+            "under": {
+              "rows": 44,
+              "bets": 44,
+              "pass": 0,
+              "correct": 26,
+              "hitRate": 0.5909,
+              "roi": 0.0636,
+              "profit": 2.8,
+              "overBets": 0,
+              "underBets": 44,
+              "preMae": 7.8472,
+              "postMae": 7.4665
+            },
+            "over": {
+              "rows": 91,
+              "bets": 91,
+              "pass": 0,
+              "correct": 53,
+              "hitRate": 0.5824,
+              "roi": 0.0484,
+              "profit": 4.4,
+              "overBets": 91,
+              "underBets": 0,
+              "preMae": 7.3164,
+              "postMae": 6.8771
+            }
+          },
+          "0.5": {
+            "under": {
+              "rows": 71,
+              "bets": 71,
+              "pass": 0,
+              "correct": 45,
+              "hitRate": 0.6338,
+              "roi": 0.1408,
+              "profit": 10,
+              "overBets": 0,
+              "underBets": 71,
+              "preMae": 7.5971,
+              "postMae": 7.2305
+            },
+            "over": {
+              "rows": 152,
+              "bets": 152,
+              "pass": 0,
+              "correct": 93,
+              "hitRate": 0.6118,
+              "roi": 0.1013,
+              "profit": 15.4,
+              "overBets": 152,
+              "underBets": 0,
+              "preMae": 7.1504,
+              "postMae": 6.8219
+            }
+          },
+          "1.5": {
+            "under": {
+              "rows": 44,
+              "bets": 44,
+              "pass": 0,
+              "correct": 26,
+              "hitRate": 0.5909,
+              "roi": 0.0636,
+              "profit": 2.8,
+              "overBets": 0,
+              "underBets": 44,
+              "preMae": 7.8472,
+              "postMae": 7.4665
+            },
+            "over": {
+              "rows": 87,
+              "bets": 87,
+              "pass": 0,
+              "correct": 53,
+              "hitRate": 0.6092,
+              "roi": 0.0966,
+              "profit": 8.4,
+              "overBets": 87,
+              "underBets": 0,
+              "preMae": 7.5896,
+              "postMae": 7.1685
+            }
+          }
+        },
+        "byLeagueMove0": {
+          "LCK": {
+            "rows": 150,
+            "bets": 27,
+            "pass": 123,
+            "correct": 18,
+            "hitRate": 0.6667,
+            "roi": 0.2,
+            "profit": 5.4,
+            "overBets": 2,
+            "underBets": 25,
+            "preMae": 6.7227,
+            "postMae": 6.6594
+          },
+          "LCKCL": {
+            "rows": 270,
+            "bets": 111,
+            "pass": 159,
+            "correct": 68,
+            "hitRate": 0.6126,
+            "roi": 0.1027,
+            "profit": 11.4,
+            "overBets": 72,
+            "underBets": 39,
+            "preMae": 7.1195,
+            "postMae": 6.9835
+          },
+          "LPL": {
+            "rows": 270,
+            "bets": 106,
+            "pass": 164,
+            "correct": 70,
+            "hitRate": 0.6604,
+            "roi": 0.1887,
+            "profit": 20,
+            "overBets": 100,
+            "underBets": 6,
+            "preMae": 6.3246,
+            "postMae": 6.2032
+          },
+          "CBLOL": {
+            "rows": 129,
+            "bets": 0,
+            "pass": 129,
+            "correct": 0,
+            "hitRate": null,
+            "roi": null,
+            "profit": 0,
+            "overBets": 0,
+            "underBets": 0,
+            "preMae": 6.2431,
+            "postMae": 6.237
+          },
+          "LEC": {
+            "rows": 198,
+            "bets": 60,
+            "pass": 138,
+            "correct": 34,
+            "hitRate": 0.5667,
+            "roi": 0.02,
+            "profit": 1.2,
+            "overBets": 23,
+            "underBets": 37,
+            "preMae": 6.6914,
+            "postMae": 6.6053
+          },
+          "LCS": {
+            "rows": 108,
+            "bets": 7,
+            "pass": 101,
+            "correct": 6,
+            "hitRate": 0.8571,
+            "roi": 0.5429,
+            "profit": 3.8,
+            "overBets": 4,
+            "underBets": 3,
+            "preMae": 5.74,
+            "postMae": 5.6549
+          }
+        }
+      },
+      {
+        "name": "min-league-8",
+        "label": "C: minLeagueN 8",
+        "type": "full",
+        "config": {
+          "name": "min-league-8",
+          "label": "C: minLeagueN 8",
+          "minLeagueN": 8
+        },
+        "byMove": {
+          "0": {
+            "rows": 1125,
+            "bets": 348,
+            "pass": 777,
+            "correct": 221,
+            "hitRate": 0.6351,
+            "roi": 0.1431,
+            "profit": 49.8,
+            "overBets": 219,
+            "underBets": 129,
+            "preMae": 6.5676,
+            "postMae": 6.47
+          },
+          "1": {
+            "rows": 1125,
+            "bets": 265,
+            "pass": 860,
+            "correct": 161,
+            "hitRate": 0.6075,
+            "roi": 0.0936,
+            "profit": 24.8,
+            "overBets": 169,
+            "underBets": 96,
+            "preMae": 6.5676,
+            "postMae": 6.47
+          },
+          "2": {
+            "rows": 1125,
+            "bets": 144,
+            "pass": 981,
+            "correct": 86,
+            "hitRate": 0.5972,
+            "roi": 0.075,
+            "profit": 10.8,
+            "overBets": 95,
+            "underBets": 49,
+            "preMae": 6.5676,
+            "postMae": 6.47
+          },
+          "0.5": {
+            "rows": 1125,
+            "bets": 253,
+            "pass": 872,
+            "correct": 161,
+            "hitRate": 0.6364,
+            "roi": 0.1455,
+            "profit": 36.8,
+            "overBets": 164,
+            "underBets": 89,
+            "preMae": 6.5676,
+            "postMae": 6.47
+          },
+          "1.5": {
+            "rows": 1125,
+            "bets": 139,
+            "pass": 986,
+            "correct": 86,
+            "hitRate": 0.6187,
+            "roi": 0.1137,
+            "profit": 15.8,
+            "overBets": 90,
+            "underBets": 49,
+            "preMae": 6.5676,
+            "postMae": 6.47
+          }
+        },
+        "byMoveSide": {
+          "0": {
+            "under": {
+              "rows": 129,
+              "bets": 129,
+              "pass": 0,
+              "correct": 84,
+              "hitRate": 0.6512,
+              "roi": 0.1721,
+              "profit": 22.2,
+              "overBets": 0,
+              "underBets": 129,
+              "preMae": 6.8297,
+              "postMae": 6.5442
+            },
+            "over": {
+              "rows": 219,
+              "bets": 219,
+              "pass": 0,
+              "correct": 137,
+              "hitRate": 0.6256,
+              "roi": 0.126,
+              "profit": 27.6,
+              "overBets": 219,
+              "underBets": 0,
+              "preMae": 7.105,
+              "postMae": 6.7961
+            }
+          },
+          "1": {
+            "under": {
+              "rows": 96,
+              "bets": 96,
+              "pass": 0,
+              "correct": 59,
+              "hitRate": 0.6146,
+              "roi": 0.1063,
+              "profit": 10.2,
+              "overBets": 0,
+              "underBets": 96,
+              "preMae": 7.072,
+              "postMae": 6.7099
+            },
+            "over": {
+              "rows": 169,
+              "bets": 169,
+              "pass": 0,
+              "correct": 102,
+              "hitRate": 0.6036,
+              "roi": 0.0864,
+              "profit": 14.6,
+              "overBets": 169,
+              "underBets": 0,
+              "preMae": 7.0318,
+              "postMae": 6.6954
+            }
+          },
+          "2": {
+            "under": {
+              "rows": 49,
+              "bets": 49,
+              "pass": 0,
+              "correct": 30,
+              "hitRate": 0.6122,
+              "roi": 0.102,
+              "profit": 5,
+              "overBets": 0,
+              "underBets": 49,
+              "preMae": 7.7619,
+              "postMae": 7.346
+            },
+            "over": {
+              "rows": 95,
+              "bets": 95,
+              "pass": 0,
+              "correct": 56,
+              "hitRate": 0.5895,
+              "roi": 0.0611,
+              "profit": 5.8,
+              "overBets": 95,
+              "underBets": 0,
+              "preMae": 7.4223,
+              "postMae": 6.9239
+            }
+          },
+          "0.5": {
+            "under": {
+              "rows": 89,
+              "bets": 89,
+              "pass": 0,
+              "correct": 59,
+              "hitRate": 0.6629,
+              "roi": 0.1933,
+              "profit": 17.2,
+              "overBets": 0,
+              "underBets": 89,
+              "preMae": 7.588,
+              "postMae": 7.1919
+            },
+            "over": {
+              "rows": 164,
+              "bets": 164,
+              "pass": 0,
+              "correct": 102,
+              "hitRate": 0.622,
+              "roi": 0.1195,
+              "profit": 19.6,
+              "overBets": 164,
+              "underBets": 0,
+              "preMae": 7.2317,
+              "postMae": 6.875
+            }
+          },
+          "1.5": {
+            "under": {
+              "rows": 49,
+              "bets": 49,
+              "pass": 0,
+              "correct": 30,
+              "hitRate": 0.6122,
+              "roi": 0.102,
+              "profit": 5,
+              "overBets": 0,
+              "underBets": 49,
+              "preMae": 7.7619,
+              "postMae": 7.346
+            },
+            "over": {
+              "rows": 90,
+              "bets": 90,
+              "pass": 0,
+              "correct": 56,
+              "hitRate": 0.6222,
+              "roi": 0.12,
+              "profit": 10.8,
+              "overBets": 90,
+              "underBets": 0,
+              "preMae": 7.7581,
+              "postMae": 7.2844
+            }
+          }
+        },
+        "byLeagueMove0": {
+          "LCK": {
+            "rows": 150,
+            "bets": 35,
+            "pass": 115,
+            "correct": 24,
+            "hitRate": 0.6857,
+            "roi": 0.2343,
+            "profit": 8.2,
+            "overBets": 5,
+            "underBets": 30,
+            "preMae": 6.7227,
+            "postMae": 6.6613
+          },
+          "LCKCL": {
+            "rows": 270,
+            "bets": 119,
+            "pass": 151,
+            "correct": 78,
+            "hitRate": 0.6555,
+            "roi": 0.1798,
+            "profit": 21.4,
+            "overBets": 75,
+            "underBets": 44,
+            "preMae": 7.1195,
+            "postMae": 6.9764
+          },
+          "LPL": {
+            "rows": 270,
+            "bets": 108,
+            "pass": 162,
+            "correct": 68,
+            "hitRate": 0.6296,
+            "roi": 0.1333,
+            "profit": 14.4,
+            "overBets": 99,
+            "underBets": 9,
+            "preMae": 6.3246,
+            "postMae": 6.2018
+          },
+          "CBLOL": {
+            "rows": 129,
+            "bets": 0,
+            "pass": 129,
+            "correct": 0,
+            "hitRate": null,
+            "roi": null,
+            "profit": 0,
+            "overBets": 0,
+            "underBets": 0,
+            "preMae": 6.2431,
+            "postMae": 6.235
+          },
+          "LEC": {
+            "rows": 198,
+            "bets": 71,
+            "pass": 127,
+            "correct": 41,
+            "hitRate": 0.5775,
+            "roi": 0.0394,
+            "profit": 2.8,
+            "overBets": 31,
+            "underBets": 40,
+            "preMae": 6.6914,
+            "postMae": 6.6047
+          },
+          "LCS": {
+            "rows": 108,
+            "bets": 15,
+            "pass": 93,
+            "correct": 10,
+            "hitRate": 0.6667,
+            "roi": 0.2,
+            "profit": 3,
+            "overBets": 9,
+            "underBets": 6,
+            "preMae": 5.74,
+            "postMae": 5.6427
+          }
+        }
+      },
+      {
+        "name": "min-league-12",
+        "label": "C: minLeagueN 12",
+        "type": "full",
+        "config": {
+          "name": "min-league-12",
+          "label": "C: minLeagueN 12",
+          "minLeagueN": 12
+        },
+        "byMove": {
+          "0": {
+            "rows": 1125,
+            "bets": 354,
+            "pass": 771,
+            "correct": 224,
+            "hitRate": 0.6328,
+            "roi": 0.139,
+            "profit": 49.2,
+            "overBets": 223,
+            "underBets": 131,
+            "preMae": 6.5676,
+            "postMae": 6.4696
+          },
+          "1": {
+            "rows": 1125,
+            "bets": 270,
+            "pass": 855,
+            "correct": 163,
+            "hitRate": 0.6037,
+            "roi": 0.0867,
+            "profit": 23.4,
+            "overBets": 173,
+            "underBets": 97,
+            "preMae": 6.5676,
+            "postMae": 6.4696
+          },
+          "2": {
+            "rows": 1125,
+            "bets": 143,
+            "pass": 982,
+            "correct": 85,
+            "hitRate": 0.5944,
+            "roi": 0.0699,
+            "profit": 10,
+            "overBets": 95,
+            "underBets": 48,
+            "preMae": 6.5676,
+            "postMae": 6.4696
+          },
+          "0.5": {
+            "rows": 1125,
+            "bets": 258,
+            "pass": 867,
+            "correct": 163,
+            "hitRate": 0.6318,
+            "roi": 0.1372,
+            "profit": 35.4,
+            "overBets": 168,
+            "underBets": 90,
+            "preMae": 6.5676,
+            "postMae": 6.4696
+          },
+          "1.5": {
+            "rows": 1125,
+            "bets": 138,
+            "pass": 987,
+            "correct": 85,
+            "hitRate": 0.6159,
+            "roi": 0.1087,
+            "profit": 15,
+            "overBets": 90,
+            "underBets": 48,
+            "preMae": 6.5676,
+            "postMae": 6.4696
+          }
+        },
+        "byMoveSide": {
+          "0": {
+            "under": {
+              "rows": 131,
+              "bets": 131,
+              "pass": 0,
+              "correct": 85,
+              "hitRate": 0.6489,
+              "roi": 0.1679,
+              "profit": 22,
+              "overBets": 0,
+              "underBets": 131,
+              "preMae": 6.839,
+              "postMae": 6.5566
+            },
+            "over": {
+              "rows": 223,
+              "bets": 223,
+              "pass": 0,
+              "correct": 139,
+              "hitRate": 0.6233,
+              "roi": 0.122,
+              "profit": 27.2,
+              "overBets": 223,
+              "underBets": 0,
+              "preMae": 7.1145,
+              "postMae": 6.8108
+            }
+          },
+          "1": {
+            "under": {
+              "rows": 97,
+              "bets": 97,
+              "pass": 0,
+              "correct": 59,
+              "hitRate": 0.6082,
+              "roi": 0.0948,
+              "profit": 9.2,
+              "overBets": 0,
+              "underBets": 97,
+              "preMae": 7.1111,
+              "postMae": 6.7646
+            },
+            "over": {
+              "rows": 173,
+              "bets": 173,
+              "pass": 0,
+              "correct": 104,
+              "hitRate": 0.6012,
+              "roi": 0.0821,
+              "profit": 14.2,
+              "overBets": 173,
+              "underBets": 0,
+              "preMae": 7.0458,
+              "postMae": 6.7167
+            }
+          },
+          "2": {
+            "under": {
+              "rows": 48,
+              "bets": 48,
+              "pass": 0,
+              "correct": 29,
+              "hitRate": 0.6042,
+              "roi": 0.0875,
+              "profit": 4.2,
+              "overBets": 0,
+              "underBets": 48,
+              "preMae": 7.84,
+              "postMae": 7.4407
+            },
+            "over": {
+              "rows": 95,
+              "bets": 95,
+              "pass": 0,
+              "correct": 56,
+              "hitRate": 0.5895,
+              "roi": 0.0611,
+              "profit": 5.8,
+              "overBets": 95,
+              "underBets": 0,
+              "preMae": 7.4223,
+              "postMae": 6.9239
+            }
+          },
+          "0.5": {
+            "under": {
+              "rows": 90,
+              "bets": 90,
+              "pass": 0,
+              "correct": 59,
+              "hitRate": 0.6556,
+              "roi": 0.18,
+              "profit": 16.2,
+              "overBets": 0,
+              "underBets": 90,
+              "preMae": 7.6244,
+              "postMae": 7.2451
+            },
+            "over": {
+              "rows": 168,
+              "bets": 168,
+              "pass": 0,
+              "correct": 104,
+              "hitRate": 0.619,
+              "roi": 0.1143,
+              "profit": 19.2,
+              "overBets": 168,
+              "underBets": 0,
+              "preMae": 7.2413,
+              "postMae": 6.8926
+            }
+          },
+          "1.5": {
+            "under": {
+              "rows": 48,
+              "bets": 48,
+              "pass": 0,
+              "correct": 29,
+              "hitRate": 0.6042,
+              "roi": 0.0875,
+              "profit": 4.2,
+              "overBets": 0,
+              "underBets": 48,
+              "preMae": 7.84,
+              "postMae": 7.4407
+            },
+            "over": {
+              "rows": 90,
+              "bets": 90,
+              "pass": 0,
+              "correct": 56,
+              "hitRate": 0.6222,
+              "roi": 0.12,
+              "profit": 10.8,
+              "overBets": 90,
+              "underBets": 0,
+              "preMae": 7.7581,
+              "postMae": 7.2845
+            }
+          }
+        },
+        "byLeagueMove0": {
+          "LCK": {
+            "rows": 150,
+            "bets": 35,
+            "pass": 115,
+            "correct": 24,
+            "hitRate": 0.6857,
+            "roi": 0.2343,
+            "profit": 8.2,
+            "overBets": 5,
+            "underBets": 30,
+            "preMae": 6.7227,
+            "postMae": 6.6623
+          },
+          "LCKCL": {
+            "rows": 270,
+            "bets": 121,
+            "pass": 149,
+            "correct": 79,
+            "hitRate": 0.6529,
+            "roi": 0.1752,
+            "profit": 21.2,
+            "overBets": 77,
+            "underBets": 44,
+            "preMae": 7.1195,
+            "postMae": 6.9751
+          },
+          "LPL": {
+            "rows": 270,
+            "bets": 109,
+            "pass": 161,
+            "correct": 69,
+            "hitRate": 0.633,
+            "roi": 0.1394,
+            "profit": 15.2,
+            "overBets": 99,
+            "underBets": 10,
+            "preMae": 6.3246,
+            "postMae": 6.2019
+          },
+          "CBLOL": {
+            "rows": 129,
+            "bets": 0,
+            "pass": 129,
+            "correct": 0,
+            "hitRate": null,
+            "roi": null,
+            "profit": 0,
+            "overBets": 0,
+            "underBets": 0,
+            "preMae": 6.2431,
+            "postMae": 6.2337
+          },
+          "LEC": {
+            "rows": 198,
+            "bets": 72,
+            "pass": 126,
+            "correct": 41,
+            "hitRate": 0.5694,
+            "roi": 0.025,
+            "profit": 1.8,
+            "overBets": 31,
+            "underBets": 41,
+            "preMae": 6.6914,
+            "postMae": 6.6042
+          },
+          "LCS": {
+            "rows": 108,
+            "bets": 17,
+            "pass": 91,
+            "correct": 11,
+            "hitRate": 0.6471,
+            "roi": 0.1647,
+            "profit": 2.8,
+            "overBets": 11,
+            "underBets": 6,
+            "preMae": 5.74,
+            "postMae": 5.6425
+          }
+        }
+      },
+      {
+        "name": "min-league-20",
+        "label": "C: minLeagueN 20",
+        "type": "full",
+        "config": {
+          "name": "min-league-20",
+          "label": "C: minLeagueN 20",
+          "minLeagueN": 20
+        },
+        "byMove": {
+          "0": {
+            "rows": 1125,
+            "bets": 356,
+            "pass": 769,
+            "correct": 226,
+            "hitRate": 0.6348,
+            "roi": 0.1427,
+            "profit": 50.8,
+            "overBets": 225,
+            "underBets": 131,
+            "preMae": 6.5676,
+            "postMae": 6.4684
+          },
+          "1": {
+            "rows": 1125,
+            "bets": 274,
+            "pass": 851,
+            "correct": 167,
+            "hitRate": 0.6095,
+            "roi": 0.0971,
+            "profit": 26.6,
+            "overBets": 175,
+            "underBets": 99,
+            "preMae": 6.5676,
+            "postMae": 6.4684
+          },
+          "2": {
+            "rows": 1125,
+            "bets": 147,
+            "pass": 978,
+            "correct": 88,
+            "hitRate": 0.5986,
+            "roi": 0.0776,
+            "profit": 11.4,
+            "overBets": 97,
+            "underBets": 50,
+            "preMae": 6.5676,
+            "postMae": 6.4684
+          },
+          "0.5": {
+            "rows": 1125,
+            "bets": 262,
+            "pass": 863,
+            "correct": 167,
+            "hitRate": 0.6374,
+            "roi": 0.1473,
+            "profit": 38.6,
+            "overBets": 170,
+            "underBets": 92,
+            "preMae": 6.5676,
+            "postMae": 6.4684
+          },
+          "1.5": {
+            "rows": 1125,
+            "bets": 142,
+            "pass": 983,
+            "correct": 88,
+            "hitRate": 0.6197,
+            "roi": 0.1155,
+            "profit": 16.4,
+            "overBets": 92,
+            "underBets": 50,
+            "preMae": 6.5676,
+            "postMae": 6.4684
+          }
+        },
+        "byMoveSide": {
+          "0": {
+            "under": {
+              "rows": 131,
+              "bets": 131,
+              "pass": 0,
+              "correct": 85,
+              "hitRate": 0.6489,
+              "roi": 0.1679,
+              "profit": 22,
+              "overBets": 0,
+              "underBets": 131,
+              "preMae": 6.839,
+              "postMae": 6.5542
+            },
+            "over": {
+              "rows": 225,
+              "bets": 225,
+              "pass": 0,
+              "correct": 141,
+              "hitRate": 0.6267,
+              "roi": 0.128,
+              "profit": 28.8,
+              "overBets": 225,
+              "underBets": 0,
+              "preMae": 7.1061,
+              "postMae": 6.796
+            }
+          },
+          "1": {
+            "under": {
+              "rows": 99,
+              "bets": 99,
+              "pass": 0,
+              "correct": 60,
+              "hitRate": 0.6061,
+              "roi": 0.0909,
+              "profit": 9,
+              "overBets": 0,
+              "underBets": 99,
+              "preMae": 7.0244,
+              "postMae": 6.6818
+            },
+            "over": {
+              "rows": 175,
+              "bets": 175,
+              "pass": 0,
+              "correct": 107,
+              "hitRate": 0.6114,
+              "roi": 0.1006,
+              "profit": 17.6,
+              "overBets": 175,
+              "underBets": 0,
+              "preMae": 7.1271,
+              "postMae": 6.7759
+            }
+          },
+          "2": {
+            "under": {
+              "rows": 50,
+              "bets": 50,
+              "pass": 0,
+              "correct": 30,
+              "hitRate": 0.6,
+              "roi": 0.08,
+              "profit": 4,
+              "overBets": 0,
+              "underBets": 50,
+              "preMae": 7.6391,
+              "postMae": 7.2524
+            },
+            "over": {
+              "rows": 97,
+              "bets": 97,
+              "pass": 0,
+              "correct": 58,
+              "hitRate": 0.5979,
+              "roi": 0.0763,
+              "profit": 7.4,
+              "overBets": 97,
+              "underBets": 0,
+              "preMae": 7.5237,
+              "postMae": 7.0064
+            }
+          },
+          "0.5": {
+            "under": {
+              "rows": 92,
+              "bets": 92,
+              "pass": 0,
+              "correct": 60,
+              "hitRate": 0.6522,
+              "roi": 0.1739,
+              "profit": 16,
+              "overBets": 0,
+              "underBets": 92,
+              "preMae": 7.5199,
+              "postMae": 7.1447
+            },
+            "over": {
+              "rows": 170,
+              "bets": 170,
+              "pass": 0,
+              "correct": 107,
+              "hitRate": 0.6294,
+              "roi": 0.1329,
+              "profit": 22.6,
+              "overBets": 170,
+              "underBets": 0,
+              "preMae": 7.3227,
+              "postMae": 6.9514
+            }
+          },
+          "1.5": {
+            "under": {
+              "rows": 50,
+              "bets": 50,
+              "pass": 0,
+              "correct": 30,
+              "hitRate": 0.6,
+              "roi": 0.08,
+              "profit": 4,
+              "overBets": 0,
+              "underBets": 50,
+              "preMae": 7.6391,
+              "postMae": 7.2524
+            },
+            "over": {
+              "rows": 92,
+              "bets": 92,
+              "pass": 0,
+              "correct": 58,
+              "hitRate": 0.6304,
+              "roi": 0.1348,
+              "profit": 12.4,
+              "overBets": 92,
+              "underBets": 0,
+              "preMae": 7.8577,
+              "postMae": 7.3635
+            }
+          }
+        },
+        "byLeagueMove0": {
+          "LCK": {
+            "rows": 150,
+            "bets": 35,
+            "pass": 115,
+            "correct": 24,
+            "hitRate": 0.6857,
+            "roi": 0.2343,
+            "profit": 8.2,
+            "overBets": 5,
+            "underBets": 30,
+            "preMae": 6.7227,
+            "postMae": 6.661
+          },
+          "LCKCL": {
+            "rows": 270,
+            "bets": 121,
+            "pass": 149,
+            "correct": 79,
+            "hitRate": 0.6529,
+            "roi": 0.1752,
+            "profit": 21.2,
+            "overBets": 77,
+            "underBets": 44,
+            "preMae": 7.1195,
+            "postMae": 6.9736
+          },
+          "LPL": {
+            "rows": 270,
+            "bets": 109,
+            "pass": 161,
+            "correct": 69,
+            "hitRate": 0.633,
+            "roi": 0.1394,
+            "profit": 15.2,
+            "overBets": 99,
+            "underBets": 10,
+            "preMae": 6.3246,
+            "postMae": 6.2005
+          },
+          "CBLOL": {
+            "rows": 129,
+            "bets": 0,
+            "pass": 129,
+            "correct": 0,
+            "hitRate": null,
+            "roi": null,
+            "profit": 0,
+            "overBets": 0,
+            "underBets": 0,
+            "preMae": 6.2431,
+            "postMae": 6.2334
+          },
+          "LEC": {
+            "rows": 198,
+            "bets": 73,
+            "pass": 125,
+            "correct": 42,
+            "hitRate": 0.5753,
+            "roi": 0.0356,
+            "profit": 2.6,
+            "overBets": 32,
+            "underBets": 41,
+            "preMae": 6.6914,
+            "postMae": 6.6039
+          },
+          "LCS": {
+            "rows": 108,
+            "bets": 18,
+            "pass": 90,
+            "correct": 12,
+            "hitRate": 0.6667,
+            "roi": 0.2,
+            "profit": 3.6,
+            "overBets": 12,
+            "underBets": 6,
+            "preMae": 5.74,
+            "postMae": 5.6405
+          }
+        }
+      },
+      {
+        "name": "role-side+sample",
+        "label": "A+B",
+        "type": "full",
+        "config": {
+          "name": "role-side+sample",
+          "label": "A+B",
+          "roleSide": true,
+          "sampleConfidence": true
+        },
+        "byMove": {
+          "0": {
+            "rows": 1125,
+            "bets": 317,
+            "pass": 808,
+            "correct": 197,
+            "hitRate": 0.6215,
+            "roi": 0.1186,
+            "profit": 37.6,
+            "overBets": 196,
+            "underBets": 121,
+            "preMae": 6.5676,
+            "postMae": 6.4698
+          },
+          "1": {
+            "rows": 1125,
+            "bets": 239,
+            "pass": 886,
+            "correct": 140,
+            "hitRate": 0.5858,
+            "roi": 0.0544,
+            "profit": 13,
+            "overBets": 150,
+            "underBets": 89,
+            "preMae": 6.5676,
+            "postMae": 6.4698
+          },
+          "2": {
+            "rows": 1125,
+            "bets": 140,
+            "pass": 985,
+            "correct": 82,
+            "hitRate": 0.5857,
+            "roi": 0.0543,
+            "profit": 7.6,
+            "overBets": 91,
+            "underBets": 49,
+            "preMae": 6.5676,
+            "postMae": 6.4698
+          },
+          "0.5": {
+            "rows": 1125,
+            "bets": 229,
+            "pass": 896,
+            "correct": 140,
+            "hitRate": 0.6114,
+            "roi": 0.1004,
+            "profit": 23,
+            "overBets": 147,
+            "underBets": 82,
+            "preMae": 6.5676,
+            "postMae": 6.4698
+          },
+          "1.5": {
+            "rows": 1125,
+            "bets": 135,
+            "pass": 990,
+            "correct": 82,
+            "hitRate": 0.6074,
+            "roi": 0.0933,
+            "profit": 12.6,
+            "overBets": 87,
+            "underBets": 48,
+            "preMae": 6.5676,
+            "postMae": 6.4698
+          }
+        },
+        "byMoveSide": {
+          "0": {
+            "under": {
+              "rows": 121,
+              "bets": 121,
+              "pass": 0,
+              "correct": 74,
+              "hitRate": 0.6116,
+              "roi": 0.1008,
+              "profit": 12.2,
+              "overBets": 0,
+              "underBets": 121,
+              "preMae": 6.6827,
+              "postMae": 6.4433
+            },
+            "over": {
+              "rows": 196,
+              "bets": 196,
+              "pass": 0,
+              "correct": 123,
+              "hitRate": 0.6276,
+              "roi": 0.1296,
+              "profit": 25.4,
+              "overBets": 196,
+              "underBets": 0,
+              "preMae": 7.2308,
+              "postMae": 6.9111
+            }
+          },
+          "1": {
+            "under": {
+              "rows": 89,
+              "bets": 89,
+              "pass": 0,
+              "correct": 51,
+              "hitRate": 0.573,
+              "roi": 0.0315,
+              "profit": 2.8,
+              "overBets": 0,
+              "underBets": 89,
+              "preMae": 6.6673,
+              "postMae": 6.3406
+            },
+            "over": {
+              "rows": 150,
+              "bets": 150,
+              "pass": 0,
+              "correct": 89,
+              "hitRate": 0.5933,
+              "roi": 0.068,
+              "profit": 10.2,
+              "overBets": 150,
+              "underBets": 0,
+              "preMae": 7.0454,
+              "postMae": 6.7388
+            }
+          },
+          "2": {
+            "under": {
+              "rows": 49,
+              "bets": 49,
+              "pass": 0,
+              "correct": 29,
+              "hitRate": 0.5918,
+              "roi": 0.0653,
+              "profit": 3.2,
+              "overBets": 0,
+              "underBets": 49,
+              "preMae": 7.4549,
+              "postMae": 7.0179
+            },
+            "over": {
+              "rows": 91,
+              "bets": 91,
+              "pass": 0,
+              "correct": 53,
+              "hitRate": 0.5824,
+              "roi": 0.0484,
+              "profit": 4.4,
+              "overBets": 91,
+              "underBets": 0,
+              "preMae": 7.3164,
+              "postMae": 6.875
+            }
+          },
+          "0.5": {
+            "under": {
+              "rows": 82,
+              "bets": 82,
+              "pass": 0,
+              "correct": 51,
+              "hitRate": 0.622,
+              "roi": 0.1195,
+              "profit": 9.8,
+              "overBets": 0,
+              "underBets": 82,
+              "preMae": 7.1902,
+              "postMae": 6.831
+            },
+            "over": {
+              "rows": 147,
+              "bets": 147,
+              "pass": 0,
+              "correct": 89,
+              "hitRate": 0.6054,
+              "roi": 0.0898,
+              "profit": 13.2,
+              "overBets": 147,
+              "underBets": 0,
+              "preMae": 7.1807,
+              "postMae": 6.8561
+            }
+          },
+          "1.5": {
+            "under": {
+              "rows": 48,
+              "bets": 48,
+              "pass": 0,
+              "correct": 29,
+              "hitRate": 0.6042,
+              "roi": 0.0875,
+              "profit": 4.2,
+              "overBets": 0,
+              "underBets": 48,
+              "preMae": 7.581,
+              "postMae": 7.1616
+            },
+            "over": {
+              "rows": 87,
+              "bets": 87,
+              "pass": 0,
+              "correct": 53,
+              "hitRate": 0.6092,
+              "roi": 0.0966,
+              "profit": 8.4,
+              "overBets": 87,
+              "underBets": 0,
+              "preMae": 7.5896,
+              "postMae": 7.1663
+            }
+          }
+        },
+        "byLeagueMove0": {
+          "LCK": {
+            "rows": 150,
+            "bets": 31,
+            "pass": 119,
+            "correct": 19,
+            "hitRate": 0.6129,
+            "roi": 0.1032,
+            "profit": 3.2,
+            "overBets": 1,
+            "underBets": 30,
+            "preMae": 6.7227,
+            "postMae": 6.6575
+          },
+          "LCKCL": {
+            "rows": 270,
+            "bets": 112,
+            "pass": 158,
+            "correct": 69,
+            "hitRate": 0.6161,
+            "roi": 0.1089,
+            "profit": 12.2,
+            "overBets": 71,
+            "underBets": 41,
+            "preMae": 7.1195,
+            "postMae": 6.9763
+          },
+          "LPL": {
+            "rows": 270,
+            "bets": 104,
+            "pass": 166,
+            "correct": 68,
+            "hitRate": 0.6538,
+            "roi": 0.1769,
+            "profit": 18.4,
+            "overBets": 98,
+            "underBets": 6,
+            "preMae": 6.3246,
+            "postMae": 6.1989
+          },
+          "CBLOL": {
+            "rows": 129,
+            "bets": 0,
+            "pass": 129,
+            "correct": 0,
+            "hitRate": null,
+            "roi": null,
+            "profit": 0,
+            "overBets": 0,
+            "underBets": 0,
+            "preMae": 6.2431,
+            "postMae": 6.2358
+          },
+          "LEC": {
+            "rows": 198,
+            "bets": 60,
+            "pass": 138,
+            "correct": 33,
+            "hitRate": 0.55,
+            "roi": -0.01,
+            "profit": -0.6,
+            "overBets": 22,
+            "underBets": 38,
+            "preMae": 6.6914,
+            "postMae": 6.6045
+          },
+          "LCS": {
+            "rows": 108,
+            "bets": 10,
+            "pass": 98,
+            "correct": 8,
+            "hitRate": 0.8,
+            "roi": 0.44,
+            "profit": 4.4,
+            "overBets": 4,
+            "underBets": 6,
+            "preMae": 5.74,
+            "postMae": 5.6526
+          }
+        }
+      },
+      {
+        "name": "role-side+min12",
+        "label": "A+C12",
+        "type": "full",
+        "config": {
+          "name": "role-side+min12",
+          "label": "A+C12",
+          "roleSide": true,
+          "minLeagueN": 12
+        },
+        "byMove": {
+          "0": {
+            "rows": 1125,
+            "bets": 357,
+            "pass": 768,
+            "correct": 223,
+            "hitRate": 0.6246,
+            "roi": 0.1244,
+            "profit": 44.4,
+            "overBets": 220,
+            "underBets": 137,
+            "preMae": 6.5676,
+            "postMae": 6.4661
+          },
+          "1": {
+            "rows": 1125,
+            "bets": 281,
+            "pass": 844,
+            "correct": 165,
+            "hitRate": 0.5872,
+            "roi": 0.0569,
+            "profit": 16,
+            "overBets": 172,
+            "underBets": 109,
+            "preMae": 6.5676,
+            "postMae": 6.4661
+          },
+          "2": {
+            "rows": 1125,
+            "bets": 153,
+            "pass": 972,
+            "correct": 89,
+            "hitRate": 0.5817,
+            "roi": 0.0471,
+            "profit": 7.2,
+            "overBets": 95,
+            "underBets": 58,
+            "preMae": 6.5676,
+            "postMae": 6.4661
+          },
+          "0.5": {
+            "rows": 1125,
+            "bets": 270,
+            "pass": 855,
+            "correct": 165,
+            "hitRate": 0.6111,
+            "roi": 0.1,
+            "profit": 27,
+            "overBets": 167,
+            "underBets": 103,
+            "preMae": 6.5676,
+            "postMae": 6.4661
+          },
+          "1.5": {
+            "rows": 1125,
+            "bets": 147,
+            "pass": 978,
+            "correct": 89,
+            "hitRate": 0.6054,
+            "roi": 0.0898,
+            "profit": 13.2,
+            "overBets": 90,
+            "underBets": 57,
+            "preMae": 6.5676,
+            "postMae": 6.4661
+          }
+        },
+        "byMoveSide": {
+          "0": {
+            "under": {
+              "rows": 137,
+              "bets": 137,
+              "pass": 0,
+              "correct": 86,
+              "hitRate": 0.6277,
+              "roi": 0.1299,
+              "profit": 17.8,
+              "overBets": 0,
+              "underBets": 137,
+              "preMae": 6.7188,
+              "postMae": 6.4612
+            },
+            "over": {
+              "rows": 220,
+              "bets": 220,
+              "pass": 0,
+              "correct": 137,
+              "hitRate": 0.6227,
+              "roi": 0.1209,
+              "profit": 26.6,
+              "overBets": 220,
+              "underBets": 0,
+              "preMae": 7.0942,
+              "postMae": 6.7897
+            }
+          },
+          "1": {
+            "under": {
+              "rows": 109,
+              "bets": 109,
+              "pass": 0,
+              "correct": 63,
+              "hitRate": 0.578,
+              "roi": 0.0404,
+              "profit": 4.4,
+              "overBets": 0,
+              "underBets": 109,
+              "preMae": 6.6782,
+              "postMae": 6.405
+            },
+            "over": {
+              "rows": 172,
+              "bets": 172,
+              "pass": 0,
+              "correct": 102,
+              "hitRate": 0.593,
+              "roi": 0.0674,
+              "profit": 11.6,
+              "overBets": 172,
+              "underBets": 0,
+              "preMae": 7.0342,
+              "postMae": 6.7185
+            }
+          },
+          "2": {
+            "under": {
+              "rows": 58,
+              "bets": 58,
+              "pass": 0,
+              "correct": 33,
+              "hitRate": 0.569,
+              "roi": 0.0241,
+              "profit": 1.4,
+              "overBets": 0,
+              "underBets": 58,
+              "preMae": 7.297,
+              "postMae": 6.9514
+            },
+            "over": {
+              "rows": 95,
+              "bets": 95,
+              "pass": 0,
+              "correct": 56,
+              "hitRate": 0.5895,
+              "roi": 0.0611,
+              "profit": 5.8,
+              "overBets": 95,
+              "underBets": 0,
+              "preMae": 7.4524,
+              "postMae": 6.9521
+            }
+          },
+          "0.5": {
+            "under": {
+              "rows": 103,
+              "bets": 103,
+              "pass": 0,
+              "correct": 63,
+              "hitRate": 0.6117,
+              "roi": 0.101,
+              "profit": 10.4,
+              "overBets": 0,
+              "underBets": 103,
+              "preMae": 7.0418,
+              "postMae": 6.735
+            },
+            "over": {
+              "rows": 167,
+              "bets": 167,
+              "pass": 0,
+              "correct": 102,
+              "hitRate": 0.6108,
+              "roi": 0.0994,
+              "profit": 16.6,
+              "overBets": 167,
+              "underBets": 0,
+              "preMae": 7.2306,
+              "postMae": 6.8951
+            }
+          },
+          "1.5": {
+            "under": {
+              "rows": 57,
+              "bets": 57,
+              "pass": 0,
+              "correct": 33,
+              "hitRate": 0.5789,
+              "roi": 0.0421,
+              "profit": 2.4,
+              "overBets": 0,
+              "underBets": 57,
+              "preMae": 7.4024,
+              "postMae": 7.0731
+            },
+            "over": {
+              "rows": 90,
+              "bets": 90,
+              "pass": 0,
+              "correct": 56,
+              "hitRate": 0.6222,
+              "roi": 0.12,
+              "profit": 10.8,
+              "overBets": 90,
+              "underBets": 0,
+              "preMae": 7.7898,
+              "postMae": 7.3141
+            }
+          }
+        },
+        "byLeagueMove0": {
+          "LCK": {
+            "rows": 150,
+            "bets": 36,
+            "pass": 114,
+            "correct": 22,
+            "hitRate": 0.6111,
+            "roi": 0.1,
+            "profit": 3.6,
+            "overBets": 3,
+            "underBets": 33,
+            "preMae": 6.7227,
+            "postMae": 6.6608
+          },
+          "LCKCL": {
+            "rows": 270,
+            "bets": 122,
+            "pass": 148,
+            "correct": 80,
+            "hitRate": 0.6557,
+            "roi": 0.1803,
+            "profit": 22,
+            "overBets": 77,
+            "underBets": 45,
+            "preMae": 7.1195,
+            "postMae": 6.9681
+          },
+          "LPL": {
+            "rows": 270,
+            "bets": 111,
+            "pass": 159,
+            "correct": 70,
+            "hitRate": 0.6306,
+            "roi": 0.1351,
+            "profit": 15,
+            "overBets": 100,
+            "underBets": 11,
+            "preMae": 6.3246,
+            "postMae": 6.1975
+          },
+          "CBLOL": {
+            "rows": 129,
+            "bets": 0,
+            "pass": 129,
+            "correct": 0,
+            "hitRate": null,
+            "roi": null,
+            "profit": 0,
+            "overBets": 0,
+            "underBets": 0,
+            "preMae": 6.2431,
+            "postMae": 6.2323
+          },
+          "LEC": {
+            "rows": 198,
+            "bets": 73,
+            "pass": 125,
+            "correct": 41,
+            "hitRate": 0.5616,
+            "roi": 0.011,
+            "profit": 0.8,
+            "overBets": 31,
+            "underBets": 42,
+            "preMae": 6.6914,
+            "postMae": 6.6039
+          },
+          "LCS": {
+            "rows": 108,
+            "bets": 15,
+            "pass": 93,
+            "correct": 10,
+            "hitRate": 0.6667,
+            "roi": 0.2,
+            "profit": 3,
+            "overBets": 9,
+            "underBets": 6,
+            "preMae": 5.74,
+            "postMae": 5.6388
+          }
+        }
+      },
+      {
+        "name": "sample+min12",
+        "label": "B+C12",
+        "type": "full",
+        "config": {
+          "name": "sample+min12",
+          "label": "B+C12",
+          "sampleConfidence": true,
+          "minLeagueN": 12
+        },
+        "byMove": {
+          "0": {
+            "rows": 1125,
+            "bets": 312,
+            "pass": 813,
+            "correct": 196,
+            "hitRate": 0.6282,
+            "roi": 0.1308,
+            "profit": 40.8,
+            "overBets": 201,
+            "underBets": 111,
+            "preMae": 6.5676,
+            "postMae": 6.473
+          },
+          "1": {
+            "rows": 1125,
+            "bets": 234,
+            "pass": 891,
+            "correct": 137,
+            "hitRate": 0.5855,
+            "roi": 0.0538,
+            "profit": 12.6,
+            "overBets": 155,
+            "underBets": 79,
+            "preMae": 6.5676,
+            "postMae": 6.473
+          },
+          "2": {
+            "rows": 1125,
+            "bets": 135,
+            "pass": 990,
+            "correct": 79,
+            "hitRate": 0.5852,
+            "roi": 0.0533,
+            "profit": 7.2,
+            "overBets": 91,
+            "underBets": 44,
+            "preMae": 6.5676,
+            "postMae": 6.473
+          },
+          "0.5": {
+            "rows": 1125,
+            "bets": 223,
+            "pass": 902,
+            "correct": 137,
+            "hitRate": 0.6143,
+            "roi": 0.1058,
+            "profit": 23.6,
+            "overBets": 151,
+            "underBets": 72,
+            "preMae": 6.5676,
+            "postMae": 6.473
+          },
+          "1.5": {
+            "rows": 1125,
+            "bets": 131,
+            "pass": 994,
+            "correct": 79,
+            "hitRate": 0.6031,
+            "roi": 0.0855,
+            "profit": 11.2,
+            "overBets": 87,
+            "underBets": 44,
+            "preMae": 6.5676,
+            "postMae": 6.473
+          }
+        },
+        "byMoveSide": {
+          "0": {
+            "under": {
+              "rows": 111,
+              "bets": 111,
+              "pass": 0,
+              "correct": 69,
+              "hitRate": 0.6216,
+              "roi": 0.1189,
+              "profit": 13.2,
+              "overBets": 0,
+              "underBets": 111,
+              "preMae": 6.7867,
+              "postMae": 6.5361
+            },
+            "over": {
+              "rows": 201,
+              "bets": 201,
+              "pass": 0,
+              "correct": 127,
+              "hitRate": 0.6318,
+              "roi": 0.1373,
+              "profit": 27.6,
+              "overBets": 201,
+              "underBets": 0,
+              "preMae": 7.2186,
+              "postMae": 6.8979
+            }
+          },
+          "1": {
+            "under": {
+              "rows": 79,
+              "bets": 79,
+              "pass": 0,
+              "correct": 45,
+              "hitRate": 0.5696,
+              "roi": 0.0253,
+              "profit": 2,
+              "overBets": 0,
+              "underBets": 79,
+              "preMae": 6.9746,
+              "postMae": 6.6557
+            },
+            "over": {
+              "rows": 155,
+              "bets": 155,
+              "pass": 0,
+              "correct": 92,
+              "hitRate": 0.5935,
+              "roi": 0.0684,
+              "profit": 10.6,
+              "overBets": 155,
+              "underBets": 0,
+              "preMae": 6.999,
+              "postMae": 6.6913
+            }
+          },
+          "2": {
+            "under": {
+              "rows": 44,
+              "bets": 44,
+              "pass": 0,
+              "correct": 26,
+              "hitRate": 0.5909,
+              "roi": 0.0636,
+              "profit": 2.8,
+              "overBets": 0,
+              "underBets": 44,
+              "preMae": 7.8472,
+              "postMae": 7.4669
+            },
+            "over": {
+              "rows": 91,
+              "bets": 91,
+              "pass": 0,
+              "correct": 53,
+              "hitRate": 0.5824,
+              "roi": 0.0484,
+              "profit": 4.4,
+              "overBets": 91,
+              "underBets": 0,
+              "preMae": 7.3164,
+              "postMae": 6.8766
+            }
+          },
+          "0.5": {
+            "under": {
+              "rows": 72,
+              "bets": 72,
+              "pass": 0,
+              "correct": 45,
+              "hitRate": 0.625,
+              "roi": 0.125,
+              "profit": 9,
+              "overBets": 0,
+              "underBets": 72,
+              "preMae": 7.6,
+              "postMae": 7.2482
+            },
+            "over": {
+              "rows": 151,
+              "bets": 151,
+              "pass": 0,
+              "correct": 92,
+              "hitRate": 0.6093,
+              "roi": 0.0967,
+              "profit": 14.6,
+              "overBets": 151,
+              "underBets": 0,
+              "preMae": 7.1725,
+              "postMae": 6.848
+            }
+          },
+          "1.5": {
+            "under": {
+              "rows": 44,
+              "bets": 44,
+              "pass": 0,
+              "correct": 26,
+              "hitRate": 0.5909,
+              "roi": 0.0636,
+              "profit": 2.8,
+              "overBets": 0,
+              "underBets": 44,
+              "preMae": 7.8472,
+              "postMae": 7.4669
+            },
+            "over": {
+              "rows": 87,
+              "bets": 87,
+              "pass": 0,
+              "correct": 53,
+              "hitRate": 0.6092,
+              "roi": 0.0966,
+              "profit": 8.4,
+              "overBets": 87,
+              "underBets": 0,
+              "preMae": 7.5896,
+              "postMae": 7.1678
+            }
+          }
+        },
+        "byLeagueMove0": {
+          "LCK": {
+            "rows": 150,
+            "bets": 27,
+            "pass": 123,
+            "correct": 18,
+            "hitRate": 0.6667,
+            "roi": 0.2,
+            "profit": 5.4,
+            "overBets": 2,
+            "underBets": 25,
+            "preMae": 6.7227,
+            "postMae": 6.6601
+          },
+          "LCKCL": {
+            "rows": 270,
+            "bets": 111,
+            "pass": 159,
+            "correct": 68,
+            "hitRate": 0.6126,
+            "roi": 0.1027,
+            "profit": 11.4,
+            "overBets": 72,
+            "underBets": 39,
+            "preMae": 7.1195,
+            "postMae": 6.9826
+          },
+          "LPL": {
+            "rows": 270,
+            "bets": 106,
+            "pass": 164,
+            "correct": 70,
+            "hitRate": 0.6604,
+            "roi": 0.1887,
+            "profit": 20,
+            "overBets": 100,
+            "underBets": 6,
+            "preMae": 6.3246,
+            "postMae": 6.2035
+          },
+          "CBLOL": {
+            "rows": 129,
+            "bets": 0,
+            "pass": 129,
+            "correct": 0,
+            "hitRate": null,
+            "roi": null,
+            "profit": 0,
+            "overBets": 0,
+            "underBets": 0,
+            "preMae": 6.2431,
+            "postMae": 6.2364
+          },
+          "LEC": {
+            "rows": 198,
+            "bets": 59,
+            "pass": 139,
+            "correct": 33,
+            "hitRate": 0.5593,
+            "roi": 0.0068,
+            "profit": 0.4,
+            "overBets": 22,
+            "underBets": 37,
+            "preMae": 6.6914,
+            "postMae": 6.605
+          },
+          "LCS": {
+            "rows": 108,
+            "bets": 9,
+            "pass": 99,
+            "correct": 7,
+            "hitRate": 0.7778,
+            "roi": 0.4,
+            "profit": 3.6,
+            "overBets": 5,
+            "underBets": 4,
+            "preMae": 5.74,
+            "postMae": 5.6538
+          }
+        }
+      },
+      {
+        "name": "role-side+sample+min12",
+        "label": "A+B+C12",
+        "type": "full",
+        "config": {
+          "name": "role-side+sample+min12",
+          "label": "A+B+C12",
+          "roleSide": true,
+          "sampleConfidence": true,
+          "minLeagueN": 12
+        },
+        "byMove": {
+          "0": {
+            "rows": 1125,
+            "bets": 321,
+            "pass": 804,
+            "correct": 201,
+            "hitRate": 0.6262,
+            "roi": 0.1271,
+            "profit": 40.8,
+            "overBets": 198,
+            "underBets": 123,
+            "preMae": 6.5676,
+            "postMae": 6.4695
+          },
+          "1": {
+            "rows": 1125,
+            "bets": 248,
+            "pass": 877,
+            "correct": 145,
+            "hitRate": 0.5847,
+            "roi": 0.0524,
+            "profit": 13,
+            "overBets": 153,
+            "underBets": 95,
+            "preMae": 6.5676,
+            "postMae": 6.4695
+          },
+          "2": {
+            "rows": 1125,
+            "bets": 145,
+            "pass": 980,
+            "correct": 83,
+            "hitRate": 0.5724,
+            "roi": 0.0303,
+            "profit": 4.4,
+            "overBets": 92,
+            "underBets": 53,
+            "preMae": 6.5676,
+            "postMae": 6.4695
+          },
+          "0.5": {
+            "rows": 1125,
+            "bets": 238,
+            "pass": 887,
+            "correct": 145,
+            "hitRate": 0.6092,
+            "roi": 0.0966,
+            "profit": 23,
+            "overBets": 150,
+            "underBets": 88,
+            "preMae": 6.5676,
+            "postMae": 6.4695
+          },
+          "1.5": {
+            "rows": 1125,
+            "bets": 139,
+            "pass": 986,
+            "correct": 83,
+            "hitRate": 0.5971,
+            "roi": 0.0748,
+            "profit": 10.4,
+            "overBets": 88,
+            "underBets": 51,
+            "preMae": 6.5676,
+            "postMae": 6.4695
+          }
+        },
+        "byMoveSide": {
+          "0": {
+            "under": {
+              "rows": 123,
+              "bets": 123,
+              "pass": 0,
+              "correct": 76,
+              "hitRate": 0.6179,
+              "roi": 0.1122,
+              "profit": 13.8,
+              "overBets": 0,
+              "underBets": 123,
+              "preMae": 6.7016,
+              "postMae": 6.4528
+            },
+            "over": {
+              "rows": 198,
+              "bets": 198,
+              "pass": 0,
+              "correct": 125,
+              "hitRate": 0.6313,
+              "roi": 0.1364,
+              "profit": 27,
+              "overBets": 198,
+              "underBets": 0,
+              "preMae": 7.1974,
+              "postMae": 6.8731
+            }
+          },
+          "1": {
+            "under": {
+              "rows": 95,
+              "bets": 95,
+              "pass": 0,
+              "correct": 54,
+              "hitRate": 0.5684,
+              "roi": 0.0232,
+              "profit": 2.2,
+              "overBets": 0,
+              "underBets": 95,
+              "preMae": 6.624,
+              "postMae": 6.3227
+            },
+            "over": {
+              "rows": 153,
+              "bets": 153,
+              "pass": 0,
+              "correct": 91,
+              "hitRate": 0.5948,
+              "roi": 0.0706,
+              "profit": 10.8,
+              "overBets": 153,
+              "underBets": 0,
+              "preMae": 7.0225,
+              "postMae": 6.72
+            }
+          },
+          "2": {
+            "under": {
+              "rows": 53,
+              "bets": 53,
+              "pass": 0,
+              "correct": 30,
+              "hitRate": 0.566,
+              "roi": 0.0189,
+              "profit": 1,
+              "overBets": 0,
+              "underBets": 53,
+              "preMae": 7.2653,
+              "postMae": 6.8611
+            },
+            "over": {
+              "rows": 92,
+              "bets": 92,
+              "pass": 0,
+              "correct": 53,
+              "hitRate": 0.5761,
+              "roi": 0.037,
+              "profit": 3.4,
+              "overBets": 92,
+              "underBets": 0,
+              "preMae": 7.3405,
+              "postMae": 6.917
+            }
+          },
+          "0.5": {
+            "under": {
+              "rows": 88,
+              "bets": 88,
+              "pass": 0,
+              "correct": 54,
+              "hitRate": 0.6136,
+              "roi": 0.1045,
+              "profit": 9.2,
+              "overBets": 0,
+              "underBets": 88,
+              "preMae": 7.1078,
+              "postMae": 6.778
+            },
+            "over": {
+              "rows": 150,
+              "bets": 150,
+              "pass": 0,
+              "correct": 91,
+              "hitRate": 0.6067,
+              "roi": 0.092,
+              "profit": 13.8,
+              "overBets": 150,
+              "underBets": 0,
+              "preMae": 7.1547,
+              "postMae": 6.8345
+            }
+          },
+          "1.5": {
+            "under": {
+              "rows": 51,
+              "bets": 51,
+              "pass": 0,
+              "correct": 30,
+              "hitRate": 0.5882,
+              "roi": 0.0588,
+              "profit": 3,
+              "overBets": 0,
+              "underBets": 51,
+              "preMae": 7.4974,
+              "postMae": 7.1273
+            },
+            "over": {
+              "rows": 88,
+              "bets": 88,
+              "pass": 0,
+              "correct": 53,
+              "hitRate": 0.6023,
+              "roi": 0.0841,
+              "profit": 7.4,
+              "overBets": 88,
+              "underBets": 0,
+              "preMae": 7.6117,
+              "postMae": 7.2068
+            }
+          }
+        },
+        "byLeagueMove0": {
+          "LCK": {
+            "rows": 150,
+            "bets": 31,
+            "pass": 119,
+            "correct": 19,
+            "hitRate": 0.6129,
+            "roi": 0.1032,
+            "profit": 3.2,
+            "overBets": 1,
+            "underBets": 30,
+            "preMae": 6.7227,
+            "postMae": 6.6582
+          },
+          "LCKCL": {
+            "rows": 270,
+            "bets": 112,
+            "pass": 158,
+            "correct": 69,
+            "hitRate": 0.6161,
+            "roi": 0.1089,
+            "profit": 12.2,
+            "overBets": 71,
+            "underBets": 41,
+            "preMae": 7.1195,
+            "postMae": 6.9753
+          },
+          "LPL": {
+            "rows": 270,
+            "bets": 106,
+            "pass": 164,
+            "correct": 70,
+            "hitRate": 0.6604,
+            "roi": 0.1887,
+            "profit": 20,
+            "overBets": 99,
+            "underBets": 7,
+            "preMae": 6.3246,
+            "postMae": 6.1992
+          },
+          "CBLOL": {
+            "rows": 129,
+            "bets": 0,
+            "pass": 129,
+            "correct": 0,
+            "hitRate": null,
+            "roi": null,
+            "profit": 0,
+            "overBets": 0,
+            "underBets": 0,
+            "preMae": 6.2431,
+            "postMae": 6.2353
+          },
+          "LEC": {
+            "rows": 198,
+            "bets": 61,
+            "pass": 137,
+            "correct": 34,
+            "hitRate": 0.5574,
+            "roi": 0.0033,
+            "profit": 0.2,
+            "overBets": 22,
+            "underBets": 39,
+            "preMae": 6.6914,
+            "postMae": 6.6043
+          },
+          "LCS": {
+            "rows": 108,
+            "bets": 11,
+            "pass": 97,
+            "correct": 9,
+            "hitRate": 0.8182,
+            "roi": 0.4727,
+            "profit": 5.2,
+            "overBets": 5,
+            "underBets": 6,
+            "preMae": 5.74,
+            "postMae": 5.6511
+          }
+        }
+      }
+    ],
+    "partialSignals": [
+      {
+        "name": "partial-adc-sup",
+        "label": "ADC+SUP",
+        "type": "partial",
+        "config": {
+          "name": "partial-adc-sup",
+          "label": "ADC+SUP",
+          "roles": [
+            "ADC",
+            "SUP"
+          ]
+        },
+        "byMove": {
+          "0": {
+            "rows": 1125,
+            "bets": 196,
+            "pass": 929,
+            "correct": 125,
+            "hitRate": 0.6378,
+            "roi": 0.148,
+            "profit": 29,
+            "overBets": 109,
+            "underBets": 87,
+            "preMae": 6.5676,
+            "postMae": 6.5018
+          },
+          "1": {
+            "rows": 1125,
+            "bets": 141,
+            "pass": 984,
+            "correct": 80,
+            "hitRate": 0.5674,
+            "roi": 0.0213,
+            "profit": 3,
+            "overBets": 79,
+            "underBets": 62,
+            "preMae": 6.5676,
+            "postMae": 6.5018
+          },
+          "2": {
+            "rows": 1125,
+            "bets": 41,
+            "pass": 1084,
+            "correct": 24,
+            "hitRate": 0.5854,
+            "roi": 0.0537,
+            "profit": 2.2,
+            "overBets": 24,
+            "underBets": 17,
+            "preMae": 6.5676,
+            "postMae": 6.5018
+          },
+          "0.5": {
+            "rows": 1125,
+            "bets": 133,
+            "pass": 992,
+            "correct": 80,
+            "hitRate": 0.6015,
+            "roi": 0.0827,
+            "profit": 11,
+            "overBets": 77,
+            "underBets": 56,
+            "preMae": 6.5676,
+            "postMae": 6.5018
+          },
+          "1.5": {
+            "rows": 1125,
+            "bets": 40,
+            "pass": 1085,
+            "correct": 24,
+            "hitRate": 0.6,
+            "roi": 0.08,
+            "profit": 3.2,
+            "overBets": 23,
+            "underBets": 17,
+            "preMae": 6.5676,
+            "postMae": 6.5018
+          }
+        },
+        "byMoveSide": {
+          "0": {
+            "under": {
+              "rows": 87,
+              "bets": 87,
+              "pass": 0,
+              "correct": 51,
+              "hitRate": 0.5862,
+              "roi": 0.0552,
+              "profit": 4.8,
+              "overBets": 0,
+              "underBets": 87,
+              "preMae": 6.5482,
+              "postMae": 6.4283
+            },
+            "over": {
+              "rows": 109,
+              "bets": 109,
+              "pass": 0,
+              "correct": 74,
+              "hitRate": 0.6789,
+              "roi": 0.222,
+              "profit": 24.2,
+              "overBets": 109,
+              "underBets": 0,
+              "preMae": 7.2964,
+              "postMae": 6.9408
+            }
+          },
+          "1": {
+            "under": {
+              "rows": 62,
+              "bets": 62,
+              "pass": 0,
+              "correct": 31,
+              "hitRate": 0.5,
+              "roi": -0.1,
+              "profit": -6.2,
+              "overBets": 0,
+              "underBets": 62,
+              "preMae": 6.2775,
+              "postMae": 6.1561
+            },
+            "over": {
+              "rows": 79,
+              "bets": 79,
+              "pass": 0,
+              "correct": 49,
+              "hitRate": 0.6203,
+              "roi": 0.1165,
+              "profit": 9.2,
+              "overBets": 79,
+              "underBets": 0,
+              "preMae": 7.4546,
+              "postMae": 7.1779
+            }
+          },
+          "2": {
+            "under": {
+              "rows": 17,
+              "bets": 17,
+              "pass": 0,
+              "correct": 9,
+              "hitRate": 0.5294,
+              "roi": -0.0471,
+              "profit": -0.8,
+              "overBets": 0,
+              "underBets": 17,
+              "preMae": 8.5546,
+              "postMae": 8.4598
+            },
+            "over": {
+              "rows": 24,
+              "bets": 24,
+              "pass": 0,
+              "correct": 15,
+              "hitRate": 0.625,
+              "roi": 0.125,
+              "profit": 3,
+              "overBets": 24,
+              "underBets": 0,
+              "preMae": 9.6919,
+              "postMae": 9.2155
+            }
+          },
+          "0.5": {
+            "under": {
+              "rows": 56,
+              "bets": 56,
+              "pass": 0,
+              "correct": 31,
+              "hitRate": 0.5536,
+              "roi": -0.0036,
+              "profit": -0.2,
+              "overBets": 0,
+              "underBets": 56,
+              "preMae": 6.8977,
+              "postMae": 6.7626
+            },
+            "over": {
+              "rows": 77,
+              "bets": 77,
+              "pass": 0,
+              "correct": 49,
+              "hitRate": 0.6364,
+              "roi": 0.1455,
+              "profit": 11.2,
+              "overBets": 77,
+              "underBets": 0,
+              "preMae": 7.6367,
+              "postMae": 7.345
+            }
+          },
+          "1.5": {
+            "under": {
+              "rows": 17,
+              "bets": 17,
+              "pass": 0,
+              "correct": 9,
+              "hitRate": 0.5294,
+              "roi": -0.0471,
+              "profit": -0.8,
+              "overBets": 0,
+              "underBets": 17,
+              "preMae": 8.5546,
+              "postMae": 8.4598
+            },
+            "over": {
+              "rows": 23,
+              "bets": 23,
+              "pass": 0,
+              "correct": 15,
+              "hitRate": 0.6522,
+              "roi": 0.1739,
+              "profit": 4,
+              "overBets": 23,
+              "underBets": 0,
+              "preMae": 10.0664,
+              "postMae": 9.6055
+            }
+          }
+        },
+        "byLeagueMove0": {
+          "LCK": {
+            "rows": 150,
+            "bets": 24,
+            "pass": 126,
+            "correct": 13,
+            "hitRate": 0.5417,
+            "roi": -0.025,
+            "profit": -0.6,
+            "overBets": 1,
+            "underBets": 23,
+            "preMae": 6.7227,
+            "postMae": 6.6712
+          },
+          "LCKCL": {
+            "rows": 270,
+            "bets": 60,
+            "pass": 210,
+            "correct": 39,
+            "hitRate": 0.65,
+            "roi": 0.17,
+            "profit": 10.2,
+            "overBets": 35,
+            "underBets": 25,
+            "preMae": 7.1195,
+            "postMae": 7.0486
+          },
+          "LPL": {
+            "rows": 270,
+            "bets": 69,
+            "pass": 201,
+            "correct": 48,
+            "hitRate": 0.6957,
+            "roi": 0.2522,
+            "profit": 17.4,
+            "overBets": 61,
+            "underBets": 8,
+            "preMae": 6.3246,
+            "postMae": 6.2233
+          },
+          "CBLOL": {
+            "rows": 129,
+            "bets": 0,
+            "pass": 129,
+            "correct": 0,
+            "hitRate": null,
+            "roi": null,
+            "profit": 0,
+            "overBets": 0,
+            "underBets": 0,
+            "preMae": 6.2431,
+            "postMae": 6.2263
+          },
+          "LEC": {
+            "rows": 198,
+            "bets": 39,
+            "pass": 159,
+            "correct": 22,
+            "hitRate": 0.5641,
+            "roi": 0.0154,
+            "profit": 0.6,
+            "overBets": 10,
+            "underBets": 29,
+            "preMae": 6.6914,
+            "postMae": 6.651
+          },
+          "LCS": {
+            "rows": 108,
+            "bets": 4,
+            "pass": 104,
+            "correct": 3,
+            "hitRate": 0.75,
+            "roi": 0.35,
+            "profit": 1.4,
+            "overBets": 2,
+            "underBets": 2,
+            "preMae": 5.74,
+            "postMae": 5.6513
+          }
+        }
+      },
+      {
+        "name": "partial-mid-jungle",
+        "label": "MID+JUNGLE",
+        "type": "partial",
+        "config": {
+          "name": "partial-mid-jungle",
+          "label": "MID+JUNGLE",
+          "roles": [
+            "MID",
+            "JUNGLE"
+          ]
+        },
+        "byMove": {
+          "0": {
+            "rows": 1125,
+            "bets": 134,
+            "pass": 991,
+            "correct": 87,
+            "hitRate": 0.6493,
+            "roi": 0.1687,
+            "profit": 22.6,
+            "overBets": 95,
+            "underBets": 39,
+            "preMae": 6.5676,
+            "postMae": 6.5213
+          },
+          "1": {
+            "rows": 1125,
+            "bets": 96,
+            "pass": 1029,
+            "correct": 59,
+            "hitRate": 0.6146,
+            "roi": 0.1063,
+            "profit": 10.2,
+            "overBets": 66,
+            "underBets": 30,
+            "preMae": 6.5676,
+            "postMae": 6.5213
+          },
+          "2": {
+            "rows": 1125,
+            "bets": 21,
+            "pass": 1104,
+            "correct": 14,
+            "hitRate": 0.6667,
+            "roi": 0.2,
+            "profit": 4.2,
+            "overBets": 18,
+            "underBets": 3,
+            "preMae": 6.5676,
+            "postMae": 6.5213
+          },
+          "0.5": {
+            "rows": 1125,
+            "bets": 90,
+            "pass": 1035,
+            "correct": 59,
+            "hitRate": 0.6556,
+            "roi": 0.18,
+            "profit": 16.2,
+            "overBets": 63,
+            "underBets": 27,
+            "preMae": 6.5676,
+            "postMae": 6.5213
+          },
+          "1.5": {
+            "rows": 1125,
+            "bets": 20,
+            "pass": 1105,
+            "correct": 14,
+            "hitRate": 0.7,
+            "roi": 0.26,
+            "profit": 5.2,
+            "overBets": 17,
+            "underBets": 3,
+            "preMae": 6.5676,
+            "postMae": 6.5213
+          }
+        },
+        "byMoveSide": {
+          "0": {
+            "under": {
+              "rows": 39,
+              "bets": 39,
+              "pass": 0,
+              "correct": 24,
+              "hitRate": 0.6154,
+              "roi": 0.1077,
+              "profit": 4.2,
+              "overBets": 0,
+              "underBets": 39,
+              "preMae": 7.1067,
+              "postMae": 6.9787
+            },
+            "over": {
+              "rows": 95,
+              "bets": 95,
+              "pass": 0,
+              "correct": 63,
+              "hitRate": 0.6632,
+              "roi": 0.1937,
+              "profit": 18.4,
+              "overBets": 95,
+              "underBets": 0,
+              "preMae": 7.3995,
+              "postMae": 7.1219
+            }
+          },
+          "1": {
+            "under": {
+              "rows": 30,
+              "bets": 30,
+              "pass": 0,
+              "correct": 16,
+              "hitRate": 0.5333,
+              "roi": -0.04,
+              "profit": -1.2,
+              "overBets": 0,
+              "underBets": 30,
+              "preMae": 7.3468,
+              "postMae": 7.2137
+            },
+            "over": {
+              "rows": 66,
+              "bets": 66,
+              "pass": 0,
+              "correct": 43,
+              "hitRate": 0.6515,
+              "roi": 0.1727,
+              "profit": 11.4,
+              "overBets": 66,
+              "underBets": 0,
+              "preMae": 6.7635,
+              "postMae": 6.384
+            }
+          },
+          "2": {
+            "under": {
+              "rows": 3,
+              "bets": 3,
+              "pass": 0,
+              "correct": 2,
+              "hitRate": 0.6667,
+              "roi": 0.2,
+              "profit": 0.6,
+              "overBets": 0,
+              "underBets": 3,
+              "preMae": 14.9958,
+              "postMae": 14.5597
+            },
+            "over": {
+              "rows": 18,
+              "bets": 18,
+              "pass": 0,
+              "correct": 12,
+              "hitRate": 0.6667,
+              "roi": 0.2,
+              "profit": 3.6,
+              "overBets": 18,
+              "underBets": 0,
+              "preMae": 5.4778,
+              "postMae": 4.8022
+            }
+          },
+          "0.5": {
+            "under": {
+              "rows": 27,
+              "bets": 27,
+              "pass": 0,
+              "correct": 16,
+              "hitRate": 0.5926,
+              "roi": 0.0667,
+              "profit": 1.8,
+              "overBets": 0,
+              "underBets": 27,
+              "preMae": 8.1183,
+              "postMae": 7.9626
+            },
+            "over": {
+              "rows": 63,
+              "bets": 63,
+              "pass": 0,
+              "correct": 43,
+              "hitRate": 0.6825,
+              "roi": 0.2286,
+              "profit": 14.4,
+              "overBets": 63,
+              "underBets": 0,
+              "preMae": 7.0641,
+              "postMae": 6.6611
+            }
+          },
+          "1.5": {
+            "under": {
+              "rows": 3,
+              "bets": 3,
+              "pass": 0,
+              "correct": 2,
+              "hitRate": 0.6667,
+              "roi": 0.2,
+              "profit": 0.6,
+              "overBets": 0,
+              "underBets": 3,
+              "preMae": 14.9958,
+              "postMae": 14.5597
+            },
+            "over": {
+              "rows": 17,
+              "bets": 17,
+              "pass": 0,
+              "correct": 12,
+              "hitRate": 0.7059,
+              "roi": 0.2706,
+              "profit": 4.6,
+              "overBets": 17,
+              "underBets": 0,
+              "preMae": 5.7019,
+              "postMae": 5.0657
+            }
+          }
+        },
+        "byLeagueMove0": {
+          "LCK": {
+            "rows": 150,
+            "bets": 10,
+            "pass": 140,
+            "correct": 8,
+            "hitRate": 0.8,
+            "roi": 0.44,
+            "profit": 4.4,
+            "overBets": 0,
+            "underBets": 10,
+            "preMae": 6.7227,
+            "postMae": 6.6829
+          },
+          "LCKCL": {
+            "rows": 270,
+            "bets": 60,
+            "pass": 210,
+            "correct": 39,
+            "hitRate": 0.65,
+            "roi": 0.17,
+            "profit": 10.2,
+            "overBets": 45,
+            "underBets": 15,
+            "preMae": 7.1195,
+            "postMae": 7.0239
+          },
+          "LPL": {
+            "rows": 270,
+            "bets": 43,
+            "pass": 227,
+            "correct": 28,
+            "hitRate": 0.6512,
+            "roi": 0.1721,
+            "profit": 7.4,
+            "overBets": 41,
+            "underBets": 2,
+            "preMae": 6.3246,
+            "postMae": 6.2856
+          },
+          "CBLOL": {
+            "rows": 129,
+            "bets": 0,
+            "pass": 129,
+            "correct": 0,
+            "hitRate": null,
+            "roi": null,
+            "profit": 0,
+            "overBets": 0,
+            "underBets": 0,
+            "preMae": 6.2431,
+            "postMae": 6.2407
+          },
+          "LEC": {
+            "rows": 198,
+            "bets": 20,
+            "pass": 178,
+            "correct": 11,
+            "hitRate": 0.55,
+            "roi": -0.01,
+            "profit": -0.2,
+            "overBets": 9,
+            "underBets": 11,
+            "preMae": 6.6914,
+            "postMae": 6.6531
+          },
+          "LCS": {
+            "rows": 108,
+            "bets": 1,
+            "pass": 107,
+            "correct": 1,
+            "hitRate": 1,
+            "roi": 0.8,
+            "profit": 0.8,
+            "overBets": 0,
+            "underBets": 1,
+            "preMae": 5.74,
+            "postMae": 5.7231
+          }
+        }
+      },
+      {
+        "name": "partial-sup-only",
+        "label": "SUP only",
+        "type": "partial",
+        "config": {
+          "name": "partial-sup-only",
+          "label": "SUP only",
+          "roles": [
+            "SUP"
+          ]
+        },
+        "byMove": {
+          "0": {
+            "rows": 1125,
+            "bets": 88,
+            "pass": 1037,
+            "correct": 54,
+            "hitRate": 0.6136,
+            "roi": 0.1045,
+            "profit": 9.2,
+            "overBets": 40,
+            "underBets": 48,
+            "preMae": 6.5676,
+            "postMae": 6.5195
+          },
+          "1": {
+            "rows": 1125,
+            "bets": 66,
+            "pass": 1059,
+            "correct": 35,
+            "hitRate": 0.5303,
+            "roi": -0.0455,
+            "profit": -3,
+            "overBets": 27,
+            "underBets": 39,
+            "preMae": 6.5676,
+            "postMae": 6.5195
+          },
+          "2": {
+            "rows": 1125,
+            "bets": 6,
+            "pass": 1119,
+            "correct": 3,
+            "hitRate": 0.5,
+            "roi": -0.1,
+            "profit": -0.6,
+            "overBets": 1,
+            "underBets": 5,
+            "preMae": 6.5676,
+            "postMae": 6.5195
+          },
+          "0.5": {
+            "rows": 1125,
+            "bets": 64,
+            "pass": 1061,
+            "correct": 35,
+            "hitRate": 0.5469,
+            "roi": -0.0156,
+            "profit": -1,
+            "overBets": 27,
+            "underBets": 37,
+            "preMae": 6.5676,
+            "postMae": 6.5195
+          },
+          "1.5": {
+            "rows": 1125,
+            "bets": 6,
+            "pass": 1119,
+            "correct": 3,
+            "hitRate": 0.5,
+            "roi": -0.1,
+            "profit": -0.6,
+            "overBets": 1,
+            "underBets": 5,
+            "preMae": 6.5676,
+            "postMae": 6.5195
+          }
+        },
+        "byMoveSide": {
+          "0": {
+            "under": {
+              "rows": 48,
+              "bets": 48,
+              "pass": 0,
+              "correct": 27,
+              "hitRate": 0.5625,
+              "roi": 0.0125,
+              "profit": 0.6,
+              "overBets": 0,
+              "underBets": 48,
+              "preMae": 7.3942,
+              "postMae": 7.3199
+            },
+            "over": {
+              "rows": 40,
+              "bets": 40,
+              "pass": 0,
+              "correct": 27,
+              "hitRate": 0.675,
+              "roi": 0.215,
+              "profit": 8.6,
+              "overBets": 40,
+              "underBets": 0,
+              "preMae": 7.8035,
+              "postMae": 7.4868
+            }
+          },
+          "1": {
+            "under": {
+              "rows": 39,
+              "bets": 39,
+              "pass": 0,
+              "correct": 19,
+              "hitRate": 0.4872,
+              "roi": -0.1231,
+              "profit": -4.8,
+              "overBets": 0,
+              "underBets": 39,
+              "preMae": 6.7907,
+              "postMae": 6.7728
+            },
+            "over": {
+              "rows": 27,
+              "bets": 27,
+              "pass": 0,
+              "correct": 16,
+              "hitRate": 0.5926,
+              "roi": 0.0667,
+              "profit": 1.8,
+              "overBets": 27,
+              "underBets": 0,
+              "preMae": 7.8299,
+              "postMae": 7.6643
+            }
+          },
+          "2": {
+            "under": {
+              "rows": 5,
+              "bets": 5,
+              "pass": 0,
+              "correct": 2,
+              "hitRate": 0.4,
+              "roi": -0.28,
+              "profit": -1.4,
+              "overBets": 0,
+              "underBets": 5,
+              "preMae": 7.1161,
+              "postMae": 7.3671
+            },
+            "over": {
+              "rows": 1,
+              "bets": 1,
+              "pass": 0,
+              "correct": 1,
+              "hitRate": 1,
+              "roi": 0.8,
+              "profit": 0.8,
+              "overBets": 1,
+              "underBets": 0,
+              "preMae": 38.8813,
+              "postMae": 37.5889
+            }
+          },
+          "0.5": {
+            "under": {
+              "rows": 37,
+              "bets": 37,
+              "pass": 0,
+              "correct": 19,
+              "hitRate": 0.5135,
+              "roi": -0.0757,
+              "profit": -2.8,
+              "overBets": 0,
+              "underBets": 37,
+              "preMae": 7.1326,
+              "postMae": 7.1033
+            },
+            "over": {
+              "rows": 27,
+              "bets": 27,
+              "pass": 0,
+              "correct": 16,
+              "hitRate": 0.5926,
+              "roi": 0.0667,
+              "profit": 1.8,
+              "overBets": 27,
+              "underBets": 0,
+              "preMae": 7.8299,
+              "postMae": 7.6643
+            }
+          },
+          "1.5": {
+            "under": {
+              "rows": 5,
+              "bets": 5,
+              "pass": 0,
+              "correct": 2,
+              "hitRate": 0.4,
+              "roi": -0.28,
+              "profit": -1.4,
+              "overBets": 0,
+              "underBets": 5,
+              "preMae": 7.1161,
+              "postMae": 7.3671
+            },
+            "over": {
+              "rows": 1,
+              "bets": 1,
+              "pass": 0,
+              "correct": 1,
+              "hitRate": 1,
+              "roi": 0.8,
+              "profit": 0.8,
+              "overBets": 1,
+              "underBets": 0,
+              "preMae": 38.8813,
+              "postMae": 37.5889
+            }
+          }
+        },
+        "byLeagueMove0": {
+          "LCK": {
+            "rows": 150,
+            "bets": 11,
+            "pass": 139,
+            "correct": 6,
+            "hitRate": 0.5455,
+            "roi": -0.0182,
+            "profit": -0.2,
+            "overBets": 0,
+            "underBets": 11,
+            "preMae": 6.7227,
+            "postMae": 6.6896
+          },
+          "LCKCL": {
+            "rows": 270,
+            "bets": 34,
+            "pass": 236,
+            "correct": 21,
+            "hitRate": 0.6176,
+            "roi": 0.1118,
+            "profit": 3.8,
+            "overBets": 17,
+            "underBets": 17,
+            "preMae": 7.1195,
+            "postMae": 7.0579
+          },
+          "LPL": {
+            "rows": 270,
+            "bets": 25,
+            "pass": 245,
+            "correct": 17,
+            "hitRate": 0.68,
+            "roi": 0.224,
+            "profit": 5.6,
+            "overBets": 21,
+            "underBets": 4,
+            "preMae": 6.3246,
+            "postMae": 6.2508
+          },
+          "CBLOL": {
+            "rows": 129,
+            "bets": 0,
+            "pass": 129,
+            "correct": 0,
+            "hitRate": null,
+            "roi": null,
+            "profit": 0,
+            "overBets": 0,
+            "underBets": 0,
+            "preMae": 6.2431,
+            "postMae": 6.2446
+          },
+          "LEC": {
+            "rows": 198,
+            "bets": 18,
+            "pass": 180,
+            "correct": 10,
+            "hitRate": 0.5556,
+            "roi": 0,
+            "profit": 0,
+            "overBets": 2,
+            "underBets": 16,
+            "preMae": 6.6914,
+            "postMae": 6.6635
+          },
+          "LCS": {
+            "rows": 108,
+            "bets": 0,
+            "pass": 108,
+            "correct": 0,
+            "hitRate": null,
+            "roi": null,
+            "profit": 0,
+            "overBets": 0,
+            "underBets": 0,
+            "preMae": 5.74,
+            "postMae": 5.6733
+          }
+        }
+      },
+      {
+        "name": "partial-adc-only",
+        "label": "ADC only",
+        "type": "partial",
+        "config": {
+          "name": "partial-adc-only",
+          "label": "ADC only",
+          "roles": [
+            "ADC"
+          ]
+        },
+        "byMove": {
+          "0": {
+            "rows": 1125,
+            "bets": 114,
+            "pass": 1011,
+            "correct": 74,
+            "hitRate": 0.6491,
+            "roi": 0.1684,
+            "profit": 19.2,
+            "overBets": 71,
+            "underBets": 43,
+            "preMae": 6.5676,
+            "postMae": 6.521
+          },
+          "1": {
+            "rows": 1125,
+            "bets": 88,
+            "pass": 1037,
+            "correct": 57,
+            "hitRate": 0.6477,
+            "roi": 0.1659,
+            "profit": 14.6,
+            "overBets": 59,
+            "underBets": 29,
+            "preMae": 6.5676,
+            "postMae": 6.521
+          },
+          "2": {
+            "rows": 1125,
+            "bets": 12,
+            "pass": 1113,
+            "correct": 7,
+            "hitRate": 0.5833,
+            "roi": 0.05,
+            "profit": 0.6,
+            "overBets": 10,
+            "underBets": 2,
+            "preMae": 6.5676,
+            "postMae": 6.521
+          },
+          "0.5": {
+            "rows": 1125,
+            "bets": 87,
+            "pass": 1038,
+            "correct": 57,
+            "hitRate": 0.6552,
+            "roi": 0.1793,
+            "profit": 15.6,
+            "overBets": 59,
+            "underBets": 28,
+            "preMae": 6.5676,
+            "postMae": 6.521
+          },
+          "1.5": {
+            "rows": 1125,
+            "bets": 12,
+            "pass": 1113,
+            "correct": 7,
+            "hitRate": 0.5833,
+            "roi": 0.05,
+            "profit": 0.6,
+            "overBets": 10,
+            "underBets": 2,
+            "preMae": 6.5676,
+            "postMae": 6.521
+          }
+        },
+        "byMoveSide": {
+          "0": {
+            "under": {
+              "rows": 43,
+              "bets": 43,
+              "pass": 0,
+              "correct": 27,
+              "hitRate": 0.6279,
+              "roi": 0.1302,
+              "profit": 5.6,
+              "overBets": 0,
+              "underBets": 43,
+              "preMae": 7.5193,
+              "postMae": 7.3567
+            },
+            "over": {
+              "rows": 71,
+              "bets": 71,
+              "pass": 0,
+              "correct": 47,
+              "hitRate": 0.662,
+              "roi": 0.1915,
+              "profit": 13.6,
+              "overBets": 71,
+              "underBets": 0,
+              "preMae": 7.7054,
+              "postMae": 7.3991
+            }
+          },
+          "1": {
+            "under": {
+              "rows": 29,
+              "bets": 29,
+              "pass": 0,
+              "correct": 19,
+              "hitRate": 0.6552,
+              "roi": 0.1793,
+              "profit": 5.2,
+              "overBets": 0,
+              "underBets": 29,
+              "preMae": 7.3404,
+              "postMae": 7.058
+            },
+            "over": {
+              "rows": 59,
+              "bets": 59,
+              "pass": 0,
+              "correct": 38,
+              "hitRate": 0.6441,
+              "roi": 0.1593,
+              "profit": 9.4,
+              "overBets": 59,
+              "underBets": 0,
+              "preMae": 7.2174,
+              "postMae": 6.9345
+            }
+          },
+          "2": {
+            "under": {
+              "rows": 2,
+              "bets": 2,
+              "pass": 0,
+              "correct": 0,
+              "hitRate": 0,
+              "roi": -1,
+              "profit": -2,
+              "overBets": 0,
+              "underBets": 2,
+              "preMae": 4.9873,
+              "postMae": 6.2788
+            },
+            "over": {
+              "rows": 10,
+              "bets": 10,
+              "pass": 0,
+              "correct": 7,
+              "hitRate": 0.7,
+              "roi": 0.26,
+              "profit": 2.6,
+              "overBets": 10,
+              "underBets": 0,
+              "preMae": 12.3675,
+              "postMae": 11.848
+            }
+          },
+          "0.5": {
+            "under": {
+              "rows": 28,
+              "bets": 28,
+              "pass": 0,
+              "correct": 19,
+              "hitRate": 0.6786,
+              "roi": 0.2214,
+              "profit": 6.2,
+              "overBets": 0,
+              "underBets": 28,
+              "preMae": 7.5823,
+              "postMae": 7.2999
+            },
+            "over": {
+              "rows": 59,
+              "bets": 59,
+              "pass": 0,
+              "correct": 38,
+              "hitRate": 0.6441,
+              "roi": 0.1593,
+              "profit": 9.4,
+              "overBets": 59,
+              "underBets": 0,
+              "preMae": 7.2174,
+              "postMae": 6.9345
+            }
+          },
+          "1.5": {
+            "under": {
+              "rows": 2,
+              "bets": 2,
+              "pass": 0,
+              "correct": 0,
+              "hitRate": 0,
+              "roi": -1,
+              "profit": -2,
+              "overBets": 0,
+              "underBets": 2,
+              "preMae": 4.9873,
+              "postMae": 6.2788
+            },
+            "over": {
+              "rows": 10,
+              "bets": 10,
+              "pass": 0,
+              "correct": 7,
+              "hitRate": 0.7,
+              "roi": 0.26,
+              "profit": 2.6,
+              "overBets": 10,
+              "underBets": 0,
+              "preMae": 12.3675,
+              "postMae": 11.848
+            }
+          }
+        },
+        "byLeagueMove0": {
+          "LCK": {
+            "rows": 150,
+            "bets": 6,
+            "pass": 144,
+            "correct": 5,
+            "hitRate": 0.8333,
+            "roi": 0.5,
+            "profit": 3,
+            "overBets": 0,
+            "underBets": 6,
+            "preMae": 6.7227,
+            "postMae": 6.6795
+          },
+          "LCKCL": {
+            "rows": 270,
+            "bets": 38,
+            "pass": 232,
+            "correct": 23,
+            "hitRate": 0.6053,
+            "roi": 0.0895,
+            "profit": 3.4,
+            "overBets": 21,
+            "underBets": 17,
+            "preMae": 7.1195,
+            "postMae": 7.0834
+          },
+          "LPL": {
+            "rows": 270,
+            "bets": 48,
+            "pass": 222,
+            "correct": 34,
+            "hitRate": 0.7083,
+            "roi": 0.275,
+            "profit": 13.2,
+            "overBets": 43,
+            "underBets": 5,
+            "preMae": 6.3246,
+            "postMae": 6.249
+          },
+          "CBLOL": {
+            "rows": 129,
+            "bets": 0,
+            "pass": 129,
+            "correct": 0,
+            "hitRate": null,
+            "roi": null,
+            "profit": 0,
+            "overBets": 0,
+            "underBets": 0,
+            "preMae": 6.2431,
+            "postMae": 6.2164
+          },
+          "LEC": {
+            "rows": 198,
+            "bets": 20,
+            "pass": 178,
+            "correct": 10,
+            "hitRate": 0.5,
+            "roi": -0.1,
+            "profit": -2,
+            "overBets": 6,
+            "underBets": 14,
+            "preMae": 6.6914,
+            "postMae": 6.6598
+          },
+          "LCS": {
+            "rows": 108,
+            "bets": 2,
+            "pass": 106,
+            "correct": 2,
+            "hitRate": 1,
+            "roi": 0.8,
+            "profit": 1.6,
+            "overBets": 1,
+            "underBets": 1,
+            "preMae": 5.74,
+            "postMae": 5.6842
+          }
+        }
+      },
+      {
+        "name": "partial-top-jungle",
+        "label": "TOP+JUNGLE",
+        "type": "partial",
+        "config": {
+          "name": "partial-top-jungle",
+          "label": "TOP+JUNGLE",
+          "roles": [
+            "TOP",
+            "JUNGLE"
+          ]
+        },
+        "byMove": {
+          "0": {
+            "rows": 1125,
+            "bets": 137,
+            "pass": 988,
+            "correct": 92,
+            "hitRate": 0.6715,
+            "roi": 0.2088,
+            "profit": 28.6,
+            "overBets": 110,
+            "underBets": 27,
+            "preMae": 6.5676,
+            "postMae": 6.523
+          },
+          "1": {
+            "rows": 1125,
+            "bets": 99,
+            "pass": 1026,
+            "correct": 62,
+            "hitRate": 0.6263,
+            "roi": 0.1273,
+            "profit": 12.6,
+            "overBets": 81,
+            "underBets": 18,
+            "preMae": 6.5676,
+            "postMae": 6.523
+          },
+          "2": {
+            "rows": 1125,
+            "bets": 20,
+            "pass": 1105,
+            "correct": 10,
+            "hitRate": 0.5,
+            "roi": -0.1,
+            "profit": -2,
+            "overBets": 19,
+            "underBets": 1,
+            "preMae": 6.5676,
+            "postMae": 6.523
+          },
+          "0.5": {
+            "rows": 1125,
+            "bets": 93,
+            "pass": 1032,
+            "correct": 62,
+            "hitRate": 0.6667,
+            "roi": 0.2,
+            "profit": 18.6,
+            "overBets": 77,
+            "underBets": 16,
+            "preMae": 6.5676,
+            "postMae": 6.523
+          },
+          "1.5": {
+            "rows": 1125,
+            "bets": 19,
+            "pass": 1106,
+            "correct": 10,
+            "hitRate": 0.5263,
+            "roi": -0.0526,
+            "profit": -1,
+            "overBets": 18,
+            "underBets": 1,
+            "preMae": 6.5676,
+            "postMae": 6.523
+          }
+        },
+        "byMoveSide": {
+          "0": {
+            "under": {
+              "rows": 27,
+              "bets": 27,
+              "pass": 0,
+              "correct": 21,
+              "hitRate": 0.7778,
+              "roi": 0.4,
+              "profit": 10.8,
+              "overBets": 0,
+              "underBets": 27,
+              "preMae": 6.2664,
+              "postMae": 5.8
+            },
+            "over": {
+              "rows": 110,
+              "bets": 110,
+              "pass": 0,
+              "correct": 71,
+              "hitRate": 0.6455,
+              "roi": 0.1618,
+              "profit": 17.8,
+              "overBets": 110,
+              "underBets": 0,
+              "preMae": 7.316,
+              "postMae": 7.0787
+            }
+          },
+          "1": {
+            "under": {
+              "rows": 18,
+              "bets": 18,
+              "pass": 0,
+              "correct": 12,
+              "hitRate": 0.6667,
+              "roi": 0.2,
+              "profit": 3.6,
+              "overBets": 0,
+              "underBets": 18,
+              "preMae": 6.8448,
+              "postMae": 6.4423
+            },
+            "over": {
+              "rows": 81,
+              "bets": 81,
+              "pass": 0,
+              "correct": 50,
+              "hitRate": 0.6173,
+              "roi": 0.1111,
+              "profit": 9,
+              "overBets": 81,
+              "underBets": 0,
+              "preMae": 7.4002,
+              "postMae": 7.1239
+            }
+          },
+          "2": {
+            "over": {
+              "rows": 19,
+              "bets": 19,
+              "pass": 0,
+              "correct": 9,
+              "hitRate": 0.4737,
+              "roi": -0.1474,
+              "profit": -2.8,
+              "overBets": 19,
+              "underBets": 0,
+              "preMae": 6.8153,
+              "postMae": 6.615
+            },
+            "under": {
+              "rows": 1,
+              "bets": 1,
+              "pass": 0,
+              "correct": 1,
+              "hitRate": 1,
+              "roi": 0.8,
+              "profit": 0.8,
+              "overBets": 0,
+              "underBets": 1,
+              "preMae": 5.8477,
+              "postMae": 4.4155
+            }
+          },
+          "0.5": {
+            "under": {
+              "rows": 16,
+              "bets": 16,
+              "pass": 0,
+              "correct": 12,
+              "hitRate": 0.75,
+              "roi": 0.35,
+              "profit": 5.6,
+              "overBets": 0,
+              "underBets": 16,
+              "preMae": 7.6521,
+              "postMae": 7.1915
+            },
+            "over": {
+              "rows": 77,
+              "bets": 77,
+              "pass": 0,
+              "correct": 50,
+              "hitRate": 0.6494,
+              "roi": 0.1688,
+              "profit": 13,
+              "overBets": 77,
+              "underBets": 0,
+              "preMae": 7.7539,
+              "postMae": 7.4757
+            }
+          },
+          "1.5": {
+            "over": {
+              "rows": 18,
+              "bets": 18,
+              "pass": 0,
+              "correct": 9,
+              "hitRate": 0.5,
+              "roi": -0.1,
+              "profit": -1.8,
+              "overBets": 18,
+              "underBets": 0,
+              "preMae": 7.1012,
+              "postMae": 6.9698
+            },
+            "under": {
+              "rows": 1,
+              "bets": 1,
+              "pass": 0,
+              "correct": 1,
+              "hitRate": 1,
+              "roi": 0.8,
+              "profit": 0.8,
+              "overBets": 0,
+              "underBets": 1,
+              "preMae": 5.8477,
+              "postMae": 4.4155
+            }
+          }
+        },
+        "byLeagueMove0": {
+          "LCK": {
+            "rows": 150,
+            "bets": 13,
+            "pass": 137,
+            "correct": 11,
+            "hitRate": 0.8462,
+            "roi": 0.5231,
+            "profit": 6.8,
+            "overBets": 4,
+            "underBets": 9,
+            "preMae": 6.7227,
+            "postMae": 6.6765
+          },
+          "LCKCL": {
+            "rows": 270,
+            "bets": 56,
+            "pass": 214,
+            "correct": 35,
+            "hitRate": 0.625,
+            "roi": 0.125,
+            "profit": 7,
+            "overBets": 48,
+            "underBets": 8,
+            "preMae": 7.1195,
+            "postMae": 7.0531
+          },
+          "LPL": {
+            "rows": 270,
+            "bets": 49,
+            "pass": 221,
+            "correct": 33,
+            "hitRate": 0.6735,
+            "roi": 0.2122,
+            "profit": 10.4,
+            "overBets": 47,
+            "underBets": 2,
+            "preMae": 6.3246,
+            "postMae": 6.2793
+          },
+          "CBLOL": {
+            "rows": 129,
+            "bets": 0,
+            "pass": 129,
+            "correct": 0,
+            "hitRate": null,
+            "roi": null,
+            "profit": 0,
+            "overBets": 0,
+            "underBets": 0,
+            "preMae": 6.2431,
+            "postMae": 6.2525
+          },
+          "LEC": {
+            "rows": 198,
+            "bets": 19,
+            "pass": 179,
+            "correct": 13,
+            "hitRate": 0.6842,
+            "roi": 0.2316,
+            "profit": 4.4,
+            "overBets": 11,
+            "underBets": 8,
+            "preMae": 6.6914,
+            "postMae": 6.6398
+          },
+          "LCS": {
+            "rows": 108,
+            "bets": 0,
+            "pass": 108,
+            "correct": 0,
+            "hitRate": null,
+            "roi": null,
+            "profit": 0,
+            "overBets": 0,
+            "underBets": 0,
+            "preMae": 5.74,
+            "postMae": 5.7027
+          }
+        }
+      },
+      {
+        "name": "partial-all-known",
+        "label": "Todas roles conhecidas",
+        "type": "partial",
+        "config": {
+          "name": "partial-all-known",
+          "label": "Todas roles conhecidas",
+          "roles": [
+            "TOP",
+            "JUNGLE",
+            "MID",
+            "ADC",
+            "SUP"
+          ]
+        },
+        "byMove": {
+          "0": {
+            "rows": 1125,
+            "bets": 286,
+            "pass": 839,
+            "correct": 182,
+            "hitRate": 0.6364,
+            "roi": 0.1455,
+            "profit": 41.6,
+            "overBets": 179,
+            "underBets": 107,
+            "preMae": 6.5676,
+            "postMae": 6.4823
+          },
+          "1": {
+            "rows": 1125,
+            "bets": 214,
+            "pass": 911,
+            "correct": 128,
+            "hitRate": 0.5981,
+            "roi": 0.0766,
+            "profit": 16.4,
+            "overBets": 136,
+            "underBets": 78,
+            "preMae": 6.5676,
+            "postMae": 6.4823
+          },
+          "2": {
+            "rows": 1125,
+            "bets": 95,
+            "pass": 1030,
+            "correct": 57,
+            "hitRate": 0.6,
+            "roi": 0.08,
+            "profit": 7.6,
+            "overBets": 67,
+            "underBets": 28,
+            "preMae": 6.5676,
+            "postMae": 6.4823
+          },
+          "0.5": {
+            "rows": 1125,
+            "bets": 203,
+            "pass": 922,
+            "correct": 128,
+            "hitRate": 0.6305,
+            "roi": 0.135,
+            "profit": 27.4,
+            "overBets": 131,
+            "underBets": 72,
+            "preMae": 6.5676,
+            "postMae": 6.4823
+          },
+          "1.5": {
+            "rows": 1125,
+            "bets": 92,
+            "pass": 1033,
+            "correct": 57,
+            "hitRate": 0.6196,
+            "roi": 0.1152,
+            "profit": 10.6,
+            "overBets": 64,
+            "underBets": 28,
+            "preMae": 6.5676,
+            "postMae": 6.4823
+          }
+        },
+        "byMoveSide": {
+          "0": {
+            "under": {
+              "rows": 107,
+              "bets": 107,
+              "pass": 0,
+              "correct": 66,
+              "hitRate": 0.6168,
+              "roi": 0.1103,
+              "profit": 11.8,
+              "overBets": 0,
+              "underBets": 107,
+              "preMae": 7.1117,
+              "postMae": 6.8987
+            },
+            "over": {
+              "rows": 179,
+              "bets": 179,
+              "pass": 0,
+              "correct": 116,
+              "hitRate": 0.648,
+              "roi": 0.1665,
+              "profit": 29.8,
+              "overBets": 179,
+              "underBets": 0,
+              "preMae": 7.2409,
+              "postMae": 6.9097
+            }
+          },
+          "1": {
+            "under": {
+              "rows": 78,
+              "bets": 78,
+              "pass": 0,
+              "correct": 45,
+              "hitRate": 0.5769,
+              "roi": 0.0385,
+              "profit": 3,
+              "overBets": 0,
+              "underBets": 78,
+              "preMae": 7.4752,
+              "postMae": 7.1937
+            },
+            "over": {
+              "rows": 136,
+              "bets": 136,
+              "pass": 0,
+              "correct": 83,
+              "hitRate": 0.6103,
+              "roi": 0.0985,
+              "profit": 13.4,
+              "overBets": 136,
+              "underBets": 0,
+              "preMae": 6.6541,
+              "postMae": 6.3285
+            }
+          },
+          "2": {
+            "under": {
+              "rows": 28,
+              "bets": 28,
+              "pass": 0,
+              "correct": 18,
+              "hitRate": 0.6429,
+              "roi": 0.1571,
+              "profit": 4.4,
+              "overBets": 0,
+              "underBets": 28,
+              "preMae": 8.1806,
+              "postMae": 7.6913
+            },
+            "over": {
+              "rows": 67,
+              "bets": 67,
+              "pass": 0,
+              "correct": 39,
+              "hitRate": 0.5821,
+              "roi": 0.0478,
+              "profit": 3.2,
+              "overBets": 67,
+              "underBets": 0,
+              "preMae": 6.9842,
+              "postMae": 6.5287
+            }
+          },
+          "0.5": {
+            "under": {
+              "rows": 72,
+              "bets": 72,
+              "pass": 0,
+              "correct": 45,
+              "hitRate": 0.625,
+              "roi": 0.125,
+              "profit": 9,
+              "overBets": 0,
+              "underBets": 72,
+              "preMae": 8.0533,
+              "postMae": 7.7466
+            },
+            "over": {
+              "rows": 131,
+              "bets": 131,
+              "pass": 0,
+              "correct": 83,
+              "hitRate": 0.6336,
+              "roi": 0.1405,
+              "profit": 18.4,
+              "overBets": 131,
+              "underBets": 0,
+              "preMae": 6.8899,
+              "postMae": 6.5426
+            }
+          },
+          "1.5": {
+            "under": {
+              "rows": 28,
+              "bets": 28,
+              "pass": 0,
+              "correct": 18,
+              "hitRate": 0.6429,
+              "roi": 0.1571,
+              "profit": 4.4,
+              "overBets": 0,
+              "underBets": 28,
+              "preMae": 8.1806,
+              "postMae": 7.6913
+            },
+            "over": {
+              "rows": 64,
+              "bets": 64,
+              "pass": 0,
+              "correct": 39,
+              "hitRate": 0.6094,
+              "roi": 0.0969,
+              "profit": 6.2,
+              "overBets": 64,
+              "underBets": 0,
+              "preMae": 7.2414,
+              "postMae": 6.819
+            }
+          }
+        },
+        "byLeagueMove0": {
+          "LCK": {
+            "rows": 150,
+            "bets": 26,
+            "pass": 124,
+            "correct": 17,
+            "hitRate": 0.6538,
+            "roi": 0.1769,
+            "profit": 4.6,
+            "overBets": 1,
+            "underBets": 25,
+            "preMae": 6.7227,
+            "postMae": 6.6624
+          },
+          "LCKCL": {
+            "rows": 270,
+            "bets": 101,
+            "pass": 169,
+            "correct": 63,
+            "hitRate": 0.6238,
+            "roi": 0.1228,
+            "profit": 12.4,
+            "overBets": 64,
+            "underBets": 37,
+            "preMae": 7.1195,
+            "postMae": 6.9915
+          },
+          "LPL": {
+            "rows": 270,
+            "bets": 99,
+            "pass": 171,
+            "correct": 65,
+            "hitRate": 0.6566,
+            "roi": 0.1818,
+            "profit": 18,
+            "overBets": 89,
+            "underBets": 10,
+            "preMae": 6.3246,
+            "postMae": 6.2224
+          },
+          "CBLOL": {
+            "rows": 129,
+            "bets": 0,
+            "pass": 129,
+            "correct": 0,
+            "hitRate": null,
+            "roi": null,
+            "profit": 0,
+            "overBets": 0,
+            "underBets": 0,
+            "preMae": 6.2431,
+            "postMae": 6.2383
+          },
+          "LEC": {
+            "rows": 198,
+            "bets": 55,
+            "pass": 143,
+            "correct": 32,
+            "hitRate": 0.5818,
+            "roi": 0.0473,
+            "profit": 2.6,
+            "overBets": 21,
+            "underBets": 34,
+            "preMae": 6.6914,
+            "postMae": 6.6166
+          },
+          "LCS": {
+            "rows": 108,
+            "bets": 5,
+            "pass": 103,
+            "correct": 5,
+            "hitRate": 1,
+            "roi": 0.8,
+            "profit": 4,
+            "overBets": 4,
+            "underBets": 1,
+            "preMae": 5.74,
+            "postMae": 5.6538
+          }
+        }
+      }
+    ],
+    "approved": [],
+    "best": {
+      "move0": {
+        "name": "baseline",
+        "label": "Baseline atual",
+        "type": "full",
+        "config": {
+          "name": "baseline",
+          "label": "Baseline atual"
+        },
+        "byMove": {
+          "0": {
+            "rows": 1125,
+            "bets": 345,
+            "pass": 780,
+            "correct": 220,
+            "hitRate": 0.6377,
+            "roi": 0.1478,
+            "profit": 51,
+            "overBets": 216,
+            "underBets": 129,
+            "preMae": 6.5676,
+            "postMae": 6.4699
+          },
+          "1": {
+            "rows": 1125,
+            "bets": 261,
+            "pass": 864,
+            "correct": 159,
+            "hitRate": 0.6092,
+            "roi": 0.0966,
+            "profit": 25.2,
+            "overBets": 165,
+            "underBets": 96,
+            "preMae": 6.5676,
+            "postMae": 6.4699
+          },
+          "2": {
+            "rows": 1125,
+            "bets": 143,
+            "pass": 982,
+            "correct": 85,
+            "hitRate": 0.5944,
+            "roi": 0.0699,
+            "profit": 10,
+            "overBets": 94,
+            "underBets": 49,
+            "preMae": 6.5676,
+            "postMae": 6.4699
+          },
+          "0.5": {
+            "rows": 1125,
+            "bets": 249,
+            "pass": 876,
+            "correct": 159,
+            "hitRate": 0.6386,
+            "roi": 0.1494,
+            "profit": 37.2,
+            "overBets": 160,
+            "underBets": 89,
+            "preMae": 6.5676,
+            "postMae": 6.4699
+          },
+          "1.5": {
+            "rows": 1125,
+            "bets": 138,
+            "pass": 987,
+            "correct": 85,
+            "hitRate": 0.6159,
+            "roi": 0.1087,
+            "profit": 15,
+            "overBets": 89,
+            "underBets": 49,
+            "preMae": 6.5676,
+            "postMae": 6.4699
+          }
+        },
+        "byMoveSide": {
+          "0": {
+            "under": {
+              "rows": 129,
+              "bets": 129,
+              "pass": 0,
+              "correct": 84,
+              "hitRate": 0.6512,
+              "roi": 0.1721,
+              "profit": 22.2,
+              "overBets": 0,
+              "underBets": 129,
+              "preMae": 6.8297,
+              "postMae": 6.5446
+            },
+            "over": {
+              "rows": 216,
+              "bets": 216,
+              "pass": 0,
+              "correct": 136,
+              "hitRate": 0.6296,
+              "roi": 0.1333,
+              "profit": 28.8,
+              "overBets": 216,
+              "underBets": 0,
+              "preMae": 7.1725,
+              "postMae": 6.8563
+            }
+          },
+          "1": {
+            "under": {
+              "rows": 96,
+              "bets": 96,
+              "pass": 0,
+              "correct": 59,
+              "hitRate": 0.6146,
+              "roi": 0.1063,
+              "profit": 10.2,
+              "overBets": 0,
+              "underBets": 96,
+              "preMae": 7.072,
+              "postMae": 6.7103
+            },
+            "over": {
+              "rows": 165,
+              "bets": 165,
+              "pass": 0,
+              "correct": 100,
+              "hitRate": 0.6061,
+              "roi": 0.0909,
+              "profit": 15,
+              "overBets": 165,
+              "underBets": 0,
+              "preMae": 7.1029,
+              "postMae": 6.7615
+            }
+          },
+          "2": {
+            "under": {
+              "rows": 49,
+              "bets": 49,
+              "pass": 0,
+              "correct": 30,
+              "hitRate": 0.6122,
+              "roi": 0.102,
+              "profit": 5,
+              "overBets": 0,
+              "underBets": 49,
+              "preMae": 7.7619,
+              "postMae": 7.3458
+            },
+            "over": {
+              "rows": 94,
+              "bets": 94,
+              "pass": 0,
+              "correct": 55,
+              "hitRate": 0.5851,
+              "roi": 0.0532,
+              "profit": 5,
+              "overBets": 94,
+              "underBets": 0,
+              "preMae": 7.3984,
+              "postMae": 6.9087
+            }
+          },
+          "0.5": {
+            "under": {
+              "rows": 89,
+              "bets": 89,
+              "pass": 0,
+              "correct": 59,
+              "hitRate": 0.6629,
+              "roi": 0.1933,
+              "profit": 17.2,
+              "overBets": 0,
+              "underBets": 89,
+              "preMae": 7.588,
+              "postMae": 7.1926
+            },
+            "over": {
+              "rows": 160,
+              "bets": 160,
+              "pass": 0,
+              "correct": 100,
+              "hitRate": 0.625,
+              "roi": 0.125,
+              "profit": 20,
+              "overBets": 160,
+              "underBets": 0,
+              "preMae": 7.31,
+              "postMae": 6.9479
+            }
+          },
+          "1.5": {
+            "under": {
+              "rows": 49,
+              "bets": 49,
+              "pass": 0,
+              "correct": 30,
+              "hitRate": 0.6122,
+              "roi": 0.102,
+              "profit": 5,
+              "overBets": 0,
+              "underBets": 49,
+              "preMae": 7.7619,
+              "postMae": 7.3458
+            },
+            "over": {
+              "rows": 89,
+              "bets": 89,
+              "pass": 0,
+              "correct": 55,
+              "hitRate": 0.618,
+              "roi": 0.1124,
+              "profit": 10,
+              "overBets": 89,
+              "underBets": 0,
+              "preMae": 7.7367,
+              "postMae": 7.2725
+            }
+          }
+        },
+        "byLeagueMove0": {
+          "LCK": {
+            "rows": 150,
+            "bets": 34,
+            "pass": 116,
+            "correct": 24,
+            "hitRate": 0.7059,
+            "roi": 0.2706,
+            "profit": 9.2,
+            "overBets": 4,
+            "underBets": 30,
+            "preMae": 6.7227,
+            "postMae": 6.6611
+          },
+          "LCKCL": {
+            "rows": 270,
+            "bets": 118,
+            "pass": 152,
+            "correct": 77,
+            "hitRate": 0.6525,
+            "roi": 0.1746,
+            "profit": 20.6,
+            "overBets": 74,
+            "underBets": 44,
+            "preMae": 7.1195,
+            "postMae": 6.9762
+          },
+          "LPL": {
+            "rows": 270,
+            "bets": 108,
+            "pass": 162,
+            "correct": 68,
+            "hitRate": 0.6296,
+            "roi": 0.1333,
+            "profit": 14.4,
+            "overBets": 99,
+            "underBets": 9,
+            "preMae": 6.3246,
+            "postMae": 6.2015
+          },
+          "CBLOL": {
+            "rows": 129,
+            "bets": 0,
+            "pass": 129,
+            "correct": 0,
+            "hitRate": null,
+            "roi": null,
+            "profit": 0,
+            "overBets": 0,
+            "underBets": 0,
+            "preMae": 6.2431,
+            "postMae": 6.2344
+          },
+          "LEC": {
+            "rows": 198,
+            "bets": 71,
+            "pass": 127,
+            "correct": 41,
+            "hitRate": 0.5775,
+            "roi": 0.0394,
+            "profit": 2.8,
+            "overBets": 31,
+            "underBets": 40,
+            "preMae": 6.6914,
+            "postMae": 6.6047
+          },
+          "LCS": {
+            "rows": 108,
+            "bets": 14,
+            "pass": 94,
+            "correct": 10,
+            "hitRate": 0.7143,
+            "roi": 0.2857,
+            "profit": 4,
+            "overBets": 8,
+            "underBets": 6,
+            "preMae": 5.74,
+            "postMae": 5.6437
+          }
+        }
+      },
+      "move1": {
+        "name": "min-league-20",
+        "label": "C: minLeagueN 20",
+        "type": "full",
+        "config": {
+          "name": "min-league-20",
+          "label": "C: minLeagueN 20",
+          "minLeagueN": 20
+        },
+        "byMove": {
+          "0": {
+            "rows": 1125,
+            "bets": 356,
+            "pass": 769,
+            "correct": 226,
+            "hitRate": 0.6348,
+            "roi": 0.1427,
+            "profit": 50.8,
+            "overBets": 225,
+            "underBets": 131,
+            "preMae": 6.5676,
+            "postMae": 6.4684
+          },
+          "1": {
+            "rows": 1125,
+            "bets": 274,
+            "pass": 851,
+            "correct": 167,
+            "hitRate": 0.6095,
+            "roi": 0.0971,
+            "profit": 26.6,
+            "overBets": 175,
+            "underBets": 99,
+            "preMae": 6.5676,
+            "postMae": 6.4684
+          },
+          "2": {
+            "rows": 1125,
+            "bets": 147,
+            "pass": 978,
+            "correct": 88,
+            "hitRate": 0.5986,
+            "roi": 0.0776,
+            "profit": 11.4,
+            "overBets": 97,
+            "underBets": 50,
+            "preMae": 6.5676,
+            "postMae": 6.4684
+          },
+          "0.5": {
+            "rows": 1125,
+            "bets": 262,
+            "pass": 863,
+            "correct": 167,
+            "hitRate": 0.6374,
+            "roi": 0.1473,
+            "profit": 38.6,
+            "overBets": 170,
+            "underBets": 92,
+            "preMae": 6.5676,
+            "postMae": 6.4684
+          },
+          "1.5": {
+            "rows": 1125,
+            "bets": 142,
+            "pass": 983,
+            "correct": 88,
+            "hitRate": 0.6197,
+            "roi": 0.1155,
+            "profit": 16.4,
+            "overBets": 92,
+            "underBets": 50,
+            "preMae": 6.5676,
+            "postMae": 6.4684
+          }
+        },
+        "byMoveSide": {
+          "0": {
+            "under": {
+              "rows": 131,
+              "bets": 131,
+              "pass": 0,
+              "correct": 85,
+              "hitRate": 0.6489,
+              "roi": 0.1679,
+              "profit": 22,
+              "overBets": 0,
+              "underBets": 131,
+              "preMae": 6.839,
+              "postMae": 6.5542
+            },
+            "over": {
+              "rows": 225,
+              "bets": 225,
+              "pass": 0,
+              "correct": 141,
+              "hitRate": 0.6267,
+              "roi": 0.128,
+              "profit": 28.8,
+              "overBets": 225,
+              "underBets": 0,
+              "preMae": 7.1061,
+              "postMae": 6.796
+            }
+          },
+          "1": {
+            "under": {
+              "rows": 99,
+              "bets": 99,
+              "pass": 0,
+              "correct": 60,
+              "hitRate": 0.6061,
+              "roi": 0.0909,
+              "profit": 9,
+              "overBets": 0,
+              "underBets": 99,
+              "preMae": 7.0244,
+              "postMae": 6.6818
+            },
+            "over": {
+              "rows": 175,
+              "bets": 175,
+              "pass": 0,
+              "correct": 107,
+              "hitRate": 0.6114,
+              "roi": 0.1006,
+              "profit": 17.6,
+              "overBets": 175,
+              "underBets": 0,
+              "preMae": 7.1271,
+              "postMae": 6.7759
+            }
+          },
+          "2": {
+            "under": {
+              "rows": 50,
+              "bets": 50,
+              "pass": 0,
+              "correct": 30,
+              "hitRate": 0.6,
+              "roi": 0.08,
+              "profit": 4,
+              "overBets": 0,
+              "underBets": 50,
+              "preMae": 7.6391,
+              "postMae": 7.2524
+            },
+            "over": {
+              "rows": 97,
+              "bets": 97,
+              "pass": 0,
+              "correct": 58,
+              "hitRate": 0.5979,
+              "roi": 0.0763,
+              "profit": 7.4,
+              "overBets": 97,
+              "underBets": 0,
+              "preMae": 7.5237,
+              "postMae": 7.0064
+            }
+          },
+          "0.5": {
+            "under": {
+              "rows": 92,
+              "bets": 92,
+              "pass": 0,
+              "correct": 60,
+              "hitRate": 0.6522,
+              "roi": 0.1739,
+              "profit": 16,
+              "overBets": 0,
+              "underBets": 92,
+              "preMae": 7.5199,
+              "postMae": 7.1447
+            },
+            "over": {
+              "rows": 170,
+              "bets": 170,
+              "pass": 0,
+              "correct": 107,
+              "hitRate": 0.6294,
+              "roi": 0.1329,
+              "profit": 22.6,
+              "overBets": 170,
+              "underBets": 0,
+              "preMae": 7.3227,
+              "postMae": 6.9514
+            }
+          },
+          "1.5": {
+            "under": {
+              "rows": 50,
+              "bets": 50,
+              "pass": 0,
+              "correct": 30,
+              "hitRate": 0.6,
+              "roi": 0.08,
+              "profit": 4,
+              "overBets": 0,
+              "underBets": 50,
+              "preMae": 7.6391,
+              "postMae": 7.2524
+            },
+            "over": {
+              "rows": 92,
+              "bets": 92,
+              "pass": 0,
+              "correct": 58,
+              "hitRate": 0.6304,
+              "roi": 0.1348,
+              "profit": 12.4,
+              "overBets": 92,
+              "underBets": 0,
+              "preMae": 7.8577,
+              "postMae": 7.3635
+            }
+          }
+        },
+        "byLeagueMove0": {
+          "LCK": {
+            "rows": 150,
+            "bets": 35,
+            "pass": 115,
+            "correct": 24,
+            "hitRate": 0.6857,
+            "roi": 0.2343,
+            "profit": 8.2,
+            "overBets": 5,
+            "underBets": 30,
+            "preMae": 6.7227,
+            "postMae": 6.661
+          },
+          "LCKCL": {
+            "rows": 270,
+            "bets": 121,
+            "pass": 149,
+            "correct": 79,
+            "hitRate": 0.6529,
+            "roi": 0.1752,
+            "profit": 21.2,
+            "overBets": 77,
+            "underBets": 44,
+            "preMae": 7.1195,
+            "postMae": 6.9736
+          },
+          "LPL": {
+            "rows": 270,
+            "bets": 109,
+            "pass": 161,
+            "correct": 69,
+            "hitRate": 0.633,
+            "roi": 0.1394,
+            "profit": 15.2,
+            "overBets": 99,
+            "underBets": 10,
+            "preMae": 6.3246,
+            "postMae": 6.2005
+          },
+          "CBLOL": {
+            "rows": 129,
+            "bets": 0,
+            "pass": 129,
+            "correct": 0,
+            "hitRate": null,
+            "roi": null,
+            "profit": 0,
+            "overBets": 0,
+            "underBets": 0,
+            "preMae": 6.2431,
+            "postMae": 6.2334
+          },
+          "LEC": {
+            "rows": 198,
+            "bets": 73,
+            "pass": 125,
+            "correct": 42,
+            "hitRate": 0.5753,
+            "roi": 0.0356,
+            "profit": 2.6,
+            "overBets": 32,
+            "underBets": 41,
+            "preMae": 6.6914,
+            "postMae": 6.6039
+          },
+          "LCS": {
+            "rows": 108,
+            "bets": 18,
+            "pass": 90,
+            "correct": 12,
+            "hitRate": 0.6667,
+            "roi": 0.2,
+            "profit": 3.6,
+            "overBets": 12,
+            "underBets": 6,
+            "preMae": 5.74,
+            "postMae": 5.6405
+          }
+        }
+      },
+      "overMove1": {
+        "name": "min-league-20",
+        "label": "C: minLeagueN 20",
+        "type": "full",
+        "config": {
+          "name": "min-league-20",
+          "label": "C: minLeagueN 20",
+          "minLeagueN": 20
+        },
+        "byMove": {
+          "0": {
+            "rows": 1125,
+            "bets": 356,
+            "pass": 769,
+            "correct": 226,
+            "hitRate": 0.6348,
+            "roi": 0.1427,
+            "profit": 50.8,
+            "overBets": 225,
+            "underBets": 131,
+            "preMae": 6.5676,
+            "postMae": 6.4684
+          },
+          "1": {
+            "rows": 1125,
+            "bets": 274,
+            "pass": 851,
+            "correct": 167,
+            "hitRate": 0.6095,
+            "roi": 0.0971,
+            "profit": 26.6,
+            "overBets": 175,
+            "underBets": 99,
+            "preMae": 6.5676,
+            "postMae": 6.4684
+          },
+          "2": {
+            "rows": 1125,
+            "bets": 147,
+            "pass": 978,
+            "correct": 88,
+            "hitRate": 0.5986,
+            "roi": 0.0776,
+            "profit": 11.4,
+            "overBets": 97,
+            "underBets": 50,
+            "preMae": 6.5676,
+            "postMae": 6.4684
+          },
+          "0.5": {
+            "rows": 1125,
+            "bets": 262,
+            "pass": 863,
+            "correct": 167,
+            "hitRate": 0.6374,
+            "roi": 0.1473,
+            "profit": 38.6,
+            "overBets": 170,
+            "underBets": 92,
+            "preMae": 6.5676,
+            "postMae": 6.4684
+          },
+          "1.5": {
+            "rows": 1125,
+            "bets": 142,
+            "pass": 983,
+            "correct": 88,
+            "hitRate": 0.6197,
+            "roi": 0.1155,
+            "profit": 16.4,
+            "overBets": 92,
+            "underBets": 50,
+            "preMae": 6.5676,
+            "postMae": 6.4684
+          }
+        },
+        "byMoveSide": {
+          "0": {
+            "under": {
+              "rows": 131,
+              "bets": 131,
+              "pass": 0,
+              "correct": 85,
+              "hitRate": 0.6489,
+              "roi": 0.1679,
+              "profit": 22,
+              "overBets": 0,
+              "underBets": 131,
+              "preMae": 6.839,
+              "postMae": 6.5542
+            },
+            "over": {
+              "rows": 225,
+              "bets": 225,
+              "pass": 0,
+              "correct": 141,
+              "hitRate": 0.6267,
+              "roi": 0.128,
+              "profit": 28.8,
+              "overBets": 225,
+              "underBets": 0,
+              "preMae": 7.1061,
+              "postMae": 6.796
+            }
+          },
+          "1": {
+            "under": {
+              "rows": 99,
+              "bets": 99,
+              "pass": 0,
+              "correct": 60,
+              "hitRate": 0.6061,
+              "roi": 0.0909,
+              "profit": 9,
+              "overBets": 0,
+              "underBets": 99,
+              "preMae": 7.0244,
+              "postMae": 6.6818
+            },
+            "over": {
+              "rows": 175,
+              "bets": 175,
+              "pass": 0,
+              "correct": 107,
+              "hitRate": 0.6114,
+              "roi": 0.1006,
+              "profit": 17.6,
+              "overBets": 175,
+              "underBets": 0,
+              "preMae": 7.1271,
+              "postMae": 6.7759
+            }
+          },
+          "2": {
+            "under": {
+              "rows": 50,
+              "bets": 50,
+              "pass": 0,
+              "correct": 30,
+              "hitRate": 0.6,
+              "roi": 0.08,
+              "profit": 4,
+              "overBets": 0,
+              "underBets": 50,
+              "preMae": 7.6391,
+              "postMae": 7.2524
+            },
+            "over": {
+              "rows": 97,
+              "bets": 97,
+              "pass": 0,
+              "correct": 58,
+              "hitRate": 0.5979,
+              "roi": 0.0763,
+              "profit": 7.4,
+              "overBets": 97,
+              "underBets": 0,
+              "preMae": 7.5237,
+              "postMae": 7.0064
+            }
+          },
+          "0.5": {
+            "under": {
+              "rows": 92,
+              "bets": 92,
+              "pass": 0,
+              "correct": 60,
+              "hitRate": 0.6522,
+              "roi": 0.1739,
+              "profit": 16,
+              "overBets": 0,
+              "underBets": 92,
+              "preMae": 7.5199,
+              "postMae": 7.1447
+            },
+            "over": {
+              "rows": 170,
+              "bets": 170,
+              "pass": 0,
+              "correct": 107,
+              "hitRate": 0.6294,
+              "roi": 0.1329,
+              "profit": 22.6,
+              "overBets": 170,
+              "underBets": 0,
+              "preMae": 7.3227,
+              "postMae": 6.9514
+            }
+          },
+          "1.5": {
+            "under": {
+              "rows": 50,
+              "bets": 50,
+              "pass": 0,
+              "correct": 30,
+              "hitRate": 0.6,
+              "roi": 0.08,
+              "profit": 4,
+              "overBets": 0,
+              "underBets": 50,
+              "preMae": 7.6391,
+              "postMae": 7.2524
+            },
+            "over": {
+              "rows": 92,
+              "bets": 92,
+              "pass": 0,
+              "correct": 58,
+              "hitRate": 0.6304,
+              "roi": 0.1348,
+              "profit": 12.4,
+              "overBets": 92,
+              "underBets": 0,
+              "preMae": 7.8577,
+              "postMae": 7.3635
+            }
+          }
+        },
+        "byLeagueMove0": {
+          "LCK": {
+            "rows": 150,
+            "bets": 35,
+            "pass": 115,
+            "correct": 24,
+            "hitRate": 0.6857,
+            "roi": 0.2343,
+            "profit": 8.2,
+            "overBets": 5,
+            "underBets": 30,
+            "preMae": 6.7227,
+            "postMae": 6.661
+          },
+          "LCKCL": {
+            "rows": 270,
+            "bets": 121,
+            "pass": 149,
+            "correct": 79,
+            "hitRate": 0.6529,
+            "roi": 0.1752,
+            "profit": 21.2,
+            "overBets": 77,
+            "underBets": 44,
+            "preMae": 7.1195,
+            "postMae": 6.9736
+          },
+          "LPL": {
+            "rows": 270,
+            "bets": 109,
+            "pass": 161,
+            "correct": 69,
+            "hitRate": 0.633,
+            "roi": 0.1394,
+            "profit": 15.2,
+            "overBets": 99,
+            "underBets": 10,
+            "preMae": 6.3246,
+            "postMae": 6.2005
+          },
+          "CBLOL": {
+            "rows": 129,
+            "bets": 0,
+            "pass": 129,
+            "correct": 0,
+            "hitRate": null,
+            "roi": null,
+            "profit": 0,
+            "overBets": 0,
+            "underBets": 0,
+            "preMae": 6.2431,
+            "postMae": 6.2334
+          },
+          "LEC": {
+            "rows": 198,
+            "bets": 73,
+            "pass": 125,
+            "correct": 42,
+            "hitRate": 0.5753,
+            "roi": 0.0356,
+            "profit": 2.6,
+            "overBets": 32,
+            "underBets": 41,
+            "preMae": 6.6914,
+            "postMae": 6.6039
+          },
+          "LCS": {
+            "rows": 108,
+            "bets": 18,
+            "pass": 90,
+            "correct": 12,
+            "hitRate": 0.6667,
+            "roi": 0.2,
+            "profit": 3.6,
+            "overBets": 12,
+            "underBets": 6,
+            "preMae": 5.74,
+            "postMae": 5.6405
+          }
+        }
+      },
+      "underMove1": {
+        "name": "baseline",
+        "label": "Baseline atual",
+        "type": "full",
+        "config": {
+          "name": "baseline",
+          "label": "Baseline atual"
+        },
+        "byMove": {
+          "0": {
+            "rows": 1125,
+            "bets": 345,
+            "pass": 780,
+            "correct": 220,
+            "hitRate": 0.6377,
+            "roi": 0.1478,
+            "profit": 51,
+            "overBets": 216,
+            "underBets": 129,
+            "preMae": 6.5676,
+            "postMae": 6.4699
+          },
+          "1": {
+            "rows": 1125,
+            "bets": 261,
+            "pass": 864,
+            "correct": 159,
+            "hitRate": 0.6092,
+            "roi": 0.0966,
+            "profit": 25.2,
+            "overBets": 165,
+            "underBets": 96,
+            "preMae": 6.5676,
+            "postMae": 6.4699
+          },
+          "2": {
+            "rows": 1125,
+            "bets": 143,
+            "pass": 982,
+            "correct": 85,
+            "hitRate": 0.5944,
+            "roi": 0.0699,
+            "profit": 10,
+            "overBets": 94,
+            "underBets": 49,
+            "preMae": 6.5676,
+            "postMae": 6.4699
+          },
+          "0.5": {
+            "rows": 1125,
+            "bets": 249,
+            "pass": 876,
+            "correct": 159,
+            "hitRate": 0.6386,
+            "roi": 0.1494,
+            "profit": 37.2,
+            "overBets": 160,
+            "underBets": 89,
+            "preMae": 6.5676,
+            "postMae": 6.4699
+          },
+          "1.5": {
+            "rows": 1125,
+            "bets": 138,
+            "pass": 987,
+            "correct": 85,
+            "hitRate": 0.6159,
+            "roi": 0.1087,
+            "profit": 15,
+            "overBets": 89,
+            "underBets": 49,
+            "preMae": 6.5676,
+            "postMae": 6.4699
+          }
+        },
+        "byMoveSide": {
+          "0": {
+            "under": {
+              "rows": 129,
+              "bets": 129,
+              "pass": 0,
+              "correct": 84,
+              "hitRate": 0.6512,
+              "roi": 0.1721,
+              "profit": 22.2,
+              "overBets": 0,
+              "underBets": 129,
+              "preMae": 6.8297,
+              "postMae": 6.5446
+            },
+            "over": {
+              "rows": 216,
+              "bets": 216,
+              "pass": 0,
+              "correct": 136,
+              "hitRate": 0.6296,
+              "roi": 0.1333,
+              "profit": 28.8,
+              "overBets": 216,
+              "underBets": 0,
+              "preMae": 7.1725,
+              "postMae": 6.8563
+            }
+          },
+          "1": {
+            "under": {
+              "rows": 96,
+              "bets": 96,
+              "pass": 0,
+              "correct": 59,
+              "hitRate": 0.6146,
+              "roi": 0.1063,
+              "profit": 10.2,
+              "overBets": 0,
+              "underBets": 96,
+              "preMae": 7.072,
+              "postMae": 6.7103
+            },
+            "over": {
+              "rows": 165,
+              "bets": 165,
+              "pass": 0,
+              "correct": 100,
+              "hitRate": 0.6061,
+              "roi": 0.0909,
+              "profit": 15,
+              "overBets": 165,
+              "underBets": 0,
+              "preMae": 7.1029,
+              "postMae": 6.7615
+            }
+          },
+          "2": {
+            "under": {
+              "rows": 49,
+              "bets": 49,
+              "pass": 0,
+              "correct": 30,
+              "hitRate": 0.6122,
+              "roi": 0.102,
+              "profit": 5,
+              "overBets": 0,
+              "underBets": 49,
+              "preMae": 7.7619,
+              "postMae": 7.3458
+            },
+            "over": {
+              "rows": 94,
+              "bets": 94,
+              "pass": 0,
+              "correct": 55,
+              "hitRate": 0.5851,
+              "roi": 0.0532,
+              "profit": 5,
+              "overBets": 94,
+              "underBets": 0,
+              "preMae": 7.3984,
+              "postMae": 6.9087
+            }
+          },
+          "0.5": {
+            "under": {
+              "rows": 89,
+              "bets": 89,
+              "pass": 0,
+              "correct": 59,
+              "hitRate": 0.6629,
+              "roi": 0.1933,
+              "profit": 17.2,
+              "overBets": 0,
+              "underBets": 89,
+              "preMae": 7.588,
+              "postMae": 7.1926
+            },
+            "over": {
+              "rows": 160,
+              "bets": 160,
+              "pass": 0,
+              "correct": 100,
+              "hitRate": 0.625,
+              "roi": 0.125,
+              "profit": 20,
+              "overBets": 160,
+              "underBets": 0,
+              "preMae": 7.31,
+              "postMae": 6.9479
+            }
+          },
+          "1.5": {
+            "under": {
+              "rows": 49,
+              "bets": 49,
+              "pass": 0,
+              "correct": 30,
+              "hitRate": 0.6122,
+              "roi": 0.102,
+              "profit": 5,
+              "overBets": 0,
+              "underBets": 49,
+              "preMae": 7.7619,
+              "postMae": 7.3458
+            },
+            "over": {
+              "rows": 89,
+              "bets": 89,
+              "pass": 0,
+              "correct": 55,
+              "hitRate": 0.618,
+              "roi": 0.1124,
+              "profit": 10,
+              "overBets": 89,
+              "underBets": 0,
+              "preMae": 7.7367,
+              "postMae": 7.2725
+            }
+          }
+        },
+        "byLeagueMove0": {
+          "LCK": {
+            "rows": 150,
+            "bets": 34,
+            "pass": 116,
+            "correct": 24,
+            "hitRate": 0.7059,
+            "roi": 0.2706,
+            "profit": 9.2,
+            "overBets": 4,
+            "underBets": 30,
+            "preMae": 6.7227,
+            "postMae": 6.6611
+          },
+          "LCKCL": {
+            "rows": 270,
+            "bets": 118,
+            "pass": 152,
+            "correct": 77,
+            "hitRate": 0.6525,
+            "roi": 0.1746,
+            "profit": 20.6,
+            "overBets": 74,
+            "underBets": 44,
+            "preMae": 7.1195,
+            "postMae": 6.9762
+          },
+          "LPL": {
+            "rows": 270,
+            "bets": 108,
+            "pass": 162,
+            "correct": 68,
+            "hitRate": 0.6296,
+            "roi": 0.1333,
+            "profit": 14.4,
+            "overBets": 99,
+            "underBets": 9,
+            "preMae": 6.3246,
+            "postMae": 6.2015
+          },
+          "CBLOL": {
+            "rows": 129,
+            "bets": 0,
+            "pass": 129,
+            "correct": 0,
+            "hitRate": null,
+            "roi": null,
+            "profit": 0,
+            "overBets": 0,
+            "underBets": 0,
+            "preMae": 6.2431,
+            "postMae": 6.2344
+          },
+          "LEC": {
+            "rows": 198,
+            "bets": 71,
+            "pass": 127,
+            "correct": 41,
+            "hitRate": 0.5775,
+            "roi": 0.0394,
+            "profit": 2.8,
+            "overBets": 31,
+            "underBets": 40,
+            "preMae": 6.6914,
+            "postMae": 6.6047
+          },
+          "LCS": {
+            "rows": 108,
+            "bets": 14,
+            "pass": 94,
+            "correct": 10,
+            "hitRate": 0.7143,
+            "roi": 0.2857,
+            "profit": 4,
+            "overBets": 8,
+            "underBets": 6,
+            "preMae": 5.74,
+            "postMae": 5.6437
+          }
+        }
+      },
+      "partialMove0": {
+        "name": "partial-top-jungle",
+        "label": "TOP+JUNGLE",
+        "type": "partial",
+        "config": {
+          "name": "partial-top-jungle",
+          "label": "TOP+JUNGLE",
+          "roles": [
+            "TOP",
+            "JUNGLE"
+          ]
+        },
+        "byMove": {
+          "0": {
+            "rows": 1125,
+            "bets": 137,
+            "pass": 988,
+            "correct": 92,
+            "hitRate": 0.6715,
+            "roi": 0.2088,
+            "profit": 28.6,
+            "overBets": 110,
+            "underBets": 27,
+            "preMae": 6.5676,
+            "postMae": 6.523
+          },
+          "1": {
+            "rows": 1125,
+            "bets": 99,
+            "pass": 1026,
+            "correct": 62,
+            "hitRate": 0.6263,
+            "roi": 0.1273,
+            "profit": 12.6,
+            "overBets": 81,
+            "underBets": 18,
+            "preMae": 6.5676,
+            "postMae": 6.523
+          },
+          "2": {
+            "rows": 1125,
+            "bets": 20,
+            "pass": 1105,
+            "correct": 10,
+            "hitRate": 0.5,
+            "roi": -0.1,
+            "profit": -2,
+            "overBets": 19,
+            "underBets": 1,
+            "preMae": 6.5676,
+            "postMae": 6.523
+          },
+          "0.5": {
+            "rows": 1125,
+            "bets": 93,
+            "pass": 1032,
+            "correct": 62,
+            "hitRate": 0.6667,
+            "roi": 0.2,
+            "profit": 18.6,
+            "overBets": 77,
+            "underBets": 16,
+            "preMae": 6.5676,
+            "postMae": 6.523
+          },
+          "1.5": {
+            "rows": 1125,
+            "bets": 19,
+            "pass": 1106,
+            "correct": 10,
+            "hitRate": 0.5263,
+            "roi": -0.0526,
+            "profit": -1,
+            "overBets": 18,
+            "underBets": 1,
+            "preMae": 6.5676,
+            "postMae": 6.523
+          }
+        },
+        "byMoveSide": {
+          "0": {
+            "under": {
+              "rows": 27,
+              "bets": 27,
+              "pass": 0,
+              "correct": 21,
+              "hitRate": 0.7778,
+              "roi": 0.4,
+              "profit": 10.8,
+              "overBets": 0,
+              "underBets": 27,
+              "preMae": 6.2664,
+              "postMae": 5.8
+            },
+            "over": {
+              "rows": 110,
+              "bets": 110,
+              "pass": 0,
+              "correct": 71,
+              "hitRate": 0.6455,
+              "roi": 0.1618,
+              "profit": 17.8,
+              "overBets": 110,
+              "underBets": 0,
+              "preMae": 7.316,
+              "postMae": 7.0787
+            }
+          },
+          "1": {
+            "under": {
+              "rows": 18,
+              "bets": 18,
+              "pass": 0,
+              "correct": 12,
+              "hitRate": 0.6667,
+              "roi": 0.2,
+              "profit": 3.6,
+              "overBets": 0,
+              "underBets": 18,
+              "preMae": 6.8448,
+              "postMae": 6.4423
+            },
+            "over": {
+              "rows": 81,
+              "bets": 81,
+              "pass": 0,
+              "correct": 50,
+              "hitRate": 0.6173,
+              "roi": 0.1111,
+              "profit": 9,
+              "overBets": 81,
+              "underBets": 0,
+              "preMae": 7.4002,
+              "postMae": 7.1239
+            }
+          },
+          "2": {
+            "over": {
+              "rows": 19,
+              "bets": 19,
+              "pass": 0,
+              "correct": 9,
+              "hitRate": 0.4737,
+              "roi": -0.1474,
+              "profit": -2.8,
+              "overBets": 19,
+              "underBets": 0,
+              "preMae": 6.8153,
+              "postMae": 6.615
+            },
+            "under": {
+              "rows": 1,
+              "bets": 1,
+              "pass": 0,
+              "correct": 1,
+              "hitRate": 1,
+              "roi": 0.8,
+              "profit": 0.8,
+              "overBets": 0,
+              "underBets": 1,
+              "preMae": 5.8477,
+              "postMae": 4.4155
+            }
+          },
+          "0.5": {
+            "under": {
+              "rows": 16,
+              "bets": 16,
+              "pass": 0,
+              "correct": 12,
+              "hitRate": 0.75,
+              "roi": 0.35,
+              "profit": 5.6,
+              "overBets": 0,
+              "underBets": 16,
+              "preMae": 7.6521,
+              "postMae": 7.1915
+            },
+            "over": {
+              "rows": 77,
+              "bets": 77,
+              "pass": 0,
+              "correct": 50,
+              "hitRate": 0.6494,
+              "roi": 0.1688,
+              "profit": 13,
+              "overBets": 77,
+              "underBets": 0,
+              "preMae": 7.7539,
+              "postMae": 7.4757
+            }
+          },
+          "1.5": {
+            "over": {
+              "rows": 18,
+              "bets": 18,
+              "pass": 0,
+              "correct": 9,
+              "hitRate": 0.5,
+              "roi": -0.1,
+              "profit": -1.8,
+              "overBets": 18,
+              "underBets": 0,
+              "preMae": 7.1012,
+              "postMae": 6.9698
+            },
+            "under": {
+              "rows": 1,
+              "bets": 1,
+              "pass": 0,
+              "correct": 1,
+              "hitRate": 1,
+              "roi": 0.8,
+              "profit": 0.8,
+              "overBets": 0,
+              "underBets": 1,
+              "preMae": 5.8477,
+              "postMae": 4.4155
+            }
+          }
+        },
+        "byLeagueMove0": {
+          "LCK": {
+            "rows": 150,
+            "bets": 13,
+            "pass": 137,
+            "correct": 11,
+            "hitRate": 0.8462,
+            "roi": 0.5231,
+            "profit": 6.8,
+            "overBets": 4,
+            "underBets": 9,
+            "preMae": 6.7227,
+            "postMae": 6.6765
+          },
+          "LCKCL": {
+            "rows": 270,
+            "bets": 56,
+            "pass": 214,
+            "correct": 35,
+            "hitRate": 0.625,
+            "roi": 0.125,
+            "profit": 7,
+            "overBets": 48,
+            "underBets": 8,
+            "preMae": 7.1195,
+            "postMae": 7.0531
+          },
+          "LPL": {
+            "rows": 270,
+            "bets": 49,
+            "pass": 221,
+            "correct": 33,
+            "hitRate": 0.6735,
+            "roi": 0.2122,
+            "profit": 10.4,
+            "overBets": 47,
+            "underBets": 2,
+            "preMae": 6.3246,
+            "postMae": 6.2793
+          },
+          "CBLOL": {
+            "rows": 129,
+            "bets": 0,
+            "pass": 129,
+            "correct": 0,
+            "hitRate": null,
+            "roi": null,
+            "profit": 0,
+            "overBets": 0,
+            "underBets": 0,
+            "preMae": 6.2431,
+            "postMae": 6.2525
+          },
+          "LEC": {
+            "rows": 198,
+            "bets": 19,
+            "pass": 179,
+            "correct": 13,
+            "hitRate": 0.6842,
+            "roi": 0.2316,
+            "profit": 4.4,
+            "overBets": 11,
+            "underBets": 8,
+            "preMae": 6.6914,
+            "postMae": 6.6398
+          },
+          "LCS": {
+            "rows": 108,
+            "bets": 0,
+            "pass": 108,
+            "correct": 0,
+            "hitRate": null,
+            "roi": null,
+            "profit": 0,
+            "overBets": 0,
+            "underBets": 0,
+            "preMae": 5.74,
+            "postMae": 5.7027
+          }
+        }
+      },
+      "partialMove1": {
+        "name": "partial-adc-only",
+        "label": "ADC only",
+        "type": "partial",
+        "config": {
+          "name": "partial-adc-only",
+          "label": "ADC only",
+          "roles": [
+            "ADC"
+          ]
+        },
+        "byMove": {
+          "0": {
+            "rows": 1125,
+            "bets": 114,
+            "pass": 1011,
+            "correct": 74,
+            "hitRate": 0.6491,
+            "roi": 0.1684,
+            "profit": 19.2,
+            "overBets": 71,
+            "underBets": 43,
+            "preMae": 6.5676,
+            "postMae": 6.521
+          },
+          "1": {
+            "rows": 1125,
+            "bets": 88,
+            "pass": 1037,
+            "correct": 57,
+            "hitRate": 0.6477,
+            "roi": 0.1659,
+            "profit": 14.6,
+            "overBets": 59,
+            "underBets": 29,
+            "preMae": 6.5676,
+            "postMae": 6.521
+          },
+          "2": {
+            "rows": 1125,
+            "bets": 12,
+            "pass": 1113,
+            "correct": 7,
+            "hitRate": 0.5833,
+            "roi": 0.05,
+            "profit": 0.6,
+            "overBets": 10,
+            "underBets": 2,
+            "preMae": 6.5676,
+            "postMae": 6.521
+          },
+          "0.5": {
+            "rows": 1125,
+            "bets": 87,
+            "pass": 1038,
+            "correct": 57,
+            "hitRate": 0.6552,
+            "roi": 0.1793,
+            "profit": 15.6,
+            "overBets": 59,
+            "underBets": 28,
+            "preMae": 6.5676,
+            "postMae": 6.521
+          },
+          "1.5": {
+            "rows": 1125,
+            "bets": 12,
+            "pass": 1113,
+            "correct": 7,
+            "hitRate": 0.5833,
+            "roi": 0.05,
+            "profit": 0.6,
+            "overBets": 10,
+            "underBets": 2,
+            "preMae": 6.5676,
+            "postMae": 6.521
+          }
+        },
+        "byMoveSide": {
+          "0": {
+            "under": {
+              "rows": 43,
+              "bets": 43,
+              "pass": 0,
+              "correct": 27,
+              "hitRate": 0.6279,
+              "roi": 0.1302,
+              "profit": 5.6,
+              "overBets": 0,
+              "underBets": 43,
+              "preMae": 7.5193,
+              "postMae": 7.3567
+            },
+            "over": {
+              "rows": 71,
+              "bets": 71,
+              "pass": 0,
+              "correct": 47,
+              "hitRate": 0.662,
+              "roi": 0.1915,
+              "profit": 13.6,
+              "overBets": 71,
+              "underBets": 0,
+              "preMae": 7.7054,
+              "postMae": 7.3991
+            }
+          },
+          "1": {
+            "under": {
+              "rows": 29,
+              "bets": 29,
+              "pass": 0,
+              "correct": 19,
+              "hitRate": 0.6552,
+              "roi": 0.1793,
+              "profit": 5.2,
+              "overBets": 0,
+              "underBets": 29,
+              "preMae": 7.3404,
+              "postMae": 7.058
+            },
+            "over": {
+              "rows": 59,
+              "bets": 59,
+              "pass": 0,
+              "correct": 38,
+              "hitRate": 0.6441,
+              "roi": 0.1593,
+              "profit": 9.4,
+              "overBets": 59,
+              "underBets": 0,
+              "preMae": 7.2174,
+              "postMae": 6.9345
+            }
+          },
+          "2": {
+            "under": {
+              "rows": 2,
+              "bets": 2,
+              "pass": 0,
+              "correct": 0,
+              "hitRate": 0,
+              "roi": -1,
+              "profit": -2,
+              "overBets": 0,
+              "underBets": 2,
+              "preMae": 4.9873,
+              "postMae": 6.2788
+            },
+            "over": {
+              "rows": 10,
+              "bets": 10,
+              "pass": 0,
+              "correct": 7,
+              "hitRate": 0.7,
+              "roi": 0.26,
+              "profit": 2.6,
+              "overBets": 10,
+              "underBets": 0,
+              "preMae": 12.3675,
+              "postMae": 11.848
+            }
+          },
+          "0.5": {
+            "under": {
+              "rows": 28,
+              "bets": 28,
+              "pass": 0,
+              "correct": 19,
+              "hitRate": 0.6786,
+              "roi": 0.2214,
+              "profit": 6.2,
+              "overBets": 0,
+              "underBets": 28,
+              "preMae": 7.5823,
+              "postMae": 7.2999
+            },
+            "over": {
+              "rows": 59,
+              "bets": 59,
+              "pass": 0,
+              "correct": 38,
+              "hitRate": 0.6441,
+              "roi": 0.1593,
+              "profit": 9.4,
+              "overBets": 59,
+              "underBets": 0,
+              "preMae": 7.2174,
+              "postMae": 6.9345
+            }
+          },
+          "1.5": {
+            "under": {
+              "rows": 2,
+              "bets": 2,
+              "pass": 0,
+              "correct": 0,
+              "hitRate": 0,
+              "roi": -1,
+              "profit": -2,
+              "overBets": 0,
+              "underBets": 2,
+              "preMae": 4.9873,
+              "postMae": 6.2788
+            },
+            "over": {
+              "rows": 10,
+              "bets": 10,
+              "pass": 0,
+              "correct": 7,
+              "hitRate": 0.7,
+              "roi": 0.26,
+              "profit": 2.6,
+              "overBets": 10,
+              "underBets": 0,
+              "preMae": 12.3675,
+              "postMae": 11.848
+            }
+          }
+        },
+        "byLeagueMove0": {
+          "LCK": {
+            "rows": 150,
+            "bets": 6,
+            "pass": 144,
+            "correct": 5,
+            "hitRate": 0.8333,
+            "roi": 0.5,
+            "profit": 3,
+            "overBets": 0,
+            "underBets": 6,
+            "preMae": 6.7227,
+            "postMae": 6.6795
+          },
+          "LCKCL": {
+            "rows": 270,
+            "bets": 38,
+            "pass": 232,
+            "correct": 23,
+            "hitRate": 0.6053,
+            "roi": 0.0895,
+            "profit": 3.4,
+            "overBets": 21,
+            "underBets": 17,
+            "preMae": 7.1195,
+            "postMae": 7.0834
+          },
+          "LPL": {
+            "rows": 270,
+            "bets": 48,
+            "pass": 222,
+            "correct": 34,
+            "hitRate": 0.7083,
+            "roi": 0.275,
+            "profit": 13.2,
+            "overBets": 43,
+            "underBets": 5,
+            "preMae": 6.3246,
+            "postMae": 6.249
+          },
+          "CBLOL": {
+            "rows": 129,
+            "bets": 0,
+            "pass": 129,
+            "correct": 0,
+            "hitRate": null,
+            "roi": null,
+            "profit": 0,
+            "overBets": 0,
+            "underBets": 0,
+            "preMae": 6.2431,
+            "postMae": 6.2164
+          },
+          "LEC": {
+            "rows": 198,
+            "bets": 20,
+            "pass": 178,
+            "correct": 10,
+            "hitRate": 0.5,
+            "roi": -0.1,
+            "profit": -2,
+            "overBets": 6,
+            "underBets": 14,
+            "preMae": 6.6914,
+            "postMae": 6.6598
+          },
+          "LCS": {
+            "rows": 108,
+            "bets": 2,
+            "pass": 106,
+            "correct": 2,
+            "hitRate": 1,
+            "roi": 0.8,
+            "profit": 1.6,
+            "overBets": 1,
+            "underBets": 1,
+            "preMae": 5.74,
+            "postMae": 5.6842
+          }
+        }
+      }
+    },
+    "bestByLeagueMove0": {
+      "LCK": {
+        "label": "Baseline atual",
+        "stats": {
+          "rows": 150,
+          "bets": 34,
+          "pass": 116,
+          "correct": 24,
+          "hitRate": 0.7059,
+          "roi": 0.2706,
+          "profit": 9.2,
+          "overBets": 4,
+          "underBets": 30,
+          "preMae": 6.7227,
+          "postMae": 6.6611
+        }
+      },
+      "LCKCL": {
+        "label": "A: peso por role/lado",
+        "stats": {
+          "rows": 270,
+          "bets": 120,
+          "pass": 150,
+          "correct": 79,
+          "hitRate": 0.6583,
+          "roi": 0.185,
+          "profit": 22.2,
+          "overBets": 75,
+          "underBets": 45,
+          "preMae": 7.1195,
+          "postMae": 6.969
+        }
+      },
+      "LPL": {
+        "label": "B: confianca por amostra",
+        "stats": {
+          "rows": 270,
+          "bets": 106,
+          "pass": 164,
+          "correct": 70,
+          "hitRate": 0.6604,
+          "roi": 0.1887,
+          "profit": 20,
+          "overBets": 100,
+          "underBets": 6,
+          "preMae": 6.3246,
+          "postMae": 6.2032
+        }
+      },
+      "LEC": {
+        "label": "Baseline atual",
+        "stats": {
+          "rows": 198,
+          "bets": 71,
+          "pass": 127,
+          "correct": 41,
+          "hitRate": 0.5775,
+          "roi": 0.0394,
+          "profit": 2.8,
+          "overBets": 31,
+          "underBets": 40,
+          "preMae": 6.6914,
+          "postMae": 6.6047
+        }
+      },
+      "LCS": {
+        "label": "A+B+C12",
+        "stats": {
+          "rows": 108,
+          "bets": 11,
+          "pass": 97,
+          "correct": 9,
+          "hitRate": 0.8182,
+          "roi": 0.4727,
+          "profit": 5.2,
+          "overBets": 5,
+          "underBets": 6,
+          "preMae": 5.74,
+          "postMae": 5.6511
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,2287 @@
+{
+  "createdAt": "2026-05-26T21:41:10.652Z",
+  "sourceMeta": {
+    "source": "GOL team-matchlist via Chrome logged/browser session",
+    "createdAt": "2026-05-26T21:38:53.861Z",
+    "season": "S15",
+    "seasonYear": 2025,
+    "tournaments": [
+      {
+        "tournament": "LPL 2025 Regional Finals",
+        "league": "LPL"
+      },
+      {
+        "tournament": "LCK CL 2025 Season Playoffs",
+        "league": "LCKCL"
+      },
+      {
+        "tournament": "LTA 2025 Championship",
+        "league": "LTA Championship"
+      },
+      {
+        "tournament": "LCK 2025 Season Playoffs",
+        "league": "LCK"
+      },
+      {
+        "tournament": "LEC 2025 Summer Playoffs",
+        "league": "LEC"
+      },
+      {
+        "tournament": "LCK 2025 Season Play-In",
+        "league": "LCK"
+      },
+      {
+        "tournament": "LCK CL 2025 Season Play-In",
+        "league": "LCKCL"
+      },
+      {
+        "tournament": "LPL 2025 Grand Finals",
+        "league": "LPL"
+      },
+      {
+        "tournament": "LCK 2025 Road to MSI",
+        "league": "LCK"
+      },
+      {
+        "tournament": "LEC 2025 Spring Playoffs",
+        "league": "LEC"
+      },
+      {
+        "tournament": "LTA North 2025 Split 2 Playoffs",
+        "league": "LCS/LTA-N"
+      },
+      {
+        "tournament": "LTA South 2025 Split 2 Playoffs",
+        "league": "CBLOL/LTA-S"
+      },
+      {
+        "tournament": "LPL 2025 Split 2 Playoffs",
+        "league": "LPL"
+      },
+      {
+        "tournament": "LPL 2025 Split 1 Playoffs",
+        "league": "LPL"
+      },
+      {
+        "tournament": "LEC 2025 Winter Playoffs",
+        "league": "LEC"
+      }
+    ],
+    "collectReport": [
+      {
+        "tournament": "LPL 2025 Regional Finals",
+        "league": "LPL",
+        "teams": 4,
+        "rawRows": 24
+      },
+      {
+        "tournament": "LCK CL 2025 Season Playoffs",
+        "league": "LCKCL",
+        "teams": 6,
+        "rawRows": 86
+      },
+      {
+        "tournament": "LTA 2025 Championship",
+        "league": "LTA Championship",
+        "teams": 6,
+        "rawRows": 44
+      },
+      {
+        "tournament": "LCK 2025 Season Playoffs",
+        "league": "LCK",
+        "teams": 6,
+        "rawRows": 80
+      },
+      {
+        "tournament": "LEC 2025 Summer Playoffs",
+        "league": "LEC",
+        "teams": 8,
+        "rawRows": 76
+      },
+      {
+        "tournament": "LCK 2025 Season Play-In",
+        "league": "LCK",
+        "teams": 4,
+        "rawRows": 42
+      },
+      {
+        "tournament": "LCK CL 2025 Season Play-In",
+        "league": "LCKCL",
+        "teams": 4,
+        "rawRows": 42
+      },
+      {
+        "tournament": "LPL 2025 Grand Finals",
+        "league": "LPL",
+        "teams": 12,
+        "rawRows": 146
+      },
+      {
+        "tournament": "LCK 2025 Road to MSI",
+        "league": "LCK",
+        "teams": 6,
+        "rawRows": 36
+      },
+      {
+        "tournament": "LEC 2025 Spring Playoffs",
+        "league": "LEC",
+        "teams": 6,
+        "rawRows": 66
+      },
+      {
+        "tournament": "LTA North 2025 Split 2 Playoffs",
+        "league": "LCS/LTA-N",
+        "teams": 6,
+        "rawRows": 60
+      },
+      {
+        "tournament": "LTA South 2025 Split 2 Playoffs",
+        "league": "CBLOL/LTA-S",
+        "teams": 6,
+        "rawRows": 58
+      },
+      {
+        "tournament": "LPL 2025 Split 2 Playoffs",
+        "league": "LPL",
+        "teams": 12,
+        "rawRows": 142
+      },
+      {
+        "tournament": "LPL 2025 Split 1 Playoffs",
+        "league": "LPL",
+        "teams": 8,
+        "rawRows": 84
+      },
+      {
+        "tournament": "LEC 2025 Winter Playoffs",
+        "league": "LEC",
+        "teams": 8,
+        "rawRows": 78
+      }
+    ],
+    "rawRows": 1064,
+    "uniqueGamesInSeriesTournaments": 532,
+    "bo5Series": 128,
+    "bo5Games": 509,
+    "notes": [
+      "Bo5 confirmado quando placar da serie chega a 3 vitorias ou quando ha mapa 4/5 observado.",
+      "CBLOL 2025 foi coletado como LTA South; LCS 2025 como LTA North; LTA Championship ficou separado."
+    ]
+  },
+  "seriesCount": 128,
+  "gamesCount": 509,
+  "bo5Mean": 29.72,
+  "positions": {
+    "1": {
+      "games": 128,
+      "mean": 29.44,
+      "median": 29,
+      "std": 8.3,
+      "aboveMean": 0.4688,
+      "centeredEffect": -0.34
+    },
+    "2": {
+      "games": 128,
+      "mean": 31.16,
+      "median": 30,
+      "std": 9.06,
+      "aboveMean": 0.5391,
+      "centeredEffect": 1.38
+    },
+    "3": {
+      "games": 128,
+      "mean": 30.12,
+      "median": 29,
+      "std": 9.23,
+      "aboveMean": 0.4922,
+      "centeredEffect": 0.34
+    },
+    "4": {
+      "games": 93,
+      "mean": 28.18,
+      "median": 28,
+      "std": 7.68,
+      "aboveMean": 0.4194,
+      "centeredEffect": -1.12
+    },
+    "5": {
+      "games": 32,
+      "mean": 27.91,
+      "median": 27.5,
+      "std": 8.36,
+      "aboveMean": 0.3438,
+      "centeredEffect": -2.27
+    }
+  },
+  "fullFive": {
+    "series": 32,
+    "rows": {
+      "1": {
+        "games": 32,
+        "mean": 29.59,
+        "median": 29.5,
+        "std": 8.96,
+        "centeredEffect": -0.58
+      },
+      "2": {
+        "games": 32,
+        "mean": 33.09,
+        "median": 31.5,
+        "std": 8.89,
+        "centeredEffect": 2.92
+      },
+      "3": {
+        "games": 32,
+        "mean": 31.19,
+        "median": 28,
+        "std": 10.74,
+        "centeredEffect": 1.01
+      },
+      "4": {
+        "games": 32,
+        "mean": 29.09,
+        "median": 29,
+        "std": 6.24,
+        "centeredEffect": -1.08
+      },
+      "5": {
+        "games": 32,
+        "mean": 27.91,
+        "median": 27.5,
+        "std": 8.36,
+        "centeredEffect": -2.27
+      }
+    },
+    "map5Pairs": {
+      "1vs5": {
+        "n": 32,
+        "diff": 1.6875,
+        "p": 0.4110830263401182,
+        "ci": {
+          "low": -2.336276286629105,
+          "high": 5.711276286629105
+        }
+      },
+      "2vs5": {
+        "n": 32,
+        "diff": 5.1875,
+        "p": 0.012457295767363874,
+        "ci": {
+          "low": 1.11874119841396,
+          "high": 9.25625880158604
+        }
+      },
+      "3vs5": {
+        "n": 32,
+        "diff": 3.28125,
+        "p": 0.12151401131361439,
+        "ci": {
+          "low": -0.872096778891188,
+          "high": 7.434596778891188
+        }
+      },
+      "4vs5": {
+        "n": 32,
+        "diff": 1.1875,
+        "p": 0.5434373384642872,
+        "ci": {
+          "low": -2.642999183126852,
+          "high": 5.017999183126852
+        }
+      }
+    }
+  },
+  "map2vs5": {
+    "diff": 3.25,
+    "p": 0.05308849120184811,
+    "ci": {
+      "low": -0.04335243538924605,
+      "high": 6.543352435389246
+    }
+  },
+  "byLeague": {
+    "LPL": {
+      "games": 198,
+      "series": 49,
+      "mean": 30.21,
+      "positions": {
+        "1": {
+          "games": 49,
+          "mean": 28.9,
+          "median": 30,
+          "std": 7.45,
+          "aboveMean": 0.4898,
+          "centeredEffect": -1.54
+        },
+        "2": {
+          "games": 49,
+          "mean": 33.1,
+          "median": 32,
+          "std": 9.49,
+          "aboveMean": 0.5714,
+          "centeredEffect": 2.67
+        },
+        "3": {
+          "games": 49,
+          "mean": 29.1,
+          "median": 28,
+          "std": 8.32,
+          "aboveMean": 0.4286,
+          "centeredEffect": -1.33
+        },
+        "4": {
+          "games": 38,
+          "mean": 30.03,
+          "median": 29,
+          "std": 7.18,
+          "aboveMean": 0.4474,
+          "centeredEffect": 0.21
+        },
+        "5": {
+          "games": 13,
+          "mean": 28.92,
+          "median": 29,
+          "std": 8.96,
+          "aboveMean": 0.3846,
+          "centeredEffect": 0.15
+        }
+      },
+      "fullFive": {
+        "series": 13,
+        "rows": {
+          "1": {
+            "games": 13,
+            "mean": 25.92,
+            "median": 27,
+            "std": 7.6,
+            "centeredEffect": -2.85
+          },
+          "2": {
+            "games": 13,
+            "mean": 33.31,
+            "median": 32,
+            "std": 8.81,
+            "centeredEffect": 4.54
+          },
+          "3": {
+            "games": 13,
+            "mean": 26.23,
+            "median": 28,
+            "std": 5.95,
+            "centeredEffect": -2.54
+          },
+          "4": {
+            "games": 13,
+            "mean": 29.46,
+            "median": 29,
+            "std": 7.22,
+            "centeredEffect": 0.69
+          },
+          "5": {
+            "games": 13,
+            "mean": 28.92,
+            "median": 29,
+            "std": 8.96,
+            "centeredEffect": 0.15
+          }
+        },
+        "map5Pairs": {
+          "1vs5": {
+            "n": 13,
+            "diff": -3,
+            "p": 0.35947884310551736,
+            "ci": {
+              "low": -9.416702564002152,
+              "high": 3.4167025640021524
+            }
+          },
+          "2vs5": {
+            "n": 13,
+            "diff": 4.384615384615385,
+            "p": 0.17298022672194868,
+            "ci": {
+              "low": -1.9219133385800582,
+              "high": 10.691144107810828
+            }
+          },
+          "3vs5": {
+            "n": 13,
+            "diff": -2.6923076923076925,
+            "p": 0.30366938936697374,
+            "ci": {
+              "low": -7.822524784807148,
+              "high": 2.4379094001917627
+            }
+          },
+          "4vs5": {
+            "n": 13,
+            "diff": 0.5384615384615384,
+            "p": 0.8775474909204679,
+            "ci": {
+              "low": -6.311175604780638,
+              "high": 7.388098681703715
+            }
+          }
+        }
+      },
+      "map2vs5": {
+        "diff": 4.178963893249605,
+        "p": 0.13984390861467055,
+        "ci": {
+          "low": -1.368936432784868,
+          "high": 9.726864219284078
+        }
+      }
+    },
+    "LCKCL": {
+      "games": 64,
+      "series": 15,
+      "mean": 33.95,
+      "positions": {
+        "1": {
+          "games": 15,
+          "mean": 35,
+          "median": 36,
+          "std": 9.5,
+          "aboveMean": 0.6667,
+          "centeredEffect": 1.41
+        },
+        "2": {
+          "games": 15,
+          "mean": 34.13,
+          "median": 31,
+          "std": 9.52,
+          "aboveMean": 0.4,
+          "centeredEffect": 0.54
+        },
+        "3": {
+          "games": 15,
+          "mean": 36.73,
+          "median": 34,
+          "std": 11.83,
+          "aboveMean": 0.5333,
+          "centeredEffect": 3.14
+        },
+        "4": {
+          "games": 13,
+          "mean": 30,
+          "median": 29,
+          "std": 7.53,
+          "aboveMean": 0.3077,
+          "centeredEffect": -4.07
+        },
+        "5": {
+          "games": 6,
+          "mean": 32.5,
+          "median": 30.5,
+          "std": 8.71,
+          "aboveMean": 0.3333,
+          "centeredEffect": -3.9
+        }
+      },
+      "fullFive": {
+        "series": 6,
+        "rows": {
+          "1": {
+            "games": 6,
+            "mean": 35.17,
+            "median": 38.5,
+            "std": 10.98,
+            "centeredEffect": -1.23
+          },
+          "2": {
+            "games": 6,
+            "mean": 40.83,
+            "median": 38,
+            "std": 9.47,
+            "centeredEffect": 4.43
+          },
+          "3": {
+            "games": 6,
+            "mean": 44.5,
+            "median": 43,
+            "std": 13.59,
+            "centeredEffect": 8.1
+          },
+          "4": {
+            "games": 6,
+            "mean": 29,
+            "median": 28.5,
+            "std": 4.98,
+            "centeredEffect": -7.4
+          },
+          "5": {
+            "games": 6,
+            "mean": 32.5,
+            "median": 30.5,
+            "std": 8.71,
+            "centeredEffect": -3.9
+          }
+        },
+        "map5Pairs": {
+          "1vs5": {
+            "n": 6,
+            "diff": 2.6666666666666665,
+            "p": 0.4798429233057473,
+            "ci": {
+              "low": -4.730728670732693,
+              "high": 10.064062004066026
+            }
+          },
+          "2vs5": {
+            "n": 6,
+            "diff": 8.333333333333334,
+            "p": 0.19262232268382373,
+            "ci": {
+              "low": -4.20317832041008,
+              "high": 20.869844987076746
+            }
+          },
+          "3vs5": {
+            "n": 6,
+            "diff": 12,
+            "p": 0.0687386708699469,
+            "ci": {
+              "low": -0.9221339826929018,
+              "high": 24.922133982692902
+            }
+          },
+          "4vs5": {
+            "n": 6,
+            "diff": -3.5,
+            "p": 0.3900796417918664,
+            "ci": {
+              "low": -11.481637258942136,
+              "high": 4.481637258942137
+            }
+          }
+        }
+      },
+      "map2vs5": {
+        "diff": 1.6333333333333329,
+        "p": 0.7055501351004858,
+        "ci": {
+          "low": -6.8394058013529495,
+          "high": 10.106072468019615
+        }
+      }
+    },
+    "LTA Championship": {
+      "games": 22,
+      "series": 6,
+      "mean": 30.41,
+      "positions": {
+        "1": {
+          "games": 6,
+          "mean": 26.67,
+          "median": 24,
+          "std": 11.08,
+          "aboveMean": 0.3333,
+          "centeredEffect": -4.17
+        },
+        "2": {
+          "games": 6,
+          "mean": 36,
+          "median": 35.5,
+          "std": 9.92,
+          "aboveMean": 0.8333,
+          "centeredEffect": 5.16
+        },
+        "3": {
+          "games": 6,
+          "mean": 29.17,
+          "median": 25,
+          "std": 11.14,
+          "aboveMean": 0.3333,
+          "centeredEffect": -1.67
+        },
+        "4": {
+          "games": 3,
+          "mean": 34.33,
+          "median": 36,
+          "std": 5.69,
+          "aboveMean": 0.6667,
+          "centeredEffect": 6.22
+        },
+        "5": {
+          "games": 1,
+          "mean": 15,
+          "median": 15,
+          "std": null,
+          "aboveMean": 0,
+          "centeredEffect": -14.6
+        }
+      },
+      "fullFive": {
+        "series": 1,
+        "rows": {
+          "1": {
+            "games": 1,
+            "mean": 46,
+            "median": 46,
+            "std": null,
+            "centeredEffect": 16.4
+          },
+          "2": {
+            "games": 1,
+            "mean": 31,
+            "median": 31,
+            "std": null,
+            "centeredEffect": 1.4
+          },
+          "3": {
+            "games": 1,
+            "mean": 20,
+            "median": 20,
+            "std": null,
+            "centeredEffect": -9.6
+          },
+          "4": {
+            "games": 1,
+            "mean": 36,
+            "median": 36,
+            "std": null,
+            "centeredEffect": 6.4
+          },
+          "5": {
+            "games": 1,
+            "mean": 15,
+            "median": 15,
+            "std": null,
+            "centeredEffect": -14.6
+          }
+        },
+        "map5Pairs": {
+          "1vs5": {
+            "n": 1,
+            "diff": null,
+            "p": null,
+            "ci": {
+              "low": null,
+              "high": null
+            }
+          },
+          "2vs5": {
+            "n": 1,
+            "diff": null,
+            "p": null,
+            "ci": {
+              "low": null,
+              "high": null
+            }
+          },
+          "3vs5": {
+            "n": 1,
+            "diff": null,
+            "p": null,
+            "ci": {
+              "low": null,
+              "high": null
+            }
+          },
+          "4vs5": {
+            "n": 1,
+            "diff": null,
+            "p": null,
+            "ci": {
+              "low": null,
+              "high": null
+            }
+          }
+        }
+      },
+      "map2vs5": {
+        "diff": null,
+        "p": null,
+        "ci": {
+          "low": null,
+          "high": null
+        }
+      }
+    },
+    "LCK": {
+      "games": 79,
+      "series": 20,
+      "mean": 29.05,
+      "positions": {
+        "1": {
+          "games": 20,
+          "mean": 29.45,
+          "median": 28.5,
+          "std": 7.46,
+          "aboveMean": 0.45,
+          "centeredEffect": 0.24
+        },
+        "2": {
+          "games": 20,
+          "mean": 27.45,
+          "median": 28.5,
+          "std": 6.15,
+          "aboveMean": 0.3,
+          "centeredEffect": -1.76
+        },
+        "3": {
+          "games": 20,
+          "mean": 32.2,
+          "median": 32,
+          "std": 7.15,
+          "aboveMean": 0.6,
+          "centeredEffect": 2.99
+        },
+        "4": {
+          "games": 13,
+          "mean": 27.08,
+          "median": 28,
+          "std": 5.99,
+          "aboveMean": 0.3077,
+          "centeredEffect": -1.79
+        },
+        "5": {
+          "games": 6,
+          "mean": 26.83,
+          "median": 26.5,
+          "std": 4.79,
+          "aboveMean": 0.1667,
+          "centeredEffect": -1
+        }
+      },
+      "fullFive": {
+        "series": 6,
+        "rows": {
+          "1": {
+            "games": 6,
+            "mean": 28.83,
+            "median": 26,
+            "std": 9.85,
+            "centeredEffect": 1
+          },
+          "2": {
+            "games": 6,
+            "mean": 26.17,
+            "median": 25.5,
+            "std": 3.43,
+            "centeredEffect": -1.67
+          },
+          "3": {
+            "games": 6,
+            "mean": 29.67,
+            "median": 30,
+            "std": 5.96,
+            "centeredEffect": 1.83
+          },
+          "4": {
+            "games": 6,
+            "mean": 27.67,
+            "median": 28.5,
+            "std": 5.43,
+            "centeredEffect": -0.17
+          },
+          "5": {
+            "games": 6,
+            "mean": 26.83,
+            "median": 26.5,
+            "std": 4.79,
+            "centeredEffect": -1
+          }
+        },
+        "map5Pairs": {
+          "1vs5": {
+            "n": 6,
+            "diff": 2,
+            "p": 0.6730618167273477,
+            "ci": {
+              "low": -7.290207030344732,
+              "high": 11.290207030344732
+            }
+          },
+          "2vs5": {
+            "n": 6,
+            "diff": -0.6666666666666666,
+            "p": 0.6031505063955946,
+            "ci": {
+              "low": -3.1800901840583893,
+              "high": 1.8467568507250562
+            }
+          },
+          "3vs5": {
+            "n": 6,
+            "diff": 2.8333333333333335,
+            "p": 0.45778021937137137,
+            "ci": {
+              "low": -4.645835366759242,
+              "high": 10.312502033425908
+            }
+          },
+          "4vs5": {
+            "n": 6,
+            "diff": 0.8333333333333334,
+            "p": 0.6646116971798541,
+            "ci": {
+              "low": -2.9339704475924604,
+              "high": 4.600637114259127
+            }
+          }
+        }
+      },
+      "map2vs5": {
+        "diff": 0.6166666666666671,
+        "p": 0.7965251925058401,
+        "ci": {
+          "low": -4.070869702938829,
+          "high": 5.304203036272163
+        }
+      }
+    },
+    "LEC": {
+      "games": 87,
+      "series": 22,
+      "mean": 26.62,
+      "positions": {
+        "1": {
+          "games": 22,
+          "mean": 29.09,
+          "median": 27,
+          "std": 7.54,
+          "aboveMean": 0.6364,
+          "centeredEffect": 2.53
+        },
+        "2": {
+          "games": 22,
+          "mean": 28.59,
+          "median": 28.5,
+          "std": 7.21,
+          "aboveMean": 0.5909,
+          "centeredEffect": 2.03
+        },
+        "3": {
+          "games": 22,
+          "mean": 25.55,
+          "median": 23.5,
+          "std": 9.36,
+          "aboveMean": 0.4545,
+          "centeredEffect": -1.02
+        },
+        "4": {
+          "games": 17,
+          "mean": 22.65,
+          "median": 22,
+          "std": 6.83,
+          "aboveMean": 0.3529,
+          "centeredEffect": -3.57
+        },
+        "5": {
+          "games": 4,
+          "mean": 25,
+          "median": 24.5,
+          "std": 7.07,
+          "aboveMean": 0.25,
+          "centeredEffect": -4.3
+        }
+      },
+      "fullFive": {
+        "series": 4,
+        "rows": {
+          "1": {
+            "games": 4,
+            "mean": 30.75,
+            "median": 31,
+            "std": 2.99,
+            "centeredEffect": 1.45
+          },
+          "2": {
+            "games": 4,
+            "mean": 33.5,
+            "median": 33,
+            "std": 10.12,
+            "centeredEffect": 4.2
+          },
+          "3": {
+            "games": 4,
+            "mean": 31.5,
+            "median": 29.5,
+            "std": 6.66,
+            "centeredEffect": 2.2
+          },
+          "4": {
+            "games": 4,
+            "mean": 25.75,
+            "median": 27.5,
+            "std": 6.95,
+            "centeredEffect": -3.55
+          },
+          "5": {
+            "games": 4,
+            "mean": 25,
+            "median": 24.5,
+            "std": 7.07,
+            "centeredEffect": -4.3
+          }
+        },
+        "map5Pairs": {
+          "1vs5": {
+            "n": 4,
+            "diff": 5.75,
+            "p": 0.06988510442739138,
+            "ci": {
+              "low": -0.46740299482026515,
+              "high": 11.967402994820265
+            }
+          },
+          "2vs5": {
+            "n": 4,
+            "diff": 8.5,
+            "p": 0.24186901268790817,
+            "ci": {
+              "low": -5.7353222654072695,
+              "high": 22.73532226540727
+            }
+          },
+          "3vs5": {
+            "n": 4,
+            "diff": 6.5,
+            "p": 0.33211566553802774,
+            "ci": {
+              "low": -6.635899918416959,
+              "high": 19.63589991841696
+            }
+          },
+          "4vs5": {
+            "n": 4,
+            "diff": 0.75,
+            "p": 0.8948969722200546,
+            "ci": {
+              "low": -10.377064602430718,
+              "high": 11.877064602430718
+            }
+          }
+        }
+      },
+      "map2vs5": {
+        "diff": 3.59090909090909,
+        "p": 0.35161649015682417,
+        "ci": {
+          "low": -3.965179582012757,
+          "high": 11.146997763830937
+        }
+      }
+    },
+    "LCS/LTA-N": {
+      "games": 30,
+      "series": 8,
+      "mean": 27.7,
+      "positions": {
+        "1": {
+          "games": 8,
+          "mean": 26.75,
+          "median": 24.5,
+          "std": 12.79,
+          "aboveMean": 0.375,
+          "centeredEffect": -1.28
+        },
+        "2": {
+          "games": 8,
+          "mean": 30.38,
+          "median": 29.5,
+          "std": 7.85,
+          "aboveMean": 0.5,
+          "centeredEffect": 2.35
+        },
+        "3": {
+          "games": 8,
+          "mean": 29.63,
+          "median": 27,
+          "std": 9.55,
+          "aboveMean": 0.5,
+          "centeredEffect": 1.6
+        },
+        "4": {
+          "games": 4,
+          "mean": 22.75,
+          "median": 23,
+          "std": 13.6,
+          "aboveMean": 0.5,
+          "centeredEffect": -1.98
+        },
+        "5": {
+          "games": 2,
+          "mean": 23,
+          "median": 23,
+          "std": 12.73,
+          "aboveMean": 0.5,
+          "centeredEffect": -6.7
+        }
+      },
+      "fullFive": {
+        "series": 2,
+        "rows": {
+          "1": {
+            "games": 2,
+            "mean": 28.5,
+            "median": 28.5,
+            "std": 6.36,
+            "centeredEffect": -1.2
+          },
+          "2": {
+            "games": 2,
+            "mean": 29.5,
+            "median": 29.5,
+            "std": 4.95,
+            "centeredEffect": -0.2
+          },
+          "3": {
+            "games": 2,
+            "mean": 33,
+            "median": 33,
+            "std": 19.8,
+            "centeredEffect": 3.3
+          },
+          "4": {
+            "games": 2,
+            "mean": 34.5,
+            "median": 34.5,
+            "std": 0.71,
+            "centeredEffect": 4.8
+          },
+          "5": {
+            "games": 2,
+            "mean": 23,
+            "median": 23,
+            "std": 12.73,
+            "centeredEffect": -6.7
+          }
+        },
+        "map5Pairs": {
+          "1vs5": {
+            "n": 2,
+            "diff": 5.5,
+            "p": 0.22162373650764788,
+            "ci": {
+              "low": -3.3200000000000003,
+              "high": 14.32
+            }
+          },
+          "2vs5": {
+            "n": 2,
+            "diff": 6.5,
+            "p": 0.603063551016024,
+            "ci": {
+              "low": -18,
+              "high": 31
+            }
+          },
+          "3vs5": {
+            "n": 2,
+            "diff": 10,
+            "p": 0.04550012577451268,
+            "ci": {
+              "low": 0.1999999999999993,
+              "high": 19.8
+            }
+          },
+          "4vs5": {
+            "n": 2,
+            "diff": 11.5,
+            "p": 0.17607454860634597,
+            "ci": {
+              "low": -5.159999999999997,
+              "high": 28.159999999999997
+            }
+          }
+        }
+      },
+      "map2vs5": {
+        "diff": 7.375,
+        "p": 0.43361751357598743,
+        "ci": {
+          "low": -11.085666970616202,
+          "high": 25.835666970616202
+        }
+      }
+    },
+    "CBLOL/LTA-S": {
+      "games": 29,
+      "series": 8,
+      "mean": 29.66,
+      "positions": {
+        "1": {
+          "games": 8,
+          "mean": 28,
+          "median": 29,
+          "std": 5.45,
+          "aboveMean": 0.25,
+          "centeredEffect": -1.8
+        },
+        "2": {
+          "games": 8,
+          "mean": 27.13,
+          "median": 22.5,
+          "std": 12.43,
+          "aboveMean": 0.25,
+          "centeredEffect": -2.68
+        },
+        "3": {
+          "games": 8,
+          "mean": 32.5,
+          "median": 31.5,
+          "std": 4.9,
+          "aboveMean": 0.75,
+          "centeredEffect": 2.7
+        },
+        "4": {
+          "games": 5,
+          "mean": 31.8,
+          "median": 32,
+          "std": 2.95,
+          "aboveMean": 0.8,
+          "centeredEffect": 2.85
+        },
+        "5": {
+          "games": 0,
+          "mean": null,
+          "median": null,
+          "std": null,
+          "aboveMean": null,
+          "centeredEffect": null
+        }
+      },
+      "fullFive": {
+        "series": 0,
+        "rows": {
+          "1": {
+            "games": 0,
+            "mean": null,
+            "median": null,
+            "std": null,
+            "centeredEffect": null
+          },
+          "2": {
+            "games": 0,
+            "mean": null,
+            "median": null,
+            "std": null,
+            "centeredEffect": null
+          },
+          "3": {
+            "games": 0,
+            "mean": null,
+            "median": null,
+            "std": null,
+            "centeredEffect": null
+          },
+          "4": {
+            "games": 0,
+            "mean": null,
+            "median": null,
+            "std": null,
+            "centeredEffect": null
+          },
+          "5": {
+            "games": 0,
+            "mean": null,
+            "median": null,
+            "std": null,
+            "centeredEffect": null
+          }
+        },
+        "map5Pairs": {
+          "1vs5": {
+            "n": 0,
+            "diff": null,
+            "p": null,
+            "ci": {
+              "low": null,
+              "high": null
+            }
+          },
+          "2vs5": {
+            "n": 0,
+            "diff": null,
+            "p": null,
+            "ci": {
+              "low": null,
+              "high": null
+            }
+          },
+          "3vs5": {
+            "n": 0,
+            "diff": null,
+            "p": null,
+            "ci": {
+              "low": null,
+              "high": null
+            }
+          },
+          "4vs5": {
+            "n": 0,
+            "diff": null,
+            "p": null,
+            "ci": {
+              "low": null,
+              "high": null
+            }
+          }
+        }
+      },
+      "map2vs5": {
+        "diff": null,
+        "p": null,
+        "ci": {
+          "low": null,
+          "high": null
+        }
+      }
+    }
+  },
+  "seriesExamples": [
+    {
+      "key": "LCK||LCK 2025 Season Playoffs||ROUND1||Dplus KIA vs T1",
+      "league": "LCK",
+      "tournament": "LCK 2025 Season Playoffs",
+      "week": "ROUND1",
+      "matchupKey": "Dplus KIA vs T1",
+      "maxMap": 5,
+      "bestOf": 5,
+      "bo5Confirmed": true,
+      "scoreSamples": [
+        "2-3",
+        "3-2"
+      ],
+      "mapsPresent": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "gameIds": [
+        "72268",
+        "72269",
+        "72270",
+        "72271",
+        "72272"
+      ],
+      "totalKills": [
+        24,
+        25,
+        36,
+        20,
+        21
+      ]
+    },
+    {
+      "key": "LCK||LCK 2025 Season Playoffs||ROUND3||GEN vs T1",
+      "league": "LCK",
+      "tournament": "LCK 2025 Season Playoffs",
+      "week": "ROUND3",
+      "matchupKey": "GEN vs T1",
+      "maxMap": 5,
+      "bestOf": 5,
+      "bo5Confirmed": true,
+      "scoreSamples": [
+        "3-2",
+        "2-3"
+      ],
+      "mapsPresent": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "gameIds": [
+        "72526",
+        "72527",
+        "72528",
+        "72529",
+        "72530"
+      ],
+      "totalKills": [
+        28,
+        23,
+        20,
+        35,
+        28
+      ]
+    },
+    {
+      "key": "LCK||LCK 2025 Season Playoffs||ROUND2||GEN vs KT Rolster",
+      "league": "LCK",
+      "tournament": "LCK 2025 Season Playoffs",
+      "week": "ROUND2",
+      "matchupKey": "GEN vs KT Rolster",
+      "maxMap": 5,
+      "bestOf": 5,
+      "bo5Confirmed": true,
+      "scoreSamples": [
+        "2-3",
+        "3-2"
+      ],
+      "mapsPresent": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "gameIds": [
+        "72416",
+        "72417",
+        "72418",
+        "72419",
+        "72420"
+      ],
+      "totalKills": [
+        21,
+        32,
+        27,
+        29,
+        35
+      ]
+    },
+    {
+      "key": "LCK||LCK 2025 Season Play-In||ROUND1||BNK FearX vs Dplus KIA",
+      "league": "LCK",
+      "tournament": "LCK 2025 Season Play-In",
+      "week": "ROUND1",
+      "matchupKey": "BNK FearX vs Dplus KIA",
+      "maxMap": 5,
+      "bestOf": 5,
+      "bo5Confirmed": true,
+      "scoreSamples": [
+        "3-2",
+        "2-3"
+      ],
+      "mapsPresent": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "gameIds": [
+        "72029",
+        "72030",
+        "72031",
+        "72032",
+        "72033"
+      ],
+      "totalKills": [
+        34,
+        28,
+        32,
+        31,
+        28
+      ]
+    },
+    {
+      "key": "LCK||LCK 2025 Season Play-In||ROUND1||NS vs OK BRION",
+      "league": "LCK",
+      "tournament": "LCK 2025 Season Play-In",
+      "week": "ROUND1",
+      "matchupKey": "NS vs OK BRION",
+      "maxMap": 5,
+      "bestOf": 5,
+      "bo5Confirmed": true,
+      "scoreSamples": [
+        "3-2",
+        "2-3"
+      ],
+      "mapsPresent": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "gameIds": [
+        "72024",
+        "72025",
+        "72026",
+        "72027",
+        "72028"
+      ],
+      "totalKills": [
+        20,
+        23,
+        28,
+        28,
+        24
+      ]
+    },
+    {
+      "key": "LCK||LCK 2025 Road to MSI||ROUND3||GEN vs HLE",
+      "league": "LCK",
+      "tournament": "LCK 2025 Road to MSI",
+      "week": "ROUND3",
+      "matchupKey": "GEN vs HLE",
+      "maxMap": 5,
+      "bestOf": 5,
+      "bo5Confirmed": true,
+      "scoreSamples": [
+        "3-2",
+        "2-3"
+      ],
+      "mapsPresent": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "gameIds": [
+        "68995",
+        "68996",
+        "68997",
+        "68998",
+        "68999"
+      ],
+      "totalKills": [
+        46,
+        26,
+        35,
+        23,
+        25
+      ]
+    },
+    {
+      "key": "LCKCL||LCK CL 2025 Season Playoffs||ROUND4||BFX vs T1",
+      "league": "LCKCL",
+      "tournament": "LCK CL 2025 Season Playoffs",
+      "week": "ROUND4",
+      "matchupKey": "BFX vs T1",
+      "maxMap": 5,
+      "bestOf": 5,
+      "bo5Confirmed": true,
+      "scoreSamples": [
+        "3-2",
+        "2-3"
+      ],
+      "mapsPresent": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "gameIds": [
+        "72623",
+        "72624",
+        "72625",
+        "72626",
+        "72627"
+      ],
+      "totalKills": [
+        39,
+        29,
+        66,
+        36,
+        32
+      ]
+    },
+    {
+      "key": "LCKCL||LCK CL 2025 Season Playoffs||ROUND3||BFX vs DRX",
+      "league": "LCKCL",
+      "tournament": "LCK CL 2025 Season Playoffs",
+      "week": "ROUND3",
+      "matchupKey": "BFX vs DRX",
+      "maxMap": 5,
+      "bestOf": 5,
+      "bo5Confirmed": true,
+      "scoreSamples": [
+        "3-2",
+        "2-3"
+      ],
+      "mapsPresent": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "gameIds": [
+        "72602",
+        "72603",
+        "72604",
+        "72605",
+        "72606"
+      ],
+      "totalKills": [
+        47,
+        39,
+        44,
+        25,
+        48
+      ]
+    },
+    {
+      "key": "LCKCL||LCK CL 2025 Season Playoffs||ROUND2||BFX vs DNF",
+      "league": "LCKCL",
+      "tournament": "LCK CL 2025 Season Playoffs",
+      "week": "ROUND2",
+      "matchupKey": "BFX vs DNF",
+      "maxMap": 5,
+      "bestOf": 5,
+      "bo5Confirmed": true,
+      "scoreSamples": [
+        "3-2",
+        "2-3"
+      ],
+      "mapsPresent": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "gameIds": [
+        "72561",
+        "72562",
+        "72563",
+        "72564",
+        "72565"
+      ],
+      "totalKills": [
+        38,
+        49,
+        42,
+        25,
+        26
+      ]
+    },
+    {
+      "key": "LCKCL||LCK CL 2025 Season Playoffs||ROUND4||KT vs T1",
+      "league": "LCKCL",
+      "tournament": "LCK CL 2025 Season Playoffs",
+      "week": "ROUND4",
+      "matchupKey": "KT vs T1",
+      "maxMap": 5,
+      "bestOf": 5,
+      "bo5Confirmed": true,
+      "scoreSamples": [
+        "3-2",
+        "2-3"
+      ],
+      "mapsPresent": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "gameIds": [
+        "72566",
+        "72567",
+        "72568",
+        "72569",
+        "72570"
+      ],
+      "totalKills": [
+        40,
+        36,
+        28,
+        32,
+        36
+      ]
+    },
+    {
+      "key": "LCKCL||LCK CL 2025 Season Play-In||ROUND1||DNF vs HLE",
+      "league": "LCKCL",
+      "tournament": "LCK CL 2025 Season Play-In",
+      "week": "ROUND1",
+      "matchupKey": "DNF vs HLE",
+      "maxMap": 5,
+      "bestOf": 5,
+      "bo5Confirmed": true,
+      "scoreSamples": [
+        "3-2",
+        "2-3"
+      ],
+      "mapsPresent": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "gameIds": [
+        "72049",
+        "72050",
+        "72051",
+        "72052",
+        "72053"
+      ],
+      "totalKills": [
+        32,
+        55,
+        34,
+        24,
+        24
+      ]
+    },
+    {
+      "key": "LCKCL||LCK CL 2025 Season Play-In||ROUND1||DNF vs GEN",
+      "league": "LCKCL",
+      "tournament": "LCK CL 2025 Season Play-In",
+      "week": "ROUND1",
+      "matchupKey": "DNF vs GEN",
+      "maxMap": 5,
+      "bestOf": 5,
+      "bo5Confirmed": true,
+      "scoreSamples": [
+        "2-3",
+        "3-2"
+      ],
+      "mapsPresent": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "gameIds": [
+        "71896",
+        "71897",
+        "71898",
+        "71899",
+        "71900"
+      ],
+      "totalKills": [
+        15,
+        37,
+        53,
+        32,
+        29
+      ]
+    },
+    {
+      "key": "LCS/LTA-N||LTA North 2025 Split 2 Playoffs||FINALS||Cloud9 vs FlyQuest",
+      "league": "LCS/LTA-N",
+      "tournament": "LTA North 2025 Split 2 Playoffs",
+      "week": "FINALS",
+      "matchupKey": "Cloud9 vs FlyQuest",
+      "maxMap": 5,
+      "bestOf": 5,
+      "bo5Confirmed": true,
+      "scoreSamples": [
+        "2-3",
+        "3-2"
+      ],
+      "mapsPresent": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "gameIds": [
+        "69197",
+        "69198",
+        "69199",
+        "69200",
+        "69201"
+      ],
+      "totalKills": [
+        33,
+        26,
+        47,
+        35,
+        32
+      ]
+    },
+    {
+      "key": "LCS/LTA-N||LTA North 2025 Split 2 Playoffs||ROUND2||Cloud9 vs FlyQuest",
+      "league": "LCS/LTA-N",
+      "tournament": "LTA North 2025 Split 2 Playoffs",
+      "week": "ROUND2",
+      "matchupKey": "Cloud9 vs FlyQuest",
+      "maxMap": 5,
+      "bestOf": 5,
+      "bo5Confirmed": true,
+      "scoreSamples": [
+        "2-3",
+        "3-2"
+      ],
+      "mapsPresent": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "gameIds": [
+        "68815",
+        "68816",
+        "68817",
+        "68818",
+        "68819"
+      ],
+      "totalKills": [
+        24,
+        33,
+        19,
+        34,
+        14
+      ]
+    },
+    {
+      "key": "LEC||LEC 2025 Summer Playoffs||ROUND1||Fnatic vs MKOI",
+      "league": "LEC",
+      "tournament": "LEC 2025 Summer Playoffs",
+      "week": "ROUND1",
+      "matchupKey": "Fnatic vs MKOI",
+      "maxMap": 5,
+      "bestOf": 5,
+      "bo5Confirmed": true,
+      "scoreSamples": [
+        "2-3",
+        "3-2"
+      ],
+      "mapsPresent": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "gameIds": [
+        "71856",
+        "71857",
+        "71858",
+        "71859",
+        "71860"
+      ],
+      "totalKills": [
+        32,
+        30,
+        26,
+        26,
+        34
+      ]
+    },
+    {
+      "key": "LEC||LEC 2025 Spring Playoffs||ROUND3||KC vs MKOI",
+      "league": "LEC",
+      "tournament": "LEC 2025 Spring Playoffs",
+      "week": "ROUND3",
+      "matchupKey": "KC vs MKOI",
+      "maxMap": 5,
+      "bestOf": 5,
+      "bo5Confirmed": true,
+      "scoreSamples": [
+        "2-3",
+        "3-2"
+      ],
+      "mapsPresent": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "gameIds": [
+        "68845",
+        "68846",
+        "68847",
+        "68848",
+        "68849"
+      ],
+      "totalKills": [
+        34,
+        22,
+        28,
+        16,
+        26
+      ]
+    },
+    {
+      "key": "LEC||LEC 2025 Spring Playoffs||ROUND1||KC vs MKOI",
+      "league": "LEC",
+      "tournament": "LEC 2025 Spring Playoffs",
+      "week": "ROUND1",
+      "matchupKey": "KC vs MKOI",
+      "maxMap": 5,
+      "bestOf": 5,
+      "bo5Confirmed": true,
+      "scoreSamples": [
+        "2-3",
+        "3-2"
+      ],
+      "mapsPresent": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "gameIds": [
+        "67956",
+        "67957",
+        "67958",
+        "67959",
+        "67960"
+      ],
+      "totalKills": [
+        30,
+        36,
+        41,
+        29,
+        17
+      ]
+    },
+    {
+      "key": "LEC||LEC 2025 Winter Playoffs||ROUND4||Fnatic vs KC",
+      "league": "LEC",
+      "tournament": "LEC 2025 Winter Playoffs",
+      "week": "ROUND4",
+      "matchupKey": "Fnatic vs KC",
+      "maxMap": 5,
+      "bestOf": 5,
+      "bo5Confirmed": true,
+      "scoreSamples": [
+        "2-3",
+        "3-2"
+      ],
+      "mapsPresent": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "gameIds": [
+        "64716",
+        "64717",
+        "64718",
+        "64719",
+        "64720"
+      ],
+      "totalKills": [
+        27,
+        46,
+        31,
+        32,
+        23
+      ]
+    },
+    {
+      "key": "LPL||LPL 2025 Grand Finals||ROUND1||AL vs WBG",
+      "league": "LPL",
+      "tournament": "LPL 2025 Grand Finals",
+      "week": "ROUND1",
+      "matchupKey": "AL vs WBG",
+      "maxMap": 5,
+      "bestOf": 5,
+      "bo5Confirmed": true,
+      "scoreSamples": [
+        "2-3",
+        "3-2"
+      ],
+      "mapsPresent": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "gameIds": [
+        "72114",
+        "72115",
+        "72116",
+        "72117",
+        "72118"
+      ],
+      "totalKills": [
+        22,
+        32,
+        28,
+        20,
+        29
+      ]
+    },
+    {
+      "key": "LPL||LPL 2025 Grand Finals||FINALS||BLG vs Top Esports",
+      "league": "LPL",
+      "tournament": "LPL 2025 Grand Finals",
+      "week": "FINALS",
+      "matchupKey": "BLG vs Top Esports",
+      "maxMap": 5,
+      "bestOf": 5,
+      "bo5Confirmed": true,
+      "scoreSamples": [
+        "3-2",
+        "2-3"
+      ],
+      "mapsPresent": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "gameIds": [
+        "72521",
+        "72522",
+        "72523",
+        "72524",
+        "72525"
+      ],
+      "totalKills": [
+        14,
+        35,
+        26,
+        39,
+        38
+      ]
+    },
+    {
+      "key": "LPL||LPL 2025 Grand Finals||ROUND4||BLG vs Top Esports",
+      "league": "LPL",
+      "tournament": "LPL 2025 Grand Finals",
+      "week": "ROUND4",
+      "matchupKey": "BLG vs Top Esports",
+      "maxMap": 5,
+      "bestOf": 5,
+      "bo5Confirmed": true,
+      "scoreSamples": [
+        "3-2",
+        "2-3"
+      ],
+      "mapsPresent": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "gameIds": [
+        "72471",
+        "72472",
+        "72473",
+        "72474",
+        "72475"
+      ],
+      "totalKills": [
+        29,
+        25,
+        28,
+        36,
+        35
+      ]
+    },
+    {
+      "key": "LPL||LPL 2025 Grand Finals||ROUND1||BLG vs JD Gaming",
+      "league": "LPL",
+      "tournament": "LPL 2025 Grand Finals",
+      "week": "ROUND1",
+      "matchupKey": "BLG vs JD Gaming",
+      "maxMap": 5,
+      "bestOf": 5,
+      "bo5Confirmed": true,
+      "scoreSamples": [
+        "3-2",
+        "2-3"
+      ],
+      "mapsPresent": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "gameIds": [
+        "72104",
+        "72105",
+        "72106",
+        "72107",
+        "72108"
+      ],
+      "totalKills": [
+        18,
+        34,
+        22,
+        27,
+        25
+      ]
+    },
+    {
+      "key": "LPL||LPL 2025 Grand Finals||ROUND1||EDG vs JD Gaming",
+      "league": "LPL",
+      "tournament": "LPL 2025 Grand Finals",
+      "week": "ROUND1",
+      "matchupKey": "EDG vs JD Gaming",
+      "maxMap": 5,
+      "bestOf": 5,
+      "bo5Confirmed": true,
+      "scoreSamples": [
+        "2-3",
+        "3-2"
+      ],
+      "mapsPresent": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "gameIds": [
+        "72322",
+        "72323",
+        "72324",
+        "72325",
+        "72326"
+      ],
+      "totalKills": [
+        40,
+        41,
+        17,
+        26,
+        24
+      ]
+    },
+    {
+      "key": "LPL||LPL 2025 Grand Finals||PLAY-IN||FPX vs NIP",
+      "league": "LPL",
+      "tournament": "LPL 2025 Grand Finals",
+      "week": "PLAY-IN",
+      "matchupKey": "FPX vs NIP",
+      "maxMap": 5,
+      "bestOf": 5,
+      "bo5Confirmed": true,
+      "scoreSamples": [
+        "2-3",
+        "3-2"
+      ],
+      "mapsPresent": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "gameIds": [
+        "71871",
+        "71872",
+        "71873",
+        "71874",
+        "71875"
+      ],
+      "totalKills": [
+        33,
+        54,
+        25,
+        26,
+        46
+      ]
+    },
+    {
+      "key": "LPL||LPL 2025 Split 2 Playoffs||ROUND4||AL vs BLG",
+      "league": "LPL",
+      "tournament": "LPL 2025 Split 2 Playoffs",
+      "week": "ROUND4",
+      "matchupKey": "AL vs BLG",
+      "maxMap": 5,
+      "bestOf": 5,
+      "bo5Confirmed": true,
+      "scoreSamples": [
+        "3-2",
+        "2-3"
+      ],
+      "mapsPresent": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "gameIds": [
+        "68940",
+        "68941",
+        "68942",
+        "68943",
+        "68944"
+      ],
+      "totalKills": [
+        16,
+        31,
+        18,
+        38,
+        18
+      ]
+    },
+    {
+      "key": "LPL||LPL 2025 Split 2 Playoffs||ROUND1||FPX vs IG",
+      "league": "LPL",
+      "tournament": "LPL 2025 Split 2 Playoffs",
+      "week": "ROUND1",
+      "matchupKey": "FPX vs IG",
+      "maxMap": 5,
+      "bestOf": 5,
+      "bo5Confirmed": true,
+      "scoreSamples": [
+        "2-3",
+        "3-2"
+      ],
+      "mapsPresent": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "gameIds": [
+        "68742",
+        "68743",
+        "68744",
+        "68745",
+        "68746"
+      ],
+      "totalKills": [
+        31,
+        42,
+        28,
+        36,
+        27
+      ]
+    },
+    {
+      "key": "LPL||LPL 2025 Split 2 Playoffs||PLAY-IN||FPX vs NIP",
+      "league": "LPL",
+      "tournament": "LPL 2025 Split 2 Playoffs",
+      "week": "PLAY-IN",
+      "matchupKey": "FPX vs NIP",
+      "maxMap": 5,
+      "bestOf": 5,
+      "bo5Confirmed": true,
+      "scoreSamples": [
+        "3-2",
+        "2-3"
+      ],
+      "mapsPresent": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "gameIds": [
+        "68380",
+        "68381",
+        "68382",
+        "68383",
+        "68384"
+      ],
+      "totalKills": [
+        27,
+        24,
+        28,
+        29,
+        35
+      ]
+    },
+    {
+      "key": "LPL||LPL 2025 Split 2 Playoffs||ROUND1||JD Gaming vs WBG",
+      "league": "LPL",
+      "tournament": "LPL 2025 Split 2 Playoffs",
+      "week": "ROUND1",
+      "matchupKey": "JD Gaming vs WBG",
+      "maxMap": 5,
+      "bestOf": 5,
+      "bo5Confirmed": true,
+      "scoreSamples": [
+        "2-3",
+        "3-2"
+      ],
+      "mapsPresent": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "gameIds": [
+        "68615",
+        "68616",
+        "68617",
+        "68618",
+        "68619"
+      ],
+      "totalKills": [
+        26,
+        35,
+        21,
+        30,
+        14
+      ]
+    },
+    {
+      "key": "LPL||LPL 2025 Split 2 Playoffs||ROUND2||Team WE vs Top Esports",
+      "league": "LPL",
+      "tournament": "LPL 2025 Split 2 Playoffs",
+      "week": "ROUND2",
+      "matchupKey": "Team WE vs Top Esports",
+      "maxMap": 5,
+      "bestOf": 5,
+      "bo5Confirmed": true,
+      "scoreSamples": [
+        "3-2",
+        "2-3"
+      ],
+      "mapsPresent": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "gameIds": [
+        "68935",
+        "68936",
+        "68937",
+        "68938",
+        "68939"
+      ],
+      "totalKills": [
+        33,
+        30,
+        39,
+        37,
+        20
+      ]
+    },
+    {
+      "key": "LPL||LPL 2025 Split 1 Playoffs||ROUND4||AL vs JD Gaming",
+      "league": "LPL",
+      "tournament": "LPL 2025 Split 1 Playoffs",
+      "week": "ROUND4",
+      "matchupKey": "AL vs JD Gaming",
+      "maxMap": 5,
+      "bestOf": 5,
+      "bo5Confirmed": true,
+      "scoreSamples": [
+        "3-2",
+        "2-3"
+      ],
+      "mapsPresent": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "gameIds": [
+        "64530",
+        "64531",
+        "64532",
+        "64533",
+        "64534"
+      ],
+      "totalKills": [
+        28,
+        30,
+        28,
+        19,
+        29
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1562 @@
+[
+  {
+    "options": {
+      "calibrationWindow": 15,
+      "offsetWeight": 0.75,
+      "offsetShrink": 8,
+      "offsetCap": 5,
+      "globalOffsetWeight": 1.15,
+      "globalOffsetShrink": 25,
+      "globalOffsetCap": 3,
+      "leagueRecentWeight": 0.45,
+      "leagueHalfLife": 18,
+      "patchWeight": 0.06,
+      "patchShrink": 18,
+      "patchCap": 1.6,
+      "teamWeight": 0.35,
+      "teamWindow": 24,
+      "teamHalfLife": 9,
+      "teamShrink": 14,
+      "teamCap": 2.4,
+      "champWeight": 1,
+      "draftWeight": 0,
+      "champShrink": 28,
+      "champCap": 1.5,
+      "draftCap": 2.2
+    },
+    "pre": {
+      "mae": 6.813204130224578,
+      "bias": 1.6221687546396653,
+      "within3": 0.30666666666666664,
+      "within5": 0.48
+    },
+    "post": {
+      "mae": 6.813204130224578,
+      "bias": 1.6221687546396653,
+      "within3": 0.30666666666666664,
+      "within5": 0.48
+    },
+    "score": 7.444730278609727
+  },
+  {
+    "options": {
+      "calibrationWindow": 15,
+      "offsetWeight": 0.75,
+      "offsetShrink": 8,
+      "offsetCap": 5,
+      "globalOffsetWeight": 1.15,
+      "globalOffsetShrink": 25,
+      "globalOffsetCap": 3,
+      "leagueRecentWeight": 0.45,
+      "leagueHalfLife": 18,
+      "patchWeight": 0,
+      "patchShrink": 18,
+      "patchCap": 1.6,
+      "teamWeight": 0.35,
+      "teamWindow": 24,
+      "teamHalfLife": 9,
+      "teamShrink": 14,
+      "teamCap": 2.4,
+      "champWeight": 1,
+      "draftWeight": 0,
+      "champShrink": 28,
+      "champCap": 1.5,
+      "draftCap": 2.2
+    },
+    "pre": {
+      "mae": 6.81168558778571,
+      "bias": 1.6420273156455045,
+      "within3": 0.30666666666666664,
+      "within5": 0.48
+    },
+    "post": {
+      "mae": 6.81168558778571,
+      "bias": 1.6420273156455045,
+      "within3": 0.30666666666666664,
+      "within5": 0.48
+    },
+    "score": 7.454133944724071
+  },
+  {
+    "options": {
+      "calibrationWindow": 15,
+      "offsetWeight": 0.75,
+      "offsetShrink": 8,
+      "offsetCap": 5,
+      "globalOffsetWeight": 1.15,
+      "globalOffsetShrink": 25,
+      "globalOffsetCap": 3,
+      "leagueRecentWeight": 0.45,
+      "leagueHalfLife": 18,
+      "patchWeight": 0.06,
+      "patchShrink": 18,
+      "patchCap": 1.6,
+      "teamWeight": 0.35,
+      "teamWindow": 24,
+      "teamHalfLife": 9,
+      "teamShrink": 14,
+      "teamCap": 2.4,
+      "champWeight": 1,
+      "draftWeight": 0.2,
+      "champShrink": 28,
+      "champCap": 1.5,
+      "draftCap": 2.2
+    },
+    "pre": {
+      "mae": 6.815041497205381,
+      "bias": 1.6429039802069134,
+      "within3": 0.30666666666666664,
+      "within5": 0.48
+    },
+    "post": {
+      "mae": 6.81686346751899,
+      "bias": 1.6335330568504458,
+      "within3": 0.30666666666666664,
+      "within5": 0.48
+    },
+    "score": 7.454639982120069
+  },
+  {
+    "options": {
+      "calibrationWindow": 15,
+      "offsetWeight": 0.75,
+      "offsetShrink": 8,
+      "offsetCap": 5,
+      "globalOffsetWeight": 1.15,
+      "globalOffsetShrink": 25,
+      "globalOffsetCap": 3,
+      "leagueRecentWeight": 0.3,
+      "leagueHalfLife": 18,
+      "patchWeight": 0.06,
+      "patchShrink": 18,
+      "patchCap": 1.6,
+      "teamWeight": 0.35,
+      "teamWindow": 24,
+      "teamHalfLife": 9,
+      "teamShrink": 14,
+      "teamCap": 2.4,
+      "champWeight": 1,
+      "draftWeight": 0,
+      "champShrink": 28,
+      "champCap": 1.5,
+      "draftCap": 2.2
+    },
+    "pre": {
+      "mae": 6.8088890025267705,
+      "bias": 1.6570105669372268,
+      "within3": 0.30666666666666664,
+      "within5": 0.48
+    },
+    "post": {
+      "mae": 6.8088890025267705,
+      "bias": 1.6570105669372268,
+      "within3": 0.30666666666666664,
+      "within5": 0.48
+    },
+    "score": 7.459578147675579
+  },
+  {
+    "options": {
+      "calibrationWindow": 15,
+      "offsetWeight": 0.75,
+      "offsetShrink": 8,
+      "offsetCap": 5,
+      "globalOffsetWeight": 1.15,
+      "globalOffsetShrink": 25,
+      "globalOffsetCap": 3,
+      "leagueRecentWeight": 0.45,
+      "leagueHalfLife": 18,
+      "patchWeight": 0,
+      "patchShrink": 18,
+      "patchCap": 1.6,
+      "teamWeight": 0.35,
+      "teamWindow": 24,
+      "teamHalfLife": 9,
+      "teamShrink": 14,
+      "teamCap": 2.4,
+      "champWeight": 1,
+      "draftWeight": 0.2,
+      "champShrink": 28,
+      "champCap": 1.5,
+      "draftCap": 2.2
+    },
+    "pre": {
+      "mae": 6.813465432081193,
+      "bias": 1.6626746697324877,
+      "within3": 0.30666666666666664,
+      "within5": 0.48
+    },
+    "post": {
+      "mae": 6.815613361891035,
+      "bias": 1.6538126902110866,
+      "within3": 0.30666666666666664,
+      "within5": 0.48
+    },
+    "score": 7.464543674840466
+  },
+  {
+    "options": {
+      "calibrationWindow": 15,
+      "offsetWeight": 0.75,
+      "offsetShrink": 8,
+      "offsetCap": 5,
+      "globalOffsetWeight": 1.15,
+      "globalOffsetShrink": 25,
+      "globalOffsetCap": 3,
+      "leagueRecentWeight": 0.45,
+      "leagueHalfLife": 18,
+      "patchWeight": 0.06,
+      "patchShrink": 18,
+      "patchCap": 1.6,
+      "teamWeight": 0.35,
+      "teamWindow": 24,
+      "teamHalfLife": 9,
+      "teamShrink": 14,
+      "teamCap": 2.4,
+      "champWeight": 1,
+      "draftWeight": 0.4,
+      "champShrink": 28,
+      "champCap": 1.5,
+      "draftCap": 2.2
+    },
+    "pre": {
+      "mae": 6.816878864186185,
+      "bias": 1.6636392057741614,
+      "within3": 0.30666666666666664,
+      "within5": 0.48
+    },
+    "post": {
+      "mae": 6.821578442626772,
+      "bias": 1.6448973590612253,
+      "within3": 0.30666666666666664,
+      "within5": 0.48
+    },
+    "score": 7.465605323443779
+  },
+  {
+    "options": {
+      "calibrationWindow": 15,
+      "offsetWeight": 0.75,
+      "offsetShrink": 8,
+      "offsetCap": 5,
+      "globalOffsetWeight": 0.8,
+      "globalOffsetShrink": 25,
+      "globalOffsetCap": 3,
+      "leagueRecentWeight": 0.45,
+      "leagueHalfLife": 18,
+      "patchWeight": 0.06,
+      "patchShrink": 18,
+      "patchCap": 1.6,
+      "teamWeight": 0.35,
+      "teamWindow": 24,
+      "teamHalfLife": 9,
+      "teamShrink": 14,
+      "teamCap": 2.4,
+      "champWeight": 1,
+      "draftWeight": 0,
+      "champShrink": 28,
+      "champCap": 1.5,
+      "draftCap": 2.2
+    },
+    "pre": {
+      "mae": 6.798335486593269,
+      "bias": 1.6685517602633262,
+      "within3": 0.29333333333333333,
+      "within5": 0.48
+    },
+    "post": {
+      "mae": 6.798335486593269,
+      "bias": 1.6685517602633262,
+      "within3": 0.29333333333333333,
+      "within5": 0.48
+    },
+    "score": 7.466705621404764
+  },
+  {
+    "options": {
+      "calibrationWindow": 15,
+      "offsetWeight": 0.75,
+      "offsetShrink": 8,
+      "offsetCap": 5,
+      "globalOffsetWeight": 0.45,
+      "globalOffsetShrink": 25,
+      "globalOffsetCap": 3,
+      "leagueRecentWeight": 0.45,
+      "leagueHalfLife": 18,
+      "patchWeight": 0.06,
+      "patchShrink": 18,
+      "patchCap": 1.6,
+      "teamWeight": 0.35,
+      "teamWindow": 24,
+      "teamHalfLife": 9,
+      "teamShrink": 14,
+      "teamCap": 2.4,
+      "champWeight": 1,
+      "draftWeight": 0,
+      "champShrink": 28,
+      "champCap": 1.5,
+      "draftCap": 2.2
+    },
+    "pre": {
+      "mae": 6.786444580767828,
+      "bias": 1.7149347658869885,
+      "within3": 0.30666666666666664,
+      "within5": 0.48
+    },
+    "post": {
+      "mae": 6.786444580767828,
+      "bias": 1.7149347658869885,
+      "within3": 0.30666666666666664,
+      "within5": 0.48
+    },
+    "score": 7.468992035339006
+  },
+  {
+    "options": {
+      "calibrationWindow": 15,
+      "offsetWeight": 0.75,
+      "offsetShrink": 8,
+      "offsetCap": 5,
+      "globalOffsetWeight": 1.15,
+      "globalOffsetShrink": 25,
+      "globalOffsetCap": 3,
+      "leagueRecentWeight": 0.3,
+      "leagueHalfLife": 18,
+      "patchWeight": 0,
+      "patchShrink": 18,
+      "patchCap": 1.6,
+      "teamWeight": 0.35,
+      "teamWindow": 24,
+      "teamHalfLife": 9,
+      "teamShrink": 14,
+      "teamCap": 2.4,
+      "champWeight": 1,
+      "draftWeight": 0,
+      "champShrink": 28,
+      "champCap": 1.5,
+      "draftCap": 2.2
+    },
+    "pre": {
+      "mae": 6.807552397862591,
+      "bias": 1.6773055680431666,
+      "within3": 0.30666666666666664,
+      "within5": 0.48
+    },
+    "post": {
+      "mae": 6.807552397862591,
+      "bias": 1.6773055680431666,
+      "within3": 0.30666666666666664,
+      "within5": 0.48
+    },
+    "score": 7.469403793619667
+  },
+  {
+    "options": {
+      "calibrationWindow": 15,
+      "offsetWeight": 0.45,
+      "offsetShrink": 8,
+      "offsetCap": 5,
+      "globalOffsetWeight": 1.15,
+      "globalOffsetShrink": 25,
+      "globalOffsetCap": 3,
+      "leagueRecentWeight": 0.3,
+      "leagueHalfLife": 18,
+      "patchWeight": 0.06,
+      "patchShrink": 18,
+      "patchCap": 1.6,
+      "teamWeight": 0.35,
+      "teamWindow": 24,
+      "teamHalfLife": 9,
+      "teamShrink": 14,
+      "teamCap": 2.4,
+      "champWeight": 1,
+      "draftWeight": 0,
+      "champShrink": 28,
+      "champCap": 1.5,
+      "draftCap": 2.2
+    },
+    "pre": {
+      "mae": 6.788082745425137,
+      "bias": 1.7128953760221755,
+      "within3": 0.30666666666666664,
+      "within5": 0.48
+    },
+    "post": {
+      "mae": 6.788082745425137,
+      "bias": 1.7128953760221755,
+      "within3": 0.30666666666666664,
+      "within5": 0.48
+    },
+    "score": 7.469508535570667
+  },
+  {
+    "options": {
+      "calibrationWindow": 15,
+      "offsetWeight": 0.75,
+      "offsetShrink": 8,
+      "offsetCap": 5,
+      "globalOffsetWeight": 1.15,
+      "globalOffsetShrink": 25,
+      "globalOffsetCap": 3,
+      "leagueRecentWeight": 0.3,
+      "leagueHalfLife": 18,
+      "patchWeight": 0.06,
+      "patchShrink": 18,
+      "patchCap": 1.6,
+      "teamWeight": 0.35,
+      "teamWindow": 24,
+      "teamHalfLife": 9,
+      "teamShrink": 14,
+      "teamCap": 2.4,
+      "champWeight": 1,
+      "draftWeight": 0.2,
+      "champShrink": 28,
+      "champCap": 1.5,
+      "draftCap": 2.2
+    },
+    "pre": {
+      "mae": 6.810637185519962,
+      "bias": 1.674736887666698,
+      "within3": 0.30666666666666664,
+      "within5": 0.48
+    },
+    "post": {
+      "mae": 6.813929421251112,
+      "bias": 1.6667492202725975,
+      "within3": 0.30666666666666664,
+      "within5": 0.48
+    },
+    "score": 7.469974825734375
+  },
+  {
+    "options": {
+      "calibrationWindow": 15,
+      "offsetWeight": 0.45,
+      "offsetShrink": 8,
+      "offsetCap": 5,
+      "globalOffsetWeight": 1.15,
+      "globalOffsetShrink": 25,
+      "globalOffsetCap": 3,
+      "leagueRecentWeight": 0.45,
+      "leagueHalfLife": 18,
+      "patchWeight": 0.06,
+      "patchShrink": 18,
+      "patchCap": 1.6,
+      "teamWeight": 0.35,
+      "teamWindow": 24,
+      "teamHalfLife": 9,
+      "teamShrink": 14,
+      "teamCap": 2.4,
+      "champWeight": 1,
+      "draftWeight": 0,
+      "champShrink": 28,
+      "champCap": 1.5,
+      "draftCap": 2.2
+    },
+    "pre": {
+      "mae": 6.79155767628509,
+      "bias": 1.6913111232712101,
+      "within3": 0.29333333333333333,
+      "within5": 0.48
+    },
+    "post": {
+      "mae": 6.79155767628509,
+      "bias": 1.6913111232712101,
+      "within3": 0.29333333333333333,
+      "within5": 0.48
+    },
+    "score": 7.472445460750922
+  },
+  {
+    "options": {
+      "calibrationWindow": 15,
+      "offsetWeight": 0.75,
+      "offsetShrink": 8,
+      "offsetCap": 5,
+      "globalOffsetWeight": 1.15,
+      "globalOffsetShrink": 25,
+      "globalOffsetCap": 3,
+      "leagueRecentWeight": 0.45,
+      "leagueHalfLife": 18,
+      "patchWeight": 0.06,
+      "patchShrink": 18,
+      "patchCap": 1.6,
+      "teamWeight": 0.25,
+      "teamWindow": 24,
+      "teamHalfLife": 9,
+      "teamShrink": 14,
+      "teamCap": 2.4,
+      "champWeight": 1,
+      "draftWeight": 0,
+      "champShrink": 28,
+      "champCap": 1.5,
+      "draftCap": 2.2
+    },
+    "pre": {
+      "mae": 6.840423884882448,
+      "bias": 1.6275280127788607,
+      "within3": 0.30666666666666664,
+      "within5": 0.4666666666666667
+    },
+    "post": {
+      "mae": 6.840423884882448,
+      "bias": 1.6275280127788607,
+      "within3": 0.30666666666666664,
+      "within5": 0.4666666666666667
+    },
+    "score": 7.474897625244155
+  },
+  {
+    "options": {
+      "calibrationWindow": 15,
+      "offsetWeight": 0.75,
+      "offsetShrink": 8,
+      "offsetCap": 5,
+      "globalOffsetWeight": 1.15,
+      "globalOffsetShrink": 25,
+      "globalOffsetCap": 3,
+      "leagueRecentWeight": 0.15,
+      "leagueHalfLife": 18,
+      "patchWeight": 0.06,
+      "patchShrink": 18,
+      "patchCap": 1.6,
+      "teamWeight": 0.35,
+      "teamWindow": 24,
+      "teamHalfLife": 9,
+      "teamShrink": 14,
+      "teamCap": 2.4,
+      "champWeight": 1,
+      "draftWeight": 0,
+      "champShrink": 28,
+      "champCap": 1.5,
+      "draftCap": 2.2
+    },
+    "pre": {
+      "mae": 6.805629512642333,
+      "bias": 1.6918523792347877,
+      "within3": 0.30666666666666664,
+      "within5": 0.48
+    },
+    "post": {
+      "mae": 6.805629512642333,
+      "bias": 1.6918523792347877,
+      "within3": 0.30666666666666664,
+      "within5": 0.48
+    },
+    "score": 7.4754816545548
+  },
+  {
+    "options": {
+      "calibrationWindow": 15,
+      "offsetWeight": 0.75,
+      "offsetShrink": 8,
+      "offsetCap": 5,
+      "globalOffsetWeight": 1.15,
+      "globalOffsetShrink": 25,
+      "globalOffsetCap": 3,
+      "leagueRecentWeight": 0.45,
+      "leagueHalfLife": 18,
+      "patchWeight": 0,
+      "patchShrink": 18,
+      "patchCap": 1.6,
+      "teamWeight": 0.35,
+      "teamWindow": 24,
+      "teamHalfLife": 9,
+      "teamShrink": 14,
+      "teamCap": 2.4,
+      "champWeight": 1,
+      "draftWeight": 0.4,
+      "champShrink": 28,
+      "champCap": 1.5,
+      "draftCap": 2.2
+    },
+    "pre": {
+      "mae": 6.815245276376683,
+      "bias": 1.683322023819472,
+      "within3": 0.30666666666666664,
+      "within5": 0.48
+    },
+    "post": {
+      "mae": 6.820320501924842,
+      "bias": 1.66559806477667,
+      "within3": 0.30666666666666664,
+      "within5": 0.48
+    },
+    "score": 7.475732770885344
+  },
+  {
+    "options": {
+      "calibrationWindow": 15,
+      "offsetWeight": 0.75,
+      "offsetShrink": 8,
+      "offsetCap": 5,
+      "globalOffsetWeight": 0.8,
+      "globalOffsetShrink": 25,
+      "globalOffsetCap": 3,
+      "leagueRecentWeight": 0.45,
+      "leagueHalfLife": 18,
+      "patchWeight": 0.06,
+      "patchShrink": 18,
+      "patchCap": 1.6,
+      "teamWeight": 0.35,
+      "teamWindow": 24,
+      "teamHalfLife": 9,
+      "teamShrink": 14,
+      "teamCap": 2.4,
+      "champWeight": 1,
+      "draftWeight": 0.2,
+      "champShrink": 28,
+      "champCap": 1.5,
+      "draftCap": 2.2
+    },
+    "pre": {
+      "mae": 6.800057245803527,
+      "bias": 1.6863300581810376,
+      "within3": 0.29333333333333333,
+      "within5": 0.48
+    },
+    "post": {
+      "mae": 6.802764094724966,
+      "bias": 1.6769591348245705,
+      "within3": 0.29333333333333333,
+      "within5": 0.48
+    },
+    "score": 7.4757582855451465
+  },
+  {
+    "options": {
+      "calibrationWindow": 15,
+      "offsetWeight": 0.75,
+      "offsetShrink": 8,
+      "offsetCap": 5,
+      "globalOffsetWeight": 0.8,
+      "globalOffsetShrink": 25,
+      "globalOffsetCap": 3,
+      "leagueRecentWeight": 0.45,
+      "leagueHalfLife": 18,
+      "patchWeight": 0,
+      "patchShrink": 18,
+      "patchCap": 1.6,
+      "teamWeight": 0.35,
+      "teamWindow": 24,
+      "teamHalfLife": 9,
+      "teamShrink": 14,
+      "teamCap": 2.4,
+      "champWeight": 1,
+      "draftWeight": 0,
+      "champShrink": 28,
+      "champCap": 1.5,
+      "draftCap": 2.2
+    },
+    "pre": {
+      "mae": 6.797185374125279,
+      "bias": 1.6877378688729132,
+      "within3": 0.29333333333333333,
+      "within5": 0.48
+    },
+    "post": {
+      "mae": 6.797185374125279,
+      "bias": 1.6877378688729132,
+      "within3": 0.29333333333333333,
+      "within5": 0.48
+    },
+    "score": 7.476107868672048
+  },
+  {
+    "options": {
+      "calibrationWindow": 15,
+      "offsetWeight": 0.75,
+      "offsetShrink": 8,
+      "offsetCap": 5,
+      "globalOffsetWeight": 0.8,
+      "globalOffsetShrink": 25,
+      "globalOffsetCap": 3,
+      "leagueRecentWeight": 0.3,
+      "leagueHalfLife": 18,
+      "patchWeight": 0.06,
+      "patchShrink": 18,
+      "patchCap": 1.6,
+      "teamWeight": 0.35,
+      "teamWindow": 24,
+      "teamHalfLife": 9,
+      "teamShrink": 14,
+      "teamCap": 2.4,
+      "champWeight": 1,
+      "draftWeight": 0,
+      "champShrink": 28,
+      "champCap": 1.5,
+      "draftCap": 2.2
+    },
+    "pre": {
+      "mae": 6.7942868381253545,
+      "bias": 1.6944999596983803,
+      "within3": 0.29333333333333333,
+      "within5": 0.48
+    },
+    "post": {
+      "mae": 6.7942868381253545,
+      "bias": 1.6944999596983803,
+      "within3": 0.29333333333333333,
+      "within5": 0.48
+    },
+    "score": 7.47692848262613
+  },
+  {
+    "options": {
+      "calibrationWindow": 15,
+      "offsetWeight": 0.75,
+      "offsetShrink": 8,
+      "offsetCap": 5,
+      "globalOffsetWeight": 0.45,
+      "globalOffsetShrink": 25,
+      "globalOffsetCap": 3,
+      "leagueRecentWeight": 0.3,
+      "leagueHalfLife": 18,
+      "patchWeight": 0.06,
+      "patchShrink": 18,
+      "patchCap": 1.6,
+      "teamWeight": 0.35,
+      "teamWindow": 24,
+      "teamHalfLife": 9,
+      "teamShrink": 14,
+      "teamCap": 2.4,
+      "champWeight": 1,
+      "draftWeight": 0,
+      "champShrink": 28,
+      "champCap": 1.5,
+      "draftCap": 2.2
+    },
+    "pre": {
+      "mae": 6.785110063999987,
+      "bias": 1.7319893524595333,
+      "within3": 0.30666666666666664,
+      "within5": 0.48
+    },
+    "post": {
+      "mae": 6.785110063999987,
+      "bias": 1.7319893524595333,
+      "within3": 0.30666666666666664,
+      "within5": 0.48
+    },
+    "score": 7.477037541186064
+  },
+  {
+    "options": {
+      "calibrationWindow": 15,
+      "offsetWeight": 0.75,
+      "offsetShrink": 8,
+      "offsetCap": 5,
+      "globalOffsetWeight": 0.45,
+      "globalOffsetShrink": 25,
+      "globalOffsetCap": 3,
+      "leagueRecentWeight": 0.45,
+      "leagueHalfLife": 18,
+      "patchWeight": 0.06,
+      "patchShrink": 18,
+      "patchCap": 1.6,
+      "teamWeight": 0.35,
+      "teamWindow": 24,
+      "teamHalfLife": 9,
+      "teamShrink": 14,
+      "teamCap": 2.4,
+      "champWeight": 1,
+      "draftWeight": 0.2,
+      "champShrink": 28,
+      "champCap": 1.5,
+      "draftCap": 2.2
+    },
+    "pre": {
+      "mae": 6.78821177852468,
+      "bias": 1.729756136155163,
+      "within3": 0.30666666666666664,
+      "within5": 0.48
+    },
+    "post": {
+      "mae": 6.79270937606114,
+      "bias": 1.7203852127986958,
+      "within3": 0.30666666666666664,
+      "within5": 0.48
+    },
+    "score": 7.4782545764337565
+  },
+  {
+    "options": {
+      "calibrationWindow": 15,
+      "offsetWeight": 0.75,
+      "offsetShrink": 8,
+      "offsetCap": 5,
+      "globalOffsetWeight": 0.45,
+      "globalOffsetShrink": 25,
+      "globalOffsetCap": 3,
+      "leagueRecentWeight": 0.45,
+      "leagueHalfLife": 18,
+      "patchWeight": 0,
+      "patchShrink": 18,
+      "patchCap": 1.6,
+      "teamWeight": 0.35,
+      "teamWindow": 24,
+      "teamHalfLife": 9,
+      "teamShrink": 14,
+      "teamCap": 2.4,
+      "champWeight": 1,
+      "draftWeight": 0,
+      "champShrink": 28,
+      "champCap": 1.5,
+      "draftCap": 2.2
+    },
+    "pre": {
+      "mae": 6.786991122984474,
+      "bias": 1.7334484221003224,
+      "within3": 0.30666666666666664,
+      "within5": 0.48
+    },
+    "post": {
+      "mae": 6.786991122984474,
+      "bias": 1.7334484221003224,
+      "within3": 0.30666666666666664,
+      "within5": 0.48
+    },
+    "score": 7.479721088472985
+  },
+  {
+    "options": {
+      "calibrationWindow": 15,
+      "offsetWeight": 0.45,
+      "offsetShrink": 8,
+      "offsetCap": 5,
+      "globalOffsetWeight": 1.15,
+      "globalOffsetShrink": 25,
+      "globalOffsetCap": 3,
+      "leagueRecentWeight": 0.3,
+      "leagueHalfLife": 18,
+      "patchWeight": 0,
+      "patchShrink": 18,
+      "patchCap": 1.6,
+      "teamWeight": 0.35,
+      "teamWindow": 24,
+      "teamHalfLife": 9,
+      "teamShrink": 14,
+      "teamCap": 2.4,
+      "champWeight": 1,
+      "draftWeight": 0,
+      "champShrink": 28,
+      "champCap": 1.5,
+      "draftCap": 2.2
+    },
+    "pre": {
+      "mae": 6.78792097366048,
+      "bias": 1.7320031422139115,
+      "within3": 0.30666666666666664,
+      "within5": 0.48
+    },
+    "post": {
+      "mae": 6.78792097366048,
+      "bias": 1.7320031422139115,
+      "within3": 0.30666666666666664,
+      "within5": 0.48
+    },
+    "score": 7.479856035211465
+  },
+  {
+    "options": {
+      "calibrationWindow": 15,
+      "offsetWeight": 0.45,
+      "offsetShrink": 8,
+      "offsetCap": 5,
+      "globalOffsetWeight": 0.8,
+      "globalOffsetShrink": 25,
+      "globalOffsetCap": 3,
+      "leagueRecentWeight": 0.45,
+      "leagueHalfLife": 18,
+      "patchWeight": 0.06,
+      "patchShrink": 18,
+      "patchCap": 1.6,
+      "teamWeight": 0.35,
+      "teamWindow": 24,
+      "teamHalfLife": 9,
+      "teamShrink": 14,
+      "teamCap": 2.4,
+      "champWeight": 1,
+      "draftWeight": 0,
+      "champShrink": 28,
+      "champCap": 1.5,
+      "draftCap": 2.2
+    },
+    "pre": {
+      "mae": 6.784847397626084,
+      "bias": 1.7376941288948717,
+      "within3": 0.30666666666666664,
+      "within5": 0.48
+    },
+    "post": {
+      "mae": 6.784847397626084,
+      "bias": 1.7376941288948717,
+      "within3": 0.30666666666666664,
+      "within5": 0.48
+    },
+    "score": 7.479912501851597
+  },
+  {
+    "options": {
+      "calibrationWindow": 15,
+      "offsetWeight": 0.75,
+      "offsetShrink": 8,
+      "offsetCap": 5,
+      "globalOffsetWeight": 1.15,
+      "globalOffsetShrink": 25,
+      "globalOffsetCap": 3,
+      "leagueRecentWeight": 0.3,
+      "leagueHalfLife": 18,
+      "patchWeight": 0,
+      "patchShrink": 18,
+      "patchCap": 1.6,
+      "teamWeight": 0.35,
+      "teamWindow": 24,
+      "teamHalfLife": 9,
+      "teamShrink": 14,
+      "teamCap": 2.4,
+      "champWeight": 1,
+      "draftWeight": 0.2,
+      "champShrink": 28,
+      "champCap": 1.5,
+      "draftCap": 2.2
+    },
+    "pre": {
+      "mae": 6.8092339644987385,
+      "bias": 1.694831987101199,
+      "within3": 0.30666666666666664,
+      "within5": 0.48
+    },
+    "post": {
+      "mae": 6.812596879557762,
+      "bias": 1.6874062205125988,
+      "within3": 0.30666666666666664,
+      "within5": 0.48
+    },
+    "score": 7.480003634173025
+  },
+  {
+    "options": {
+      "calibrationWindow": 15,
+      "offsetWeight": 0.45,
+      "offsetShrink": 8,
+      "offsetCap": 5,
+      "globalOffsetWeight": 1.15,
+      "globalOffsetShrink": 25,
+      "globalOffsetCap": 3,
+      "leagueRecentWeight": 0.15,
+      "leagueHalfLife": 18,
+      "patchWeight": 0.06,
+      "patchShrink": 18,
+      "patchCap": 1.6,
+      "teamWeight": 0.35,
+      "teamWindow": 24,
+      "teamHalfLife": 9,
+      "teamShrink": 14,
+      "teamCap": 2.4,
+      "champWeight": 1,
+      "draftWeight": 0,
+      "champShrink": 28,
+      "champCap": 1.5,
+      "draftCap": 2.2
+    },
+    "pre": {
+      "mae": 6.786866560943964,
+      "bias": 1.7344796287731423,
+      "within3": 0.30666666666666664,
+      "within5": 0.48
+    },
+    "post": {
+      "mae": 6.786866560943964,
+      "bias": 1.7344796287731423,
+      "within3": 0.30666666666666664,
+      "within5": 0.48
+    },
+    "score": 7.480163690102526
+  },
+  {
+    "options": {
+      "calibrationWindow": 15,
+      "offsetWeight": 0.75,
+      "offsetShrink": 8,
+      "offsetCap": 5,
+      "globalOffsetWeight": 1.15,
+      "globalOffsetShrink": 25,
+      "globalOffsetCap": 3,
+      "leagueRecentWeight": 0.3,
+      "leagueHalfLife": 18,
+      "patchWeight": 0.06,
+      "patchShrink": 18,
+      "patchCap": 1.6,
+      "teamWeight": 0.35,
+      "teamWindow": 24,
+      "teamHalfLife": 9,
+      "teamShrink": 14,
+      "teamCap": 2.4,
+      "champWeight": 1,
+      "draftWeight": 0.4,
+      "champShrink": 28,
+      "champCap": 1.5,
+      "draftCap": 2.2
+    },
+    "pre": {
+      "mae": 6.8123853685131595,
+      "bias": 1.6924632083961686,
+      "within3": 0.30666666666666664,
+      "within5": 0.48
+    },
+    "post": {
+      "mae": 6.818969839975453,
+      "bias": 1.6764878736079674,
+      "within3": 0.30666666666666664,
+      "within5": 0.48
+    },
+    "score": 7.480371503793169
+  },
+  {
+    "options": {
+      "calibrationWindow": 15,
+      "offsetWeight": 0.45,
+      "offsetShrink": 8,
+      "offsetCap": 5,
+      "globalOffsetWeight": 1.15,
+      "globalOffsetShrink": 25,
+      "globalOffsetCap": 3,
+      "leagueRecentWeight": 0.45,
+      "leagueHalfLife": 18,
+      "patchWeight": 0.06,
+      "patchShrink": 18,
+      "patchCap": 1.6,
+      "teamWeight": 0.35,
+      "teamWindow": 24,
+      "teamHalfLife": 9,
+      "teamShrink": 14,
+      "teamCap": 2.4,
+      "champWeight": 1,
+      "draftWeight": 0.2,
+      "champShrink": 28,
+      "champCap": 1.5,
+      "draftCap": 2.2
+    },
+    "pre": {
+      "mae": 6.793138920022611,
+      "bias": 1.7076385063795219,
+      "within3": 0.29333333333333333,
+      "within5": 0.48
+    },
+    "post": {
+      "mae": 6.796849332459485,
+      "bias": 1.6982675830230538,
+      "within3": 0.29333333333333333,
+      "within5": 0.48
+    },
+    "score": 7.4815631697888305
+  },
+  {
+    "options": {
+      "calibrationWindow": 15,
+      "offsetWeight": 0.45,
+      "offsetShrink": 8,
+      "offsetCap": 5,
+      "globalOffsetWeight": 1.15,
+      "globalOffsetShrink": 25,
+      "globalOffsetCap": 3,
+      "leagueRecentWeight": 0.45,
+      "leagueHalfLife": 18,
+      "patchWeight": 0,
+      "patchShrink": 18,
+      "patchCap": 1.6,
+      "teamWeight": 0.35,
+      "teamWindow": 24,
+      "teamHalfLife": 9,
+      "teamShrink": 14,
+      "teamCap": 2.4,
+      "champWeight": 1,
+      "draftWeight": 0,
+      "champShrink": 28,
+      "champCap": 1.5,
+      "draftCap": 2.2
+    },
+    "pre": {
+      "mae": 6.790452784244388,
+      "bias": 1.7101672707671074,
+      "within3": 0.29333333333333333,
+      "within5": 0.48
+    },
+    "post": {
+      "mae": 6.790452784244388,
+      "bias": 1.7101672707671074,
+      "within3": 0.29333333333333333,
+      "within5": 0.48
+    },
+    "score": 7.4817114498329635
+  },
+  {
+    "options": {
+      "calibrationWindow": 15,
+      "offsetWeight": 0.75,
+      "offsetShrink": 8,
+      "offsetCap": 5,
+      "globalOffsetWeight": 1.15,
+      "globalOffsetShrink": 25,
+      "globalOffsetCap": 3,
+      "leagueRecentWeight": 0.15,
+      "leagueHalfLife": 18,
+      "patchWeight": 0.06,
+      "patchShrink": 18,
+      "patchCap": 1.6,
+      "teamWeight": 0.35,
+      "teamWindow": 24,
+      "teamHalfLife": 9,
+      "teamShrink": 14,
+      "teamCap": 2.4,
+      "champWeight": 1,
+      "draftWeight": 0.2,
+      "champShrink": 28,
+      "champCap": 1.5,
+      "draftCap": 2.2
+    },
+    "pre": {
+      "mae": 6.807119601351308,
+      "bias": 1.7065621404620586,
+      "within3": 0.30666666666666664,
+      "within5": 0.48
+    },
+    "post": {
+      "mae": 6.81099722389216,
+      "bias": 1.6999577290303256,
+      "within3": 0.30666666666666664,
+      "within5": 0.48
+    },
+    "score": 7.485307308192173
+  },
+  {
+    "options": {
+      "calibrationWindow": 15,
+      "offsetWeight": 0.75,
+      "offsetShrink": 8,
+      "offsetCap": 5,
+      "globalOffsetWeight": 0.8,
+      "globalOffsetShrink": 25,
+      "globalOffsetCap": 3,
+      "leagueRecentWeight": 0.45,
+      "leagueHalfLife": 18,
+      "patchWeight": 0.06,
+      "patchShrink": 18,
+      "patchCap": 1.6,
+      "teamWeight": 0.35,
+      "teamWindow": 24,
+      "teamHalfLife": 9,
+      "teamShrink": 14,
+      "teamCap": 2.4,
+      "champWeight": 1,
+      "draftWeight": 0.4,
+      "champShrink": 28,
+      "champCap": 1.5,
+      "draftCap": 2.2
+    },
+    "pre": {
+      "mae": 6.801779005013785,
+      "bias": 1.7041083560987496,
+      "within3": 0.29333333333333333,
+      "within5": 0.48
+    },
+    "post": {
+      "mae": 6.8077388803238845,
+      "bias": 1.6853665093858141,
+      "within3": 0.29333333333333333,
+      "within5": 0.48
+    },
+    "score": 7.485357127152749
+  },
+  {
+    "options": {
+      "calibrationWindow": 15,
+      "offsetWeight": 0.75,
+      "offsetShrink": 8,
+      "offsetCap": 5,
+      "globalOffsetWeight": 0.8,
+      "globalOffsetShrink": 25,
+      "globalOffsetCap": 3,
+      "leagueRecentWeight": 0.45,
+      "leagueHalfLife": 18,
+      "patchWeight": 0,
+      "patchShrink": 18,
+      "patchCap": 1.6,
+      "teamWeight": 0.35,
+      "teamWindow": 24,
+      "teamHalfLife": 9,
+      "teamShrink": 14,
+      "teamCap": 2.4,
+      "champWeight": 1,
+      "draftWeight": 0.2,
+      "champShrink": 28,
+      "champCap": 1.5,
+      "draftCap": 2.2
+    },
+    "pre": {
+      "mae": 6.798858961430618,
+      "bias": 1.7054408261414706,
+      "within3": 0.29333333333333333,
+      "within5": 0.48
+    },
+    "post": {
+      "mae": 6.801614159245701,
+      "bias": 1.6965788466200682,
+      "within3": 0.29333333333333333,
+      "within5": 0.48
+    },
+    "score": 7.485399191553405
+  },
+  {
+    "options": {
+      "calibrationWindow": 15,
+      "offsetWeight": 0.75,
+      "offsetShrink": 8,
+      "offsetCap": 5,
+      "globalOffsetWeight": 1.15,
+      "globalOffsetShrink": 25,
+      "globalOffsetCap": 3,
+      "leagueRecentWeight": 0.15,
+      "leagueHalfLife": 18,
+      "patchWeight": 0,
+      "patchShrink": 18,
+      "patchCap": 1.6,
+      "teamWeight": 0.35,
+      "teamWindow": 24,
+      "teamHalfLife": 9,
+      "teamShrink": 14,
+      "teamCap": 2.4,
+      "champWeight": 1,
+      "draftWeight": 0,
+      "champShrink": 28,
+      "champCap": 1.5,
+      "draftCap": 2.2
+    },
+    "pre": {
+      "mae": 6.804198573867959,
+      "bias": 1.7125838204408308,
+      "within3": 0.30666666666666664,
+      "within5": 0.48
+    },
+    "post": {
+      "mae": 6.804198573867959,
+      "bias": 1.7125838204408308,
+      "within3": 0.30666666666666664,
+      "within5": 0.48
+    },
+    "score": 7.485453008443749
+  },
+  {
+    "options": {
+      "calibrationWindow": 15,
+      "offsetWeight": 0.75,
+      "offsetShrink": 8,
+      "offsetCap": 5,
+      "globalOffsetWeight": 0.45,
+      "globalOffsetShrink": 25,
+      "globalOffsetCap": 3,
+      "leagueRecentWeight": 0.3,
+      "leagueHalfLife": 18,
+      "patchWeight": 0.06,
+      "patchShrink": 18,
+      "patchCap": 1.6,
+      "teamWeight": 0.35,
+      "teamWindow": 24,
+      "teamHalfLife": 9,
+      "teamShrink": 14,
+      "teamCap": 2.4,
+      "champWeight": 1,
+      "draftWeight": 0.2,
+      "champShrink": 28,
+      "champCap": 1.5,
+      "draftCap": 2.2
+    },
+    "pre": {
+      "mae": 6.786542517095745,
+      "bias": 1.7446599820686417,
+      "within3": 0.30666666666666664,
+      "within5": 0.48
+    },
+    "post": {
+      "mae": 6.791604875342862,
+      "bias": 1.736672314674541,
+      "within3": 0.30666666666666664,
+      "within5": 0.48
+    },
+    "score": 7.486107981747193
+  },
+  {
+    "options": {
+      "calibrationWindow": 15,
+      "offsetWeight": 0.75,
+      "offsetShrink": 8,
+      "offsetCap": 5,
+      "globalOffsetWeight": 0.8,
+      "globalOffsetShrink": 25,
+      "globalOffsetCap": 3,
+      "leagueRecentWeight": 0.3,
+      "leagueHalfLife": 18,
+      "patchWeight": 0.06,
+      "patchShrink": 18,
+      "patchCap": 1.6,
+      "teamWeight": 0.35,
+      "teamWindow": 24,
+      "teamHalfLife": 9,
+      "teamShrink": 14,
+      "teamCap": 2.4,
+      "champWeight": 1,
+      "draftWeight": 0.2,
+      "champShrink": 28,
+      "champCap": 1.5,
+      "draftCap": 2.2
+    },
+    "pre": {
+      "mae": 6.795785723100923,
+      "bias": 1.7096984348676696,
+      "within3": 0.29333333333333333,
+      "within5": 0.48
+    },
+    "post": {
+      "mae": 6.799650889024935,
+      "bias": 1.70171076747357,
+      "within3": 0.29333333333333333,
+      "within5": 0.48
+    },
+    "score": 7.486258477802066
+  },
+  {
+    "options": {
+      "calibrationWindow": 15,
+      "offsetWeight": 0.75,
+      "offsetShrink": 8,
+      "offsetCap": 5,
+      "globalOffsetWeight": 0.8,
+      "globalOffsetShrink": 25,
+      "globalOffsetCap": 3,
+      "leagueRecentWeight": 0.3,
+      "leagueHalfLife": 18,
+      "patchWeight": 0,
+      "patchShrink": 18,
+      "patchCap": 1.6,
+      "teamWeight": 0.35,
+      "teamWindow": 24,
+      "teamHalfLife": 9,
+      "teamShrink": 14,
+      "teamCap": 2.4,
+      "champWeight": 1,
+      "draftWeight": 0,
+      "champShrink": 28,
+      "champCap": 1.5,
+      "draftCap": 2.2
+    },
+    "pre": {
+      "mae": 6.793034581720346,
+      "bias": 1.7139985240493745,
+      "within3": 0.29333333333333333,
+      "within5": 0.48
+    },
+    "post": {
+      "mae": 6.793034581720346,
+      "bias": 1.7139985240493745,
+      "within3": 0.29333333333333333,
+      "within5": 0.48
+    },
+    "score": 7.4864004366141685
+  },
+  {
+    "options": {
+      "calibrationWindow": 15,
+      "offsetWeight": 0.75,
+      "offsetShrink": 8,
+      "offsetCap": 5,
+      "globalOffsetWeight": 0.45,
+      "globalOffsetShrink": 25,
+      "globalOffsetCap": 3,
+      "leagueRecentWeight": 0.45,
+      "leagueHalfLife": 18,
+      "patchWeight": 0.06,
+      "patchShrink": 18,
+      "patchCap": 1.6,
+      "teamWeight": 0.35,
+      "teamWindow": 24,
+      "teamHalfLife": 9,
+      "teamShrink": 14,
+      "teamCap": 2.4,
+      "champWeight": 1,
+      "draftWeight": 0.4,
+      "champShrink": 28,
+      "champCap": 1.5,
+      "draftCap": 2.2
+    },
+    "pre": {
+      "mae": 6.789978976281529,
+      "bias": 1.7445775064233369,
+      "within3": 0.30666666666666664,
+      "within5": 0.48
+    },
+    "post": {
+      "mae": 6.79897417135445,
+      "bias": 1.7258356597104019,
+      "within3": 0.30666666666666664,
+      "within5": 0.48
+    },
+    "score": 7.487517117528505
+  },
+  {
+    "options": {
+      "calibrationWindow": 15,
+      "offsetWeight": 0.75,
+      "offsetShrink": 8,
+      "offsetCap": 5,
+      "globalOffsetWeight": 0.45,
+      "globalOffsetShrink": 25,
+      "globalOffsetCap": 3,
+      "leagueRecentWeight": 0.3,
+      "leagueHalfLife": 18,
+      "patchWeight": 0,
+      "patchShrink": 18,
+      "patchCap": 1.6,
+      "teamWeight": 0.35,
+      "teamWindow": 24,
+      "teamHalfLife": 9,
+      "teamShrink": 14,
+      "teamCap": 2.4,
+      "champWeight": 1,
+      "draftWeight": 0,
+      "champShrink": 28,
+      "champCap": 1.5,
+      "draftCap": 2.2
+    },
+    "pre": {
+      "mae": 6.785576843186674,
+      "bias": 1.7506914800555824,
+      "within3": 0.30666666666666664,
+      "within5": 0.48
+    },
+    "post": {
+      "mae": 6.785576843186674,
+      "bias": 1.7506914800555824,
+      "within3": 0.30666666666666664,
+      "within5": 0.48
+    },
+    "score": 7.487790490550578
+  },
+  {
+    "options": {
+      "calibrationWindow": 15,
+      "offsetWeight": 0.75,
+      "offsetShrink": 8,
+      "offsetCap": 5,
+      "globalOffsetWeight": 0.8,
+      "globalOffsetShrink": 25,
+      "globalOffsetCap": 3,
+      "leagueRecentWeight": 0.15,
+      "leagueHalfLife": 18,
+      "patchWeight": 0.06,
+      "patchShrink": 18,
+      "patchCap": 1.6,
+      "teamWeight": 0.35,
+      "teamWindow": 24,
+      "teamHalfLife": 9,
+      "teamShrink": 14,
+      "teamCap": 2.4,
+      "champWeight": 1,
+      "draftWeight": 0,
+      "champShrink": 28,
+      "champCap": 1.5,
+      "draftCap": 2.2
+    },
+    "pre": {
+      "mae": 6.790998000356301,
+      "bias": 1.720448159133434,
+      "within3": 0.29333333333333333,
+      "within5": 0.48
+    },
+    "post": {
+      "mae": 6.790998000356301,
+      "bias": 1.720448159133434,
+      "within3": 0.29333333333333333,
+      "within5": 0.48
+    },
+    "score": 7.487911154546357
+  },
+  {
+    "options": {
+      "calibrationWindow": 15,
+      "offsetWeight": 0.45,
+      "offsetShrink": 8,
+      "offsetCap": 5,
+      "globalOffsetWeight": 0.8,
+      "globalOffsetShrink": 25,
+      "globalOffsetCap": 3,
+      "leagueRecentWeight": 0.45,
+      "leagueHalfLife": 18,
+      "patchWeight": 0.06,
+      "patchShrink": 18,
+      "patchCap": 1.6,
+      "teamWeight": 0.35,
+      "teamWindow": 24,
+      "teamHalfLife": 9,
+      "teamShrink": 14,
+      "teamCap": 2.4,
+      "champWeight": 1,
+      "draftWeight": 0.2,
+      "champShrink": 28,
+      "champCap": 1.5,
+      "draftCap": 2.2
+    },
+    "pre": {
+      "mae": 6.786441598328672,
+      "bias": 1.751064584353647,
+      "within3": 0.30666666666666664,
+      "within5": 0.48
+    },
+    "post": {
+      "mae": 6.790939195865135,
+      "bias": 1.7416936609971798,
+      "within3": 0.30666666666666664,
+      "within5": 0.48
+    },
+    "score": 7.488204042746918
+  },
+  {
+    "options": {
+      "calibrationWindow": 15,
+      "offsetWeight": 0.75,
+      "offsetShrink": 8,
+      "offsetCap": 5,
+      "globalOffsetWeight": 0.45,
+      "globalOffsetShrink": 25,
+      "globalOffsetCap": 3,
+      "leagueRecentWeight": 0.45,
+      "leagueHalfLife": 18,
+      "patchWeight": 0,
+      "patchShrink": 18,
+      "patchCap": 1.6,
+      "teamWeight": 0.35,
+      "teamWindow": 24,
+      "teamHalfLife": 9,
+      "teamShrink": 14,
+      "teamCap": 2.4,
+      "champWeight": 1,
+      "draftWeight": 0.2,
+      "champShrink": 28,
+      "champCap": 1.5,
+      "draftCap": 2.2
+    },
+    "pre": {
+      "mae": 6.788709901562886,
+      "bias": 1.748206982550452,
+      "within3": 0.30666666666666664,
+      "within5": 0.48
+    },
+    "post": {
+      "mae": 6.793300326320124,
+      "bias": 1.7393450030290512,
+      "within3": 0.30666666666666664,
+      "within5": 0.48
+    },
+    "score": 7.489273411319436
+  }
+]

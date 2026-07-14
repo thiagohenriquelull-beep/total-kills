@@ -1,0 +1,185 @@
+{
+  "createdAt": "2026-05-30T23:33:35.720Z",
+  "dataset": {
+    "totalInFile": 1368,
+    "validGames": 1368,
+    "predictionsGenerated": 1188,
+    "minTrain": 30
+  },
+  "byLeague": {
+    "LCK": {
+      "n": 170,
+      "bias": -0.4089,
+      "mae": 6.6871,
+      "rmse": 8.27
+    },
+    "LCKCL": {
+      "n": 285,
+      "bias": -0.5217,
+      "mae": 7.0347,
+      "rmse": 9.0198
+    },
+    "LPL": {
+      "n": 284,
+      "bias": -0.0733,
+      "mae": 6.2774,
+      "rmse": 8.2217
+    },
+    "CBLOL": {
+      "n": 136,
+      "bias": -0.1421,
+      "mae": 6.1146,
+      "rmse": 7.4526
+    },
+    "LEC": {
+      "n": 202,
+      "bias": -0.3614,
+      "mae": 6.6954,
+      "rmse": 8.2637
+    },
+    "LCS": {
+      "n": 111,
+      "bias": 0.173,
+      "mae": 5.567,
+      "rmse": 6.9071
+    }
+  },
+  "patchRange": {
+    "LCK": {
+      "oldest": "16.10",
+      "newest": "16.9",
+      "count": 4,
+      "patches": [
+        "16.10",
+        "16.7",
+        "16.8",
+        "16.9"
+      ]
+    },
+    "LCKCL": {
+      "oldest": "16.10",
+      "newest": "16.9",
+      "count": 7,
+      "patches": [
+        "16.10",
+        "16.2",
+        "16.3",
+        "16.6",
+        "16.7",
+        "16.8",
+        "16.9"
+      ]
+    },
+    "LPL": {
+      "oldest": "16.10",
+      "newest": "16.9",
+      "count": 6,
+      "patches": [
+        "16.10",
+        "16.2",
+        "16.3",
+        "16.7",
+        "16.8",
+        "16.9"
+      ]
+    },
+    "CBLOL": {
+      "oldest": "16.10",
+      "newest": "16.9",
+      "count": 9,
+      "patches": [
+        "16.10",
+        "16.11",
+        "16.2",
+        "16.3",
+        "16.4",
+        "16.6",
+        "16.7",
+        "16.8",
+        "16.9"
+      ]
+    },
+    "LEC": {
+      "oldest": "16.10",
+      "newest": "16.9",
+      "count": 7,
+      "patches": [
+        "16.10",
+        "16.2",
+        "16.3",
+        "16.6",
+        "16.7",
+        "16.8",
+        "16.9"
+      ]
+    },
+    "LCS": {
+      "oldest": "16.10",
+      "newest": "16.9",
+      "count": 7,
+      "patches": [
+        "16.10",
+        "16.11",
+        "16.3",
+        "16.4",
+        "16.7",
+        "16.8",
+        "16.9"
+      ]
+    }
+  },
+  "overall": {
+    "mae": 6.5038,
+    "rmse": 8.2396,
+    "bias": -0.2627,
+    "n": 1188
+  },
+  "roiByEvBucket": {
+    "<0%": {
+      "bets": 969,
+      "hits": 516,
+      "hitRate": 0.5325,
+      "profit": -40.2,
+      "roi": -0.0415
+    },
+    "0-5%": {
+      "bets": 151,
+      "hits": 95,
+      "hitRate": 0.6291,
+      "profit": 20,
+      "roi": 0.1325
+    },
+    "5-10%": {
+      "bets": 53,
+      "hits": 33,
+      "hitRate": 0.6226,
+      "profit": 6.4,
+      "roi": 0.1208
+    },
+    "10-15%": {
+      "bets": 13,
+      "hits": 12,
+      "hitRate": 0.9231,
+      "profit": 8.6,
+      "roi": 0.6615
+    },
+    ">15%": {
+      "bets": 2,
+      "hits": 2,
+      "hitRate": 1,
+      "profit": 1.6,
+      "roi": 0.8
+    }
+  },
+  "sideStats": {
+    "overBets": 141,
+    "overHits": 94,
+    "hitRateOver": 0.6667,
+    "underBets": 78,
+    "underHits": 48,
+    "hitRateUnder": 0.6154,
+    "actualOverRate": 0.4764,
+    "actualUnderRate": 0.5236,
+    "pushCount": 0
+  }
+}

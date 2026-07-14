@@ -1,0 +1,534 @@
+{
+  "generatedAt": "2026-05-26T16:46:39.554Z",
+  "thresholds": [
+    0.25,
+    0.4,
+    0.5,
+    0.6,
+    0.75,
+    0.9,
+    1,
+    1.25,
+    1.5
+  ],
+  "table": {
+    "ALL": [
+      {
+        "threshold": 0.25,
+        "bets": 812,
+        "hit": 57.5,
+        "roi": 3.5,
+        "over": 499,
+        "under": 313
+      },
+      {
+        "threshold": 0.4,
+        "bets": 652,
+        "hit": 58.6,
+        "roi": 5.5,
+        "over": 410,
+        "under": 242
+      },
+      {
+        "threshold": 0.5,
+        "bets": 549,
+        "hit": 60.1,
+        "roi": 8.2,
+        "over": 351,
+        "under": 198
+      },
+      {
+        "threshold": 0.6,
+        "bets": 466,
+        "hit": 61.6,
+        "roi": 10.9,
+        "over": 304,
+        "under": 162
+      },
+      {
+        "threshold": 0.75,
+        "bets": 372,
+        "hit": 62.9,
+        "roi": 13.2,
+        "over": 242,
+        "under": 130
+      },
+      {
+        "threshold": 0.9,
+        "bets": 274,
+        "hit": 61.3,
+        "roi": 10.4,
+        "over": 182,
+        "under": 92
+      },
+      {
+        "threshold": 1,
+        "bets": 235,
+        "hit": 62.1,
+        "roi": 11.8,
+        "over": 153,
+        "under": 82
+      },
+      {
+        "threshold": 1.25,
+        "bets": 146,
+        "hit": 65.1,
+        "roi": 17.1,
+        "over": 97,
+        "under": 49
+      },
+      {
+        "threshold": 1.5,
+        "bets": 92,
+        "hit": 65.2,
+        "roi": 17.4,
+        "over": 64,
+        "under": 28
+      }
+    ],
+    "LCK": [
+      {
+        "threshold": 0.25,
+        "bets": 107,
+        "hit": 57,
+        "roi": 2.6,
+        "over": 28,
+        "under": 79
+      },
+      {
+        "threshold": 0.4,
+        "bets": 81,
+        "hit": 58,
+        "roi": 4.4,
+        "over": 19,
+        "under": 62
+      },
+      {
+        "threshold": 0.5,
+        "bets": 67,
+        "hit": 64.2,
+        "roi": 15.5,
+        "over": 14,
+        "under": 53
+      },
+      {
+        "threshold": 0.6,
+        "bets": 50,
+        "hit": 64,
+        "roi": 15.2,
+        "over": 10,
+        "under": 40
+      },
+      {
+        "threshold": 0.75,
+        "bets": 34,
+        "hit": 70.6,
+        "roi": 27.1,
+        "over": 4,
+        "under": 30
+      },
+      {
+        "threshold": 0.9,
+        "bets": 22,
+        "hit": 63.6,
+        "roi": 14.5,
+        "over": 1,
+        "under": 21
+      },
+      {
+        "threshold": 1,
+        "bets": 19,
+        "hit": 63.2,
+        "roi": 13.7,
+        "over": 1,
+        "under": 18
+      },
+      {
+        "threshold": 1.25,
+        "bets": 10,
+        "hit": 60,
+        "roi": 8,
+        "over": 0,
+        "under": 10
+      },
+      {
+        "threshold": 1.5,
+        "bets": 4,
+        "hit": 75,
+        "roi": 35,
+        "over": 0,
+        "under": 4
+      }
+    ],
+    "LCKCL": [
+      {
+        "threshold": 0.25,
+        "bets": 212,
+        "hit": 58.5,
+        "roi": 5.3,
+        "over": 136,
+        "under": 76
+      },
+      {
+        "threshold": 0.4,
+        "bets": 178,
+        "hit": 61.8,
+        "roi": 11.2,
+        "over": 118,
+        "under": 60
+      },
+      {
+        "threshold": 0.5,
+        "bets": 154,
+        "hit": 63,
+        "roi": 13.4,
+        "over": 100,
+        "under": 54
+      },
+      {
+        "threshold": 0.6,
+        "bets": 137,
+        "hit": 64.2,
+        "roi": 15.6,
+        "over": 89,
+        "under": 48
+      },
+      {
+        "threshold": 0.75,
+        "bets": 118,
+        "hit": 65.3,
+        "roi": 17.5,
+        "over": 74,
+        "under": 44
+      },
+      {
+        "threshold": 0.9,
+        "bets": 98,
+        "hit": 61.2,
+        "roi": 10.2,
+        "over": 65,
+        "under": 33
+      },
+      {
+        "threshold": 1,
+        "bets": 87,
+        "hit": 62.1,
+        "roi": 11.7,
+        "over": 57,
+        "under": 30
+      },
+      {
+        "threshold": 1.25,
+        "bets": 59,
+        "hit": 64.4,
+        "roi": 15.9,
+        "over": 40,
+        "under": 19
+      },
+      {
+        "threshold": 1.5,
+        "bets": 41,
+        "hit": 63.4,
+        "roi": 14.1,
+        "over": 28,
+        "under": 13
+      }
+    ],
+    "LPL": [
+      {
+        "threshold": 0.25,
+        "bets": 200,
+        "hit": 57,
+        "roi": 2.6,
+        "over": 148,
+        "under": 52
+      },
+      {
+        "threshold": 0.4,
+        "bets": 166,
+        "hit": 58.4,
+        "roi": 5.2,
+        "over": 133,
+        "under": 33
+      },
+      {
+        "threshold": 0.5,
+        "bets": 145,
+        "hit": 58.6,
+        "roi": 5.5,
+        "over": 124,
+        "under": 21
+      },
+      {
+        "threshold": 0.6,
+        "bets": 130,
+        "hit": 61.5,
+        "roi": 10.8,
+        "over": 112,
+        "under": 18
+      },
+      {
+        "threshold": 0.75,
+        "bets": 108,
+        "hit": 63,
+        "roi": 13.3,
+        "over": 99,
+        "under": 9
+      },
+      {
+        "threshold": 0.9,
+        "bets": 87,
+        "hit": 65.5,
+        "roi": 17.9,
+        "over": 80,
+        "under": 7
+      },
+      {
+        "threshold": 1,
+        "bets": 78,
+        "hit": 65.4,
+        "roi": 17.7,
+        "over": 72,
+        "under": 6
+      },
+      {
+        "threshold": 1.25,
+        "bets": 53,
+        "hit": 67.9,
+        "roi": 22.3,
+        "over": 49,
+        "under": 4
+      },
+      {
+        "threshold": 1.5,
+        "bets": 35,
+        "hit": 65.7,
+        "roi": 18.3,
+        "over": 33,
+        "under": 2
+      }
+    ],
+    "CBLOL": [
+      {
+        "threshold": 0.25,
+        "bets": 83,
+        "hit": 55.4,
+        "roi": -0.2,
+        "over": 70,
+        "under": 13
+      },
+      {
+        "threshold": 0.4,
+        "bets": 62,
+        "hit": 51.6,
+        "roi": -7.1,
+        "over": 55,
+        "under": 7
+      },
+      {
+        "threshold": 0.5,
+        "bets": 47,
+        "hit": 48.9,
+        "roi": -11.9,
+        "over": 45,
+        "under": 2
+      },
+      {
+        "threshold": 0.6,
+        "bets": 42,
+        "hit": 50,
+        "roi": -10,
+        "over": 40,
+        "under": 2
+      },
+      {
+        "threshold": 0.75,
+        "bets": 27,
+        "hit": 51.9,
+        "roi": -6.7,
+        "over": 26,
+        "under": 1
+      },
+      {
+        "threshold": 0.9,
+        "bets": 13,
+        "hit": 38.5,
+        "roi": -30.8,
+        "over": 13,
+        "under": 0
+      },
+      {
+        "threshold": 1,
+        "bets": 8,
+        "hit": 37.5,
+        "roi": -32.5,
+        "over": 8,
+        "under": 0
+      },
+      {
+        "threshold": 1.25,
+        "bets": 3,
+        "hit": 33.3,
+        "roi": -40,
+        "over": 3,
+        "under": 0
+      },
+      {
+        "threshold": 1.5,
+        "bets": 1,
+        "hit": 0,
+        "roi": -100,
+        "over": 1,
+        "under": 0
+      }
+    ],
+    "LEC": [
+      {
+        "threshold": 0.25,
+        "bets": 144,
+        "hit": 56.3,
+        "roi": 1.2,
+        "over": 78,
+        "under": 66
+      },
+      {
+        "threshold": 0.4,
+        "bets": 120,
+        "hit": 57.5,
+        "roi": 3.5,
+        "over": 59,
+        "under": 61
+      },
+      {
+        "threshold": 0.5,
+        "bets": 106,
+        "hit": 58.5,
+        "roi": 5.3,
+        "over": 49,
+        "under": 57
+      },
+      {
+        "threshold": 0.6,
+        "bets": 85,
+        "hit": 60,
+        "roi": 8,
+        "over": 38,
+        "under": 47
+      },
+      {
+        "threshold": 0.75,
+        "bets": 71,
+        "hit": 57.7,
+        "roi": 3.9,
+        "over": 31,
+        "under": 40
+      },
+      {
+        "threshold": 0.9,
+        "bets": 48,
+        "hit": 56.3,
+        "roi": 1.2,
+        "over": 19,
+        "under": 29
+      },
+      {
+        "threshold": 1,
+        "bets": 41,
+        "hit": 58.5,
+        "roi": 5.4,
+        "over": 14,
+        "under": 27
+      },
+      {
+        "threshold": 1.25,
+        "bets": 20,
+        "hit": 65,
+        "roi": 17,
+        "over": 5,
+        "under": 15
+      },
+      {
+        "threshold": 1.5,
+        "bets": 11,
+        "hit": 72.7,
+        "roi": 30.9,
+        "over": 2,
+        "under": 9
+      }
+    ],
+    "LCS": [
+      {
+        "threshold": 0.25,
+        "bets": 66,
+        "hit": 62.1,
+        "roi": 11.8,
+        "over": 39,
+        "under": 27
+      },
+      {
+        "threshold": 0.4,
+        "bets": 45,
+        "hit": 60,
+        "roi": 8,
+        "over": 26,
+        "under": 19
+      },
+      {
+        "threshold": 0.5,
+        "bets": 30,
+        "hit": 66.7,
+        "roi": 20,
+        "over": 19,
+        "under": 11
+      },
+      {
+        "threshold": 0.6,
+        "bets": 22,
+        "hit": 68.2,
+        "roi": 22.7,
+        "over": 15,
+        "under": 7
+      },
+      {
+        "threshold": 0.75,
+        "bets": 14,
+        "hit": 71.4,
+        "roi": 28.6,
+        "over": 8,
+        "under": 6
+      },
+      {
+        "threshold": 0.9,
+        "bets": 6,
+        "hit": 83.3,
+        "roi": 50,
+        "over": 4,
+        "under": 2
+      },
+      {
+        "threshold": 1,
+        "bets": 2,
+        "hit": 100,
+        "roi": 80,
+        "over": 1,
+        "under": 1
+      },
+      {
+        "threshold": 1.25,
+        "bets": 1,
+        "hit": 100,
+        "roi": 80,
+        "over": 0,
+        "under": 1
+      },
+      {
+        "threshold": 1.5,
+        "bets": 0,
+        "hit": 0,
+        "roi": 0,
+        "over": 0,
+        "under": 0
+      }
+    ]
+  }
+}

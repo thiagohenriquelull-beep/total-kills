@@ -1,0 +1,2118 @@
+{
+  "generatedAt": "2026-05-26T16:56:19.488Z",
+  "rows": 1125,
+  "thresholds": {
+    "1": {
+      "over": {
+        "table": [
+          {
+            "move": 0,
+            "bets": 153,
+            "wins": 96,
+            "hit": 62.7,
+            "roi": 12.9
+          },
+          {
+            "move": 0.5,
+            "bets": 153,
+            "wins": 94,
+            "hit": 61.4,
+            "roi": 10.6
+          },
+          {
+            "move": 1,
+            "bets": 153,
+            "wins": 94,
+            "hit": 61.4,
+            "roi": 10.6
+          },
+          {
+            "move": 1.5,
+            "bets": 153,
+            "wins": 87,
+            "hit": 56.9,
+            "roi": 2.4
+          },
+          {
+            "move": 2,
+            "bets": 153,
+            "wins": 87,
+            "hit": 56.9,
+            "roi": 2.4
+          },
+          {
+            "move": 2.5,
+            "bets": 153,
+            "wins": 82,
+            "hit": 53.6,
+            "roi": -3.5
+          },
+          {
+            "move": 3,
+            "bets": 153,
+            "wins": 82,
+            "hit": 53.6,
+            "roi": -3.5
+          }
+        ],
+        "avgMargin": 3.48,
+        "medianMargin": 3.5,
+        "q25": -2.5,
+        "q75": 8.5
+      },
+      "under": {
+        "table": [
+          {
+            "move": 0,
+            "bets": 82,
+            "wins": 50,
+            "hit": 61,
+            "roi": 9.8
+          },
+          {
+            "move": 0.5,
+            "bets": 82,
+            "wins": 47,
+            "hit": 57.3,
+            "roi": 3.2
+          },
+          {
+            "move": 1,
+            "bets": 82,
+            "wins": 47,
+            "hit": 57.3,
+            "roi": 3.2
+          },
+          {
+            "move": 1.5,
+            "bets": 82,
+            "wins": 44,
+            "hit": 53.7,
+            "roi": -3.4
+          },
+          {
+            "move": 2,
+            "bets": 82,
+            "wins": 44,
+            "hit": 53.7,
+            "roi": -3.4
+          },
+          {
+            "move": 2.5,
+            "bets": 82,
+            "wins": 38,
+            "hit": 46.3,
+            "roi": -16.6
+          },
+          {
+            "move": 3,
+            "bets": 82,
+            "wins": 38,
+            "hit": 46.3,
+            "roi": -16.6
+          }
+        ],
+        "avgMargin": 2.59,
+        "medianMargin": 2.5,
+        "q25": -3.5,
+        "q75": 7.5
+      },
+      "bothCount": 235,
+      "overCount": 153,
+      "underCount": 82
+    },
+    "0.25": {
+      "over": {
+        "table": [
+          {
+            "move": 0,
+            "bets": 499,
+            "wins": 277,
+            "hit": 55.5,
+            "roi": -0.1
+          },
+          {
+            "move": 0.5,
+            "bets": 499,
+            "wins": 254,
+            "hit": 50.9,
+            "roi": -8.4
+          },
+          {
+            "move": 1,
+            "bets": 499,
+            "wins": 254,
+            "hit": 50.9,
+            "roi": -8.4
+          },
+          {
+            "move": 1.5,
+            "bets": 499,
+            "wins": 231,
+            "hit": 46.3,
+            "roi": -16.7
+          },
+          {
+            "move": 2,
+            "bets": 499,
+            "wins": 231,
+            "hit": 46.3,
+            "roi": -16.7
+          },
+          {
+            "move": 2.5,
+            "bets": 499,
+            "wins": 215,
+            "hit": 43.1,
+            "roi": -22.4
+          },
+          {
+            "move": 3,
+            "bets": 499,
+            "wins": 215,
+            "hit": 43.1,
+            "roi": -22.4
+          }
+        ],
+        "avgMargin": 2.02,
+        "medianMargin": 1.5,
+        "q25": -4.5,
+        "q75": 6.5
+      },
+      "under": {
+        "table": [
+          {
+            "move": 0,
+            "bets": 313,
+            "wins": 190,
+            "hit": 60.7,
+            "roi": 9.3
+          },
+          {
+            "move": 0.5,
+            "bets": 313,
+            "wins": 175,
+            "hit": 55.9,
+            "roi": 0.6
+          },
+          {
+            "move": 1,
+            "bets": 313,
+            "wins": 175,
+            "hit": 55.9,
+            "roi": 0.6
+          },
+          {
+            "move": 1.5,
+            "bets": 313,
+            "wins": 164,
+            "hit": 52.4,
+            "roi": -5.7
+          },
+          {
+            "move": 2,
+            "bets": 313,
+            "wins": 164,
+            "hit": 52.4,
+            "roi": -5.7
+          },
+          {
+            "move": 2.5,
+            "bets": 313,
+            "wins": 138,
+            "hit": 44.1,
+            "roi": -20.6
+          },
+          {
+            "move": 3,
+            "bets": 313,
+            "wins": 138,
+            "hit": 44.1,
+            "roi": -20.6
+          }
+        ],
+        "avgMargin": 1.65,
+        "medianMargin": 2.5,
+        "q25": -3.5,
+        "q75": 7.5
+      },
+      "bothCount": 812,
+      "overCount": 499,
+      "underCount": 313
+    },
+    "0.4": {
+      "over": {
+        "table": [
+          {
+            "move": 0,
+            "bets": 410,
+            "wins": 235,
+            "hit": 57.3,
+            "roi": 3.2
+          },
+          {
+            "move": 0.5,
+            "bets": 410,
+            "wins": 220,
+            "hit": 53.7,
+            "roi": -3.4
+          },
+          {
+            "move": 1,
+            "bets": 410,
+            "wins": 220,
+            "hit": 53.7,
+            "roi": -3.4
+          },
+          {
+            "move": 1.5,
+            "bets": 410,
+            "wins": 202,
+            "hit": 49.3,
+            "roi": -11.3
+          },
+          {
+            "move": 2,
+            "bets": 410,
+            "wins": 202,
+            "hit": 49.3,
+            "roi": -11.3
+          },
+          {
+            "move": 2.5,
+            "bets": 410,
+            "wins": 190,
+            "hit": 46.3,
+            "roi": -16.6
+          },
+          {
+            "move": 3,
+            "bets": 410,
+            "wins": 190,
+            "hit": 46.3,
+            "roi": -16.6
+          }
+        ],
+        "avgMargin": 2.61,
+        "medianMargin": 1.5,
+        "q25": -3.5,
+        "q75": 7.5
+      },
+      "under": {
+        "table": [
+          {
+            "move": 0,
+            "bets": 242,
+            "wins": 147,
+            "hit": 60.7,
+            "roi": 9.3
+          },
+          {
+            "move": 0.5,
+            "bets": 242,
+            "wins": 134,
+            "hit": 55.4,
+            "roi": -0.3
+          },
+          {
+            "move": 1,
+            "bets": 242,
+            "wins": 134,
+            "hit": 55.4,
+            "roi": -0.3
+          },
+          {
+            "move": 1.5,
+            "bets": 242,
+            "wins": 128,
+            "hit": 52.9,
+            "roi": -4.8
+          },
+          {
+            "move": 2,
+            "bets": 242,
+            "wins": 128,
+            "hit": 52.9,
+            "roi": -4.8
+          },
+          {
+            "move": 2.5,
+            "bets": 242,
+            "wins": 113,
+            "hit": 46.7,
+            "roi": -16
+          },
+          {
+            "move": 3,
+            "bets": 242,
+            "wins": 113,
+            "hit": 46.7,
+            "roi": -16
+          }
+        ],
+        "avgMargin": 2.02,
+        "medianMargin": 2.5,
+        "q25": -3.5,
+        "q75": 7.5
+      },
+      "bothCount": 652,
+      "overCount": 410,
+      "underCount": 242
+    },
+    "0.5": {
+      "over": {
+        "table": [
+          {
+            "move": 0,
+            "bets": 351,
+            "wins": 209,
+            "hit": 59.5,
+            "roi": 7.2
+          },
+          {
+            "move": 0.5,
+            "bets": 351,
+            "wins": 197,
+            "hit": 56.1,
+            "roi": 1
+          },
+          {
+            "move": 1,
+            "bets": 351,
+            "wins": 197,
+            "hit": 56.1,
+            "roi": 1
+          },
+          {
+            "move": 1.5,
+            "bets": 351,
+            "wins": 182,
+            "hit": 51.9,
+            "roi": -6.7
+          },
+          {
+            "move": 2,
+            "bets": 351,
+            "wins": 182,
+            "hit": 51.9,
+            "roi": -6.7
+          },
+          {
+            "move": 2.5,
+            "bets": 351,
+            "wins": 172,
+            "hit": 49,
+            "roi": -11.8
+          },
+          {
+            "move": 3,
+            "bets": 351,
+            "wins": 172,
+            "hit": 49,
+            "roi": -11.8
+          }
+        ],
+        "avgMargin": 2.95,
+        "medianMargin": 2.5,
+        "q25": -3.5,
+        "q75": 8.5
+      },
+      "under": {
+        "table": [
+          {
+            "move": 0,
+            "bets": 198,
+            "wins": 121,
+            "hit": 61.1,
+            "roi": 10
+          },
+          {
+            "move": 0.5,
+            "bets": 198,
+            "wins": 109,
+            "hit": 55.1,
+            "roi": -0.9
+          },
+          {
+            "move": 1,
+            "bets": 198,
+            "wins": 109,
+            "hit": 55.1,
+            "roi": -0.9
+          },
+          {
+            "move": 1.5,
+            "bets": 198,
+            "wins": 103,
+            "hit": 52,
+            "roi": -6.4
+          },
+          {
+            "move": 2,
+            "bets": 198,
+            "wins": 103,
+            "hit": 52,
+            "roi": -6.4
+          },
+          {
+            "move": 2.5,
+            "bets": 198,
+            "wins": 91,
+            "hit": 46,
+            "roi": -17.3
+          },
+          {
+            "move": 3,
+            "bets": 198,
+            "wins": 91,
+            "hit": 46,
+            "roi": -17.3
+          }
+        ],
+        "avgMargin": 2.09,
+        "medianMargin": 2.5,
+        "q25": -3.5,
+        "q75": 7.5
+      },
+      "bothCount": 549,
+      "overCount": 351,
+      "underCount": 198
+    },
+    "0.6": {
+      "over": {
+        "table": [
+          {
+            "move": 0,
+            "bets": 304,
+            "wins": 187,
+            "hit": 61.5,
+            "roi": 10.7
+          },
+          {
+            "move": 0.5,
+            "bets": 304,
+            "wins": 176,
+            "hit": 57.9,
+            "roi": 4.2
+          },
+          {
+            "move": 1,
+            "bets": 304,
+            "wins": 176,
+            "hit": 57.9,
+            "roi": 4.2
+          },
+          {
+            "move": 1.5,
+            "bets": 304,
+            "wins": 161,
+            "hit": 53,
+            "roi": -4.7
+          },
+          {
+            "move": 2,
+            "bets": 304,
+            "wins": 161,
+            "hit": 53,
+            "roi": -4.7
+          },
+          {
+            "move": 2.5,
+            "bets": 304,
+            "wins": 153,
+            "hit": 50.3,
+            "roi": -9.4
+          },
+          {
+            "move": 3,
+            "bets": 304,
+            "wins": 153,
+            "hit": 50.3,
+            "roi": -9.4
+          }
+        ],
+        "avgMargin": 3.05,
+        "medianMargin": 3.5,
+        "q25": -2.5,
+        "q75": 8.5
+      },
+      "under": {
+        "table": [
+          {
+            "move": 0,
+            "bets": 162,
+            "wins": 100,
+            "hit": 61.7,
+            "roi": 11.1
+          },
+          {
+            "move": 0.5,
+            "bets": 162,
+            "wins": 91,
+            "hit": 56.2,
+            "roi": 1.1
+          },
+          {
+            "move": 1,
+            "bets": 162,
+            "wins": 91,
+            "hit": 56.2,
+            "roi": 1.1
+          },
+          {
+            "move": 1.5,
+            "bets": 162,
+            "wins": 86,
+            "hit": 53.1,
+            "roi": -4.4
+          },
+          {
+            "move": 2,
+            "bets": 162,
+            "wins": 86,
+            "hit": 53.1,
+            "roi": -4.4
+          },
+          {
+            "move": 2.5,
+            "bets": 162,
+            "wins": 74,
+            "hit": 45.7,
+            "roi": -17.8
+          },
+          {
+            "move": 3,
+            "bets": 162,
+            "wins": 74,
+            "hit": 45.7,
+            "roi": -17.8
+          }
+        ],
+        "avgMargin": 2.18,
+        "medianMargin": 2.5,
+        "q25": -3.5,
+        "q75": 7.5
+      },
+      "bothCount": 466,
+      "overCount": 304,
+      "underCount": 162
+    },
+    "0.75": {
+      "over": {
+        "table": [
+          {
+            "move": 0,
+            "bets": 242,
+            "wins": 149,
+            "hit": 61.6,
+            "roi": 10.8
+          },
+          {
+            "move": 0.5,
+            "bets": 242,
+            "wins": 144,
+            "hit": 59.5,
+            "roi": 7.1
+          },
+          {
+            "move": 1,
+            "bets": 242,
+            "wins": 144,
+            "hit": 59.5,
+            "roi": 7.1
+          },
+          {
+            "move": 1.5,
+            "bets": 242,
+            "wins": 132,
+            "hit": 54.5,
+            "roi": -1.8
+          },
+          {
+            "move": 2,
+            "bets": 242,
+            "wins": 132,
+            "hit": 54.5,
+            "roi": -1.8
+          },
+          {
+            "move": 2.5,
+            "bets": 242,
+            "wins": 124,
+            "hit": 51.2,
+            "roi": -7.8
+          },
+          {
+            "move": 3,
+            "bets": 242,
+            "wins": 124,
+            "hit": 51.2,
+            "roi": -7.8
+          }
+        ],
+        "avgMargin": 3.2,
+        "medianMargin": 3.5,
+        "q25": -2.5,
+        "q75": 8.5
+      },
+      "under": {
+        "table": [
+          {
+            "move": 0,
+            "bets": 130,
+            "wins": 85,
+            "hit": 65.4,
+            "roi": 17.7
+          },
+          {
+            "move": 0.5,
+            "bets": 130,
+            "wins": 77,
+            "hit": 59.2,
+            "roi": 6.6
+          },
+          {
+            "move": 1,
+            "bets": 130,
+            "wins": 77,
+            "hit": 59.2,
+            "roi": 6.6
+          },
+          {
+            "move": 1.5,
+            "bets": 130,
+            "wins": 73,
+            "hit": 56.2,
+            "roi": 1.1
+          },
+          {
+            "move": 2,
+            "bets": 130,
+            "wins": 73,
+            "hit": 56.2,
+            "roi": 1.1
+          },
+          {
+            "move": 2.5,
+            "bets": 130,
+            "wins": 63,
+            "hit": 48.5,
+            "roi": -12.8
+          },
+          {
+            "move": 3,
+            "bets": 130,
+            "wins": 63,
+            "hit": 48.5,
+            "roi": -12.8
+          }
+        ],
+        "avgMargin": 2.62,
+        "medianMargin": 2.5,
+        "q25": -2.5,
+        "q75": 7.5
+      },
+      "bothCount": 372,
+      "overCount": 242,
+      "underCount": 130
+    }
+  },
+  "byLeague": {
+    "0.5": {
+      "LCK": {
+        "over": {
+          "table": [
+            {
+              "move": 0,
+              "bets": 14,
+              "wins": 11,
+              "hit": 78.6,
+              "roi": 41.4
+            },
+            {
+              "move": 0.5,
+              "bets": 14,
+              "wins": 9,
+              "hit": 64.3,
+              "roi": 15.7
+            },
+            {
+              "move": 1,
+              "bets": 14,
+              "wins": 9,
+              "hit": 64.3,
+              "roi": 15.7
+            },
+            {
+              "move": 1.5,
+              "bets": 14,
+              "wins": 9,
+              "hit": 64.3,
+              "roi": 15.7
+            },
+            {
+              "move": 2,
+              "bets": 14,
+              "wins": 9,
+              "hit": 64.3,
+              "roi": 15.7
+            },
+            {
+              "move": 2.5,
+              "bets": 14,
+              "wins": 9,
+              "hit": 64.3,
+              "roi": 15.7
+            },
+            {
+              "move": 3,
+              "bets": 14,
+              "wins": 9,
+              "hit": 64.3,
+              "roi": 15.7
+            }
+          ],
+          "avgMargin": 6.36,
+          "medianMargin": 4.5,
+          "q25": 0.5,
+          "q75": 11.5
+        },
+        "under": {
+          "table": [
+            {
+              "move": 0,
+              "bets": 53,
+              "wins": 32,
+              "hit": 60.4,
+              "roi": 8.7
+            },
+            {
+              "move": 0.5,
+              "bets": 53,
+              "wins": 29,
+              "hit": 54.7,
+              "roi": -1.5
+            },
+            {
+              "move": 1,
+              "bets": 53,
+              "wins": 29,
+              "hit": 54.7,
+              "roi": -1.5
+            },
+            {
+              "move": 1.5,
+              "bets": 53,
+              "wins": 27,
+              "hit": 50.9,
+              "roi": -8.3
+            },
+            {
+              "move": 2,
+              "bets": 53,
+              "wins": 27,
+              "hit": 50.9,
+              "roi": -8.3
+            },
+            {
+              "move": 2.5,
+              "bets": 53,
+              "wins": 25,
+              "hit": 47.2,
+              "roi": -15.1
+            },
+            {
+              "move": 3,
+              "bets": 53,
+              "wins": 25,
+              "hit": 47.2,
+              "roi": -15.1
+            }
+          ],
+          "avgMargin": 2.5,
+          "medianMargin": 2.5,
+          "q25": -3.5,
+          "q75": 7.5
+        }
+      },
+      "LCKCL": {
+        "over": {
+          "table": [
+            {
+              "move": 0,
+              "bets": 100,
+              "wins": 61,
+              "hit": 61,
+              "roi": 9.8
+            },
+            {
+              "move": 0.5,
+              "bets": 100,
+              "wins": 57,
+              "hit": 57,
+              "roi": 2.6
+            },
+            {
+              "move": 1,
+              "bets": 100,
+              "wins": 57,
+              "hit": 57,
+              "roi": 2.6
+            },
+            {
+              "move": 1.5,
+              "bets": 100,
+              "wins": 53,
+              "hit": 53,
+              "roi": -4.6
+            },
+            {
+              "move": 2,
+              "bets": 100,
+              "wins": 53,
+              "hit": 53,
+              "roi": -4.6
+            },
+            {
+              "move": 2.5,
+              "bets": 100,
+              "wins": 52,
+              "hit": 52,
+              "roi": -6.4
+            },
+            {
+              "move": 3,
+              "bets": 100,
+              "wins": 52,
+              "hit": 52,
+              "roi": -6.4
+            }
+          ],
+          "avgMargin": 3.69,
+          "medianMargin": 3.5,
+          "q25": -3.5,
+          "q75": 10.5
+        },
+        "under": {
+          "table": [
+            {
+              "move": 0,
+              "bets": 54,
+              "wins": 36,
+              "hit": 66.7,
+              "roi": 20
+            },
+            {
+              "move": 0.5,
+              "bets": 54,
+              "wins": 31,
+              "hit": 57.4,
+              "roi": 3.3
+            },
+            {
+              "move": 1,
+              "bets": 54,
+              "wins": 31,
+              "hit": 57.4,
+              "roi": 3.3
+            },
+            {
+              "move": 1.5,
+              "bets": 54,
+              "wins": 30,
+              "hit": 55.6,
+              "roi": 0
+            },
+            {
+              "move": 2,
+              "bets": 54,
+              "wins": 30,
+              "hit": 55.6,
+              "roi": 0
+            },
+            {
+              "move": 2.5,
+              "bets": 54,
+              "wins": 28,
+              "hit": 51.9,
+              "roi": -6.7
+            },
+            {
+              "move": 3,
+              "bets": 54,
+              "wins": 28,
+              "hit": 51.9,
+              "roi": -6.7
+            }
+          ],
+          "avgMargin": 2.04,
+          "medianMargin": 3.5,
+          "q25": -3.5,
+          "q75": 6.5
+        }
+      },
+      "LPL": {
+        "over": {
+          "table": [
+            {
+              "move": 0,
+              "bets": 124,
+              "wins": 72,
+              "hit": 58.1,
+              "roi": 4.5
+            },
+            {
+              "move": 0.5,
+              "bets": 124,
+              "wins": 67,
+              "hit": 54,
+              "roi": -2.7
+            },
+            {
+              "move": 1,
+              "bets": 124,
+              "wins": 67,
+              "hit": 54,
+              "roi": -2.7
+            },
+            {
+              "move": 1.5,
+              "bets": 124,
+              "wins": 61,
+              "hit": 49.2,
+              "roi": -11.5
+            },
+            {
+              "move": 2,
+              "bets": 124,
+              "wins": 61,
+              "hit": 49.2,
+              "roi": -11.5
+            },
+            {
+              "move": 2.5,
+              "bets": 124,
+              "wins": 57,
+              "hit": 46,
+              "roi": -17.3
+            },
+            {
+              "move": 3,
+              "bets": 124,
+              "wins": 57,
+              "hit": 46,
+              "roi": -17.3
+            }
+          ],
+          "avgMargin": 2.23,
+          "medianMargin": 1.5,
+          "q25": -3.5,
+          "q75": 5.5
+        },
+        "under": {
+          "table": [
+            {
+              "move": 0,
+              "bets": 21,
+              "wins": 13,
+              "hit": 61.9,
+              "roi": 11.4
+            },
+            {
+              "move": 0.5,
+              "bets": 21,
+              "wins": 11,
+              "hit": 52.4,
+              "roi": -5.7
+            },
+            {
+              "move": 1,
+              "bets": 21,
+              "wins": 11,
+              "hit": 52.4,
+              "roi": -5.7
+            },
+            {
+              "move": 1.5,
+              "bets": 21,
+              "wins": 10,
+              "hit": 47.6,
+              "roi": -14.3
+            },
+            {
+              "move": 2,
+              "bets": 21,
+              "wins": 10,
+              "hit": 47.6,
+              "roi": -14.3
+            },
+            {
+              "move": 2.5,
+              "bets": 21,
+              "wins": 8,
+              "hit": 38.1,
+              "roi": -31.4
+            },
+            {
+              "move": 3,
+              "bets": 21,
+              "wins": 8,
+              "hit": 38.1,
+              "roi": -31.4
+            }
+          ],
+          "avgMargin": 3.02,
+          "medianMargin": 1.5,
+          "q25": -1.5,
+          "q75": 11.5
+        }
+      },
+      "CBLOL": {
+        "over": {
+          "table": [
+            {
+              "move": 0,
+              "bets": 45,
+              "wins": 22,
+              "hit": 48.9,
+              "roi": -12
+            },
+            {
+              "move": 0.5,
+              "bets": 45,
+              "wins": 22,
+              "hit": 48.9,
+              "roi": -12
+            },
+            {
+              "move": 1,
+              "bets": 45,
+              "wins": 22,
+              "hit": 48.9,
+              "roi": -12
+            },
+            {
+              "move": 1.5,
+              "bets": 45,
+              "wins": 20,
+              "hit": 44.4,
+              "roi": -20
+            },
+            {
+              "move": 2,
+              "bets": 45,
+              "wins": 20,
+              "hit": 44.4,
+              "roi": -20
+            },
+            {
+              "move": 2.5,
+              "bets": 45,
+              "wins": 17,
+              "hit": 37.8,
+              "roi": -32
+            },
+            {
+              "move": 3,
+              "bets": 45,
+              "wins": 17,
+              "hit": 37.8,
+              "roi": -32
+            }
+          ],
+          "avgMargin": 1.74,
+          "medianMargin": -0.5,
+          "q25": -4.5,
+          "q75": 6.5
+        },
+        "under": {
+          "table": [
+            {
+              "move": 0,
+              "bets": 2,
+              "wins": 1,
+              "hit": 50,
+              "roi": -10
+            },
+            {
+              "move": 0.5,
+              "bets": 2,
+              "wins": 1,
+              "hit": 50,
+              "roi": -10
+            },
+            {
+              "move": 1,
+              "bets": 2,
+              "wins": 1,
+              "hit": 50,
+              "roi": -10
+            },
+            {
+              "move": 1.5,
+              "bets": 2,
+              "wins": 1,
+              "hit": 50,
+              "roi": -10
+            },
+            {
+              "move": 2,
+              "bets": 2,
+              "wins": 1,
+              "hit": 50,
+              "roi": -10
+            },
+            {
+              "move": 2.5,
+              "bets": 2,
+              "wins": 1,
+              "hit": 50,
+              "roi": -10
+            },
+            {
+              "move": 3,
+              "bets": 2,
+              "wins": 1,
+              "hit": 50,
+              "roi": -10
+            }
+          ],
+          "avgMargin": 1.5,
+          "medianMargin": -7.5,
+          "q25": -7.5,
+          "q75": -7.5
+        }
+      },
+      "LEC": {
+        "over": {
+          "table": [
+            {
+              "move": 0,
+              "bets": 49,
+              "wins": 31,
+              "hit": 63.3,
+              "roi": 13.9
+            },
+            {
+              "move": 0.5,
+              "bets": 49,
+              "wins": 31,
+              "hit": 63.3,
+              "roi": 13.9
+            },
+            {
+              "move": 1,
+              "bets": 49,
+              "wins": 31,
+              "hit": 63.3,
+              "roi": 13.9
+            },
+            {
+              "move": 1.5,
+              "bets": 49,
+              "wins": 30,
+              "hit": 61.2,
+              "roi": 10.2
+            },
+            {
+              "move": 2,
+              "bets": 49,
+              "wins": 30,
+              "hit": 61.2,
+              "roi": 10.2
+            },
+            {
+              "move": 2.5,
+              "bets": 49,
+              "wins": 28,
+              "hit": 57.1,
+              "roi": 2.9
+            },
+            {
+              "move": 3,
+              "bets": 49,
+              "wins": 28,
+              "hit": 57.1,
+              "roi": 2.9
+            }
+          ],
+          "avgMargin": 3.91,
+          "medianMargin": 3.5,
+          "q25": -2.5,
+          "q75": 8.5
+        },
+        "under": {
+          "table": [
+            {
+              "move": 0,
+              "bets": 57,
+              "wins": 31,
+              "hit": 54.4,
+              "roi": -2.1
+            },
+            {
+              "move": 0.5,
+              "bets": 57,
+              "wins": 29,
+              "hit": 50.9,
+              "roi": -8.4
+            },
+            {
+              "move": 1,
+              "bets": 57,
+              "wins": 29,
+              "hit": 50.9,
+              "roi": -8.4
+            },
+            {
+              "move": 1.5,
+              "bets": 57,
+              "wins": 29,
+              "hit": 50.9,
+              "roi": -8.4
+            },
+            {
+              "move": 2,
+              "bets": 57,
+              "wins": 29,
+              "hit": 50.9,
+              "roi": -8.4
+            },
+            {
+              "move": 2.5,
+              "bets": 57,
+              "wins": 24,
+              "hit": 42.1,
+              "roi": -24.2
+            },
+            {
+              "move": 3,
+              "bets": 57,
+              "wins": 24,
+              "hit": 42.1,
+              "roi": -24.2
+            }
+          ],
+          "avgMargin": 0.99,
+          "medianMargin": 2.5,
+          "q25": -4.5,
+          "q75": 6.5
+        }
+      },
+      "LCS": {
+        "over": {
+          "table": [
+            {
+              "move": 0,
+              "bets": 19,
+              "wins": 12,
+              "hit": 63.2,
+              "roi": 13.7
+            },
+            {
+              "move": 0.5,
+              "bets": 19,
+              "wins": 11,
+              "hit": 57.9,
+              "roi": 4.2
+            },
+            {
+              "move": 1,
+              "bets": 19,
+              "wins": 11,
+              "hit": 57.9,
+              "roi": 4.2
+            },
+            {
+              "move": 1.5,
+              "bets": 19,
+              "wins": 9,
+              "hit": 47.4,
+              "roi": -14.7
+            },
+            {
+              "move": 2,
+              "bets": 19,
+              "wins": 9,
+              "hit": 47.4,
+              "roi": -14.7
+            },
+            {
+              "move": 2.5,
+              "bets": 19,
+              "wins": 9,
+              "hit": 47.4,
+              "roi": -14.7
+            },
+            {
+              "move": 3,
+              "bets": 19,
+              "wins": 9,
+              "hit": 47.4,
+              "roi": -14.7
+            }
+          ],
+          "avgMargin": 1.66,
+          "medianMargin": 1.5,
+          "q25": -8.5,
+          "q75": 7.5
+        },
+        "under": {
+          "table": [
+            {
+              "move": 0,
+              "bets": 11,
+              "wins": 8,
+              "hit": 72.7,
+              "roi": 30.9
+            },
+            {
+              "move": 0.5,
+              "bets": 11,
+              "wins": 8,
+              "hit": 72.7,
+              "roi": 30.9
+            },
+            {
+              "move": 1,
+              "bets": 11,
+              "wins": 8,
+              "hit": 72.7,
+              "roi": 30.9
+            },
+            {
+              "move": 1.5,
+              "bets": 11,
+              "wins": 6,
+              "hit": 54.5,
+              "roi": -1.8
+            },
+            {
+              "move": 2,
+              "bets": 11,
+              "wins": 6,
+              "hit": 54.5,
+              "roi": -1.8
+            },
+            {
+              "move": 2.5,
+              "bets": 11,
+              "wins": 5,
+              "hit": 45.5,
+              "roi": -18.2
+            },
+            {
+              "move": 3,
+              "bets": 11,
+              "wins": 5,
+              "hit": 45.5,
+              "roi": -18.2
+            }
+          ],
+          "avgMargin": 4.41,
+          "medianMargin": 2.5,
+          "q25": -0.5,
+          "q75": 8.5
+        }
+      }
+    },
+    "0.6": {
+      "LCK": {
+        "over": {
+          "table": [
+            {
+              "move": 0,
+              "bets": 10,
+              "wins": 8,
+              "hit": 80,
+              "roi": 44
+            },
+            {
+              "move": 0.5,
+              "bets": 10,
+              "wins": 7,
+              "hit": 70,
+              "roi": 26
+            },
+            {
+              "move": 1,
+              "bets": 10,
+              "wins": 7,
+              "hit": 70,
+              "roi": 26
+            },
+            {
+              "move": 1.5,
+              "bets": 10,
+              "wins": 7,
+              "hit": 70,
+              "roi": 26
+            },
+            {
+              "move": 2,
+              "bets": 10,
+              "wins": 7,
+              "hit": 70,
+              "roi": 26
+            },
+            {
+              "move": 2.5,
+              "bets": 10,
+              "wins": 7,
+              "hit": 70,
+              "roi": 26
+            },
+            {
+              "move": 3,
+              "bets": 10,
+              "wins": 7,
+              "hit": 70,
+              "roi": 26
+            }
+          ],
+          "avgMargin": 5.6,
+          "medianMargin": 4.5,
+          "q25": 0.5,
+          "q75": 9.5
+        },
+        "under": {
+          "table": [
+            {
+              "move": 0,
+              "bets": 40,
+              "wins": 24,
+              "hit": 60,
+              "roi": 8
+            },
+            {
+              "move": 0.5,
+              "bets": 40,
+              "wins": 22,
+              "hit": 55,
+              "roi": -1
+            },
+            {
+              "move": 1,
+              "bets": 40,
+              "wins": 22,
+              "hit": 55,
+              "roi": -1
+            },
+            {
+              "move": 1.5,
+              "bets": 40,
+              "wins": 20,
+              "hit": 50,
+              "roi": -10
+            },
+            {
+              "move": 2,
+              "bets": 40,
+              "wins": 20,
+              "hit": 50,
+              "roi": -10
+            },
+            {
+              "move": 2.5,
+              "bets": 40,
+              "wins": 18,
+              "hit": 45,
+              "roi": -19
+            },
+            {
+              "move": 3,
+              "bets": 40,
+              "wins": 18,
+              "hit": 45,
+              "roi": -19
+            }
+          ],
+          "avgMargin": 2.55,
+          "medianMargin": 1.5,
+          "q25": -3.5,
+          "q75": 7.5
+        }
+      },
+      "LCKCL": {
+        "over": {
+          "table": [
+            {
+              "move": 0,
+              "bets": 89,
+              "wins": 55,
+              "hit": 61.8,
+              "roi": 11.2
+            },
+            {
+              "move": 0.5,
+              "bets": 89,
+              "wins": 51,
+              "hit": 57.3,
+              "roi": 3.1
+            },
+            {
+              "move": 1,
+              "bets": 89,
+              "wins": 51,
+              "hit": 57.3,
+              "roi": 3.1
+            },
+            {
+              "move": 1.5,
+              "bets": 89,
+              "wins": 47,
+              "hit": 52.8,
+              "roi": -4.9
+            },
+            {
+              "move": 2,
+              "bets": 89,
+              "wins": 47,
+              "hit": 52.8,
+              "roi": -4.9
+            },
+            {
+              "move": 2.5,
+              "bets": 89,
+              "wins": 46,
+              "hit": 51.7,
+              "roi": -7
+            },
+            {
+              "move": 3,
+              "bets": 89,
+              "wins": 46,
+              "hit": 51.7,
+              "roi": -7
+            }
+          ],
+          "avgMargin": 3.52,
+          "medianMargin": 3.5,
+          "q25": -2.5,
+          "q75": 10.5
+        },
+        "under": {
+          "table": [
+            {
+              "move": 0,
+              "bets": 48,
+              "wins": 33,
+              "hit": 68.8,
+              "roi": 23.8
+            },
+            {
+              "move": 0.5,
+              "bets": 48,
+              "wins": 28,
+              "hit": 58.3,
+              "roi": 5
+            },
+            {
+              "move": 1,
+              "bets": 48,
+              "wins": 28,
+              "hit": 58.3,
+              "roi": 5
+            },
+            {
+              "move": 1.5,
+              "bets": 48,
+              "wins": 27,
+              "hit": 56.3,
+              "roi": 1.2
+            },
+            {
+              "move": 2,
+              "bets": 48,
+              "wins": 27,
+              "hit": 56.3,
+              "roi": 1.2
+            },
+            {
+              "move": 2.5,
+              "bets": 48,
+              "wins": 25,
+              "hit": 52.1,
+              "roi": -6.2
+            },
+            {
+              "move": 3,
+              "bets": 48,
+              "wins": 25,
+              "hit": 52.1,
+              "roi": -6.2
+            }
+          ],
+          "avgMargin": 2.46,
+          "medianMargin": 3.5,
+          "q25": -2.5,
+          "q75": 7.5
+        }
+      },
+      "LPL": {
+        "over": {
+          "table": [
+            {
+              "move": 0,
+              "bets": 112,
+              "wins": 69,
+              "hit": 61.6,
+              "roi": 10.9
+            },
+            {
+              "move": 0.5,
+              "bets": 112,
+              "wins": 64,
+              "hit": 57.1,
+              "roi": 2.9
+            },
+            {
+              "move": 1,
+              "bets": 112,
+              "wins": 64,
+              "hit": 57.1,
+              "roi": 2.9
+            },
+            {
+              "move": 1.5,
+              "bets": 112,
+              "wins": 58,
+              "hit": 51.8,
+              "roi": -6.8
+            },
+            {
+              "move": 2,
+              "bets": 112,
+              "wins": 58,
+              "hit": 51.8,
+              "roi": -6.8
+            },
+            {
+              "move": 2.5,
+              "bets": 112,
+              "wins": 55,
+              "hit": 49.1,
+              "roi": -11.6
+            },
+            {
+              "move": 3,
+              "bets": 112,
+              "wins": 55,
+              "hit": 49.1,
+              "roi": -11.6
+            }
+          ],
+          "avgMargin": 2.82,
+          "medianMargin": 2.5,
+          "q25": -2.5,
+          "q75": 6.5
+        },
+        "under": {
+          "table": [
+            {
+              "move": 0,
+              "bets": 18,
+              "wins": 11,
+              "hit": 61.1,
+              "roi": 10
+            },
+            {
+              "move": 0.5,
+              "bets": 18,
+              "wins": 10,
+              "hit": 55.6,
+              "roi": 0
+            },
+            {
+              "move": 1,
+              "bets": 18,
+              "wins": 10,
+              "hit": 55.6,
+              "roi": 0
+            },
+            {
+              "move": 1.5,
+              "bets": 18,
+              "wins": 9,
+              "hit": 50,
+              "roi": -10
+            },
+            {
+              "move": 2,
+              "bets": 18,
+              "wins": 9,
+              "hit": 50,
+              "roi": -10
+            },
+            {
+              "move": 2.5,
+              "bets": 18,
+              "wins": 7,
+              "hit": 38.9,
+              "roi": -30
+            },
+            {
+              "move": 3,
+              "bets": 18,
+              "wins": 7,
+              "hit": 38.9,
+              "roi": -30
+            }
+          ],
+          "avgMargin": 3.17,
+          "medianMargin": 1.5,
+          "q25": -1.5,
+          "q75": 6.5
+        }
+      },
+      "CBLOL": {
+        "over": {
+          "table": [
+            {
+              "move": 0,
+              "bets": 40,
+              "wins": 20,
+              "hit": 50,
+              "roi": -10
+            },
+            {
+              "move": 0.5,
+              "bets": 40,
+              "wins": 20,
+              "hit": 50,
+              "roi": -10
+            },
+            {
+              "move": 1,
+              "bets": 40,
+              "wins": 20,
+              "hit": 50,
+              "roi": -10
+            },
+            {
+              "move": 1.5,
+              "bets": 40,
+              "wins": 18,
+              "hit": 45,
+              "roi": -19
+            },
+            {
+              "move": 2,
+              "bets": 40,
+              "wins": 18,
+              "hit": 45,
+              "roi": -19
+            },
+            {
+              "move": 2.5,
+              "bets": 40,
+              "wins": 16,
+              "hit": 40,
+              "roi": -28
+            },
+            {
+              "move": 3,
+              "bets": 40,
+              "wins": 16,
+              "hit": 40,
+              "roi": -28
+            }
+          ],
+          "avgMargin": 1.77,
+          "medianMargin": -0.5,
+          "q25": -4.5,
+          "q75": 6.5
+        },
+        "under": {
+          "table": [
+            {
+              "move": 0,
+              "bets": 2,
+              "wins": 1,
+              "hit": 50,
+              "roi": -10
+            },
+            {
+              "move": 0.5,
+              "bets": 2,
+              "wins": 1,
+              "hit": 50,
+              "roi": -10
+            },
+            {
+              "move": 1,
+              "bets": 2,
+              "wins": 1,
+              "hit": 50,
+              "roi": -10
+            },
+            {
+              "move": 1.5,
+              "bets": 2,
+              "wins": 1,
+              "hit": 50,
+              "roi": -10
+            },
+            {
+              "move": 2,
+              "bets": 2,
+              "wins": 1,
+              "hit": 50,
+              "roi": -10
+            },
+            {
+              "move": 2.5,
+              "bets": 2,
+              "wins": 1,
+              "hit": 50,
+              "roi": -10
+            },
+            {
+              "move": 3,
+              "bets": 2,
+              "wins": 1,
+              "hit": 50,
+              "roi": -10
+            }
+          ],
+          "avgMargin": 1.5,
+          "medianMargin": -7.5,
+          "q25": -7.5,
+          "q75": -7.5
+        }
+      },
+      "LEC": {
+        "over": {
+          "table": [
+            {
+              "move": 0,
+              "bets": 38,
+              "wins": 26,
+              "hit": 68.4,
+              "roi": 23.2
+            },
+            {
+              "move": 0.5,
+              "bets": 38,
+              "wins": 26,
+              "hit": 68.4,
+              "roi": 23.2
+            },
+            {
+              "move": 1,
+              "bets": 38,
+              "wins": 26,
+              "hit": 68.4,
+              "roi": 23.2
+            },
+            {
+              "move": 1.5,
+              "bets": 38,
+              "wins": 25,
+              "hit": 65.8,
+              "roi": 18.4
+            },
+            {
+              "move": 2,
+              "bets": 38,
+              "wins": 25,
+              "hit": 65.8,
+              "roi": 18.4
+            },
+            {
+              "move": 2.5,
+              "bets": 38,
+              "wins": 23,
+              "hit": 60.5,
+              "roi": 8.9
+            },
+            {
+              "move": 3,
+              "bets": 38,
+              "wins": 23,
+              "hit": 60.5,
+              "roi": 8.9
+            }
+          ],
+          "avgMargin": 4.24,
+          "medianMargin": 3.5,
+          "q25": -0.5,
+          "q75": 8.5
+        },
+        "under": {
+          "table": [
+            {
+              "move": 0,
+              "bets": 47,
+              "wins": 25,
+              "hit": 53.2,
+              "roi": -4.3
+            },
+            {
+              "move": 0.5,
+              "bets": 47,
+              "wins": 24,
+              "hit": 51.1,
+              "roi": -8.1
+            },
+            {
+              "move": 1,
+              "bets": 47,
+              "wins": 24,
+              "hit": 51.1,
+              "roi": -8.1
+            },
+            {
+              "move": 1.5,
+              "bets": 47,
+              "wins": 24,
+              "hit": 51.1,
+              "roi": -8.1
+            },
+            {
+              "move": 2,
+              "bets": 47,
+              "wins": 24,
+              "hit": 51.1,
+              "roi": -8.1
+            },
+            {
+              "move": 2.5,
+              "bets": 47,
+              "wins": 19,
+              "hit": 40.4,
+              "roi": -27.2
+            },
+            {
+              "move": 3,
+              "bets": 47,
+              "wins": 19,
+              "hit": 40.4,
+              "roi": -27.2
+            }
+          ],
+          "avgMargin": 0.73,
+          "medianMargin": 2.5,
+          "q25": -4.5,
+          "q75": 4.5
+        }
+      },
+      "LCS": {
+        "over": {
+          "table": [
+            {
+              "move": 0,
+              "bets": 15,
+              "wins": 9,
+              "hit": 60,
+              "roi": 8
+            },
+            {
+              "move": 0.5,
+              "bets": 15,
+              "wins": 8,
+              "hit": 53.3,
+              "roi": -4
+            },
+            {
+              "move": 1,
+              "bets": 15,
+              "wins": 8,
+              "hit": 53.3,
+              "roi": -4
+            },
+            {
+              "move": 1.5,
+              "bets": 15,
+              "wins": 6,
+              "hit": 40,
+              "roi": -28
+            },
+            {
+              "move": 2,
+              "bets": 15,
+              "wins": 6,
+              "hit": 40,
+              "roi": -28
+            },
+            {
+              "move": 2.5,
+              "bets": 15,
+              "wins": 6,
+              "hit": 40,
+              "roi": -28
+            },
+            {
+              "move": 3,
+              "bets": 15,
+              "wins": 6,
+              "hit": 40,
+              "roi": -28
+            }
+          ],
+          "avgMargin": 0.57,
+          "medianMargin": 1.5,
+          "q25": -8.5,
+          "q75": 3.5
+        },
+        "under": {
+          "table": [
+            {
+              "move": 0,
+              "bets": 7,
+              "wins": 6,
+              "hit": 85.7,
+              "roi": 54.3
+            },
+            {
+              "move": 0.5,
+              "bets": 7,
+              "wins": 6,
+              "hit": 85.7,
+              "roi": 54.3
+            },
+            {
+              "move": 1,
+              "bets": 7,
+              "wins": 6,
+              "hit": 85.7,
+              "roi": 54.3
+            },
+            {
+              "move": 1.5,
+              "bets": 7,
+              "wins": 5,
+              "hit": 71.4,
+              "roi": 28.6
+            },
+            {
+              "move": 2,
+              "bets": 7,
+              "wins": 5,
+              "hit": 71.4,
+              "roi": 28.6
+            },
+            {
+              "move": 2.5,
+              "bets": 7,
+              "wins": 4,
+              "hit": 57.1,
+              "roi": 2.9
+            },
+            {
+              "move": 3,
+              "bets": 7,
+              "wins": 4,
+              "hit": 57.1,
+              "roi": 2.9
+            }
+          ],
+          "avgMargin": 5.5,
+          "medianMargin": 4.5,
+          "q25": 1.5,
+          "q75": 8.5
+        }
+      }
+    }
+  }
+}

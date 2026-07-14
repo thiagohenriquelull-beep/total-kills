@@ -1,0 +1,76 @@
+league,date,patch,game,actualKills,preExpected,preSignedError,preAbsError,preWithin3,postExpected,postSignedError,postAbsError,postWithin3,postImproved,teamAPicks,teamBPicks
+LCK,2026-05-24,16.10,T1 vs HANJIN BRION,29,29.81,0.81,0.81,true,29.21,0.21,0.21,true,true,Yorick|Xin Zhao|Anivia|Ashe|Seraphine,Jayce|Jarvan IV|Aurora|Lucian|Milio
+LCK,2026-05-24,16.10,T1 vs HANJIN BRION,18,29.81,11.81,11.81,false,30,12,12,false,false,Sion|Naafiri|Twisted Fate|Caitlyn|Lux,Rumble|Lee Sin|Ryze|Jhin|Pyke
+LCK,2026-05-24,16.10,Gen.G vs DN SOOPers,20,28.84,8.84,8.84,false,28.8,8.8,8.8,false,true,Vayne|Maokai|Annie|Lucian|Milio,Sion|Wukong|Akali|Corki|Nami
+LCK,2026-05-24,16.10,Gen.G vs DN SOOPers,25,28.84,3.84,3.84,false,28.65,3.65,3.65,false,true,Ambessa|Skarner|Anivia|Caitlyn|Bard,Rumble|Lee Sin|Ryze|Ashe|Seraphine
+LCK,2026-05-23,16.10,Hanwha Life Esports vs Nongshim RedForce,36,31.31,-4.69,4.69,false,31.1,-4.9,4.9,false,false,Gnar|Lee Sin|Ryze|Corki|Nami,Renekton|Jarvan IV|Twisted Fate|Yunara|Lulu
+LCK,2026-05-23,16.10,Nongshim RedForce vs Hanwha Life Esports,54,31.31,-22.69,22.69,false,31.15,-22.85,22.85,false,false,Ambessa|Pantheon|Ahri|Ashe|Nautilus,Sion|Vi|Aurora|Ziggs|Pyke
+LCK,2026-05-23,16.10,Hanwha Life Esports vs Nongshim RedForce,43,31.31,-11.69,11.69,false,31.19,-11.81,11.81,false,false,Yorick|Xin Zhao|Akali|Jhin|Bard,Rumble|Wukong|Annie|Lucian|Milio
+LCK,2026-05-23,16.10,Dplus KIA vs BNK FearX,24,27.22,3.22,3.22,false,27.4,3.4,3.4,false,false,Jayce|Skarner|Viktor|Jhin|Poppy,Yorick|Pantheon|Taliyah|Miss Fortune|Alistar
+LCK,2026-05-23,16.10,BNK FearX vs Dplus KIA,37,27.22,-9.78,9.78,false,26.85,-10.15,10.15,false,false,Ambessa|Lee Sin|Ahri|Ashe|Lulu,Rumble|Xin Zhao|LeBlanc|Ezreal|Seraphine
+LCK,2026-05-23,16.10,Dplus KIA vs BNK FearX,16,27.22,11.22,11.22,false,27.1,11.1,11.1,false,true,Gnar|Jarvan IV|Ryze|Caitlyn|Karma,Sion|Naafiri|Orianna|Lucian|Milio
+LCK,2026-05-22,16.10,KT Rolster vs Gen.G,28,29.83,1.83,1.83,true,29.79,1.79,1.79,true,true,Jayce|Trundle|Cassiopeia|Corki|Nautilus,Vayne|Nocturne|Galio|Ashe|Seraphine
+LCK,2026-05-22,16.10,KT Rolster vs Gen.G,17,29.83,12.83,12.83,false,30.01,13.01,13.01,false,false,Ambessa|Pantheon|Anivia|Ezreal|Nami,Sion|Naafiri|Ryze|Jhin|Karma
+LCK,2026-05-22,16.10,Kiwoom DRX vs DN SOOPers,28,29.33,1.33,1.33,true,29.59,1.59,1.59,true,false,Gnar|Pantheon|Viktor|Ezreal|Karma,Ambessa|Lee Sin|Ahri|Sivir|Nautilus
+LCK,2026-05-22,16.10,DN SOOPers vs Kiwoom DRX,22,29.33,7.33,7.33,false,29.39,7.39,7.39,false,false,Rumble|Skarner|Yone|Lucian|Milio,KSante|Xin Zhao|Cassiopeia|Miss Fortune|Bard
+LCK,2026-05-21,16.10,HANJIN BRION vs Dplus KIA,20,27.03,7.03,7.03,false,27.37,7.37,7.37,false,false,Renekton|Naafiri|Annie|Jhin|Neeko,Illaoi|Wukong|Taliyah|Yunara|Karma
+LPL,2026-05-24,16.10,Weibo Gaming vs LGD Gaming,21,26.47,5.47,5.47,false,26.44,5.44,5.44,false,true,Ambessa|Sylas|Malphite|Kalista|Renata Glasc,Zaahen|Maokai|Vayne|Draven|Thresh
+LPL,2026-05-24,16.10,Weibo Gaming vs LGD Gaming,22,26.47,4.47,4.47,false,26.42,4.42,4.42,false,true,Jax|RekSai|Twisted Fate|Ziggs|Camille,Poppy|Lee Sin|Anivia|Caitlyn|Elise
+LPL,2026-05-24,16.10,LGD Gaming vs Weibo Gaming,30,26.46,-3.54,3.54,false,26.53,-3.47,3.47,false,true,Yorick|Jayce|Galio|Miss Fortune|Nautilus,KSante|Xin Zhao|Aurora|Ezreal|Bard
+LPL,2026-05-24,16.10,Weibo Gaming vs LGD Gaming,15,26.47,11.47,11.47,false,26.3,11.3,11.3,false,true,Sion|Vi|Ahri|Yunara|Lulu,Rumble|Trundle|Ryze|Corki|Nami
+LPL,2026-05-24,16.10,LGD Gaming vs Weibo Gaming,15,26.46,11.46,11.46,false,26.09,11.09,11.09,false,true,Gnar|Naafiri|Akali|Ashe|Seraphine,Renekton|Jarvan IV|Annie|Lucian|Milio
+LPL,2026-05-24,16.10,Ninjas in Pyjamas vs EDward Gaming,27,26.31,-0.69,0.69,true,26.33,-0.67,0.67,true,true,Ambessa|Shyvana|Ahri|Aphelios|Thresh,KSante|Maokai|Mel|Zeri|Yuumi
+LPL,2026-05-24,16.10,EDward Gaming vs Ninjas in Pyjamas,32,26.31,-5.69,5.69,false,26.46,-5.54,5.54,false,true,Vayne|Pantheon|Rumble|Ziggs|Leona,Ornn|Naafiri|Taliyah|Caitlyn|Lux
+LPL,2026-05-24,16.10,Ninjas in Pyjamas vs EDward Gaming,32,26.31,-5.69,5.69,false,26.53,-5.47,5.47,false,true,Zaahen|Wukong|Aurora|Jhin|Nautilus,Renekton|Trundle|Viktor|Varus|Karma
+LPL,2026-05-24,16.10,EDward Gaming vs Ninjas in Pyjamas,37,26.31,-10.69,10.69,false,26.34,-10.66,10.66,false,true,Tristana|Jarvan IV|Orianna|Ezreal|Bard,Gnar|Vi|Ryze|Corki|Nami
+LPL,2026-05-24,16.10,EDward Gaming vs Ninjas in Pyjamas,14,26.31,12.31,12.31,false,26.06,12.06,12.06,false,true,Sion|Lee Sin|Annie|Ashe|Seraphine,Jayce|Skarner|Cassiopeia|Lucian|Milio
+LPL,2026-05-23,16.10,Invictus Gaming vs ThunderTalk Gaming,26,29.36,3.36,3.36,false,29.25,3.25,3.25,false,true,Varus|Trundle|Taliyah|Yunara|Lulu,Ambessa|Wukong|Annie|Jhin|Seraphine
+LPL,2026-05-23,16.10,ThunderTalk Gaming vs Invictus Gaming,33,29.36,-3.64,3.64,false,29.46,-3.54,3.54,false,true,Jayce|Xin Zhao|Akali|Senna|Nautilus,Sion|Jarvan IV|Cassiopeia|Ashe|Braum
+LPL,2026-05-23,16.10,ThunderTalk Gaming vs Invictus Gaming,23,29.36,6.36,6.36,false,29.43,6.43,6.43,false,false,Rumble|Lee Sin|Ryze|Ezreal|Nami,KSante|Naafiri|Orianna|Corki|Neeko
+LPL,2026-05-23,16.10,LNG Esports vs Team WE,17,27.39,10.39,10.39,false,27.45,10.45,10.45,false,false,Ambessa|Jayce|Galio|Jinx|Lulu,Aatrox|Poppy|Smolder|Ashe|Seraphine
+LPL,2026-05-23,16.10,LNG Esports vs Team WE,24,27.39,3.39,3.39,false,27.34,3.34,3.34,false,true,Yorick|Maokai|Tristana|Miss Fortune|Karma,Ornn|Naafiri|Ahri|Caitlyn|Lux
+CBLOL,2026-05-25,16.10,Los Grandes vs LOUD,22,27.53,5.53,5.53,false,27.93,5.93,5.93,false,false,KSante|Jarvan IV|Ryze|Ezreal|Anivia,Rumble|Aatrox|Orianna|Jhin|Neeko
+CBLOL,2026-05-25,16.10,Los Grandes vs LOUD,28,27.53,-0.47,0.47,true,27.03,-0.97,0.97,true,false,Twisted Fate|Trundle|Cassiopeia|Lucian|Milio,Sion|Qiyana|Akali|Caitlyn|Bard
+CBLOL,2026-05-24,16.10,FURIA vs RED Canids,21,28.62,7.62,7.62,false,28.4,7.4,7.4,false,true,Ambessa|Trundle|Annie|Xayah|Rakan,Gnar|Naafiri|Akali|Sivir|Alistar
+CBLOL,2026-05-24,16.10,FURIA vs RED Canids,25,28.62,3.62,3.62,false,28.42,3.42,3.42,false,true,Sion|Lee Sin|Twisted Fate|Ashe|Lulu,Renekton|Aatrox|Cassiopeia|Senna|Seraphine
+CBLOL,2026-05-24,16.10,FURIA vs RED Canids,24,28.62,4.62,4.62,false,29.17,5.17,5.17,false,false,Ornn|Xin Zhao|Galio|Ezreal|Bard,Rumble|Nocturne|Orianna|Varus|Neeko
+CBLOL,2026-05-23,16.10,Los Grandes vs Vivo Keyd Stars,29,28.28,-0.72,0.72,true,28.11,-0.89,0.89,true,false,Sylas|RekSai|Ryze|Caitlyn|Anivia,Gnar|Jarvan IV|Syndra|Jhin|Karma
+CBLOL,2026-05-23,16.10,Los Grandes vs Vivo Keyd Stars,29,28.28,-0.72,0.72,true,28.09,-0.91,0.91,true,false,Aatrox|Vi|Taliyah|Lucian|Milio,Sion|Xin Zhao|Viktor|Zeri|Lulu
+CBLOL,2026-05-23,16.10,Los Grandes vs Vivo Keyd Stars,32,28.28,-3.72,3.72,false,28.54,-3.46,3.46,false,true,Rumble|Pantheon|Cassiopeia|Ezreal|Rakan,KSante|Naafiri|Orianna|Kaisa|Neeko
+CBLOL,2026-05-17,16.10,FURIA vs LOUD,26,27.15,1.15,1.15,true,26.77,0.77,0.77,true,true,Sion|RekSai|Cassiopeia|Yunara|Lulu,Gnar|Qiyana|Zoe|Corki|Nami
+CBLOL,2026-05-17,16.10,FURIA vs LOUD,23,27.15,4.15,4.15,false,26.79,3.79,3.79,false,true,Ambessa|Skarner|Ryze|Lucian|Milio,KSante|Lee Sin|Annie|Caitlyn|Karma
+CBLOL,2026-05-17,16.10,LOUD vs FURIA,26,27.15,1.15,1.15,true,27.34,1.34,1.34,true,false,Rumble|Vi|Aurora|Ashe|Seraphine,Ornn|Olaf|Orianna|Ezreal|Bard
+CBLOL,2026-05-16,16.10,RED Canids vs Fluxo W7M,25,28.49,3.49,3.49,false,28.41,3.41,3.41,false,true,Anivia|Dr. Mundo|Azir|Zeri|Alistar,Vayne|Nocturne|Orianna|Sivir|Milio
+CBLOL,2026-05-16,16.10,RED Canids vs Fluxo W7M,18,28.49,10.49,10.49,false,28.76,10.76,10.76,false,false,Jayce|RekSai|Sylas|Jhin|Rakan,Renekton|Xin Zhao|Ahri|Smolder|Karma
+CBLOL,2026-05-16,16.10,Fluxo W7M vs RED Canids,24,28.49,4.49,4.49,false,28.38,4.38,4.38,false,true,Sion|Skarner|Tristana|Ashe|Lulu,Gwen|Pantheon|Taliyah|Senna|Seraphine
+CBLOL,2026-05-16,16.10,Fluxo W7M vs RED Canids,40,28.49,-11.51,11.51,false,28.45,-11.55,11.55,false,false,Yorick|Jarvan IV|Ryze|Ezreal|Neeko,Gnar|Vi|Zoe|Caitlyn|Bard
+LEC,2026-05-25,16.10,G2 Esports vs Movistar KOI,31,28.22,-2.78,2.78,true,27.99,-3.01,3.01,false,false,Malphite|Pantheon|Sylas|Jinx|Soraka,Gnar|Zaahen|Azir|Senna|Alistar
+LEC,2026-05-25,16.10,G2 Esports vs Movistar KOI,38,28.22,-9.78,9.78,false,28.22,-9.78,9.78,false,true,Twisted Fate|Naafiri|Aurora|Ashe|Bard,Rumble|Lee Sin|Akali|Miss Fortune|Seraphine
+LEC,2026-05-25,16.10,Movistar KOI vs G2 Esports,26,28.22,2.22,2.22,true,28.2,2.2,2.2,true,true,Sion|Vi|Ahri|Zeri|Neeko,Kled|Xin Zhao|Viktor|Xayah|Rakan
+LEC,2026-05-25,16.10,Movistar KOI vs G2 Esports,35,28.22,-6.78,6.78,false,28.34,-6.66,6.66,false,true,Varus|Trundle|Ryze|Caitlyn|Nami,Yasuo|Skarner|Taliyah|Yunara|Lulu
+LEC,2026-05-25,16.10,Movistar KOI vs G2 Esports,27,28.22,1.22,1.22,true,28.46,1.46,1.46,true,false,Anivia|Nocturne|Galio|Kaisa|Nautilus,Yone|Jarvan IV|Cassiopeia|Ezreal|Leona
+LEC,2026-05-24,16.10,Movistar KOI vs Team Vitality,17,28.15,11.15,11.15,false,28.34,11.34,11.34,false,false,Varus|Lee Sin|Taliyah|Xayah|Rakan,Olaf|Jayce|Annie|Lucian|Milio
+LEC,2026-05-24,16.10,Movistar KOI vs Team Vitality,25,28.15,3.15,3.15,false,28.37,3.37,3.37,false,false,Renekton|Nocturne|Akali|Caitlyn|Neeko,Gragas|Xin Zhao|Ryze|Miss Fortune|Bard
+LEC,2026-05-24,16.10,Movistar KOI vs Team Vitality,18,28.15,10.15,10.15,false,28.02,10.02,10.02,false,true,Rumble|Wukong|Cassiopeia|Ashe|Seraphine,Anivia|Vi|Syndra|Ezreal|Nami
+LEC,2026-05-23,16.10,G2 Esports vs Karmine Corp,33,28.5,-4.5,4.5,false,28.41,-4.59,4.59,false,false,Gragas|Aatrox|Ahri|Varus|Alistar,Ambessa|Trundle|Brand|Jhin|Rakan
+LEC,2026-05-23,16.10,G2 Esports vs Karmine Corp,36,28.5,-7.5,7.5,false,28.26,-7.74,7.74,false,false,Gnar|Lee Sin|LeBlanc|Yunara|Lulu,Twisted Fate|Naafiri|Azir|Corki|Nami
+LEC,2026-05-23,16.10,G2 Esports vs Karmine Corp,12,28.5,16.5,16.5,false,28.58,16.58,16.58,false,false,Galio|Skarner|Ryze|Ezreal|Karma,Rumble|Wukong|Annie|Miss Fortune|Neeko
+LEC,2026-05-23,16.10,G2 Esports vs Karmine Corp,38,28.5,-9.5,9.5,false,28.74,-9.26,9.26,false,true,Cassiopeia|Xin Zhao|Anivia|Smolder|Nautilus,Yone|Vi|Taliyah|Ashe|Seraphine
+LEC,2026-05-10,16.9,G2 Esports vs Movistar KOI,44,28.65,-15.35,15.35,false,28.5,-15.5,15.5,false,false,KSante|Lee Sin|LeBlanc|Miss Fortune|Seraphine,Anivia|Xin Zhao|Galio|Ashe|Rell
+LEC,2026-05-10,16.9,Movistar KOI vs G2 Esports,32,28.65,-3.35,3.35,false,28.66,-3.34,3.34,false,true,Gnar|Jarvan IV|Lissandra|Kaisa|Nautilus,Vayne|Skarner|Ahri|Sivir|Lulu
+LEC,2026-05-10,16.9,G2 Esports vs Movistar KOI,27,28.65,1.65,1.65,true,28.82,1.82,1.82,true,false,Ornn|Nocturne|Ryze|Ezreal|Karma,Rumble|Pantheon|Azir|Yunara|Rakan
+LCS,2026-05-24,16.10,Team Liquid vs LYON,14,26.52,12.52,12.52,false,26.62,12.62,12.62,false,false,Jax|RekSai|Annie|Aphelios|Sona,Poppy|Trundle|Taliyah|Jinx|Bard
+LCS,2026-05-24,16.10,LYON vs Team Liquid,13,26.52,13.52,13.52,false,26.39,13.39,13.39,false,true,Gnar|Ornn|Cassiopeia|Smolder|Nami,Renekton|Naafiri|Orianna|Corki|Rakan
+LCS,2026-05-24,16.10,LYON vs Team Liquid,35,26.52,-8.48,8.48,false,26.31,-8.69,8.69,false,false,Malphite|Xin Zhao|Sylas|Caitlyn|Braum,Jayce|Jarvan IV|Twisted Fate|Mel|Pantheon
+LCS,2026-05-24,16.10,Team Liquid vs LYON,26,26.52,0.52,0.52,true,26.5,0.5,0.5,true,true,Ambessa|Vi|Aurora|Lucian|Milio,Rumble|Sejuani|Yone|Senna|Nautilus
+LCS,2026-05-24,16.10,Team Liquid vs LYON,13,26.52,13.52,13.52,false,26.66,13.66,13.66,false,false,Shen|Lee Sin|Ryze|Ezreal|Rell,Sion|Wukong|Anivia|Jhin|Karma
+LCS,2026-05-23,16.10,FlyQuest vs Cloud9,27,27.09,0.09,0.09,true,27.26,0.26,0.26,true,false,Akali|Dr. Mundo|Azir|Kalista|Renata Glasc,Gnar|Sejuani|Swain|Jhin|Alistar
+LCS,2026-05-23,16.10,FlyQuest vs Cloud9,28,27.09,-0.91,0.91,true,26.96,-1.04,1.04,true,false,Quinn|Nocturne|Taliyah|Ezreal|Neeko,Renekton|Wukong|Aurora|Yunara|Karma
+LCS,2026-05-23,16.10,Cloud9 vs FlyQuest,17,27.09,10.09,10.09,false,27.32,10.32,10.32,false,false,Twisted Fate|Ambessa|Hwei|Senna|Nautilus,KSante|Shyvana|Sylas|Sivir|Lulu
+LCS,2026-05-23,16.10,Cloud9 vs FlyQuest,22,27.09,5.09,5.09,false,26.75,4.75,4.75,false,true,Yorick|Naafiri|Annie|Ashe|Seraphine,Jayce|Jarvan IV|Ryze|Caitlyn|Bard
+LCS,2026-05-23,16.10,FlyQuest vs Cloud9,13,27.09,14.09,14.09,false,27.23,14.23,14.23,false,false,Rumble|Xin Zhao|Viktor|Lucian|Milio,Sion|Lee Sin|Cassiopeia|Corki|Nami
+LCS,2026-05-17,16.10,LYON vs FlyQuest,29,27.27,-1.73,1.73,true,27.18,-1.82,1.82,true,false,Yorick|Vi|Aurora|Yunara|Rakan,Rumble|Nasus|Annie|Aphelios|Lulu
+LCS,2026-05-17,16.10,FlyQuest vs LYON,16,27.27,11.27,11.27,false,27.14,11.14,11.14,false,true,KSante|Jarvan IV|Viktor|Corki|Nami,Anivia|Sejuani|Yone|Caitlyn|Neeko
+LCS,2026-05-17,16.10,LYON vs FlyQuest,39,27.27,-11.73,11.73,false,27.54,-11.46,11.46,false,true,Sion|Nocturne|Sylas|Lucian|Milio,Jayce|Ambessa|Orianna|Senna|Nautilus
+LCS,2026-05-17,16.10,Sentinels vs Dignitas,26,25.7,-0.3,0.3,true,25.62,-0.38,0.38,true,false,Renekton|Skarner|Hwei|Varus|Bard,Ornn|Naafiri|Annie|Ashe|Seraphine
+LCS,2026-05-17,16.10,Dignitas vs Sentinels,10,25.7,15.7,15.7,false,25.57,15.57,15.57,false,true,Shen|Xin Zhao|Ryze|Lucian|Milio,Sion|Jarvan IV|Anivia|Caitlyn|Lux

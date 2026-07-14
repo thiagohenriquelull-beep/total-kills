@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "gol-kills-predictor",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["http-server", ".", "-p", "8087", "-c-1", "--cors"],
+      "port": 8087
+    }
+  ]
+}

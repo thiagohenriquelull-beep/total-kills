@@ -1,0 +1,339 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#2563eb">
+  <title>GOL Kills Predictor</title>
+  <link rel="manifest" href="manifest.json?v=world-20260627">
+  <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
+  <link rel="stylesheet" href="styles.css?v=world-20260627">
+</head>
+<body>
+  <main class="app-shell">
+    <header class="topbar">
+      <div>
+        <h1>Over/Under Kills</h1>
+        <p id="datasetStatus">Carregando base...</p>
+      </div>
+      <div class="status-strip" aria-label="Resumo da base">
+        <span><strong id="gamesCount">0</strong> mapas</span>
+        <span><strong id="championsCount">0</strong> campeoes</span>
+        <span><strong id="leaguesCount">0</strong> ligas</span>
+      </div>
+      <button id="darkModeToggle" type="button" class="dark-mode-btn" aria-label="Alternar tema escuro" title="Alternar Dark Mode">🌙</button>
+    </header>
+
+    <div class="main-grid">
+
+      <!-- COLUNA ESQUERDA: Controles -->
+      <aside class="panel controls-panel">
+        <div class="field-row-2">
+          <label>
+            Liga
+            <select id="leagueSelect"></select>
+            <small id="leagueBaseHint">Base liga --</small>
+          </label>
+          <label>
+            Patch
+            <select id="patchSelect"></select>
+          </label>
+        </div>
+        <div class="field-row-2">
+          <label>
+            Time A
+            <select id="teamASelect"></select>
+            <small id="teamAHint">Media --</small>
+          </label>
+          <label>
+            Time B
+            <select id="teamBSelect"></select>
+            <small id="teamBHint">Media --</small>
+          </label>
+        </div>
+        <label>
+          Linha casa
+          <select id="marketLineInput"></select>
+          <small id="marketLineHint">Selecione a linha principal</small>
+        </label>
+        <div class="field-row-2">
+          <label>
+            Odd Over
+            <select id="oddsOverInput"></select>
+            <small id="oddsOverHint">Default 1.80</small>
+            <small id="fairOddsOverHint">Justa over --</small>
+          </label>
+          <label>
+            Odd Under
+            <select id="oddsUnderInput"></select>
+            <small id="oddsUnderHint">Default 1.80</small>
+            <small id="fairOddsUnderHint">Justa under --</small>
+          </label>
+        </div>
+        <div class="ctrl-stats">
+          <div>
+            <span>ROI hist.</span>
+            <strong id="theoreticalRoiValue">--</strong>
+          </div>
+          <div>
+            <span>Acerto hist.</span>
+            <strong id="historicalHitValue">--</strong>
+          </div>
+        </div>
+        <div class="market-actions">
+          <label class="threshold-label">
+            Min. edge
+            <input id="edgeThresholdInput" type="number" step="0.5" min="0" max="5" value="1.0">
+          </label>
+          <div class="bet-register-zone">
+            <button id="saveSnapshotButton" type="button">Registrar aposta</button>
+            <div id="betSideSelector" class="bet-side-selector" hidden>
+              <button id="betOverButton" type="button" class="bet-side-btn">↑ OVER</button>
+              <button id="betUnderButton" type="button" class="bet-side-btn">↓ UNDER</button>
+              <button id="betCancelButton" type="button" class="bet-cancel-btn">✕</button>
+            </div>
+          </div>
+        </div>
+      </aside>
+
+      <!-- COLUNA CENTRAL: Draft -->
+      <section class="panel draft-panel">
+        <div class="block-title">
+          <h2>Draft</h2>
+          <button id="clearPicksButton" type="button" title="Limpar picks" aria-label="Limpar picks">Limpar</button>
+        </div>
+        <div class="draft-grid" id="draftGrid"></div>
+        <!-- Painel de campeões sinalizadores (Componente 3) -->
+        <section class="signal-panel" id="signalPanel">
+          <div class="signal-panel-header" id="signalPanelHeader">
+            <span>Champs sinalizadores</span>
+            <button class="signal-panel-toggle-btn" id="signalPanelToggle" type="button" aria-label="Expandir/recolher">▾</button>
+          </div>
+          <div class="signal-panel-body collapsed" id="signalPanelBody"></div>
+        </section>
+
+        <section class="draft-ranking">
+          <div class="rank-header">
+            <h2>Ranking picks</h2>
+            <select id="rankingRoleSelect" aria-label="Filtrar ranking por role">
+              <option value="ALL">Todas roles</option>
+              <option value="TOP">TOP</option>
+              <option value="JUNGLE">JUNGLE</option>
+              <option value="MID">MID</option>
+              <option value="ADC">ADC</option>
+              <option value="SUP">SUP</option>
+            </select>
+          </div>
+          <div class="ranking-grid">
+            <div class="ranking-card ranking-over-card">
+              <div class="ranking-title">
+                <span>OVER</span>
+                <small id="rankingOverMeta">--</small>
+              </div>
+              <div id="rankingOverList" class="ranking-list"></div>
+            </div>
+            <div class="ranking-card ranking-under-card">
+              <div class="ranking-title">
+                <span>UNDER</span>
+                <small id="rankingUnderMeta">--</small>
+              </div>
+              <div id="rankingUnderList" class="ranking-list"></div>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <!-- COLUNA DIREITA: Output -->
+      <section class="panel output-panel" aria-live="polite">
+        <div class="draft-stage-indicator stage-early" id="draftStageIndicator">
+          <strong class="stage-count" id="draftStageCount">0/10</strong>
+          <span class="stage-label" id="draftStageLabel">Selecione picks</span>
+        </div>
+        <div class="timing-alerts-zone">
+          <div id="timingPick5" class="timing-alert timing-alert-p5">
+            <span class="timing-alert-icon">⚡</span>
+            <div class="timing-alert-body">
+              <div>Pick 5 — primeiro sinal confiável (odd pode estar mais aberta)</div>
+              <div class="timing-alert-ev" id="timingPick5Ev"></div>
+            </div>
+          </div>
+          <div id="timingPick8" class="timing-alert timing-alert-p8">
+            <span class="timing-alert-icon">✓</span>
+            <div class="timing-alert-body">
+              <div id="timingPick8Label">Pick 8 — ponto ótimo de precisão</div>
+              <div class="timing-alert-ev" id="timingPick8Ev"></div>
+            </div>
+          </div>
+          <div id="timingExpEv35" class="timing-alert timing-alert-exp">
+            <span class="timing-alert-icon">🔬</span>
+            <div class="timing-alert-body">
+              <div>EV 3-5% — sinal em teste (pick 7-8)</div>
+              <div class="timing-alert-ev" id="timingExpEv"></div>
+            </div>
+            <button id="saveExpSnapshotButton" type="button" class="exp-register-btn" aria-label="Registrar aposta de teste">Registrar teste</button>
+            <div id="expBetSideSelector" class="bet-side-selector" hidden>
+              <button id="expBetOverButton" type="button" class="bet-side-btn">↑ OVER</button>
+              <button id="expBetUnderButton" type="button" class="bet-side-btn">↓ UNDER</button>
+              <button id="expBetCancelButton" type="button" class="bet-cancel-btn">✕</button>
+            </div>
+          </div>
+        </div>
+        <div class="bet-callout bet-callout-pass" id="betCallout">
+          <span>Decisao da bet</span>
+          <strong id="betActionValue">NAO APOSTAR</strong>
+          <p id="betReasonValue">Configure liga, times, linha e odds para gerar a decisao.</p>
+          <small id="betMetaValue">--</small>
+        </div>
+
+        <div class="decision-banner">
+          <div>
+            <span>Conclusão</span>
+            <strong id="leanValue">--</strong>
+          </div>
+          <div>
+            <span>Draft</span>
+            <strong id="draftSignalValue">--</strong>
+          </div>
+        </div>
+
+        <div class="draft-edge-card" id="draftEdgeCard">
+          <div class="draft-edge-head">
+            <span>Edge draft live</span>
+            <strong id="draftEdgeValue">--</strong>
+          </div>
+          <p id="draftEdgeReason">Escolha picks e linha para medir se a casa ja ajustou.</p>
+          <div class="draft-confluence" id="draftConfluenceBox">
+            <span>Confluencia</span>
+            <strong id="draftConfluenceValue">--</strong>
+            <small id="draftConfluenceMeta">--</small>
+          </div>
+          <div class="draft-edge-grid">
+            <div>
+              <span>Delta</span>
+              <strong id="draftEdgeDelta">--</strong>
+            </div>
+            <div>
+              <span>Mov. casa</span>
+              <strong id="draftEdgeMove">--</strong>
+            </div>
+            <div>
+              <span>Hit hist.</span>
+              <strong id="draftEdgeHit">--</strong>
+            </div>
+            <div>
+              <span>ROI odd</span>
+              <strong id="draftEdgeRoi">--</strong>
+            </div>
+          </div>
+          <small id="draftEdgeMeta">--</small>
+        </div>
+
+        <div class="scoreboard output-scoreboard">
+          <div class="primary-metric">
+            <span class="label">Previsão atual</span>
+            <strong id="predictionValue">--</strong>
+          </div>
+          <div>
+            <span class="label">Pre-draft</span>
+            <strong id="preDraftValue">--</strong>
+          </div>
+          <div>
+            <span class="label">Delta</span>
+            <strong id="draftDeltaValue">--</strong>
+          </div>
+          <div>
+            <span class="label">Edge</span>
+            <strong id="edgeValue">--</strong>
+            <small id="edgeConfidence" class="edge-conf">--</small>
+          </div>
+          <div>
+            <span class="label">Prob. over</span>
+            <strong id="overProbValue">--</strong>
+          </div>
+          <div>
+            <span class="label">EV Over</span>
+            <strong id="evOverValue">--</strong>
+          </div>
+          <div>
+            <span class="label">EV Under</span>
+            <strong id="evUnderValue">--</strong>
+          </div>
+        </div>
+
+        <div class="breakdown" id="breakdown"></div>
+      </section>
+
+    </div>
+
+    <!-- Barra inferior com acesso ao histórico -->
+    <div class="bottom-bar">
+      <button id="historyToggleBtn" type="button" class="history-toggle-btn">
+        Ver histórico
+      </button>
+      <small id="snapshotStatus">0 apostas registradas</small>
+    </div>
+  </main>
+
+  <!-- Gaveta de histórico (desliza de baixo para cima) -->
+  <aside class="history-drawer" id="historyDrawer" aria-label="Histórico de apostas">
+    <div class="drawer-handle" id="drawerHandle"></div>
+    <div class="block-title history-header">
+      <h2>Histórico de Apostas</h2>
+      <div class="history-header-actions">
+        <button id="exportHistoryButton" type="button" class="export-history-btn">Exportar</button>
+        <button id="clearHistoryButton" type="button">Limpar tudo</button>
+      </div>
+    </div>
+    <div class="history-stats">
+      <div class="stat-card">
+        <span>Total</span>
+        <strong id="statTotal">0</strong>
+      </div>
+      <div class="stat-card">
+        <span>Resolvidas</span>
+        <strong id="statResolved">0</strong>
+      </div>
+      <div class="stat-card">
+        <span>Greens</span>
+        <strong id="statGreens">0</strong>
+      </div>
+      <div class="stat-card">
+        <span>Reds</span>
+        <strong id="statReds">0</strong>
+      </div>
+      <div class="stat-card">
+        <span>P&amp;L (unid.)</span>
+        <strong id="statPnl">--</strong>
+      </div>
+      <div class="stat-card">
+        <span>ROI</span>
+        <strong id="statRoi">--</strong>
+      </div>
+      <div class="stat-card">
+        <span>Sequência</span>
+        <strong id="statStreak">--</strong>
+      </div>
+    </div>
+    <div id="leagueRoiTable" class="league-roi-section"></div>
+    <div id="expStatsSection"></div>
+    <div id="analyticsSection"></div>
+    <div id="betsTable"></div>
+  </aside>
+
+  <!-- Overlay escurece o fundo quando gaveta está aberta -->
+  <div class="drawer-overlay" id="drawerOverlay"></div>
+
+  <script src="data/games.js?v=world-20260627"></script>
+  <script src="data/historical-analysis.js?v=world-20260627"></script>
+  <script src="model-core.js?v=world-20260627"></script>
+  <script src="app.js?v=world-20260627"></script>
+  <script>
+    if ("serviceWorker" in navigator) {
+      window.addEventListener("load", () => {
+        navigator.serviceWorker.register("./service-worker.js");
+      });
+    }
+  </script>
+</body>
+</html>
+

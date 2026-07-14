@@ -1,0 +1,5546 @@
+{
+  "meta": {
+    "source": "GOL logged session",
+    "createdAt": "2026-05-26T00:08:26.404Z",
+    "collectorVersion": "expanded-2026-1",
+    "league": "LCS",
+    "season": "S16",
+    "seasonYear": 2026,
+    "candidates": 138,
+    "target": 138,
+    "complete": true,
+    "lastBatch": {
+      "attempted": 8,
+      "valid": 8,
+      "at": "2026-05-25T23:59:44.807Z"
+    },
+    "games": 138,
+    "modelExcludes": [
+      "duration",
+      "side",
+      "bans"
+    ]
+  },
+  "games": [
+    {
+      "date": "2026-05-24",
+      "game": "LYON vs Team Liquid",
+      "id": "78685",
+      "killsA": 4,
+      "killsB": 10,
+      "league": "LCS",
+      "patch": "16.10",
+      "picks": {
+        "teamA": [
+          "Jax",
+          "RekSai",
+          "Annie",
+          "Aphelios",
+          "Sona"
+        ],
+        "teamB": [
+          "Poppy",
+          "Trundle",
+          "Taliyah",
+          "Jinx",
+          "Bard"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/78685/page-game/",
+      "teamA": "Team Liquid",
+      "teamAId": "2813",
+      "teamB": "LYON",
+      "teamBId": "2954",
+      "totalKills": 14,
+      "tournament": "LCS 2026 Spring Playoffs",
+      "tournamentLine": "LCS 2026 Spring Playoffs (NA) - Fearless Draft",
+      "week": "ROUND1",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LCS 2026 Spring Playoffs",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-05-24",
+      "game": "LYON vs Team Liquid",
+      "id": "78684",
+      "killsA": 2,
+      "killsB": 11,
+      "league": "LCS",
+      "patch": "16.10",
+      "picks": {
+        "teamA": [
+          "Gnar",
+          "Ornn",
+          "Cassiopeia",
+          "Smolder",
+          "Nami"
+        ],
+        "teamB": [
+          "Renekton",
+          "Naafiri",
+          "Orianna",
+          "Corki",
+          "Rakan"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/78684/page-game/",
+      "teamA": "LYON",
+      "teamAId": "2954",
+      "teamB": "Team Liquid",
+      "teamBId": "2813",
+      "totalKills": 13,
+      "tournament": "LCS 2026 Spring Playoffs",
+      "tournamentLine": "LCS 2026 Spring Playoffs (NA) - Fearless Draft",
+      "week": "ROUND1",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LCS 2026 Spring Playoffs",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-05-24",
+      "game": "LYON vs Team Liquid",
+      "id": "78683",
+      "killsA": 24,
+      "killsB": 11,
+      "league": "LCS",
+      "patch": "16.10",
+      "picks": {
+        "teamA": [
+          "Malphite",
+          "Xin Zhao",
+          "Sylas",
+          "Caitlyn",
+          "Braum"
+        ],
+        "teamB": [
+          "Jayce",
+          "Jarvan IV",
+          "Twisted Fate",
+          "Mel",
+          "Pantheon"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/78683/page-game/",
+      "teamA": "LYON",
+      "teamAId": "2954",
+      "teamB": "Team Liquid",
+      "teamBId": "2813",
+      "totalKills": 35,
+      "tournament": "LCS 2026 Spring Playoffs",
+      "tournamentLine": "LCS 2026 Spring Playoffs (NA) - Fearless Draft",
+      "week": "ROUND1",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LCS 2026 Spring Playoffs",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-05-24",
+      "game": "LYON vs Team Liquid",
+      "id": "78682",
+      "killsA": 6,
+      "killsB": 20,
+      "league": "LCS",
+      "patch": "16.10",
+      "picks": {
+        "teamA": [
+          "Ambessa",
+          "Vi",
+          "Aurora",
+          "Lucian",
+          "Milio"
+        ],
+        "teamB": [
+          "Rumble",
+          "Sejuani",
+          "Yone",
+          "Senna",
+          "Nautilus"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/78682/page-game/",
+      "teamA": "Team Liquid",
+      "teamAId": "2813",
+      "teamB": "LYON",
+      "teamBId": "2954",
+      "totalKills": 26,
+      "tournament": "LCS 2026 Spring Playoffs",
+      "tournamentLine": "LCS 2026 Spring Playoffs (NA) - Fearless Draft",
+      "week": "ROUND1",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LCS 2026 Spring Playoffs",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-05-24",
+      "game": "LYON vs Team Liquid",
+      "id": "78681",
+      "killsA": 11,
+      "killsB": 2,
+      "league": "LCS",
+      "patch": "16.10",
+      "picks": {
+        "teamA": [
+          "Shen",
+          "Lee Sin",
+          "Ryze",
+          "Ezreal",
+          "Rell"
+        ],
+        "teamB": [
+          "Sion",
+          "Wukong",
+          "Anivia",
+          "Jhin",
+          "Karma"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/78681/page-game/",
+      "teamA": "Team Liquid",
+      "teamAId": "2813",
+      "teamB": "LYON",
+      "teamBId": "2954",
+      "totalKills": 13,
+      "tournament": "LCS 2026 Spring Playoffs",
+      "tournamentLine": "LCS 2026 Spring Playoffs (NA) - Fearless Draft",
+      "week": "ROUND1",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LCS 2026 Spring Playoffs",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-05-23",
+      "game": "Cloud9 vs FlyQuest",
+      "id": "78680",
+      "killsA": 6,
+      "killsB": 21,
+      "league": "LCS",
+      "patch": "16.10",
+      "picks": {
+        "teamA": [
+          "Akali",
+          "Dr. Mundo",
+          "Azir",
+          "Kalista",
+          "Renata Glasc"
+        ],
+        "teamB": [
+          "Gnar",
+          "Sejuani",
+          "Swain",
+          "Jhin",
+          "Alistar"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/78680/page-game/",
+      "teamA": "FlyQuest",
+      "teamAId": "2953",
+      "teamB": "Cloud9",
+      "teamBId": "2812",
+      "totalKills": 27,
+      "tournament": "LCS 2026 Spring Playoffs",
+      "tournamentLine": "LCS 2026 Spring Playoffs (NA) - Fearless Draft",
+      "week": "ROUND1",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LCS 2026 Spring Playoffs",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-05-23",
+      "game": "Cloud9 vs FlyQuest",
+      "id": "78679",
+      "killsA": 21,
+      "killsB": 7,
+      "league": "LCS",
+      "patch": "16.10",
+      "picks": {
+        "teamA": [
+          "Quinn",
+          "Nocturne",
+          "Taliyah",
+          "Ezreal",
+          "Neeko"
+        ],
+        "teamB": [
+          "Renekton",
+          "Wukong",
+          "Aurora",
+          "Yunara",
+          "Karma"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/78679/page-game/",
+      "teamA": "FlyQuest",
+      "teamAId": "2953",
+      "teamB": "Cloud9",
+      "teamBId": "2812",
+      "totalKills": 28,
+      "tournament": "LCS 2026 Spring Playoffs",
+      "tournamentLine": "LCS 2026 Spring Playoffs (NA) - Fearless Draft",
+      "week": "ROUND1",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LCS 2026 Spring Playoffs",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-05-23",
+      "game": "Cloud9 vs FlyQuest",
+      "id": "78678",
+      "killsA": 3,
+      "killsB": 14,
+      "league": "LCS",
+      "patch": "16.10",
+      "picks": {
+        "teamA": [
+          "Twisted Fate",
+          "Ambessa",
+          "Hwei",
+          "Senna",
+          "Nautilus"
+        ],
+        "teamB": [
+          "KSante",
+          "Shyvana",
+          "Sylas",
+          "Sivir",
+          "Lulu"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/78678/page-game/",
+      "teamA": "Cloud9",
+      "teamAId": "2812",
+      "teamB": "FlyQuest",
+      "teamBId": "2953",
+      "totalKills": 17,
+      "tournament": "LCS 2026 Spring Playoffs",
+      "tournamentLine": "LCS 2026 Spring Playoffs (NA) - Fearless Draft",
+      "week": "ROUND1",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LCS 2026 Spring Playoffs",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-05-23",
+      "game": "Cloud9 vs FlyQuest",
+      "id": "78677",
+      "killsA": 11,
+      "killsB": 11,
+      "league": "LCS",
+      "patch": "16.10",
+      "picks": {
+        "teamA": [
+          "Yorick",
+          "Naafiri",
+          "Annie",
+          "Ashe",
+          "Seraphine"
+        ],
+        "teamB": [
+          "Jayce",
+          "Jarvan IV",
+          "Ryze",
+          "Caitlyn",
+          "Bard"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/78677/page-game/",
+      "teamA": "Cloud9",
+      "teamAId": "2812",
+      "teamB": "FlyQuest",
+      "teamBId": "2953",
+      "totalKills": 22,
+      "tournament": "LCS 2026 Spring Playoffs",
+      "tournamentLine": "LCS 2026 Spring Playoffs (NA) - Fearless Draft",
+      "week": "ROUND1",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LCS 2026 Spring Playoffs",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-05-23",
+      "game": "Cloud9 vs FlyQuest",
+      "id": "78676",
+      "killsA": 1,
+      "killsB": 12,
+      "league": "LCS",
+      "patch": "16.10",
+      "picks": {
+        "teamA": [
+          "Rumble",
+          "Xin Zhao",
+          "Viktor",
+          "Lucian",
+          "Milio"
+        ],
+        "teamB": [
+          "Sion",
+          "Lee Sin",
+          "Cassiopeia",
+          "Corki",
+          "Nami"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/78676/page-game/",
+      "teamA": "FlyQuest",
+      "teamAId": "2953",
+      "teamB": "Cloud9",
+      "teamBId": "2812",
+      "totalKills": 13,
+      "tournament": "LCS 2026 Spring Playoffs",
+      "tournamentLine": "LCS 2026 Spring Playoffs (NA) - Fearless Draft",
+      "week": "ROUND1",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LCS 2026 Spring Playoffs",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-05-17",
+      "game": "FlyQuest vs LYON",
+      "id": "78146",
+      "killsA": 8,
+      "killsB": 21,
+      "league": "LCS",
+      "patch": "16.10",
+      "picks": {
+        "teamA": [
+          "Yorick",
+          "Vi",
+          "Aurora",
+          "Yunara",
+          "Rakan"
+        ],
+        "teamB": [
+          "Rumble",
+          "Nasus",
+          "Annie",
+          "Aphelios",
+          "Lulu"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/78146/page-game/",
+      "teamA": "LYON",
+      "teamAId": "2954",
+      "teamB": "FlyQuest",
+      "teamBId": "2953",
+      "totalKills": 29,
+      "tournament": "LCS 2026 Spring",
+      "tournamentLine": "LCS 2026 Spring (NA) - Fearless Draft",
+      "week": "WEEK7",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCS 2026 Spring",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-05-17",
+      "game": "FlyQuest vs LYON",
+      "id": "78145",
+      "killsA": 5,
+      "killsB": 11,
+      "league": "LCS",
+      "patch": "16.10",
+      "picks": {
+        "teamA": [
+          "KSante",
+          "Jarvan IV",
+          "Viktor",
+          "Corki",
+          "Nami"
+        ],
+        "teamB": [
+          "Anivia",
+          "Sejuani",
+          "Yone",
+          "Caitlyn",
+          "Neeko"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/78145/page-game/",
+      "teamA": "FlyQuest",
+      "teamAId": "2953",
+      "teamB": "LYON",
+      "teamBId": "2954",
+      "totalKills": 16,
+      "tournament": "LCS 2026 Spring",
+      "tournamentLine": "LCS 2026 Spring (NA) - Fearless Draft",
+      "week": "WEEK7",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCS 2026 Spring",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-05-17",
+      "game": "FlyQuest vs LYON",
+      "id": "78144",
+      "killsA": 18,
+      "killsB": 21,
+      "league": "LCS",
+      "patch": "16.10",
+      "picks": {
+        "teamA": [
+          "Sion",
+          "Nocturne",
+          "Sylas",
+          "Lucian",
+          "Milio"
+        ],
+        "teamB": [
+          "Jayce",
+          "Ambessa",
+          "Orianna",
+          "Senna",
+          "Nautilus"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/78144/page-game/",
+      "teamA": "LYON",
+      "teamAId": "2954",
+      "teamB": "FlyQuest",
+      "teamBId": "2953",
+      "totalKills": 39,
+      "tournament": "LCS 2026 Spring",
+      "tournamentLine": "LCS 2026 Spring (NA) - Fearless Draft",
+      "week": "WEEK7",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCS 2026 Spring",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-05-17",
+      "game": "Sentinels vs Dignitas",
+      "id": "78142",
+      "killsA": 18,
+      "killsB": 8,
+      "league": "LCS",
+      "patch": "16.10",
+      "picks": {
+        "teamA": [
+          "Renekton",
+          "Skarner",
+          "Hwei",
+          "Varus",
+          "Bard"
+        ],
+        "teamB": [
+          "Ornn",
+          "Naafiri",
+          "Annie",
+          "Ashe",
+          "Seraphine"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/78142/page-game/",
+      "teamA": "Sentinels",
+      "teamAId": "2955",
+      "teamB": "Dignitas",
+      "teamBId": "2952",
+      "totalKills": 26,
+      "tournament": "LCS 2026 Spring",
+      "tournamentLine": "LCS 2026 Spring (NA) - Fearless Draft",
+      "week": "WEEK7",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCS 2026 Spring",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-05-17",
+      "game": "Sentinels vs Dignitas",
+      "id": "78141",
+      "killsA": 1,
+      "killsB": 9,
+      "league": "LCS",
+      "patch": "16.10",
+      "picks": {
+        "teamA": [
+          "Shen",
+          "Xin Zhao",
+          "Ryze",
+          "Lucian",
+          "Milio"
+        ],
+        "teamB": [
+          "Sion",
+          "Jarvan IV",
+          "Anivia",
+          "Caitlyn",
+          "Lux"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/78141/page-game/",
+      "teamA": "Dignitas",
+      "teamAId": "2952",
+      "teamB": "Sentinels",
+      "teamBId": "2955",
+      "totalKills": 10,
+      "tournament": "LCS 2026 Spring",
+      "tournamentLine": "LCS 2026 Spring (NA) - Fearless Draft",
+      "week": "WEEK7",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCS 2026 Spring",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-05-16",
+      "game": "SR vs Disguised",
+      "id": "78139",
+      "killsA": 23,
+      "killsB": 12,
+      "league": "LCS",
+      "patch": "16.10",
+      "picks": {
+        "teamA": [
+          "Sion",
+          "Wukong",
+          "Anivia",
+          "Ezreal",
+          "Neeko"
+        ],
+        "teamB": [
+          "Jayce",
+          "Pantheon",
+          "Twisted Fate",
+          "Caitlyn",
+          "Bard"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/78139/page-game/",
+      "teamA": "Shopify Rebellion",
+      "teamAId": "2956",
+      "teamB": "Disguised",
+      "teamBId": "2957",
+      "totalKills": 35,
+      "tournament": "LCS 2026 Spring",
+      "tournamentLine": "LCS 2026 Spring (NA) - Fearless Draft",
+      "week": "WEEK7",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCS 2026 Spring",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-05-16",
+      "game": "SR vs Disguised",
+      "id": "78138",
+      "killsA": 22,
+      "killsB": 11,
+      "league": "LCS",
+      "patch": "16.10",
+      "picks": {
+        "teamA": [
+          "Rumble",
+          "Olaf",
+          "Annie",
+          "Lucian",
+          "Milio"
+        ],
+        "teamB": [
+          "KSante",
+          "Vi",
+          "Cassiopeia",
+          "Ashe",
+          "Seraphine"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/78138/page-game/",
+      "teamA": "Shopify Rebellion",
+      "teamAId": "2956",
+      "teamB": "Disguised",
+      "teamBId": "2957",
+      "totalKills": 33,
+      "tournament": "LCS 2026 Spring",
+      "tournamentLine": "LCS 2026 Spring (NA) - Fearless Draft",
+      "week": "WEEK7",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCS 2026 Spring",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-05-16",
+      "game": "Team Liquid vs Cloud9",
+      "id": "78136",
+      "killsA": 17,
+      "killsB": 9,
+      "league": "LCS",
+      "patch": "16.10",
+      "picks": {
+        "teamA": [
+          "Sion",
+          "Nocturne",
+          "Annie",
+          "Ashe",
+          "Seraphine"
+        ],
+        "teamB": [
+          "Renekton",
+          "Xin Zhao",
+          "Ryze",
+          "Caitlyn",
+          "Karma"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/78136/page-game/",
+      "teamA": "Cloud9",
+      "teamAId": "2812",
+      "teamB": "Team Liquid",
+      "teamBId": "2813",
+      "totalKills": 26,
+      "tournament": "LCS 2026 Spring",
+      "tournamentLine": "LCS 2026 Spring (NA) - Fearless Draft",
+      "week": "WEEK7",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCS 2026 Spring",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-05-16",
+      "game": "Team Liquid vs Cloud9",
+      "id": "78135",
+      "killsA": 20,
+      "killsB": 8,
+      "league": "LCS",
+      "patch": "16.10",
+      "picks": {
+        "teamA": [
+          "Aurora",
+          "Jarvan IV",
+          "Twisted Fate",
+          "Varus",
+          "Nautilus"
+        ],
+        "teamB": [
+          "Rumble",
+          "Pantheon",
+          "Yone",
+          "Ezreal",
+          "Neeko"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/78135/page-game/",
+      "teamA": "Cloud9",
+      "teamAId": "2812",
+      "teamB": "Team Liquid",
+      "teamBId": "2813",
+      "totalKills": 28,
+      "tournament": "LCS 2026 Spring",
+      "tournamentLine": "LCS 2026 Spring (NA) - Fearless Draft",
+      "week": "WEEK7",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCS 2026 Spring",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-05-10",
+      "game": "LYON vs Team Liquid",
+      "id": "77749",
+      "killsA": 12,
+      "killsB": 20,
+      "league": "LCS",
+      "patch": "16.9",
+      "picks": {
+        "teamA": [
+          "Jax",
+          "Sejuani",
+          "Viktor",
+          "Xayah",
+          "Rakan"
+        ],
+        "teamB": [
+          "Anivia",
+          "Nocturne",
+          "Sylas",
+          "Corki",
+          "Nami"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/77749/page-game/",
+      "teamA": "Team Liquid",
+      "teamAId": "2813",
+      "teamB": "LYON",
+      "teamBId": "2954",
+      "totalKills": 32,
+      "tournament": "LCS 2026 Spring",
+      "tournamentLine": "LCS 2026 Spring (NA) - Fearless Draft",
+      "week": "WEEK6",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCS 2026 Spring",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-05-10",
+      "game": "LYON vs Team Liquid",
+      "id": "77748",
+      "killsA": 8,
+      "killsB": 21,
+      "league": "LCS",
+      "patch": "16.9",
+      "picks": {
+        "teamA": [
+          "Ryze",
+          "Vi",
+          "Ahri",
+          "Lucian",
+          "Milio"
+        ],
+        "teamB": [
+          "Rumble",
+          "Skarner",
+          "Yone",
+          "Caitlyn",
+          "Neeko"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/77748/page-game/",
+      "teamA": "LYON",
+      "teamAId": "2954",
+      "teamB": "Team Liquid",
+      "teamBId": "2813",
+      "totalKills": 29,
+      "tournament": "LCS 2026 Spring",
+      "tournamentLine": "LCS 2026 Spring (NA) - Fearless Draft",
+      "week": "WEEK6",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCS 2026 Spring",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-05-10",
+      "game": "LYON vs Team Liquid",
+      "id": "77747",
+      "killsA": 7,
+      "killsB": 18,
+      "league": "LCS",
+      "patch": "16.9",
+      "picks": {
+        "teamA": [
+          "Gragas",
+          "Xin Zhao",
+          "Aurora",
+          "Ashe",
+          "Seraphine"
+        ],
+        "teamB": [
+          "Jayce",
+          "Jarvan IV",
+          "Twisted Fate",
+          "Ezreal",
+          "Karma"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/77747/page-game/",
+      "teamA": "Team Liquid",
+      "teamAId": "2813",
+      "teamB": "LYON",
+      "teamBId": "2954",
+      "totalKills": 25,
+      "tournament": "LCS 2026 Spring",
+      "tournamentLine": "LCS 2026 Spring (NA) - Fearless Draft",
+      "week": "WEEK6",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCS 2026 Spring",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-05-10",
+      "game": "Cloud9 vs FlyQuest",
+      "id": "77746",
+      "killsA": 14,
+      "killsB": 6,
+      "league": "LCS",
+      "patch": "16.9",
+      "picks": {
+        "teamA": [
+          "Gnar",
+          "Sejuani",
+          "Twisted Fate",
+          "Corki",
+          "Nami"
+        ],
+        "teamB": [
+          "Anivia",
+          "Dr. Mundo",
+          "Hwei",
+          "Jhin",
+          "Bard"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/77746/page-game/",
+      "teamA": "Cloud9",
+      "teamAId": "2812",
+      "teamB": "FlyQuest",
+      "teamBId": "2953",
+      "totalKills": 20,
+      "tournament": "LCS 2026 Spring",
+      "tournamentLine": "LCS 2026 Spring (NA) - Fearless Draft",
+      "week": "WEEK6",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCS 2026 Spring",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-05-10",
+      "game": "Cloud9 vs FlyQuest",
+      "id": "77745",
+      "killsA": 19,
+      "killsB": 18,
+      "league": "LCS",
+      "patch": "16.9",
+      "picks": {
+        "teamA": [
+          "Sion",
+          "Jarvan IV",
+          "Aurora",
+          "Ashe",
+          "Lulu"
+        ],
+        "teamB": [
+          "Renekton",
+          "Xin Zhao",
+          "Viktor",
+          "Senna",
+          "Seraphine"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/77745/page-game/",
+      "teamA": "FlyQuest",
+      "teamAId": "2953",
+      "teamB": "Cloud9",
+      "teamBId": "2812",
+      "totalKills": 37,
+      "tournament": "LCS 2026 Spring",
+      "tournamentLine": "LCS 2026 Spring (NA) - Fearless Draft",
+      "week": "WEEK6",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCS 2026 Spring",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-05-10",
+      "game": "Cloud9 vs FlyQuest",
+      "id": "77744",
+      "killsA": 18,
+      "killsB": 8,
+      "league": "LCS",
+      "patch": "16.9",
+      "picks": {
+        "teamA": [
+          "Rumble",
+          "Shen",
+          "Cassiopeia",
+          "Lucian",
+          "Milio"
+        ],
+        "teamB": [
+          "KSante",
+          "Vi",
+          "Annie",
+          "Ezreal",
+          "Karma"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/77744/page-game/",
+      "teamA": "FlyQuest",
+      "teamAId": "2953",
+      "teamB": "Cloud9",
+      "teamBId": "2812",
+      "totalKills": 26,
+      "tournament": "LCS 2026 Spring",
+      "tournamentLine": "LCS 2026 Spring (NA) - Fearless Draft",
+      "week": "WEEK6",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCS 2026 Spring",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-05-09",
+      "game": "Disguised vs Dignitas",
+      "id": "77742",
+      "killsA": 21,
+      "killsB": 15,
+      "league": "LCS",
+      "patch": "16.9",
+      "picks": {
+        "teamA": [
+          "Sion",
+          "Jarvan IV",
+          "Akali",
+          "Yunara",
+          "Lulu"
+        ],
+        "teamB": [
+          "Shen",
+          "Poppy",
+          "Orianna",
+          "Ezreal",
+          "Nautilus"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/77742/page-game/",
+      "teamA": "Disguised",
+      "teamAId": "2957",
+      "teamB": "Dignitas",
+      "teamBId": "2952",
+      "totalKills": 36,
+      "tournament": "LCS 2026 Spring",
+      "tournamentLine": "LCS 2026 Spring (NA) - Fearless Draft",
+      "week": "WEEK6",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCS 2026 Spring",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-05-09",
+      "game": "Disguised vs Dignitas",
+      "id": "77741",
+      "killsA": 1,
+      "killsB": 12,
+      "league": "LCS",
+      "patch": "16.9",
+      "picks": {
+        "teamA": [
+          "Ornn",
+          "Vi",
+          "Taliyah",
+          "Ashe",
+          "Seraphine"
+        ],
+        "teamB": [
+          "Rumble",
+          "Xin Zhao",
+          "Ryze",
+          "Smolder",
+          "Nami"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/77741/page-game/",
+      "teamA": "Dignitas",
+      "teamAId": "2952",
+      "teamB": "Disguised",
+      "teamBId": "2957",
+      "totalKills": 13,
+      "tournament": "LCS 2026 Spring",
+      "tournamentLine": "LCS 2026 Spring (NA) - Fearless Draft",
+      "week": "WEEK6",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCS 2026 Spring",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-05-09",
+      "game": "SR vs Sentinels",
+      "id": "77739",
+      "killsA": 8,
+      "killsB": 13,
+      "league": "LCS",
+      "patch": "16.9",
+      "picks": {
+        "teamA": [
+          "Jayce",
+          "Pantheon",
+          "Taliyah",
+          "Corki",
+          "Nami"
+        ],
+        "teamB": [
+          "Ornn",
+          "Naafiri",
+          "Viktor",
+          "Ashe",
+          "Seraphine"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/77739/page-game/",
+      "teamA": "Shopify Rebellion",
+      "teamAId": "2956",
+      "teamB": "Sentinels",
+      "teamBId": "2955",
+      "totalKills": 21,
+      "tournament": "LCS 2026 Spring",
+      "tournamentLine": "LCS 2026 Spring (NA) - Fearless Draft",
+      "week": "WEEK6",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCS 2026 Spring",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-05-09",
+      "game": "SR vs Sentinels",
+      "id": "77738",
+      "killsA": 7,
+      "killsB": 12,
+      "league": "LCS",
+      "patch": "16.9",
+      "picks": {
+        "teamA": [
+          "Rumble",
+          "Dr. Mundo",
+          "Ryze",
+          "Ezreal",
+          "Neeko"
+        ],
+        "teamB": [
+          "KSante",
+          "Skarner",
+          "Cassiopeia",
+          "Caitlyn",
+          "Bard"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/77738/page-game/",
+      "teamA": "Shopify Rebellion",
+      "teamAId": "2956",
+      "teamB": "Sentinels",
+      "teamBId": "2955",
+      "totalKills": 19,
+      "tournament": "LCS 2026 Spring",
+      "tournamentLine": "LCS 2026 Spring (NA) - Fearless Draft",
+      "week": "WEEK6",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCS 2026 Spring",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-05-03",
+      "game": "FlyQuest vs SR",
+      "id": "77327",
+      "killsA": 4,
+      "killsB": 18,
+      "league": "LCS",
+      "patch": "16.9",
+      "picks": {
+        "teamA": [
+          "Sion",
+          "Xin Zhao",
+          "Akali",
+          "Caitlyn",
+          "Alistar"
+        ],
+        "teamB": [
+          "Jayce",
+          "Jarvan IV",
+          "Hwei",
+          "Smolder",
+          "Nautilus"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/77327/page-game/",
+      "teamA": "Shopify Rebellion",
+      "teamAId": "2956",
+      "teamB": "FlyQuest",
+      "teamBId": "2953",
+      "totalKills": 22,
+      "tournament": "LCS 2026 Spring",
+      "tournamentLine": "LCS 2026 Spring (NA) - Fearless Draft",
+      "week": "WEEK5",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCS 2026 Spring",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-05-03",
+      "game": "FlyQuest vs SR",
+      "id": "77326",
+      "killsA": 22,
+      "killsB": 13,
+      "league": "LCS",
+      "patch": "16.9",
+      "picks": {
+        "teamA": [
+          "KSante",
+          "Vi",
+          "Aurora",
+          "Corki",
+          "Nami"
+        ],
+        "teamB": [
+          "Rumble",
+          "Shen",
+          "Ahri",
+          "Ashe",
+          "Seraphine"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/77326/page-game/",
+      "teamA": "Shopify Rebellion",
+      "teamAId": "2956",
+      "teamB": "FlyQuest",
+      "teamBId": "2953",
+      "totalKills": 35,
+      "tournament": "LCS 2026 Spring",
+      "tournamentLine": "LCS 2026 Spring (NA) - Fearless Draft",
+      "week": "WEEK5",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCS 2026 Spring",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-05-03",
+      "game": "FlyQuest vs SR",
+      "id": "77325",
+      "killsA": 8,
+      "killsB": 20,
+      "league": "LCS",
+      "patch": "16.9",
+      "picks": {
+        "teamA": [
+          "Gragas",
+          "Nocturne",
+          "Annie",
+          "Ezreal",
+          "Neeko"
+        ],
+        "teamB": [
+          "Anivia",
+          "Pantheon",
+          "Viktor",
+          "Jhin",
+          "Bard"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/77325/page-game/",
+      "teamA": "Shopify Rebellion",
+      "teamAId": "2956",
+      "teamB": "FlyQuest",
+      "teamBId": "2953",
+      "totalKills": 28,
+      "tournament": "LCS 2026 Spring",
+      "tournamentLine": "LCS 2026 Spring (NA) - Fearless Draft",
+      "week": "WEEK5",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCS 2026 Spring",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-05-03",
+      "game": "LYON vs Sentinels",
+      "id": "77323",
+      "killsA": 23,
+      "killsB": 17,
+      "league": "LCS",
+      "patch": "16.9",
+      "picks": {
+        "teamA": [
+          "Gnar",
+          "Pantheon",
+          "Akali",
+          "Sivir",
+          "Bard"
+        ],
+        "teamB": [
+          "Renekton",
+          "Dr. Mundo",
+          "Orianna",
+          "Corki",
+          "Nami"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/77323/page-game/",
+      "teamA": "LYON",
+      "teamAId": "2954",
+      "teamB": "Sentinels",
+      "teamBId": "2955",
+      "totalKills": 40,
+      "tournament": "LCS 2026 Spring",
+      "tournamentLine": "LCS 2026 Spring (NA) - Fearless Draft",
+      "week": "WEEK5",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCS 2026 Spring",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-05-03",
+      "game": "LYON vs Sentinels",
+      "id": "77322",
+      "killsA": 18,
+      "killsB": 4,
+      "league": "LCS",
+      "patch": "16.9",
+      "picks": {
+        "teamA": [
+          "KSante",
+          "Xin Zhao",
+          "Ryze",
+          "Varus",
+          "Nautilus"
+        ],
+        "teamB": [
+          "Rumble",
+          "Jarvan IV",
+          "Yone",
+          "Lucian",
+          "Braum"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/77322/page-game/",
+      "teamA": "LYON",
+      "teamAId": "2954",
+      "teamB": "Sentinels",
+      "teamBId": "2955",
+      "totalKills": 22,
+      "tournament": "LCS 2026 Spring",
+      "tournamentLine": "LCS 2026 Spring (NA) - Fearless Draft",
+      "week": "WEEK5",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCS 2026 Spring",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-05-02",
+      "game": "Team Liquid vs Disguised",
+      "id": "77320",
+      "killsA": 22,
+      "killsB": 7,
+      "league": "LCS",
+      "patch": "16.9",
+      "picks": {
+        "teamA": [
+          "Gragas",
+          "Lee Sin",
+          "Annie",
+          "Xayah",
+          "Rakan"
+        ],
+        "teamB": [
+          "Jayce",
+          "Vi",
+          "Taliyah",
+          "Kaisa",
+          "Alistar"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/77320/page-game/",
+      "teamA": "Team Liquid",
+      "teamAId": "2813",
+      "teamB": "Disguised",
+      "teamBId": "2957",
+      "totalKills": 29,
+      "tournament": "LCS 2026 Spring",
+      "tournamentLine": "LCS 2026 Spring (NA) - Fearless Draft",
+      "week": "WEEK5",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCS 2026 Spring",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-05-02",
+      "game": "Team Liquid vs Disguised",
+      "id": "77319",
+      "killsA": 5,
+      "killsB": 15,
+      "league": "LCS",
+      "patch": "16.9",
+      "picks": {
+        "teamA": [
+          "Rumble",
+          "Pantheon",
+          "Ryze",
+          "Ezreal",
+          "Nami"
+        ],
+        "teamB": [
+          "Ornn",
+          "Sejuani",
+          "Yone",
+          "Ashe",
+          "Seraphine"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/77319/page-game/",
+      "teamA": "Disguised",
+      "teamAId": "2957",
+      "teamB": "Team Liquid",
+      "teamBId": "2813",
+      "totalKills": 20,
+      "tournament": "LCS 2026 Spring",
+      "tournamentLine": "LCS 2026 Spring (NA) - Fearless Draft",
+      "week": "WEEK5",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCS 2026 Spring",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-05-02",
+      "game": "Cloud9 vs Dignitas",
+      "id": "77318",
+      "killsA": 12,
+      "killsB": 21,
+      "league": "LCS",
+      "patch": "16.9",
+      "picks": {
+        "teamA": [
+          "Sion",
+          "Vi",
+          "Viktor",
+          "Xayah",
+          "Rakan"
+        ],
+        "teamB": [
+          "Gnar",
+          "Sejuani",
+          "Cassiopeia",
+          "Corki",
+          "Alistar"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/77318/page-game/",
+      "teamA": "Dignitas",
+      "teamAId": "2952",
+      "teamB": "Cloud9",
+      "teamBId": "2812",
+      "totalKills": 33,
+      "tournament": "LCS 2026 Spring",
+      "tournamentLine": "LCS 2026 Spring (NA) - Fearless Draft",
+      "week": "WEEK5",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCS 2026 Spring",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-05-02",
+      "game": "Cloud9 vs Dignitas",
+      "id": "77317",
+      "killsA": 9,
+      "killsB": 17,
+      "league": "LCS",
+      "patch": "16.9",
+      "picks": {
+        "teamA": [
+          "Varus",
+          "Nocturne",
+          "Galio",
+          "Caitlyn",
+          "Neeko"
+        ],
+        "teamB": [
+          "Jax",
+          "Xin Zhao",
+          "Taliyah",
+          "Lucian",
+          "Nami"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/77317/page-game/",
+      "teamA": "Cloud9",
+      "teamAId": "2812",
+      "teamB": "Dignitas",
+      "teamBId": "2952",
+      "totalKills": 26,
+      "tournament": "LCS 2026 Spring",
+      "tournamentLine": "LCS 2026 Spring (NA) - Fearless Draft",
+      "week": "WEEK5",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCS 2026 Spring",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-05-02",
+      "game": "Cloud9 vs Dignitas",
+      "id": "77316",
+      "killsA": 6,
+      "killsB": 13,
+      "league": "LCS",
+      "patch": "16.9",
+      "picks": {
+        "teamA": [
+          "Rumble",
+          "Jarvan IV",
+          "Hwei",
+          "Ashe",
+          "Lulu"
+        ],
+        "teamB": [
+          "Ornn",
+          "Wukong",
+          "Annie",
+          "Ezreal",
+          "Seraphine"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/77316/page-game/",
+      "teamA": "Dignitas",
+      "teamAId": "2952",
+      "teamB": "Cloud9",
+      "teamBId": "2812",
+      "totalKills": 19,
+      "tournament": "LCS 2026 Spring",
+      "tournamentLine": "LCS 2026 Spring (NA) - Fearless Draft",
+      "week": "WEEK5",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCS 2026 Spring",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-04-26",
+      "game": "Team Liquid vs Sentinels",
+      "id": "77024",
+      "killsA": 14,
+      "killsB": 9,
+      "league": "LCS",
+      "patch": "16.8",
+      "picks": {
+        "teamA": [
+          "Sion",
+          "Naafiri",
+          "Annie",
+          "Lucian",
+          "Nami"
+        ],
+        "teamB": [
+          "Renekton",
+          "Vi",
+          "Galio",
+          "Kaisa",
+          "Rakan"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/77024/page-game/",
+      "teamA": "Team Liquid",
+      "teamAId": "2813",
+      "teamB": "Sentinels",
+      "teamBId": "2955",
+      "totalKills": 23,
+      "tournament": "LCS 2026 Spring",
+      "tournamentLine": "LCS 2026 Spring (NA) - Fearless Draft",
+      "week": "WEEK4",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCS 2026 Spring",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-04-26",
+      "game": "Team Liquid vs Sentinels",
+      "id": "77023",
+      "killsA": 11,
+      "killsB": 19,
+      "league": "LCS",
+      "patch": "16.8",
+      "picks": {
+        "teamA": [
+          "Gnar",
+          "Xin Zhao",
+          "LeBlanc",
+          "Ezreal",
+          "Karma"
+        ],
+        "teamB": [
+          "Varus",
+          "Trundle",
+          "Aurora",
+          "Caitlyn",
+          "Bard"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/77023/page-game/",
+      "teamA": "Team Liquid",
+      "teamAId": "2813",
+      "teamB": "Sentinels",
+      "teamBId": "2955",
+      "totalKills": 30,
+      "tournament": "LCS 2026 Spring",
+      "tournamentLine": "LCS 2026 Spring (NA) - Fearless Draft",
+      "week": "WEEK4",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCS 2026 Spring",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-04-26",
+      "game": "Team Liquid vs Sentinels",
+      "id": "77022",
+      "killsA": 18,
+      "killsB": 2,
+      "league": "LCS",
+      "patch": "16.8",
+      "picks": {
+        "teamA": [
+          "Ornn",
+          "Pantheon",
+          "Yone",
+          "Ashe",
+          "Seraphine"
+        ],
+        "teamB": [
+          "Zaahen",
+          "Jarvan IV",
+          "Ryze",
+          "Jhin",
+          "Rumble"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/77022/page-game/",
+      "teamA": "Team Liquid",
+      "teamAId": "2813",
+      "teamB": "Sentinels",
+      "teamBId": "2955",
+      "totalKills": 20,
+      "tournament": "LCS 2026 Spring",
+      "tournamentLine": "LCS 2026 Spring (NA) - Fearless Draft",
+      "week": "WEEK4",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCS 2026 Spring",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-04-26",
+      "game": "LYON vs Disguised",
+      "id": "77020",
+      "killsA": 22,
+      "killsB": 10,
+      "league": "LCS",
+      "patch": "16.8",
+      "picks": {
+        "teamA": [
+          "Rumble",
+          "Sejuani",
+          "Yone",
+          "Jhin",
+          "Nautilus"
+        ],
+        "teamB": [
+          "Aurora",
+          "Wukong",
+          "Azir",
+          "Vayne",
+          "Bard"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/77020/page-game/",
+      "teamA": "LYON",
+      "teamAId": "2954",
+      "teamB": "Disguised",
+      "teamBId": "2957",
+      "totalKills": 32,
+      "tournament": "LCS 2026 Spring",
+      "tournamentLine": "LCS 2026 Spring (NA) - Fearless Draft",
+      "week": "WEEK4",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCS 2026 Spring",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-04-26",
+      "game": "LYON vs Disguised",
+      "id": "77019",
+      "killsA": 5,
+      "killsB": 17,
+      "league": "LCS",
+      "patch": "16.8",
+      "picks": {
+        "teamA": [
+          "Jayce",
+          "Nocturne",
+          "Akali",
+          "Corki",
+          "Nami"
+        ],
+        "teamB": [
+          "Sion",
+          "Xin Zhao",
+          "Orianna",
+          "Yunara",
+          "Lulu"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/77019/page-game/",
+      "teamA": "Disguised",
+      "teamAId": "2957",
+      "teamB": "LYON",
+      "teamBId": "2954",
+      "totalKills": 22,
+      "tournament": "LCS 2026 Spring",
+      "tournamentLine": "LCS 2026 Spring (NA) - Fearless Draft",
+      "week": "WEEK4",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCS 2026 Spring",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-04-25",
+      "game": "Cloud9 vs SR",
+      "id": "77017",
+      "killsA": 21,
+      "killsB": 5,
+      "league": "LCS",
+      "patch": "16.8",
+      "picks": {
+        "teamA": [
+          "KSante",
+          "Ambessa",
+          "Cassiopeia",
+          "Ashe",
+          "Seraphine"
+        ],
+        "teamB": [
+          "Rumble",
+          "Skarner",
+          "Ryze",
+          "Miss Fortune",
+          "Nautilus"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/77017/page-game/",
+      "teamA": "Cloud9",
+      "teamAId": "2812",
+      "teamB": "Shopify Rebellion",
+      "teamBId": "2956",
+      "totalKills": 26,
+      "tournament": "LCS 2026 Spring",
+      "tournamentLine": "LCS 2026 Spring (NA) - Fearless Draft",
+      "week": "WEEK4",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCS 2026 Spring",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-04-25",
+      "game": "Cloud9 vs SR",
+      "id": "77016",
+      "killsA": 8,
+      "killsB": 21,
+      "league": "LCS",
+      "patch": "16.8",
+      "picks": {
+        "teamA": [
+          "Yorick",
+          "Pantheon",
+          "Aurora",
+          "Ezreal",
+          "Leona"
+        ],
+        "teamB": [
+          "Gnar",
+          "Jarvan IV",
+          "Annie",
+          "Varus",
+          "Rakan"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/77016/page-game/",
+      "teamA": "Shopify Rebellion",
+      "teamAId": "2956",
+      "teamB": "Cloud9",
+      "teamBId": "2812",
+      "totalKills": 29,
+      "tournament": "LCS 2026 Spring",
+      "tournamentLine": "LCS 2026 Spring (NA) - Fearless Draft",
+      "week": "WEEK4",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCS 2026 Spring",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-04-25",
+      "game": "FlyQuest vs Dignitas",
+      "id": "77014",
+      "killsA": 27,
+      "killsB": 16,
+      "league": "LCS",
+      "patch": "16.8",
+      "picks": {
+        "teamA": [
+          "Sion",
+          "Shen",
+          "Hwei",
+          "Varus",
+          "Bard"
+        ],
+        "teamB": [
+          "Gnar",
+          "Xin Zhao",
+          "Azir",
+          "Jhin",
+          "Alistar"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/77014/page-game/",
+      "teamA": "FlyQuest",
+      "teamAId": "2953",
+      "teamB": "Dignitas",
+      "teamBId": "2952",
+      "totalKills": 43,
+      "tournament": "LCS 2026 Spring",
+      "tournamentLine": "LCS 2026 Spring (NA) - Fearless Draft",
+      "week": "WEEK4",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCS 2026 Spring",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-04-25",
+      "game": "FlyQuest vs Dignitas",
+      "id": "77013",
+      "killsA": 8,
+      "killsB": 13,
+      "league": "LCS",
+      "patch": "16.8",
+      "picks": {
+        "teamA": [
+          "Rumble",
+          "Jarvan IV",
+          "Aurora",
+          "Ashe",
+          "Lulu"
+        ],
+        "teamB": [
+          "Ambessa",
+          "Pantheon",
+          "Annie",
+          "Ezreal",
+          "Seraphine"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/77013/page-game/",
+      "teamA": "Dignitas",
+      "teamAId": "2952",
+      "teamB": "FlyQuest",
+      "teamBId": "2953",
+      "totalKills": 21,
+      "tournament": "LCS 2026 Spring",
+      "tournamentLine": "LCS 2026 Spring (NA) - Fearless Draft",
+      "week": "WEEK4",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCS 2026 Spring",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-04-19",
+      "game": "Dignitas vs Team Liquid",
+      "id": "76601",
+      "killsA": 3,
+      "killsB": 16,
+      "league": "LCS",
+      "patch": "16.8",
+      "picks": {
+        "teamA": [
+          "Zaahen",
+          "Lee Sin",
+          "Lissandra",
+          "Ezreal",
+          "Bard"
+        ],
+        "teamB": [
+          "Renekton",
+          "Jarvan IV",
+          "Ahri",
+          "Xayah",
+          "Rakan"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/76601/page-game/",
+      "teamA": "Dignitas",
+      "teamAId": "2952",
+      "teamB": "Team Liquid",
+      "teamBId": "2813",
+      "totalKills": 19,
+      "tournament": "LCS 2026 Spring",
+      "tournamentLine": "LCS 2026 Spring (NA) - Fearless Draft",
+      "week": "WEEK3",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCS 2026 Spring",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-04-19",
+      "game": "Dignitas vs Team Liquid",
+      "id": "76600",
+      "killsA": 8,
+      "killsB": 22,
+      "league": "LCS",
+      "patch": "16.8",
+      "picks": {
+        "teamA": [
+          "Gnar",
+          "Aatrox",
+          "Azir",
+          "Varus",
+          "Nautilus"
+        ],
+        "teamB": [
+          "Sylas",
+          "Xin Zhao",
+          "Orianna",
+          "Senna",
+          "Alistar"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/76600/page-game/",
+      "teamA": "Team Liquid",
+      "teamAId": "2813",
+      "teamB": "Dignitas",
+      "teamBId": "2952",
+      "totalKills": 30,
+      "tournament": "LCS 2026 Spring",
+      "tournamentLine": "LCS 2026 Spring (NA) - Fearless Draft",
+      "week": "WEEK3",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCS 2026 Spring",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-04-19",
+      "game": "Dignitas vs Team Liquid",
+      "id": "76599",
+      "killsA": 12,
+      "killsB": 11,
+      "league": "LCS",
+      "patch": "16.8",
+      "picks": {
+        "teamA": [
+          "Sion",
+          "Pantheon",
+          "Aurora",
+          "Lucian",
+          "Milio"
+        ],
+        "teamB": [
+          "Rumble",
+          "Nocturne",
+          "Annie",
+          "Corki",
+          "Nami"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/76599/page-game/",
+      "teamA": "Team Liquid",
+      "teamAId": "2813",
+      "teamB": "Dignitas",
+      "teamBId": "2952",
+      "totalKills": 23,
+      "tournament": "LCS 2026 Spring",
+      "tournamentLine": "LCS 2026 Spring (NA) - Fearless Draft",
+      "week": "WEEK3",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCS 2026 Spring",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-04-19",
+      "game": "LYON vs SR",
+      "id": "76597",
+      "killsA": 19,
+      "killsB": 9,
+      "league": "LCS",
+      "patch": "16.8",
+      "picks": {
+        "teamA": [
+          "Gnar",
+          "Vi",
+          "Akali",
+          "Yunara",
+          "Lulu"
+        ],
+        "teamB": [
+          "Renekton",
+          "Jarvan IV",
+          "Vex",
+          "Caitlyn",
+          "Bard"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/76597/page-game/",
+      "teamA": "LYON",
+      "teamAId": "2954",
+      "teamB": "Shopify Rebellion",
+      "teamBId": "2956",
+      "totalKills": 28,
+      "tournament": "LCS 2026 Spring",
+      "tournamentLine": "LCS 2026 Spring (NA) - Fearless Draft",
+      "week": "WEEK3",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCS 2026 Spring",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-04-19",
+      "game": "LYON vs SR",
+      "id": "76596",
+      "killsA": 15,
+      "killsB": 18,
+      "league": "LCS",
+      "patch": "16.8",
+      "picks": {
+        "teamA": [
+          "Sion",
+          "Pantheon",
+          "Ryze",
+          "Corki",
+          "Nami"
+        ],
+        "teamB": [
+          "Rumble",
+          "Wukong",
+          "Azir",
+          "Ashe",
+          "Seraphine"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/76596/page-game/",
+      "teamA": "Shopify Rebellion",
+      "teamAId": "2956",
+      "teamB": "LYON",
+      "teamBId": "2954",
+      "totalKills": 33,
+      "tournament": "LCS 2026 Spring",
+      "tournamentLine": "LCS 2026 Spring (NA) - Fearless Draft",
+      "week": "WEEK3",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCS 2026 Spring",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-04-18",
+      "game": "Sentinels vs FlyQuest",
+      "id": "76595",
+      "killsA": 9,
+      "killsB": 25,
+      "league": "LCS",
+      "patch": "16.8",
+      "picks": {
+        "teamA": [
+          "Sion",
+          "Xin Zhao",
+          "Syndra",
+          "Jhin",
+          "Neeko"
+        ],
+        "teamB": [
+          "Shen",
+          "Vi",
+          "Anivia",
+          "Kaisa",
+          "Rell"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/76595/page-game/",
+      "teamA": "FlyQuest",
+      "teamAId": "2953",
+      "teamB": "Sentinels",
+      "teamBId": "2955",
+      "totalKills": 34,
+      "tournament": "LCS 2026 Spring",
+      "tournamentLine": "LCS 2026 Spring (NA) - Fearless Draft",
+      "week": "WEEK3",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCS 2026 Spring",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-04-18",
+      "game": "Sentinels vs FlyQuest",
+      "id": "76594",
+      "killsA": 4,
+      "killsB": 10,
+      "league": "LCS",
+      "patch": "16.8",
+      "picks": {
+        "teamA": [
+          "Renekton",
+          "Sejuani",
+          "Mel",
+          "Ashe",
+          "Seraphine"
+        ],
+        "teamB": [
+          "Jayce",
+          "Ambessa",
+          "Aurora",
+          "Ezreal",
+          "Karma"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/76594/page-game/",
+      "teamA": "Sentinels",
+      "teamAId": "2955",
+      "teamB": "FlyQuest",
+      "teamBId": "2953",
+      "totalKills": 14,
+      "tournament": "LCS 2026 Spring",
+      "tournamentLine": "LCS 2026 Spring (NA) - Fearless Draft",
+      "week": "WEEK3",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCS 2026 Spring",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-04-18",
+      "game": "Sentinels vs FlyQuest",
+      "id": "76593",
+      "killsA": 4,
+      "killsB": 19,
+      "league": "LCS",
+      "patch": "16.8",
+      "picks": {
+        "teamA": [
+          "Ornn",
+          "Pantheon",
+          "Hwei",
+          "Corki",
+          "Nami"
+        ],
+        "teamB": [
+          "Rumble",
+          "Skarner",
+          "Ryze",
+          "Caitlyn",
+          "Bard"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/76593/page-game/",
+      "teamA": "FlyQuest",
+      "teamAId": "2953",
+      "teamB": "Sentinels",
+      "teamBId": "2955",
+      "totalKills": 23,
+      "tournament": "LCS 2026 Spring",
+      "tournamentLine": "LCS 2026 Spring (NA) - Fearless Draft",
+      "week": "WEEK3",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCS 2026 Spring",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-04-18",
+      "game": "Disguised vs Cloud9",
+      "id": "76591",
+      "killsA": 18,
+      "killsB": 4,
+      "league": "LCS",
+      "patch": "16.8",
+      "picks": {
+        "teamA": [
+          "Vayne",
+          "Ambessa",
+          "Annie",
+          "Corki",
+          "Nami"
+        ],
+        "teamB": [
+          "Renekton",
+          "Nocturne",
+          "Akali",
+          "Caitlyn",
+          "Anivia"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/76591/page-game/",
+      "teamA": "Cloud9",
+      "teamAId": "2812",
+      "teamB": "Disguised",
+      "teamBId": "2957",
+      "totalKills": 22,
+      "tournament": "LCS 2026 Spring",
+      "tournamentLine": "LCS 2026 Spring (NA) - Fearless Draft",
+      "week": "WEEK3",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCS 2026 Spring",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-04-18",
+      "game": "Disguised vs Cloud9",
+      "id": "76590",
+      "killsA": 25,
+      "killsB": 8,
+      "league": "LCS",
+      "patch": "16.8",
+      "picks": {
+        "teamA": [
+          "Sion",
+          "Xin Zhao",
+          "Cassiopeia",
+          "Ashe",
+          "Seraphine"
+        ],
+        "teamB": [
+          "Jayce",
+          "Dr. Mundo",
+          "Azir",
+          "Miss Fortune",
+          "Nautilus"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/76590/page-game/",
+      "teamA": "Cloud9",
+      "teamAId": "2812",
+      "teamB": "Disguised",
+      "teamBId": "2957",
+      "totalKills": 33,
+      "tournament": "LCS 2026 Spring",
+      "tournamentLine": "LCS 2026 Spring (NA) - Fearless Draft",
+      "week": "WEEK3",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCS 2026 Spring",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-04-12",
+      "game": "Sentinels vs Cloud9",
+      "id": "76152",
+      "killsA": 11,
+      "killsB": 14,
+      "league": "LCS",
+      "patch": "16.7",
+      "picks": {
+        "teamA": [
+          "Ambessa",
+          "Vi",
+          "Annie",
+          "Xayah",
+          "Lulu"
+        ],
+        "teamB": [
+          "Gwen",
+          "Malphite",
+          "Sion",
+          "Yunara",
+          "Neeko"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/76152/page-game/",
+      "teamA": "Sentinels",
+      "teamAId": "2955",
+      "teamB": "Cloud9",
+      "teamBId": "2812",
+      "totalKills": 25,
+      "tournament": "LCS 2026 Spring",
+      "tournamentLine": "LCS 2026 Spring (NA) - Fearless Draft",
+      "week": "WEEK2",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCS 2026 Spring",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-04-12",
+      "game": "Sentinels vs Cloud9",
+      "id": "76151",
+      "killsA": 11,
+      "killsB": 11,
+      "league": "LCS",
+      "patch": "16.7",
+      "picks": {
+        "teamA": [
+          "Renekton",
+          "Sejuani",
+          "Cassiopeia",
+          "Corki",
+          "Nami"
+        ],
+        "teamB": [
+          "Zaahen",
+          "Skarner",
+          "Ryze",
+          "Caitlyn",
+          "Anivia"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/76151/page-game/",
+      "teamA": "Cloud9",
+      "teamAId": "2812",
+      "teamB": "Sentinels",
+      "teamBId": "2955",
+      "totalKills": 22,
+      "tournament": "LCS 2026 Spring",
+      "tournamentLine": "LCS 2026 Spring (NA) - Fearless Draft",
+      "week": "WEEK2",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCS 2026 Spring",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-04-12",
+      "game": "Sentinels vs Cloud9",
+      "id": "76150",
+      "killsA": 17,
+      "killsB": 4,
+      "league": "LCS",
+      "patch": "16.7",
+      "picks": {
+        "teamA": [
+          "Gnar",
+          "Pantheon",
+          "Orianna",
+          "Jhin",
+          "Bard"
+        ],
+        "teamB": [
+          "Yorick",
+          "Jarvan IV",
+          "Galio",
+          "Ashe",
+          "Seraphine"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/76150/page-game/",
+      "teamA": "Cloud9",
+      "teamAId": "2812",
+      "teamB": "Sentinels",
+      "teamBId": "2955",
+      "totalKills": 21,
+      "tournament": "LCS 2026 Spring",
+      "tournamentLine": "LCS 2026 Spring (NA) - Fearless Draft",
+      "week": "WEEK2",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCS 2026 Spring",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-04-12",
+      "game": "Disguised vs FlyQuest",
+      "id": "76148",
+      "killsA": 21,
+      "killsB": 4,
+      "league": "LCS",
+      "patch": "16.7",
+      "picks": {
+        "teamA": [
+          "Yorick",
+          "Pantheon",
+          "Hwei",
+          "Caitlyn",
+          "Bard"
+        ],
+        "teamB": [
+          "Jayce",
+          "Naafiri",
+          "Ryze",
+          "Ezreal",
+          "Anivia"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/76148/page-game/",
+      "teamA": "FlyQuest",
+      "teamAId": "2953",
+      "teamB": "Disguised",
+      "teamBId": "2957",
+      "totalKills": 25,
+      "tournament": "LCS 2026 Spring",
+      "tournamentLine": "LCS 2026 Spring (NA) - Fearless Draft",
+      "week": "WEEK2",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCS 2026 Spring",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-04-12",
+      "game": "Disguised vs FlyQuest",
+      "id": "76147",
+      "killsA": 23,
+      "killsB": 5,
+      "league": "LCS",
+      "patch": "16.7",
+      "picks": {
+        "teamA": [
+          "Ambessa",
+          "Nocturne",
+          "Annie",
+          "Corki",
+          "Nami"
+        ],
+        "teamB": [
+          "Rumble",
+          "Skarner",
+          "Azir",
+          "Yunara",
+          "Lulu"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/76147/page-game/",
+      "teamA": "FlyQuest",
+      "teamAId": "2953",
+      "teamB": "Disguised",
+      "teamBId": "2957",
+      "totalKills": 28,
+      "tournament": "LCS 2026 Spring",
+      "tournamentLine": "LCS 2026 Spring (NA) - Fearless Draft",
+      "week": "WEEK2",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCS 2026 Spring",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-04-11",
+      "game": "Dignitas vs LYON",
+      "id": "76146",
+      "killsA": 22,
+      "killsB": 7,
+      "league": "LCS",
+      "patch": "16.7",
+      "picks": {
+        "teamA": [
+          "Vayne",
+          "Wukong",
+          "Sylas",
+          "Sivir",
+          "Rakan"
+        ],
+        "teamB": [
+          "Gnar",
+          "Maokai",
+          "Viktor",
+          "Jhin",
+          "Karma"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/76146/page-game/",
+      "teamA": "LYON",
+      "teamAId": "2954",
+      "teamB": "Dignitas",
+      "teamBId": "2952",
+      "totalKills": 29,
+      "tournament": "LCS 2026 Spring",
+      "tournamentLine": "LCS 2026 Spring (NA) - Fearless Draft",
+      "week": "WEEK2",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCS 2026 Spring",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-04-11",
+      "game": "Dignitas vs LYON",
+      "id": "76145",
+      "killsA": 4,
+      "killsB": 10,
+      "league": "LCS",
+      "patch": "16.7",
+      "picks": {
+        "teamA": [
+          "Ambessa",
+          "Poppy",
+          "Anivia",
+          "Ezreal",
+          "Neeko"
+        ],
+        "teamB": [
+          "Jayce",
+          "Vi",
+          "Ryze",
+          "Caitlyn",
+          "Lux"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/76145/page-game/",
+      "teamA": "Dignitas",
+      "teamAId": "2952",
+      "teamB": "LYON",
+      "teamBId": "2954",
+      "totalKills": 14,
+      "tournament": "LCS 2026 Spring",
+      "tournamentLine": "LCS 2026 Spring (NA) - Fearless Draft",
+      "week": "WEEK2",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCS 2026 Spring",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-04-11",
+      "game": "Dignitas vs LYON",
+      "id": "76144",
+      "killsA": 6,
+      "killsB": 13,
+      "league": "LCS",
+      "patch": "16.7",
+      "picks": {
+        "teamA": [
+          "KSante",
+          "Nocturne",
+          "Azir",
+          "Yunara",
+          "Lulu"
+        ],
+        "teamB": [
+          "Rumble",
+          "Xin Zhao",
+          "Orianna",
+          "Corki",
+          "Nami"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/76144/page-game/",
+      "teamA": "LYON",
+      "teamAId": "2954",
+      "teamB": "Dignitas",
+      "teamBId": "2952",
+      "totalKills": 19,
+      "tournament": "LCS 2026 Spring",
+      "tournamentLine": "LCS 2026 Spring (NA) - Fearless Draft",
+      "week": "WEEK2",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCS 2026 Spring",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-04-11",
+      "game": "SR vs Team Liquid",
+      "id": "76142",
+      "killsA": 17,
+      "killsB": 15,
+      "league": "LCS",
+      "patch": "16.7",
+      "picks": {
+        "teamA": [
+          "Jayce",
+          "Jarvan IV",
+          "Ryze",
+          "Xayah",
+          "Rakan"
+        ],
+        "teamB": [
+          "KSante",
+          "Poppy",
+          "Azir",
+          "Ezreal",
+          "Neeko"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/76142/page-game/",
+      "teamA": "Team Liquid",
+      "teamAId": "2813",
+      "teamB": "Shopify Rebellion",
+      "teamBId": "2956",
+      "totalKills": 32,
+      "tournament": "LCS 2026 Spring",
+      "tournamentLine": "LCS 2026 Spring (NA) - Fearless Draft",
+      "week": "WEEK2",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCS 2026 Spring",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-04-11",
+      "game": "SR vs Team Liquid",
+      "id": "76141",
+      "killsA": 25,
+      "killsB": 2,
+      "league": "LCS",
+      "patch": "16.7",
+      "picks": {
+        "teamA": [
+          "Jax",
+          "Xin Zhao",
+          "Aurora",
+          "Ashe",
+          "Seraphine"
+        ],
+        "teamB": [
+          "Ambessa",
+          "Pantheon",
+          "Mel",
+          "Corki",
+          "Nami"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/76141/page-game/",
+      "teamA": "Team Liquid",
+      "teamAId": "2813",
+      "teamB": "Shopify Rebellion",
+      "teamBId": "2956",
+      "totalKills": 27,
+      "tournament": "LCS 2026 Spring",
+      "tournamentLine": "LCS 2026 Spring (NA) - Fearless Draft",
+      "week": "WEEK2",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCS 2026 Spring",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-04-05",
+      "game": "Dignitas vs SR",
+      "id": "76139",
+      "killsA": 6,
+      "killsB": 17,
+      "league": "LCS",
+      "patch": "16.7",
+      "picks": {
+        "teamA": [
+          "Ornn",
+          "Pantheon",
+          "Twisted Fate",
+          "Yunara",
+          "Lulu"
+        ],
+        "teamB": [
+          "Rumble",
+          "Jarvan IV",
+          "Galio",
+          "Caitlyn",
+          "Neeko"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/76139/page-game/",
+      "teamA": "Dignitas",
+      "teamAId": "2952",
+      "teamB": "Shopify Rebellion",
+      "teamBId": "2956",
+      "totalKills": 23,
+      "tournament": "LCS 2026 Spring",
+      "tournamentLine": "LCS 2026 Spring (NA) - Fearless Draft",
+      "week": "WEEK1",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCS 2026 Spring",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-04-05",
+      "game": "Dignitas vs SR",
+      "id": "76138",
+      "killsA": 5,
+      "killsB": 24,
+      "league": "LCS",
+      "patch": "16.7",
+      "picks": {
+        "teamA": [
+          "Renekton",
+          "Skarner",
+          "Anivia",
+          "Ashe",
+          "Seraphine"
+        ],
+        "teamB": [
+          "Gnar",
+          "Xin Zhao",
+          "Annie",
+          "Corki",
+          "Nami"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/76138/page-game/",
+      "teamA": "Dignitas",
+      "teamAId": "2952",
+      "teamB": "Shopify Rebellion",
+      "teamBId": "2956",
+      "totalKills": 29,
+      "tournament": "LCS 2026 Spring",
+      "tournamentLine": "LCS 2026 Spring (NA) - Fearless Draft",
+      "week": "WEEK1",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCS 2026 Spring",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-04-05",
+      "game": "Team Liquid vs FlyQuest",
+      "id": "76137",
+      "killsA": 26,
+      "killsB": 11,
+      "league": "LCS",
+      "patch": "16.7",
+      "picks": {
+        "teamA": [
+          "Renekton",
+          "Lee Sin",
+          "Ryze",
+          "Varus",
+          "Rell"
+        ],
+        "teamB": [
+          "Sion",
+          "Trundle",
+          "Viktor",
+          "Ezreal",
+          "Neeko"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/76137/page-game/",
+      "teamA": "Team Liquid",
+      "teamAId": "2813",
+      "teamB": "FlyQuest",
+      "teamBId": "2953",
+      "totalKills": 37,
+      "tournament": "LCS 2026 Spring",
+      "tournamentLine": "LCS 2026 Spring (NA) - Fearless Draft",
+      "week": "WEEK1",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCS 2026 Spring",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-04-05",
+      "game": "Team Liquid vs FlyQuest",
+      "id": "76136",
+      "killsA": 7,
+      "killsB": 17,
+      "league": "LCS",
+      "patch": "16.7",
+      "picks": {
+        "teamA": [
+          "Yorick",
+          "Xin Zhao",
+          "Azir",
+          "Yunara",
+          "Lulu"
+        ],
+        "teamB": [
+          "Gnar",
+          "Dr. Mundo",
+          "Xerath",
+          "Corki",
+          "Nami"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/76136/page-game/",
+      "teamA": "Team Liquid",
+      "teamAId": "2813",
+      "teamB": "FlyQuest",
+      "teamBId": "2953",
+      "totalKills": 24,
+      "tournament": "LCS 2026 Spring",
+      "tournamentLine": "LCS 2026 Spring (NA) - Fearless Draft",
+      "week": "WEEK1",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCS 2026 Spring",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-04-05",
+      "game": "Team Liquid vs FlyQuest",
+      "id": "76135",
+      "killsA": 26,
+      "killsB": 12,
+      "league": "LCS",
+      "patch": "16.7",
+      "picks": {
+        "teamA": [
+          "Rumble",
+          "Pantheon",
+          "Galio",
+          "Ashe",
+          "Seraphine"
+        ],
+        "teamB": [
+          "KSante",
+          "Ambessa",
+          "Annie",
+          "Miss Fortune",
+          "Nautilus"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/76135/page-game/",
+      "teamA": "Team Liquid",
+      "teamAId": "2813",
+      "teamB": "FlyQuest",
+      "teamBId": "2953",
+      "totalKills": 38,
+      "tournament": "LCS 2026 Spring",
+      "tournamentLine": "LCS 2026 Spring (NA) - Fearless Draft",
+      "week": "WEEK1",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCS 2026 Spring",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-04-04",
+      "game": "Sentinels vs Disguised",
+      "id": "75992",
+      "killsA": 16,
+      "killsB": 4,
+      "league": "LCS",
+      "patch": "16.7",
+      "picks": {
+        "teamA": [
+          "Rumble",
+          "Xin Zhao",
+          "Yone",
+          "Vayne",
+          "Alistar"
+        ],
+        "teamB": [
+          "Galio",
+          "Vi",
+          "Smolder",
+          "Yunara",
+          "Rakan"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/75992/page-game/",
+      "teamA": "Disguised",
+      "teamAId": "2957",
+      "teamB": "Sentinels",
+      "teamBId": "2955",
+      "totalKills": 20,
+      "tournament": "LCS 2026 Spring",
+      "tournamentLine": "LCS 2026 Spring (NA) - Fearless Draft",
+      "week": "WEEK1",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCS 2026 Spring",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-04-04",
+      "game": "Sentinels vs Disguised",
+      "id": "75991",
+      "killsA": 16,
+      "killsB": 23,
+      "league": "LCS",
+      "patch": "16.7",
+      "picks": {
+        "teamA": [
+          "Volibear",
+          "Nocturne",
+          "Ahri",
+          "Sivir",
+          "Neeko"
+        ],
+        "teamB": [
+          "Ambessa",
+          "Dr. Mundo",
+          "Cassiopeia",
+          "Varus",
+          "Bard"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/75991/page-game/",
+      "teamA": "Sentinels",
+      "teamAId": "2955",
+      "teamB": "Disguised",
+      "teamBId": "2957",
+      "totalKills": 39,
+      "tournament": "LCS 2026 Spring",
+      "tournamentLine": "LCS 2026 Spring (NA) - Fearless Draft",
+      "week": "WEEK1",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCS 2026 Spring",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-04-04",
+      "game": "Sentinels vs Disguised",
+      "id": "75990",
+      "killsA": 11,
+      "killsB": 19,
+      "league": "LCS",
+      "patch": "16.7",
+      "picks": {
+        "teamA": [
+          "Aurora",
+          "Pantheon",
+          "Ryze",
+          "Corki",
+          "Nami"
+        ],
+        "teamB": [
+          "Gnar",
+          "Skarner",
+          "Orianna",
+          "Ezreal",
+          "Karma"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/75990/page-game/",
+      "teamA": "Disguised",
+      "teamAId": "2957",
+      "teamB": "Sentinels",
+      "teamBId": "2955",
+      "totalKills": 30,
+      "tournament": "LCS 2026 Spring",
+      "tournamentLine": "LCS 2026 Spring (NA) - Fearless Draft",
+      "week": "WEEK1",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCS 2026 Spring",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-04-04",
+      "game": "Cloud9 vs LYON",
+      "id": "75989",
+      "killsA": 18,
+      "killsB": 11,
+      "league": "LCS",
+      "patch": "16.7",
+      "picks": {
+        "teamA": [
+          "Gwen",
+          "Poppy",
+          "Orianna",
+          "Ezreal",
+          "Bard"
+        ],
+        "teamB": [
+          "Sion",
+          "Wukong",
+          "Akali",
+          "Ashe",
+          "Seraphine"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/75989/page-game/",
+      "teamA": "Cloud9",
+      "teamAId": "2812",
+      "teamB": "LYON",
+      "teamBId": "2954",
+      "totalKills": 29,
+      "tournament": "LCS 2026 Spring",
+      "tournamentLine": "LCS 2026 Spring (NA) - Fearless Draft",
+      "week": "WEEK1",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCS 2026 Spring",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-04-04",
+      "game": "Cloud9 vs LYON",
+      "id": "75988",
+      "killsA": 5,
+      "killsB": 17,
+      "league": "LCS",
+      "patch": "16.7",
+      "picks": {
+        "teamA": [
+          "Kennen",
+          "Jarvan IV",
+          "Ahri",
+          "Miss Fortune",
+          "Nautilus"
+        ],
+        "teamB": [
+          "Renekton",
+          "Sejuani",
+          "Ziggs",
+          "Corki",
+          "Nami"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/75988/page-game/",
+      "teamA": "LYON",
+      "teamAId": "2954",
+      "teamB": "Cloud9",
+      "teamBId": "2812",
+      "totalKills": 22,
+      "tournament": "LCS 2026 Spring",
+      "tournamentLine": "LCS 2026 Spring (NA) - Fearless Draft",
+      "week": "WEEK1",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCS 2026 Spring",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-04-04",
+      "game": "Cloud9 vs LYON",
+      "id": "75987",
+      "killsA": 16,
+      "killsB": 6,
+      "league": "LCS",
+      "patch": "16.7",
+      "picks": {
+        "teamA": [
+          "Ornn",
+          "Vi",
+          "Ryze",
+          "Caitlyn",
+          "Neeko"
+        ],
+        "teamB": [
+          "Rumble",
+          "Xin Zhao",
+          "Anivia",
+          "Yunara",
+          "Lulu"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/75987/page-game/",
+      "teamA": "LYON",
+      "teamAId": "2954",
+      "teamB": "Cloud9",
+      "teamBId": "2812",
+      "totalKills": 22,
+      "tournament": "LCS 2026 Spring",
+      "tournamentLine": "LCS 2026 Spring (NA) - Fearless Draft",
+      "week": "WEEK1",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCS 2026 Spring",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-03-01",
+      "game": "Cloud9 vs LYON",
+      "id": "75061",
+      "killsA": 15,
+      "killsB": 5,
+      "league": "LCS",
+      "patch": "16.4",
+      "picks": {
+        "teamA": [
+          "Sion",
+          "Jarvan IV",
+          "Cassiopeia",
+          "Kaisa",
+          "Poppy"
+        ],
+        "teamB": [
+          "RekSai",
+          "Wukong",
+          "Ryze",
+          "Smolder",
+          "Bard"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/75061/page-game/",
+      "teamA": "LYON",
+      "teamAId": "2954",
+      "teamB": "Cloud9",
+      "teamBId": "2812",
+      "totalKills": 20,
+      "tournament": "LCS 2026 Lock-In",
+      "tournamentLine": "LCS 2026 Lock-In (NA) - Fearless Draft",
+      "week": "FINALS",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "cup",
+      "sourceTournament": "LCS 2026 Lock-In",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-03-01",
+      "game": "Cloud9 vs LYON",
+      "id": "75060",
+      "killsA": 18,
+      "killsB": 10,
+      "league": "LCS",
+      "patch": "16.4",
+      "picks": {
+        "teamA": [
+          "Zaahen",
+          "Trundle",
+          "Aurora",
+          "Ashe",
+          "Seraphine"
+        ],
+        "teamB": [
+          "Renekton",
+          "Vi",
+          "Taliyah",
+          "Mel",
+          "Nami"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/75060/page-game/",
+      "teamA": "LYON",
+      "teamAId": "2954",
+      "teamB": "Cloud9",
+      "teamBId": "2812",
+      "totalKills": 28,
+      "tournament": "LCS 2026 Lock-In",
+      "tournamentLine": "LCS 2026 Lock-In (NA) - Fearless Draft",
+      "week": "FINALS",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "cup",
+      "sourceTournament": "LCS 2026 Lock-In",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-03-01",
+      "game": "Cloud9 vs LYON",
+      "id": "75059",
+      "killsA": 6,
+      "killsB": 21,
+      "league": "LCS",
+      "patch": "16.4",
+      "picks": {
+        "teamA": [
+          "KSante",
+          "Nocturne",
+          "Annie",
+          "Yunara",
+          "Nautilus"
+        ],
+        "teamB": [
+          "Rumble",
+          "Aatrox",
+          "Ahri",
+          "Aphelios",
+          "Lulu"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/75059/page-game/",
+      "teamA": "Cloud9",
+      "teamAId": "2812",
+      "teamB": "LYON",
+      "teamBId": "2954",
+      "totalKills": 27,
+      "tournament": "LCS 2026 Lock-In",
+      "tournamentLine": "LCS 2026 Lock-In (NA) - Fearless Draft",
+      "week": "FINALS",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "cup",
+      "sourceTournament": "LCS 2026 Lock-In",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-03-01",
+      "game": "Cloud9 vs LYON",
+      "id": "75058",
+      "killsA": 9,
+      "killsB": 13,
+      "league": "LCS",
+      "patch": "16.4",
+      "picks": {
+        "teamA": [
+          "Gnar",
+          "Xin Zhao",
+          "Azir",
+          "Ezreal",
+          "Karma"
+        ],
+        "teamB": [
+          "Ambessa",
+          "Malphite",
+          "Orianna",
+          "Corki",
+          "Neeko"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/75058/page-game/",
+      "teamA": "LYON",
+      "teamAId": "2954",
+      "teamB": "Cloud9",
+      "teamBId": "2812",
+      "totalKills": 22,
+      "tournament": "LCS 2026 Lock-In",
+      "tournamentLine": "LCS 2026 Lock-In (NA) - Fearless Draft",
+      "week": "FINALS",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "cup",
+      "sourceTournament": "LCS 2026 Lock-In",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-02-28",
+      "game": "Sentinels vs LYON",
+      "id": "75009",
+      "killsA": 11,
+      "killsB": 18,
+      "league": "LCS",
+      "patch": "16.4",
+      "picks": {
+        "teamA": [
+          "Sion",
+          "Trundle",
+          "Viktor",
+          "Kaisa",
+          "Rell"
+        ],
+        "teamB": [
+          "Aatrox",
+          "Dr. Mundo",
+          "Sylas",
+          "Yunara",
+          "Lulu"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/75009/page-game/",
+      "teamA": "Sentinels",
+      "teamAId": "2955",
+      "teamB": "LYON",
+      "teamBId": "2954",
+      "totalKills": 29,
+      "tournament": "LCS 2026 Lock-In",
+      "tournamentLine": "LCS 2026 Lock-In (NA) - Fearless Draft",
+      "week": "PLAYOFFS.ROUND3",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "cup",
+      "sourceTournament": "LCS 2026 Lock-In",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-02-28",
+      "game": "Sentinels vs LYON",
+      "id": "75008",
+      "killsA": 7,
+      "killsB": 15,
+      "league": "LCS",
+      "patch": "16.4",
+      "picks": {
+        "teamA": [
+          "Gwen",
+          "Jayce",
+          "Ryze",
+          "Sivir",
+          "Bard"
+        ],
+        "teamB": [
+          "Yorick",
+          "Skarner",
+          "Anivia",
+          "Varus",
+          "Alistar"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/75008/page-game/",
+      "teamA": "LYON",
+      "teamAId": "2954",
+      "teamB": "Sentinels",
+      "teamBId": "2955",
+      "totalKills": 22,
+      "tournament": "LCS 2026 Lock-In",
+      "tournamentLine": "LCS 2026 Lock-In (NA) - Fearless Draft",
+      "week": "PLAYOFFS.ROUND3",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "cup",
+      "sourceTournament": "LCS 2026 Lock-In",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-02-28",
+      "game": "Sentinels vs LYON",
+      "id": "75007",
+      "killsA": 22,
+      "killsB": 7,
+      "league": "LCS",
+      "patch": "16.4",
+      "picks": {
+        "teamA": [
+          "Ambessa",
+          "Malphite",
+          "Yone",
+          "Jhin",
+          "Neeko"
+        ],
+        "teamB": [
+          "Jax",
+          "Wukong",
+          "Syndra",
+          "Ashe",
+          "Seraphine"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/75007/page-game/",
+      "teamA": "LYON",
+      "teamAId": "2954",
+      "teamB": "Sentinels",
+      "teamBId": "2955",
+      "totalKills": 29,
+      "tournament": "LCS 2026 Lock-In",
+      "tournamentLine": "LCS 2026 Lock-In (NA) - Fearless Draft",
+      "week": "PLAYOFFS.ROUND3",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "cup",
+      "sourceTournament": "LCS 2026 Lock-In",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-02-28",
+      "game": "Sentinels vs LYON",
+      "id": "75006",
+      "killsA": 10,
+      "killsB": 4,
+      "league": "LCS",
+      "patch": "16.4",
+      "picks": {
+        "teamA": [
+          "Gnar",
+          "Jarvan IV",
+          "Azir",
+          "Ezreal",
+          "Karma"
+        ],
+        "teamB": [
+          "Renekton",
+          "Xin Zhao",
+          "Orianna",
+          "Corki",
+          "Nami"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/75006/page-game/",
+      "teamA": "LYON",
+      "teamAId": "2954",
+      "teamB": "Sentinels",
+      "teamBId": "2955",
+      "totalKills": 14,
+      "tournament": "LCS 2026 Lock-In",
+      "tournamentLine": "LCS 2026 Lock-In (NA) - Fearless Draft",
+      "week": "PLAYOFFS.ROUND3",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "cup",
+      "sourceTournament": "LCS 2026 Lock-In",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-02-27",
+      "game": "LYON vs Team Liquid",
+      "id": "74855",
+      "killsA": 13,
+      "killsB": 5,
+      "league": "LCS",
+      "patch": "16.4",
+      "picks": {
+        "teamA": [
+          "Vayne",
+          "Ornn",
+          "Ahri",
+          "Ezreal",
+          "Karma"
+        ],
+        "teamB": [
+          "Camille",
+          "Dr. Mundo",
+          "Galio",
+          "Lucian",
+          "Nami"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/74855/page-game/",
+      "teamA": "LYON",
+      "teamAId": "2954",
+      "teamB": "Team Liquid",
+      "teamBId": "2813",
+      "totalKills": 18,
+      "tournament": "LCS 2026 Lock-In",
+      "tournamentLine": "LCS 2026 Lock-In (NA) - Fearless Draft",
+      "week": "PLAYOFFS.ROUND2",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "cup",
+      "sourceTournament": "LCS 2026 Lock-In",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-02-27",
+      "game": "LYON vs Team Liquid",
+      "id": "74854",
+      "killsA": 5,
+      "killsB": 10,
+      "league": "LCS",
+      "patch": "16.4",
+      "picks": {
+        "teamA": [
+          "Gnar",
+          "Jarvan IV",
+          "Aurora",
+          "Jhin",
+          "Bard"
+        ],
+        "teamB": [
+          "Irelia",
+          "Xin Zhao",
+          "Akali",
+          "Ashe",
+          "Seraphine"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/74854/page-game/",
+      "teamA": "Team Liquid",
+      "teamAId": "2813",
+      "teamB": "LYON",
+      "teamBId": "2954",
+      "totalKills": 15,
+      "tournament": "LCS 2026 Lock-In",
+      "tournamentLine": "LCS 2026 Lock-In (NA) - Fearless Draft",
+      "week": "PLAYOFFS.ROUND2",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "cup",
+      "sourceTournament": "LCS 2026 Lock-In",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "date": "2026-02-27",
+      "game": "LYON vs Team Liquid",
+      "id": "74853",
+      "killsA": 7,
+      "killsB": 17,
+      "league": "LCS",
+      "patch": "16.4",
+      "picks": {
+        "teamA": [
+          "KSante",
+          "Malphite",
+          "Taliyah",
+          "Yunara",
+          "Lulu"
+        ],
+        "teamB": [
+          "Rumble",
+          "Zaahen",
+          "Ryze",
+          "Corki",
+          "Neeko"
+        ]
+      },
+      "sourceUrl": "https://gol.gg/game/stats/74853/page-game/",
+      "teamA": "LYON",
+      "teamAId": "2954",
+      "teamB": "Team Liquid",
+      "teamBId": "2813",
+      "totalKills": 24,
+      "tournament": "LCS 2026 Lock-In",
+      "tournamentLine": "LCS 2026 Lock-In (NA) - Fearless Draft",
+      "week": "PLAYOFFS.ROUND2",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "cup",
+      "sourceTournament": "LCS 2026 Lock-In",
+      "collectedAt": "2026-05-26T00:08:26.404Z",
+      "collectorVersion": "expanded-2026-1"
+    },
+    {
+      "collectedAt": "2026-05-25T23:56:00.401Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-02-27",
+      "game": "LYON vs Team Liquid",
+      "id": "74852",
+      "killsA": 3,
+      "killsB": 15,
+      "league": "LCS",
+      "patch": "16.4",
+      "picks": {
+        "teamA": [
+          "Renekton",
+          "Wukong",
+          "Orianna",
+          "Kaisa",
+          "Rakan"
+        ],
+        "teamB": [
+          "Varus",
+          "Nocturne",
+          "Azir",
+          "Xayah",
+          "Leona"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "LCS 2026 Lock-In",
+      "sourceUrl": "https://gol.gg/game/stats/74852/page-game/",
+      "stage": "cup",
+      "teamA": "Team Liquid",
+      "teamAId": "2813",
+      "teamB": "LYON",
+      "teamBId": "2954",
+      "totalKills": 18,
+      "tournament": "LCS 2026 Lock-In",
+      "tournamentLine": "LCS 2026 Lock-In (NA) - Fearless Draft",
+      "week": "PLAYOFFS.ROUND2"
+    },
+    {
+      "collectedAt": "2026-05-25T23:56:01.863Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-02-22",
+      "game": "Cloud9 vs Sentinels",
+      "id": "74606",
+      "killsA": 16,
+      "killsB": 3,
+      "league": "LCS",
+      "patch": "16.4",
+      "picks": {
+        "teamA": [
+          "RekSai",
+          "Maokai",
+          "Ziggs",
+          "Aphelios",
+          "Thresh"
+        ],
+        "teamB": [
+          "Sion",
+          "Jarvan IV",
+          "Twisted Fate",
+          "Lucian",
+          "Nami"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "LCS 2026 Lock-In",
+      "sourceUrl": "https://gol.gg/game/stats/74606/page-game/",
+      "stage": "cup",
+      "teamA": "Cloud9",
+      "teamAId": "2812",
+      "teamB": "Sentinels",
+      "teamBId": "2955",
+      "totalKills": 19,
+      "tournament": "LCS 2026 Lock-In",
+      "tournamentLine": "LCS 2026 Lock-In (NA) - Fearless Draft",
+      "week": "PLAYOFFS.ROUND2"
+    },
+    {
+      "collectedAt": "2026-05-25T23:56:03.080Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-02-22",
+      "game": "Cloud9 vs Sentinels",
+      "id": "74605",
+      "killsA": 18,
+      "killsB": 9,
+      "league": "LCS",
+      "patch": "16.4",
+      "picks": {
+        "teamA": [
+          "KSante",
+          "Wukong",
+          "Viktor",
+          "Varus",
+          "Nautilus"
+        ],
+        "teamB": [
+          "Rumble",
+          "Vi",
+          "Hwei",
+          "Jhin",
+          "Rakan"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "LCS 2026 Lock-In",
+      "sourceUrl": "https://gol.gg/game/stats/74605/page-game/",
+      "stage": "cup",
+      "teamA": "Cloud9",
+      "teamAId": "2812",
+      "teamB": "Sentinels",
+      "teamBId": "2955",
+      "totalKills": 27,
+      "tournament": "LCS 2026 Lock-In",
+      "tournamentLine": "LCS 2026 Lock-In (NA) - Fearless Draft",
+      "week": "PLAYOFFS.ROUND2"
+    },
+    {
+      "collectedAt": "2026-05-25T23:56:04.148Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-02-22",
+      "game": "Cloud9 vs Sentinels",
+      "id": "74604",
+      "killsA": 7,
+      "killsB": 16,
+      "league": "LCS",
+      "patch": "16.4",
+      "picks": {
+        "teamA": [
+          "Renekton",
+          "Ambessa",
+          "Ryze",
+          "Corki",
+          "Bard"
+        ],
+        "teamB": [
+          "Gnar",
+          "Pantheon",
+          "Taliyah",
+          "Yunara",
+          "Lulu"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "LCS 2026 Lock-In",
+      "sourceUrl": "https://gol.gg/game/stats/74604/page-game/",
+      "stage": "cup",
+      "teamA": "Sentinels",
+      "teamAId": "2955",
+      "teamB": "Cloud9",
+      "teamBId": "2812",
+      "totalKills": 23,
+      "tournament": "LCS 2026 Lock-In",
+      "tournamentLine": "LCS 2026 Lock-In (NA) - Fearless Draft",
+      "week": "PLAYOFFS.ROUND2"
+    },
+    {
+      "collectedAt": "2026-05-25T23:56:05.287Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-02-21",
+      "game": "FlyQuest vs LYON",
+      "id": "74601",
+      "killsA": 25,
+      "killsB": 8,
+      "league": "LCS",
+      "patch": "16.4",
+      "picks": {
+        "teamA": [
+          "Galio",
+          "Wukong",
+          "Taliyah",
+          "Corki",
+          "Nami"
+        ],
+        "teamB": [
+          "Rumble",
+          "Xin Zhao",
+          "Cassiopeia",
+          "Lucian",
+          "Sona"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "LCS 2026 Lock-In",
+      "sourceUrl": "https://gol.gg/game/stats/74601/page-game/",
+      "stage": "cup",
+      "teamA": "LYON",
+      "teamAId": "2954",
+      "teamB": "FlyQuest",
+      "teamBId": "2953",
+      "totalKills": 33,
+      "tournament": "LCS 2026 Lock-In",
+      "tournamentLine": "LCS 2026 Lock-In (NA) - Fearless Draft",
+      "week": "PLAYOFFS.ROUND1"
+    },
+    {
+      "collectedAt": "2026-05-25T23:56:06.747Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-02-21",
+      "game": "FlyQuest vs LYON",
+      "id": "74600",
+      "killsA": 17,
+      "killsB": 9,
+      "league": "LCS",
+      "patch": "16.4",
+      "picks": {
+        "teamA": [
+          "KSante",
+          "Malphite",
+          "Aurora",
+          "Varus",
+          "Poppy"
+        ],
+        "teamB": [
+          "Olaf",
+          "Vi",
+          "Ahri",
+          "Ezreal",
+          "Alistar"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "LCS 2026 Lock-In",
+      "sourceUrl": "https://gol.gg/game/stats/74600/page-game/",
+      "stage": "cup",
+      "teamA": "LYON",
+      "teamAId": "2954",
+      "teamB": "FlyQuest",
+      "teamBId": "2953",
+      "totalKills": 26,
+      "tournament": "LCS 2026 Lock-In",
+      "tournamentLine": "LCS 2026 Lock-In (NA) - Fearless Draft",
+      "week": "PLAYOFFS.ROUND1"
+    },
+    {
+      "collectedAt": "2026-05-25T23:56:08.161Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-02-21",
+      "game": "FlyQuest vs LYON",
+      "id": "74599",
+      "killsA": 26,
+      "killsB": 1,
+      "league": "LCS",
+      "patch": "16.4",
+      "picks": {
+        "teamA": [
+          "Renekton",
+          "Nocturne",
+          "Azir",
+          "Jhin",
+          "Neeko"
+        ],
+        "teamB": [
+          "Sion",
+          "Gwen",
+          "Orianna",
+          "Ashe",
+          "Seraphine"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "LCS 2026 Lock-In",
+      "sourceUrl": "https://gol.gg/game/stats/74599/page-game/",
+      "stage": "cup",
+      "teamA": "LYON",
+      "teamAId": "2954",
+      "teamB": "FlyQuest",
+      "teamBId": "2953",
+      "totalKills": 27,
+      "tournament": "LCS 2026 Lock-In",
+      "tournamentLine": "LCS 2026 Lock-In (NA) - Fearless Draft",
+      "week": "PLAYOFFS.ROUND1"
+    },
+    {
+      "collectedAt": "2026-05-25T23:56:09.813Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-02-20",
+      "game": "Disguised vs Team Liquid",
+      "id": "74596",
+      "killsA": 13,
+      "killsB": 11,
+      "league": "LCS",
+      "patch": "16.4",
+      "picks": {
+        "teamA": [
+          "Gnar",
+          "Pantheon",
+          "Azir",
+          "Aphelios",
+          "Lulu"
+        ],
+        "teamB": [
+          "Jax",
+          "Aatrox",
+          "Orianna",
+          "Lucian",
+          "Rell"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "LCS 2026 Lock-In",
+      "sourceUrl": "https://gol.gg/game/stats/74596/page-game/",
+      "stage": "cup",
+      "teamA": "Team Liquid",
+      "teamAId": "2813",
+      "teamB": "Disguised",
+      "teamBId": "2957",
+      "totalKills": 24,
+      "tournament": "LCS 2026 Lock-In",
+      "tournamentLine": "LCS 2026 Lock-In (NA) - Fearless Draft",
+      "week": "PLAYOFFS.ROUND1"
+    },
+    {
+      "collectedAt": "2026-05-25T23:56:11.714Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-02-20",
+      "game": "Disguised vs Team Liquid",
+      "id": "74595",
+      "killsA": 16,
+      "killsB": 4,
+      "league": "LCS",
+      "patch": "16.4",
+      "picks": {
+        "teamA": [
+          "Rumble",
+          "Vi",
+          "Ahri",
+          "Kalista",
+          "Renata Glasc"
+        ],
+        "teamB": [
+          "Galio",
+          "Xin Zhao",
+          "Aurora",
+          "Kaisa",
+          "Bard"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "LCS 2026 Lock-In",
+      "sourceUrl": "https://gol.gg/game/stats/74595/page-game/",
+      "stage": "cup",
+      "teamA": "Team Liquid",
+      "teamAId": "2813",
+      "teamB": "Disguised",
+      "teamBId": "2957",
+      "totalKills": 20,
+      "tournament": "LCS 2026 Lock-In",
+      "tournamentLine": "LCS 2026 Lock-In (NA) - Fearless Draft",
+      "week": "PLAYOFFS.ROUND1"
+    },
+    {
+      "collectedAt": "2026-05-25T23:56:13.773Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-02-20",
+      "game": "Disguised vs Team Liquid",
+      "id": "74594",
+      "killsA": 23,
+      "killsB": 8,
+      "league": "LCS",
+      "patch": "16.4",
+      "picks": {
+        "teamA": [
+          "Ambessa",
+          "Trundle",
+          "Taliyah",
+          "Yunara",
+          "Neeko"
+        ],
+        "teamB": [
+          "Sion",
+          "Wukong",
+          "Ryze",
+          "Corki",
+          "Nami"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "LCS 2026 Lock-In",
+      "sourceUrl": "https://gol.gg/game/stats/74594/page-game/",
+      "stage": "cup",
+      "teamA": "Team Liquid",
+      "teamAId": "2813",
+      "teamB": "Disguised",
+      "teamBId": "2957",
+      "totalKills": 31,
+      "tournament": "LCS 2026 Lock-In",
+      "tournamentLine": "LCS 2026 Lock-In (NA) - Fearless Draft",
+      "week": "PLAYOFFS.ROUND1"
+    },
+    {
+      "collectedAt": "2026-05-25T23:56:16.437Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-02-15",
+      "game": "Cloud9 vs FlyQuest",
+      "id": "74240",
+      "killsA": 24,
+      "killsB": 9,
+      "league": "LCS",
+      "patch": "16.3",
+      "picks": {
+        "teamA": [
+          "Gnar",
+          "Wukong",
+          "Orianna",
+          "Sivir",
+          "Bard"
+        ],
+        "teamB": [
+          "Aurora",
+          "Nocturne",
+          "Akali",
+          "Kalista",
+          "Renata Glasc"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "LCS 2026 Lock-In",
+      "sourceUrl": "https://gol.gg/game/stats/74240/page-game/",
+      "stage": "cup",
+      "teamA": "Cloud9",
+      "teamAId": "2812",
+      "teamB": "FlyQuest",
+      "teamBId": "2953",
+      "totalKills": 33,
+      "tournament": "LCS 2026 Lock-In",
+      "tournamentLine": "LCS 2026 Lock-In (NA) - Fearless Draft",
+      "week": "PLAYOFFS.ROUND1"
+    },
+    {
+      "collectedAt": "2026-05-25T23:56:18.502Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-02-15",
+      "game": "Cloud9 vs FlyQuest",
+      "id": "74239",
+      "killsA": 12,
+      "killsB": 5,
+      "league": "LCS",
+      "patch": "16.3",
+      "picks": {
+        "teamA": [
+          "Renekton",
+          "Vi",
+          "Taliyah",
+          "Yunara",
+          "Nami"
+        ],
+        "teamB": [
+          "Sion",
+          "Trundle",
+          "Azir",
+          "Aphelios",
+          "Lulu"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "LCS 2026 Lock-In",
+      "sourceUrl": "https://gol.gg/game/stats/74239/page-game/",
+      "stage": "cup",
+      "teamA": "Cloud9",
+      "teamAId": "2812",
+      "teamB": "FlyQuest",
+      "teamBId": "2953",
+      "totalKills": 17,
+      "tournament": "LCS 2026 Lock-In",
+      "tournamentLine": "LCS 2026 Lock-In (NA) - Fearless Draft",
+      "week": "PLAYOFFS.ROUND1"
+    },
+    {
+      "collectedAt": "2026-05-25T23:56:20.344Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-02-15",
+      "game": "Cloud9 vs FlyQuest",
+      "id": "74238",
+      "killsA": 18,
+      "killsB": 4,
+      "league": "LCS",
+      "patch": "16.3",
+      "picks": {
+        "teamA": [
+          "KSante",
+          "Ambessa",
+          "Galio",
+          "Corki",
+          "Neeko"
+        ],
+        "teamB": [
+          "Rumble",
+          "Zaahen",
+          "Ryze",
+          "Jhin",
+          "Alistar"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "LCS 2026 Lock-In",
+      "sourceUrl": "https://gol.gg/game/stats/74238/page-game/",
+      "stage": "cup",
+      "teamA": "Cloud9",
+      "teamAId": "2812",
+      "teamB": "FlyQuest",
+      "teamBId": "2953",
+      "totalKills": 22,
+      "tournament": "LCS 2026 Lock-In",
+      "tournamentLine": "LCS 2026 Lock-In (NA) - Fearless Draft",
+      "week": "PLAYOFFS.ROUND1"
+    },
+    {
+      "collectedAt": "2026-05-25T23:56:22.951Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-02-14",
+      "game": "Sentinels vs Disguised",
+      "id": "74237",
+      "killsA": 14,
+      "killsB": 7,
+      "league": "LCS",
+      "patch": "16.3",
+      "picks": {
+        "teamA": [
+          "Galio",
+          "Xin Zhao",
+          "Hwei",
+          "Varus",
+          "Rakan"
+        ],
+        "teamB": [
+          "Rumble",
+          "Sejuani",
+          "Tristana",
+          "Sivir",
+          "Bard"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "LCS 2026 Lock-In",
+      "sourceUrl": "https://gol.gg/game/stats/74237/page-game/",
+      "stage": "cup",
+      "teamA": "Sentinels",
+      "teamAId": "2955",
+      "teamB": "Disguised",
+      "teamBId": "2957",
+      "totalKills": 21,
+      "tournament": "LCS 2026 Lock-In",
+      "tournamentLine": "LCS 2026 Lock-In (NA) - Fearless Draft",
+      "week": "PLAYOFFS.ROUND1"
+    },
+    {
+      "collectedAt": "2026-05-25T23:56:26.038Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-02-14",
+      "game": "Sentinels vs Disguised",
+      "id": "74236",
+      "killsA": 19,
+      "killsB": 4,
+      "league": "LCS",
+      "patch": "16.3",
+      "picks": {
+        "teamA": [
+          "Zaahen",
+          "Vi",
+          "Veigar",
+          "Miss Fortune",
+          "Leona"
+        ],
+        "teamB": [
+          "Jax",
+          "Dr. Mundo",
+          "Ahri",
+          "Corki",
+          "Nami"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "LCS 2026 Lock-In",
+      "sourceUrl": "https://gol.gg/game/stats/74236/page-game/",
+      "stage": "cup",
+      "teamA": "Sentinels",
+      "teamAId": "2955",
+      "teamB": "Disguised",
+      "teamBId": "2957",
+      "totalKills": 23,
+      "tournament": "LCS 2026 Lock-In",
+      "tournamentLine": "LCS 2026 Lock-In (NA) - Fearless Draft",
+      "week": "PLAYOFFS.ROUND1"
+    },
+    {
+      "collectedAt": "2026-05-25T23:56:28.729Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-02-14",
+      "game": "Sentinels vs Disguised",
+      "id": "74235",
+      "killsA": 15,
+      "killsB": 13,
+      "league": "LCS",
+      "patch": "16.3",
+      "picks": {
+        "teamA": [
+          "Kennen",
+          "Wukong",
+          "Viktor",
+          "Yunara",
+          "Rell"
+        ],
+        "teamB": [
+          "Nasus",
+          "Ivern",
+          "Yone",
+          "Senna",
+          "Nautilus"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "LCS 2026 Lock-In",
+      "sourceUrl": "https://gol.gg/game/stats/74235/page-game/",
+      "stage": "cup",
+      "teamA": "Sentinels",
+      "teamAId": "2955",
+      "teamB": "Disguised",
+      "teamBId": "2957",
+      "totalKills": 28,
+      "tournament": "LCS 2026 Lock-In",
+      "tournamentLine": "LCS 2026 Lock-In (NA) - Fearless Draft",
+      "week": "PLAYOFFS.ROUND1"
+    },
+    {
+      "collectedAt": "2026-05-25T23:56:31.019Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-02-14",
+      "game": "Sentinels vs Disguised",
+      "id": "74234",
+      "killsA": 21,
+      "killsB": 12,
+      "league": "LCS",
+      "patch": "16.3",
+      "picks": {
+        "teamA": [
+          "Gnar",
+          "Jarvan IV",
+          "Ryze",
+          "Ashe",
+          "Seraphine"
+        ],
+        "teamB": [
+          "Renekton",
+          "Pantheon",
+          "Anivia",
+          "Kaisa",
+          "Blitzcrank"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "LCS 2026 Lock-In",
+      "sourceUrl": "https://gol.gg/game/stats/74234/page-game/",
+      "stage": "cup",
+      "teamA": "Sentinels",
+      "teamAId": "2955",
+      "teamB": "Disguised",
+      "teamBId": "2957",
+      "totalKills": 33,
+      "tournament": "LCS 2026 Lock-In",
+      "tournamentLine": "LCS 2026 Lock-In (NA) - Fearless Draft",
+      "week": "PLAYOFFS.ROUND1"
+    },
+    {
+      "collectedAt": "2026-05-25T23:56:33.239Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-02-14",
+      "game": "Sentinels vs Disguised",
+      "id": "74233",
+      "killsA": 8,
+      "killsB": 20,
+      "league": "LCS",
+      "patch": "16.3",
+      "picks": {
+        "teamA": [
+          "Sion",
+          "Aatrox",
+          "Orianna",
+          "Jhin",
+          "Neeko"
+        ],
+        "teamB": [
+          "Ambessa",
+          "Nocturne",
+          "Akali",
+          "Ezreal",
+          "Karma"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "LCS 2026 Lock-In",
+      "sourceUrl": "https://gol.gg/game/stats/74233/page-game/",
+      "stage": "cup",
+      "teamA": "Sentinels",
+      "teamAId": "2955",
+      "teamB": "Disguised",
+      "teamBId": "2957",
+      "totalKills": 28,
+      "tournament": "LCS 2026 Lock-In",
+      "tournamentLine": "LCS 2026 Lock-In (NA) - Fearless Draft",
+      "week": "PLAYOFFS.ROUND1"
+    },
+    {
+      "collectedAt": "2026-05-25T23:56:35.923Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-02-08",
+      "game": "Team Liquid vs Dignitas",
+      "id": "74232",
+      "killsA": 25,
+      "killsB": 18,
+      "league": "LCS",
+      "patch": "16.3",
+      "picks": {
+        "teamA": [
+          "Sion",
+          "Jarvan IV",
+          "Ryze",
+          "Ezreal",
+          "Neeko"
+        ],
+        "teamB": [
+          "Renekton",
+          "Pantheon",
+          "Taliyah",
+          "Aphelios",
+          "Thresh"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "LCS 2026 Lock-In",
+      "sourceUrl": "https://gol.gg/game/stats/74232/page-game/",
+      "stage": "cup",
+      "teamA": "Team Liquid",
+      "teamAId": "2813",
+      "teamB": "Dignitas",
+      "teamBId": "2952",
+      "totalKills": 43,
+      "tournament": "LCS 2026 Lock-In",
+      "tournamentLine": "LCS 2026 Lock-In (NA) - Fearless Draft",
+      "week": "LAST.CHANCE"
+    },
+    {
+      "collectedAt": "2026-05-25T23:56:39.019Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-02-08",
+      "game": "Cloud9 vs FlyQuest",
+      "id": "74176",
+      "killsA": 26,
+      "killsB": 5,
+      "league": "LCS",
+      "patch": "16.3",
+      "picks": {
+        "teamA": [
+          "Aurora",
+          "Nocturne",
+          "Neeko",
+          "Varus",
+          "Rakan"
+        ],
+        "teamB": [
+          "Rumble",
+          "Vi",
+          "Sylas",
+          "Jhin",
+          "Alistar"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "LCS 2026 Lock-In",
+      "sourceUrl": "https://gol.gg/game/stats/74176/page-game/",
+      "stage": "cup",
+      "teamA": "Cloud9",
+      "teamAId": "2812",
+      "teamB": "FlyQuest",
+      "teamBId": "2953",
+      "totalKills": 31,
+      "tournament": "LCS 2026 Lock-In",
+      "tournamentLine": "LCS 2026 Lock-In (NA) - Fearless Draft",
+      "week": "SWISS.ROUND3"
+    },
+    {
+      "collectedAt": "2026-05-25T23:59:07.561Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-02-08",
+      "game": "Cloud9 vs FlyQuest",
+      "id": "74175",
+      "killsA": 6,
+      "killsB": 13,
+      "league": "LCS",
+      "patch": "16.3",
+      "picks": {
+        "teamA": [
+          "KSante",
+          "Nidalee",
+          "Azir",
+          "Yunara",
+          "Lulu"
+        ],
+        "teamB": [
+          "Jayce",
+          "Trundle",
+          "Orianna",
+          "Ezreal",
+          "Karma"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "LCS 2026 Lock-In",
+      "sourceUrl": "https://gol.gg/game/stats/74175/page-game/",
+      "stage": "cup",
+      "teamA": "Cloud9",
+      "teamAId": "2812",
+      "teamB": "FlyQuest",
+      "teamBId": "2953",
+      "totalKills": 19,
+      "tournament": "LCS 2026 Lock-In",
+      "tournamentLine": "LCS 2026 Lock-In (NA) - Fearless Draft",
+      "week": "SWISS.ROUND3"
+    },
+    {
+      "collectedAt": "2026-05-25T23:59:08.618Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-02-08",
+      "game": "Cloud9 vs FlyQuest",
+      "id": "74174",
+      "killsA": 5,
+      "killsB": 16,
+      "league": "LCS",
+      "patch": "16.3",
+      "picks": {
+        "teamA": [
+          "Gnar",
+          "Wukong",
+          "Ryze",
+          "Sion",
+          "Senna"
+        ],
+        "teamB": [
+          "Renekton",
+          "Zaahen",
+          "Taliyah",
+          "Corki",
+          "Nautilus"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "LCS 2026 Lock-In",
+      "sourceUrl": "https://gol.gg/game/stats/74174/page-game/",
+      "stage": "cup",
+      "teamA": "FlyQuest",
+      "teamAId": "2953",
+      "teamB": "Cloud9",
+      "teamBId": "2812",
+      "totalKills": 21,
+      "tournament": "LCS 2026 Lock-In",
+      "tournamentLine": "LCS 2026 Lock-In (NA) - Fearless Draft",
+      "week": "SWISS.ROUND3"
+    },
+    {
+      "collectedAt": "2026-05-25T23:59:09.333Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-02-08",
+      "game": "Dignitas vs SR",
+      "id": "74172",
+      "killsA": 20,
+      "killsB": 9,
+      "league": "LCS",
+      "patch": "16.3",
+      "picks": {
+        "teamA": [
+          "Poppy",
+          "Xin Zhao",
+          "Taliyah",
+          "Yunara",
+          "Lulu"
+        ],
+        "teamB": [
+          "KSante",
+          "Qiyana",
+          "Ryze",
+          "Lucian",
+          "Nami"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "LCS 2026 Lock-In",
+      "sourceUrl": "https://gol.gg/game/stats/74172/page-game/",
+      "stage": "cup",
+      "teamA": "Dignitas",
+      "teamAId": "2952",
+      "teamB": "Shopify Rebellion",
+      "teamBId": "2956",
+      "totalKills": 29,
+      "tournament": "LCS 2026 Lock-In",
+      "tournamentLine": "LCS 2026 Lock-In (NA) - Fearless Draft",
+      "week": "SWISS.ROUND3"
+    },
+    {
+      "collectedAt": "2026-05-25T23:59:10.067Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-02-08",
+      "game": "Dignitas vs SR",
+      "id": "74171",
+      "killsA": 13,
+      "killsB": 27,
+      "league": "LCS",
+      "patch": "16.3",
+      "picks": {
+        "teamA": [
+          "Ambessa",
+          "Vi",
+          "Akali",
+          "Varus",
+          "Braum"
+        ],
+        "teamB": [
+          "Sion",
+          "Jarvan IV",
+          "Azir",
+          "Jhin",
+          "Nautilus"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "LCS 2026 Lock-In",
+      "sourceUrl": "https://gol.gg/game/stats/74171/page-game/",
+      "stage": "cup",
+      "teamA": "Shopify Rebellion",
+      "teamAId": "2956",
+      "teamB": "Dignitas",
+      "teamBId": "2952",
+      "totalKills": 40,
+      "tournament": "LCS 2026 Lock-In",
+      "tournamentLine": "LCS 2026 Lock-In (NA) - Fearless Draft",
+      "week": "SWISS.ROUND3"
+    },
+    {
+      "collectedAt": "2026-05-25T23:59:10.901Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-02-07",
+      "game": "Team Liquid vs Sentinels",
+      "id": "74170",
+      "killsA": 18,
+      "killsB": 9,
+      "league": "LCS",
+      "patch": "16.3",
+      "picks": {
+        "teamA": [
+          "Ornn",
+          "Xin Zhao",
+          "Galio",
+          "Corki",
+          "Rakan"
+        ],
+        "teamB": [
+          "Rumble",
+          "Lee Sin",
+          "Viktor",
+          "Yunara",
+          "Alistar"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "LCS 2026 Lock-In",
+      "sourceUrl": "https://gol.gg/game/stats/74170/page-game/",
+      "stage": "cup",
+      "teamA": "Sentinels",
+      "teamAId": "2955",
+      "teamB": "Team Liquid",
+      "teamBId": "2813",
+      "totalKills": 27,
+      "tournament": "LCS 2026 Lock-In",
+      "tournamentLine": "LCS 2026 Lock-In (NA) - Fearless Draft",
+      "week": "SWISS.ROUND3"
+    },
+    {
+      "collectedAt": "2026-05-25T23:59:11.653Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-02-07",
+      "game": "Team Liquid vs Sentinels",
+      "id": "74169",
+      "killsA": 15,
+      "killsB": 29,
+      "league": "LCS",
+      "patch": "16.3",
+      "picks": {
+        "teamA": [
+          "Renekton",
+          "Jarvan IV",
+          "Orianna",
+          "Ezreal",
+          "Karma"
+        ],
+        "teamB": [
+          "Sion",
+          "Vi",
+          "Azir",
+          "Kaisa",
+          "Neeko"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "LCS 2026 Lock-In",
+      "sourceUrl": "https://gol.gg/game/stats/74169/page-game/",
+      "stage": "cup",
+      "teamA": "Team Liquid",
+      "teamAId": "2813",
+      "teamB": "Sentinels",
+      "teamBId": "2955",
+      "totalKills": 44,
+      "tournament": "LCS 2026 Lock-In",
+      "tournamentLine": "LCS 2026 Lock-In (NA) - Fearless Draft",
+      "week": "SWISS.ROUND3"
+    },
+    {
+      "collectedAt": "2026-05-25T23:59:12.460Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-02-07",
+      "game": "Team Liquid vs Sentinels",
+      "id": "74168",
+      "killsA": 5,
+      "killsB": 19,
+      "league": "LCS",
+      "patch": "16.3",
+      "picks": {
+        "teamA": [
+          "Aatrox",
+          "Pantheon",
+          "Taliyah",
+          "Varus",
+          "Rell"
+        ],
+        "teamB": [
+          "Ambessa",
+          "Wukong",
+          "Ryze",
+          "Lucian",
+          "Nami"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "LCS 2026 Lock-In",
+      "sourceUrl": "https://gol.gg/game/stats/74168/page-game/",
+      "stage": "cup",
+      "teamA": "Sentinels",
+      "teamAId": "2955",
+      "teamB": "Team Liquid",
+      "teamBId": "2813",
+      "totalKills": 24,
+      "tournament": "LCS 2026 Lock-In",
+      "tournamentLine": "LCS 2026 Lock-In (NA) - Fearless Draft",
+      "week": "SWISS.ROUND3"
+    },
+    {
+      "collectedAt": "2026-05-25T23:59:13.205Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-02-07",
+      "game": "Disguised vs LYON",
+      "id": "74016",
+      "killsA": 4,
+      "killsB": 16,
+      "league": "LCS",
+      "patch": "16.3",
+      "picks": {
+        "teamA": [
+          "KSante",
+          "Xin Zhao",
+          "Cassiopeia",
+          "Zeri",
+          "Lulu"
+        ],
+        "teamB": [
+          "Aurora",
+          "Dr. Mundo",
+          "Jayce",
+          "Lucian",
+          "Nami"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "LCS 2026 Lock-In",
+      "sourceUrl": "https://gol.gg/game/stats/74016/page-game/",
+      "stage": "cup",
+      "teamA": "LYON",
+      "teamAId": "2954",
+      "teamB": "Disguised",
+      "teamBId": "2957",
+      "totalKills": 20,
+      "tournament": "LCS 2026 Lock-In",
+      "tournamentLine": "LCS 2026 Lock-In (NA) - Fearless Draft",
+      "week": "SWISS.ROUND3"
+    },
+    {
+      "collectedAt": "2026-05-25T23:59:14.030Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-02-07",
+      "game": "Disguised vs LYON",
+      "id": "74015",
+      "killsA": 14,
+      "killsB": 6,
+      "league": "LCS",
+      "patch": "16.3",
+      "picks": {
+        "teamA": [
+          "Sion",
+          "Trundle",
+          "Anivia",
+          "Yunara",
+          "Braum"
+        ],
+        "teamB": [
+          "Renekton",
+          "Wukong",
+          "Ryze",
+          "Aphelios",
+          "Thresh"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "LCS 2026 Lock-In",
+      "sourceUrl": "https://gol.gg/game/stats/74015/page-game/",
+      "stage": "cup",
+      "teamA": "LYON",
+      "teamAId": "2954",
+      "teamB": "Disguised",
+      "teamBId": "2957",
+      "totalKills": 20,
+      "tournament": "LCS 2026 Lock-In",
+      "tournamentLine": "LCS 2026 Lock-In (NA) - Fearless Draft",
+      "week": "SWISS.ROUND3"
+    },
+    {
+      "collectedAt": "2026-05-25T23:59:15.278Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-02-07",
+      "game": "Disguised vs LYON",
+      "id": "74014",
+      "killsA": 5,
+      "killsB": 15,
+      "league": "LCS",
+      "patch": "16.3",
+      "picks": {
+        "teamA": [
+          "Rumble",
+          "Vi",
+          "Taliyah",
+          "Corki",
+          "Rell"
+        ],
+        "teamB": [
+          "Galio",
+          "Pantheon",
+          "Azir",
+          "Kaisa",
+          "Neeko"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "LCS 2026 Lock-In",
+      "sourceUrl": "https://gol.gg/game/stats/74014/page-game/",
+      "stage": "cup",
+      "teamA": "LYON",
+      "teamAId": "2954",
+      "teamB": "Disguised",
+      "teamBId": "2957",
+      "totalKills": 20,
+      "tournament": "LCS 2026 Lock-In",
+      "tournamentLine": "LCS 2026 Lock-In (NA) - Fearless Draft",
+      "week": "SWISS.ROUND3"
+    },
+    {
+      "collectedAt": "2026-05-25T23:59:16.685Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-02-01",
+      "game": "SR vs Team Liquid",
+      "id": "73777",
+      "killsA": 17,
+      "killsB": 3,
+      "league": "LCS",
+      "patch": "16.2",
+      "picks": {
+        "teamA": [
+          "Renekton",
+          "Nocturne",
+          "Orianna",
+          "Yunara",
+          "Bard"
+        ],
+        "teamB": [
+          "Gnar",
+          "Wukong",
+          "Azir",
+          "Xayah",
+          "Rakan"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "LCS 2026 Lock-In",
+      "sourceUrl": "https://gol.gg/game/stats/73777/page-game/",
+      "stage": "cup",
+      "teamA": "Team Liquid",
+      "teamAId": "2813",
+      "teamB": "Shopify Rebellion",
+      "teamBId": "2956",
+      "totalKills": 20,
+      "tournament": "LCS 2026 Lock-In",
+      "tournamentLine": "LCS 2026 Lock-In (NA) - Fearless Draft",
+      "week": "SWISS.ROUND2"
+    },
+    {
+      "collectedAt": "2026-05-25T23:59:18.053Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-02-01",
+      "game": "SR vs Team Liquid",
+      "id": "73776",
+      "killsA": 11,
+      "killsB": 5,
+      "league": "LCS",
+      "patch": "16.2",
+      "picks": {
+        "teamA": [
+          "Ambessa",
+          "Jarvan IV",
+          "Ryze",
+          "Corki",
+          "Nami"
+        ],
+        "teamB": [
+          "Rumble",
+          "Vi",
+          "Anivia",
+          "Lucian",
+          "Milio"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "LCS 2026 Lock-In",
+      "sourceUrl": "https://gol.gg/game/stats/73776/page-game/",
+      "stage": "cup",
+      "teamA": "Team Liquid",
+      "teamAId": "2813",
+      "teamB": "Shopify Rebellion",
+      "teamBId": "2956",
+      "totalKills": 16,
+      "tournament": "LCS 2026 Lock-In",
+      "tournamentLine": "LCS 2026 Lock-In (NA) - Fearless Draft",
+      "week": "SWISS.ROUND2"
+    },
+    {
+      "collectedAt": "2026-05-25T23:59:19.634Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-02-01",
+      "game": "FlyQuest vs Disguised",
+      "id": "73775",
+      "killsA": 21,
+      "killsB": 11,
+      "league": "LCS",
+      "patch": "16.2",
+      "picks": {
+        "teamA": [
+          "Aurora",
+          "Ambessa",
+          "Syndra",
+          "Senna",
+          "Rell"
+        ],
+        "teamB": [
+          "Renekton",
+          "Diana",
+          "Yone",
+          "Aphelios",
+          "Nautilus"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "LCS 2026 Lock-In",
+      "sourceUrl": "https://gol.gg/game/stats/73775/page-game/",
+      "stage": "cup",
+      "teamA": "FlyQuest",
+      "teamAId": "2953",
+      "teamB": "Disguised",
+      "teamBId": "2957",
+      "totalKills": 32,
+      "tournament": "LCS 2026 Lock-In",
+      "tournamentLine": "LCS 2026 Lock-In (NA) - Fearless Draft",
+      "week": "SWISS.ROUND2"
+    },
+    {
+      "collectedAt": "2026-05-25T23:59:21.863Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-02-01",
+      "game": "FlyQuest vs Disguised",
+      "id": "73774",
+      "killsA": 17,
+      "killsB": 15,
+      "league": "LCS",
+      "patch": "16.2",
+      "picks": {
+        "teamA": [
+          "RekSai",
+          "Vi",
+          "Ryze",
+          "Kaisa",
+          "Bard"
+        ],
+        "teamB": [
+          "Sion",
+          "Qiyana",
+          "Taliyah",
+          "Jhin",
+          "Alistar"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "LCS 2026 Lock-In",
+      "sourceUrl": "https://gol.gg/game/stats/73774/page-game/",
+      "stage": "cup",
+      "teamA": "Disguised",
+      "teamAId": "2957",
+      "teamB": "FlyQuest",
+      "teamBId": "2953",
+      "totalKills": 32,
+      "tournament": "LCS 2026 Lock-In",
+      "tournamentLine": "LCS 2026 Lock-In (NA) - Fearless Draft",
+      "week": "SWISS.ROUND2"
+    },
+    {
+      "collectedAt": "2026-05-25T23:59:23.850Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-02-01",
+      "game": "FlyQuest vs Disguised",
+      "id": "73773",
+      "killsA": 1,
+      "killsB": 15,
+      "league": "LCS",
+      "patch": "16.2",
+      "picks": {
+        "teamA": [
+          "Rumble",
+          "Wukong",
+          "Azir",
+          "Corki",
+          "Nami"
+        ],
+        "teamB": [
+          "KSante",
+          "Volibear",
+          "Orianna",
+          "Ezreal",
+          "Karma"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "LCS 2026 Lock-In",
+      "sourceUrl": "https://gol.gg/game/stats/73773/page-game/",
+      "stage": "cup",
+      "teamA": "Disguised",
+      "teamAId": "2957",
+      "teamB": "FlyQuest",
+      "teamBId": "2953",
+      "totalKills": 16,
+      "tournament": "LCS 2026 Lock-In",
+      "tournamentLine": "LCS 2026 Lock-In (NA) - Fearless Draft",
+      "week": "SWISS.ROUND2"
+    },
+    {
+      "collectedAt": "2026-05-25T23:59:25.491Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-01-31",
+      "game": "Sentinels vs Dignitas",
+      "id": "73771",
+      "killsA": 20,
+      "killsB": 3,
+      "league": "LCS",
+      "patch": "16.2",
+      "picks": {
+        "teamA": [
+          "Sion",
+          "Pantheon",
+          "Taliyah",
+          "Ezreal",
+          "Poppy"
+        ],
+        "teamB": [
+          "KSante",
+          "Vi",
+          "Ryze",
+          "Varus",
+          "Rell"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "LCS 2026 Lock-In",
+      "sourceUrl": "https://gol.gg/game/stats/73771/page-game/",
+      "stage": "cup",
+      "teamA": "Sentinels",
+      "teamAId": "2955",
+      "teamB": "Dignitas",
+      "teamBId": "2952",
+      "totalKills": 23,
+      "tournament": "LCS 2026 Lock-In",
+      "tournamentLine": "LCS 2026 Lock-In (NA) - Fearless Draft",
+      "week": "SWISS.ROUND2"
+    },
+    {
+      "collectedAt": "2026-05-25T23:59:26.929Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-01-31",
+      "game": "Sentinels vs Dignitas",
+      "id": "73770",
+      "killsA": 6,
+      "killsB": 18,
+      "league": "LCS",
+      "patch": "16.2",
+      "picks": {
+        "teamA": [
+          "Gwen",
+          "Wukong",
+          "Azir",
+          "Yunara",
+          "Alistar"
+        ],
+        "teamB": [
+          "Renekton",
+          "Nocturne",
+          "Orianna",
+          "Kaisa",
+          "Rakan"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "LCS 2026 Lock-In",
+      "sourceUrl": "https://gol.gg/game/stats/73770/page-game/",
+      "stage": "cup",
+      "teamA": "Dignitas",
+      "teamAId": "2952",
+      "teamB": "Sentinels",
+      "teamBId": "2955",
+      "totalKills": 24,
+      "tournament": "LCS 2026 Lock-In",
+      "tournamentLine": "LCS 2026 Lock-In (NA) - Fearless Draft",
+      "week": "SWISS.ROUND2"
+    },
+    {
+      "collectedAt": "2026-05-25T23:59:28.158Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-01-31",
+      "game": "Cloud9 vs LYON",
+      "id": "73768",
+      "killsA": 14,
+      "killsB": 9,
+      "league": "LCS",
+      "patch": "16.2",
+      "picks": {
+        "teamA": [
+          "KSante",
+          "Pantheon",
+          "Taliyah",
+          "Lucian",
+          "Braum"
+        ],
+        "teamB": [
+          "Rumble",
+          "Vi",
+          "Ahri",
+          "Aphelios",
+          "Renata Glasc"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "LCS 2026 Lock-In",
+      "sourceUrl": "https://gol.gg/game/stats/73768/page-game/",
+      "stage": "cup",
+      "teamA": "Cloud9",
+      "teamAId": "2812",
+      "teamB": "LYON",
+      "teamBId": "2954",
+      "totalKills": 23,
+      "tournament": "LCS 2026 Lock-In",
+      "tournamentLine": "LCS 2026 Lock-In (NA) - Fearless Draft",
+      "week": "SWISS.ROUND2"
+    },
+    {
+      "collectedAt": "2026-05-25T23:59:29.403Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-01-31",
+      "game": "Cloud9 vs LYON",
+      "id": "73767",
+      "killsA": 13,
+      "killsB": 8,
+      "league": "LCS",
+      "patch": "16.2",
+      "picks": {
+        "teamA": [
+          "Renekton",
+          "Nocturne",
+          "Orianna",
+          "Ezreal",
+          "Karma"
+        ],
+        "teamB": [
+          "Aurora",
+          "Jarvan IV",
+          "Azir",
+          "Corki",
+          "Nami"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "LCS 2026 Lock-In",
+      "sourceUrl": "https://gol.gg/game/stats/73767/page-game/",
+      "stage": "cup",
+      "teamA": "LYON",
+      "teamAId": "2954",
+      "teamB": "Cloud9",
+      "teamBId": "2812",
+      "totalKills": 21,
+      "tournament": "LCS 2026 Lock-In",
+      "tournamentLine": "LCS 2026 Lock-In (NA) - Fearless Draft",
+      "week": "SWISS.ROUND2"
+    },
+    {
+      "collectedAt": "2026-05-25T23:59:30.817Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-01-25",
+      "game": "LYON vs Dignitas",
+      "id": "73559",
+      "killsA": 17,
+      "killsB": 16,
+      "league": "LCS",
+      "patch": "16.2",
+      "picks": {
+        "teamA": [
+          "Renekton",
+          "Pantheon",
+          "Ryze",
+          "Aphelios",
+          "Lulu"
+        ],
+        "teamB": [
+          "Kennen",
+          "Vi",
+          "Taliyah",
+          "Jinx",
+          "Nautilus"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "LCS 2026 Lock-In",
+      "sourceUrl": "https://gol.gg/game/stats/73559/page-game/",
+      "stage": "cup",
+      "teamA": "LYON",
+      "teamAId": "2954",
+      "teamB": "Dignitas",
+      "teamBId": "2952",
+      "totalKills": 33,
+      "tournament": "LCS 2026 Lock-In",
+      "tournamentLine": "LCS 2026 Lock-In (NA) - Fearless Draft",
+      "week": "SWISS.ROUND1"
+    },
+    {
+      "collectedAt": "2026-05-25T23:59:38.649Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-01-25",
+      "game": "LYON vs Dignitas",
+      "id": "73558",
+      "killsA": 18,
+      "killsB": 4,
+      "league": "LCS",
+      "patch": "16.2",
+      "picks": {
+        "teamA": [
+          "Rumble",
+          "Jarvan IV",
+          "Akali",
+          "Yunara",
+          "Bard"
+        ],
+        "teamB": [
+          "KSante",
+          "Wukong",
+          "Orianna",
+          "Kaisa",
+          "Alistar"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "LCS 2026 Lock-In",
+      "sourceUrl": "https://gol.gg/game/stats/73558/page-game/",
+      "stage": "cup",
+      "teamA": "LYON",
+      "teamAId": "2954",
+      "teamB": "Dignitas",
+      "teamBId": "2952",
+      "totalKills": 22,
+      "tournament": "LCS 2026 Lock-In",
+      "tournamentLine": "LCS 2026 Lock-In (NA) - Fearless Draft",
+      "week": "SWISS.ROUND1"
+    },
+    {
+      "collectedAt": "2026-05-25T23:59:39.468Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-01-25",
+      "game": "FlyQuest vs SR",
+      "id": "73556",
+      "killsA": 22,
+      "killsB": 9,
+      "league": "LCS",
+      "patch": "16.2",
+      "picks": {
+        "teamA": [
+          "Sion",
+          "Volibear",
+          "Taliyah",
+          "Aphelios",
+          "Thresh"
+        ],
+        "teamB": [
+          "Gnar",
+          "Xin Zhao",
+          "Ryze",
+          "Corki",
+          "Neeko"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "LCS 2026 Lock-In",
+      "sourceUrl": "https://gol.gg/game/stats/73556/page-game/",
+      "stage": "cup",
+      "teamA": "FlyQuest",
+      "teamAId": "2953",
+      "teamB": "Shopify Rebellion",
+      "teamBId": "2956",
+      "totalKills": 31,
+      "tournament": "LCS 2026 Lock-In",
+      "tournamentLine": "LCS 2026 Lock-In (NA) - Fearless Draft",
+      "week": "SWISS.ROUND1"
+    },
+    {
+      "collectedAt": "2026-05-25T23:59:40.398Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-01-25",
+      "game": "FlyQuest vs SR",
+      "id": "73555",
+      "killsA": 30,
+      "killsB": 18,
+      "league": "LCS",
+      "patch": "16.2",
+      "picks": {
+        "teamA": [
+          "KSante",
+          "Wukong",
+          "Orianna",
+          "Jhin",
+          "Karma"
+        ],
+        "teamB": [
+          "Renekton",
+          "Malphite",
+          "Azir",
+          "Varus",
+          "Bard"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "LCS 2026 Lock-In",
+      "sourceUrl": "https://gol.gg/game/stats/73555/page-game/",
+      "stage": "cup",
+      "teamA": "FlyQuest",
+      "teamAId": "2953",
+      "teamB": "Shopify Rebellion",
+      "teamBId": "2956",
+      "totalKills": 48,
+      "tournament": "LCS 2026 Lock-In",
+      "tournamentLine": "LCS 2026 Lock-In (NA) - Fearless Draft",
+      "week": "SWISS.ROUND1"
+    },
+    {
+      "collectedAt": "2026-05-25T23:59:41.328Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-01-24",
+      "game": "Sentinels vs DSG",
+      "id": "73554",
+      "killsA": 17,
+      "killsB": 6,
+      "league": "LCS",
+      "patch": "16.2",
+      "picks": {
+        "teamA": [
+          "Sion",
+          "Xin Zhao",
+          "Akali",
+          "Sivir",
+          "Bard"
+        ],
+        "teamB": [
+          "Mordekaiser",
+          "Jarvan IV",
+          "Viktor",
+          "Aphelios",
+          "Rell"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "LCS 2026 Lock-In",
+      "sourceUrl": "https://gol.gg/game/stats/73554/page-game/",
+      "stage": "cup",
+      "teamA": "Disguised",
+      "teamAId": "2957",
+      "teamB": "Sentinels",
+      "teamBId": "2955",
+      "totalKills": 23,
+      "tournament": "LCS 2026 Lock-In",
+      "tournamentLine": "LCS 2026 Lock-In (NA) - Fearless Draft",
+      "week": "SWISS.ROUND1"
+    },
+    {
+      "collectedAt": "2026-05-25T23:59:42.364Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-01-24",
+      "game": "Sentinels vs DSG",
+      "id": "73553",
+      "killsA": 14,
+      "killsB": 31,
+      "league": "LCS",
+      "patch": "16.2",
+      "picks": {
+        "teamA": [
+          "Gwen",
+          "Vi",
+          "Cassiopeia",
+          "Lucian",
+          "Nami"
+        ],
+        "teamB": [
+          "Ambessa",
+          "Wukong",
+          "Aurora",
+          "Yunara",
+          "Rakan"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "LCS 2026 Lock-In",
+      "sourceUrl": "https://gol.gg/game/stats/73553/page-game/",
+      "stage": "cup",
+      "teamA": "Sentinels",
+      "teamAId": "2955",
+      "teamB": "Disguised",
+      "teamBId": "2957",
+      "totalKills": 45,
+      "tournament": "LCS 2026 Lock-In",
+      "tournamentLine": "LCS 2026 Lock-In (NA) - Fearless Draft",
+      "week": "SWISS.ROUND1"
+    },
+    {
+      "collectedAt": "2026-05-25T23:59:43.177Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-01-24",
+      "game": "Sentinels vs DSG",
+      "id": "73552",
+      "killsA": 19,
+      "killsB": 22,
+      "league": "LCS",
+      "patch": "16.2",
+      "picks": {
+        "teamA": [
+          "Renekton",
+          "Pantheon",
+          "Taliyah",
+          "Kaisa",
+          "Neeko"
+        ],
+        "teamB": [
+          "KSante",
+          "Qiyana",
+          "Azir",
+          "Corki",
+          "Alistar"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "LCS 2026 Lock-In",
+      "sourceUrl": "https://gol.gg/game/stats/73552/page-game/",
+      "stage": "cup",
+      "teamA": "Disguised",
+      "teamAId": "2957",
+      "teamB": "Sentinels",
+      "teamBId": "2955",
+      "totalKills": 41,
+      "tournament": "LCS 2026 Lock-In",
+      "tournamentLine": "LCS 2026 Lock-In (NA) - Fearless Draft",
+      "week": "SWISS.ROUND1"
+    },
+    {
+      "collectedAt": "2026-05-25T23:59:43.996Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-01-24",
+      "game": "Cloud9 vs Team Liquid",
+      "id": "73550",
+      "killsA": 19,
+      "killsB": 4,
+      "league": "LCS",
+      "patch": "16.2",
+      "picks": {
+        "teamA": [
+          "Aurora",
+          "Jarvan IV",
+          "Taliyah",
+          "Varus",
+          "Rakan"
+        ],
+        "teamB": [
+          "Rumble",
+          "Vi",
+          "Yone",
+          "Jhin",
+          "Tahm Kench"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "LCS 2026 Lock-In",
+      "sourceUrl": "https://gol.gg/game/stats/73550/page-game/",
+      "stage": "cup",
+      "teamA": "Cloud9",
+      "teamAId": "2812",
+      "teamB": "Team Liquid",
+      "teamBId": "2813",
+      "totalKills": 23,
+      "tournament": "LCS 2026 Lock-In",
+      "tournamentLine": "LCS 2026 Lock-In (NA) - Fearless Draft",
+      "week": "SWISS.ROUND1"
+    },
+    {
+      "collectedAt": "2026-05-25T23:59:44.807Z",
+      "collectorVersion": "expanded-2026-1",
+      "date": "2026-01-24",
+      "game": "Cloud9 vs Team Liquid",
+      "id": "73549",
+      "killsA": 7,
+      "killsB": 13,
+      "league": "LCS",
+      "patch": "16.2",
+      "picks": {
+        "teamA": [
+          "Sion",
+          "Xin Zhao",
+          "Orianna",
+          "Corki",
+          "Nami"
+        ],
+        "teamB": [
+          "Renekton",
+          "Nidalee",
+          "Azir",
+          "Sivir",
+          "Bard"
+        ]
+      },
+      "season": "S16",
+      "seasonYear": 2026,
+      "sourceTournament": "LCS 2026 Lock-In",
+      "sourceUrl": "https://gol.gg/game/stats/73549/page-game/",
+      "stage": "cup",
+      "teamA": "Team Liquid",
+      "teamAId": "2813",
+      "teamB": "Cloud9",
+      "teamBId": "2812",
+      "totalKills": 20,
+      "tournament": "LCS 2026 Lock-In",
+      "tournamentLine": "LCS 2026 Lock-In (NA) - Fearless Draft",
+      "week": "SWISS.ROUND1"
+    }
+  ]
+}

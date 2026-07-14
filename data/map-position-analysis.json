@@ -1,0 +1,1869 @@
+{
+  "createdAt": "2026-05-26T21:30:57.943Z",
+  "totalGames": 1305,
+  "totalSeries": 559,
+  "globalMean": 28.77,
+  "inferenceCounts": {
+    "group-id-order": 1305
+  },
+  "seriesLengthDistribution": {
+    "1": 96,
+    "2": 242,
+    "3": 179,
+    "4": 22,
+    "5": 20
+  },
+  "positions": {
+    "1": {
+      "games": 559,
+      "mean": 28.16,
+      "median": 28,
+      "std": 8.26,
+      "ciLow": 27.48,
+      "ciHigh": 28.85,
+      "aboveGlobalMean": 0.4562,
+      "belowGlobalMean": 0.5438
+    },
+    "2": {
+      "games": 463,
+      "mean": 29.79,
+      "median": 28,
+      "std": 8.6,
+      "ciLow": 29.01,
+      "ciHigh": 30.57,
+      "aboveGlobalMean": 0.4968,
+      "belowGlobalMean": 0.5032
+    },
+    "3": {
+      "games": 221,
+      "mean": 28.81,
+      "median": 28,
+      "std": 7.98,
+      "ciLow": 27.75,
+      "ciHigh": 29.86,
+      "aboveGlobalMean": 0.4751,
+      "belowGlobalMean": 0.5249
+    },
+    "4": {
+      "games": 42,
+      "mean": 27.07,
+      "median": 26.5,
+      "std": 9.16,
+      "ciLow": 24.3,
+      "ciHigh": 29.84,
+      "aboveGlobalMean": 0.4048,
+      "belowGlobalMean": 0.5952
+    },
+    "5": {
+      "games": 20,
+      "mean": 25.5,
+      "median": 25,
+      "std": 7.74,
+      "ciLow": 22.11,
+      "ciHigh": 28.89,
+      "aboveGlobalMean": 0.25,
+      "belowGlobalMean": 0.75
+    }
+  },
+  "tests": {
+    "anova": {
+      "f": 3.6666630045919986,
+      "p": 0.005617489711219115,
+      "dfBetween": 4,
+      "dfWithin": 1300
+    },
+    "map2vs5": {
+      "diff": 4.290496760259181,
+      "se": 1.7768166074873273,
+      "t": 2.4147099606000175,
+      "df": 21.076236370923635,
+      "p": 0.01574773694347198,
+      "ci": {
+        "low": 0.8079362095840197,
+        "high": 7.773057310934343
+      },
+      "note": "diferenca estatisticamente detectada"
+    }
+  },
+  "contextTests": {
+    "decisiveVsIntermediate": {
+      "diff": 0.7480819228831663,
+      "se": 0.494190727632572,
+      "t": 1.5137514345258234,
+      "df": 1015.1353241762312,
+      "p": 0.13008894580774477,
+      "ci": {
+        "low": -0.2205319032766747,
+        "high": 1.7166957490430073
+      }
+    },
+    "map3DecisiveVsIntermediate": {
+      "diff": -0.21082734769885292,
+      "se": 1.4064953487736251,
+      "t": -0.14989551716803118,
+      "df": 59.997648651136025,
+      "p": 0.8808470138762128,
+      "ci": {
+        "low": -2.967558231295158,
+        "high": 2.545903535897452
+      }
+    }
+  },
+  "contexts": {
+    "all": {
+      "label": "Todos os mapas",
+      "games": 1305,
+      "mean": 28.77,
+      "median": 28,
+      "std": 8.39,
+      "ciLow": 28.32,
+      "ciHigh": 29.23,
+      "aboveGlobalMean": 0.469,
+      "belowGlobalMean": 0.531
+    },
+    "seriesOnly": {
+      "label": "Apenas series com 2+ mapas",
+      "games": 1209,
+      "mean": 28.78,
+      "median": 28,
+      "std": 8.45,
+      "ciLow": 28.31,
+      "ciHigh": 29.26,
+      "aboveGlobalMean": 0.4665,
+      "belowGlobalMean": 0.5335
+    },
+    "decisive": {
+      "label": "Mapas decisivos",
+      "games": 463,
+      "mean": 29.24,
+      "median": 28,
+      "std": 8.2,
+      "ciLow": 28.5,
+      "ciHigh": 29.99,
+      "aboveGlobalMean": 0.4816,
+      "belowGlobalMean": 0.5184
+    },
+    "intermediate": {
+      "label": "Mapas intermediarios",
+      "games": 746,
+      "mean": 28.5,
+      "median": 28,
+      "std": 8.6,
+      "ciLow": 27.88,
+      "ciHigh": 29.11,
+      "aboveGlobalMean": 0.4571,
+      "belowGlobalMean": 0.5429
+    },
+    "map3Decisive": {
+      "label": "Mapa 3 decisivo",
+      "games": 179,
+      "mean": 28.77,
+      "median": 28,
+      "std": 7.93,
+      "ciLow": 27.6,
+      "ciHigh": 29.93,
+      "aboveGlobalMean": 0.486,
+      "belowGlobalMean": 0.514
+    },
+    "map3Intermediate": {
+      "label": "Mapa 3 intermediario",
+      "games": 42,
+      "mean": 28.98,
+      "median": 28,
+      "std": 8.27,
+      "ciLow": 26.48,
+      "ciHigh": 31.48,
+      "aboveGlobalMean": 0.4286,
+      "belowGlobalMean": 0.5714
+    },
+    "map5": {
+      "label": "Mapa 5",
+      "games": 20,
+      "mean": 25.5,
+      "median": 25,
+      "std": 7.74,
+      "ciLow": 22.11,
+      "ciHigh": 28.89,
+      "aboveGlobalMean": 0.25,
+      "belowGlobalMean": 0.75
+    }
+  },
+  "byLeague": {
+    "LCK": {
+      "games": 180,
+      "mean": 29.34,
+      "positions": {
+        "1": {
+          "games": 80,
+          "mean": 28.2,
+          "median": 28,
+          "std": 8.17,
+          "ciLow": 26.41,
+          "ciHigh": 29.99,
+          "aboveGlobalMean": 0.4,
+          "belowGlobalMean": 0.6
+        },
+        "2": {
+          "games": 80,
+          "mean": 29.94,
+          "median": 28,
+          "std": 8.59,
+          "ciLow": 28.05,
+          "ciHigh": 31.82,
+          "aboveGlobalMean": 0.4375,
+          "belowGlobalMean": 0.5625
+        },
+        "3": {
+          "games": 20,
+          "mean": 31.5,
+          "median": 32.5,
+          "std": 7.58,
+          "ciLow": 28.18,
+          "ciHigh": 34.82,
+          "aboveGlobalMean": 0.65,
+          "belowGlobalMean": 0.35
+        },
+        "4": {
+          "games": 0,
+          "mean": null,
+          "median": null,
+          "std": null,
+          "ciLow": null,
+          "ciHigh": null,
+          "aboveGlobalMean": null,
+          "belowGlobalMean": null
+        },
+        "5": {
+          "games": 0,
+          "mean": null,
+          "median": null,
+          "std": null,
+          "ciLow": null,
+          "ciHigh": null,
+          "aboveGlobalMean": null,
+          "belowGlobalMean": null
+        }
+      },
+      "tests": {
+        "anova": {
+          "f": 1.6392770206517207,
+          "p": 0.19705353298141692,
+          "dfBetween": 2,
+          "dfWithin": 177
+        },
+        "map2vs5": {
+          "diff": null,
+          "se": null,
+          "t": null,
+          "df": null,
+          "p": null,
+          "ci": {
+            "low": null,
+            "high": null
+          },
+          "note": "amostra insuficiente"
+        }
+      },
+      "contexts": {
+        "all": {
+          "label": "Todos os mapas",
+          "games": 180,
+          "mean": 29.34,
+          "median": 28,
+          "std": 8.33,
+          "ciLow": 28.12,
+          "ciHigh": 30.56,
+          "aboveGlobalMean": 0.4444,
+          "belowGlobalMean": 0.5556
+        },
+        "seriesOnly": {
+          "label": "Apenas series com 2+ mapas",
+          "games": 180,
+          "mean": 29.34,
+          "median": 28,
+          "std": 8.33,
+          "ciLow": 28.12,
+          "ciHigh": 30.56,
+          "aboveGlobalMean": 0.4444,
+          "belowGlobalMean": 0.5556
+        },
+        "decisive": {
+          "label": "Mapas decisivos",
+          "games": 80,
+          "mean": 29.44,
+          "median": 28,
+          "std": 7.41,
+          "ciLow": 27.81,
+          "ciHigh": 31.06,
+          "aboveGlobalMean": 0.4375,
+          "belowGlobalMean": 0.5625
+        },
+        "intermediate": {
+          "label": "Mapas intermediarios",
+          "games": 100,
+          "mean": 29.26,
+          "median": 29,
+          "std": 9.03,
+          "ciLow": 27.49,
+          "ciHigh": 31.03,
+          "aboveGlobalMean": 0.45,
+          "belowGlobalMean": 0.55
+        },
+        "map3Decisive": {
+          "label": "Mapa 3 decisivo",
+          "games": 20,
+          "mean": 31.5,
+          "median": 32.5,
+          "std": 7.58,
+          "ciLow": 28.18,
+          "ciHigh": 34.82,
+          "aboveGlobalMean": 0.65,
+          "belowGlobalMean": 0.35
+        },
+        "map3Intermediate": {
+          "label": "Mapa 3 intermediario",
+          "games": 0,
+          "mean": null,
+          "median": null,
+          "std": null,
+          "ciLow": null,
+          "ciHigh": null,
+          "aboveGlobalMean": null,
+          "belowGlobalMean": null
+        },
+        "map5": {
+          "label": "Mapa 5",
+          "games": 0,
+          "mean": null,
+          "median": null,
+          "std": null,
+          "ciLow": null,
+          "ciHigh": null,
+          "aboveGlobalMean": null,
+          "belowGlobalMean": null
+        }
+      }
+    },
+    "LCKCL": {
+      "games": 300,
+      "mean": 31.29,
+      "positions": {
+        "1": {
+          "games": 114,
+          "mean": 29.4,
+          "median": 29,
+          "std": 7.96,
+          "ciLow": 27.94,
+          "ciHigh": 30.87,
+          "aboveGlobalMean": 0.3772,
+          "belowGlobalMean": 0.6228
+        },
+        "2": {
+          "games": 114,
+          "mean": 33.57,
+          "median": 31,
+          "std": 10.03,
+          "ciLow": 31.73,
+          "ciHigh": 35.41,
+          "aboveGlobalMean": 0.4912,
+          "belowGlobalMean": 0.5088
+        },
+        "3": {
+          "games": 58,
+          "mean": 31.55,
+          "median": 30,
+          "std": 8.55,
+          "ciLow": 29.35,
+          "ciHigh": 33.75,
+          "aboveGlobalMean": 0.431,
+          "belowGlobalMean": 0.569
+        },
+        "4": {
+          "games": 9,
+          "mean": 28.56,
+          "median": 29,
+          "std": 11.41,
+          "ciLow": 21.1,
+          "ciHigh": 36.01,
+          "aboveGlobalMean": 0.2222,
+          "belowGlobalMean": 0.7778
+        },
+        "5": {
+          "games": 5,
+          "mean": 24,
+          "median": 24,
+          "std": 3.16,
+          "ciLow": 21.23,
+          "ciHigh": 26.77,
+          "aboveGlobalMean": 0,
+          "belowGlobalMean": 1
+        }
+      },
+      "tests": {
+        "anova": {
+          "f": 4.139813349528269,
+          "p": 0.0028049934671645627,
+          "dfBetween": 4,
+          "dfWithin": 295
+        },
+        "map2vs5": {
+          "diff": 9.570175438596493,
+          "se": 1.6978286588088054,
+          "t": 5.636714511175066,
+          "df": 8.252616954967383,
+          "p": 1.7380148431556108e-8,
+          "ci": {
+            "low": 6.242431267331234,
+            "high": 12.897919609861752
+          },
+          "note": "diferenca estatisticamente detectada"
+        }
+      },
+      "contexts": {
+        "all": {
+          "label": "Todos os mapas",
+          "games": 300,
+          "mean": 31.29,
+          "median": 30,
+          "std": 9.17,
+          "ciLow": 30.25,
+          "ciHigh": 32.32,
+          "aboveGlobalMean": 0.42,
+          "belowGlobalMean": 0.58
+        },
+        "seriesOnly": {
+          "label": "Apenas series com 2+ mapas",
+          "games": 300,
+          "mean": 31.29,
+          "median": 30,
+          "std": 9.17,
+          "ciLow": 30.25,
+          "ciHigh": 32.32,
+          "aboveGlobalMean": 0.42,
+          "belowGlobalMean": 0.58
+        },
+        "decisive": {
+          "label": "Mapas decisivos",
+          "games": 114,
+          "mean": 32.04,
+          "median": 30.5,
+          "std": 9.76,
+          "ciLow": 30.24,
+          "ciHigh": 33.83,
+          "aboveGlobalMean": 0.4298,
+          "belowGlobalMean": 0.5702
+        },
+        "intermediate": {
+          "label": "Mapas intermediarios",
+          "games": 186,
+          "mean": 30.83,
+          "median": 30,
+          "std": 8.78,
+          "ciLow": 29.57,
+          "ciHigh": 32.09,
+          "aboveGlobalMean": 0.414,
+          "belowGlobalMean": 0.586
+        },
+        "map3Decisive": {
+          "label": "Mapa 3 decisivo",
+          "games": 49,
+          "mean": 30.49,
+          "median": 30,
+          "std": 8.28,
+          "ciLow": 28.17,
+          "ciHigh": 32.81,
+          "aboveGlobalMean": 0.3878,
+          "belowGlobalMean": 0.6122
+        },
+        "map3Intermediate": {
+          "label": "Mapa 3 intermediario",
+          "games": 9,
+          "mean": 37.33,
+          "median": 39,
+          "std": 8.09,
+          "ciLow": 32.05,
+          "ciHigh": 42.62,
+          "aboveGlobalMean": 0.6667,
+          "belowGlobalMean": 0.3333
+        },
+        "map5": {
+          "label": "Mapa 5",
+          "games": 5,
+          "mean": 24,
+          "median": 24,
+          "std": 3.16,
+          "ciLow": 21.23,
+          "ciHigh": 26.77,
+          "aboveGlobalMean": 0,
+          "belowGlobalMean": 1
+        }
+      }
+    },
+    "LPL": {
+      "games": 300,
+      "mean": 28.32,
+      "positions": {
+        "1": {
+          "games": 110,
+          "mean": 28.75,
+          "median": 28,
+          "std": 8.94,
+          "ciLow": 27.07,
+          "ciHigh": 30.42,
+          "aboveGlobalMean": 0.4818,
+          "belowGlobalMean": 0.5182
+        },
+        "2": {
+          "games": 109,
+          "mean": 28.31,
+          "median": 28,
+          "std": 7.63,
+          "ciLow": 26.88,
+          "ciHigh": 29.74,
+          "aboveGlobalMean": 0.4771,
+          "belowGlobalMean": 0.5229
+        },
+        "3": {
+          "games": 58,
+          "mean": 27.83,
+          "median": 26,
+          "std": 7.3,
+          "ciLow": 25.95,
+          "ciHigh": 29.71,
+          "aboveGlobalMean": 0.4138,
+          "belowGlobalMean": 0.5862
+        },
+        "4": {
+          "games": 15,
+          "mean": 28.33,
+          "median": 27,
+          "std": 8.46,
+          "ciLow": 24.05,
+          "ciHigh": 32.61,
+          "aboveGlobalMean": 0.4,
+          "belowGlobalMean": 0.6
+        },
+        "5": {
+          "games": 8,
+          "mean": 26,
+          "median": 24,
+          "std": 8.86,
+          "ciLow": 19.86,
+          "ciHigh": 32.14,
+          "aboveGlobalMean": 0.375,
+          "belowGlobalMean": 0.625
+        }
+      },
+      "tests": {
+        "anova": {
+          "f": 0.29006300690357756,
+          "p": 0.8843318243052186,
+          "dfBetween": 4,
+          "dfWithin": 295
+        },
+        "map2vs5": {
+          "diff": 2.3119266055045884,
+          "se": 3.2179739073663236,
+          "t": 0.7184416878621404,
+          "df": 7.780286789831814,
+          "p": 0.47248485148920505,
+          "ci": {
+            "low": -3.9953022529334055,
+            "high": 8.619155463942583
+          },
+          "note": "nao significativo"
+        }
+      },
+      "contexts": {
+        "all": {
+          "label": "Todos os mapas",
+          "games": 300,
+          "mean": 28.32,
+          "median": 28,
+          "std": 8.11,
+          "ciLow": 27.4,
+          "ciHigh": 29.23,
+          "aboveGlobalMean": 0.46,
+          "belowGlobalMean": 0.54
+        },
+        "seriesOnly": {
+          "label": "Apenas series com 2+ mapas",
+          "games": 299,
+          "mean": 28.33,
+          "median": 28,
+          "std": 8.12,
+          "ciLow": 27.41,
+          "ciHigh": 29.25,
+          "aboveGlobalMean": 0.4615,
+          "belowGlobalMean": 0.5385
+        },
+        "decisive": {
+          "label": "Mapas decisivos",
+          "games": 109,
+          "mean": 28.06,
+          "median": 27,
+          "std": 6.87,
+          "ciLow": 26.77,
+          "ciHigh": 29.34,
+          "aboveGlobalMean": 0.4312,
+          "belowGlobalMean": 0.5688
+        },
+        "intermediate": {
+          "label": "Mapas intermediarios",
+          "games": 190,
+          "mean": 28.49,
+          "median": 28,
+          "std": 8.77,
+          "ciLow": 27.25,
+          "ciHigh": 29.74,
+          "aboveGlobalMean": 0.4789,
+          "belowGlobalMean": 0.5211
+        },
+        "map3Decisive": {
+          "label": "Mapa 3 decisivo",
+          "games": 43,
+          "mean": 27.84,
+          "median": 26,
+          "std": 7.27,
+          "ciLow": 25.66,
+          "ciHigh": 30.01,
+          "aboveGlobalMean": 0.3721,
+          "belowGlobalMean": 0.6279
+        },
+        "map3Intermediate": {
+          "label": "Mapa 3 intermediario",
+          "games": 15,
+          "mean": 27.8,
+          "median": 30,
+          "std": 7.62,
+          "ciLow": 23.94,
+          "ciHigh": 31.66,
+          "aboveGlobalMean": 0.5333,
+          "belowGlobalMean": 0.4667
+        },
+        "map5": {
+          "label": "Mapa 5",
+          "games": 8,
+          "mean": 26,
+          "median": 24,
+          "std": 8.86,
+          "ciLow": 19.86,
+          "ciHigh": 32.14,
+          "aboveGlobalMean": 0.375,
+          "belowGlobalMean": 0.625
+        }
+      }
+    },
+    "CBLOL": {
+      "games": 159,
+      "mean": 28.23,
+      "positions": {
+        "1": {
+          "games": 76,
+          "mean": 29.66,
+          "median": 30,
+          "std": 8.37,
+          "ciLow": 27.78,
+          "ciHigh": 31.54,
+          "aboveGlobalMean": 0.5263,
+          "belowGlobalMean": 0.4737
+        },
+        "2": {
+          "games": 48,
+          "mean": 27.15,
+          "median": 26.5,
+          "std": 5.57,
+          "ciLow": 25.57,
+          "ciHigh": 28.72,
+          "aboveGlobalMean": 0.375,
+          "belowGlobalMean": 0.625
+        },
+        "3": {
+          "games": 26,
+          "mean": 26.62,
+          "median": 25,
+          "std": 6.12,
+          "ciLow": 24.26,
+          "ciHigh": 28.97,
+          "aboveGlobalMean": 0.3077,
+          "belowGlobalMean": 0.6923
+        },
+        "4": {
+          "games": 8,
+          "mean": 26.5,
+          "median": 24.5,
+          "std": 9.78,
+          "ciLow": 19.72,
+          "ciHigh": 33.28,
+          "aboveGlobalMean": 0.375,
+          "belowGlobalMean": 0.625
+        },
+        "5": {
+          "games": 1,
+          "mean": 27,
+          "median": 27,
+          "std": null,
+          "ciLow": null,
+          "ciHigh": null,
+          "aboveGlobalMean": 0,
+          "belowGlobalMean": 1
+        }
+      },
+      "tests": {
+        "anova": {
+          "f": 1.8711415587458982,
+          "p": 0.13677627233003375,
+          "dfBetween": 3,
+          "dfWithin": 154
+        },
+        "map2vs5": {
+          "diff": null,
+          "se": null,
+          "t": null,
+          "df": null,
+          "p": null,
+          "ci": {
+            "low": null,
+            "high": null
+          },
+          "note": "amostra insuficiente"
+        }
+      },
+      "contexts": {
+        "all": {
+          "label": "Todos os mapas",
+          "games": 159,
+          "mean": 28.23,
+          "median": 27,
+          "std": 7.39,
+          "ciLow": 27.08,
+          "ciHigh": 29.37,
+          "aboveGlobalMean": 0.434,
+          "belowGlobalMean": 0.566
+        },
+        "seriesOnly": {
+          "label": "Apenas series com 2+ mapas",
+          "games": 131,
+          "mean": 27.75,
+          "median": 26,
+          "std": 7.22,
+          "ciLow": 26.51,
+          "ciHigh": 28.98,
+          "aboveGlobalMean": 0.3893,
+          "belowGlobalMean": 0.6107
+        },
+        "decisive": {
+          "label": "Mapas decisivos",
+          "games": 48,
+          "mean": 27.44,
+          "median": 26,
+          "std": 6.81,
+          "ciLow": 25.51,
+          "ciHigh": 29.36,
+          "aboveGlobalMean": 0.3542,
+          "belowGlobalMean": 0.6458
+        },
+        "intermediate": {
+          "label": "Mapas intermediarios",
+          "games": 83,
+          "mean": 27.93,
+          "median": 26,
+          "std": 7.48,
+          "ciLow": 26.32,
+          "ciHigh": 29.54,
+          "aboveGlobalMean": 0.4096,
+          "belowGlobalMean": 0.5904
+        },
+        "map3Decisive": {
+          "label": "Mapa 3 decisivo",
+          "games": 18,
+          "mean": 27.28,
+          "median": 25.5,
+          "std": 6.42,
+          "ciLow": 24.31,
+          "ciHigh": 30.24,
+          "aboveGlobalMean": 0.3333,
+          "belowGlobalMean": 0.6667
+        },
+        "map3Intermediate": {
+          "label": "Mapa 3 intermediario",
+          "games": 8,
+          "mean": 25.13,
+          "median": 24,
+          "std": 5.49,
+          "ciLow": 21.32,
+          "ciHigh": 28.93,
+          "aboveGlobalMean": 0.25,
+          "belowGlobalMean": 0.75
+        },
+        "map5": {
+          "label": "Mapa 5",
+          "games": 1,
+          "mean": 27,
+          "median": 27,
+          "std": null,
+          "ciLow": null,
+          "ciHigh": null,
+          "aboveGlobalMean": 0,
+          "belowGlobalMean": 1
+        }
+      }
+    },
+    "LEC": {
+      "games": 228,
+      "mean": 27.74,
+      "positions": {
+        "1": {
+          "games": 128,
+          "mean": 26.96,
+          "median": 27,
+          "std": 7.53,
+          "ciLow": 25.66,
+          "ciHigh": 28.27,
+          "aboveGlobalMean": 0.4297,
+          "belowGlobalMean": 0.5703
+        },
+        "2": {
+          "games": 62,
+          "mean": 29.15,
+          "median": 27.5,
+          "std": 8.15,
+          "ciLow": 27.12,
+          "ciHigh": 31.17,
+          "aboveGlobalMean": 0.5,
+          "belowGlobalMean": 0.5
+        },
+        "3": {
+          "games": 31,
+          "mean": 27.77,
+          "median": 28,
+          "std": 9.68,
+          "ciLow": 24.37,
+          "ciHigh": 31.18,
+          "aboveGlobalMean": 0.5161,
+          "belowGlobalMean": 0.4839
+        },
+        "4": {
+          "games": 4,
+          "mean": 28,
+          "median": 30,
+          "std": 10.36,
+          "ciLow": 17.85,
+          "ciHigh": 38.15,
+          "aboveGlobalMean": 0.5,
+          "belowGlobalMean": 0.5
+        },
+        "5": {
+          "games": 3,
+          "mean": 31,
+          "median": 31,
+          "std": 12,
+          "ciLow": 17.42,
+          "ciHigh": 44.58,
+          "aboveGlobalMean": 0.6667,
+          "belowGlobalMean": 0.3333
+        }
+      },
+      "tests": {
+        "anova": {
+          "f": 0.8827814525235392,
+          "p": 0.4749777706410633,
+          "dfBetween": 4,
+          "dfWithin": 223
+        },
+        "map2vs5": {
+          "diff": -1.85483870967742,
+          "se": 7.005091703149682,
+          "t": -0.26478435804679523,
+          "df": 2.090237947071562,
+          "p": 0.7911757088979747,
+          "ci": {
+            "low": -15.584818447850797,
+            "high": 11.875141028495957
+          },
+          "note": "nao significativo"
+        }
+      },
+      "contexts": {
+        "all": {
+          "label": "Todos os mapas",
+          "games": 228,
+          "mean": 27.74,
+          "median": 27,
+          "std": 8.1,
+          "ciLow": 26.69,
+          "ciHigh": 28.79,
+          "aboveGlobalMean": 0.4649,
+          "belowGlobalMean": 0.5351
+        },
+        "seriesOnly": {
+          "label": "Apenas series com 2+ mapas",
+          "games": 162,
+          "mean": 27.73,
+          "median": 27,
+          "std": 8.41,
+          "ciLow": 26.44,
+          "ciHigh": 29.03,
+          "aboveGlobalMean": 0.4506,
+          "belowGlobalMean": 0.5494
+        },
+        "decisive": {
+          "label": "Mapas decisivos",
+          "games": 62,
+          "mean": 29.18,
+          "median": 28,
+          "std": 9.33,
+          "ciLow": 26.85,
+          "ciHigh": 31.5,
+          "aboveGlobalMean": 0.5484,
+          "belowGlobalMean": 0.4516
+        },
+        "intermediate": {
+          "label": "Mapas intermediarios",
+          "games": 100,
+          "mean": 26.84,
+          "median": 26,
+          "std": 7.7,
+          "ciLow": 25.33,
+          "ciHigh": 28.35,
+          "aboveGlobalMean": 0.39,
+          "belowGlobalMean": 0.61
+        },
+        "map3Decisive": {
+          "label": "Mapa 3 decisivo",
+          "games": 27,
+          "mean": 27.52,
+          "median": 25,
+          "std": 10.26,
+          "ciLow": 23.65,
+          "ciHigh": 31.39,
+          "aboveGlobalMean": 0.4815,
+          "belowGlobalMean": 0.5185
+        },
+        "map3Intermediate": {
+          "label": "Mapa 3 intermediario",
+          "games": 4,
+          "mean": 29.5,
+          "median": 28,
+          "std": 4.43,
+          "ciLow": 25.15,
+          "ciHigh": 33.85,
+          "aboveGlobalMean": 0.75,
+          "belowGlobalMean": 0.25
+        },
+        "map5": {
+          "label": "Mapa 5",
+          "games": 3,
+          "mean": 31,
+          "median": 31,
+          "std": 12,
+          "ciLow": 17.42,
+          "ciHigh": 44.58,
+          "aboveGlobalMean": 0.6667,
+          "belowGlobalMean": 0.3333
+        }
+      }
+    },
+    "LCS": {
+      "games": 138,
+      "mean": 25.9,
+      "positions": {
+        "1": {
+          "games": 51,
+          "mean": 24.84,
+          "median": 23,
+          "std": 8.19,
+          "ciLow": 22.59,
+          "ciHigh": 27.09,
+          "aboveGlobalMean": 0.3922,
+          "belowGlobalMean": 0.6078
+        },
+        "2": {
+          "games": 50,
+          "mean": 27.5,
+          "median": 26,
+          "std": 7.39,
+          "ciLow": 25.45,
+          "ciHigh": 29.55,
+          "aboveGlobalMean": 0.6,
+          "belowGlobalMean": 0.4
+        },
+        "3": {
+          "games": 28,
+          "mean": 26.39,
+          "median": 27.5,
+          "std": 6.1,
+          "ciLow": 24.13,
+          "ciHigh": 28.65,
+          "aboveGlobalMean": 0.5357,
+          "belowGlobalMean": 0.4643
+        },
+        "4": {
+          "games": 6,
+          "mean": 21.83,
+          "median": 21.5,
+          "std": 6.11,
+          "ciLow": 16.94,
+          "ciHigh": 26.72,
+          "aboveGlobalMean": 0.3333,
+          "belowGlobalMean": 0.6667
+        },
+        "5": {
+          "games": 3,
+          "mean": 20.67,
+          "median": 21,
+          "std": 6.51,
+          "ciLow": 13.3,
+          "ciHigh": 28.03,
+          "aboveGlobalMean": 0.3333,
+          "belowGlobalMean": 0.6667
+        }
+      },
+      "tests": {
+        "anova": {
+          "f": 1.6979224024407185,
+          "p": 0.15418876117127067,
+          "dfBetween": 4,
+          "dfWithin": 133
+        },
+        "map2vs5": {
+          "diff": 6.833333333333332,
+          "se": 3.899069602375974,
+          "t": 1.7525548477434996,
+          "df": 2.3208413481966907,
+          "p": 0.0796783624901849,
+          "ci": {
+            "low": -0.8088430873235763,
+            "high": 14.475509753990242
+          },
+          "note": "nao significativo"
+        }
+      },
+      "contexts": {
+        "all": {
+          "label": "Todos os mapas",
+          "games": 138,
+          "mean": 25.9,
+          "median": 25,
+          "std": 7.49,
+          "ciLow": 24.65,
+          "ciHigh": 27.15,
+          "aboveGlobalMean": 0.4928,
+          "belowGlobalMean": 0.5072
+        },
+        "seriesOnly": {
+          "label": "Apenas series com 2+ mapas",
+          "games": 137,
+          "mean": 25.77,
+          "median": 25,
+          "std": 7.37,
+          "ciLow": 24.54,
+          "ciHigh": 27.01,
+          "aboveGlobalMean": 0.4891,
+          "belowGlobalMean": 0.5109
+        },
+        "decisive": {
+          "label": "Mapas decisivos",
+          "games": 50,
+          "mean": 26.98,
+          "median": 26.5,
+          "std": 6.2,
+          "ciLow": 25.26,
+          "ciHigh": 28.7,
+          "aboveGlobalMean": 0.56,
+          "belowGlobalMean": 0.44
+        },
+        "intermediate": {
+          "label": "Mapas intermediarios",
+          "games": 87,
+          "mean": 25.08,
+          "median": 24,
+          "std": 7.92,
+          "ciLow": 23.42,
+          "ciHigh": 26.74,
+          "aboveGlobalMean": 0.4483,
+          "belowGlobalMean": 0.5517
+        },
+        "map3Decisive": {
+          "label": "Mapa 3 decisivo",
+          "games": 22,
+          "mean": 27,
+          "median": 28,
+          "std": 5.69,
+          "ciLow": 24.62,
+          "ciHigh": 29.38,
+          "aboveGlobalMean": 0.5455,
+          "belowGlobalMean": 0.4545
+        },
+        "map3Intermediate": {
+          "label": "Mapa 3 intermediario",
+          "games": 6,
+          "mean": 24.17,
+          "median": 25,
+          "std": 7.57,
+          "ciLow": 18.11,
+          "ciHigh": 30.23,
+          "aboveGlobalMean": 0.5,
+          "belowGlobalMean": 0.5
+        },
+        "map5": {
+          "label": "Mapa 5",
+          "games": 3,
+          "mean": 20.67,
+          "median": 21,
+          "std": 6.51,
+          "ciLow": 13.3,
+          "ciHigh": 28.03,
+          "aboveGlobalMean": 0.3333,
+          "belowGlobalMean": 0.6667
+        }
+      }
+    }
+  },
+  "validationSample": [
+    [
+      {
+        "league": "LEC",
+        "date": "2026-05-25",
+        "tournament": "LEC 2026 Spring Playoffs",
+        "matchup": "Movistar KOI vs G2 Esports",
+        "id": "78837",
+        "gameField": "MKOI vs G2 Esports",
+        "mapNumber": 1,
+        "seriesLength": 5,
+        "kills": 27,
+        "inference": "group-id-order"
+      },
+      {
+        "league": "LEC",
+        "date": "2026-05-25",
+        "tournament": "LEC 2026 Spring Playoffs",
+        "matchup": "Movistar KOI vs G2 Esports",
+        "id": "78838",
+        "gameField": "MKOI vs G2 Esports",
+        "mapNumber": 2,
+        "seriesLength": 5,
+        "kills": 35,
+        "inference": "group-id-order"
+      },
+      {
+        "league": "LEC",
+        "date": "2026-05-25",
+        "tournament": "LEC 2026 Spring Playoffs",
+        "matchup": "Movistar KOI vs G2 Esports",
+        "id": "78839",
+        "gameField": "MKOI vs G2 Esports",
+        "mapNumber": 3,
+        "seriesLength": 5,
+        "kills": 26,
+        "inference": "group-id-order"
+      },
+      {
+        "league": "LEC",
+        "date": "2026-05-25",
+        "tournament": "LEC 2026 Spring Playoffs",
+        "matchup": "G2 Esports vs Movistar KOI",
+        "id": "78840",
+        "gameField": "MKOI vs G2 Esports",
+        "mapNumber": 4,
+        "seriesLength": 5,
+        "kills": 38,
+        "inference": "group-id-order"
+      },
+      {
+        "league": "LEC",
+        "date": "2026-05-25",
+        "tournament": "LEC 2026 Spring Playoffs",
+        "matchup": "G2 Esports vs Movistar KOI",
+        "id": "78841",
+        "gameField": "MKOI vs G2 Esports",
+        "mapNumber": 5,
+        "seriesLength": 5,
+        "kills": 31,
+        "inference": "group-id-order"
+      }
+    ],
+    [
+      {
+        "league": "LPL",
+        "date": "2026-05-24",
+        "tournament": "LPL 2026 Split 2 Playoffs",
+        "matchup": "LGD Gaming vs Weibo Gaming",
+        "id": "78374",
+        "gameField": "WBG vs LGD Gaming",
+        "mapNumber": 1,
+        "seriesLength": 5,
+        "kills": 15,
+        "inference": "group-id-order"
+      },
+      {
+        "league": "LPL",
+        "date": "2026-05-24",
+        "tournament": "LPL 2026 Split 2 Playoffs",
+        "matchup": "Weibo Gaming vs LGD Gaming",
+        "id": "78375",
+        "gameField": "WBG vs LGD Gaming",
+        "mapNumber": 2,
+        "seriesLength": 5,
+        "kills": 15,
+        "inference": "group-id-order"
+      },
+      {
+        "league": "LPL",
+        "date": "2026-05-24",
+        "tournament": "LPL 2026 Split 2 Playoffs",
+        "matchup": "LGD Gaming vs Weibo Gaming",
+        "id": "78376",
+        "gameField": "WBG vs LGD Gaming",
+        "mapNumber": 3,
+        "seriesLength": 5,
+        "kills": 30,
+        "inference": "group-id-order"
+      },
+      {
+        "league": "LPL",
+        "date": "2026-05-24",
+        "tournament": "LPL 2026 Split 2 Playoffs",
+        "matchup": "Weibo Gaming vs LGD Gaming",
+        "id": "78377",
+        "gameField": "WBG vs LGD Gaming",
+        "mapNumber": 4,
+        "seriesLength": 5,
+        "kills": 22,
+        "inference": "group-id-order"
+      },
+      {
+        "league": "LPL",
+        "date": "2026-05-24",
+        "tournament": "LPL 2026 Split 2 Playoffs",
+        "matchup": "Weibo Gaming vs LGD Gaming",
+        "id": "78378",
+        "gameField": "WBG vs LGD Gaming",
+        "mapNumber": 5,
+        "seriesLength": 5,
+        "kills": 21,
+        "inference": "group-id-order"
+      }
+    ],
+    [
+      {
+        "league": "LPL",
+        "date": "2026-05-24",
+        "tournament": "LPL 2026 Split 2 Playoffs",
+        "matchup": "EDward Gaming vs Ninjas in Pyjamas",
+        "id": "78369",
+        "gameField": "NIP vs EDG",
+        "mapNumber": 1,
+        "seriesLength": 5,
+        "kills": 14,
+        "inference": "group-id-order"
+      },
+      {
+        "league": "LPL",
+        "date": "2026-05-24",
+        "tournament": "LPL 2026 Split 2 Playoffs",
+        "matchup": "EDward Gaming vs Ninjas in Pyjamas",
+        "id": "78370",
+        "gameField": "NIP vs EDG",
+        "mapNumber": 2,
+        "seriesLength": 5,
+        "kills": 37,
+        "inference": "group-id-order"
+      },
+      {
+        "league": "LPL",
+        "date": "2026-05-24",
+        "tournament": "LPL 2026 Split 2 Playoffs",
+        "matchup": "Ninjas in Pyjamas vs EDward Gaming",
+        "id": "78371",
+        "gameField": "NIP vs EDG",
+        "mapNumber": 3,
+        "seriesLength": 5,
+        "kills": 32,
+        "inference": "group-id-order"
+      },
+      {
+        "league": "LPL",
+        "date": "2026-05-24",
+        "tournament": "LPL 2026 Split 2 Playoffs",
+        "matchup": "EDward Gaming vs Ninjas in Pyjamas",
+        "id": "78372",
+        "gameField": "NIP vs EDG",
+        "mapNumber": 4,
+        "seriesLength": 5,
+        "kills": 32,
+        "inference": "group-id-order"
+      },
+      {
+        "league": "LPL",
+        "date": "2026-05-24",
+        "tournament": "LPL 2026 Split 2 Playoffs",
+        "matchup": "Ninjas in Pyjamas vs EDward Gaming",
+        "id": "78373",
+        "gameField": "NIP vs EDG",
+        "mapNumber": 5,
+        "seriesLength": 5,
+        "kills": 27,
+        "inference": "group-id-order"
+      }
+    ],
+    [
+      {
+        "league": "LCS",
+        "date": "2026-05-24",
+        "tournament": "LCS 2026 Spring Playoffs",
+        "matchup": "Team Liquid vs LYON",
+        "id": "78681",
+        "gameField": "LYON vs Team Liquid",
+        "mapNumber": 1,
+        "seriesLength": 5,
+        "kills": 13,
+        "inference": "group-id-order"
+      },
+      {
+        "league": "LCS",
+        "date": "2026-05-24",
+        "tournament": "LCS 2026 Spring Playoffs",
+        "matchup": "Team Liquid vs LYON",
+        "id": "78682",
+        "gameField": "LYON vs Team Liquid",
+        "mapNumber": 2,
+        "seriesLength": 5,
+        "kills": 26,
+        "inference": "group-id-order"
+      },
+      {
+        "league": "LCS",
+        "date": "2026-05-24",
+        "tournament": "LCS 2026 Spring Playoffs",
+        "matchup": "LYON vs Team Liquid",
+        "id": "78683",
+        "gameField": "LYON vs Team Liquid",
+        "mapNumber": 3,
+        "seriesLength": 5,
+        "kills": 35,
+        "inference": "group-id-order"
+      },
+      {
+        "league": "LCS",
+        "date": "2026-05-24",
+        "tournament": "LCS 2026 Spring Playoffs",
+        "matchup": "LYON vs Team Liquid",
+        "id": "78684",
+        "gameField": "LYON vs Team Liquid",
+        "mapNumber": 4,
+        "seriesLength": 5,
+        "kills": 13,
+        "inference": "group-id-order"
+      },
+      {
+        "league": "LCS",
+        "date": "2026-05-24",
+        "tournament": "LCS 2026 Spring Playoffs",
+        "matchup": "Team Liquid vs LYON",
+        "id": "78685",
+        "gameField": "LYON vs Team Liquid",
+        "mapNumber": 5,
+        "seriesLength": 5,
+        "kills": 14,
+        "inference": "group-id-order"
+      }
+    ],
+    [
+      {
+        "league": "LPL",
+        "date": "2026-05-23",
+        "tournament": "LPL 2026 Split 2 Playoffs",
+        "matchup": "LNG Esports vs Team WE",
+        "id": "78359",
+        "gameField": "Team WE vs LNG Esports",
+        "mapNumber": 1,
+        "seriesLength": 5,
+        "kills": 11,
+        "inference": "group-id-order"
+      },
+      {
+        "league": "LPL",
+        "date": "2026-05-23",
+        "tournament": "LPL 2026 Split 2 Playoffs",
+        "matchup": "Team WE vs LNG Esports",
+        "id": "78360",
+        "gameField": "Team WE vs LNG Esports",
+        "mapNumber": 2,
+        "seriesLength": 5,
+        "kills": 29,
+        "inference": "group-id-order"
+      },
+      {
+        "league": "LPL",
+        "date": "2026-05-23",
+        "tournament": "LPL 2026 Split 2 Playoffs",
+        "matchup": "LNG Esports vs Team WE",
+        "id": "78361",
+        "gameField": "Team WE vs LNG Esports",
+        "mapNumber": 3,
+        "seriesLength": 5,
+        "kills": 34,
+        "inference": "group-id-order"
+      },
+      {
+        "league": "LPL",
+        "date": "2026-05-23",
+        "tournament": "LPL 2026 Split 2 Playoffs",
+        "matchup": "LNG Esports vs Team WE",
+        "id": "78362",
+        "gameField": "Team WE vs LNG Esports",
+        "mapNumber": 4,
+        "seriesLength": 5,
+        "kills": 24,
+        "inference": "group-id-order"
+      },
+      {
+        "league": "LPL",
+        "date": "2026-05-23",
+        "tournament": "LPL 2026 Split 2 Playoffs",
+        "matchup": "LNG Esports vs Team WE",
+        "id": "78363",
+        "gameField": "Team WE vs LNG Esports",
+        "mapNumber": 5,
+        "seriesLength": 5,
+        "kills": 17,
+        "inference": "group-id-order"
+      }
+    ],
+    [
+      {
+        "league": "LCS",
+        "date": "2026-05-23",
+        "tournament": "LCS 2026 Spring Playoffs",
+        "matchup": "FlyQuest vs Cloud9",
+        "id": "78676",
+        "gameField": "Cloud9 vs FlyQuest",
+        "mapNumber": 1,
+        "seriesLength": 5,
+        "kills": 13,
+        "inference": "group-id-order"
+      },
+      {
+        "league": "LCS",
+        "date": "2026-05-23",
+        "tournament": "LCS 2026 Spring Playoffs",
+        "matchup": "Cloud9 vs FlyQuest",
+        "id": "78677",
+        "gameField": "Cloud9 vs FlyQuest",
+        "mapNumber": 2,
+        "seriesLength": 5,
+        "kills": 22,
+        "inference": "group-id-order"
+      },
+      {
+        "league": "LCS",
+        "date": "2026-05-23",
+        "tournament": "LCS 2026 Spring Playoffs",
+        "matchup": "Cloud9 vs FlyQuest",
+        "id": "78678",
+        "gameField": "Cloud9 vs FlyQuest",
+        "mapNumber": 3,
+        "seriesLength": 5,
+        "kills": 17,
+        "inference": "group-id-order"
+      },
+      {
+        "league": "LCS",
+        "date": "2026-05-23",
+        "tournament": "LCS 2026 Spring Playoffs",
+        "matchup": "FlyQuest vs Cloud9",
+        "id": "78679",
+        "gameField": "Cloud9 vs FlyQuest",
+        "mapNumber": 4,
+        "seriesLength": 5,
+        "kills": 28,
+        "inference": "group-id-order"
+      },
+      {
+        "league": "LCS",
+        "date": "2026-05-23",
+        "tournament": "LCS 2026 Spring Playoffs",
+        "matchup": "FlyQuest vs Cloud9",
+        "id": "78680",
+        "gameField": "Cloud9 vs FlyQuest",
+        "mapNumber": 5,
+        "seriesLength": 5,
+        "kills": 27,
+        "inference": "group-id-order"
+      }
+    ],
+    [
+      {
+        "league": "CBLOL",
+        "date": "2026-05-10",
+        "tournament": "CBLOL 2026 Split 1 Playoffs",
+        "matchup": "Fluxo W7M vs Los Grandes",
+        "id": "78037",
+        "gameField": "Los Grandes vs Fluxo W7M",
+        "mapNumber": 1,
+        "seriesLength": 5,
+        "kills": 19,
+        "inference": "group-id-order"
+      },
+      {
+        "league": "CBLOL",
+        "date": "2026-05-10",
+        "tournament": "CBLOL 2026 Split 1 Playoffs",
+        "matchup": "Fluxo W7M vs Los Grandes",
+        "id": "78038",
+        "gameField": "Los Grandes vs Fluxo W7M",
+        "mapNumber": 2,
+        "seriesLength": 5,
+        "kills": 35,
+        "inference": "group-id-order"
+      },
+      {
+        "league": "CBLOL",
+        "date": "2026-05-10",
+        "tournament": "CBLOL 2026 Split 1 Playoffs",
+        "matchup": "Fluxo W7M vs Los Grandes",
+        "id": "78039",
+        "gameField": "Los Grandes vs Fluxo W7M",
+        "mapNumber": 3,
+        "seriesLength": 5,
+        "kills": 25,
+        "inference": "group-id-order"
+      },
+      {
+        "league": "CBLOL",
+        "date": "2026-05-10",
+        "tournament": "CBLOL 2026 Split 1 Playoffs",
+        "matchup": "Fluxo W7M vs Los Grandes",
+        "id": "78040",
+        "gameField": "Los Grandes vs Fluxo W7M",
+        "mapNumber": 4,
+        "seriesLength": 5,
+        "kills": 29,
+        "inference": "group-id-order"
+      },
+      {
+        "league": "CBLOL",
+        "date": "2026-05-10",
+        "tournament": "CBLOL 2026 Split 1 Playoffs",
+        "matchup": "Fluxo W7M vs Los Grandes",
+        "id": "78041",
+        "gameField": "Los Grandes vs Fluxo W7M",
+        "mapNumber": 5,
+        "seriesLength": 5,
+        "kills": 27,
+        "inference": "group-id-order"
+      }
+    ],
+    [
+      {
+        "league": "LPL",
+        "date": "2026-03-04",
+        "tournament": "LPL 2026 Split 1 Playoffs",
+        "matchup": "JD Gaming vs Bilibili Gaming",
+        "id": "75073",
+        "gameField": "JD Gaming vs BLG",
+        "mapNumber": 1,
+        "seriesLength": 5,
+        "kills": 24,
+        "inference": "group-id-order"
+      },
+      {
+        "league": "LPL",
+        "date": "2026-03-04",
+        "tournament": "LPL 2026 Split 1 Playoffs",
+        "matchup": "JD Gaming vs Bilibili Gaming",
+        "id": "75074",
+        "gameField": "JD Gaming vs BLG",
+        "mapNumber": 2,
+        "seriesLength": 5,
+        "kills": 28,
+        "inference": "group-id-order"
+      },
+      {
+        "league": "LPL",
+        "date": "2026-03-04",
+        "tournament": "LPL 2026 Split 1 Playoffs",
+        "matchup": "Bilibili Gaming vs JD Gaming",
+        "id": "75075",
+        "gameField": "JD Gaming vs BLG",
+        "mapNumber": 3,
+        "seriesLength": 5,
+        "kills": 32,
+        "inference": "group-id-order"
+      },
+      {
+        "league": "LPL",
+        "date": "2026-03-04",
+        "tournament": "LPL 2026 Split 1 Playoffs",
+        "matchup": "JD Gaming vs Bilibili Gaming",
+        "id": "75076",
+        "gameField": "JD Gaming vs BLG",
+        "mapNumber": 4,
+        "seriesLength": 5,
+        "kills": 21,
+        "inference": "group-id-order"
+      },
+      {
+        "league": "LPL",
+        "date": "2026-03-04",
+        "tournament": "LPL 2026 Split 1 Playoffs",
+        "matchup": "Bilibili Gaming vs JD Gaming",
+        "id": "75077",
+        "gameField": "JD Gaming vs BLG",
+        "mapNumber": 5,
+        "seriesLength": 5,
+        "kills": 18,
+        "inference": "group-id-order"
+      }
+    ],
+    [
+      {
+        "league": "LPL",
+        "date": "2026-03-02",
+        "tournament": "LPL 2026 Split 1 Playoffs",
+        "matchup": "Weibo Gaming vs Top Esports",
+        "id": "75063",
+        "gameField": "WBG vs Top Esports",
+        "mapNumber": 1,
+        "seriesLength": 5,
+        "kills": 34,
+        "inference": "group-id-order"
+      },
+      {
+        "league": "LPL",
+        "date": "2026-03-02",
+        "tournament": "LPL 2026 Split 1 Playoffs",
+        "matchup": "Weibo Gaming vs Top Esports",
+        "id": "75064",
+        "gameField": "WBG vs Top Esports",
+        "mapNumber": 2,
+        "seriesLength": 5,
+        "kills": 32,
+        "inference": "group-id-order"
+      },
+      {
+        "league": "LPL",
+        "date": "2026-03-02",
+        "tournament": "LPL 2026 Split 1 Playoffs",
+        "matchup": "Weibo Gaming vs Top Esports",
+        "id": "75065",
+        "gameField": "WBG vs Top Esports",
+        "mapNumber": 3,
+        "seriesLength": 5,
+        "kills": 26,
+        "inference": "group-id-order"
+      },
+      {
+        "league": "LPL",
+        "date": "2026-03-02",
+        "tournament": "LPL 2026 Split 1 Playoffs",
+        "matchup": "Weibo Gaming vs Top Esports",
+        "id": "75066",
+        "gameField": "WBG vs Top Esports",
+        "mapNumber": 4,
+        "seriesLength": 5,
+        "kills": 37,
+        "inference": "group-id-order"
+      },
+      {
+        "league": "LPL",
+        "date": "2026-03-02",
+        "tournament": "LPL 2026 Split 1 Playoffs",
+        "matchup": "Weibo Gaming vs Top Esports",
+        "id": "75067",
+        "gameField": "WBG vs Top Esports",
+        "mapNumber": 5,
+        "seriesLength": 5,
+        "kills": 37,
+        "inference": "group-id-order"
+      }
+    ],
+    [
+      {
+        "league": "LEC",
+        "date": "2026-03-01",
+        "tournament": "LEC 2026 Versus Playoffs",
+        "matchup": "G2 Esports vs Karmine Corp",
+        "id": "75053",
+        "gameField": "G2 Esports vs KC",
+        "mapNumber": 1,
+        "seriesLength": 5,
+        "kills": 22,
+        "inference": "group-id-order"
+      },
+      {
+        "league": "LEC",
+        "date": "2026-03-01",
+        "tournament": "LEC 2026 Versus Playoffs",
+        "matchup": "G2 Esports vs Karmine Corp",
+        "id": "75054",
+        "gameField": "G2 Esports vs KC",
+        "mapNumber": 2,
+        "seriesLength": 5,
+        "kills": 20,
+        "inference": "group-id-order"
+      },
+      {
+        "league": "LEC",
+        "date": "2026-03-01",
+        "tournament": "LEC 2026 Versus Playoffs",
+        "matchup": "G2 Esports vs Karmine Corp",
+        "id": "75055",
+        "gameField": "G2 Esports vs KC",
+        "mapNumber": 3,
+        "seriesLength": 5,
+        "kills": 28,
+        "inference": "group-id-order"
+      },
+      {
+        "league": "LEC",
+        "date": "2026-03-01",
+        "tournament": "LEC 2026 Versus Playoffs",
+        "matchup": "G2 Esports vs Karmine Corp",
+        "id": "75056",
+        "gameField": "G2 Esports vs KC",
+        "mapNumber": 4,
+        "seriesLength": 5,
+        "kills": 27,
+        "inference": "group-id-order"
+      },
+      {
+        "league": "LEC",
+        "date": "2026-03-01",
+        "tournament": "LEC 2026 Versus Playoffs",
+        "matchup": "G2 Esports vs Karmine Corp",
+        "id": "75057",
+        "gameField": "G2 Esports vs KC",
+        "mapNumber": 5,
+        "seriesLength": 5,
+        "kills": 43,
+        "inference": "group-id-order"
+      }
+    ],
+    [
+      {
+        "league": "LEC",
+        "date": "2026-02-28",
+        "tournament": "LEC 2026 Versus Playoffs",
+        "matchup": "Movistar KOI vs Karmine Corp",
+        "id": "75011",
+        "gameField": "MKOI vs KC",
+        "mapNumber": 1,
+        "seriesLength": 5,
+        "kills": 21,
+        "inference": "group-id-order"
+      },
+      {
+        "league": "LEC",
+        "date": "2026-02-28",
+        "tournament": "LEC 2026 Versus Playoffs",
+        "matchup": "Movistar KOI vs Karmine Corp",
+        "id": "75012",
+        "gameField": "MKOI vs KC",
+        "mapNumber": 2,
+        "seriesLength": 5,
+        "kills": 19,
+        "inference": "group-id-order"
+      },
+      {
+        "league": "LEC",
+        "date": "2026-02-28",
+        "tournament": "LEC 2026 Versus Playoffs",
+        "matchup": "Movistar KOI vs Karmine Corp",
+        "id": "75013",
+        "gameField": "MKOI vs KC",
+        "mapNumber": 3,
+        "seriesLength": 5,
+        "kills": 28,
+        "inference": "group-id-order"
+      },
+      {
+        "league": "LEC",
+        "date": "2026-02-28",
+        "tournament": "LEC 2026 Versus Playoffs",
+        "matchup": "Movistar KOI vs Karmine Corp",
+        "id": "75014",
+        "gameField": "MKOI vs KC",
+        "mapNumber": 4,
+        "seriesLength": 5,
+        "kills": 14,
+        "inference": "group-id-order"
+      },
+      {
+        "league": "LEC",
+        "date": "2026-02-28",
+        "tournament": "LEC 2026 Versus Playoffs",
+        "matchup": "Movistar KOI vs Karmine Corp",
+        "id": "75015",
+        "gameField": "MKOI vs KC",
+        "mapNumber": 5,
+        "seriesLength": 5,
+        "kills": 19,
+        "inference": "group-id-order"
+      }
+    ],
+    [
+      {
+        "league": "LCKCL",
+        "date": "2026-02-26",
+        "tournament": "LCK CL 2026 Kickoff",
+        "matchup": "KRX Challengers vs KT Rolster Challengers",
+        "id": "74899",
+        "gameField": "KT vs DRX",
+        "mapNumber": 1,
+        "seriesLength": 5,
+        "kills": 31,
+        "inference": "group-id-order"
+      },
+      {
+        "league": "LCKCL",
+        "date": "2026-02-26",
+        "tournament": "LCK CL 2026 Kickoff",
+        "matchup": "KRX Challengers vs KT Rolster Challengers",
+        "id": "74900",
+        "gameField": "KT vs DRX",
+        "mapNumber": 2,
+        "seriesLength": 5,
+        "kills": 18,
+        "inference": "group-id-order"
+      },
+      {
+        "league": "LCKCL",
+        "date": "2026-02-26",
+        "tournament": "LCK CL 2026 Kickoff",
+        "matchup": "KT Rolster Challengers vs KRX Challengers",
+        "id": "74901",
+        "gameField": "KT vs DRX",
+        "mapNumber": 3,
+        "seriesLength": 5,
+        "kills": 27,
+        "inference": "group-id-order"
+      },
+      {
+        "league": "LCKCL",
+        "date": "2026-02-26",
+        "tournament": "LCK CL 2026 Kickoff",
+        "matchup": "KRX Challengers vs KT Rolster Challengers",
+        "id": "74902",
+        "gameField": "KT vs DRX",
+        "mapNumber": 4,
+        "seriesLength": 5,
+        "kills": 31,
+        "inference": "group-id-order"
+      },
+      {
+        "league": "LCKCL",
+        "date": "2026-02-26",
+        "tournament": "LCK CL 2026 Kickoff",
+        "matchup": "KT Rolster Challengers vs KRX Challengers",
+        "id": "74903",
+        "gameField": "KT vs DRX",
+        "mapNumber": 5,
+        "seriesLength": 5,
+        "kills": 24,
+        "inference": "group-id-order"
+      }
+    ]
+  ]
+}

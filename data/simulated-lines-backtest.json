@@ -1,0 +1,1625 @@
+{
+  "createdAt": "2026-05-26T08:49:25.717Z",
+  "config": {
+    "minTrain": 30,
+    "medianWindow": 25,
+    "thresholds": [
+      0.5,
+      1,
+      1.5,
+      2,
+      2.5,
+      3
+    ],
+    "odds": [
+      1.8,
+      1.85
+    ]
+  },
+  "methodA": {
+    "description": "Casa = mediana movel dos ultimos 25 kills da liga. Sinal = L2 (picks completos). Edge = L2 - mediana.",
+    "overall": [
+      {
+        "threshold": 0.5,
+        "over": {
+          "bets": 401,
+          "correct": 213,
+          "hitRate": 0.5312,
+          "roi1_80": -0.0439,
+          "roi1_85": -0.0173
+        },
+        "under": {
+          "bets": 326,
+          "correct": 197,
+          "hitRate": 0.6043,
+          "roi1_80": 0.0877,
+          "roi1_85": 0.1179
+        },
+        "combined": {
+          "bets": 727,
+          "correct": 410,
+          "hitRate": 0.564,
+          "roi1_80": 0.0151,
+          "roi1_85": 0.0433
+        },
+        "totalRows": 855
+      },
+      {
+        "threshold": 1,
+        "over": {
+          "bets": 338,
+          "correct": 176,
+          "hitRate": 0.5207,
+          "roi1_80": -0.0627,
+          "roi1_85": -0.0367
+        },
+        "under": {
+          "bets": 258,
+          "correct": 162,
+          "hitRate": 0.6279,
+          "roi1_80": 0.1302,
+          "roi1_85": 0.1616
+        },
+        "combined": {
+          "bets": 596,
+          "correct": 338,
+          "hitRate": 0.5671,
+          "roi1_80": 0.0208,
+          "roi1_85": 0.0492
+        },
+        "totalRows": 855
+      },
+      {
+        "threshold": 1.5,
+        "over": {
+          "bets": 257,
+          "correct": 136,
+          "hitRate": 0.5292,
+          "roi1_80": -0.0475,
+          "roi1_85": -0.021
+        },
+        "under": {
+          "bets": 205,
+          "correct": 134,
+          "hitRate": 0.6537,
+          "roi1_80": 0.1766,
+          "roi1_85": 0.2093
+        },
+        "combined": {
+          "bets": 462,
+          "correct": 270,
+          "hitRate": 0.5844,
+          "roi1_80": 0.0519,
+          "roi1_85": 0.0812
+        },
+        "totalRows": 855
+      },
+      {
+        "threshold": 2,
+        "over": {
+          "bets": 184,
+          "correct": 95,
+          "hitRate": 0.5163,
+          "roi1_80": -0.0707,
+          "roi1_85": -0.0448
+        },
+        "under": {
+          "bets": 157,
+          "correct": 108,
+          "hitRate": 0.6879,
+          "roi1_80": 0.2382,
+          "roi1_85": 0.2726
+        },
+        "combined": {
+          "bets": 341,
+          "correct": 203,
+          "hitRate": 0.5953,
+          "roi1_80": 0.0716,
+          "roi1_85": 0.1013
+        },
+        "totalRows": 855
+      },
+      {
+        "threshold": 2.5,
+        "over": {
+          "bets": 128,
+          "correct": 69,
+          "hitRate": 0.5391,
+          "roi1_80": -0.0297,
+          "roi1_85": -0.0027
+        },
+        "under": {
+          "bets": 114,
+          "correct": 78,
+          "hitRate": 0.6842,
+          "roi1_80": 0.2316,
+          "roi1_85": 0.2658
+        },
+        "combined": {
+          "bets": 242,
+          "correct": 147,
+          "hitRate": 0.6074,
+          "roi1_80": 0.0934,
+          "roi1_85": 0.1238
+        },
+        "totalRows": 855
+      },
+      {
+        "threshold": 3,
+        "over": {
+          "bets": 95,
+          "correct": 54,
+          "hitRate": 0.5684,
+          "roi1_80": 0.0232,
+          "roi1_85": 0.0516
+        },
+        "under": {
+          "bets": 66,
+          "correct": 44,
+          "hitRate": 0.6667,
+          "roi1_80": 0.2,
+          "roi1_85": 0.2333
+        },
+        "combined": {
+          "bets": 161,
+          "correct": 98,
+          "hitRate": 0.6087,
+          "roi1_80": 0.0957,
+          "roi1_85": 0.1261
+        },
+        "totalRows": 855
+      }
+    ],
+    "byLeague": {
+      "LCK": [
+        {
+          "threshold": 0.5,
+          "over": {
+            "bets": 66,
+            "correct": 37,
+            "hitRate": 0.5606,
+            "roi1_80": 0.0091,
+            "roi1_85": 0.0371
+          },
+          "under": {
+            "bets": 57,
+            "correct": 36,
+            "hitRate": 0.6316,
+            "roi1_80": 0.1368,
+            "roi1_85": 0.1684
+          },
+          "combined": {
+            "bets": 123,
+            "correct": 73,
+            "hitRate": 0.5935,
+            "roi1_80": 0.0683,
+            "roi1_85": 0.098
+          },
+          "totalRows": 150
+        },
+        {
+          "threshold": 1,
+          "over": {
+            "bets": 52,
+            "correct": 30,
+            "hitRate": 0.5769,
+            "roi1_80": 0.0385,
+            "roi1_85": 0.0673
+          },
+          "under": {
+            "bets": 47,
+            "correct": 30,
+            "hitRate": 0.6383,
+            "roi1_80": 0.1489,
+            "roi1_85": 0.1809
+          },
+          "combined": {
+            "bets": 99,
+            "correct": 60,
+            "hitRate": 0.6061,
+            "roi1_80": 0.0909,
+            "roi1_85": 0.1212
+          },
+          "totalRows": 150
+        },
+        {
+          "threshold": 1.5,
+          "over": {
+            "bets": 36,
+            "correct": 20,
+            "hitRate": 0.5556,
+            "roi1_80": 0,
+            "roi1_85": 0.0278
+          },
+          "under": {
+            "bets": 41,
+            "correct": 29,
+            "hitRate": 0.7073,
+            "roi1_80": 0.2732,
+            "roi1_85": 0.3085
+          },
+          "combined": {
+            "bets": 77,
+            "correct": 49,
+            "hitRate": 0.6364,
+            "roi1_80": 0.1455,
+            "roi1_85": 0.1773
+          },
+          "totalRows": 150
+        },
+        {
+          "threshold": 2,
+          "over": {
+            "bets": 25,
+            "correct": 15,
+            "hitRate": 0.6,
+            "roi1_80": 0.08,
+            "roi1_85": 0.11
+          },
+          "under": {
+            "bets": 32,
+            "correct": 24,
+            "hitRate": 0.75,
+            "roi1_80": 0.35,
+            "roi1_85": 0.3875
+          },
+          "combined": {
+            "bets": 57,
+            "correct": 39,
+            "hitRate": 0.6842,
+            "roi1_80": 0.2316,
+            "roi1_85": 0.2658
+          },
+          "totalRows": 150
+        },
+        {
+          "threshold": 2.5,
+          "over": {
+            "bets": 15,
+            "correct": 10,
+            "hitRate": 0.6667,
+            "roi1_80": 0.2,
+            "roi1_85": 0.2333
+          },
+          "under": {
+            "bets": 23,
+            "correct": 18,
+            "hitRate": 0.7826,
+            "roi1_80": 0.4087,
+            "roi1_85": 0.4478
+          },
+          "combined": {
+            "bets": 38,
+            "correct": 28,
+            "hitRate": 0.7368,
+            "roi1_80": 0.3263,
+            "roi1_85": 0.3632
+          },
+          "totalRows": 150
+        },
+        {
+          "threshold": 3,
+          "over": {
+            "bets": 10,
+            "correct": 7,
+            "hitRate": 0.7,
+            "roi1_80": 0.26,
+            "roi1_85": 0.295
+          },
+          "under": {
+            "bets": 12,
+            "correct": 8,
+            "hitRate": 0.6667,
+            "roi1_80": 0.2,
+            "roi1_85": 0.2333
+          },
+          "combined": {
+            "bets": 22,
+            "correct": 15,
+            "hitRate": 0.6818,
+            "roi1_80": 0.2273,
+            "roi1_85": 0.2614
+          },
+          "totalRows": 150
+        }
+      ],
+      "LPL": [
+        {
+          "threshold": 0.5,
+          "over": {
+            "bets": 130,
+            "correct": 64,
+            "hitRate": 0.4923,
+            "roi1_80": -0.1138,
+            "roi1_85": -0.0892
+          },
+          "under": {
+            "bets": 102,
+            "correct": 66,
+            "hitRate": 0.6471,
+            "roi1_80": 0.1647,
+            "roi1_85": 0.1971
+          },
+          "combined": {
+            "bets": 232,
+            "correct": 130,
+            "hitRate": 0.5603,
+            "roi1_80": 0.0086,
+            "roi1_85": 0.0366
+          },
+          "totalRows": 270
+        },
+        {
+          "threshold": 1,
+          "over": {
+            "bets": 116,
+            "correct": 55,
+            "hitRate": 0.4741,
+            "roi1_80": -0.1466,
+            "roi1_85": -0.1228
+          },
+          "under": {
+            "bets": 89,
+            "correct": 58,
+            "hitRate": 0.6517,
+            "roi1_80": 0.173,
+            "roi1_85": 0.2056
+          },
+          "combined": {
+            "bets": 205,
+            "correct": 113,
+            "hitRate": 0.5512,
+            "roi1_80": -0.0078,
+            "roi1_85": 0.0198
+          },
+          "totalRows": 270
+        },
+        {
+          "threshold": 1.5,
+          "over": {
+            "bets": 93,
+            "correct": 47,
+            "hitRate": 0.5054,
+            "roi1_80": -0.0903,
+            "roi1_85": -0.0651
+          },
+          "under": {
+            "bets": 69,
+            "correct": 48,
+            "hitRate": 0.6957,
+            "roi1_80": 0.2522,
+            "roi1_85": 0.287
+          },
+          "combined": {
+            "bets": 162,
+            "correct": 95,
+            "hitRate": 0.5864,
+            "roi1_80": 0.0556,
+            "roi1_85": 0.0849
+          },
+          "totalRows": 270
+        },
+        {
+          "threshold": 2,
+          "over": {
+            "bets": 68,
+            "correct": 32,
+            "hitRate": 0.4706,
+            "roi1_80": -0.1529,
+            "roi1_85": -0.1294
+          },
+          "under": {
+            "bets": 49,
+            "correct": 34,
+            "hitRate": 0.6939,
+            "roi1_80": 0.249,
+            "roi1_85": 0.2837
+          },
+          "combined": {
+            "bets": 117,
+            "correct": 66,
+            "hitRate": 0.5641,
+            "roi1_80": 0.0154,
+            "roi1_85": 0.0436
+          },
+          "totalRows": 270
+        },
+        {
+          "threshold": 2.5,
+          "over": {
+            "bets": 46,
+            "correct": 24,
+            "hitRate": 0.5217,
+            "roi1_80": -0.0609,
+            "roi1_85": -0.0348
+          },
+          "under": {
+            "bets": 44,
+            "correct": 30,
+            "hitRate": 0.6818,
+            "roi1_80": 0.2273,
+            "roi1_85": 0.2614
+          },
+          "combined": {
+            "bets": 90,
+            "correct": 54,
+            "hitRate": 0.6,
+            "roi1_80": 0.08,
+            "roi1_85": 0.11
+          },
+          "totalRows": 270
+        },
+        {
+          "threshold": 3,
+          "over": {
+            "bets": 33,
+            "correct": 20,
+            "hitRate": 0.6061,
+            "roi1_80": 0.0909,
+            "roi1_85": 0.1212
+          },
+          "under": {
+            "bets": 36,
+            "correct": 24,
+            "hitRate": 0.6667,
+            "roi1_80": 0.2,
+            "roi1_85": 0.2333
+          },
+          "combined": {
+            "bets": 69,
+            "correct": 44,
+            "hitRate": 0.6377,
+            "roi1_80": 0.1478,
+            "roi1_85": 0.1797
+          },
+          "totalRows": 270
+        }
+      ],
+      "CBLOL": [
+        {
+          "threshold": 0.5,
+          "over": {
+            "bets": 73,
+            "correct": 37,
+            "hitRate": 0.5068,
+            "roi1_80": -0.0877,
+            "roi1_85": -0.0623
+          },
+          "under": {
+            "bets": 38,
+            "correct": 23,
+            "hitRate": 0.6053,
+            "roi1_80": 0.0895,
+            "roi1_85": 0.1197
+          },
+          "combined": {
+            "bets": 111,
+            "correct": 60,
+            "hitRate": 0.5405,
+            "roi1_80": -0.027,
+            "roi1_85": 0
+          },
+          "totalRows": 129
+        },
+        {
+          "threshold": 1,
+          "over": {
+            "bets": 65,
+            "correct": 33,
+            "hitRate": 0.5077,
+            "roi1_80": -0.0862,
+            "roi1_85": -0.0608
+          },
+          "under": {
+            "bets": 27,
+            "correct": 19,
+            "hitRate": 0.7037,
+            "roi1_80": 0.2667,
+            "roi1_85": 0.3019
+          },
+          "combined": {
+            "bets": 92,
+            "correct": 52,
+            "hitRate": 0.5652,
+            "roi1_80": 0.0174,
+            "roi1_85": 0.0457
+          },
+          "totalRows": 129
+        },
+        {
+          "threshold": 1.5,
+          "over": {
+            "bets": 45,
+            "correct": 22,
+            "hitRate": 0.4889,
+            "roi1_80": -0.12,
+            "roi1_85": -0.0956
+          },
+          "under": {
+            "bets": 20,
+            "correct": 14,
+            "hitRate": 0.7,
+            "roi1_80": 0.26,
+            "roi1_85": 0.295
+          },
+          "combined": {
+            "bets": 65,
+            "correct": 36,
+            "hitRate": 0.5538,
+            "roi1_80": -0.0031,
+            "roi1_85": 0.0246
+          },
+          "totalRows": 129
+        },
+        {
+          "threshold": 2,
+          "over": {
+            "bets": 31,
+            "correct": 13,
+            "hitRate": 0.4194,
+            "roi1_80": -0.2452,
+            "roi1_85": -0.2242
+          },
+          "under": {
+            "bets": 14,
+            "correct": 12,
+            "hitRate": 0.8571,
+            "roi1_80": 0.5429,
+            "roi1_85": 0.5857
+          },
+          "combined": {
+            "bets": 45,
+            "correct": 25,
+            "hitRate": 0.5556,
+            "roi1_80": 0,
+            "roi1_85": 0.0278
+          },
+          "totalRows": 129
+        },
+        {
+          "threshold": 2.5,
+          "over": {
+            "bets": 26,
+            "correct": 12,
+            "hitRate": 0.4615,
+            "roi1_80": -0.1692,
+            "roi1_85": -0.1462
+          },
+          "under": {
+            "bets": 9,
+            "correct": 7,
+            "hitRate": 0.7778,
+            "roi1_80": 0.4,
+            "roi1_85": 0.4389
+          },
+          "combined": {
+            "bets": 35,
+            "correct": 19,
+            "hitRate": 0.5429,
+            "roi1_80": -0.0229,
+            "roi1_85": 0.0043
+          },
+          "totalRows": 129
+        },
+        {
+          "threshold": 3,
+          "over": {
+            "bets": 18,
+            "correct": 10,
+            "hitRate": 0.5556,
+            "roi1_80": 0,
+            "roi1_85": 0.0278
+          },
+          "under": {
+            "bets": 4,
+            "correct": 3,
+            "hitRate": 0.75,
+            "roi1_80": 0.35,
+            "roi1_85": 0.3875
+          },
+          "combined": {
+            "bets": 22,
+            "correct": 13,
+            "hitRate": 0.5909,
+            "roi1_80": 0.0636,
+            "roi1_85": 0.0932
+          },
+          "totalRows": 129
+        }
+      ],
+      "LEC": [
+        {
+          "threshold": 0.5,
+          "over": {
+            "bets": 85,
+            "correct": 48,
+            "hitRate": 0.5647,
+            "roi1_80": 0.0165,
+            "roi1_85": 0.0447
+          },
+          "under": {
+            "bets": 83,
+            "correct": 42,
+            "hitRate": 0.506,
+            "roi1_80": -0.0892,
+            "roi1_85": -0.0639
+          },
+          "combined": {
+            "bets": 168,
+            "correct": 90,
+            "hitRate": 0.5357,
+            "roi1_80": -0.0357,
+            "roi1_85": -0.0089
+          },
+          "totalRows": 198
+        },
+        {
+          "threshold": 1,
+          "over": {
+            "bets": 73,
+            "correct": 41,
+            "hitRate": 0.5616,
+            "roi1_80": 0.011,
+            "roi1_85": 0.039
+          },
+          "under": {
+            "bets": 58,
+            "correct": 32,
+            "hitRate": 0.5517,
+            "roi1_80": -0.0069,
+            "roi1_85": 0.0207
+          },
+          "combined": {
+            "bets": 131,
+            "correct": 73,
+            "hitRate": 0.5573,
+            "roi1_80": 0.0031,
+            "roi1_85": 0.0309
+          },
+          "totalRows": 198
+        },
+        {
+          "threshold": 1.5,
+          "over": {
+            "bets": 61,
+            "correct": 34,
+            "hitRate": 0.5574,
+            "roi1_80": 0.0033,
+            "roi1_85": 0.0311
+          },
+          "under": {
+            "bets": 47,
+            "correct": 26,
+            "hitRate": 0.5532,
+            "roi1_80": -0.0043,
+            "roi1_85": 0.0234
+          },
+          "combined": {
+            "bets": 108,
+            "correct": 60,
+            "hitRate": 0.5556,
+            "roi1_80": 0,
+            "roi1_85": 0.0278
+          },
+          "totalRows": 198
+        },
+        {
+          "threshold": 2,
+          "over": {
+            "bets": 40,
+            "correct": 23,
+            "hitRate": 0.575,
+            "roi1_80": 0.035,
+            "roi1_85": 0.0638
+          },
+          "under": {
+            "bets": 37,
+            "correct": 21,
+            "hitRate": 0.5676,
+            "roi1_80": 0.0216,
+            "roi1_85": 0.05
+          },
+          "combined": {
+            "bets": 77,
+            "correct": 44,
+            "hitRate": 0.5714,
+            "roi1_80": 0.0286,
+            "roi1_85": 0.0571
+          },
+          "totalRows": 198
+        },
+        {
+          "threshold": 2.5,
+          "over": {
+            "bets": 23,
+            "correct": 13,
+            "hitRate": 0.5652,
+            "roi1_80": 0.0174,
+            "roi1_85": 0.0457
+          },
+          "under": {
+            "bets": 22,
+            "correct": 12,
+            "hitRate": 0.5455,
+            "roi1_80": -0.0182,
+            "roi1_85": 0.0091
+          },
+          "combined": {
+            "bets": 45,
+            "correct": 25,
+            "hitRate": 0.5556,
+            "roi1_80": 0,
+            "roi1_85": 0.0278
+          },
+          "totalRows": 198
+        },
+        {
+          "threshold": 3,
+          "over": {
+            "bets": 18,
+            "correct": 8,
+            "hitRate": 0.4444,
+            "roi1_80": -0.2,
+            "roi1_85": -0.1778
+          },
+          "under": {
+            "bets": 7,
+            "correct": 4,
+            "hitRate": 0.5714,
+            "roi1_80": 0.0286,
+            "roi1_85": 0.0571
+          },
+          "combined": {
+            "bets": 25,
+            "correct": 12,
+            "hitRate": 0.48,
+            "roi1_80": -0.136,
+            "roi1_85": -0.112
+          },
+          "totalRows": 198
+        }
+      ],
+      "LCS": [
+        {
+          "threshold": 0.5,
+          "over": {
+            "bets": 47,
+            "correct": 27,
+            "hitRate": 0.5745,
+            "roi1_80": 0.034,
+            "roi1_85": 0.0628
+          },
+          "under": {
+            "bets": 46,
+            "correct": 30,
+            "hitRate": 0.6522,
+            "roi1_80": 0.1739,
+            "roi1_85": 0.2065
+          },
+          "combined": {
+            "bets": 93,
+            "correct": 57,
+            "hitRate": 0.6129,
+            "roi1_80": 0.1032,
+            "roi1_85": 0.1339
+          },
+          "totalRows": 108
+        },
+        {
+          "threshold": 1,
+          "over": {
+            "bets": 32,
+            "correct": 17,
+            "hitRate": 0.5313,
+            "roi1_80": -0.0437,
+            "roi1_85": -0.0172
+          },
+          "under": {
+            "bets": 37,
+            "correct": 23,
+            "hitRate": 0.6216,
+            "roi1_80": 0.1189,
+            "roi1_85": 0.15
+          },
+          "combined": {
+            "bets": 69,
+            "correct": 40,
+            "hitRate": 0.5797,
+            "roi1_80": 0.0435,
+            "roi1_85": 0.0725
+          },
+          "totalRows": 108
+        },
+        {
+          "threshold": 1.5,
+          "over": {
+            "bets": 22,
+            "correct": 13,
+            "hitRate": 0.5909,
+            "roi1_80": 0.0636,
+            "roi1_85": 0.0932
+          },
+          "under": {
+            "bets": 28,
+            "correct": 17,
+            "hitRate": 0.6071,
+            "roi1_80": 0.0929,
+            "roi1_85": 0.1232
+          },
+          "combined": {
+            "bets": 50,
+            "correct": 30,
+            "hitRate": 0.6,
+            "roi1_80": 0.08,
+            "roi1_85": 0.11
+          },
+          "totalRows": 108
+        },
+        {
+          "threshold": 2,
+          "over": {
+            "bets": 20,
+            "correct": 12,
+            "hitRate": 0.6,
+            "roi1_80": 0.08,
+            "roi1_85": 0.11
+          },
+          "under": {
+            "bets": 25,
+            "correct": 17,
+            "hitRate": 0.68,
+            "roi1_80": 0.224,
+            "roi1_85": 0.258
+          },
+          "combined": {
+            "bets": 45,
+            "correct": 29,
+            "hitRate": 0.6444,
+            "roi1_80": 0.16,
+            "roi1_85": 0.1922
+          },
+          "totalRows": 108
+        },
+        {
+          "threshold": 2.5,
+          "over": {
+            "bets": 18,
+            "correct": 10,
+            "hitRate": 0.5556,
+            "roi1_80": 0,
+            "roi1_85": 0.0278
+          },
+          "under": {
+            "bets": 16,
+            "correct": 11,
+            "hitRate": 0.6875,
+            "roi1_80": 0.2375,
+            "roi1_85": 0.2719
+          },
+          "combined": {
+            "bets": 34,
+            "correct": 21,
+            "hitRate": 0.6176,
+            "roi1_80": 0.1118,
+            "roi1_85": 0.1426
+          },
+          "totalRows": 108
+        },
+        {
+          "threshold": 3,
+          "over": {
+            "bets": 16,
+            "correct": 9,
+            "hitRate": 0.5625,
+            "roi1_80": 0.0125,
+            "roi1_85": 0.0406
+          },
+          "under": {
+            "bets": 7,
+            "correct": 5,
+            "hitRate": 0.7143,
+            "roi1_80": 0.2857,
+            "roi1_85": 0.3214
+          },
+          "combined": {
+            "bets": 23,
+            "correct": 14,
+            "hitRate": 0.6087,
+            "roi1_80": 0.0957,
+            "roi1_85": 0.1261
+          },
+          "totalRows": 108
+        }
+      ]
+    }
+  },
+  "methodB": {
+    "description": "Casa = L1 arredondado para x.5. Sinal = delta do draft (L2 - L1). Testa se picks agregam valor.",
+    "overall": [
+      {
+        "threshold": 0.5,
+        "over": {
+          "bets": 268,
+          "correct": 156,
+          "hitRate": 0.5821,
+          "roi1_80": 0.0478,
+          "roi1_85": 0.0769
+        },
+        "under": {
+          "bets": 168,
+          "correct": 115,
+          "hitRate": 0.6845,
+          "roi1_80": 0.2321,
+          "roi1_85": 0.2664
+        },
+        "combined": {
+          "bets": 436,
+          "correct": 271,
+          "hitRate": 0.6216,
+          "roi1_80": 0.1188,
+          "roi1_85": 0.1499
+        },
+        "totalRows": 855
+      },
+      {
+        "threshold": 1,
+        "over": {
+          "bets": 122,
+          "correct": 79,
+          "hitRate": 0.6475,
+          "roi1_80": 0.1656,
+          "roi1_85": 0.198
+        },
+        "under": {
+          "bets": 65,
+          "correct": 43,
+          "hitRate": 0.6615,
+          "roi1_80": 0.1908,
+          "roi1_85": 0.2238
+        },
+        "combined": {
+          "bets": 187,
+          "correct": 122,
+          "hitRate": 0.6524,
+          "roi1_80": 0.1743,
+          "roi1_85": 0.207
+        },
+        "totalRows": 855
+      },
+      {
+        "threshold": 1.5,
+        "over": {
+          "bets": 39,
+          "correct": 25,
+          "hitRate": 0.641,
+          "roi1_80": 0.1538,
+          "roi1_85": 0.1859
+        },
+        "under": {
+          "bets": 20,
+          "correct": 15,
+          "hitRate": 0.75,
+          "roi1_80": 0.35,
+          "roi1_85": 0.3875
+        },
+        "combined": {
+          "bets": 59,
+          "correct": 40,
+          "hitRate": 0.678,
+          "roi1_80": 0.2203,
+          "roi1_85": 0.2542
+        },
+        "totalRows": 855
+      },
+      {
+        "threshold": 2,
+        "over": {
+          "bets": 13,
+          "correct": 10,
+          "hitRate": 0.7692,
+          "roi1_80": 0.3846,
+          "roi1_85": 0.4231
+        },
+        "under": {
+          "bets": 6,
+          "correct": 5,
+          "hitRate": 0.8333,
+          "roi1_80": 0.5,
+          "roi1_85": 0.5417
+        },
+        "combined": {
+          "bets": 19,
+          "correct": 15,
+          "hitRate": 0.7895,
+          "roi1_80": 0.4211,
+          "roi1_85": 0.4605
+        },
+        "totalRows": 855
+      },
+      {
+        "threshold": 2.5,
+        "over": {
+          "bets": 1,
+          "correct": 1,
+          "hitRate": 1,
+          "roi1_80": 0.8,
+          "roi1_85": 0.85
+        },
+        "under": {
+          "bets": 3,
+          "correct": 3,
+          "hitRate": 1,
+          "roi1_80": 0.8,
+          "roi1_85": 0.85
+        },
+        "combined": {
+          "bets": 4,
+          "correct": 4,
+          "hitRate": 1,
+          "roi1_80": 0.8,
+          "roi1_85": 0.85
+        },
+        "totalRows": 855
+      },
+      {
+        "threshold": 3,
+        "over": null,
+        "under": null,
+        "combined": null,
+        "totalRows": 855
+      }
+    ],
+    "byLeague": {
+      "LCK": [
+        {
+          "threshold": 0.5,
+          "over": {
+            "bets": 15,
+            "correct": 9,
+            "hitRate": 0.6,
+            "roi1_80": 0.08,
+            "roi1_85": 0.11
+          },
+          "under": {
+            "bets": 57,
+            "correct": 37,
+            "hitRate": 0.6491,
+            "roi1_80": 0.1684,
+            "roi1_85": 0.2009
+          },
+          "combined": {
+            "bets": 72,
+            "correct": 46,
+            "hitRate": 0.6389,
+            "roi1_80": 0.15,
+            "roi1_85": 0.1819
+          },
+          "totalRows": 150
+        },
+        {
+          "threshold": 1,
+          "over": {
+            "bets": 5,
+            "correct": 5,
+            "hitRate": 1,
+            "roi1_80": 0.8,
+            "roi1_85": 0.85
+          },
+          "under": {
+            "bets": 20,
+            "correct": 12,
+            "hitRate": 0.6,
+            "roi1_80": 0.08,
+            "roi1_85": 0.11
+          },
+          "combined": {
+            "bets": 25,
+            "correct": 17,
+            "hitRate": 0.68,
+            "roi1_80": 0.224,
+            "roi1_85": 0.258
+          },
+          "totalRows": 150
+        },
+        {
+          "threshold": 1.5,
+          "over": null,
+          "under": {
+            "bets": 3,
+            "correct": 2,
+            "hitRate": 0.6667,
+            "roi1_80": 0.2,
+            "roi1_85": 0.2333
+          },
+          "combined": {
+            "bets": 3,
+            "correct": 2,
+            "hitRate": 0.6667,
+            "roi1_80": 0.2,
+            "roi1_85": 0.2333
+          },
+          "totalRows": 150
+        },
+        {
+          "threshold": 2,
+          "over": null,
+          "under": {
+            "bets": 1,
+            "correct": 1,
+            "hitRate": 1,
+            "roi1_80": 0.8,
+            "roi1_85": 0.85
+          },
+          "combined": {
+            "bets": 1,
+            "correct": 1,
+            "hitRate": 1,
+            "roi1_80": 0.8,
+            "roi1_85": 0.85
+          },
+          "totalRows": 150
+        },
+        {
+          "threshold": 2.5,
+          "over": null,
+          "under": null,
+          "combined": null,
+          "totalRows": 150
+        },
+        {
+          "threshold": 3,
+          "over": null,
+          "under": null,
+          "combined": null,
+          "totalRows": 150
+        }
+      ],
+      "LPL": [
+        {
+          "threshold": 0.5,
+          "over": {
+            "bets": 126,
+            "correct": 76,
+            "hitRate": 0.6032,
+            "roi1_80": 0.0857,
+            "roi1_85": 0.1159
+          },
+          "under": {
+            "bets": 34,
+            "correct": 27,
+            "hitRate": 0.7941,
+            "roi1_80": 0.4294,
+            "roi1_85": 0.4691
+          },
+          "combined": {
+            "bets": 160,
+            "correct": 103,
+            "hitRate": 0.6438,
+            "roi1_80": 0.1588,
+            "roi1_85": 0.1909
+          },
+          "totalRows": 270
+        },
+        {
+          "threshold": 1,
+          "over": {
+            "bets": 79,
+            "correct": 50,
+            "hitRate": 0.6329,
+            "roi1_80": 0.1392,
+            "roi1_85": 0.1709
+          },
+          "under": {
+            "bets": 8,
+            "correct": 8,
+            "hitRate": 1,
+            "roi1_80": 0.8,
+            "roi1_85": 0.85
+          },
+          "combined": {
+            "bets": 87,
+            "correct": 58,
+            "hitRate": 0.6667,
+            "roi1_80": 0.2,
+            "roi1_85": 0.2333
+          },
+          "totalRows": 270
+        },
+        {
+          "threshold": 1.5,
+          "over": {
+            "bets": 32,
+            "correct": 20,
+            "hitRate": 0.625,
+            "roi1_80": 0.125,
+            "roi1_85": 0.1563
+          },
+          "under": {
+            "bets": 3,
+            "correct": 3,
+            "hitRate": 1,
+            "roi1_80": 0.8,
+            "roi1_85": 0.85
+          },
+          "combined": {
+            "bets": 35,
+            "correct": 23,
+            "hitRate": 0.6571,
+            "roi1_80": 0.1829,
+            "roi1_85": 0.2157
+          },
+          "totalRows": 270
+        },
+        {
+          "threshold": 2,
+          "over": {
+            "bets": 12,
+            "correct": 9,
+            "hitRate": 0.75,
+            "roi1_80": 0.35,
+            "roi1_85": 0.3875
+          },
+          "under": {
+            "bets": 1,
+            "correct": 1,
+            "hitRate": 1,
+            "roi1_80": 0.8,
+            "roi1_85": 0.85
+          },
+          "combined": {
+            "bets": 13,
+            "correct": 10,
+            "hitRate": 0.7692,
+            "roi1_80": 0.3846,
+            "roi1_85": 0.4231
+          },
+          "totalRows": 270
+        },
+        {
+          "threshold": 2.5,
+          "over": {
+            "bets": 1,
+            "correct": 1,
+            "hitRate": 1,
+            "roi1_80": 0.8,
+            "roi1_85": 0.85
+          },
+          "under": {
+            "bets": 1,
+            "correct": 1,
+            "hitRate": 1,
+            "roi1_80": 0.8,
+            "roi1_85": 0.85
+          },
+          "combined": {
+            "bets": 2,
+            "correct": 2,
+            "hitRate": 1,
+            "roi1_80": 0.8,
+            "roi1_85": 0.85
+          },
+          "totalRows": 270
+        },
+        {
+          "threshold": 3,
+          "over": null,
+          "under": null,
+          "combined": null,
+          "totalRows": 270
+        }
+      ],
+      "CBLOL": [
+        {
+          "threshold": 0.5,
+          "over": {
+            "bets": 46,
+            "correct": 21,
+            "hitRate": 0.4565,
+            "roi1_80": -0.1783,
+            "roi1_85": -0.1554
+          },
+          "under": {
+            "bets": 7,
+            "correct": 4,
+            "hitRate": 0.5714,
+            "roi1_80": 0.0286,
+            "roi1_85": 0.0571
+          },
+          "combined": {
+            "bets": 53,
+            "correct": 25,
+            "hitRate": 0.4717,
+            "roi1_80": -0.1509,
+            "roi1_85": -0.1274
+          },
+          "totalRows": 129
+        },
+        {
+          "threshold": 1,
+          "over": {
+            "bets": 14,
+            "correct": 8,
+            "hitRate": 0.5714,
+            "roi1_80": 0.0286,
+            "roi1_85": 0.0571
+          },
+          "under": {
+            "bets": 1,
+            "correct": 0,
+            "hitRate": 0,
+            "roi1_80": -1,
+            "roi1_85": -1
+          },
+          "combined": {
+            "bets": 15,
+            "correct": 8,
+            "hitRate": 0.5333,
+            "roi1_80": -0.04,
+            "roi1_85": -0.0133
+          },
+          "totalRows": 129
+        },
+        {
+          "threshold": 1.5,
+          "over": {
+            "bets": 3,
+            "correct": 2,
+            "hitRate": 0.6667,
+            "roi1_80": 0.2,
+            "roi1_85": 0.2333
+          },
+          "under": null,
+          "combined": {
+            "bets": 3,
+            "correct": 2,
+            "hitRate": 0.6667,
+            "roi1_80": 0.2,
+            "roi1_85": 0.2333
+          },
+          "totalRows": 129
+        },
+        {
+          "threshold": 2,
+          "over": null,
+          "under": null,
+          "combined": null,
+          "totalRows": 129
+        },
+        {
+          "threshold": 2.5,
+          "over": null,
+          "under": null,
+          "combined": null,
+          "totalRows": 129
+        },
+        {
+          "threshold": 3,
+          "over": null,
+          "under": null,
+          "combined": null,
+          "totalRows": 129
+        }
+      ],
+      "LEC": [
+        {
+          "threshold": 0.5,
+          "over": {
+            "bets": 56,
+            "correct": 33,
+            "hitRate": 0.5893,
+            "roi1_80": 0.0607,
+            "roi1_85": 0.0902
+          },
+          "under": {
+            "bets": 56,
+            "correct": 35,
+            "hitRate": 0.625,
+            "roi1_80": 0.125,
+            "roi1_85": 0.1563
+          },
+          "combined": {
+            "bets": 112,
+            "correct": 68,
+            "hitRate": 0.6071,
+            "roi1_80": 0.0929,
+            "roi1_85": 0.1232
+          },
+          "totalRows": 198
+        },
+        {
+          "threshold": 1,
+          "over": {
+            "bets": 19,
+            "correct": 13,
+            "hitRate": 0.6842,
+            "roi1_80": 0.2316,
+            "roi1_85": 0.2658
+          },
+          "under": {
+            "bets": 31,
+            "correct": 18,
+            "hitRate": 0.5806,
+            "roi1_80": 0.0452,
+            "roi1_85": 0.0742
+          },
+          "combined": {
+            "bets": 50,
+            "correct": 31,
+            "hitRate": 0.62,
+            "roi1_80": 0.116,
+            "roi1_85": 0.147
+          },
+          "totalRows": 198
+        },
+        {
+          "threshold": 1.5,
+          "over": {
+            "bets": 4,
+            "correct": 3,
+            "hitRate": 0.75,
+            "roi1_80": 0.35,
+            "roi1_85": 0.3875
+          },
+          "under": {
+            "bets": 13,
+            "correct": 9,
+            "hitRate": 0.6923,
+            "roi1_80": 0.2462,
+            "roi1_85": 0.2808
+          },
+          "combined": {
+            "bets": 17,
+            "correct": 12,
+            "hitRate": 0.7059,
+            "roi1_80": 0.2706,
+            "roi1_85": 0.3059
+          },
+          "totalRows": 198
+        },
+        {
+          "threshold": 2,
+          "over": {
+            "bets": 1,
+            "correct": 1,
+            "hitRate": 1,
+            "roi1_80": 0.8,
+            "roi1_85": 0.85
+          },
+          "under": {
+            "bets": 4,
+            "correct": 3,
+            "hitRate": 0.75,
+            "roi1_80": 0.35,
+            "roi1_85": 0.3875
+          },
+          "combined": {
+            "bets": 5,
+            "correct": 4,
+            "hitRate": 0.8,
+            "roi1_80": 0.44,
+            "roi1_85": 0.48
+          },
+          "totalRows": 198
+        },
+        {
+          "threshold": 2.5,
+          "over": null,
+          "under": {
+            "bets": 2,
+            "correct": 2,
+            "hitRate": 1,
+            "roi1_80": 0.8,
+            "roi1_85": 0.85
+          },
+          "combined": {
+            "bets": 2,
+            "correct": 2,
+            "hitRate": 1,
+            "roi1_80": 0.8,
+            "roi1_85": 0.85
+          },
+          "totalRows": 198
+        },
+        {
+          "threshold": 3,
+          "over": null,
+          "under": null,
+          "combined": null,
+          "totalRows": 198
+        }
+      ],
+      "LCS": [
+        {
+          "threshold": 0.5,
+          "over": {
+            "bets": 25,
+            "correct": 17,
+            "hitRate": 0.68,
+            "roi1_80": 0.224,
+            "roi1_85": 0.258
+          },
+          "under": {
+            "bets": 14,
+            "correct": 12,
+            "hitRate": 0.8571,
+            "roi1_80": 0.5429,
+            "roi1_85": 0.5857
+          },
+          "combined": {
+            "bets": 39,
+            "correct": 29,
+            "hitRate": 0.7436,
+            "roi1_80": 0.3385,
+            "roi1_85": 0.3756
+          },
+          "totalRows": 108
+        },
+        {
+          "threshold": 1,
+          "over": {
+            "bets": 5,
+            "correct": 3,
+            "hitRate": 0.6,
+            "roi1_80": 0.08,
+            "roi1_85": 0.11
+          },
+          "under": {
+            "bets": 5,
+            "correct": 5,
+            "hitRate": 1,
+            "roi1_80": 0.8,
+            "roi1_85": 0.85
+          },
+          "combined": {
+            "bets": 10,
+            "correct": 8,
+            "hitRate": 0.8,
+            "roi1_80": 0.44,
+            "roi1_85": 0.48
+          },
+          "totalRows": 108
+        },
+        {
+          "threshold": 1.5,
+          "over": null,
+          "under": {
+            "bets": 1,
+            "correct": 1,
+            "hitRate": 1,
+            "roi1_80": 0.8,
+            "roi1_85": 0.85
+          },
+          "combined": {
+            "bets": 1,
+            "correct": 1,
+            "hitRate": 1,
+            "roi1_80": 0.8,
+            "roi1_85": 0.85
+          },
+          "totalRows": 108
+        },
+        {
+          "threshold": 2,
+          "over": null,
+          "under": null,
+          "combined": null,
+          "totalRows": 108
+        },
+        {
+          "threshold": 2.5,
+          "over": null,
+          "under": null,
+          "combined": null,
+          "totalRows": 108
+        },
+        {
+          "threshold": 3,
+          "over": null,
+          "under": null,
+          "combined": null,
+          "totalRows": 108
+        }
+      ]
+    }
+  }
+}
