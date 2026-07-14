@@ -1,6 +1,5 @@
-// Configure uma vez depois de criar o repositorio/branch de dados no GitHub.
-// O app usa estes JSONs quando disponiveis e volta para os dados locais se falharem.
+// Gerado por scripts/configure-remote-data.js
 window.GOL_REMOTE_DATA = {
-  gamesUrl: "",
-  historicalUrl: "",
+  gamesUrl: "https://raw.githubusercontent.com/thiagohenriquelull-beep/total-kills/live-data/games.json",
+  historicalUrl: "https://raw.githubusercontent.com/thiagohenriquelull-beep/total-kills/live-data/historical-analysis.json",
 };
