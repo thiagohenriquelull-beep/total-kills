@@ -1,6 +1,7 @@
 const WORLD_LEAGUE = "MUNDIAL";
 const TARGET_LEAGUES = [WORLD_LEAGUE, "LCK", "LCKCL", "LPL", "CBLOL", "LEC", "LCS"];
-const DATA_LEAGUES = TARGET_LEAGUES.filter((league) => league !== WORLD_LEAGUE);
+const DATA_LEAGUES = [...TARGET_LEAGUES];
+const DOMESTIC_LEAGUES = TARGET_LEAGUES.filter((league) => league !== WORLD_LEAGUE);
 const LEAGUE_LABELS = { LCKCL: "LCK CL", MUNDIAL: "Mundial" };
 const ROLES = ["TOP", "JUNGLE", "MID", "ADC", "SUP"];
 const DEFAULT_SIGMA = 8.3;
@@ -73,6 +74,7 @@ const state = {
   indexes: null,
   elements: {},
   lastPrediction: null,
+  datasetSource: "local",
 };
 
 function getEl(id) {
@@ -1559,7 +1561,8 @@ function updatePrediction() {
   renderSignalPanel(selectedPicks);
 
   const datasetLabel = league === WORLD_LEAGUE ? "Mundial (todas as ligas)" : leagueLabel(league);
-  state.elements.datasetStatus.textContent = `${leagueGames.length} mapas carregados para ${datasetLabel}. Modelo calibrado por liga, recencia, times e picks por role.`;
+  const sourceLabel = state.datasetSource === "remote" ? " Base online atualizada." : " Base local.";
+  state.elements.datasetStatus.textContent = `${leagueGames.length} mapas carregados para ${datasetLabel}. Modelo calibrado por liga, recencia, times e picks por role.${sourceLabel}`;
 }
 
 function saveMarketSnapshot() {
@@ -1677,6 +1680,49 @@ function bindElements() {
   };
 }
 
+async function fetchRemoteJson(url, timeoutMs = 5000) {
+  if (!url) return null;
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), timeoutMs);
+  try {
+    const response = await fetch(url, { cache: "no-store", signal: controller.signal });
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    return await response.json();
+  } finally {
+    clearTimeout(timeout);
+  }
+}
+
+async function loadRemoteData() {
+  const config = window.GOL_REMOTE_DATA || {};
+  if (!config.gamesUrl) return;
+
+  const localData = window.GOL_GAMES_DATA || { games: [] };
+  const historicalPromise = config.historicalUrl
+    ? fetchRemoteJson(config.historicalUrl).catch((error) => {
+        console.warn("Analytics online indisponivel; usando analytics local.", error);
+        return null;
+      })
+    : Promise.resolve(null);
+  try {
+    const remoteData = await fetchRemoteJson(config.gamesUrl);
+    const remoteGames = remoteData?.games || [];
+    if (!Array.isArray(remoteGames) || remoteGames.length < (localData.games || []).length) {
+      throw new Error("dataset remoto menor ou invalido");
+    }
+    window.GOL_GAMES_DATA = remoteData;
+    state.datasetSource = "remote";
+
+    const historical = await historicalPromise;
+    if (historical?.sourceGames === remoteGames.length && Array.isArray(historical.games)) {
+      window.GOL_HISTORICAL_ANALYSIS = historical;
+    }
+  } catch (error) {
+    state.datasetSource = "local";
+    console.warn("Base online indisponivel; usando base local.", error);
+  }
+}
+
 function init() {
   bindElements();
   const data = window.GOL_GAMES_DATA || { games: [] };
@@ -1689,7 +1735,7 @@ function init() {
 
   state.elements.gamesCount.textContent = state.games.length;
   state.elements.championsCount.textContent = state.indexes.champions.length;
-  state.elements.leaguesCount.textContent = DATA_LEAGUES.filter((league) => state.indexes.leagues.has(league)).length;
+  state.elements.leaguesCount.textContent = DOMESTIC_LEAGUES.filter((league) => state.indexes.leagues.has(league)).length;
 
   state.elements.leagueSelect.addEventListener("change", updatePatchAndTeams);
   state.elements.patchSelect.addEventListener("change", updatePrediction);
@@ -1719,6 +1765,15 @@ function init() {
   const clearHistBtn = document.getElementById("clearHistoryButton");
   if (clearHistBtn) clearHistBtn.addEventListener("click", clearBettingHistory);
   document.getElementById("exportHistoryButton")?.addEventListener("click", exportHistory);
+  const linkBackupButton = document.getElementById("linkBackupFileButton");
+  if (linkBackupButton) {
+    if (supportsPersistentFileBackup()) {
+      linkBackupButton.addEventListener("click", choosePersistentBackupFile);
+      void updatePersistentBackupButton();
+    } else {
+      linkBackupButton.hidden = true;
+    }
+  }
   const importBtn = document.getElementById("importHistoryButton");
   const importFile = document.getElementById("importHistoryFile");
   if (importBtn && importFile) {
@@ -1755,7 +1810,7 @@ function getBettingHistory() {
 
 function saveBettingHistory(history) {
   localStorage.setItem(BET_KEY, JSON.stringify(history));
-  registerHistoryChange();
+  registerHistoryChange(history);
 }
 
 // ─── BACKUP DO HISTÓRICO ──────────────────────────────────────────────────────
@@ -1765,6 +1820,94 @@ function saveBettingHistory(history) {
 
 const BACKUP_META_KEY = "golBettingBackupMeta";
 const BACKUP_EVERY = 5;
+const BACKUP_DB_NAME = "golKillsBackups";
+const BACKUP_DB_STORE = "handles";
+const BACKUP_HANDLE_KEY = "bettingHistory";
+let backupWriteQueue = Promise.resolve();
+
+function supportsPersistentFileBackup() {
+  return "showSaveFilePicker" in window && "indexedDB" in window;
+}
+
+function openBackupDb() {
+  return new Promise((resolve, reject) => {
+    const request = indexedDB.open(BACKUP_DB_NAME, 1);
+    request.onupgradeneeded = () => {
+      if (!request.result.objectStoreNames.contains(BACKUP_DB_STORE)) {
+        request.result.createObjectStore(BACKUP_DB_STORE);
+      }
+    };
+    request.onsuccess = () => resolve(request.result);
+    request.onerror = () => reject(request.error);
+  });
+}
+
+async function getPersistentBackupHandle() {
+  if (!supportsPersistentFileBackup()) return null;
+  const db = await openBackupDb();
+  return new Promise((resolve, reject) => {
+    const transaction = db.transaction(BACKUP_DB_STORE, "readonly");
+    const request = transaction.objectStore(BACKUP_DB_STORE).get(BACKUP_HANDLE_KEY);
+    request.onsuccess = () => resolve(request.result || null);
+    request.onerror = () => reject(request.error);
+    transaction.oncomplete = () => db.close();
+  });
+}
+
+async function setPersistentBackupHandle(handle) {
+  const db = await openBackupDb();
+  return new Promise((resolve, reject) => {
+    const transaction = db.transaction(BACKUP_DB_STORE, "readwrite");
+    transaction.objectStore(BACKUP_DB_STORE).put(handle, BACKUP_HANDLE_KEY);
+    transaction.oncomplete = () => { db.close(); resolve(); };
+    transaction.onerror = () => { db.close(); reject(transaction.error); };
+  });
+}
+
+function historyBackupPayload(history) {
+  return JSON.stringify({ backedUpAt: new Date().toISOString(), bets: history }, null, 2);
+}
+
+async function writePersistentHistoryBackup(history, requestPermission = false) {
+  const handle = await getPersistentBackupHandle();
+  if (!handle) return false;
+  let permission = await handle.queryPermission({ mode: "readwrite" });
+  if (permission !== "granted" && requestPermission) {
+    permission = await handle.requestPermission({ mode: "readwrite" });
+  }
+  if (permission !== "granted") return false;
+  const writable = await handle.createWritable();
+  await writable.write(historyBackupPayload(history));
+  await writable.close();
+  markBackupDone({ backupFileName: handle.name });
+  await updatePersistentBackupButton();
+  return true;
+}
+
+async function choosePersistentBackupFile() {
+  try {
+    const handle = await window.showSaveFilePicker({
+      suggestedName: "total-kills-apostas.json",
+      types: [{ description: "Backup JSON", accept: { "application/json": [".json"] } }],
+    });
+    await setPersistentBackupHandle(handle);
+    await writePersistentHistoryBackup(getBettingHistory(), true);
+  } catch (error) {
+    if (error?.name !== "AbortError") alert("Nao foi possivel vincular o arquivo de backup.");
+  }
+}
+
+async function updatePersistentBackupButton() {
+  const button = document.getElementById("linkBackupFileButton");
+  if (!button || !supportsPersistentFileBackup()) return;
+  try {
+    const handle = await getPersistentBackupHandle();
+    button.textContent = handle ? `Arquivo: ${handle.name}` : "Vincular arquivo";
+    button.title = handle ? "Trocar arquivo de backup automatico" : "Salvar o historico automaticamente em um arquivo";
+  } catch {
+    button.textContent = "Vincular arquivo";
+  }
+}
 
 function getBackupMeta() {
   try { return JSON.parse(localStorage.getItem(BACKUP_META_KEY) || "{}") || {}; } catch { return {}; }
@@ -1774,20 +1917,26 @@ function setBackupMeta(meta) {
   localStorage.setItem(BACKUP_META_KEY, JSON.stringify(meta));
 }
 
-function markBackupDone() {
-  setBackupMeta({ lastBackupAt: new Date().toISOString(), changes: 0 });
+function markBackupDone(extra = {}) {
+  setBackupMeta({ ...getBackupMeta(), ...extra, lastBackupAt: new Date().toISOString(), changes: 0 });
   updateBackupStatus();
 }
 
-function registerHistoryChange() {
+function registerHistoryChange(history) {
   const meta = getBackupMeta();
   const changes = (meta.changes || 0) + 1;
-  if (changes >= BACKUP_EVERY && getBettingHistory().length) {
-    downloadHistoryBackup();
-    return;
-  }
   setBackupMeta({ ...meta, changes });
   updateBackupStatus();
+  backupWriteQueue = backupWriteQueue.then(async () => {
+    try {
+      if (await writePersistentHistoryBackup(history)) return;
+    } catch (error) {
+      console.warn("Falha no backup persistente; mantendo fallback por download.", error);
+    }
+    if ((getBackupMeta().changes || 0) >= BACKUP_EVERY && getBettingHistory().length) {
+      downloadHistoryBackup();
+    }
+  });
 }
 
 function downloadHistoryBackup() {
@@ -1795,7 +1944,7 @@ function downloadHistoryBackup() {
   if (!history.length) return;
   downloadFile(
     `apostas-backup-${datestamp()}.json`,
-    JSON.stringify({ backedUpAt: new Date().toISOString(), bets: history }, null, 2),
+    historyBackupPayload(history),
     "application/json"
   );
   markBackupDone();
@@ -1812,7 +1961,10 @@ function updateBackupStatus() {
   }
   const meta = getBackupMeta();
   const changes = meta.changes || 0;
-  if (!meta.lastBackupAt) {
+  if (meta.backupFileName && changes === 0) {
+    el.textContent = `Backup automatico: ${meta.backupFileName}`;
+    el.className = "backup-status ok";
+  } else if (!meta.lastBackupAt) {
     el.textContent = "Histórico nunca exportado — clique Exportar";
     el.className = "backup-status warn";
   } else if (changes === 0) {
@@ -1841,18 +1993,31 @@ function importHistory(file) {
       return;
     }
     const merged = [...getBettingHistory()];
-    const knownIds = new Set(merged.map((bet) => bet.betId));
+    const indexById = new Map(merged.map((bet, index) => [bet.betId, index]));
     let added = 0;
+    let updated = 0;
     for (const bet of imported) {
-      if (!bet || !bet.betId || knownIds.has(bet.betId)) continue;
-      knownIds.add(bet.betId);
-      merged.push(bet);
-      added += 1;
+      if (!bet || !bet.betId) continue;
+      const existingIndex = indexById.get(bet.betId);
+      if (existingIndex === undefined) {
+        indexById.set(bet.betId, merged.length);
+        merged.push(bet);
+        added += 1;
+        continue;
+      }
+      const existing = merged[existingIndex];
+      const existingTime = Date.parse(existing.resolvedAt || existing.createdAt || 0) || 0;
+      const importedTime = Date.parse(bet.resolvedAt || bet.createdAt || 0) || 0;
+      const restoresResult = existing.result == null && bet.result != null;
+      if (restoresResult || importedTime > existingTime) {
+        merged[existingIndex] = { ...existing, ...bet };
+        updated += 1;
+      }
     }
-    saveBettingHistory(merged);
+    if (added || updated) saveBettingHistory(merged);
     renderBettingHistory();
     updateSnapshotStatus();
-    alert(`Importacao concluida: ${added} aposta(s) nova(s), ${merged.length} no total.`);
+    alert(`Importacao concluida: ${added} nova(s), ${updated} atualizada(s), ${merged.length} no total.`);
   };
   reader.readAsText(file);
 }
@@ -2033,9 +2198,11 @@ function confirmBetResult(betId, result) {
 
 function clearBettingHistory() {
   if (!confirm("Apagar todo o histórico de apostas?")) return;
+  if (getBettingHistory().length) downloadHistoryBackup();
   localStorage.removeItem(BET_KEY);
   renderBettingHistory();
   updateSnapshotStatus();
+  updateBackupStatus();
 }
 
 function calcHistoryStats(history) {
@@ -2780,6 +2947,7 @@ function exportHistory() {
   markBackupDone();
 }
 
-document.addEventListener("DOMContentLoaded", init);
-
-
+document.addEventListener("DOMContentLoaded", async () => {
+  await loadRemoteData();
+  init();
+});

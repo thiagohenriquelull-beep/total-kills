@@ -1,3 +1,8 @@
 node_modules/
 *.log
 Thumbs.db
+.claude/settings.local.json
+backups/games.before-merge-*.json
+backups/games.before-merge-*.js
+backups/merged-input-*.json
+backups/before-*/

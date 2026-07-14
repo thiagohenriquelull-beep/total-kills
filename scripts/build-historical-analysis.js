@@ -7,6 +7,7 @@ const path = require("path");
 
 const CSV_PATH = path.join(__dirname, "../data/final-rule-backtest.csv");
 const OUT_PATH = path.join(__dirname, "../data/historical-analysis.js");
+const JSON_OUT_PATH = path.join(__dirname, "../data/historical-analysis.json");
 
 const text = fs.readFileSync(CSV_PATH, "utf8");
 const rows = text.trim().split("\n");
@@ -65,7 +66,7 @@ const payload = {
   generatedAt: new Date().toISOString(),
   methodology: "Walk-forward por liga (min 30 jogos treino). Linha simulada = linha justa pre-draft do modelo. Odds: 1.80/1.80.",
   sourceGames: sourceData.games.length,
-  generatedFromGamesUpdatedAt: sourceData.meta?.createdAt || null,
+  generatedFromGamesUpdatedAt: sourceData.meta?.updatedAt || sourceData.meta?.createdAt || null,
   backtestRows: rows.length - 1,
   count: games.length,
   games,
@@ -77,5 +78,6 @@ window.GOL_HISTORICAL_ANALYSIS = ${JSON.stringify(payload)};
 `;
 
 fs.writeFileSync(OUT_PATH, output, "utf8");
+fs.writeFileSync(JSON_OUT_PATH, `${JSON.stringify(payload, null, 2)}\n`, "utf8");
 const kb = (output.length / 1024).toFixed(1);
-console.log(`OK: ${OUT_PATH} (${games.length} jogos, ${kb} KB)`);
+console.log(`OK: ${OUT_PATH} + ${JSON_OUT_PATH} (${games.length} jogos, ${kb} KB)`);

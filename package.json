@@ -9,6 +9,8 @@
     "merge": "node scripts/merge-new-games.js",
     "refresh": "node scripts/refresh-analytics.js",
     "update": "node scripts/weekly-update.js",
+    "sync-data": "node scripts/sync-games-js.js",
+    "configure-remote": "node scripts/configure-remote-data.js",
     "check": "node scripts/check-state.js"
   }
 }

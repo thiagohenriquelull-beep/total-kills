@@ -19,14 +19,14 @@ if (fs.existsSync(haPath)) {
 
   // Conta entradas de jogo — cada jogo tem "pred" field
   const predCount = (haText.match(/"pred"\s*:/g) || []).length;
-  const caMatch   = haText.match(/"createdAt"\s*:\s*"([^"]+)"/);
+const generatedMatch = haText.match(/"generatedAt"\s*:\s*"([^"]+)"/);
   const srcMatch  = haText.match(/"sourceGames"\s*:\s*(\d+)/);
 
   console.log("\n── historical-analysis.js ──────────────────────────");
   console.log("  Modificado  :", haStat.mtime.toISOString());
   console.log("  Tamanho     :", Math.round(haStat.size / 1024) + " KB");
   console.log("  Entradas (pred:):", predCount);
-  console.log("  createdAt   :", caMatch ? caMatch[1] : "não encontrado");
+console.log("  generatedAt :", generatedMatch ? generatedMatch[1] : "não encontrado");
   console.log("  sourceGames :", srcMatch ? srcMatch[1] : "não encontrado");
 } else {
   console.log("\n── historical-analysis.js ──────────────────────────");

@@ -1,16 +1,17 @@
-﻿const CACHE = "gol-kills-world-20260627";
+﻿const CACHE = "gol-kills-remote-data-20260713";
 
 const PRECACHE = [
   "./",
-  "./index.html?v=world-20260627",
-  "./styles.css?v=world-20260627",
-  "./app.js?v=world-20260627",
-  "./model-core.js?v=world-20260627",
-  "./data/games.js?v=world-20260627",
-  "./data/historical-analysis.js?v=world-20260627",
+  "./index.html?v=remote-data-20260713",
+  "./styles.css?v=remote-data-20260713",
+  "./remote-config.js?v=remote-data-20260713",
+  "./app.js?v=remote-data-20260713",
+  "./model-core.js?v=remote-data-20260713",
+  "./data/games.js?v=remote-data-20260713",
+  "./data/historical-analysis.js?v=remote-data-20260713",
   "./icons/icon-192.png",
   "./icons/icon-512.png",
-  "./manifest.json?v=world-20260627",
+  "./manifest.json?v=remote-data-20260713",
 ];
 
 self.addEventListener("install", (event) => {
@@ -35,7 +36,8 @@ self.addEventListener("fetch", (event) => {
   const networkFirst =
     event.request.mode === "navigate" ||
     ["script", "style"].includes(event.request.destination) ||
-    url.pathname.endsWith("/data/games.js");
+    url.pathname.endsWith("/data/games.js") ||
+    url.origin !== self.location.origin;
 
   if (networkFirst) {
     event.respondWith(

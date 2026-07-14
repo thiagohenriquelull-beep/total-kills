@@ -13,7 +13,7 @@ const data = require(path.join(root, "data", "games.json"));
 const games = data.games;
 
 const ROLES_COUNT = 5;
-const KNOWN_LEAGUES = ["LCK", "LCKCL", "LPL", "CBLOL", "LEC", "LCS"];
+const KNOWN_LEAGUES = ["LCK", "LCKCL", "LPL", "CBLOL", "LEC", "LCS", "MUNDIAL"];
 
 test("dataset carrega e nao esta vazio", () => {
   assert.ok(Array.isArray(games) && games.length >= 1465, `esperado >= 1465 jogos, ha ${games.length}`);
@@ -27,6 +27,22 @@ test("zero duplicatas por id", () => {
   }
 });
 
+test("zero mapas semanticamente duplicados", () => {
+  const seen = new Map();
+  for (const g of games) {
+    const teams = [g.teamA, g.teamB].sort().join("|");
+    const picks = [...(g.picks?.teamA || []), "vs", ...(g.picks?.teamB || [])].join("|");
+    const key = [g.league, g.date, teams, g.totalKills, picks].join("::");
+    assert.ok(!seen.has(key), `mapas semanticamente duplicados: ids ${seen.get(key)} e ${g.id}`);
+    seen.set(key, g.id);
+  }
+});
+
+test("MSI 2026 esta presente como dados MUNDIAL", () => {
+  const mundial = games.filter((g) => g.league === "MUNDIAL" && g.tournament === "MSI 2026");
+  assert.ok(mundial.length >= 71, `esperado >= 71 mapas do MSI 2026, ha ${mundial.length}`);
+});
+
 test("todos os jogos tem campos obrigatorios validos", () => {
   for (const g of games) {
     assert.ok(KNOWN_LEAGUES.includes(g.league), `liga desconhecida: ${g.league} (id ${g.id})`);
@@ -36,7 +52,10 @@ test("todos os jogos tem campos obrigatorios validos", () => {
     assert.ok(g.teamA && g.teamB, `time vazio no id ${g.id}`);
     assert.equal((g.picks?.teamA || []).filter(Boolean).length, ROLES_COUNT, `picks teamA != 5 no id ${g.id}`);
     assert.equal((g.picks?.teamB || []).filter(Boolean).length, ROLES_COUNT, `picks teamB != 5 no id ${g.id}`);
-    assert.ok(g.sourceUrl && g.sourceUrl.startsWith("http"), `sourceUrl invalida no id ${g.id}`);
+    const source = new URL(g.sourceUrl);
+    assert.equal(source.protocol, "https:", `sourceUrl sem HTTPS no id ${g.id}`);
+    assert.equal(source.hostname, "gol.gg", `sourceUrl fora do GOL.gg no id ${g.id}`);
+    assert.ok(!source.pathname.includes("/../"), `sourceUrl nao normalizada no id ${g.id}`);
   }
 });
 

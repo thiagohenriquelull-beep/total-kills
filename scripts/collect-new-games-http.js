@@ -7,6 +7,7 @@ const CURRENT_FILE = path.join(DATA_DIR, "games.json");
 const OUT_FILE = path.join(DATA_DIR, "jogos-novos.json");
 const REPORT_FILE = path.join(DATA_DIR, "jogos-novos-report.md");
 const SEASON = "S16";
+const COLLECTOR_VERSION = "new-games-http-2026-07-13";
 // Ate quando coletar: argumento CLI ou env UNTIL_DATE; padrao = hoje.
 const UNTIL_DATE = process.argv[2] || process.env.UNTIL_DATE || new Date().toISOString().slice(0, 10);
 const HOLES_FILE = path.join(DATA_DIR, "buracos-historicos.json");
@@ -14,6 +15,7 @@ const BASE = "https://gol.gg/teams";
 const ROLES = ["TOP", "JUNGLE", "MID", "ADC", "SUP"];
 
 const RULES = {
+  MUNDIAL: { include: [/^MSI 2026$/i], exclude: [] },
   LCK: { include: [/^LCK 20\d{2}\b/i], exclude: [/\bCL\b/i] },
   LCKCL: { include: [/^LCK CL 20\d{2}\b/i], exclude: [] },
   LPL: { include: [/^LPL 20\d{2}\b/i], exclude: [] },
@@ -152,7 +154,7 @@ function parseMatchRows(html, item, team) {
     const link = rowHtml.match(/<a\b[^>]*href=["']([^"']*\/game\/stats\/\d+\/page-game\/?[^"']*)["'][^>]*>([\s\S]*?)<\/a>/i);
     if (!link) continue;
     const rawHref = decodeHtml(link[1]);
-    const href = rawHref.startsWith("http") ? rawHref : `https://gol.gg${rawHref.startsWith("/") ? "" : "/"}${rawHref}`;
+    const href = new URL(rawHref, "https://gol.gg/teams/").href;
     const id = parseGameId(href);
     const cells = [];
     for (const cell of rowHtml.matchAll(/<(?:td|th)\b[^>]*>([\s\S]*?)<\/(?:td|th)>/gi)) {
@@ -254,7 +256,7 @@ function parseGameDetails(html, candidate) {
     killsB,
     totalKills: Number.isFinite(killsA) && Number.isFinite(killsB) ? killsA + killsB : NaN,
     collectedAt: new Date().toISOString(),
-    collectorVersion: "new-games-http-2026-05-30",
+    collectorVersion: COLLECTOR_VERSION,
     picks: {
       teamA: pickTables[0] || [],
       teamB: pickTables[1] || [],
@@ -328,7 +330,7 @@ async function main() {
   const currentGames = current.games || [];
   const existingIds = new Set(currentGames.map((game) => String(game.id)));
   const latest = latestByLeague(currentGames);
-  const leagues = Object.keys(latest).filter((league) => RULES[league]).sort();
+  const leagues = Object.keys(RULES).sort();
   const plan = await discoverPlan(leagues);
   const newGames = [];
   const holeGames = [];
@@ -338,7 +340,7 @@ async function main() {
   console.table(Object.entries(latest).filter(([league]) => leagues.includes(league)).map(([league, item]) => ({ league, ...item })));
 
   for (const league of leagues) {
-    const leagueLatest = latest[league];
+    const leagueLatest = latest[league] || { date: "0000-00-00", id: "", game: "" };
     const leagueReport = {
       league,
       latestDate: leagueLatest.date,
@@ -433,7 +435,7 @@ async function main() {
     meta: {
       source: "GOL HTTP public pages",
       createdAt: new Date().toISOString(),
-      collectorVersion: "new-games-http-2026-05-30",
+      collectorVersion: COLLECTOR_VERSION,
       season: SEASON,
       untilDate: UNTIL_DATE,
       existingDataset: path.basename(CURRENT_FILE),
@@ -471,7 +473,7 @@ async function main() {
     "",
     "| Liga | Ultima data base | Mais recente visto no GOL | Candidatos fora da base | Antes da ultima data | Jogos novos validos | Patches |",
     "|---|---:|---:|---:|---:|---:|---|",
-    ...report.map((item) => `| ${item.league} | ${item.latestDate} | ${item.latestSeenOnGol?.date || "--"} | ${item.candidateIds} | ${item.skippedBeforeLatest} | ${item.newGames} | ${item.patches.length ? item.patches.join(", ") : "--"} |`),
+    ...report.map((item) => `| ${item.league} | ${item.latestDate === "0000-00-00" ? "--" : item.latestDate} | ${item.latestSeenOnGol?.date || "--"} | ${item.candidateIds} | ${item.skippedBeforeLatest} | ${item.newGames} | ${item.patches.length ? item.patches.join(", ") : "--"} |`),
     "",
     `Total de jogos novos validos: ${newGames.length}`,
     "",

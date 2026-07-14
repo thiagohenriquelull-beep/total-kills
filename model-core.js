@@ -5,6 +5,7 @@
 })(typeof globalThis !== "undefined" ? globalThis : window, function factory() {
   const WORLD_LEAGUE = "MUNDIAL";
   const TARGET_LEAGUES = ["LCK", "LCKCL", "LPL", "CBLOL", "LEC", "LCS"];
+  const DATA_LEAGUES = [...TARGET_LEAGUES, WORLD_LEAGUE];
   const ROLES = ["TOP", "JUNGLE", "MID", "ADC", "SUP"];
   const DEFAULT_SIGMA = 8.3;
   // Per-league prediction RMSE derived from cross-league walk-forward backtest
@@ -15,7 +16,7 @@
     CBLOL: 7.64,
     LEC: 8.30,
     LCS: 7.09,
-    MUNDIAL: DEFAULT_SIGMA,
+    MUNDIAL: 10.54,
   };
   const BLOCKED_THRESHOLD = 99;
   const DRAFT_MARKET_POLICY = {
@@ -25,6 +26,7 @@
     },
     warnedLeagues: {
       LCS: "amostra menor",
+      MUNDIAL: "amostra internacional de um torneio",
     },
     buckets: [
       {
@@ -352,7 +354,7 @@
         ...DEFAULT_HOUSE_POLICY.sideThresholds,
         ...((policy || {}).sideThresholds || {}),
       },
-      validationStats: Object.fromEntries(TARGET_LEAGUES.map((league) => [
+      validationStats: Object.fromEntries(DATA_LEAGUES.map((league) => [
         league,
         {
           ...(DEFAULT_HOUSE_POLICY.validationStats[league] || {}),
@@ -371,21 +373,26 @@
     const champions = new Set();
 
     for (const game of games) {
-      if (!TARGET_LEAGUES.includes(game.league) || !Number.isFinite(game.totalKills)) continue;
-      if (!leagues.has(game.league)) leagues.set(game.league, []);
-      leagues.get(game.league).push(game);
+      if (!DATA_LEAGUES.includes(game.league) || !Number.isFinite(game.totalKills)) continue;
 
-      if (!patchesByLeague.has(game.league)) patchesByLeague.set(game.league, new Set());
-      patchesByLeague.get(game.league).add(game.patch || "ALL");
+      // Jogos internacionais entram apenas no indice sintetico MUNDIAL.
+      // Jogos domesticos entram na propria liga e tambem no indice mundial.
+      if (game.league !== WORLD_LEAGUE) {
+        if (!leagues.has(game.league)) leagues.set(game.league, []);
+        leagues.get(game.league).push(game);
 
-      if (!teamsByLeague.has(game.league)) teamsByLeague.set(game.league, new Set());
-      teamsByLeague.get(game.league).add(game.teamA);
-      teamsByLeague.get(game.league).add(game.teamB);
+        if (!patchesByLeague.has(game.league)) patchesByLeague.set(game.league, new Set());
+        patchesByLeague.get(game.league).add(game.patch || "ALL");
 
-      for (const team of [game.teamA, game.teamB]) {
-        const key = `${game.league}::${team}`;
-        if (!teamGames.has(key)) teamGames.set(key, []);
-        teamGames.get(key).push(game);
+        if (!teamsByLeague.has(game.league)) teamsByLeague.set(game.league, new Set());
+        teamsByLeague.get(game.league).add(game.teamA);
+        teamsByLeague.get(game.league).add(game.teamB);
+
+        for (const team of [game.teamA, game.teamB]) {
+          const key = `${game.league}::${team}`;
+          if (!teamGames.has(key)) teamGames.set(key, []);
+          teamGames.get(key).push(game);
+        }
       }
 
       if (!leagues.has(WORLD_LEAGUE)) leagues.set(WORLD_LEAGUE, []);
@@ -601,7 +608,7 @@
         continue;
       }
       const errors = calibration.map((game) => game.totalKills - predictRaw(coreIndex, game, true).prediction);
-      globalErrors.push(...errors);
+      if (league !== WORLD_LEAGUE) globalErrors.push(...errors);
       const raw = mean(errors);
       const value = clamp(raw * shrink(errors.length, opts.offsetShrink) * opts.offsetWeight, -opts.offsetCap, opts.offsetCap);
       offsets.set(league, { value, raw, n: errors.length });
@@ -615,7 +622,7 @@
 
   function buildModel(games, options) {
     const opts = normalizeOptions(options);
-    const cleanGames = games.filter((game) => TARGET_LEAGUES.includes(game.league) && Number.isFinite(game.totalKills));
+    const cleanGames = games.filter((game) => DATA_LEAGUES.includes(game.league) && Number.isFinite(game.totalKills));
     const index = buildRawIndex(cleanGames, opts);
     const calibration = computeOffsets(cleanGames, opts);
     index.offsets = calibration.offsets;
@@ -623,7 +630,9 @@
     index.predict = function predict(game, includePicks = true) {
       const result = predictRaw(index, game, includePicks);
       const offset = index.offsets.get(game.league) || { value: 0, raw: 0, n: 0 };
-      const globalOffset = index.globalOffset || { value: 0, raw: 0, n: 0 };
+      const globalOffset = game.league === WORLD_LEAGUE
+        ? { value: 0, raw: 0, n: 0 }
+        : (index.globalOffset || { value: 0, raw: 0, n: 0 });
       result.prediction += offset.value + globalOffset.value;
       result.correction = {
         value: offset.value + globalOffset.value,
@@ -691,6 +700,7 @@
   return {
     WORLD_LEAGUE,
     TARGET_LEAGUES,
+    DATA_LEAGUES,
     ROLES,
     DEFAULT_OPTIONS,
     DEFAULT_HOUSE_POLICY,

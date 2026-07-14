@@ -14,8 +14,8 @@ O modelo prevê kills a partir de médias históricas por time (com shrinkage), 
 
 ## 1. Estado atual do modelo (no momento desta escrita)
 
-- **Dataset:** 1368 mapas, temporada S16 inteira, em `games.js` / `games.json`. Ligas: LPL (314), LCK (200), LCK CL (315), LEC (232), LCS (141), CBLOL (166).
-- **Range de patch:** 16.1 → 16.11. LEC e LCK CL ainda em 16.10; LCS e CBLOL já em 16.11; resto em 16.10.
+- **Dataset:** 1662 mapas S16 em `games.js` / `games.json`. Ligas domésticas: LPL (453), LCK (224), LCK CL (338), LEC (246), LCS (157), CBLOL (173). Internacional: MUNDIAL/MSI 2026 (71). Em 2026-07-13 foram preenchidos 126 buracos históricos de janeiro e, em seguida, os 71 mapas do MSI. A LCK Cup antiga foi deliberadamente excluída por decisão do usuário.
+- **Range de patch:** 16.1 → 16.13. Os 71 mapas do MSI foram disputados no patch 16.13.
 - **Limiar de EV padrão:** 5% (`DEFAULT_BET_POLICY.minEv = 0.05`). Não foi alterado — ver seção de becos sem saída sobre por que não baixamos.
 - **Viés do modelo:** residual de −0.3 a −0.6 kills (subestimação leve) em quase todas as ligas; LCS levemente sobre-estima (+0.32). **Bem calibrado, sem viés explorável.** (Ver seção 4 — isto contradiz números antigos que eram falsos.)
 - **sigma do modelo:** ~8.3 kills, calibrado (RMSE 8.06 no pick 8, std(z)=0.98). O erro de contagem de kills é genuíno e grande; o que torna o modelo útil é a acurácia *direcional*, não a precisão da contagem.
@@ -131,6 +131,29 @@ Após merge validado, recalcular a cadeia inteira antes de confiar no drawer/ana
 ### 3.10 Backtest sintético vs validação real
 Backtest com linha simulada é régua de diagnóstico, não prova definitiva de ROI real. A decisão prática deve ser validada pelo registro ao vivo: linha real da casa, odd real, estágio do draft, lado apostado, EV pré-game, EV/delta de draft, resultado e P&L. O histórico real de apostas é o único out-of-sample limpo; depois que um jogo entra no dataset, ele deixa de servir como validação independente.
 
+### 3.11 Infraestrutura (adicionada em 2026-07-13)
+- **Git:** o projeto agora é repositório git local. Backups por cópia de arquivo são redundantes; os antigos foram movidos para `backups/`. Commitar após cada merge de dados.
+- **Testes:** `npm test` roda 22 testes — golden tests do modelo sobre fixture congelado (`tests/fixtures/games-fixture.json`, 240 jogos, NÃO regenerar) + sanidade do dataset vivo (checklist 3.8), incluindo duplicatas semânticas e presença dos dados do MSI. Se um golden falhar sem mudança proposital no `model-core.js`, é regressão: investigar, não ajustar o golden.
+- **Merge seguro:** `node scripts/merge-new-games.js [arquivo]` — normaliza nomes (bug 3.5), valida checklist 3.8, faz backup, mergeia, regenera `games.js` e confere. Nunca mais editar `games.js`/`games.json` à mão.
+- **Analytics:** `npm run refresh` roda a cadeia 3.9 inteira. `historical-analysis.js` agora carrega `sourceGames`/`generatedFromGamesUpdatedAt`/`backtestRows`, e o app mostra aviso quando o analytics está defasado em relação ao dataset.
+- **Atualização semanal:** `npm run update` = coleta (até hoje) → merge → testes → analytics, abortando em falha. Existe a skill `.claude/skills/atualizar-jogos/` que documenta o fluxo para a IA. Buracos históricos vão para `data/buracos-historicos.json` e o merge deles é decisão manual.
+- **Histórico de apostas:** o app pode vincular um arquivo JSON pelo File System Access API e o atualiza a cada alteração. O download automático a cada 5 alterações continua como fallback; o drawer mostra status e permite Importar (mescla por `betId`).
+
+### 3.11.1 Base online sem deploy do Netlify
+- O app pode carregar `games.json` e `historical-analysis.json` de URLs configuradas em `remote-config.js`, sempre com fallback para os arquivos locais embutidos.
+- A branch pública `live-data` recebe somente os JSONs de partidas/analytics e um `status.json`. Histórico de apostas nunca é enviado.
+- `.github/workflows/update-live-data.yml` restaura a última base remota, coleta diariamente, valida, testa e publica apenas se a contagem/conteúdo de jogos mudou.
+- O Netlify deve permanecer desconectado do GitHub. Depois da publicação inicial desta versão, atualizações da branch de dados não geram deploy nem consomem a cota de publicação.
+- Configuração detalhada em `GUIA-BASE-ONLINE.md`.
+
+### 3.12 Dados internacionais (`MUNDIAL`)
+- Jogos internacionais reais são armazenados com `league: "MUNDIAL"`; no momento, são os 71 mapas do MSI 2026.
+- A opção MUNDIAL usa um índice sintético com todas as ligas domésticas e os jogos internacionais. Como o decay privilegia recência, o MSI passa a representar o ritmo internacional atual sem apagar o histórico dos times e campeões.
+- Um jogo já marcado como MUNDIAL entra apenas uma vez nesse índice. Ele não alimenta os offsets globais das ligas domésticas e, portanto, não altera silenciosamente LCK/LPL/LEC/LCS/CBLOL/LCK CL.
+- O backtest doméstico (`expanded-*.json`) permanece separado. O MUNDIAL pode exibir recomendação, mas ela é marcada como amostra internacional curta e não possui ROI histórico próprio validado; ampliar a amostra com futuros eventos internacionais.
+- O sigma do MUNDIAL é `10.54`, calibrado nos 41 mapas do MSI disponíveis em walk-forward após `MIN_TRAIN=30`. O bias pós-draft foi baixo (`-0.31` kill), mas a variância foi maior que nas ligas domésticas; usar `8.3` inflava o EV internacional.
+- A coleta incremental reconhece `MSI 2026`. A LCK Cup antiga permanece fora das regras de coleta por decisão explícita do usuário.
+
 ---
 
 ## 4. Becos sem saída — NÃO reabrir (com o porquê)
@@ -190,6 +213,3 @@ Todas dependem do mesmo dado que falta: **registro ao vivo de previsão + linha 
 ---
 
 *Fim do contexto. Mantenha este documento atualizado quando decisões estruturais mudarem. Em conflito entre este documento e a memória de uma conversa, o estado real dos arquivos no disco (`games.js`, `model-core.js`) prevalece — verifique antes de assumir.*
-
-
-

@@ -5,9 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#2563eb">
   <title>GOL Kills Predictor</title>
-  <link rel="manifest" href="manifest.json?v=world-20260627">
+  <link rel="manifest" href="manifest.json?v=remote-data-20260713">
   <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
-  <link rel="stylesheet" href="styles.css?v=world-20260627">
+  <link rel="stylesheet" href="styles.css?v=remote-data-20260713">
 </head>
 <body>
   <main class="app-shell">
@@ -287,6 +287,7 @@
       <h2>Histórico de Apostas</h2>
       <div class="history-header-actions">
         <small id="backupStatus" class="backup-status"></small>
+        <button id="linkBackupFileButton" type="button" class="export-history-btn">Vincular arquivo</button>
         <button id="exportHistoryButton" type="button" class="export-history-btn">Exportar</button>
         <button id="importHistoryButton" type="button" class="export-history-btn">Importar</button>
         <button id="clearHistoryButton" type="button">Limpar tudo</button>
@@ -332,10 +333,11 @@
   <!-- Overlay escurece o fundo quando gaveta está aberta -->
   <div class="drawer-overlay" id="drawerOverlay"></div>
 
-  <script src="data/games.js?v=world-20260627"></script>
-  <script src="data/historical-analysis.js?v=world-20260627"></script>
-  <script src="model-core.js?v=world-20260627"></script>
-  <script src="app.js?v=world-20260627"></script>
+  <script src="remote-config.js?v=remote-data-20260713"></script>
+  <script src="data/games.js?v=remote-data-20260713"></script>
+  <script src="data/historical-analysis.js?v=remote-data-20260713"></script>
+  <script src="model-core.js?v=remote-data-20260713"></script>
+  <script src="app.js?v=remote-data-20260713"></script>
   <script>
     if ("serviceWorker" in navigator) {
       window.addEventListener("load", () => {
@@ -345,4 +347,3 @@
   </script>
 </body>
 </html>
-

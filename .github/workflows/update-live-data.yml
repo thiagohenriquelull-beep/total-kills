@@ -1,0 +1,93 @@
+name: Atualizar base ao vivo
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 10:17 em Sao Paulo. Evita o minuto zero, que costuma ter mais atraso.
+    - cron: "17 13 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: total-kills-live-data
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Baixar projeto
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Configurar Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Restaurar ultima base publicada
+        id: baseline
+        shell: bash
+        run: |
+          if git ls-remote --exit-code --heads origin live-data >/dev/null 2>&1; then
+            git fetch origin live-data
+            git show origin/live-data:games.json > data/games.json
+            npm run sync-data
+            echo "live_exists=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "live_exists=false" >> "$GITHUB_OUTPUT"
+          fi
+          echo "hash=$(sha256sum data/games.json | cut -d ' ' -f1)" >> "$GITHUB_OUTPUT"
+
+      - name: Coletar, validar e recalcular
+        run: npm run update
+
+      - name: Testar estado final
+        run: |
+          npm test
+          npm run check
+
+      - name: Verificar se a base mudou
+        id: changed
+        shell: bash
+        run: |
+          CURRENT_HASH=$(sha256sum data/games.json | cut -d ' ' -f1)
+          if [ "${{ steps.baseline.outputs.live_exists }}" != "true" ] || [ "$CURRENT_HASH" != "${{ steps.baseline.outputs.hash }}" ]; then
+            echo "value=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "value=false" >> "$GITHUB_OUTPUT"
+            echo "Nenhum jogo novo; branch live-data nao sera alterada."
+          fi
+
+      - name: Publicar somente os JSONs na branch live-data
+        if: steps.changed.outputs.value == 'true'
+        shell: bash
+        run: |
+          LIVE_DIR="$RUNNER_TEMP/total-kills-live-data"
+          if [ "${{ steps.baseline.outputs.live_exists }}" = "true" ]; then
+            git worktree add --detach "$LIVE_DIR" origin/live-data
+          else
+            git worktree add --detach "$LIVE_DIR"
+            cd "$LIVE_DIR"
+            git checkout --orphan live-data
+            git rm -rf .
+            cd "$GITHUB_WORKSPACE"
+          fi
+
+          cp data/games.json "$LIVE_DIR/games.json"
+          cp data/historical-analysis.json "$LIVE_DIR/historical-analysis.json"
+          node -e "const d=require('./data/games.json'); console.log(JSON.stringify({updatedAt:d.meta.updatedAt||d.meta.createdAt,totalGames:d.games.length},null,2))" > "$LIVE_DIR/status.json"
+
+          cd "$LIVE_DIR"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add games.json historical-analysis.json status.json
+          if git diff --cached --quiet; then
+            echo "JSONs ja estavam atualizados."
+            exit 0
+          fi
+          git commit -m "Atualiza base ao vivo $(date -u +%Y-%m-%d)"
+          git push origin HEAD:live-data
