@@ -9,9 +9,9 @@ const PRECACHE = [
   "./model-core.js?v=remote-data-20260713",
   "./data/games.js?v=remote-data-20260713",
   "./data/historical-analysis.js?v=remote-data-20260713",
-  "./icons/icon-192.png",
-  "./icons/icon-512.png",
-  "./manifest.json?v=remote-data-20260713",
+  "./icons/icon-192.png?v=icon-combat-1",
+  "./icons/icon-512.png?v=icon-combat-1",
+  "./manifest.json?v=icon-combat-1",
 ];
 
 self.addEventListener("install", (event) => {
