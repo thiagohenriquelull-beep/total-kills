@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "GOL logged session",
-    "createdAt": "2026-07-14T01:19:11.945Z",
+    "createdAt": "2026-07-23T15:24:54.117Z",
     "collectorVersion": "new-games-http-2026-07-13",
     "leagues": [
       {
@@ -50,12 +50,13 @@
       },
       {
         "league": "LPL",
-        "games": 453,
+        "games": 462,
         "tournaments": [
           "LPL 2026 Split 1",
           "LPL 2026 Split 1 Playoffs",
           "LPL 2026 Split 2",
-          "LPL 2026 Split 2 Playoffs"
+          "LPL 2026 Split 2 Playoffs",
+          "LPL 2026 Split 3"
         ]
       },
       {
@@ -71,17 +72,18 @@
       "side",
       "bans"
     ],
-    "updatedAt": "2026-07-14T01:19:11.945Z",
+    "updatedAt": "2026-07-23T15:24:54.117Z",
     "lastIncrementalMerge": {
       "source": "data/jogos-novos.json",
-      "mergedAt": "2026-07-14T01:19:11.945Z",
-      "added": 71,
+      "mergedAt": "2026-07-23T15:24:54.117Z",
+      "added": 9,
       "duplicatesSkipped": 0,
       "patches": [
-        "16.13"
+        "16.13",
+        "16.14"
       ],
       "tournaments": [
-        "MSI 2026"
+        "LPL 2026 Split 3"
       ]
     },
     "nameCleanup": {
@@ -93,7 +95,7 @@
         "trim repeated spaces"
       ]
     },
-    "totalGames": 1662,
+    "totalGames": 1671,
     "dataCorrections": [
       {
         "correctedAt": "2026-07-14T01:19:11.794Z",
@@ -68317,6 +68319,510 @@
           "MID": "Hwei",
           "ADC": "Ashe",
           "SUP": "Lulu"
+        }
+      }
+    },
+    {
+      "id": "80183",
+      "league": "LPL",
+      "tournament": "LPL 2026 Split 3",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LPL 2026 Split 3",
+      "tournamentLine": "LPL 2026 Split 3 (CN) - Fearless Draft",
+      "date": "2026-07-22",
+      "week": "WEEK1",
+      "patch": "16.13",
+      "game": "LGD Gaming vs EDG",
+      "sourceUrl": "https://gol.gg/game/stats/80183/page-game/",
+      "teamA": "EDward Gaming",
+      "teamB": "LGD Gaming",
+      "teamAId": "2854",
+      "teamBId": "2858",
+      "killsA": 11,
+      "killsB": 21,
+      "totalKills": 32,
+      "collectedAt": "2026-07-23T15:24:47.650Z",
+      "collectorVersion": "new-games-http-2026-07-13",
+      "picks": {
+        "teamA": [
+          "Gnar",
+          "Lee Sin",
+          "Cassiopeia",
+          "Ziggs",
+          "Camille"
+        ],
+        "teamB": [
+          "Ambessa",
+          "Skarner",
+          "Syndra",
+          "Kaisa",
+          "Rell"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Gnar",
+          "JUNGLE": "Lee Sin",
+          "MID": "Cassiopeia",
+          "ADC": "Ziggs",
+          "SUP": "Camille"
+        },
+        "teamB": {
+          "TOP": "Ambessa",
+          "JUNGLE": "Skarner",
+          "MID": "Syndra",
+          "ADC": "Kaisa",
+          "SUP": "Rell"
+        }
+      }
+    },
+    {
+      "id": "80184",
+      "league": "LPL",
+      "tournament": "LPL 2026 Split 3",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LPL 2026 Split 3",
+      "tournamentLine": "LPL 2026 Split 3 (CN) - Fearless Draft",
+      "date": "2026-07-22",
+      "week": "WEEK1",
+      "patch": "16.13",
+      "game": "LGD Gaming vs EDG",
+      "sourceUrl": "https://gol.gg/game/stats/80184/page-game/",
+      "teamA": "LGD Gaming",
+      "teamB": "EDward Gaming",
+      "teamAId": "2858",
+      "teamBId": "2854",
+      "killsA": 20,
+      "killsB": 11,
+      "totalKills": 31,
+      "collectedAt": "2026-07-23T15:24:47.850Z",
+      "collectorVersion": "new-games-http-2026-07-13",
+      "picks": {
+        "teamA": [
+          "Rumble",
+          "Qiyana",
+          "Ryze",
+          "Yunara",
+          "Lulu"
+        ],
+        "teamB": [
+          "KSante",
+          "Jarvan IV",
+          "Twisted Fate",
+          "Lucian",
+          "Milio"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Rumble",
+          "JUNGLE": "Qiyana",
+          "MID": "Ryze",
+          "ADC": "Yunara",
+          "SUP": "Lulu"
+        },
+        "teamB": {
+          "TOP": "KSante",
+          "JUNGLE": "Jarvan IV",
+          "MID": "Twisted Fate",
+          "ADC": "Lucian",
+          "SUP": "Milio"
+        }
+      }
+    },
+    {
+      "id": "80186",
+      "league": "LPL",
+      "tournament": "LPL 2026 Split 3",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LPL 2026 Split 3",
+      "tournamentLine": "LPL 2026 Split 3 (CN) - Fearless Draft",
+      "date": "2026-07-22",
+      "week": "WEEK1",
+      "patch": "16.13",
+      "game": "Top Esports vs Team WE",
+      "sourceUrl": "https://gol.gg/game/stats/80186/page-game/",
+      "teamA": "Top Esports",
+      "teamB": "Team WE",
+      "teamAId": "2852",
+      "teamBId": "2856",
+      "killsA": 17,
+      "killsB": 11,
+      "totalKills": 28,
+      "collectedAt": "2026-07-23T15:24:48.053Z",
+      "collectorVersion": "new-games-http-2026-07-13",
+      "picks": {
+        "teamA": [
+          "KSante",
+          "Jarvan IV",
+          "Ahri",
+          "Ezreal",
+          "Karma"
+        ],
+        "teamB": [
+          "Gnar",
+          "Jayce",
+          "Aurora",
+          "Lucian",
+          "Milio"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "KSante",
+          "JUNGLE": "Jarvan IV",
+          "MID": "Ahri",
+          "ADC": "Ezreal",
+          "SUP": "Karma"
+        },
+        "teamB": {
+          "TOP": "Gnar",
+          "JUNGLE": "Jayce",
+          "MID": "Aurora",
+          "ADC": "Lucian",
+          "SUP": "Milio"
+        }
+      }
+    },
+    {
+      "id": "80187",
+      "league": "LPL",
+      "tournament": "LPL 2026 Split 3",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LPL 2026 Split 3",
+      "tournamentLine": "LPL 2026 Split 3 (CN) - Fearless Draft",
+      "date": "2026-07-22",
+      "week": "WEEK1",
+      "patch": "16.13",
+      "game": "Top Esports vs Team WE",
+      "sourceUrl": "https://gol.gg/game/stats/80187/page-game/",
+      "teamA": "Top Esports",
+      "teamB": "Team WE",
+      "teamAId": "2852",
+      "teamBId": "2856",
+      "killsA": 42,
+      "killsB": 15,
+      "totalKills": 57,
+      "collectedAt": "2026-07-23T15:24:48.299Z",
+      "collectorVersion": "new-games-http-2026-07-13",
+      "picks": {
+        "teamA": [
+          "Ambessa",
+          "Lee Sin",
+          "Sylas",
+          "Xerath",
+          "Camille"
+        ],
+        "teamB": [
+          "Rumble",
+          "Graves",
+          "Ryze",
+          "Syndra",
+          "Leona"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Ambessa",
+          "JUNGLE": "Lee Sin",
+          "MID": "Sylas",
+          "ADC": "Xerath",
+          "SUP": "Camille"
+        },
+        "teamB": {
+          "TOP": "Rumble",
+          "JUNGLE": "Graves",
+          "MID": "Ryze",
+          "ADC": "Syndra",
+          "SUP": "Leona"
+        }
+      }
+    },
+    {
+      "id": "80189",
+      "league": "LPL",
+      "tournament": "LPL 2026 Split 3",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LPL 2026 Split 3",
+      "tournamentLine": "LPL 2026 Split 3 (CN) - Fearless Draft",
+      "date": "2026-07-23",
+      "week": "WEEK1",
+      "patch": "16.14",
+      "game": "JD Gaming vs AGAL",
+      "sourceUrl": "https://gol.gg/game/stats/80189/page-game/",
+      "teamA": "JD Gaming",
+      "teamB": "Anyone's Legend",
+      "teamAId": "2851",
+      "teamBId": "2848",
+      "killsA": 10,
+      "killsB": 7,
+      "totalKills": 17,
+      "collectedAt": "2026-07-23T15:24:48.492Z",
+      "collectorVersion": "new-games-http-2026-07-13",
+      "picks": {
+        "teamA": [
+          "Gnar",
+          "Lee Sin",
+          "Syndra",
+          "Jhin",
+          "Shen"
+        ],
+        "teamB": [
+          "Ambessa",
+          "Naafiri",
+          "Cassiopeia",
+          "Ziggs",
+          "Camille"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Gnar",
+          "JUNGLE": "Lee Sin",
+          "MID": "Syndra",
+          "ADC": "Jhin",
+          "SUP": "Shen"
+        },
+        "teamB": {
+          "TOP": "Ambessa",
+          "JUNGLE": "Naafiri",
+          "MID": "Cassiopeia",
+          "ADC": "Ziggs",
+          "SUP": "Camille"
+        }
+      }
+    },
+    {
+      "id": "80190",
+      "league": "LPL",
+      "tournament": "LPL 2026 Split 3",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LPL 2026 Split 3",
+      "tournamentLine": "LPL 2026 Split 3 (CN) - Fearless Draft",
+      "date": "2026-07-23",
+      "week": "WEEK1",
+      "patch": "16.14",
+      "game": "JD Gaming vs AGAL",
+      "sourceUrl": "https://gol.gg/game/stats/80190/page-game/",
+      "teamA": "JD Gaming",
+      "teamB": "Anyone's Legend",
+      "teamAId": "2851",
+      "teamBId": "2848",
+      "killsA": 7,
+      "killsB": 20,
+      "totalKills": 27,
+      "collectedAt": "2026-07-23T15:24:48.698Z",
+      "collectorVersion": "new-games-http-2026-07-13",
+      "picks": {
+        "teamA": [
+          "Rumble",
+          "Jarvan IV",
+          "Viktor",
+          "Caitlyn",
+          "Lux"
+        ],
+        "teamB": [
+          "Ornn",
+          "Vi",
+          "Sylas",
+          "Lucian",
+          "Milio"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Rumble",
+          "JUNGLE": "Jarvan IV",
+          "MID": "Viktor",
+          "ADC": "Caitlyn",
+          "SUP": "Lux"
+        },
+        "teamB": {
+          "TOP": "Ornn",
+          "JUNGLE": "Vi",
+          "MID": "Sylas",
+          "ADC": "Lucian",
+          "SUP": "Milio"
+        }
+      }
+    },
+    {
+      "id": "80191",
+      "league": "LPL",
+      "tournament": "LPL 2026 Split 3",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LPL 2026 Split 3",
+      "tournamentLine": "LPL 2026 Split 3 (CN) - Fearless Draft",
+      "date": "2026-07-23",
+      "week": "WEEK1",
+      "patch": "16.14",
+      "game": "JD Gaming vs AGAL",
+      "sourceUrl": "https://gol.gg/game/stats/80191/page-game/",
+      "teamA": "JD Gaming",
+      "teamB": "Anyone's Legend",
+      "teamAId": "2851",
+      "teamBId": "2848",
+      "killsA": 14,
+      "killsB": 25,
+      "totalKills": 39,
+      "collectedAt": "2026-07-23T15:24:48.889Z",
+      "collectorVersion": "new-games-http-2026-07-13",
+      "picks": {
+        "teamA": [
+          "Jayce",
+          "Poppy",
+          "Mel",
+          "Sivir",
+          "Alistar"
+        ],
+        "teamB": [
+          "KSante",
+          "Qiyana",
+          "Annie",
+          "Varus",
+          "Neeko"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Jayce",
+          "JUNGLE": "Poppy",
+          "MID": "Mel",
+          "ADC": "Sivir",
+          "SUP": "Alistar"
+        },
+        "teamB": {
+          "TOP": "KSante",
+          "JUNGLE": "Qiyana",
+          "MID": "Annie",
+          "ADC": "Varus",
+          "SUP": "Neeko"
+        }
+      }
+    },
+    {
+      "id": "80192",
+      "league": "LPL",
+      "tournament": "LPL 2026 Split 3",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LPL 2026 Split 3",
+      "tournamentLine": "LPL 2026 Split 3 (CN) - Fearless Draft",
+      "date": "2026-07-23",
+      "week": "WEEK1",
+      "patch": "16.14",
+      "game": "BLG vs TT",
+      "sourceUrl": "https://gol.gg/game/stats/80192/page-game/",
+      "teamA": "ThunderTalk Gaming",
+      "teamB": "Bilibili Gaming",
+      "teamAId": "2857",
+      "teamBId": "2849",
+      "killsA": 11,
+      "killsB": 31,
+      "totalKills": 42,
+      "collectedAt": "2026-07-23T15:24:49.158Z",
+      "collectorVersion": "new-games-http-2026-07-13",
+      "picks": {
+        "teamA": [
+          "Jayce",
+          "Xin Zhao",
+          "Akali",
+          "Ziggs",
+          "Nautilus"
+        ],
+        "teamB": [
+          "Yorick",
+          "Jarvan IV",
+          "Ryze",
+          "Cassiopeia",
+          "Shen"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Jayce",
+          "JUNGLE": "Xin Zhao",
+          "MID": "Akali",
+          "ADC": "Ziggs",
+          "SUP": "Nautilus"
+        },
+        "teamB": {
+          "TOP": "Yorick",
+          "JUNGLE": "Jarvan IV",
+          "MID": "Ryze",
+          "ADC": "Cassiopeia",
+          "SUP": "Shen"
+        }
+      }
+    },
+    {
+      "id": "80193",
+      "league": "LPL",
+      "tournament": "LPL 2026 Split 3",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LPL 2026 Split 3",
+      "tournamentLine": "LPL 2026 Split 3 (CN) - Fearless Draft",
+      "date": "2026-07-23",
+      "week": "WEEK1",
+      "patch": "16.14",
+      "game": "BLG vs TT",
+      "sourceUrl": "https://gol.gg/game/stats/80193/page-game/",
+      "teamA": "Bilibili Gaming",
+      "teamB": "ThunderTalk Gaming",
+      "teamAId": "2849",
+      "teamBId": "2857",
+      "killsA": 11,
+      "killsB": 23,
+      "totalKills": 34,
+      "collectedAt": "2026-07-23T15:24:49.351Z",
+      "collectorVersion": "new-games-http-2026-07-13",
+      "picks": {
+        "teamA": [
+          "Rumble",
+          "Vi",
+          "Locke",
+          "Jhin",
+          "Alistar"
+        ],
+        "teamB": [
+          "Ambessa",
+          "Lee Sin",
+          "Annie",
+          "Sivir",
+          "Bard"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Rumble",
+          "JUNGLE": "Vi",
+          "MID": "Locke",
+          "ADC": "Jhin",
+          "SUP": "Alistar"
+        },
+        "teamB": {
+          "TOP": "Ambessa",
+          "JUNGLE": "Lee Sin",
+          "MID": "Annie",
+          "ADC": "Sivir",
+          "SUP": "Bard"
         }
       }
     },
