@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-07-23T15:25:07.166Z",
+  "generatedAt": "2026-07-24T15:06:52.515Z",
   "methodology": "Walk-forward por liga (min 30 jogos treino). Linha simulada = linha justa pre-draft do modelo. Odds: 1.80/1.80.",
-  "sourceGames": 1671,
-  "generatedFromGamesUpdatedAt": "2026-07-23T15:24:54.117Z",
-  "backtestRows": 1420,
-  "count": 1420,
+  "sourceGames": 1679,
+  "generatedFromGamesUpdatedAt": "2026-07-24T15:06:38.346Z",
+  "backtestRows": 1428,
+  "count": 1428,
   "games": [
     {
       "l": "LCK",
@@ -9343,6 +9343,86 @@
       "pred": 31.91,
       "evo": -0.2394,
       "evu": 0.0394,
+      "s": "",
+      "as": "over"
+    },
+    {
+      "l": "LPL",
+      "a": 40,
+      "ml": 33.5,
+      "pred": 32.53,
+      "evo": -0.1852,
+      "evu": -0.0148,
+      "s": "",
+      "as": "over"
+    },
+    {
+      "l": "LPL",
+      "a": 24,
+      "ml": 32.5,
+      "pred": 31.62,
+      "evo": -0.1775,
+      "evu": -0.0225,
+      "s": "",
+      "as": "under"
+    },
+    {
+      "l": "LPL",
+      "a": 23,
+      "ml": 31.5,
+      "pred": 30.09,
+      "evo": -0.2245,
+      "evu": 0.0245,
+      "s": "",
+      "as": "under"
+    },
+    {
+      "l": "LPL",
+      "a": 35,
+      "ml": 32.5,
+      "pred": 30.2,
+      "evo": -0.3006,
+      "evu": 0.1006,
+      "s": "under",
+      "as": "over"
+    },
+    {
+      "l": "LPL",
+      "a": 29,
+      "ml": 32.5,
+      "pred": 31.08,
+      "evo": -0.2248,
+      "evu": 0.0248,
+      "s": "",
+      "as": "under"
+    },
+    {
+      "l": "LPL",
+      "a": 22,
+      "ml": 31.5,
+      "pred": 31.71,
+      "evo": -0.0813,
+      "evu": -0.1187,
+      "s": "",
+      "as": "under"
+    },
+    {
+      "l": "LPL",
+      "a": 32,
+      "ml": 31.5,
+      "pred": 30.37,
+      "evo": -0.1994,
+      "evu": -0.0006,
+      "s": "",
+      "as": "over"
+    },
+    {
+      "l": "LPL",
+      "a": 48,
+      "ml": 31.5,
+      "pred": 30.28,
+      "evo": -0.2076,
+      "evu": 0.0076,
       "s": "",
       "as": "over"
     },
