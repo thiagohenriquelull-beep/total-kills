@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "GOL logged session",
-    "createdAt": "2026-07-25T13:51:13.863Z",
+    "createdAt": "2026-07-25T19:35:59.994Z",
     "collectorVersion": "new-games-http-2026-07-25",
     "leagues": [
       {
@@ -40,7 +40,7 @@
       },
       {
         "league": "LEC",
-        "games": 251,
+        "games": 255,
         "tournaments": [
           "LEC 2026 Spring Playoffs",
           "LEC 2026 Spring Season",
@@ -74,17 +74,17 @@
       "side",
       "bans"
     ],
-    "updatedAt": "2026-07-25T13:51:13.863Z",
+    "updatedAt": "2026-07-25T19:35:59.994Z",
     "lastIncrementalMerge": {
       "source": "data/jogos-novos.json",
-      "mergedAt": "2026-07-25T13:51:13.863Z",
-      "added": 51,
+      "mergedAt": "2026-07-25T19:35:59.994Z",
+      "added": 4,
       "duplicatesSkipped": 0,
       "patches": [
-        "16.13"
+        "16.14"
       ],
       "tournaments": [
-        "Esports World Cup 2026"
+        "LEC 2026 Summer Season"
       ]
     },
     "nameCleanup": {
@@ -96,7 +96,7 @@
         "trim repeated spaces"
       ]
     },
-    "totalGames": 1736,
+    "totalGames": 1740,
     "dataCorrections": [
       {
         "correctedAt": "2026-07-14T01:19:11.794Z",
@@ -48032,6 +48032,230 @@
           "MID": "Anivia",
           "ADC": "Lucian",
           "SUP": "Elise"
+        }
+      }
+    },
+    {
+      "id": "80343",
+      "league": "LEC",
+      "tournament": "LEC 2026 Summer Season",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LEC 2026 Summer Season",
+      "tournamentLine": "LEC 2026 Summer Season (EUW) - Fearless Draft",
+      "date": "2026-07-25",
+      "week": "WEEK1",
+      "patch": "16.14",
+      "game": "VIT vs G2 Esports",
+      "sourceUrl": "https://gol.gg/game/stats/80343/page-game/",
+      "teamA": "G2 Esports",
+      "teamB": "Team Vitality",
+      "teamAId": "2897",
+      "teamBId": "2905",
+      "killsA": 26,
+      "killsB": 7,
+      "totalKills": 33,
+      "collectedAt": "2026-07-25T19:35:29.220Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Kled",
+          "Jarvan IV",
+          "Orianna",
+          "Viktor",
+          "Shen"
+        ],
+        "teamB": [
+          "Renekton",
+          "Nocturne",
+          "Sylas",
+          "Cassiopeia",
+          "Camille"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Kled",
+          "JUNGLE": "Jarvan IV",
+          "MID": "Orianna",
+          "ADC": "Viktor",
+          "SUP": "Shen"
+        },
+        "teamB": {
+          "TOP": "Renekton",
+          "JUNGLE": "Nocturne",
+          "MID": "Sylas",
+          "ADC": "Cassiopeia",
+          "SUP": "Camille"
+        }
+      }
+    },
+    {
+      "id": "80344",
+      "league": "LEC",
+      "tournament": "LEC 2026 Summer Season",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LEC 2026 Summer Season",
+      "tournamentLine": "LEC 2026 Summer Season (EUW) - Fearless Draft",
+      "date": "2026-07-25",
+      "week": "WEEK1",
+      "patch": "16.14",
+      "game": "VIT vs G2 Esports",
+      "sourceUrl": "https://gol.gg/game/stats/80344/page-game/",
+      "teamA": "G2 Esports",
+      "teamB": "Team Vitality",
+      "teamAId": "2897",
+      "teamBId": "2905",
+      "killsA": 22,
+      "killsB": 5,
+      "totalKills": 27,
+      "collectedAt": "2026-07-25T19:35:29.449Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "KSante",
+          "Lee Sin",
+          "Ahri",
+          "Syndra",
+          "Leona"
+        ],
+        "teamB": [
+          "Jayce",
+          "Wukong",
+          "LeBlanc",
+          "Ziggs",
+          "Rakan"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "KSante",
+          "JUNGLE": "Lee Sin",
+          "MID": "Ahri",
+          "ADC": "Syndra",
+          "SUP": "Leona"
+        },
+        "teamB": {
+          "TOP": "Jayce",
+          "JUNGLE": "Wukong",
+          "MID": "LeBlanc",
+          "ADC": "Ziggs",
+          "SUP": "Rakan"
+        }
+      }
+    },
+    {
+      "id": "80346",
+      "league": "LEC",
+      "tournament": "LEC 2026 Summer Season",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LEC 2026 Summer Season",
+      "tournamentLine": "LEC 2026 Summer Season (EUW) - Fearless Draft",
+      "date": "2026-07-25",
+      "week": "WEEK1",
+      "patch": "16.14",
+      "game": "KC vs MKOI",
+      "sourceUrl": "https://gol.gg/game/stats/80346/page-game/",
+      "teamA": "Movistar KOI",
+      "teamB": "Karmine Corp",
+      "teamAId": "2900",
+      "teamBId": "2899",
+      "killsA": 18,
+      "killsB": 24,
+      "totalKills": 42,
+      "collectedAt": "2026-07-25T19:35:29.980Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Rumble",
+          "Nocturne",
+          "Akali",
+          "Caitlyn",
+          "Camille"
+        ],
+        "teamB": [
+          "Galio",
+          "Jarvan IV",
+          "Cassiopeia",
+          "Ezreal",
+          "Leona"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Rumble",
+          "JUNGLE": "Nocturne",
+          "MID": "Akali",
+          "ADC": "Caitlyn",
+          "SUP": "Camille"
+        },
+        "teamB": {
+          "TOP": "Galio",
+          "JUNGLE": "Jarvan IV",
+          "MID": "Cassiopeia",
+          "ADC": "Ezreal",
+          "SUP": "Leona"
+        }
+      }
+    },
+    {
+      "id": "80347",
+      "league": "LEC",
+      "tournament": "LEC 2026 Summer Season",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LEC 2026 Summer Season",
+      "tournamentLine": "LEC 2026 Summer Season (EUW) - Fearless Draft",
+      "date": "2026-07-25",
+      "week": "WEEK1",
+      "patch": "16.14",
+      "game": "KC vs MKOI",
+      "sourceUrl": "https://gol.gg/game/stats/80347/page-game/",
+      "teamA": "Karmine Corp",
+      "teamB": "Movistar KOI",
+      "teamAId": "2899",
+      "teamBId": "2900",
+      "killsA": 17,
+      "killsB": 6,
+      "totalKills": 23,
+      "collectedAt": "2026-07-25T19:35:30.211Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Gnar",
+          "Qiyana",
+          "Viktor",
+          "Kaisa",
+          "Shen"
+        ],
+        "teamB": [
+          "Ambessa",
+          "Naafiri",
+          "Orianna",
+          "Tristana",
+          "Bard"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Gnar",
+          "JUNGLE": "Qiyana",
+          "MID": "Viktor",
+          "ADC": "Kaisa",
+          "SUP": "Shen"
+        },
+        "teamB": {
+          "TOP": "Ambessa",
+          "JUNGLE": "Naafiri",
+          "MID": "Orianna",
+          "ADC": "Tristana",
+          "SUP": "Bard"
         }
       }
     },
