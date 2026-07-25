@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - ".github/workflows/update-live-data.yml"
+  # Atualizacao manual: Actions > Atualizar base ao vivo > Run workflow.
   workflow_dispatch:
   schedule:
     # 10:17 em Sao Paulo. Evita o minuto zero, que costuma ter mais atraso.
