@@ -7,7 +7,7 @@ const CURRENT_FILE = path.join(DATA_DIR, "games.json");
 const OUT_FILE = path.join(DATA_DIR, "jogos-novos.json");
 const REPORT_FILE = path.join(DATA_DIR, "jogos-novos-report.md");
 const SEASON = "S16";
-const COLLECTOR_VERSION = "new-games-http-2026-07-13";
+const COLLECTOR_VERSION = "new-games-http-2026-07-25";
 // Ate quando coletar: argumento CLI ou env UNTIL_DATE; padrao = hoje.
 const UNTIL_DATE = process.argv[2] || process.env.UNTIL_DATE || new Date().toISOString().slice(0, 10);
 const HOLES_FILE = path.join(DATA_DIR, "buracos-historicos.json");
@@ -15,7 +15,14 @@ const BASE = "https://gol.gg/teams";
 const ROLES = ["TOP", "JUNGLE", "MID", "ADC", "SUP"];
 
 const RULES = {
-  MUNDIAL: { include: [/^MSI 2026$/i], exclude: [] },
+  MUNDIAL: {
+    include: [
+      /^MSI 2026$/i,
+      /^Esports World Cup 2026$/i,
+      /^(?:Worlds|World Championship) 2026$/i,
+    ],
+    exclude: [],
+  },
   LCK: { include: [/^LCK 20\d{2}\b/i], exclude: [/\bCL\b/i] },
   LCKCL: { include: [/^LCK CL 20\d{2}\b/i], exclude: [] },
   LPL: { include: [/^LPL 20\d{2}\b/i], exclude: [] },

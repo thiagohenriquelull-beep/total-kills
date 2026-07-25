@@ -5,6 +5,10 @@ on:
     branches: [main]
     paths:
       - ".github/workflows/update-live-data.yml"
+      - "scripts/collect-new-games-http.js"
+      - "scripts/weekly-update.js"
+      - "scripts/merge-new-games.js"
+      - "scripts/refresh-analytics.js"
   # Atualizacao manual: Actions > Atualizar base ao vivo > Run workflow.
   workflow_dispatch:
   schedule:
