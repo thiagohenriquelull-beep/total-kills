@@ -215,6 +215,7 @@ function parseTournamentMatchRows(html, item, sinceDate) {
     series.push({
       startId: Number(id),
       gameLabel: cells[0] || stripTags(link[2]),
+      date,
       patch: cells[5] || "",
       week: cells[4] || "",
     });
@@ -247,6 +248,7 @@ function parseTournamentMatchRows(html, item, sinceDate) {
         sourceTournament: item.tournament,
         stage: detectStage(item.tournament),
         gameLabel: current.gameLabel,
+        scheduledDate: current.date,
         patch: current.patch,
         week: current.week,
       });
@@ -430,6 +432,8 @@ async function main() {
       latestId: leagueLatest.id,
       tournaments: [],
       candidateIds: 0,
+      pendingIncomplete: 0,
+      pendingIncompleteExamples: [],
       newGames: 0,
       skippedBeforeLatest: 0,
       skippedBeforeLatestExamples: [],
@@ -483,6 +487,16 @@ async function main() {
       if (!html) continue;
       const game = parseGameDetails(html, candidate);
       if (!isValidGame(game)) {
+        leagueReport.pendingIncomplete += 1;
+        if (leagueReport.pendingIncompleteExamples.length < 12) {
+          leagueReport.pendingIncompleteExamples.push({
+            date: candidate.scheduledDate || game.date || "",
+            id: candidate.id,
+            game: candidate.gameLabel,
+            tournament: candidate.tournament,
+            sourceUrl: candidate.url,
+          });
+        }
         leagueReport.tournaments.push({ tournament: candidate.tournament, invalidGame: candidate.id, reason: "invalid parsed fields" });
         continue;
       }
@@ -557,9 +571,9 @@ async function main() {
     `Temporada: ${SEASON}`,
     `Periodo ate: ${UNTIL_DATE}`,
     "",
-    "| Liga | Ultima data base | Mais recente visto no GOL | Candidatos fora da base | Antes da ultima data | Jogos novos validos | Patches |",
-    "|---|---:|---:|---:|---:|---:|---|",
-    ...report.map((item) => `| ${item.league} | ${item.latestDate === "0000-00-00" ? "--" : item.latestDate} | ${item.latestSeenOnGol?.date || "--"} | ${item.candidateIds} | ${item.skippedBeforeLatest} | ${item.newGames} | ${item.patches.length ? item.patches.join(", ") : "--"} |`),
+    "| Liga | Ultima data base | Mais recente completo no GOL | Candidatos fora da base | Pendentes no GOL | Antes da ultima data | Jogos novos validos | Patches |",
+    "|---|---:|---:|---:|---:|---:|---:|---|",
+    ...report.map((item) => `| ${item.league} | ${item.latestDate === "0000-00-00" ? "--" : item.latestDate} | ${item.latestSeenOnGol?.date || "--"} | ${item.candidateIds} | ${item.pendingIncomplete} | ${item.skippedBeforeLatest} | ${item.newGames} | ${item.patches.length ? item.patches.join(", ") : "--"} |`),
     "",
     `Total de jogos novos validos: ${newGames.length}`,
     "",
@@ -574,6 +588,7 @@ async function main() {
     latestDate: item.latestDate,
     latestSeenOnGol: item.latestSeenOnGol?.date || "--",
     candidates: item.candidateIds,
+    pendingIncomplete: item.pendingIncomplete,
     skippedBeforeLatest: item.skippedBeforeLatest,
     newGames: item.newGames,
     patches: item.patches.join(", ") || "--",
