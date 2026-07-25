@@ -122,6 +122,9 @@ async function getHtml(url, attempt = 1) {
     },
   });
   if (!response.ok) {
+    if (response.status === 404) {
+      throw new Error(`HTTP 404 for ${url}`);
+    }
     if (attempt < 3) {
       await sleep(600 * attempt);
       return getHtml(url, attempt + 1);
@@ -129,6 +132,15 @@ async function getHtml(url, attempt = 1) {
     throw new Error(`HTTP ${response.status} for ${url}`);
   }
   return response.text();
+}
+
+async function getHtmlOrNull(url) {
+  try {
+    return await getHtml(url);
+  } catch (error) {
+    if (String(error?.message || error).includes("HTTP 404")) return null;
+    throw error;
+  }
 }
 
 function parseOptions(html) {
@@ -183,6 +195,62 @@ function parseMatchRows(html, item, team) {
       patch: cells[14] || "",
       week: cells[15] || "",
     });
+  }
+  return rows;
+}
+
+function parseTournamentMatchRows(html, item, sinceDate) {
+  const series = [];
+  for (const tr of html.matchAll(/<tr\b[^>]*>([\s\S]*?)<\/tr>/gi)) {
+    const rowHtml = tr[1];
+    const link = rowHtml.match(/<a\b[^>]*href=["']([^"']*\/game\/stats\/\d+\/page-(?:summary|preview)\/?[^"']*)["'][^>]*>([\s\S]*?)<\/a>/i);
+    if (!link) continue;
+    const id = parseGameId(link[1]);
+    const cells = [];
+    for (const cell of rowHtml.matchAll(/<(?:td|th)\b[^>]*>([\s\S]*?)<\/(?:td|th)>/gi)) {
+      cells.push(stripTags(cell[1]));
+    }
+    const date = cells.at(-1) || "";
+    if (!id || !/^20\d{2}-\d{2}-\d{2}$/.test(date) || date < sinceDate || date > UNTIL_DATE) continue;
+    series.push({
+      startId: Number(id),
+      gameLabel: cells[0] || stripTags(link[2]),
+      patch: cells[5] || "",
+      week: cells[4] || "",
+    });
+  }
+
+  series.sort((a, b) => a.startId - b.startId);
+  const gaps = series
+    .slice(1)
+    .map((entry, index) => entry.startId - series[index].startId)
+    .filter((gap) => gap >= 1 && gap <= 5);
+  const defaultBlockSize = gaps.length
+    ? [...new Set(gaps)].sort((a, b) => gaps.filter((gap) => gap === b).length - gaps.filter((gap) => gap === a).length)[0]
+    : (/playoffs|finals/i.test(item.tournament) ? 5 : 3);
+
+  const rows = [];
+  for (let index = 0; index < series.length; index += 1) {
+    const current = series[index];
+    const next = series[index + 1];
+    const gap = next ? next.startId - current.startId : defaultBlockSize;
+    const blockSize = gap >= 1 && gap <= 5 ? gap : defaultBlockSize;
+    for (let offset = 0; offset < blockSize; offset += 1) {
+      const id = String(current.startId + offset);
+      rows.push({
+        id,
+        url: `https://gol.gg/game/stats/${id}/page-game/`,
+        season: item.season,
+        seasonYear: item.seasonYear,
+        league: item.league,
+        tournament: item.tournament,
+        sourceTournament: item.tournament,
+        stage: detectStage(item.tournament),
+        gameLabel: current.gameLabel,
+        patch: current.patch,
+        week: current.week,
+      });
+    }
   }
   return rows;
 }
@@ -284,6 +352,7 @@ function isValidGame(game) {
       && game.teamA
       && game.teamB
       && Number.isFinite(game.totalKills)
+      && game.totalKills > 0
       && game.picks?.teamA?.length === 5
       && game.picks?.teamB?.length === 5
   );
@@ -321,7 +390,7 @@ async function discoverPlan(leagues) {
   return plan;
 }
 
-async function collectCandidatesForTournament(item) {
+async function collectCandidatesForTournament(item, sinceDate) {
   const teamsUrl = `${BASE}/list/season-${item.season}/split-ALL/tournament-${encodeTournament(item.tournament)}/`;
   const teams = parseTeams(await getHtml(teamsUrl));
   const rows = [];
@@ -329,7 +398,14 @@ async function collectCandidatesForTournament(item) {
     const url = `${BASE}/team-matchlist/${team.id}/split-ALL/tournament-${encodeTournament(item.tournament)}/`;
     rows.push(...parseMatchRows(await getHtml(url), item, team));
   }
-  return { teams: teams.length, candidates: uniqueBy(rows, (row) => row.id) };
+  const tournamentUrl = `https://gol.gg/tournament/tournament-matchlist/${encodeTournament(item.tournament)}/`;
+  const tournamentRows = parseTournamentMatchRows(await getHtml(tournamentUrl), item, sinceDate);
+  rows.push(...tournamentRows);
+  return {
+    teams: teams.length,
+    tournamentCandidates: tournamentRows.length,
+    candidates: uniqueBy(rows, (row) => row.id),
+  };
 }
 
 async function main() {
@@ -366,11 +442,12 @@ async function main() {
 
     for (const item of plan[league] || []) {
       console.log(`[${league}] lendo ${item.tournament}`);
-      const collected = await collectCandidatesForTournament(item);
+      const collected = await collectCandidatesForTournament(item, leagueLatest.date);
       leagueCandidates.push(...collected.candidates);
       leagueReport.tournaments.push({
         tournament: item.tournament,
         teams: collected.teams,
+        tournamentCandidates: collected.tournamentCandidates,
         candidates: collected.candidates.length,
       });
     }
@@ -378,7 +455,8 @@ async function main() {
     const allLeagueCandidates = uniqueBy(leagueCandidates, (candidate) => candidate.id)
       .sort((a, b) => Number(b.id) - Number(a.id));
     for (const candidate of allLeagueCandidates.slice(0, 15)) {
-      const html = await getHtml(candidate.url);
+      const html = await getHtmlOrNull(candidate.url);
+      if (!html) continue;
       const game = parseGameDetails(html, candidate);
       if (!isValidGame(game)) continue;
       if (!leagueReport.latestSeenOnGol || game.date > leagueReport.latestSeenOnGol.date || (game.date === leagueReport.latestSeenOnGol.date && Number(game.id) > Number(leagueReport.latestSeenOnGol.id))) {
@@ -401,7 +479,8 @@ async function main() {
     leagueReport.candidateIds = uniqueCandidates.length;
 
     for (const candidate of uniqueCandidates) {
-      const html = await getHtml(candidate.url);
+      const html = await getHtmlOrNull(candidate.url);
+      if (!html) continue;
       const game = parseGameDetails(html, candidate);
       if (!isValidGame(game)) {
         leagueReport.tournaments.push({ tournament: candidate.tournament, invalidGame: candidate.id, reason: "invalid parsed fields" });

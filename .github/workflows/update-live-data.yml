@@ -12,8 +12,9 @@ on:
   # Atualizacao manual: Actions > Atualizar base ao vivo > Run workflow.
   workflow_dispatch:
   schedule:
-    # 10:17 em Sao Paulo. Evita o minuto zero, que costuma ter mais atraso.
-    - cron: "17 13 * * *"
+    # 07:17, 11:17, 15:17 e 19:17 em Sao Paulo.
+    # As execucoes extras cobrem o fim das rodadas da LPL e da LEC.
+    - cron: "17 10,14,18,22 * * *"
 
 permissions:
   contents: write
