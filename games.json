@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "GOL logged session",
-    "createdAt": "2026-07-25T19:35:59.994Z",
+    "createdAt": "2026-07-25T23:13:41.861Z",
     "collectorVersion": "new-games-http-2026-07-25",
     "leagues": [
       {
@@ -31,11 +31,12 @@
       },
       {
         "league": "LCS",
-        "games": 157,
+        "games": 160,
         "tournaments": [
           "LCS 2026 Lock-In",
           "LCS 2026 Spring",
-          "LCS 2026 Spring Playoffs"
+          "LCS 2026 Spring Playoffs",
+          "LCS 2026 Summer"
         ]
       },
       {
@@ -74,17 +75,17 @@
       "side",
       "bans"
     ],
-    "updatedAt": "2026-07-25T19:35:59.994Z",
+    "updatedAt": "2026-07-25T23:13:41.861Z",
     "lastIncrementalMerge": {
       "source": "data/jogos-novos.json",
-      "mergedAt": "2026-07-25T19:35:59.994Z",
-      "added": 4,
+      "mergedAt": "2026-07-25T23:13:41.861Z",
+      "added": 3,
       "duplicatesSkipped": 0,
       "patches": [
         "16.14"
       ],
       "tournaments": [
-        "LEC 2026 Summer Season"
+        "LCS 2026 Summer"
       ]
     },
     "nameCleanup": {
@@ -96,7 +97,7 @@
         "trim repeated spaces"
       ]
     },
-    "totalGames": 1740,
+    "totalGames": 1743,
     "dataCorrections": [
       {
         "correctedAt": "2026-07-14T01:19:11.794Z",
@@ -37624,6 +37625,174 @@
           "MID": "Viktor",
           "ADC": "Xayah",
           "SUP": "Rakan"
+        }
+      }
+    },
+    {
+      "id": "80325",
+      "league": "LCS",
+      "tournament": "LCS 2026 Summer",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCS 2026 Summer",
+      "tournamentLine": "LCS 2026 Summer (NA) - Fearless Draft",
+      "date": "2026-07-25",
+      "week": "WEEK1",
+      "patch": "16.14",
+      "game": "FlyQuest vs LYON",
+      "sourceUrl": "https://gol.gg/game/stats/80325/page-game/",
+      "teamA": "FlyQuest",
+      "teamB": "LYON",
+      "teamAId": "2953",
+      "teamBId": "2954",
+      "killsA": 6,
+      "killsB": 19,
+      "totalKills": 25,
+      "collectedAt": "2026-07-25T23:13:06.241Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Ambessa",
+          "Lee Sin",
+          "Akali",
+          "Ziggs",
+          "Leona"
+        ],
+        "teamB": [
+          "Gnar",
+          "Jarvan IV",
+          "LeBlanc",
+          "Cassiopeia",
+          "Camille"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Ambessa",
+          "JUNGLE": "Lee Sin",
+          "MID": "Akali",
+          "ADC": "Ziggs",
+          "SUP": "Leona"
+        },
+        "teamB": {
+          "TOP": "Gnar",
+          "JUNGLE": "Jarvan IV",
+          "MID": "LeBlanc",
+          "ADC": "Cassiopeia",
+          "SUP": "Camille"
+        }
+      }
+    },
+    {
+      "id": "80326",
+      "league": "LCS",
+      "tournament": "LCS 2026 Summer",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCS 2026 Summer",
+      "tournamentLine": "LCS 2026 Summer (NA) - Fearless Draft",
+      "date": "2026-07-25",
+      "week": "WEEK1",
+      "patch": "16.14",
+      "game": "FlyQuest vs LYON",
+      "sourceUrl": "https://gol.gg/game/stats/80326/page-game/",
+      "teamA": "LYON",
+      "teamB": "FlyQuest",
+      "teamAId": "2954",
+      "teamBId": "2953",
+      "killsA": 26,
+      "killsB": 22,
+      "totalKills": 48,
+      "collectedAt": "2026-07-25T23:13:06.466Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Volibear",
+          "Xin Zhao",
+          "Viktor",
+          "Jayce",
+          "Shen"
+        ],
+        "teamB": [
+          "Olaf",
+          "Vi",
+          "Syndra",
+          "Sylas",
+          "Rell"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Volibear",
+          "JUNGLE": "Xin Zhao",
+          "MID": "Viktor",
+          "ADC": "Jayce",
+          "SUP": "Shen"
+        },
+        "teamB": {
+          "TOP": "Olaf",
+          "JUNGLE": "Vi",
+          "MID": "Syndra",
+          "ADC": "Sylas",
+          "SUP": "Rell"
+        }
+      }
+    },
+    {
+      "id": "80328",
+      "league": "LCS",
+      "tournament": "LCS 2026 Summer",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCS 2026 Summer",
+      "tournamentLine": "LCS 2026 Summer (NA) - Fearless Draft",
+      "date": "2026-07-25",
+      "week": "WEEK1",
+      "patch": "16.14",
+      "game": "Dignitas vs Sentinels",
+      "sourceUrl": "https://gol.gg/game/stats/80328/page-game/",
+      "teamA": "Sentinels",
+      "teamB": "Dignitas",
+      "teamAId": "2955",
+      "teamBId": "2952",
+      "killsA": 20,
+      "killsB": 20,
+      "totalKills": 40,
+      "collectedAt": "2026-07-25T23:13:06.815Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "KSante",
+          "Naafiri",
+          "Sylas",
+          "Ezreal",
+          "Nautilus"
+        ],
+        "teamB": [
+          "Jayce",
+          "Jarvan IV",
+          "Orianna",
+          "Caitlyn",
+          "Karma"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "KSante",
+          "JUNGLE": "Naafiri",
+          "MID": "Sylas",
+          "ADC": "Ezreal",
+          "SUP": "Nautilus"
+        },
+        "teamB": {
+          "TOP": "Jayce",
+          "JUNGLE": "Jarvan IV",
+          "MID": "Orianna",
+          "ADC": "Caitlyn",
+          "SUP": "Karma"
         }
       }
     },
