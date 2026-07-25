@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-25T13:38:43.229Z",
+  "generatedAt": "2026-07-25T13:51:28.018Z",
   "methodology": "Walk-forward por liga (min 30 jogos treino). Linha simulada = linha justa pre-draft do modelo. Odds: 1.80/1.80.",
-  "sourceGames": 1685,
-  "generatedFromGamesUpdatedAt": "2026-07-25T13:38:28.916Z",
+  "sourceGames": 1736,
+  "generatedFromGamesUpdatedAt": "2026-07-25T13:51:13.863Z",
   "backtestRows": 1434,
   "count": 1434,
   "games": [

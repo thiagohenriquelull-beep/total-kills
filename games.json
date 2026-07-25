@@ -1,8 +1,8 @@
 {
   "meta": {
     "source": "GOL logged session",
-    "createdAt": "2026-07-25T13:38:28.916Z",
-    "collectorVersion": "new-games-http-2026-07-13",
+    "createdAt": "2026-07-25T13:51:13.863Z",
+    "collectorVersion": "new-games-http-2026-07-25",
     "leagues": [
       {
         "league": "CBLOL",
@@ -62,8 +62,9 @@
       },
       {
         "league": "MUNDIAL",
-        "games": 71,
+        "games": 122,
         "tournaments": [
+          "Esports World Cup 2026",
           "MSI 2026"
         ]
       }
@@ -73,18 +74,17 @@
       "side",
       "bans"
     ],
-    "updatedAt": "2026-07-25T13:38:28.916Z",
+    "updatedAt": "2026-07-25T13:51:13.863Z",
     "lastIncrementalMerge": {
       "source": "data/jogos-novos.json",
-      "mergedAt": "2026-07-25T13:38:28.916Z",
-      "added": 6,
+      "mergedAt": "2026-07-25T13:51:13.863Z",
+      "added": 51,
       "duplicatesSkipped": 0,
       "patches": [
-        "16.14"
+        "16.13"
       ],
       "tournaments": [
-        "LEC 2026 Summer Season",
-        "LPL 2026 Split 3"
+        "Esports World Cup 2026"
       ]
     },
     "nameCleanup": {
@@ -96,7 +96,7 @@
         "trim repeated spaces"
       ]
     },
-    "totalGames": 1685,
+    "totalGames": 1736,
     "dataCorrections": [
       {
         "correctedAt": "2026-07-14T01:19:11.794Z",
@@ -73584,6 +73584,2862 @@
           "MID": "Sylas",
           "ADC": "Yunara",
           "SUP": "Lulu"
+        }
+      }
+    },
+    {
+      "id": "79768",
+      "league": "MUNDIAL",
+      "tournament": "Esports World Cup 2026",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "cup",
+      "sourceTournament": "Esports World Cup 2026",
+      "tournamentLine": "Esports World Cup 2026 (WR) - Fearless Draft",
+      "date": "2026-07-15",
+      "week": "GROUPSTAGE",
+      "patch": "16.13",
+      "game": "Gen.G vs KC",
+      "sourceUrl": "https://gol.gg/game/stats/79768/page-game/",
+      "teamA": "Gen.G",
+      "teamB": "Karmine Corp",
+      "teamAId": "2804",
+      "teamBId": "2899",
+      "killsA": 25,
+      "killsB": 9,
+      "totalKills": 34,
+      "collectedAt": "2026-07-25T13:51:04.389Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Ambessa",
+          "Lee Sin",
+          "Syndra",
+          "Jhin",
+          "Leona"
+        ],
+        "teamB": [
+          "Gnar",
+          "Naafiri",
+          "Cassiopeia",
+          "Ezreal",
+          "Camille"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Ambessa",
+          "JUNGLE": "Lee Sin",
+          "MID": "Syndra",
+          "ADC": "Jhin",
+          "SUP": "Leona"
+        },
+        "teamB": {
+          "TOP": "Gnar",
+          "JUNGLE": "Naafiri",
+          "MID": "Cassiopeia",
+          "ADC": "Ezreal",
+          "SUP": "Camille"
+        }
+      }
+    },
+    {
+      "id": "79769",
+      "league": "MUNDIAL",
+      "tournament": "Esports World Cup 2026",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "cup",
+      "sourceTournament": "Esports World Cup 2026",
+      "tournamentLine": "Esports World Cup 2026 (WR) - Fearless Draft",
+      "date": "2026-07-15",
+      "week": "GROUPSTAGE",
+      "patch": "16.13",
+      "game": "TSW vs Sentinels",
+      "sourceUrl": "https://gol.gg/game/stats/79769/page-game/",
+      "teamA": "Sentinels",
+      "teamB": "Team Secret Whales",
+      "teamAId": "2955",
+      "teamBId": "2887",
+      "killsA": 16,
+      "killsB": 8,
+      "totalKills": 24,
+      "collectedAt": "2026-07-25T13:51:04.561Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Rumble",
+          "Lee Sin",
+          "Orianna",
+          "Jhin",
+          "Blitzcrank"
+        ],
+        "teamB": [
+          "KSante",
+          "Wukong",
+          "Ryze",
+          "Ezreal",
+          "Karma"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Rumble",
+          "JUNGLE": "Lee Sin",
+          "MID": "Orianna",
+          "ADC": "Jhin",
+          "SUP": "Blitzcrank"
+        },
+        "teamB": {
+          "TOP": "KSante",
+          "JUNGLE": "Wukong",
+          "MID": "Ryze",
+          "ADC": "Ezreal",
+          "SUP": "Karma"
+        }
+      }
+    },
+    {
+      "id": "79770",
+      "league": "MUNDIAL",
+      "tournament": "Esports World Cup 2026",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "cup",
+      "sourceTournament": "Esports World Cup 2026",
+      "tournamentLine": "Esports World Cup 2026 (WR) - Fearless Draft",
+      "date": "2026-07-15",
+      "week": "GROUPSTAGE",
+      "patch": "16.13",
+      "game": "T1 vs GAM Esports",
+      "sourceUrl": "https://gol.gg/game/stats/79770/page-game/",
+      "teamA": "GAM Esports",
+      "teamB": "T1",
+      "teamAId": "2882",
+      "teamBId": "2809",
+      "killsA": 14,
+      "killsB": 24,
+      "totalKills": 38,
+      "collectedAt": "2026-07-25T13:51:04.731Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Vayne",
+          "Naafiri",
+          "Cassiopeia",
+          "Jhin",
+          "Pyke"
+        ],
+        "teamB": [
+          "Gnar",
+          "Vi",
+          "Orianna",
+          "Taliyah",
+          "Shen"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Vayne",
+          "JUNGLE": "Naafiri",
+          "MID": "Cassiopeia",
+          "ADC": "Jhin",
+          "SUP": "Pyke"
+        },
+        "teamB": {
+          "TOP": "Gnar",
+          "JUNGLE": "Vi",
+          "MID": "Orianna",
+          "ADC": "Taliyah",
+          "SUP": "Shen"
+        }
+      }
+    },
+    {
+      "id": "79771",
+      "league": "MUNDIAL",
+      "tournament": "Esports World Cup 2026",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "cup",
+      "sourceTournament": "Esports World Cup 2026",
+      "tournamentLine": "Esports World Cup 2026 (WR) - Fearless Draft",
+      "date": "2026-07-15",
+      "week": "GROUPSTAGE",
+      "patch": "16.13",
+      "game": "BLG vs MKOI",
+      "sourceUrl": "https://gol.gg/game/stats/79771/page-game/",
+      "teamA": "Bilibili Gaming",
+      "teamB": "Movistar KOI",
+      "teamAId": "2849",
+      "teamBId": "2900",
+      "killsA": 20,
+      "killsB": 15,
+      "totalKills": 35,
+      "collectedAt": "2026-07-25T13:51:05.007Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Ambessa",
+          "Lee Sin",
+          "Akali",
+          "Cassiopeia",
+          "Nautilus"
+        ],
+        "teamB": [
+          "Vex",
+          "Vi",
+          "Anivia",
+          "Ezreal",
+          "Bard"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Ambessa",
+          "JUNGLE": "Lee Sin",
+          "MID": "Akali",
+          "ADC": "Cassiopeia",
+          "SUP": "Nautilus"
+        },
+        "teamB": {
+          "TOP": "Vex",
+          "JUNGLE": "Vi",
+          "MID": "Anivia",
+          "ADC": "Ezreal",
+          "SUP": "Bard"
+        }
+      }
+    },
+    {
+      "id": "79772",
+      "league": "MUNDIAL",
+      "tournament": "Esports World Cup 2026",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "cup",
+      "sourceTournament": "Esports World Cup 2026",
+      "tournamentLine": "Esports World Cup 2026 (WR) - Fearless Draft",
+      "date": "2026-07-15",
+      "week": "GROUPSTAGE",
+      "patch": "16.13",
+      "game": "AL vs Dplus KIA",
+      "sourceUrl": "https://gol.gg/game/stats/79772/page-game/",
+      "teamA": "Dplus KIA",
+      "teamB": "Anyone's Legend",
+      "teamAId": "2802",
+      "teamBId": "2848",
+      "killsA": 9,
+      "killsB": 23,
+      "totalKills": 32,
+      "collectedAt": "2026-07-25T13:51:05.176Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Jayce",
+          "Xin Zhao",
+          "Syndra",
+          "Jhin",
+          "Trundle"
+        ],
+        "teamB": [
+          "Shen",
+          "Vi",
+          "Cassiopeia",
+          "Ezreal",
+          "Leona"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Jayce",
+          "JUNGLE": "Xin Zhao",
+          "MID": "Syndra",
+          "ADC": "Jhin",
+          "SUP": "Trundle"
+        },
+        "teamB": {
+          "TOP": "Shen",
+          "JUNGLE": "Vi",
+          "MID": "Cassiopeia",
+          "ADC": "Ezreal",
+          "SUP": "Leona"
+        }
+      }
+    },
+    {
+      "id": "79773",
+      "league": "MUNDIAL",
+      "tournament": "Esports World Cup 2026",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "cup",
+      "sourceTournament": "Esports World Cup 2026",
+      "tournamentLine": "Esports World Cup 2026 (WR) - Fearless Draft",
+      "date": "2026-07-15",
+      "week": "GROUPSTAGE",
+      "patch": "16.13",
+      "game": "G2 Esports vs FURIA",
+      "sourceUrl": "https://gol.gg/game/stats/79773/page-game/",
+      "teamA": "FURIA",
+      "teamB": "G2 Esports",
+      "teamAId": "2889",
+      "teamBId": "2897",
+      "killsA": 4,
+      "killsB": 11,
+      "totalKills": 15,
+      "collectedAt": "2026-07-25T13:51:05.428Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Ambessa",
+          "Lee Sin",
+          "Akali",
+          "Jhin",
+          "Camille"
+        ],
+        "teamB": [
+          "Gnar",
+          "Naafiri",
+          "Galio",
+          "Syndra",
+          "Leona"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Ambessa",
+          "JUNGLE": "Lee Sin",
+          "MID": "Akali",
+          "ADC": "Jhin",
+          "SUP": "Camille"
+        },
+        "teamB": {
+          "TOP": "Gnar",
+          "JUNGLE": "Naafiri",
+          "MID": "Galio",
+          "ADC": "Syndra",
+          "SUP": "Leona"
+        }
+      }
+    },
+    {
+      "id": "79774",
+      "league": "MUNDIAL",
+      "tournament": "Esports World Cup 2026",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "cup",
+      "sourceTournament": "Esports World Cup 2026",
+      "tournamentLine": "Esports World Cup 2026 (WR) - Fearless Draft",
+      "date": "2026-07-15",
+      "week": "GROUPSTAGE",
+      "patch": "16.13",
+      "game": "HLE vs Los Grandes",
+      "sourceUrl": "https://gol.gg/game/stats/79774/page-game/",
+      "teamA": "Los Grandes",
+      "teamB": "Hanwha Life Esports",
+      "teamAId": "2895",
+      "teamBId": "2805",
+      "killsA": 3,
+      "killsB": 28,
+      "totalKills": 31,
+      "collectedAt": "2026-07-25T13:51:05.629Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Tristana",
+          "Jarvan IV",
+          "Cassiopeia",
+          "Ziggs",
+          "Nautilus"
+        ],
+        "teamB": [
+          "Gnar",
+          "Naafiri",
+          "Syndra",
+          "Seraphine",
+          "Alistar"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Tristana",
+          "JUNGLE": "Jarvan IV",
+          "MID": "Cassiopeia",
+          "ADC": "Ziggs",
+          "SUP": "Nautilus"
+        },
+        "teamB": {
+          "TOP": "Gnar",
+          "JUNGLE": "Naafiri",
+          "MID": "Syndra",
+          "ADC": "Seraphine",
+          "SUP": "Alistar"
+        }
+      }
+    },
+    {
+      "id": "79775",
+      "league": "MUNDIAL",
+      "tournament": "Esports World Cup 2026",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "cup",
+      "sourceTournament": "Esports World Cup 2026",
+      "tournamentLine": "Esports World Cup 2026 (WR) - Fearless Draft",
+      "date": "2026-07-15",
+      "week": "GROUPSTAGE",
+      "patch": "16.13",
+      "game": "LYON vs JD Gaming",
+      "sourceUrl": "https://gol.gg/game/stats/79775/page-game/",
+      "teamA": "JD Gaming",
+      "teamB": "LYON",
+      "teamAId": "2851",
+      "teamBId": "2954",
+      "killsA": 23,
+      "killsB": 7,
+      "totalKills": 30,
+      "collectedAt": "2026-07-25T13:51:05.888Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Jayce",
+          "Poppy",
+          "Orianna",
+          "Kaisa",
+          "Pyke"
+        ],
+        "teamB": [
+          "Anivia",
+          "Jarvan IV",
+          "Ziggs",
+          "Caitlyn",
+          "Bard"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Jayce",
+          "JUNGLE": "Poppy",
+          "MID": "Orianna",
+          "ADC": "Kaisa",
+          "SUP": "Pyke"
+        },
+        "teamB": {
+          "TOP": "Anivia",
+          "JUNGLE": "Jarvan IV",
+          "MID": "Ziggs",
+          "ADC": "Caitlyn",
+          "SUP": "Bard"
+        }
+      }
+    },
+    {
+      "id": "79913",
+      "league": "MUNDIAL",
+      "tournament": "Esports World Cup 2026",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "cup",
+      "sourceTournament": "Esports World Cup 2026",
+      "tournamentLine": "Esports World Cup 2026 (WR) - Fearless Draft",
+      "date": "2026-07-15",
+      "week": "GROUPSTAGE",
+      "patch": "16.13",
+      "game": "TS vs KC",
+      "sourceUrl": "https://gol.gg/game/stats/79913/page-game/",
+      "teamA": "Karmine Corp",
+      "teamB": "Team Secret Whales",
+      "teamAId": "2899",
+      "teamBId": "2887",
+      "killsA": 15,
+      "killsB": 12,
+      "totalKills": 27,
+      "collectedAt": "2026-07-25T13:51:06.058Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Gnar",
+          "Vi",
+          "Akali",
+          "Ziggs",
+          "Leona"
+        ],
+        "teamB": [
+          "Urgot",
+          "Jarvan IV",
+          "Cassiopeia",
+          "Sivir",
+          "Camille"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Gnar",
+          "JUNGLE": "Vi",
+          "MID": "Akali",
+          "ADC": "Ziggs",
+          "SUP": "Leona"
+        },
+        "teamB": {
+          "TOP": "Urgot",
+          "JUNGLE": "Jarvan IV",
+          "MID": "Cassiopeia",
+          "ADC": "Sivir",
+          "SUP": "Camille"
+        }
+      }
+    },
+    {
+      "id": "79914",
+      "league": "MUNDIAL",
+      "tournament": "Esports World Cup 2026",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "cup",
+      "sourceTournament": "Esports World Cup 2026",
+      "tournamentLine": "Esports World Cup 2026 (WR) - Fearless Draft",
+      "date": "2026-07-15",
+      "week": "GROUPSTAGE",
+      "patch": "16.13",
+      "game": "TS vs KC",
+      "sourceUrl": "https://gol.gg/game/stats/79914/page-game/",
+      "teamA": "Karmine Corp",
+      "teamB": "Team Secret Whales",
+      "teamAId": "2899",
+      "teamBId": "2887",
+      "killsA": 13,
+      "killsB": 17,
+      "totalKills": 30,
+      "collectedAt": "2026-07-25T13:51:06.227Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Renekton",
+          "Trundle",
+          "Orianna",
+          "Jhin",
+          "Rell"
+        ],
+        "teamB": [
+          "Volibear",
+          "Naafiri",
+          "Viktor",
+          "Kaisa",
+          "Nautilus"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Renekton",
+          "JUNGLE": "Trundle",
+          "MID": "Orianna",
+          "ADC": "Jhin",
+          "SUP": "Rell"
+        },
+        "teamB": {
+          "TOP": "Volibear",
+          "JUNGLE": "Naafiri",
+          "MID": "Viktor",
+          "ADC": "Kaisa",
+          "SUP": "Nautilus"
+        }
+      }
+    },
+    {
+      "id": "79915",
+      "league": "MUNDIAL",
+      "tournament": "Esports World Cup 2026",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "cup",
+      "sourceTournament": "Esports World Cup 2026",
+      "tournamentLine": "Esports World Cup 2026 (WR) - Fearless Draft",
+      "date": "2026-07-15",
+      "week": "GROUPSTAGE",
+      "patch": "16.13",
+      "game": "TS vs KC",
+      "sourceUrl": "https://gol.gg/game/stats/79915/page-game/",
+      "teamA": "Team Secret Whales",
+      "teamB": "Karmine Corp",
+      "teamAId": "2887",
+      "teamBId": "2899",
+      "killsA": 10,
+      "killsB": 20,
+      "totalKills": 30,
+      "collectedAt": "2026-07-25T13:51:06.402Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Udyr",
+          "Xin Zhao",
+          "Sylas",
+          "Caitlyn",
+          "Elise"
+        ],
+        "teamB": [
+          "Vayne",
+          "Wukong",
+          "Syndra",
+          "Mel",
+          "Pyke"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Udyr",
+          "JUNGLE": "Xin Zhao",
+          "MID": "Sylas",
+          "ADC": "Caitlyn",
+          "SUP": "Elise"
+        },
+        "teamB": {
+          "TOP": "Vayne",
+          "JUNGLE": "Wukong",
+          "MID": "Syndra",
+          "ADC": "Mel",
+          "SUP": "Pyke"
+        }
+      }
+    },
+    {
+      "id": "79916",
+      "league": "MUNDIAL",
+      "tournament": "Esports World Cup 2026",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "cup",
+      "sourceTournament": "Esports World Cup 2026",
+      "tournamentLine": "Esports World Cup 2026 (WR) - Fearless Draft",
+      "date": "2026-07-15",
+      "week": "GROUPSTAGE",
+      "patch": "16.13",
+      "game": "MKOI vs GAM Esports",
+      "sourceUrl": "https://gol.gg/game/stats/79916/page-game/",
+      "teamA": "GAM Esports",
+      "teamB": "Movistar KOI",
+      "teamAId": "2882",
+      "teamBId": "2900",
+      "killsA": 21,
+      "killsB": 16,
+      "totalKills": 37,
+      "collectedAt": "2026-07-25T13:51:06.573Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Rumble",
+          "Nocturne",
+          "Orianna",
+          "Jhin",
+          "Camille"
+        ],
+        "teamB": [
+          "Ambessa",
+          "Lee Sin",
+          "Galio",
+          "Ezreal",
+          "Leona"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Rumble",
+          "JUNGLE": "Nocturne",
+          "MID": "Orianna",
+          "ADC": "Jhin",
+          "SUP": "Camille"
+        },
+        "teamB": {
+          "TOP": "Ambessa",
+          "JUNGLE": "Lee Sin",
+          "MID": "Galio",
+          "ADC": "Ezreal",
+          "SUP": "Leona"
+        }
+      }
+    },
+    {
+      "id": "79917",
+      "league": "MUNDIAL",
+      "tournament": "Esports World Cup 2026",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "cup",
+      "sourceTournament": "Esports World Cup 2026",
+      "tournamentLine": "Esports World Cup 2026 (WR) - Fearless Draft",
+      "date": "2026-07-15",
+      "week": "GROUPSTAGE",
+      "patch": "16.13",
+      "game": "MKOI vs GAM Esports",
+      "sourceUrl": "https://gol.gg/game/stats/79917/page-game/",
+      "teamA": "Movistar KOI",
+      "teamB": "GAM Esports",
+      "teamAId": "2900",
+      "teamBId": "2882",
+      "killsA": 10,
+      "killsB": 19,
+      "totalKills": 29,
+      "collectedAt": "2026-07-25T13:51:06.743Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Gnar",
+          "Poppy",
+          "Ryze",
+          "Varus",
+          "Rell"
+        ],
+        "teamB": [
+          "Olaf",
+          "Naafiri",
+          "Syndra",
+          "Sivir",
+          "Nautilus"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Gnar",
+          "JUNGLE": "Poppy",
+          "MID": "Ryze",
+          "ADC": "Varus",
+          "SUP": "Rell"
+        },
+        "teamB": {
+          "TOP": "Olaf",
+          "JUNGLE": "Naafiri",
+          "MID": "Syndra",
+          "ADC": "Sivir",
+          "SUP": "Nautilus"
+        }
+      }
+    },
+    {
+      "id": "79918",
+      "league": "MUNDIAL",
+      "tournament": "Esports World Cup 2026",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "cup",
+      "sourceTournament": "Esports World Cup 2026",
+      "tournamentLine": "Esports World Cup 2026 (WR) - Fearless Draft",
+      "date": "2026-07-15",
+      "week": "GROUPSTAGE",
+      "patch": "16.13",
+      "game": "MKOI vs GAM Esports",
+      "sourceUrl": "https://gol.gg/game/stats/79918/page-game/",
+      "teamA": "GAM Esports",
+      "teamB": "Movistar KOI",
+      "teamAId": "2882",
+      "teamBId": "2900",
+      "killsA": 24,
+      "killsB": 16,
+      "totalKills": 40,
+      "collectedAt": "2026-07-25T13:51:06.964Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Zaahen",
+          "Wukong",
+          "Ahri",
+          "Ziggs",
+          "Rakan"
+        ],
+        "teamB": [
+          "Renekton",
+          "Jarvan IV",
+          "Lissandra",
+          "Kaisa",
+          "Neeko"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Zaahen",
+          "JUNGLE": "Wukong",
+          "MID": "Ahri",
+          "ADC": "Ziggs",
+          "SUP": "Rakan"
+        },
+        "teamB": {
+          "TOP": "Renekton",
+          "JUNGLE": "Jarvan IV",
+          "MID": "Lissandra",
+          "ADC": "Kaisa",
+          "SUP": "Neeko"
+        }
+      }
+    },
+    {
+      "id": "79919",
+      "league": "MUNDIAL",
+      "tournament": "Esports World Cup 2026",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "cup",
+      "sourceTournament": "Esports World Cup 2026",
+      "tournamentLine": "Esports World Cup 2026 (WR) - Fearless Draft",
+      "date": "2026-07-15",
+      "week": "GROUPSTAGE",
+      "patch": "16.13",
+      "game": "FURIA vs Dplus KIA",
+      "sourceUrl": "https://gol.gg/game/stats/79919/page-game/",
+      "teamA": "FURIA",
+      "teamB": "Dplus KIA",
+      "teamAId": "2889",
+      "teamBId": "2802",
+      "killsA": 10,
+      "killsB": 24,
+      "totalKills": 34,
+      "collectedAt": "2026-07-25T13:51:07.136Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Ambessa",
+          "Skarner",
+          "Syndra",
+          "Ziggs",
+          "Leona"
+        ],
+        "teamB": [
+          "KSante",
+          "Lee Sin",
+          "Ahri",
+          "Viktor",
+          "Camille"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Ambessa",
+          "JUNGLE": "Skarner",
+          "MID": "Syndra",
+          "ADC": "Ziggs",
+          "SUP": "Leona"
+        },
+        "teamB": {
+          "TOP": "KSante",
+          "JUNGLE": "Lee Sin",
+          "MID": "Ahri",
+          "ADC": "Viktor",
+          "SUP": "Camille"
+        }
+      }
+    },
+    {
+      "id": "79920",
+      "league": "MUNDIAL",
+      "tournament": "Esports World Cup 2026",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "cup",
+      "sourceTournament": "Esports World Cup 2026",
+      "tournamentLine": "Esports World Cup 2026 (WR) - Fearless Draft",
+      "date": "2026-07-15",
+      "week": "GROUPSTAGE",
+      "patch": "16.13",
+      "game": "FURIA vs Dplus KIA",
+      "sourceUrl": "https://gol.gg/game/stats/79920/page-game/",
+      "teamA": "Dplus KIA",
+      "teamB": "FURIA",
+      "teamAId": "2802",
+      "teamBId": "2889",
+      "killsA": 17,
+      "killsB": 3,
+      "totalKills": 20,
+      "collectedAt": "2026-07-25T13:51:07.310Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Jayce",
+          "Naafiri",
+          "Orianna",
+          "Taliyah",
+          "Shen"
+        ],
+        "teamB": [
+          "Yorick",
+          "Vi",
+          "Galio",
+          "Ezreal",
+          "Bard"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Jayce",
+          "JUNGLE": "Naafiri",
+          "MID": "Orianna",
+          "ADC": "Taliyah",
+          "SUP": "Shen"
+        },
+        "teamB": {
+          "TOP": "Yorick",
+          "JUNGLE": "Vi",
+          "MID": "Galio",
+          "ADC": "Ezreal",
+          "SUP": "Bard"
+        }
+      }
+    },
+    {
+      "id": "79922",
+      "league": "MUNDIAL",
+      "tournament": "Esports World Cup 2026",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "cup",
+      "sourceTournament": "Esports World Cup 2026",
+      "tournamentLine": "Esports World Cup 2026 (WR) - Fearless Draft",
+      "date": "2026-07-15",
+      "week": "GROUPSTAGE",
+      "patch": "16.13",
+      "game": "Los Grandes vs LYON",
+      "sourceUrl": "https://gol.gg/game/stats/79922/page-game/",
+      "teamA": "LYON",
+      "teamB": "Los Grandes",
+      "teamAId": "2954",
+      "teamBId": "2895",
+      "killsA": 12,
+      "killsB": 22,
+      "totalKills": 34,
+      "collectedAt": "2026-07-25T13:51:07.482Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Jayce",
+          "Nocturne",
+          "Viktor",
+          "Ziggs",
+          "Alistar"
+        ],
+        "teamB": [
+          "Vayne",
+          "Vi",
+          "Taliyah",
+          "Cassiopeia",
+          "Camille"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Jayce",
+          "JUNGLE": "Nocturne",
+          "MID": "Viktor",
+          "ADC": "Ziggs",
+          "SUP": "Alistar"
+        },
+        "teamB": {
+          "TOP": "Vayne",
+          "JUNGLE": "Vi",
+          "MID": "Taliyah",
+          "ADC": "Cassiopeia",
+          "SUP": "Camille"
+        }
+      }
+    },
+    {
+      "id": "79923",
+      "league": "MUNDIAL",
+      "tournament": "Esports World Cup 2026",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "cup",
+      "sourceTournament": "Esports World Cup 2026",
+      "tournamentLine": "Esports World Cup 2026 (WR) - Fearless Draft",
+      "date": "2026-07-15",
+      "week": "GROUPSTAGE",
+      "patch": "16.13",
+      "game": "Los Grandes vs LYON",
+      "sourceUrl": "https://gol.gg/game/stats/79923/page-game/",
+      "teamA": "Los Grandes",
+      "teamB": "LYON",
+      "teamAId": "2895",
+      "teamBId": "2954",
+      "killsA": 29,
+      "killsB": 17,
+      "totalKills": 46,
+      "collectedAt": "2026-07-25T13:51:07.702Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Twisted Fate",
+          "Jarvan IV",
+          "Syndra",
+          "Anivia",
+          "Rell"
+        ],
+        "teamB": [
+          "Gnar",
+          "Qiyana",
+          "Ryze",
+          "Jhin",
+          "Nautilus"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Twisted Fate",
+          "JUNGLE": "Jarvan IV",
+          "MID": "Syndra",
+          "ADC": "Anivia",
+          "SUP": "Rell"
+        },
+        "teamB": {
+          "TOP": "Gnar",
+          "JUNGLE": "Qiyana",
+          "MID": "Ryze",
+          "ADC": "Jhin",
+          "SUP": "Nautilus"
+        }
+      }
+    },
+    {
+      "id": "79925",
+      "league": "MUNDIAL",
+      "tournament": "Esports World Cup 2026",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "cup",
+      "sourceTournament": "Esports World Cup 2026",
+      "tournamentLine": "Esports World Cup 2026 (WR) - Fearless Draft",
+      "date": "2026-07-16",
+      "week": "GROUPSTAGE",
+      "patch": "16.13",
+      "game": "Sentinels vs Gen.G",
+      "sourceUrl": "https://gol.gg/game/stats/79925/page-game/",
+      "teamA": "Gen.G",
+      "teamB": "Sentinels",
+      "teamAId": "2804",
+      "teamBId": "2955",
+      "killsA": 13,
+      "killsB": 9,
+      "totalKills": 22,
+      "collectedAt": "2026-07-25T13:51:07.900Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Ambessa",
+          "Lee Sin",
+          "Orianna",
+          "Ziggs",
+          "Camille"
+        ],
+        "teamB": [
+          "Shen",
+          "Skarner",
+          "Viktor",
+          "Caitlyn",
+          "Bard"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Ambessa",
+          "JUNGLE": "Lee Sin",
+          "MID": "Orianna",
+          "ADC": "Ziggs",
+          "SUP": "Camille"
+        },
+        "teamB": {
+          "TOP": "Shen",
+          "JUNGLE": "Skarner",
+          "MID": "Viktor",
+          "ADC": "Caitlyn",
+          "SUP": "Bard"
+        }
+      }
+    },
+    {
+      "id": "79926",
+      "league": "MUNDIAL",
+      "tournament": "Esports World Cup 2026",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "cup",
+      "sourceTournament": "Esports World Cup 2026",
+      "tournamentLine": "Esports World Cup 2026 (WR) - Fearless Draft",
+      "date": "2026-07-16",
+      "week": "GROUPSTAGE",
+      "patch": "16.13",
+      "game": "BLG vs T1",
+      "sourceUrl": "https://gol.gg/game/stats/79926/page-game/",
+      "teamA": "T1",
+      "teamB": "Bilibili Gaming",
+      "teamAId": "2809",
+      "teamBId": "2849",
+      "killsA": 13,
+      "killsB": 24,
+      "totalKills": 37,
+      "collectedAt": "2026-07-25T13:51:08.077Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Sion",
+          "Jarvan IV",
+          "Syndra",
+          "Sivir",
+          "Shen"
+        ],
+        "teamB": [
+          "KSante",
+          "Poppy",
+          "Cassiopeia",
+          "Ezreal",
+          "Camille"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Sion",
+          "JUNGLE": "Jarvan IV",
+          "MID": "Syndra",
+          "ADC": "Sivir",
+          "SUP": "Shen"
+        },
+        "teamB": {
+          "TOP": "KSante",
+          "JUNGLE": "Poppy",
+          "MID": "Cassiopeia",
+          "ADC": "Ezreal",
+          "SUP": "Camille"
+        }
+      }
+    },
+    {
+      "id": "79927",
+      "league": "MUNDIAL",
+      "tournament": "Esports World Cup 2026",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "cup",
+      "sourceTournament": "Esports World Cup 2026",
+      "tournamentLine": "Esports World Cup 2026 (WR) - Fearless Draft",
+      "date": "2026-07-16",
+      "week": "GROUPSTAGE",
+      "patch": "16.13",
+      "game": "G2 Esports vs AGAL",
+      "sourceUrl": "https://gol.gg/game/stats/79927/page-game/",
+      "teamA": "Anyone's Legend",
+      "teamB": "G2 Esports",
+      "teamAId": "2848",
+      "teamBId": "2897",
+      "killsA": 24,
+      "killsB": 14,
+      "totalKills": 38,
+      "collectedAt": "2026-07-25T13:51:08.247Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Shen",
+          "Jarvan IV",
+          "Orianna",
+          "Varus",
+          "Leona"
+        ],
+        "teamB": [
+          "Anivia",
+          "Lee Sin",
+          "Ahri",
+          "Ezreal",
+          "Camille"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Shen",
+          "JUNGLE": "Jarvan IV",
+          "MID": "Orianna",
+          "ADC": "Varus",
+          "SUP": "Leona"
+        },
+        "teamB": {
+          "TOP": "Anivia",
+          "JUNGLE": "Lee Sin",
+          "MID": "Ahri",
+          "ADC": "Ezreal",
+          "SUP": "Camille"
+        }
+      }
+    },
+    {
+      "id": "79928",
+      "league": "MUNDIAL",
+      "tournament": "Esports World Cup 2026",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "cup",
+      "sourceTournament": "Esports World Cup 2026",
+      "tournamentLine": "Esports World Cup 2026 (WR) - Fearless Draft",
+      "date": "2026-07-16",
+      "week": "GROUPSTAGE",
+      "patch": "16.13",
+      "game": "HLE vs JD Gaming",
+      "sourceUrl": "https://gol.gg/game/stats/79928/page-game/",
+      "teamA": "JD Gaming",
+      "teamB": "Hanwha Life Esports",
+      "teamAId": "2851",
+      "teamBId": "2805",
+      "killsA": 13,
+      "killsB": 18,
+      "totalKills": 31,
+      "collectedAt": "2026-07-25T13:51:08.429Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Ambessa",
+          "Naafiri",
+          "Twisted Fate",
+          "Syndra",
+          "Shen"
+        ],
+        "teamB": [
+          "Gnar",
+          "Jarvan IV",
+          "Akali",
+          "Ziggs",
+          "Camille"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Ambessa",
+          "JUNGLE": "Naafiri",
+          "MID": "Twisted Fate",
+          "ADC": "Syndra",
+          "SUP": "Shen"
+        },
+        "teamB": {
+          "TOP": "Gnar",
+          "JUNGLE": "Jarvan IV",
+          "MID": "Akali",
+          "ADC": "Ziggs",
+          "SUP": "Camille"
+        }
+      }
+    },
+    {
+      "id": "79929",
+      "league": "MUNDIAL",
+      "tournament": "Esports World Cup 2026",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "cup",
+      "sourceTournament": "Esports World Cup 2026",
+      "tournamentLine": "Esports World Cup 2026 (WR) - Fearless Draft",
+      "date": "2026-07-16",
+      "week": "GROUPSTAGE",
+      "patch": "16.13",
+      "game": "G2 Esports vs Dplus KIA",
+      "sourceUrl": "https://gol.gg/game/stats/79929/page-game/",
+      "teamA": "Dplus KIA",
+      "teamB": "G2 Esports",
+      "teamAId": "2802",
+      "teamBId": "2897",
+      "killsA": 19,
+      "killsB": 4,
+      "totalKills": 23,
+      "collectedAt": "2026-07-25T13:51:08.601Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Olaf",
+          "Vi",
+          "Taliyah",
+          "Viktor",
+          "Camille"
+        ],
+        "teamB": [
+          "Gnar",
+          "Nasus",
+          "Ryze",
+          "Ziggs",
+          "Leona"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Olaf",
+          "JUNGLE": "Vi",
+          "MID": "Taliyah",
+          "ADC": "Viktor",
+          "SUP": "Camille"
+        },
+        "teamB": {
+          "TOP": "Gnar",
+          "JUNGLE": "Nasus",
+          "MID": "Ryze",
+          "ADC": "Ziggs",
+          "SUP": "Leona"
+        }
+      }
+    },
+    {
+      "id": "79930",
+      "league": "MUNDIAL",
+      "tournament": "Esports World Cup 2026",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "cup",
+      "sourceTournament": "Esports World Cup 2026",
+      "tournamentLine": "Esports World Cup 2026 (WR) - Fearless Draft",
+      "date": "2026-07-16",
+      "week": "GROUPSTAGE",
+      "patch": "16.13",
+      "game": "G2 Esports vs Dplus KIA",
+      "sourceUrl": "https://gol.gg/game/stats/79930/page-game/",
+      "teamA": "Dplus KIA",
+      "teamB": "G2 Esports",
+      "teamAId": "2802",
+      "teamBId": "2897",
+      "killsA": 24,
+      "killsB": 20,
+      "totalKills": 44,
+      "collectedAt": "2026-07-25T13:51:08.790Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Jayce",
+          "Xin Zhao",
+          "Zoe",
+          "Syndra",
+          "Rell"
+        ],
+        "teamB": [
+          "Rumble",
+          "Jarvan IV",
+          "Sylas",
+          "Lucian",
+          "Nautilus"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Jayce",
+          "JUNGLE": "Xin Zhao",
+          "MID": "Zoe",
+          "ADC": "Syndra",
+          "SUP": "Rell"
+        },
+        "teamB": {
+          "TOP": "Rumble",
+          "JUNGLE": "Jarvan IV",
+          "MID": "Sylas",
+          "ADC": "Lucian",
+          "SUP": "Nautilus"
+        }
+      }
+    },
+    {
+      "id": "79932",
+      "league": "MUNDIAL",
+      "tournament": "Esports World Cup 2026",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "cup",
+      "sourceTournament": "Esports World Cup 2026",
+      "tournamentLine": "Esports World Cup 2026 (WR) - Fearless Draft",
+      "date": "2026-07-16",
+      "week": "GROUPSTAGE",
+      "patch": "16.13",
+      "game": "JD Gaming vs Los Grandes",
+      "sourceUrl": "https://gol.gg/game/stats/79932/page-game/",
+      "teamA": "JD Gaming",
+      "teamB": "Los Grandes",
+      "teamAId": "2851",
+      "teamBId": "2895",
+      "killsA": 25,
+      "killsB": 8,
+      "totalKills": 33,
+      "collectedAt": "2026-07-25T13:51:08.970Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Ambessa",
+          "Jarvan IV",
+          "Orianna",
+          "Ezreal",
+          "Leona"
+        ],
+        "teamB": [
+          "Tryndamere",
+          "Nocturne",
+          "Syndra",
+          "Lucian",
+          "Rell"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Ambessa",
+          "JUNGLE": "Jarvan IV",
+          "MID": "Orianna",
+          "ADC": "Ezreal",
+          "SUP": "Leona"
+        },
+        "teamB": {
+          "TOP": "Tryndamere",
+          "JUNGLE": "Nocturne",
+          "MID": "Syndra",
+          "ADC": "Lucian",
+          "SUP": "Rell"
+        }
+      }
+    },
+    {
+      "id": "79933",
+      "league": "MUNDIAL",
+      "tournament": "Esports World Cup 2026",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "cup",
+      "sourceTournament": "Esports World Cup 2026",
+      "tournamentLine": "Esports World Cup 2026 (WR) - Fearless Draft",
+      "date": "2026-07-16",
+      "week": "GROUPSTAGE",
+      "patch": "16.13",
+      "game": "JD Gaming vs Los Grandes",
+      "sourceUrl": "https://gol.gg/game/stats/79933/page-game/",
+      "teamA": "JD Gaming",
+      "teamB": "Los Grandes",
+      "teamAId": "2851",
+      "teamBId": "2895",
+      "killsA": 21,
+      "killsB": 8,
+      "totalKills": 29,
+      "collectedAt": "2026-07-25T13:51:09.139Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Rumble",
+          "Poppy",
+          "Ryze",
+          "Jhin",
+          "Alistar"
+        ],
+        "teamB": [
+          "Gnar",
+          "Vi",
+          "Taliyah",
+          "Varus",
+          "Neeko"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Rumble",
+          "JUNGLE": "Poppy",
+          "MID": "Ryze",
+          "ADC": "Jhin",
+          "SUP": "Alistar"
+        },
+        "teamB": {
+          "TOP": "Gnar",
+          "JUNGLE": "Vi",
+          "MID": "Taliyah",
+          "ADC": "Varus",
+          "SUP": "Neeko"
+        }
+      }
+    },
+    {
+      "id": "79935",
+      "league": "MUNDIAL",
+      "tournament": "Esports World Cup 2026",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "cup",
+      "sourceTournament": "Esports World Cup 2026",
+      "tournamentLine": "Esports World Cup 2026 (WR) - Fearless Draft",
+      "date": "2026-07-16",
+      "week": "GROUPSTAGE",
+      "patch": "16.13",
+      "game": "Sentinels vs KC",
+      "sourceUrl": "https://gol.gg/game/stats/79935/page-game/",
+      "teamA": "Karmine Corp",
+      "teamB": "Sentinels",
+      "teamAId": "2899",
+      "teamBId": "2955",
+      "killsA": 25,
+      "killsB": 10,
+      "totalKills": 35,
+      "collectedAt": "2026-07-25T13:51:09.405Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Rumble",
+          "Qiyana",
+          "Orianna",
+          "Ezreal",
+          "Leona"
+        ],
+        "teamB": [
+          "Ornn",
+          "Naafiri",
+          "Sylas",
+          "Ziggs",
+          "Camille"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Rumble",
+          "JUNGLE": "Qiyana",
+          "MID": "Orianna",
+          "ADC": "Ezreal",
+          "SUP": "Leona"
+        },
+        "teamB": {
+          "TOP": "Ornn",
+          "JUNGLE": "Naafiri",
+          "MID": "Sylas",
+          "ADC": "Ziggs",
+          "SUP": "Camille"
+        }
+      }
+    },
+    {
+      "id": "79936",
+      "league": "MUNDIAL",
+      "tournament": "Esports World Cup 2026",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "cup",
+      "sourceTournament": "Esports World Cup 2026",
+      "tournamentLine": "Esports World Cup 2026 (WR) - Fearless Draft",
+      "date": "2026-07-16",
+      "week": "GROUPSTAGE",
+      "patch": "16.13",
+      "game": "Sentinels vs KC",
+      "sourceUrl": "https://gol.gg/game/stats/79936/page-game/",
+      "teamA": "Sentinels",
+      "teamB": "Karmine Corp",
+      "teamAId": "2955",
+      "teamBId": "2899",
+      "killsA": 13,
+      "killsB": 23,
+      "totalKills": 36,
+      "collectedAt": "2026-07-25T13:51:09.575Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Yorick",
+          "Jarvan IV",
+          "Anivia",
+          "Jhin",
+          "Blitzcrank"
+        ],
+        "teamB": [
+          "Jayce",
+          "Xin Zhao",
+          "Cassiopeia",
+          "Kaisa",
+          "Pyke"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Yorick",
+          "JUNGLE": "Jarvan IV",
+          "MID": "Anivia",
+          "ADC": "Jhin",
+          "SUP": "Blitzcrank"
+        },
+        "teamB": {
+          "TOP": "Jayce",
+          "JUNGLE": "Xin Zhao",
+          "MID": "Cassiopeia",
+          "ADC": "Kaisa",
+          "SUP": "Pyke"
+        }
+      }
+    },
+    {
+      "id": "79938",
+      "league": "MUNDIAL",
+      "tournament": "Esports World Cup 2026",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "cup",
+      "sourceTournament": "Esports World Cup 2026",
+      "tournamentLine": "Esports World Cup 2026 (WR) - Fearless Draft",
+      "date": "2026-07-16",
+      "week": "GROUPSTAGE",
+      "patch": "16.13",
+      "game": "T1 vs GAM Esports",
+      "sourceUrl": "https://gol.gg/game/stats/79938/page-game/",
+      "teamA": "GAM Esports",
+      "teamB": "T1",
+      "teamAId": "2882",
+      "teamBId": "2809",
+      "killsA": 12,
+      "killsB": 22,
+      "totalKills": 34,
+      "collectedAt": "2026-07-25T13:51:09.745Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Varus",
+          "Lee Sin",
+          "Syndra",
+          "Ziggs",
+          "Camille"
+        ],
+        "teamB": [
+          "Gnar",
+          "Vi",
+          "Orianna",
+          "Cassiopeia",
+          "Leona"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Varus",
+          "JUNGLE": "Lee Sin",
+          "MID": "Syndra",
+          "ADC": "Ziggs",
+          "SUP": "Camille"
+        },
+        "teamB": {
+          "TOP": "Gnar",
+          "JUNGLE": "Vi",
+          "MID": "Orianna",
+          "ADC": "Cassiopeia",
+          "SUP": "Leona"
+        }
+      }
+    },
+    {
+      "id": "79939",
+      "league": "MUNDIAL",
+      "tournament": "Esports World Cup 2026",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "cup",
+      "sourceTournament": "Esports World Cup 2026",
+      "tournamentLine": "Esports World Cup 2026 (WR) - Fearless Draft",
+      "date": "2026-07-16",
+      "week": "GROUPSTAGE",
+      "patch": "16.13",
+      "game": "T1 vs GAM Esports",
+      "sourceUrl": "https://gol.gg/game/stats/79939/page-game/",
+      "teamA": "T1",
+      "teamB": "GAM Esports",
+      "teamAId": "2809",
+      "teamBId": "2882",
+      "killsA": 40,
+      "killsB": 25,
+      "totalKills": 65,
+      "collectedAt": "2026-07-25T13:51:09.968Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Renekton",
+          "Jarvan IV",
+          "Sylas",
+          "Seraphine",
+          "Alistar"
+        ],
+        "teamB": [
+          "Zaahen",
+          "Nocturne",
+          "Ahri",
+          "Lucian",
+          "Nautilus"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Renekton",
+          "JUNGLE": "Jarvan IV",
+          "MID": "Sylas",
+          "ADC": "Seraphine",
+          "SUP": "Alistar"
+        },
+        "teamB": {
+          "TOP": "Zaahen",
+          "JUNGLE": "Nocturne",
+          "MID": "Ahri",
+          "ADC": "Lucian",
+          "SUP": "Nautilus"
+        }
+      }
+    },
+    {
+      "id": "79953",
+      "league": "MUNDIAL",
+      "tournament": "Esports World Cup 2026",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "cup",
+      "sourceTournament": "Esports World Cup 2026",
+      "tournamentLine": "Esports World Cup 2026 (WR) - Fearless Draft",
+      "date": "2026-07-17",
+      "week": "QUARTERFINALS",
+      "patch": "16.13",
+      "game": "HLE vs T1",
+      "sourceUrl": "https://gol.gg/game/stats/79953/page-game/",
+      "teamA": "T1",
+      "teamB": "Hanwha Life Esports",
+      "teamAId": "2809",
+      "teamBId": "2805",
+      "killsA": 21,
+      "killsB": 4,
+      "totalKills": 25,
+      "collectedAt": "2026-07-25T13:51:10.152Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Renekton",
+          "Vi",
+          "Cassiopeia",
+          "Ezreal",
+          "Bard"
+        ],
+        "teamB": [
+          "Ambessa",
+          "Jarvan IV",
+          "Orianna",
+          "Caitlyn",
+          "Karma"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Renekton",
+          "JUNGLE": "Vi",
+          "MID": "Cassiopeia",
+          "ADC": "Ezreal",
+          "SUP": "Bard"
+        },
+        "teamB": {
+          "TOP": "Ambessa",
+          "JUNGLE": "Jarvan IV",
+          "MID": "Orianna",
+          "ADC": "Caitlyn",
+          "SUP": "Karma"
+        }
+      }
+    },
+    {
+      "id": "79954",
+      "league": "MUNDIAL",
+      "tournament": "Esports World Cup 2026",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "cup",
+      "sourceTournament": "Esports World Cup 2026",
+      "tournamentLine": "Esports World Cup 2026 (WR) - Fearless Draft",
+      "date": "2026-07-17",
+      "week": "QUARTERFINALS",
+      "patch": "16.13",
+      "game": "HLE vs T1",
+      "sourceUrl": "https://gol.gg/game/stats/79954/page-game/",
+      "teamA": "T1",
+      "teamB": "Hanwha Life Esports",
+      "teamAId": "2809",
+      "teamBId": "2805",
+      "killsA": 25,
+      "killsB": 15,
+      "totalKills": 40,
+      "collectedAt": "2026-07-25T13:51:10.321Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Jayce",
+          "Xin Zhao",
+          "Akali",
+          "Taliyah",
+          "Poppy"
+        ],
+        "teamB": [
+          "Swain",
+          "Lee Sin",
+          "Syndra",
+          "Jhin",
+          "Shen"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Jayce",
+          "JUNGLE": "Xin Zhao",
+          "MID": "Akali",
+          "ADC": "Taliyah",
+          "SUP": "Poppy"
+        },
+        "teamB": {
+          "TOP": "Swain",
+          "JUNGLE": "Lee Sin",
+          "MID": "Syndra",
+          "ADC": "Jhin",
+          "SUP": "Shen"
+        }
+      }
+    },
+    {
+      "id": "79956",
+      "league": "MUNDIAL",
+      "tournament": "Esports World Cup 2026",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "cup",
+      "sourceTournament": "Esports World Cup 2026",
+      "tournamentLine": "Esports World Cup 2026 (WR) - Fearless Draft",
+      "date": "2026-07-17",
+      "week": "QUARTERFINALS",
+      "patch": "16.13",
+      "game": "AGAL vs KC",
+      "sourceUrl": "https://gol.gg/game/stats/79956/page-game/",
+      "teamA": "Karmine Corp",
+      "teamB": "Anyone's Legend",
+      "teamAId": "2899",
+      "teamBId": "2848",
+      "killsA": 18,
+      "killsB": 11,
+      "totalKills": 29,
+      "collectedAt": "2026-07-25T13:51:10.495Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Jayce",
+          "Naafiri",
+          "Syndra",
+          "Viktor",
+          "Rell"
+        ],
+        "teamB": [
+          "Shen",
+          "Jarvan IV",
+          "Cassiopeia",
+          "Varus",
+          "Nautilus"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Jayce",
+          "JUNGLE": "Naafiri",
+          "MID": "Syndra",
+          "ADC": "Viktor",
+          "SUP": "Rell"
+        },
+        "teamB": {
+          "TOP": "Shen",
+          "JUNGLE": "Jarvan IV",
+          "MID": "Cassiopeia",
+          "ADC": "Varus",
+          "SUP": "Nautilus"
+        }
+      }
+    },
+    {
+      "id": "79957",
+      "league": "MUNDIAL",
+      "tournament": "Esports World Cup 2026",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "cup",
+      "sourceTournament": "Esports World Cup 2026",
+      "tournamentLine": "Esports World Cup 2026 (WR) - Fearless Draft",
+      "date": "2026-07-17",
+      "week": "QUARTERFINALS",
+      "patch": "16.13",
+      "game": "AGAL vs KC",
+      "sourceUrl": "https://gol.gg/game/stats/79957/page-game/",
+      "teamA": "Karmine Corp",
+      "teamB": "Anyone's Legend",
+      "teamAId": "2899",
+      "teamBId": "2848",
+      "killsA": 12,
+      "killsB": 4,
+      "totalKills": 16,
+      "collectedAt": "2026-07-25T13:51:10.667Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Rumble",
+          "Lee Sin",
+          "Anivia",
+          "Zeri",
+          "Alistar"
+        ],
+        "teamB": [
+          "Ornn",
+          "Qiyana",
+          "Ryze",
+          "Ezreal",
+          "Leona"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Rumble",
+          "JUNGLE": "Lee Sin",
+          "MID": "Anivia",
+          "ADC": "Zeri",
+          "SUP": "Alistar"
+        },
+        "teamB": {
+          "TOP": "Ornn",
+          "JUNGLE": "Qiyana",
+          "MID": "Ryze",
+          "ADC": "Ezreal",
+          "SUP": "Leona"
+        }
+      }
+    },
+    {
+      "id": "79959",
+      "league": "MUNDIAL",
+      "tournament": "Esports World Cup 2026",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "cup",
+      "sourceTournament": "Esports World Cup 2026",
+      "tournamentLine": "Esports World Cup 2026 (WR) - Fearless Draft",
+      "date": "2026-07-17",
+      "week": "QUARTERFINALS",
+      "patch": "16.13",
+      "game": "Gen.G vs JD Gaming",
+      "sourceUrl": "https://gol.gg/game/stats/79959/page-game/",
+      "teamA": "Gen.G",
+      "teamB": "JD Gaming",
+      "teamAId": "2804",
+      "teamBId": "2851",
+      "killsA": 17,
+      "killsB": 5,
+      "totalKills": 22,
+      "collectedAt": "2026-07-25T13:51:10.845Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Olaf",
+          "Jarvan IV",
+          "Galio",
+          "Seraphine",
+          "Shen"
+        ],
+        "teamB": [
+          "Jayce",
+          "Trundle",
+          "Orianna",
+          "Ziggs",
+          "Camille"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Olaf",
+          "JUNGLE": "Jarvan IV",
+          "MID": "Galio",
+          "ADC": "Seraphine",
+          "SUP": "Shen"
+        },
+        "teamB": {
+          "TOP": "Jayce",
+          "JUNGLE": "Trundle",
+          "MID": "Orianna",
+          "ADC": "Ziggs",
+          "SUP": "Camille"
+        }
+      }
+    },
+    {
+      "id": "79960",
+      "league": "MUNDIAL",
+      "tournament": "Esports World Cup 2026",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "cup",
+      "sourceTournament": "Esports World Cup 2026",
+      "tournamentLine": "Esports World Cup 2026 (WR) - Fearless Draft",
+      "date": "2026-07-17",
+      "week": "QUARTERFINALS",
+      "patch": "16.13",
+      "game": "Gen.G vs JD Gaming",
+      "sourceUrl": "https://gol.gg/game/stats/79960/page-game/",
+      "teamA": "JD Gaming",
+      "teamB": "Gen.G",
+      "teamAId": "2851",
+      "teamBId": "2804",
+      "killsA": 27,
+      "killsB": 19,
+      "totalKills": 46,
+      "collectedAt": "2026-07-25T13:51:11.016Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Rumble",
+          "Nocturne",
+          "Ryze",
+          "Xayah",
+          "Rakan"
+        ],
+        "teamB": [
+          "Ambessa",
+          "Wukong",
+          "Anivia",
+          "Ezreal",
+          "Neeko"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Rumble",
+          "JUNGLE": "Nocturne",
+          "MID": "Ryze",
+          "ADC": "Xayah",
+          "SUP": "Rakan"
+        },
+        "teamB": {
+          "TOP": "Ambessa",
+          "JUNGLE": "Wukong",
+          "MID": "Anivia",
+          "ADC": "Ezreal",
+          "SUP": "Neeko"
+        }
+      }
+    },
+    {
+      "id": "79962",
+      "league": "MUNDIAL",
+      "tournament": "Esports World Cup 2026",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "cup",
+      "sourceTournament": "Esports World Cup 2026",
+      "tournamentLine": "Esports World Cup 2026 (WR) - Fearless Draft",
+      "date": "2026-07-17",
+      "week": "QUARTERFINALS",
+      "patch": "16.13",
+      "game": "BLG vs Dplus KIA",
+      "sourceUrl": "https://gol.gg/game/stats/79962/page-game/",
+      "teamA": "Dplus KIA",
+      "teamB": "Bilibili Gaming",
+      "teamAId": "2802",
+      "teamBId": "2849",
+      "killsA": 17,
+      "killsB": 15,
+      "totalKills": 32,
+      "collectedAt": "2026-07-25T13:51:11.212Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "KSante",
+          "Lee Sin",
+          "Cassiopeia",
+          "Kaisa",
+          "Nautilus"
+        ],
+        "teamB": [
+          "Jayce",
+          "Jarvan IV",
+          "Viktor",
+          "Ziggs",
+          "Camille"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "KSante",
+          "JUNGLE": "Lee Sin",
+          "MID": "Cassiopeia",
+          "ADC": "Kaisa",
+          "SUP": "Nautilus"
+        },
+        "teamB": {
+          "TOP": "Jayce",
+          "JUNGLE": "Jarvan IV",
+          "MID": "Viktor",
+          "ADC": "Ziggs",
+          "SUP": "Camille"
+        }
+      }
+    },
+    {
+      "id": "79963",
+      "league": "MUNDIAL",
+      "tournament": "Esports World Cup 2026",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "cup",
+      "sourceTournament": "Esports World Cup 2026",
+      "tournamentLine": "Esports World Cup 2026 (WR) - Fearless Draft",
+      "date": "2026-07-17",
+      "week": "QUARTERFINALS",
+      "patch": "16.13",
+      "game": "BLG vs Dplus KIA",
+      "sourceUrl": "https://gol.gg/game/stats/79963/page-game/",
+      "teamA": "Dplus KIA",
+      "teamB": "Bilibili Gaming",
+      "teamAId": "2802",
+      "teamBId": "2849",
+      "killsA": 13,
+      "killsB": 17,
+      "totalKills": 30,
+      "collectedAt": "2026-07-25T13:51:11.391Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Tristana",
+          "Poppy",
+          "Ryze",
+          "Jhin",
+          "Karma"
+        ],
+        "teamB": [
+          "Gnar",
+          "Naafiri",
+          "Twisted Fate",
+          "Ezreal",
+          "Seraphine"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Tristana",
+          "JUNGLE": "Poppy",
+          "MID": "Ryze",
+          "ADC": "Jhin",
+          "SUP": "Karma"
+        },
+        "teamB": {
+          "TOP": "Gnar",
+          "JUNGLE": "Naafiri",
+          "MID": "Twisted Fate",
+          "ADC": "Ezreal",
+          "SUP": "Seraphine"
+        }
+      }
+    },
+    {
+      "id": "79964",
+      "league": "MUNDIAL",
+      "tournament": "Esports World Cup 2026",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "cup",
+      "sourceTournament": "Esports World Cup 2026",
+      "tournamentLine": "Esports World Cup 2026 (WR) - Fearless Draft",
+      "date": "2026-07-17",
+      "week": "QUARTERFINALS",
+      "patch": "16.13",
+      "game": "BLG vs Dplus KIA",
+      "sourceUrl": "https://gol.gg/game/stats/79964/page-game/",
+      "teamA": "Bilibili Gaming",
+      "teamB": "Dplus KIA",
+      "teamAId": "2849",
+      "teamBId": "2802",
+      "killsA": 10,
+      "killsB": 14,
+      "totalKills": 24,
+      "collectedAt": "2026-07-25T13:51:11.567Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Rumble",
+          "Pantheon",
+          "Sylas",
+          "Caitlyn",
+          "Bard"
+        ],
+        "teamB": [
+          "Aurora",
+          "Xin Zhao",
+          "Syndra",
+          "Lucian",
+          "Milio"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Rumble",
+          "JUNGLE": "Pantheon",
+          "MID": "Sylas",
+          "ADC": "Caitlyn",
+          "SUP": "Bard"
+        },
+        "teamB": {
+          "TOP": "Aurora",
+          "JUNGLE": "Xin Zhao",
+          "MID": "Syndra",
+          "ADC": "Lucian",
+          "SUP": "Milio"
+        }
+      }
+    },
+    {
+      "id": "79965",
+      "league": "MUNDIAL",
+      "tournament": "Esports World Cup 2026",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "cup",
+      "sourceTournament": "Esports World Cup 2026",
+      "tournamentLine": "Esports World Cup 2026 (WR) - Fearless Draft",
+      "date": "2026-07-18",
+      "week": "SEMIFINALS",
+      "patch": "16.13",
+      "game": "T1 vs KC",
+      "sourceUrl": "https://gol.gg/game/stats/79965/page-game/",
+      "teamA": "Karmine Corp",
+      "teamB": "T1",
+      "teamAId": "2899",
+      "teamBId": "2809",
+      "killsA": 15,
+      "killsB": 28,
+      "totalKills": 43,
+      "collectedAt": "2026-07-25T13:51:11.753Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Shyvana",
+          "Lee Sin",
+          "Viktor",
+          "Ziggs",
+          "Shen"
+        ],
+        "teamB": [
+          "Jayce",
+          "Xin Zhao",
+          "Syndra",
+          "Taliyah",
+          "Camille"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Shyvana",
+          "JUNGLE": "Lee Sin",
+          "MID": "Viktor",
+          "ADC": "Ziggs",
+          "SUP": "Shen"
+        },
+        "teamB": {
+          "TOP": "Jayce",
+          "JUNGLE": "Xin Zhao",
+          "MID": "Syndra",
+          "ADC": "Taliyah",
+          "SUP": "Camille"
+        }
+      }
+    },
+    {
+      "id": "79966",
+      "league": "MUNDIAL",
+      "tournament": "Esports World Cup 2026",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "cup",
+      "sourceTournament": "Esports World Cup 2026",
+      "tournamentLine": "Esports World Cup 2026 (WR) - Fearless Draft",
+      "date": "2026-07-18",
+      "week": "SEMIFINALS",
+      "patch": "16.13",
+      "game": "T1 vs KC",
+      "sourceUrl": "https://gol.gg/game/stats/79966/page-game/",
+      "teamA": "Karmine Corp",
+      "teamB": "T1",
+      "teamAId": "2899",
+      "teamBId": "2809",
+      "killsA": 23,
+      "killsB": 11,
+      "totalKills": 34,
+      "collectedAt": "2026-07-25T13:51:11.934Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Rumble",
+          "Qiyana",
+          "Anivia",
+          "Ezreal",
+          "Bard"
+        ],
+        "teamB": [
+          "Ambessa",
+          "Jarvan IV",
+          "Cassiopeia",
+          "Sivir",
+          "Neeko"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Rumble",
+          "JUNGLE": "Qiyana",
+          "MID": "Anivia",
+          "ADC": "Ezreal",
+          "SUP": "Bard"
+        },
+        "teamB": {
+          "TOP": "Ambessa",
+          "JUNGLE": "Jarvan IV",
+          "MID": "Cassiopeia",
+          "ADC": "Sivir",
+          "SUP": "Neeko"
+        }
+      }
+    },
+    {
+      "id": "79967",
+      "league": "MUNDIAL",
+      "tournament": "Esports World Cup 2026",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "cup",
+      "sourceTournament": "Esports World Cup 2026",
+      "tournamentLine": "Esports World Cup 2026 (WR) - Fearless Draft",
+      "date": "2026-07-18",
+      "week": "SEMIFINALS",
+      "patch": "16.13",
+      "game": "T1 vs KC",
+      "sourceUrl": "https://gol.gg/game/stats/79967/page-game/",
+      "teamA": "Karmine Corp",
+      "teamB": "T1",
+      "teamAId": "2899",
+      "teamBId": "2809",
+      "killsA": 24,
+      "killsB": 24,
+      "totalKills": 48,
+      "collectedAt": "2026-07-25T13:51:12.106Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Gnar",
+          "Wukong",
+          "Annie",
+          "Lucian",
+          "Milio"
+        ],
+        "teamB": [
+          "Olaf",
+          "Pantheon",
+          "Ryze",
+          "Xayah",
+          "Rakan"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Gnar",
+          "JUNGLE": "Wukong",
+          "MID": "Annie",
+          "ADC": "Lucian",
+          "SUP": "Milio"
+        },
+        "teamB": {
+          "TOP": "Olaf",
+          "JUNGLE": "Pantheon",
+          "MID": "Ryze",
+          "ADC": "Xayah",
+          "SUP": "Rakan"
+        }
+      }
+    },
+    {
+      "id": "79968",
+      "league": "MUNDIAL",
+      "tournament": "Esports World Cup 2026",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "cup",
+      "sourceTournament": "Esports World Cup 2026",
+      "tournamentLine": "Esports World Cup 2026 (WR) - Fearless Draft",
+      "date": "2026-07-18",
+      "week": "SEMIFINALS",
+      "patch": "16.13",
+      "game": "Gen.G vs Dplus KIA",
+      "sourceUrl": "https://gol.gg/game/stats/79968/page-game/",
+      "teamA": "Gen.G",
+      "teamB": "Dplus KIA",
+      "teamAId": "2804",
+      "teamBId": "2802",
+      "killsA": 16,
+      "killsB": 20,
+      "totalKills": 36,
+      "collectedAt": "2026-07-25T13:51:12.280Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Shen",
+          "Naafiri",
+          "Cassiopeia",
+          "Jhin",
+          "Bard"
+        ],
+        "teamB": [
+          "Ambessa",
+          "Vi",
+          "Taliyah",
+          "Ezreal",
+          "Karma"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Shen",
+          "JUNGLE": "Naafiri",
+          "MID": "Cassiopeia",
+          "ADC": "Jhin",
+          "SUP": "Bard"
+        },
+        "teamB": {
+          "TOP": "Ambessa",
+          "JUNGLE": "Vi",
+          "MID": "Taliyah",
+          "ADC": "Ezreal",
+          "SUP": "Karma"
+        }
+      }
+    },
+    {
+      "id": "79969",
+      "league": "MUNDIAL",
+      "tournament": "Esports World Cup 2026",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "cup",
+      "sourceTournament": "Esports World Cup 2026",
+      "tournamentLine": "Esports World Cup 2026 (WR) - Fearless Draft",
+      "date": "2026-07-18",
+      "week": "SEMIFINALS",
+      "patch": "16.13",
+      "game": "Gen.G vs Dplus KIA",
+      "sourceUrl": "https://gol.gg/game/stats/79969/page-game/",
+      "teamA": "Dplus KIA",
+      "teamB": "Gen.G",
+      "teamAId": "2802",
+      "teamBId": "2804",
+      "killsA": 14,
+      "killsB": 17,
+      "totalKills": 31,
+      "collectedAt": "2026-07-25T13:51:12.450Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "KSante",
+          "Lee Sin",
+          "Syndra",
+          "Miss Fortune",
+          "Leona"
+        ],
+        "teamB": [
+          "Jayce",
+          "Skarner",
+          "Akali",
+          "Ziggs",
+          "Camille"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "KSante",
+          "JUNGLE": "Lee Sin",
+          "MID": "Syndra",
+          "ADC": "Miss Fortune",
+          "SUP": "Leona"
+        },
+        "teamB": {
+          "TOP": "Jayce",
+          "JUNGLE": "Skarner",
+          "MID": "Akali",
+          "ADC": "Ziggs",
+          "SUP": "Camille"
+        }
+      }
+    },
+    {
+      "id": "79970",
+      "league": "MUNDIAL",
+      "tournament": "Esports World Cup 2026",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "cup",
+      "sourceTournament": "Esports World Cup 2026",
+      "tournamentLine": "Esports World Cup 2026 (WR) - Fearless Draft",
+      "date": "2026-07-18",
+      "week": "SEMIFINALS",
+      "patch": "16.13",
+      "game": "Gen.G vs Dplus KIA",
+      "sourceUrl": "https://gol.gg/game/stats/79970/page-game/",
+      "teamA": "Gen.G",
+      "teamB": "Dplus KIA",
+      "teamAId": "2804",
+      "teamBId": "2802",
+      "killsA": 9,
+      "killsB": 22,
+      "totalKills": 31,
+      "collectedAt": "2026-07-25T13:51:12.629Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Rumble",
+          "Xin Zhao",
+          "Sylas",
+          "Senna",
+          "Nautilus"
+        ],
+        "teamB": [
+          "Aatrox",
+          "Jarvan IV",
+          "Annie",
+          "Lucian",
+          "Milio"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Rumble",
+          "JUNGLE": "Xin Zhao",
+          "MID": "Sylas",
+          "ADC": "Senna",
+          "SUP": "Nautilus"
+        },
+        "teamB": {
+          "TOP": "Aatrox",
+          "JUNGLE": "Jarvan IV",
+          "MID": "Annie",
+          "ADC": "Lucian",
+          "SUP": "Milio"
+        }
+      }
+    },
+    {
+      "id": "80047",
+      "league": "MUNDIAL",
+      "tournament": "Esports World Cup 2026",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "cup",
+      "sourceTournament": "Esports World Cup 2026",
+      "tournamentLine": "Esports World Cup 2026 (WR) - Fearless Draft",
+      "date": "2026-07-19",
+      "week": "3RD.PALCE",
+      "patch": "16.13",
+      "game": "T1 vs Gen.G",
+      "sourceUrl": "https://gol.gg/game/stats/80047/page-game/",
+      "teamA": "Gen.G",
+      "teamB": "T1",
+      "teamAId": "2804",
+      "teamBId": "2809",
+      "killsA": 26,
+      "killsB": 9,
+      "totalKills": 35,
+      "collectedAt": "2026-07-25T13:51:12.813Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Vayne",
+          "Skarner",
+          "Anivia",
+          "Viktor",
+          "Shen"
+        ],
+        "teamB": [
+          "Ambessa",
+          "Lee Sin",
+          "Cassiopeia",
+          "Sylas",
+          "Camille"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Vayne",
+          "JUNGLE": "Skarner",
+          "MID": "Anivia",
+          "ADC": "Viktor",
+          "SUP": "Shen"
+        },
+        "teamB": {
+          "TOP": "Ambessa",
+          "JUNGLE": "Lee Sin",
+          "MID": "Cassiopeia",
+          "ADC": "Sylas",
+          "SUP": "Camille"
+        }
+      }
+    },
+    {
+      "id": "80048",
+      "league": "MUNDIAL",
+      "tournament": "Esports World Cup 2026",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "cup",
+      "sourceTournament": "Esports World Cup 2026",
+      "tournamentLine": "Esports World Cup 2026 (WR) - Fearless Draft",
+      "date": "2026-07-19",
+      "week": "3RD.PALCE",
+      "patch": "16.13",
+      "game": "T1 vs Gen.G",
+      "sourceUrl": "https://gol.gg/game/stats/80048/page-game/",
+      "teamA": "Gen.G",
+      "teamB": "T1",
+      "teamAId": "2804",
+      "teamBId": "2809",
+      "killsA": 12,
+      "killsB": 27,
+      "totalKills": 39,
+      "collectedAt": "2026-07-25T13:51:13.024Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Gwen",
+          "Jarvan IV",
+          "Mel",
+          "Ezreal",
+          "Karma"
+        ],
+        "teamB": [
+          "KSante",
+          "Wukong",
+          "Ryze",
+          "Caitlyn",
+          "Bard"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Gwen",
+          "JUNGLE": "Jarvan IV",
+          "MID": "Mel",
+          "ADC": "Ezreal",
+          "SUP": "Karma"
+        },
+        "teamB": {
+          "TOP": "KSante",
+          "JUNGLE": "Wukong",
+          "MID": "Ryze",
+          "ADC": "Caitlyn",
+          "SUP": "Bard"
+        }
+      }
+    },
+    {
+      "id": "80049",
+      "league": "MUNDIAL",
+      "tournament": "Esports World Cup 2026",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "cup",
+      "sourceTournament": "Esports World Cup 2026",
+      "tournamentLine": "Esports World Cup 2026 (WR) - Fearless Draft",
+      "date": "2026-07-19",
+      "week": "3RD.PALCE",
+      "patch": "16.13",
+      "game": "T1 vs Gen.G",
+      "sourceUrl": "https://gol.gg/game/stats/80049/page-game/",
+      "teamA": "T1",
+      "teamB": "Gen.G",
+      "teamAId": "2809",
+      "teamBId": "2804",
+      "killsA": 5,
+      "killsB": 26,
+      "totalKills": 31,
+      "collectedAt": "2026-07-25T13:51:13.198Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Yorick",
+          "Xin Zhao",
+          "Orianna",
+          "Syndra",
+          "Pyke"
+        ],
+        "teamB": [
+          "Varus",
+          "Pantheon",
+          "Galio",
+          "Seraphine",
+          "Alistar"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Yorick",
+          "JUNGLE": "Xin Zhao",
+          "MID": "Orianna",
+          "ADC": "Syndra",
+          "SUP": "Pyke"
+        },
+        "teamB": {
+          "TOP": "Varus",
+          "JUNGLE": "Pantheon",
+          "MID": "Galio",
+          "ADC": "Seraphine",
+          "SUP": "Alistar"
+        }
+      }
+    },
+    {
+      "id": "80050",
+      "league": "MUNDIAL",
+      "tournament": "Esports World Cup 2026",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "cup",
+      "sourceTournament": "Esports World Cup 2026",
+      "tournamentLine": "Esports World Cup 2026 (WR) - Fearless Draft",
+      "date": "2026-07-19",
+      "week": "FINALS",
+      "patch": "16.13",
+      "game": "KC vs Dplus KIA",
+      "sourceUrl": "https://gol.gg/game/stats/80050/page-game/",
+      "teamA": "Karmine Corp",
+      "teamB": "Dplus KIA",
+      "teamAId": "2899",
+      "teamBId": "2802",
+      "killsA": 9,
+      "killsB": 16,
+      "totalKills": 25,
+      "collectedAt": "2026-07-25T13:51:13.393Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Vayne",
+          "Lee Sin",
+          "Galio",
+          "Ziggs",
+          "Camille"
+        ],
+        "teamB": [
+          "Tristana",
+          "Skarner",
+          "Viktor",
+          "Kaisa",
+          "Shen"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Vayne",
+          "JUNGLE": "Lee Sin",
+          "MID": "Galio",
+          "ADC": "Ziggs",
+          "SUP": "Camille"
+        },
+        "teamB": {
+          "TOP": "Tristana",
+          "JUNGLE": "Skarner",
+          "MID": "Viktor",
+          "ADC": "Kaisa",
+          "SUP": "Shen"
+        }
+      }
+    },
+    {
+      "id": "80051",
+      "league": "MUNDIAL",
+      "tournament": "Esports World Cup 2026",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "cup",
+      "sourceTournament": "Esports World Cup 2026",
+      "tournamentLine": "Esports World Cup 2026 (WR) - Fearless Draft",
+      "date": "2026-07-19",
+      "week": "FINALS",
+      "patch": "16.13",
+      "game": "KC vs Dplus KIA",
+      "sourceUrl": "https://gol.gg/game/stats/80051/page-game/",
+      "teamA": "Dplus KIA",
+      "teamB": "Karmine Corp",
+      "teamAId": "2802",
+      "teamBId": "2899",
+      "killsA": 18,
+      "killsB": 8,
+      "totalKills": 26,
+      "collectedAt": "2026-07-25T13:51:13.602Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Gnar",
+          "Jarvan IV",
+          "Cassiopeia",
+          "Caitlyn",
+          "Lux"
+        ],
+        "teamB": [
+          "Olaf",
+          "Naafiri",
+          "Anivia",
+          "Ezreal",
+          "Bard"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Gnar",
+          "JUNGLE": "Jarvan IV",
+          "MID": "Cassiopeia",
+          "ADC": "Caitlyn",
+          "SUP": "Lux"
+        },
+        "teamB": {
+          "TOP": "Olaf",
+          "JUNGLE": "Naafiri",
+          "MID": "Anivia",
+          "ADC": "Ezreal",
+          "SUP": "Bard"
+        }
+      }
+    },
+    {
+      "id": "80052",
+      "league": "MUNDIAL",
+      "tournament": "Esports World Cup 2026",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "cup",
+      "sourceTournament": "Esports World Cup 2026",
+      "tournamentLine": "Esports World Cup 2026 (WR) - Fearless Draft",
+      "date": "2026-07-19",
+      "week": "FINALS",
+      "patch": "16.13",
+      "game": "KC vs Dplus KIA",
+      "sourceUrl": "https://gol.gg/game/stats/80052/page-game/",
+      "teamA": "Dplus KIA",
+      "teamB": "Karmine Corp",
+      "teamAId": "2802",
+      "teamBId": "2899",
+      "killsA": 23,
+      "killsB": 5,
+      "totalKills": 28,
+      "collectedAt": "2026-07-25T13:51:13.782Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "KSante",
+          "Xin Zhao",
+          "Ryze",
+          "Sivir",
+          "Rakan"
+        ],
+        "teamB": [
+          "Rumble",
+          "Wukong",
+          "Annie",
+          "Xayah",
+          "Rell"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "KSante",
+          "JUNGLE": "Xin Zhao",
+          "MID": "Ryze",
+          "ADC": "Sivir",
+          "SUP": "Rakan"
+        },
+        "teamB": {
+          "TOP": "Rumble",
+          "JUNGLE": "Wukong",
+          "MID": "Annie",
+          "ADC": "Xayah",
+          "SUP": "Rell"
         }
       }
     }
