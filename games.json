@@ -1,15 +1,16 @@
 {
   "meta": {
     "source": "GOL logged session",
-    "createdAt": "2026-07-25T23:13:41.861Z",
+    "createdAt": "2026-07-26T11:38:17.840Z",
     "collectorVersion": "new-games-http-2026-07-25",
     "leagues": [
       {
         "league": "CBLOL",
-        "games": 173,
+        "games": 178,
         "tournaments": [
           "CBLOL 2026 Split 1",
           "CBLOL 2026 Split 1 Playoffs",
+          "CBLOL 2026 Split 2",
           "CBLOL Cup 2026"
         ]
       },
@@ -75,17 +76,17 @@
       "side",
       "bans"
     ],
-    "updatedAt": "2026-07-25T23:13:41.861Z",
+    "updatedAt": "2026-07-26T11:38:17.840Z",
     "lastIncrementalMerge": {
       "source": "data/jogos-novos.json",
-      "mergedAt": "2026-07-25T23:13:41.861Z",
-      "added": 3,
+      "mergedAt": "2026-07-26T11:38:17.840Z",
+      "added": 5,
       "duplicatesSkipped": 0,
       "patches": [
         "16.14"
       ],
       "tournaments": [
-        "LCS 2026 Summer"
+        "CBLOL 2026 Split 2"
       ]
     },
     "nameCleanup": {
@@ -97,7 +98,7 @@
         "trim repeated spaces"
       ]
     },
-    "totalGames": 1743,
+    "totalGames": 1748,
     "dataCorrections": [
       {
         "correctedAt": "2026-07-14T01:19:11.794Z",
@@ -7249,6 +7250,286 @@
           "MID": "Mel",
           "ADC": "Senna",
           "SUP": "Nautilus"
+        }
+      }
+    },
+    {
+      "id": "80443",
+      "league": "CBLOL",
+      "tournament": "CBLOL 2026 Split 2",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "CBLOL 2026 Split 2",
+      "tournamentLine": "CBLOL 2026 Split 2 (BR) - Fearless Draft",
+      "date": "2026-07-25",
+      "week": "WEEK1",
+      "patch": "16.14",
+      "game": "FURIA vs Los Grandes",
+      "sourceUrl": "https://gol.gg/game/stats/80443/page-game/",
+      "teamA": "FURIA",
+      "teamB": "Los Grandes",
+      "teamAId": "2889",
+      "teamBId": "2895",
+      "killsA": 8,
+      "killsB": 19,
+      "totalKills": 27,
+      "collectedAt": "2026-07-26T11:37:12.126Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Sion",
+          "Vi",
+          "Akali",
+          "Cassiopeia",
+          "Camille"
+        ],
+        "teamB": [
+          "Dr. Mundo",
+          "Jarvan IV",
+          "Orianna",
+          "Syndra",
+          "Shen"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Sion",
+          "JUNGLE": "Vi",
+          "MID": "Akali",
+          "ADC": "Cassiopeia",
+          "SUP": "Camille"
+        },
+        "teamB": {
+          "TOP": "Dr. Mundo",
+          "JUNGLE": "Jarvan IV",
+          "MID": "Orianna",
+          "ADC": "Syndra",
+          "SUP": "Shen"
+        }
+      }
+    },
+    {
+      "id": "80444",
+      "league": "CBLOL",
+      "tournament": "CBLOL 2026 Split 2",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "CBLOL 2026 Split 2",
+      "tournamentLine": "CBLOL 2026 Split 2 (BR) - Fearless Draft",
+      "date": "2026-07-25",
+      "week": "WEEK1",
+      "patch": "16.14",
+      "game": "FURIA vs Los Grandes",
+      "sourceUrl": "https://gol.gg/game/stats/80444/page-game/",
+      "teamA": "Los Grandes",
+      "teamB": "FURIA",
+      "teamAId": "2895",
+      "teamBId": "2889",
+      "killsA": 35,
+      "killsB": 16,
+      "totalKills": 51,
+      "collectedAt": "2026-07-26T11:37:12.319Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Jayce",
+          "Trundle",
+          "Taliyah",
+          "Locke",
+          "Leona"
+        ],
+        "teamB": [
+          "Vayne",
+          "Graves",
+          "Ryze",
+          "Ezreal",
+          "Alistar"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Jayce",
+          "JUNGLE": "Trundle",
+          "MID": "Taliyah",
+          "ADC": "Locke",
+          "SUP": "Leona"
+        },
+        "teamB": {
+          "TOP": "Vayne",
+          "JUNGLE": "Graves",
+          "MID": "Ryze",
+          "ADC": "Ezreal",
+          "SUP": "Alistar"
+        }
+      }
+    },
+    {
+      "id": "80446",
+      "league": "CBLOL",
+      "tournament": "CBLOL 2026 Split 2",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "CBLOL 2026 Split 2",
+      "tournamentLine": "CBLOL 2026 Split 2 (BR) - Fearless Draft",
+      "date": "2026-07-25",
+      "week": "WEEK1",
+      "patch": "16.14",
+      "game": "LOUD vs paiN Gaming",
+      "sourceUrl": "https://gol.gg/game/stats/80446/page-game/",
+      "teamA": "paiN Gaming",
+      "teamB": "LOUD",
+      "teamAId": "2892",
+      "teamBId": "2891",
+      "killsA": 14,
+      "killsB": 3,
+      "totalKills": 17,
+      "collectedAt": "2026-07-26T11:37:13.073Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Gnar",
+          "Vi",
+          "Viktor",
+          "Ezreal",
+          "Rell"
+        ],
+        "teamB": [
+          "Tristana",
+          "Lee Sin",
+          "Syndra",
+          "Kaisa",
+          "Shen"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Gnar",
+          "JUNGLE": "Vi",
+          "MID": "Viktor",
+          "ADC": "Ezreal",
+          "SUP": "Rell"
+        },
+        "teamB": {
+          "TOP": "Tristana",
+          "JUNGLE": "Lee Sin",
+          "MID": "Syndra",
+          "ADC": "Kaisa",
+          "SUP": "Shen"
+        }
+      }
+    },
+    {
+      "id": "80447",
+      "league": "CBLOL",
+      "tournament": "CBLOL 2026 Split 2",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "CBLOL 2026 Split 2",
+      "tournamentLine": "CBLOL 2026 Split 2 (BR) - Fearless Draft",
+      "date": "2026-07-25",
+      "week": "WEEK1",
+      "patch": "16.14",
+      "game": "LOUD vs paiN Gaming",
+      "sourceUrl": "https://gol.gg/game/stats/80447/page-game/",
+      "teamA": "paiN Gaming",
+      "teamB": "LOUD",
+      "teamAId": "2892",
+      "teamBId": "2891",
+      "killsA": 4,
+      "killsB": 26,
+      "totalKills": 30,
+      "collectedAt": "2026-07-26T11:37:13.300Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Ambessa",
+          "Jarvan IV",
+          "Anivia",
+          "Ziggs",
+          "Leona"
+        ],
+        "teamB": [
+          "KSante",
+          "Qiyana",
+          "Cassiopeia",
+          "Jhin",
+          "Nautilus"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Ambessa",
+          "JUNGLE": "Jarvan IV",
+          "MID": "Anivia",
+          "ADC": "Ziggs",
+          "SUP": "Leona"
+        },
+        "teamB": {
+          "TOP": "KSante",
+          "JUNGLE": "Qiyana",
+          "MID": "Cassiopeia",
+          "ADC": "Jhin",
+          "SUP": "Nautilus"
+        }
+      }
+    },
+    {
+      "id": "80448",
+      "league": "CBLOL",
+      "tournament": "CBLOL 2026 Split 2",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "CBLOL 2026 Split 2",
+      "tournamentLine": "CBLOL 2026 Split 2 (BR) - Fearless Draft",
+      "date": "2026-07-25",
+      "week": "WEEK1",
+      "patch": "16.14",
+      "game": "LOUD vs paiN Gaming",
+      "sourceUrl": "https://gol.gg/game/stats/80448/page-game/",
+      "teamA": "LOUD",
+      "teamB": "paiN Gaming",
+      "teamAId": "2891",
+      "teamBId": "2892",
+      "killsA": 13,
+      "killsB": 1,
+      "totalKills": 14,
+      "collectedAt": "2026-07-26T11:37:13.530Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Ornn",
+          "Wukong",
+          "Sylas",
+          "Caitlyn",
+          "Karma"
+        ],
+        "teamB": [
+          "Rumble",
+          "Naafiri",
+          "Orianna",
+          "Lucian",
+          "Milio"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Ornn",
+          "JUNGLE": "Wukong",
+          "MID": "Sylas",
+          "ADC": "Caitlyn",
+          "SUP": "Karma"
+        },
+        "teamB": {
+          "TOP": "Rumble",
+          "JUNGLE": "Naafiri",
+          "MID": "Orianna",
+          "ADC": "Lucian",
+          "SUP": "Milio"
         }
       }
     },
