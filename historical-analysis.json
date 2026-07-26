@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-07-26T11:38:31.163Z",
+  "generatedAt": "2026-07-26T19:36:14.380Z",
   "methodology": "Walk-forward por liga (min 30 jogos treino). Linha simulada = linha justa pre-draft do modelo. Odds: 1.80/1.80.",
-  "sourceGames": 1748,
-  "generatedFromGamesUpdatedAt": "2026-07-26T11:38:17.840Z",
-  "backtestRows": 1446,
-  "count": 1446,
+  "sourceGames": 1757,
+  "generatedFromGamesUpdatedAt": "2026-07-26T19:36:00.335Z",
+  "backtestRows": 1455,
+  "count": 1455,
   "games": [
     {
       "l": "LCK",
@@ -10917,6 +10917,36 @@
       "as": "under"
     },
     {
+      "l": "CBLOL",
+      "a": 18,
+      "ml": 25.5,
+      "pred": 25.56,
+      "evo": -0.0947,
+      "evu": -0.1053,
+      "s": "",
+      "as": "under"
+    },
+    {
+      "l": "CBLOL",
+      "a": 24,
+      "ml": 24.5,
+      "pred": 26.11,
+      "evo": 0.0507,
+      "evu": -0.2507,
+      "s": "over",
+      "as": "under"
+    },
+    {
+      "l": "CBLOL",
+      "a": 14,
+      "ml": 24.5,
+      "pred": 25.29,
+      "evo": -0.0257,
+      "evu": -0.1743,
+      "s": "",
+      "as": "under"
+    },
+    {
       "l": "LEC",
       "a": 33,
       "ml": 29.5,
@@ -13167,6 +13197,46 @@
       "as": "under"
     },
     {
+      "l": "LEC",
+      "a": 23,
+      "ml": 29.5,
+      "pred": 29.08,
+      "evo": -0.1363,
+      "evu": -0.0637,
+      "s": "",
+      "as": "under"
+    },
+    {
+      "l": "LEC",
+      "a": 37,
+      "ml": 28.5,
+      "pred": 27.96,
+      "evo": -0.1463,
+      "evu": -0.0537,
+      "s": "",
+      "as": "over"
+    },
+    {
+      "l": "LEC",
+      "a": 44,
+      "ml": 30.5,
+      "pred": 29.76,
+      "evo": -0.1642,
+      "evu": -0.0358,
+      "s": "",
+      "as": "over"
+    },
+    {
+      "l": "LEC",
+      "a": 25,
+      "ml": 30.5,
+      "pred": 30.08,
+      "evo": -0.1364,
+      "evu": -0.0636,
+      "s": "",
+      "as": "under"
+    },
+    {
       "l": "LCS",
       "a": 28,
       "ml": 25.5,
@@ -14463,6 +14533,26 @@
       "pred": 25.11,
       "evo": -0.0379,
       "evu": -0.1621,
+      "s": "",
+      "as": "over"
+    },
+    {
+      "l": "LCS",
+      "a": 21,
+      "ml": 25.5,
+      "pred": 26.52,
+      "evo": 0.0033,
+      "evu": -0.2033,
+      "s": "",
+      "as": "under"
+    },
+    {
+      "l": "LCS",
+      "a": 44,
+      "ml": 25.5,
+      "pred": 25.64,
+      "evo": -0.0862,
+      "evu": -0.1138,
       "s": "",
       "as": "over"
     }
