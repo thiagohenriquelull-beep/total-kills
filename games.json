@@ -1,12 +1,12 @@
 {
   "meta": {
     "source": "GOL logged session",
-    "createdAt": "2026-07-26T19:36:00.335Z",
+    "createdAt": "2026-07-26T23:13:04.676Z",
     "collectorVersion": "new-games-http-2026-07-25",
     "leagues": [
       {
         "league": "CBLOL",
-        "games": 181,
+        "games": 183,
         "tournaments": [
           "CBLOL 2026 Split 1",
           "CBLOL 2026 Split 1 Playoffs",
@@ -32,7 +32,7 @@
       },
       {
         "league": "LCS",
-        "games": 162,
+        "games": 164,
         "tournaments": [
           "LCS 2026 Lock-In",
           "LCS 2026 Spring",
@@ -42,7 +42,7 @@
       },
       {
         "league": "LEC",
-        "games": 259,
+        "games": 261,
         "tournaments": [
           "LEC 2026 Spring Playoffs",
           "LEC 2026 Spring Season",
@@ -76,11 +76,11 @@
       "side",
       "bans"
     ],
-    "updatedAt": "2026-07-26T19:36:00.335Z",
+    "updatedAt": "2026-07-26T23:13:04.676Z",
     "lastIncrementalMerge": {
       "source": "data/jogos-novos.json",
-      "mergedAt": "2026-07-26T19:36:00.335Z",
-      "added": 9,
+      "mergedAt": "2026-07-26T23:13:04.676Z",
+      "added": 6,
       "duplicatesSkipped": 0,
       "patches": [
         "16.14"
@@ -100,7 +100,7 @@
         "trim repeated spaces"
       ]
     },
-    "totalGames": 1757,
+    "totalGames": 1763,
     "dataCorrections": [
       {
         "correctedAt": "2026-07-14T01:19:11.794Z",
@@ -7700,6 +7700,118 @@
           "MID": "Syndra",
           "ADC": "Lucian",
           "SUP": "Rell"
+        }
+      }
+    },
+    {
+      "id": "80453",
+      "league": "CBLOL",
+      "tournament": "CBLOL 2026 Split 2",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "CBLOL 2026 Split 2",
+      "tournamentLine": "CBLOL 2026 Split 2 (BR) - Fearless Draft",
+      "date": "2026-07-26",
+      "week": "WEEK1",
+      "patch": "16.14",
+      "game": "RED Canids vs VKS",
+      "sourceUrl": "https://gol.gg/game/stats/80453/page-game/",
+      "teamA": "Vivo Keyd Stars",
+      "teamB": "RED Canids",
+      "teamAId": "2894",
+      "teamBId": "2893",
+      "killsA": 3,
+      "killsB": 17,
+      "totalKills": 20,
+      "collectedAt": "2026-07-26T23:12:05.727Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Yorick",
+          "Xin Zhao",
+          "Sylas",
+          "Viktor",
+          "Shen"
+        ],
+        "teamB": [
+          "Ambessa",
+          "Wukong",
+          "Orianna",
+          "VelKoz",
+          "Alistar"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Yorick",
+          "JUNGLE": "Xin Zhao",
+          "MID": "Sylas",
+          "ADC": "Viktor",
+          "SUP": "Shen"
+        },
+        "teamB": {
+          "TOP": "Ambessa",
+          "JUNGLE": "Wukong",
+          "MID": "Orianna",
+          "ADC": "VelKoz",
+          "SUP": "Alistar"
+        }
+      }
+    },
+    {
+      "id": "80454",
+      "league": "CBLOL",
+      "tournament": "CBLOL 2026 Split 2",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "CBLOL 2026 Split 2",
+      "tournamentLine": "CBLOL 2026 Split 2 (BR) - Fearless Draft",
+      "date": "2026-07-26",
+      "week": "WEEK1",
+      "patch": "16.14",
+      "game": "RED Canids vs VKS",
+      "sourceUrl": "https://gol.gg/game/stats/80454/page-game/",
+      "teamA": "RED Canids",
+      "teamB": "Vivo Keyd Stars",
+      "teamAId": "2893",
+      "teamBId": "2894",
+      "killsA": 10,
+      "killsB": 20,
+      "totalKills": 30,
+      "collectedAt": "2026-07-26T23:12:05.919Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Olaf",
+          "Qiyana",
+          "Ryze",
+          "Mel",
+          "Nautilus"
+        ],
+        "teamB": [
+          "Gnar",
+          "Trundle",
+          "Akali",
+          "Ziggs",
+          "Maokai"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Olaf",
+          "JUNGLE": "Qiyana",
+          "MID": "Ryze",
+          "ADC": "Mel",
+          "SUP": "Nautilus"
+        },
+        "teamB": {
+          "TOP": "Gnar",
+          "JUNGLE": "Trundle",
+          "MID": "Akali",
+          "ADC": "Ziggs",
+          "SUP": "Maokai"
         }
       }
     },
@@ -38360,6 +38472,118 @@
       }
     },
     {
+      "id": "80331",
+      "league": "LCS",
+      "tournament": "LCS 2026 Summer",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCS 2026 Summer",
+      "tournamentLine": "LCS 2026 Summer (NA) - Fearless Draft",
+      "date": "2026-07-26",
+      "week": "WEEK1",
+      "patch": "16.14",
+      "game": "Team Liquid vs Cloud9",
+      "sourceUrl": "https://gol.gg/game/stats/80331/page-game/",
+      "teamA": "Team Liquid",
+      "teamB": "Cloud9",
+      "teamAId": "2813",
+      "teamBId": "2812",
+      "killsA": 22,
+      "killsB": 14,
+      "totalKills": 36,
+      "collectedAt": "2026-07-26T23:12:28.852Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Renekton",
+          "Wukong",
+          "Locke",
+          "Kaisa",
+          "Nautilus"
+        ],
+        "teamB": [
+          "Rumble",
+          "Skarner",
+          "Akali",
+          "Ezreal",
+          "Leona"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Renekton",
+          "JUNGLE": "Wukong",
+          "MID": "Locke",
+          "ADC": "Kaisa",
+          "SUP": "Nautilus"
+        },
+        "teamB": {
+          "TOP": "Rumble",
+          "JUNGLE": "Skarner",
+          "MID": "Akali",
+          "ADC": "Ezreal",
+          "SUP": "Leona"
+        }
+      }
+    },
+    {
+      "id": "80332",
+      "league": "LCS",
+      "tournament": "LCS 2026 Summer",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCS 2026 Summer",
+      "tournamentLine": "LCS 2026 Summer (NA) - Fearless Draft",
+      "date": "2026-07-26",
+      "week": "WEEK1",
+      "patch": "16.14",
+      "game": "Team Liquid vs Cloud9",
+      "sourceUrl": "https://gol.gg/game/stats/80332/page-game/",
+      "teamA": "Team Liquid",
+      "teamB": "Cloud9",
+      "teamAId": "2813",
+      "teamBId": "2812",
+      "killsA": 16,
+      "killsB": 6,
+      "totalKills": 22,
+      "collectedAt": "2026-07-26T23:12:29.050Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Gnar",
+          "Naafiri",
+          "Syndra",
+          "Corki",
+          "Rell"
+        ],
+        "teamB": [
+          "Ambessa",
+          "Lee Sin",
+          "Ryze",
+          "Viktor",
+          "Bard"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Gnar",
+          "JUNGLE": "Naafiri",
+          "MID": "Syndra",
+          "ADC": "Corki",
+          "SUP": "Rell"
+        },
+        "teamB": {
+          "TOP": "Ambessa",
+          "JUNGLE": "Lee Sin",
+          "MID": "Ryze",
+          "ADC": "Viktor",
+          "SUP": "Bard"
+        }
+      }
+    },
+    {
       "collectedAt": "2026-05-26T00:03:55.187Z",
       "collectorVersion": "expanded-2026-1",
       "date": "2026-01-17",
@@ -49212,6 +49436,118 @@
           "MID": "Sylas",
           "ADC": "Viktor",
           "SUP": "Rell"
+        }
+      }
+    },
+    {
+      "id": "80353",
+      "league": "LEC",
+      "tournament": "LEC 2026 Summer Season",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LEC 2026 Summer Season",
+      "tournamentLine": "LEC 2026 Summer Season (EUW) - Fearless Draft",
+      "date": "2026-07-26",
+      "week": "WEEK1",
+      "patch": "16.14",
+      "game": "G2 Esports vs KC",
+      "sourceUrl": "https://gol.gg/game/stats/80353/page-game/",
+      "teamA": "Karmine Corp",
+      "teamB": "G2 Esports",
+      "teamAId": "2899",
+      "teamBId": "2897",
+      "killsA": 9,
+      "killsB": 19,
+      "totalKills": 28,
+      "collectedAt": "2026-07-26T23:12:40.599Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Renekton",
+          "Qiyana",
+          "Orianna",
+          "Kaisa",
+          "Nautilus"
+        ],
+        "teamB": [
+          "Kled",
+          "Naafiri",
+          "Akali",
+          "Ziggs",
+          "Shen"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Renekton",
+          "JUNGLE": "Qiyana",
+          "MID": "Orianna",
+          "ADC": "Kaisa",
+          "SUP": "Nautilus"
+        },
+        "teamB": {
+          "TOP": "Kled",
+          "JUNGLE": "Naafiri",
+          "MID": "Akali",
+          "ADC": "Ziggs",
+          "SUP": "Shen"
+        }
+      }
+    },
+    {
+      "id": "80354",
+      "league": "LEC",
+      "tournament": "LEC 2026 Summer Season",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LEC 2026 Summer Season",
+      "tournamentLine": "LEC 2026 Summer Season (EUW) - Fearless Draft",
+      "date": "2026-07-26",
+      "week": "WEEK1",
+      "patch": "16.14",
+      "game": "G2 Esports vs KC",
+      "sourceUrl": "https://gol.gg/game/stats/80354/page-game/",
+      "teamA": "G2 Esports",
+      "teamB": "Karmine Corp",
+      "teamAId": "2897",
+      "teamBId": "2899",
+      "killsA": 21,
+      "killsB": 27,
+      "totalKills": 48,
+      "collectedAt": "2026-07-26T23:12:40.800Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Anivia",
+          "Olaf",
+          "Galio",
+          "Lucian",
+          "Taric"
+        ],
+        "teamB": [
+          "Yone",
+          "Wukong",
+          "Cassiopeia",
+          "Caitlyn",
+          "Camille"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Anivia",
+          "JUNGLE": "Olaf",
+          "MID": "Galio",
+          "ADC": "Lucian",
+          "SUP": "Taric"
+        },
+        "teamB": {
+          "TOP": "Yone",
+          "JUNGLE": "Wukong",
+          "MID": "Cassiopeia",
+          "ADC": "Caitlyn",
+          "SUP": "Camille"
         }
       }
     },
