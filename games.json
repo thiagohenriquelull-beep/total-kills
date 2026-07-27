@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "GOL logged session",
-    "createdAt": "2026-07-27T19:55:17.369Z",
+    "createdAt": "2026-07-27T23:21:10.354Z",
     "collectorVersion": "new-games-http-2026-07-25",
     "leagues": [
       {
@@ -53,7 +53,7 @@
       },
       {
         "league": "LPL",
-        "games": 484,
+        "games": 486,
         "tournaments": [
           "LPL 2026 Split 1",
           "LPL 2026 Split 1 Playoffs",
@@ -76,11 +76,11 @@
       "side",
       "bans"
     ],
-    "updatedAt": "2026-07-27T19:55:17.369Z",
+    "updatedAt": "2026-07-27T23:21:10.354Z",
     "lastIncrementalMerge": {
       "source": "data/jogos-novos.json",
-      "mergedAt": "2026-07-27T19:55:17.369Z",
-      "added": 13,
+      "mergedAt": "2026-07-27T23:21:10.354Z",
+      "added": 2,
       "duplicatesSkipped": 0,
       "patches": [
         "16.14"
@@ -98,7 +98,7 @@
         "trim repeated spaces"
       ]
     },
-    "totalGames": 1778,
+    "totalGames": 1780,
     "dataCorrections": [
       {
         "correctedAt": "2026-07-14T01:19:11.794Z",
@@ -71682,6 +71682,118 @@
           "MID": "Locke",
           "ADC": "Ezreal",
           "SUP": "Karma"
+        }
+      }
+    },
+    {
+      "id": "80213",
+      "league": "LPL",
+      "tournament": "LPL 2026 Split 3",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LPL 2026 Split 3",
+      "tournamentLine": "LPL 2026 Split 3 (CN) - Fearless Draft",
+      "date": "2026-07-26",
+      "week": "WEEK1",
+      "patch": "16.14",
+      "game": "LNG Esports vs NIP",
+      "sourceUrl": "https://gol.gg/game/stats/80213/page-game/",
+      "teamA": "Ninjas in Pyjamas",
+      "teamB": "LNG Esports",
+      "teamAId": "2855",
+      "teamBId": "2859",
+      "killsA": 14,
+      "killsB": 2,
+      "totalKills": 16,
+      "collectedAt": "2026-07-27T23:20:59.792Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Yorick",
+          "Naafiri",
+          "Cassiopeia",
+          "Xayah",
+          "Rakan"
+        ],
+        "teamB": [
+          "Jayce",
+          "Pantheon",
+          "Syndra",
+          "Lucian",
+          "Milio"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Yorick",
+          "JUNGLE": "Naafiri",
+          "MID": "Cassiopeia",
+          "ADC": "Xayah",
+          "SUP": "Rakan"
+        },
+        "teamB": {
+          "TOP": "Jayce",
+          "JUNGLE": "Pantheon",
+          "MID": "Syndra",
+          "ADC": "Lucian",
+          "SUP": "Milio"
+        }
+      }
+    },
+    {
+      "id": "80214",
+      "league": "LPL",
+      "tournament": "LPL 2026 Split 3",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LPL 2026 Split 3",
+      "tournamentLine": "LPL 2026 Split 3 (CN) - Fearless Draft",
+      "date": "2026-07-26",
+      "week": "WEEK1",
+      "patch": "16.14",
+      "game": "LNG Esports vs NIP",
+      "sourceUrl": "https://gol.gg/game/stats/80214/page-game/",
+      "teamA": "Ninjas in Pyjamas",
+      "teamB": "LNG Esports",
+      "teamAId": "2855",
+      "teamBId": "2859",
+      "killsA": 16,
+      "killsB": 7,
+      "totalKills": 23,
+      "collectedAt": "2026-07-27T23:21:00.015Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Gnar",
+          "Lee Sin",
+          "Twisted Fate",
+          "Ezreal",
+          "Alistar"
+        ],
+        "teamB": [
+          "Rumble",
+          "Skarner",
+          "Ryze",
+          "Miss Fortune",
+          "Nautilus"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Gnar",
+          "JUNGLE": "Lee Sin",
+          "MID": "Twisted Fate",
+          "ADC": "Ezreal",
+          "SUP": "Alistar"
+        },
+        "teamB": {
+          "TOP": "Rumble",
+          "JUNGLE": "Skarner",
+          "MID": "Ryze",
+          "ADC": "Miss Fortune",
+          "SUP": "Nautilus"
         }
       }
     },
