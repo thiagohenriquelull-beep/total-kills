@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "GOL logged session",
-    "createdAt": "2026-07-26T23:13:04.676Z",
+    "createdAt": "2026-07-27T13:23:26.517Z",
     "collectorVersion": "new-games-http-2026-07-25",
     "leagues": [
       {
@@ -32,7 +32,7 @@
       },
       {
         "league": "LCS",
-        "games": 164,
+        "games": 166,
         "tournaments": [
           "LCS 2026 Lock-In",
           "LCS 2026 Spring",
@@ -76,19 +76,17 @@
       "side",
       "bans"
     ],
-    "updatedAt": "2026-07-26T23:13:04.676Z",
+    "updatedAt": "2026-07-27T13:23:26.517Z",
     "lastIncrementalMerge": {
       "source": "data/jogos-novos.json",
-      "mergedAt": "2026-07-26T23:13:04.676Z",
-      "added": 6,
+      "mergedAt": "2026-07-27T13:23:26.517Z",
+      "added": 2,
       "duplicatesSkipped": 0,
       "patches": [
         "16.14"
       ],
       "tournaments": [
-        "CBLOL 2026 Split 2",
-        "LCS 2026 Summer",
-        "LEC 2026 Summer Season"
+        "LCS 2026 Summer"
       ]
     },
     "nameCleanup": {
@@ -100,7 +98,7 @@
         "trim repeated spaces"
       ]
     },
-    "totalGames": 1763,
+    "totalGames": 1765,
     "dataCorrections": [
       {
         "correctedAt": "2026-07-14T01:19:11.794Z",
@@ -38580,6 +38578,118 @@
           "MID": "Ryze",
           "ADC": "Viktor",
           "SUP": "Bard"
+        }
+      }
+    },
+    {
+      "id": "80334",
+      "league": "LCS",
+      "tournament": "LCS 2026 Summer",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCS 2026 Summer",
+      "tournamentLine": "LCS 2026 Summer (NA) - Fearless Draft",
+      "date": "2026-07-26",
+      "week": "WEEK1",
+      "patch": "16.14",
+      "game": "SR vs Disguised",
+      "sourceUrl": "https://gol.gg/game/stats/80334/page-game/",
+      "teamA": "Shopify Rebellion",
+      "teamB": "Disguised",
+      "teamAId": "2956",
+      "teamBId": "2957",
+      "killsA": 18,
+      "killsB": 13,
+      "totalKills": 31,
+      "collectedAt": "2026-07-27T13:22:54.293Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Gnar",
+          "Vi",
+          "Galio",
+          "Ezreal",
+          "Camille"
+        ],
+        "teamB": [
+          "Ambessa",
+          "Jarvan IV",
+          "Cassiopeia",
+          "Ziggs",
+          "Shen"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Gnar",
+          "JUNGLE": "Vi",
+          "MID": "Galio",
+          "ADC": "Ezreal",
+          "SUP": "Camille"
+        },
+        "teamB": {
+          "TOP": "Ambessa",
+          "JUNGLE": "Jarvan IV",
+          "MID": "Cassiopeia",
+          "ADC": "Ziggs",
+          "SUP": "Shen"
+        }
+      }
+    },
+    {
+      "id": "80335",
+      "league": "LCS",
+      "tournament": "LCS 2026 Summer",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCS 2026 Summer",
+      "tournamentLine": "LCS 2026 Summer (NA) - Fearless Draft",
+      "date": "2026-07-26",
+      "week": "WEEK1",
+      "patch": "16.14",
+      "game": "SR vs Disguised",
+      "sourceUrl": "https://gol.gg/game/stats/80335/page-game/",
+      "teamA": "Shopify Rebellion",
+      "teamB": "Disguised",
+      "teamAId": "2956",
+      "teamBId": "2957",
+      "killsA": 18,
+      "killsB": 3,
+      "totalKills": 21,
+      "collectedAt": "2026-07-27T13:22:54.463Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Jayce",
+          "Xin Zhao",
+          "Anivia",
+          "Viktor",
+          "Nautilus"
+        ],
+        "teamB": [
+          "Rumble",
+          "Pantheon",
+          "Ryze",
+          "Lucian",
+          "Milio"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Jayce",
+          "JUNGLE": "Xin Zhao",
+          "MID": "Anivia",
+          "ADC": "Viktor",
+          "SUP": "Nautilus"
+        },
+        "teamB": {
+          "TOP": "Rumble",
+          "JUNGLE": "Pantheon",
+          "MID": "Ryze",
+          "ADC": "Lucian",
+          "SUP": "Milio"
         }
       }
     },
