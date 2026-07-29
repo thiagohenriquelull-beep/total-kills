@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "GOL logged session",
-    "createdAt": "2026-07-28T16:17:05.893Z",
+    "createdAt": "2026-07-29T12:22:12.001Z",
     "collectorVersion": "new-games-http-2026-07-25",
     "leagues": [
       {
@@ -24,7 +24,7 @@
       },
       {
         "league": "LCKCL",
-        "games": 349,
+        "games": 353,
         "tournaments": [
           "LCK CL 2026 Kickoff",
           "LCK CL 2026 Rounds 1-2",
@@ -77,11 +77,11 @@
       "side",
       "bans"
     ],
-    "updatedAt": "2026-07-28T16:17:05.893Z",
+    "updatedAt": "2026-07-29T12:22:12.001Z",
     "lastIncrementalMerge": {
       "source": "data/jogos-novos.json",
-      "mergedAt": "2026-07-28T16:17:05.893Z",
-      "added": 1,
+      "mergedAt": "2026-07-29T12:22:12.001Z",
+      "added": 4,
       "duplicatesSkipped": 0,
       "patches": [
         "16.14"
@@ -99,7 +99,7 @@
         "trim repeated spaces"
       ]
     },
-    "totalGames": 1791,
+    "totalGames": 1795,
     "dataCorrections": [
       {
         "correctedAt": "2026-07-14T01:19:11.794Z",
@@ -32219,6 +32219,230 @@
           "MID": "Annie",
           "ADC": "Taliyah",
           "SUP": "Alistar"
+        }
+      }
+    },
+    {
+      "id": "80573",
+      "league": "LCKCL",
+      "tournament": "LCK CL 2026 Rounds 3-4",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCK CL 2026 Rounds 3-4",
+      "tournamentLine": "LCK CL 2026 Rounds 3-4 (KR) - Fearless Draft",
+      "date": "2026-07-29",
+      "week": "WEEK10",
+      "patch": "16.14",
+      "game": "NS vs DNS",
+      "sourceUrl": "https://gol.gg/game/stats/80573/page-game/",
+      "teamA": "DN SOOPers Challengers",
+      "teamB": "Nongshim Esports Academy",
+      "teamAId": "2830",
+      "teamBId": "2823",
+      "killsA": 14,
+      "killsB": 29,
+      "totalKills": 43,
+      "collectedAt": "2026-07-29T12:21:01.691Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Rumble",
+          "Jarvan IV",
+          "Ryze",
+          "Ambessa",
+          "Camille"
+        ],
+        "teamB": [
+          "Renekton",
+          "Lee Sin",
+          "Syndra",
+          "Lucian",
+          "Shen"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Rumble",
+          "JUNGLE": "Jarvan IV",
+          "MID": "Ryze",
+          "ADC": "Ambessa",
+          "SUP": "Camille"
+        },
+        "teamB": {
+          "TOP": "Renekton",
+          "JUNGLE": "Lee Sin",
+          "MID": "Syndra",
+          "ADC": "Lucian",
+          "SUP": "Shen"
+        }
+      }
+    },
+    {
+      "id": "80574",
+      "league": "LCKCL",
+      "tournament": "LCK CL 2026 Rounds 3-4",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCK CL 2026 Rounds 3-4",
+      "tournamentLine": "LCK CL 2026 Rounds 3-4 (KR) - Fearless Draft",
+      "date": "2026-07-29",
+      "week": "WEEK10",
+      "patch": "16.14",
+      "game": "NS vs DNS",
+      "sourceUrl": "https://gol.gg/game/stats/80574/page-game/",
+      "teamA": "Nongshim Esports Academy",
+      "teamB": "DN SOOPers Challengers",
+      "teamAId": "2823",
+      "teamBId": "2830",
+      "killsA": 25,
+      "killsB": 6,
+      "totalKills": 31,
+      "collectedAt": "2026-07-29T12:21:02.104Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Olaf",
+          "Naafiri",
+          "Ahri",
+          "Ezreal",
+          "Leona"
+        ],
+        "teamB": [
+          "Jayce",
+          "Pantheon",
+          "Galio",
+          "Jhin",
+          "Karma"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Olaf",
+          "JUNGLE": "Naafiri",
+          "MID": "Ahri",
+          "ADC": "Ezreal",
+          "SUP": "Leona"
+        },
+        "teamB": {
+          "TOP": "Jayce",
+          "JUNGLE": "Pantheon",
+          "MID": "Galio",
+          "ADC": "Jhin",
+          "SUP": "Karma"
+        }
+      }
+    },
+    {
+      "id": "80576",
+      "league": "LCKCL",
+      "tournament": "LCK CL 2026 Rounds 3-4",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCK CL 2026 Rounds 3-4",
+      "tournamentLine": "LCK CL 2026 Rounds 3-4 (KR) - Fearless Draft",
+      "date": "2026-07-29",
+      "week": "WEEK10",
+      "patch": "16.14",
+      "game": "KRX vs GGA",
+      "sourceUrl": "https://gol.gg/game/stats/80576/page-game/",
+      "teamA": "Gen.G Global Academy",
+      "teamB": "KRX Challengers",
+      "teamAId": "2827",
+      "teamBId": "2828",
+      "killsA": 6,
+      "killsB": 20,
+      "totalKills": 26,
+      "collectedAt": "2026-07-29T12:21:03.276Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Jayce",
+          "Nocturne",
+          "Taliyah",
+          "Viktor",
+          "Shen"
+        ],
+        "teamB": [
+          "KSante",
+          "Lee Sin",
+          "Ryze",
+          "Ezreal",
+          "Bard"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Jayce",
+          "JUNGLE": "Nocturne",
+          "MID": "Taliyah",
+          "ADC": "Viktor",
+          "SUP": "Shen"
+        },
+        "teamB": {
+          "TOP": "KSante",
+          "JUNGLE": "Lee Sin",
+          "MID": "Ryze",
+          "ADC": "Ezreal",
+          "SUP": "Bard"
+        }
+      }
+    },
+    {
+      "id": "80577",
+      "league": "LCKCL",
+      "tournament": "LCK CL 2026 Rounds 3-4",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCK CL 2026 Rounds 3-4",
+      "tournamentLine": "LCK CL 2026 Rounds 3-4 (KR) - Fearless Draft",
+      "date": "2026-07-29",
+      "week": "WEEK10",
+      "patch": "16.14",
+      "game": "KRX vs GGA",
+      "sourceUrl": "https://gol.gg/game/stats/80577/page-game/",
+      "teamA": "KRX Challengers",
+      "teamB": "Gen.G Global Academy",
+      "teamAId": "2828",
+      "teamBId": "2827",
+      "killsA": 33,
+      "killsB": 10,
+      "totalKills": 43,
+      "collectedAt": "2026-07-29T12:21:03.642Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Renekton",
+          "Pantheon",
+          "Orianna",
+          "Gnar",
+          "Nautilus"
+        ],
+        "teamB": [
+          "Ambessa",
+          "Naafiri",
+          "Sylas",
+          "Syndra",
+          "Leona"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Renekton",
+          "JUNGLE": "Pantheon",
+          "MID": "Orianna",
+          "ADC": "Gnar",
+          "SUP": "Nautilus"
+        },
+        "teamB": {
+          "TOP": "Ambessa",
+          "JUNGLE": "Naafiri",
+          "MID": "Sylas",
+          "ADC": "Syndra",
+          "SUP": "Leona"
         }
       }
     },
