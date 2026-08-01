@@ -110,6 +110,13 @@ function uniqueBy(items, keyFn) {
   return out;
 }
 
+function semanticGameKey(game) {
+  const sideA = [game.teamA, ...(game.picks?.teamA || [])].join("|");
+  const sideB = [game.teamB, ...(game.picks?.teamB || [])].join("|");
+  const sides = [sideA, sideB].sort();
+  return [game.league, game.date, game.totalKills, ...sides].join("::");
+}
+
 function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
@@ -414,6 +421,7 @@ async function main() {
   const current = JSON.parse(fs.readFileSync(CURRENT_FILE, "utf8"));
   const currentGames = current.games || [];
   const existingIds = new Set(currentGames.map((game) => String(game.id)));
+  const existingSemanticGames = new Map(currentGames.map((game) => [semanticGameKey(game), game]));
   const latest = latestByLeague(currentGames);
   const leagues = Object.keys(RULES).sort();
   const plan = await discoverPlan(leagues);
@@ -434,6 +442,8 @@ async function main() {
       candidateIds: 0,
       pendingIncomplete: 0,
       pendingIncompleteExamples: [],
+      skippedSemanticDuplicates: 0,
+      skippedSemanticDuplicateExamples: [],
       newGames: 0,
       skippedBeforeLatest: 0,
       skippedBeforeLatestExamples: [],
@@ -519,10 +529,28 @@ async function main() {
         continue;
       }
       if (game.date > UNTIL_DATE) continue;
+      const semanticKey = semanticGameKey(game);
+      const existingGame = existingSemanticGames.get(semanticKey);
+      if (existingGame) {
+        leagueReport.skippedSemanticDuplicates += 1;
+        if (leagueReport.skippedSemanticDuplicateExamples.length < 12) {
+          leagueReport.skippedSemanticDuplicateExamples.push({
+            collectedId: game.id,
+            existingId: existingGame.id,
+            date: game.date,
+            game: `${game.teamA} vs ${game.teamB}`,
+            totalKills: game.totalKills,
+            sourceUrl: game.sourceUrl,
+          });
+        }
+        console.log(`[${league}] duplicado ignorado ${game.id}; mesmo mapa do id ${existingGame.id}`);
+        continue;
+      }
       newGames.push(game);
       leagueReport.newGames += 1;
       if (game.patch) leagueReport.patches.add(game.patch);
       existingIds.add(String(game.id));
+      existingSemanticGames.set(semanticKey, game);
       console.log(`[${league}] novo ${game.date} ${game.id} ${game.teamA} vs ${game.teamB} kills=${game.totalKills}`);
     }
 
@@ -571,9 +599,9 @@ async function main() {
     `Temporada: ${SEASON}`,
     `Periodo ate: ${UNTIL_DATE}`,
     "",
-    "| Liga | Ultima data base | Mais recente completo no GOL | Candidatos fora da base | Pendentes no GOL | Antes da ultima data | Jogos novos validos | Patches |",
-    "|---|---:|---:|---:|---:|---:|---:|---|",
-    ...report.map((item) => `| ${item.league} | ${item.latestDate === "0000-00-00" ? "--" : item.latestDate} | ${item.latestSeenOnGol?.date || "--"} | ${item.candidateIds} | ${item.pendingIncomplete} | ${item.skippedBeforeLatest} | ${item.newGames} | ${item.patches.length ? item.patches.join(", ") : "--"} |`),
+    "| Liga | Ultima data base | Mais recente completo no GOL | Candidatos fora da base | Pendentes no GOL | Duplicados ignorados | Antes da ultima data | Jogos novos validos | Patches |",
+    "|---|---:|---:|---:|---:|---:|---:|---:|---|",
+    ...report.map((item) => `| ${item.league} | ${item.latestDate === "0000-00-00" ? "--" : item.latestDate} | ${item.latestSeenOnGol?.date || "--"} | ${item.candidateIds} | ${item.pendingIncomplete} | ${item.skippedSemanticDuplicates} | ${item.skippedBeforeLatest} | ${item.newGames} | ${item.patches.length ? item.patches.join(", ") : "--"} |`),
     "",
     `Total de jogos novos validos: ${newGames.length}`,
     "",
@@ -589,6 +617,7 @@ async function main() {
     latestSeenOnGol: item.latestSeenOnGol?.date || "--",
     candidates: item.candidateIds,
     pendingIncomplete: item.pendingIncomplete,
+    skippedSemanticDuplicates: item.skippedSemanticDuplicates,
     skippedBeforeLatest: item.skippedBeforeLatest,
     newGames: item.newGames,
     patches: item.patches.join(", ") || "--",

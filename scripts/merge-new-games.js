@@ -58,6 +58,12 @@ for (const game of [...currentGames, ...newGames]) {
 // Se o nome novo nao existe no dataset mas bate com um time conhecido ao
 // ignorar pontuacao ("Anyone s Legend" ~ "Anyone's Legend"), usa o canonico.
 const teamKey = (name) => String(name || "").toLowerCase().replace(/[^a-z0-9]/g, "");
+const semanticGameKey = (game) => {
+  const sideA = [game.teamA, ...(game.picks?.teamA || [])].join("|");
+  const sideB = [game.teamB, ...(game.picks?.teamB || [])].join("|");
+  const sides = [sideA, sideB].sort();
+  return [game.league, game.date, game.totalKills, ...sides].join("::");
+};
 const canonicalByKey = new Map();
 const knownTeamNames = new Set();
 for (const g of currentGames) {
@@ -82,12 +88,19 @@ for (const g of newGames) {
 // ── 3. Checklist 3.8 sobre os jogos novos ────────────────────────────────────
 const problems = [];
 const seenNew = new Set();
+const seenSemantic = new Map(currentGames.map((game) => [semanticGameKey(game), game.id]));
 for (const g of newGames) {
   const tag = `id ${g.id} (${g.teamA} vs ${g.teamB})`;
   if (!g.id) problems.push("jogo sem id");
   if (seenNew.has(String(g.id))) problems.push(`id duplicado dentro do arquivo novo: ${tag}`);
   seenNew.add(String(g.id));
   if (existingIds.has(String(g.id))) problems.push(`id ja existe no dataset: ${tag}`);
+  const semanticKey = semanticGameKey(g);
+  if (seenSemantic.has(semanticKey)) {
+    problems.push(`mapa semanticamente duplicado dos ids ${seenSemantic.get(semanticKey)} e ${g.id}: ${tag}`);
+  } else {
+    seenSemantic.set(semanticKey, g.id);
+  }
   if (!KNOWN_LEAGUES.includes(g.league)) problems.push(`liga desconhecida "${g.league}": ${tag}`);
   if (!/^\d{4}-\d{2}-\d{2}$/.test(g.date || "")) problems.push(`data invalida "${g.date}": ${tag}`);
   if (!g.patch || !String(g.patch).trim()) problems.push(`patch vazio: ${tag}`);
