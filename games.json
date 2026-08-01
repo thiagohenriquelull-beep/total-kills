@@ -1,12 +1,12 @@
 {
   "meta": {
     "source": "GOL logged session",
-    "createdAt": "2026-08-01T19:35:02.540Z",
+    "createdAt": "2026-08-01T23:11:39.760Z",
     "collectorVersion": "new-games-http-2026-07-25",
     "leagues": [
       {
         "league": "CBLOL",
-        "games": 185,
+        "games": 187,
         "tournaments": [
           "CBLOL 2026 Split 1",
           "CBLOL 2026 Split 1 Playoffs",
@@ -34,7 +34,7 @@
       },
       {
         "league": "LCS",
-        "games": 166,
+        "games": 167,
         "tournaments": [
           "LCS 2026 Lock-In",
           "LCS 2026 Spring",
@@ -44,7 +44,7 @@
       },
       {
         "league": "LEC",
-        "games": 268,
+        "games": 270,
         "tournaments": [
           "LEC 2026 Spring Playoffs",
           "LEC 2026 Spring Season",
@@ -78,17 +78,18 @@
       "side",
       "bans"
     ],
-    "updatedAt": "2026-08-01T19:35:02.540Z",
+    "updatedAt": "2026-08-01T23:11:39.760Z",
     "lastIncrementalMerge": {
       "source": "data/jogos-novos.json",
-      "mergedAt": "2026-08-01T19:35:02.540Z",
-      "added": 4,
+      "mergedAt": "2026-08-01T23:11:39.760Z",
+      "added": 5,
       "duplicatesSkipped": 0,
       "patches": [
         "16.15"
       ],
       "tournaments": [
         "CBLOL 2026 Split 2",
+        "LCS 2026 Summer",
         "LEC 2026 Summer Season"
       ]
     },
@@ -101,7 +102,7 @@
         "trim repeated spaces"
       ]
     },
-    "totalGames": 1832,
+    "totalGames": 1837,
     "dataCorrections": [
       {
         "correctedAt": "2026-07-14T01:19:11.794Z",
@@ -7925,6 +7926,118 @@
           "MID": "Syndra",
           "ADC": "Kaisa",
           "SUP": "Leona"
+        }
+      }
+    },
+    {
+      "id": "80466",
+      "league": "CBLOL",
+      "tournament": "CBLOL 2026 Split 2",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "CBLOL 2026 Split 2",
+      "tournamentLine": "CBLOL 2026 Split 2 (BR) - Fearless Draft",
+      "date": "2026-08-01",
+      "week": "WEEK2",
+      "patch": "16.15",
+      "game": "Leviatan vs paiN Gaming",
+      "sourceUrl": "https://gol.gg/game/stats/80466/page-game/",
+      "teamA": "paiN Gaming",
+      "teamB": "Leviatan",
+      "teamAId": "2892",
+      "teamBId": "2890",
+      "killsA": 14,
+      "killsB": 8,
+      "totalKills": 22,
+      "collectedAt": "2026-08-01T23:10:37.208Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Twisted Fate",
+          "Lee Sin",
+          "Cassiopeia",
+          "Corki",
+          "Leona"
+        ],
+        "teamB": [
+          "Gnar",
+          "Jarvan IV",
+          "Syndra",
+          "Viktor",
+          "Nautilus"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Twisted Fate",
+          "JUNGLE": "Lee Sin",
+          "MID": "Cassiopeia",
+          "ADC": "Corki",
+          "SUP": "Leona"
+        },
+        "teamB": {
+          "TOP": "Gnar",
+          "JUNGLE": "Jarvan IV",
+          "MID": "Syndra",
+          "ADC": "Viktor",
+          "SUP": "Nautilus"
+        }
+      }
+    },
+    {
+      "id": "80467",
+      "league": "CBLOL",
+      "tournament": "CBLOL 2026 Split 2",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "CBLOL 2026 Split 2",
+      "tournamentLine": "CBLOL 2026 Split 2 (BR) - Fearless Draft",
+      "date": "2026-08-01",
+      "week": "WEEK2",
+      "patch": "16.15",
+      "game": "Leviatan vs paiN Gaming",
+      "sourceUrl": "https://gol.gg/game/stats/80467/page-game/",
+      "teamA": "paiN Gaming",
+      "teamB": "Leviatan",
+      "teamAId": "2892",
+      "teamBId": "2890",
+      "killsA": 18,
+      "killsB": 5,
+      "totalKills": 23,
+      "collectedAt": "2026-08-01T23:10:37.382Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Jayce",
+          "Maokai",
+          "Galio",
+          "Caitlyn",
+          "Bard"
+        ],
+        "teamB": [
+          "KSante",
+          "Wukong",
+          "Ryze",
+          "Ezreal",
+          "Karma"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Jayce",
+          "JUNGLE": "Maokai",
+          "MID": "Galio",
+          "ADC": "Caitlyn",
+          "SUP": "Bard"
+        },
+        "teamB": {
+          "TOP": "KSante",
+          "JUNGLE": "Wukong",
+          "MID": "Ryze",
+          "ADC": "Ezreal",
+          "SUP": "Karma"
         }
       }
     },
@@ -41217,6 +41330,62 @@
       }
     },
     {
+      "id": "80502",
+      "league": "LCS",
+      "tournament": "LCS 2026 Summer",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCS 2026 Summer",
+      "tournamentLine": "LCS 2026 Summer (NA) - Fearless Draft",
+      "date": "2026-08-01",
+      "week": "WEEK2",
+      "patch": "16.15",
+      "game": "Cloud9 vs Dignitas",
+      "sourceUrl": "https://gol.gg/game/stats/80502/page-game/",
+      "teamA": "Dignitas",
+      "teamB": "Cloud9",
+      "teamAId": "2952",
+      "teamBId": "2812",
+      "killsA": 22,
+      "killsB": 18,
+      "totalKills": 40,
+      "collectedAt": "2026-08-01T23:11:03.070Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Gnar",
+          "Jarvan IV",
+          "Twisted Fate",
+          "Lucian",
+          "Milio"
+        ],
+        "teamB": [
+          "Corki",
+          "Lee Sin",
+          "Ryze",
+          "Ezreal",
+          "Camille"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Gnar",
+          "JUNGLE": "Jarvan IV",
+          "MID": "Twisted Fate",
+          "ADC": "Lucian",
+          "SUP": "Milio"
+        },
+        "teamB": {
+          "TOP": "Corki",
+          "JUNGLE": "Lee Sin",
+          "MID": "Ryze",
+          "ADC": "Ezreal",
+          "SUP": "Camille"
+        }
+      }
+    },
+    {
       "collectedAt": "2026-05-26T00:03:55.187Z",
       "collectorVersion": "expanded-2026-1",
       "date": "2026-01-17",
@@ -52573,6 +52742,118 @@
           "MID": "Sylas",
           "ADC": "Varus",
           "SUP": "Alistar"
+        }
+      }
+    },
+    {
+      "id": "80522",
+      "league": "LEC",
+      "tournament": "LEC 2026 Summer Season",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LEC 2026 Summer Season",
+      "tournamentLine": "LEC 2026 Summer Season (EUW) - Fearless Draft",
+      "date": "2026-08-01",
+      "week": "WEEK2",
+      "patch": "16.15",
+      "game": "GIANTX vs SK Gaming",
+      "sourceUrl": "https://gol.gg/game/stats/80522/page-game/",
+      "teamA": "GIANTX",
+      "teamB": "SK Gaming",
+      "teamAId": "2898",
+      "teamBId": "2903",
+      "killsA": 1,
+      "killsB": 12,
+      "totalKills": 13,
+      "collectedAt": "2026-08-01T23:11:13.806Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Ambessa",
+          "Skarner",
+          "Locke",
+          "Xayah",
+          "Rakan"
+        ],
+        "teamB": [
+          "Volibear",
+          "Wukong",
+          "Galio",
+          "Yunara",
+          "Lulu"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Ambessa",
+          "JUNGLE": "Skarner",
+          "MID": "Locke",
+          "ADC": "Xayah",
+          "SUP": "Rakan"
+        },
+        "teamB": {
+          "TOP": "Volibear",
+          "JUNGLE": "Wukong",
+          "MID": "Galio",
+          "ADC": "Yunara",
+          "SUP": "Lulu"
+        }
+      }
+    },
+    {
+      "id": "80523",
+      "league": "LEC",
+      "tournament": "LEC 2026 Summer Season",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LEC 2026 Summer Season",
+      "tournamentLine": "LEC 2026 Summer Season (EUW) - Fearless Draft",
+      "date": "2026-08-01",
+      "week": "WEEK2",
+      "patch": "16.15",
+      "game": "KC vs NAVI",
+      "sourceUrl": "https://gol.gg/game/stats/80523/page-game/",
+      "teamA": "Karmine Corp",
+      "teamB": "Natus Vincere",
+      "teamAId": "2899",
+      "teamBId": "2901",
+      "killsA": 19,
+      "killsB": 14,
+      "totalKills": 33,
+      "collectedAt": "2026-08-01T23:11:13.979Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Ambessa",
+          "Skarner",
+          "Anivia",
+          "Jhin",
+          "Leona"
+        ],
+        "teamB": [
+          "Zaahen",
+          "Lee Sin",
+          "Taliyah",
+          "Ziggs",
+          "Camille"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Ambessa",
+          "JUNGLE": "Skarner",
+          "MID": "Anivia",
+          "ADC": "Jhin",
+          "SUP": "Leona"
+        },
+        "teamB": {
+          "TOP": "Zaahen",
+          "JUNGLE": "Lee Sin",
+          "MID": "Taliyah",
+          "ADC": "Ziggs",
+          "SUP": "Camille"
         }
       }
     },
