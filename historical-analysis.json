@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-02T15:21:52.871Z",
+  "generatedAt": "2026-08-02T19:35:41.433Z",
   "methodology": "Walk-forward por liga (min 30 jogos treino). Linha simulada = linha justa pre-draft do modelo. Odds: 1.80/1.80.",
-  "sourceGames": 1844,
-  "generatedFromGamesUpdatedAt": "2026-08-02T15:21:37.160Z",
-  "backtestRows": 1542,
-  "count": 1542,
+  "sourceGames": 1851,
+  "generatedFromGamesUpdatedAt": "2026-08-02T19:35:26.019Z",
+  "backtestRows": 1549,
+  "count": 1549,
   "games": [
     {
       "l": "LCK",
@@ -2153,6 +2153,36 @@
       "pred": 26.25,
       "evo": -0.0356,
       "evu": -0.1644,
+      "s": "",
+      "as": "over"
+    },
+    {
+      "l": "LCK",
+      "a": 48,
+      "ml": 29.5,
+      "pred": 29.44,
+      "evo": -0.1055,
+      "evu": -0.0945,
+      "s": "",
+      "as": "over"
+    },
+    {
+      "l": "LCK",
+      "a": 26,
+      "ml": 30.5,
+      "pred": 30.98,
+      "evo": -0.0586,
+      "evu": -0.1414,
+      "s": "",
+      "as": "under"
+    },
+    {
+      "l": "LCK",
+      "a": 34,
+      "ml": 29.5,
+      "pred": 29.14,
+      "evo": -0.1312,
+      "evu": -0.0688,
       "s": "",
       "as": "over"
     },
@@ -11617,6 +11647,26 @@
       "as": "under"
     },
     {
+      "l": "CBLOL",
+      "a": 34,
+      "ml": 22.5,
+      "pred": 24.12,
+      "evo": 0.0508,
+      "evu": -0.2508,
+      "s": "over",
+      "as": "over"
+    },
+    {
+      "l": "CBLOL",
+      "a": 31,
+      "ml": 24.5,
+      "pred": 24.61,
+      "evo": -0.09,
+      "evu": -0.11,
+      "s": "",
+      "as": "over"
+    },
+    {
       "l": "LEC",
       "a": 33,
       "ml": 29.5,
@@ -14013,6 +14063,26 @@
       "pred": 29.51,
       "evo": -0.1859,
       "evu": -0.0141,
+      "s": "",
+      "as": "over"
+    },
+    {
+      "l": "LEC",
+      "a": 30,
+      "ml": 31.5,
+      "pred": 31.56,
+      "evo": -0.0952,
+      "evu": -0.1048,
+      "s": "",
+      "as": "under"
+    },
+    {
+      "l": "LEC",
+      "a": 51,
+      "ml": 32.5,
+      "pred": 31.25,
+      "evo": -0.2075,
+      "evu": 0.0075,
       "s": "",
       "as": "over"
     },
