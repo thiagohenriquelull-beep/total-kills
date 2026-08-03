@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "GOL logged session",
-    "createdAt": "2026-08-03T16:42:17.004Z",
+    "createdAt": "2026-08-03T19:59:12.844Z",
     "collectorVersion": "new-games-http-2026-07-25",
     "leagues": [
       {
@@ -44,7 +44,7 @@
       },
       {
         "league": "LEC",
-        "games": 275,
+        "games": 277,
         "tournaments": [
           "LEC 2026 Spring Playoffs",
           "LEC 2026 Spring Season",
@@ -78,17 +78,17 @@
       "side",
       "bans"
     ],
-    "updatedAt": "2026-08-03T16:42:17.004Z",
+    "updatedAt": "2026-08-03T19:59:12.844Z",
     "lastIncrementalMerge": {
       "source": "data/jogos-novos.json",
-      "mergedAt": "2026-08-03T16:42:17.004Z",
+      "mergedAt": "2026-08-03T19:59:12.844Z",
       "added": 2,
       "duplicatesSkipped": 0,
       "patches": [
         "16.15"
       ],
       "tournaments": [
-        "LCK CL 2026 Rounds 3-4"
+        "LEC 2026 Summer Season"
       ]
     },
     "nameCleanup": {
@@ -100,7 +100,7 @@
         "trim repeated spaces"
       ]
     },
-    "totalGames": 1895,
+    "totalGames": 1897,
     "dataCorrections": [
       {
         "correctedAt": "2026-07-14T01:19:11.794Z",
@@ -54420,6 +54420,118 @@
           "MID": "Orianna",
           "ADC": "Xayah",
           "SUP": "Rakan"
+        }
+      }
+    },
+    {
+      "id": "80532",
+      "league": "LEC",
+      "tournament": "LEC 2026 Summer Season",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LEC 2026 Summer Season",
+      "tournamentLine": "LEC 2026 Summer Season (EUW) - Fearless Draft",
+      "date": "2026-08-03",
+      "week": "WEEK2",
+      "patch": "16.15",
+      "game": "NAVI vs Shifters",
+      "sourceUrl": "https://gol.gg/game/stats/80532/page-game/",
+      "teamA": "Natus Vincere",
+      "teamB": "Shifters",
+      "teamAId": "2901",
+      "teamBId": "2902",
+      "killsA": 20,
+      "killsB": 16,
+      "totalKills": 36,
+      "collectedAt": "2026-08-03T19:58:43.256Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Jax",
+          "Zaahen",
+          "Syndra",
+          "Corki",
+          "Leona"
+        ],
+        "teamB": [
+          "Olaf",
+          "Nocturne",
+          "Viktor",
+          "Ziggs",
+          "Shen"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Jax",
+          "JUNGLE": "Zaahen",
+          "MID": "Syndra",
+          "ADC": "Corki",
+          "SUP": "Leona"
+        },
+        "teamB": {
+          "TOP": "Olaf",
+          "JUNGLE": "Nocturne",
+          "MID": "Viktor",
+          "ADC": "Ziggs",
+          "SUP": "Shen"
+        }
+      }
+    },
+    {
+      "id": "80533",
+      "league": "LEC",
+      "tournament": "LEC 2026 Summer Season",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LEC 2026 Summer Season",
+      "tournamentLine": "LEC 2026 Summer Season (EUW) - Fearless Draft",
+      "date": "2026-08-03",
+      "week": "WEEK2",
+      "patch": "16.15",
+      "game": "NAVI vs Shifters",
+      "sourceUrl": "https://gol.gg/game/stats/80533/page-game/",
+      "teamA": "Natus Vincere",
+      "teamB": "Shifters",
+      "teamAId": "2901",
+      "teamBId": "2902",
+      "killsA": 22,
+      "killsB": 10,
+      "totalKills": 32,
+      "collectedAt": "2026-08-03T19:58:43.482Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Rumble",
+          "Vi",
+          "Annie",
+          "Varus",
+          "Camille"
+        ],
+        "teamB": [
+          "KSante",
+          "Naafiri",
+          "Anivia",
+          "Ezreal",
+          "Rell"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Rumble",
+          "JUNGLE": "Vi",
+          "MID": "Annie",
+          "ADC": "Varus",
+          "SUP": "Camille"
+        },
+        "teamB": {
+          "TOP": "KSante",
+          "JUNGLE": "Naafiri",
+          "MID": "Anivia",
+          "ADC": "Ezreal",
+          "SUP": "Rell"
         }
       }
     },
