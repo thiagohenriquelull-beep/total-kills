@@ -510,6 +510,23 @@ async function main() {
         leagueReport.tournaments.push({ tournament: candidate.tournament, invalidGame: candidate.id, reason: "invalid parsed fields" });
         continue;
       }
+      const semanticKey = semanticGameKey(game);
+      const existingGame = existingSemanticGames.get(semanticKey);
+      if (existingGame) {
+        leagueReport.skippedSemanticDuplicates += 1;
+        if (leagueReport.skippedSemanticDuplicateExamples.length < 12) {
+          leagueReport.skippedSemanticDuplicateExamples.push({
+            collectedId: game.id,
+            existingId: existingGame.id,
+            date: game.date,
+            game: `${game.teamA} vs ${game.teamB}`,
+            totalKills: game.totalKills,
+            sourceUrl: game.sourceUrl,
+          });
+        }
+        console.log(`[${league}] duplicado ignorado ${game.id}; mesmo mapa do id ${existingGame.id}`);
+        continue;
+      }
       if (game.date < leagueLatest.date) {
         holeGames.push(game);
         leagueReport.skippedBeforeLatest += 1;
@@ -529,23 +546,6 @@ async function main() {
         continue;
       }
       if (game.date > UNTIL_DATE) continue;
-      const semanticKey = semanticGameKey(game);
-      const existingGame = existingSemanticGames.get(semanticKey);
-      if (existingGame) {
-        leagueReport.skippedSemanticDuplicates += 1;
-        if (leagueReport.skippedSemanticDuplicateExamples.length < 12) {
-          leagueReport.skippedSemanticDuplicateExamples.push({
-            collectedId: game.id,
-            existingId: existingGame.id,
-            date: game.date,
-            game: `${game.teamA} vs ${game.teamB}`,
-            totalKills: game.totalKills,
-            sourceUrl: game.sourceUrl,
-          });
-        }
-        console.log(`[${league}] duplicado ignorado ${game.id}; mesmo mapa do id ${existingGame.id}`);
-        continue;
-      }
       newGames.push(game);
       leagueReport.newGames += 1;
       if (game.patch) leagueReport.patches.add(game.patch);
