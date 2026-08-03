@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "GOL logged session",
-    "createdAt": "2026-08-03T19:59:12.844Z",
+    "createdAt": "2026-08-03T23:15:22.674Z",
     "collectorVersion": "new-games-http-2026-07-25",
     "leagues": [
       {
@@ -44,7 +44,7 @@
       },
       {
         "league": "LEC",
-        "games": 277,
+        "games": 278,
         "tournaments": [
           "LEC 2026 Spring Playoffs",
           "LEC 2026 Spring Season",
@@ -78,11 +78,11 @@
       "side",
       "bans"
     ],
-    "updatedAt": "2026-08-03T19:59:12.844Z",
+    "updatedAt": "2026-08-03T23:15:22.674Z",
     "lastIncrementalMerge": {
       "source": "data/jogos-novos.json",
-      "mergedAt": "2026-08-03T19:59:12.844Z",
-      "added": 2,
+      "mergedAt": "2026-08-03T23:15:22.674Z",
+      "added": 1,
       "duplicatesSkipped": 0,
       "patches": [
         "16.15"
@@ -100,7 +100,7 @@
         "trim repeated spaces"
       ]
     },
-    "totalGames": 1897,
+    "totalGames": 1898,
     "dataCorrections": [
       {
         "correctedAt": "2026-07-14T01:19:11.794Z",
@@ -54532,6 +54532,62 @@
           "MID": "Anivia",
           "ADC": "Ezreal",
           "SUP": "Rell"
+        }
+      }
+    },
+    {
+      "id": "80535",
+      "league": "LEC",
+      "tournament": "LEC 2026 Summer Season",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LEC 2026 Summer Season",
+      "tournamentLine": "LEC 2026 Summer Season (EUW) - Fearless Draft",
+      "date": "2026-08-03",
+      "week": "WEEK2",
+      "patch": "16.15",
+      "game": "KC vs TH",
+      "sourceUrl": "https://gol.gg/game/stats/80535/page-game/",
+      "teamA": "Karmine Corp",
+      "teamB": "Team Heretics",
+      "teamAId": "2899",
+      "teamBId": "2904",
+      "killsA": 18,
+      "killsB": 6,
+      "totalKills": 24,
+      "collectedAt": "2026-08-03T23:14:53.125Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Ambessa",
+          "Lee Sin",
+          "Syndra",
+          "Viktor",
+          "Shen"
+        ],
+        "teamB": [
+          "Renekton",
+          "Jarvan IV",
+          "Cassiopeia",
+          "Ezreal",
+          "Nautilus"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Ambessa",
+          "JUNGLE": "Lee Sin",
+          "MID": "Syndra",
+          "ADC": "Viktor",
+          "SUP": "Shen"
+        },
+        "teamB": {
+          "TOP": "Renekton",
+          "JUNGLE": "Jarvan IV",
+          "MID": "Cassiopeia",
+          "ADC": "Ezreal",
+          "SUP": "Nautilus"
         }
       }
     },
