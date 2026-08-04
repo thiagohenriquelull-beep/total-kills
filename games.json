@@ -1,8 +1,8 @@
 {
   "meta": {
     "source": "GOL logged session",
-    "createdAt": "2026-08-03T23:39:45.073Z",
-    "collectorVersion": "manual-recovery-2026-08-03",
+    "createdAt": "2026-08-04T12:20:19.121Z",
+    "collectorVersion": "new-games-http-2026-07-25",
     "leagues": [
       {
         "league": "CBLOL",
@@ -44,7 +44,7 @@
       },
       {
         "league": "LEC",
-        "games": 278,
+        "games": 279,
         "tournaments": [
           "LEC 2026 Spring Playoffs",
           "LEC 2026 Spring Season",
@@ -78,17 +78,17 @@
       "side",
       "bans"
     ],
-    "updatedAt": "2026-08-03T23:39:45.073Z",
+    "updatedAt": "2026-08-04T12:20:19.121Z",
     "lastIncrementalMerge": {
       "source": "data/jogos-novos.json",
-      "mergedAt": "2026-08-03T23:39:45.073Z",
+      "mergedAt": "2026-08-04T12:20:19.121Z",
       "added": 1,
       "duplicatesSkipped": 0,
       "patches": [
-        "16.14"
+        "16.15"
       ],
       "tournaments": [
-        "LCK 2026 Rounds 3-4"
+        "LEC 2026 Summer Season"
       ]
     },
     "nameCleanup": {
@@ -100,7 +100,7 @@
         "trim repeated spaces"
       ]
     },
-    "totalGames": 1899,
+    "totalGames": 1900,
     "dataCorrections": [
       {
         "correctedAt": "2026-07-14T01:19:11.794Z",
@@ -54645,6 +54645,62 @@
           "MID": "Cassiopeia",
           "ADC": "Ezreal",
           "SUP": "Nautilus"
+        }
+      }
+    },
+    {
+      "id": "80536",
+      "league": "LEC",
+      "tournament": "LEC 2026 Summer Season",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LEC 2026 Summer Season",
+      "tournamentLine": "LEC 2026 Summer Season (EUW) - Fearless Draft",
+      "date": "2026-08-03",
+      "week": "WEEK2",
+      "patch": "16.15",
+      "game": "KC vs TH",
+      "sourceUrl": "https://gol.gg/game/stats/80536/page-game/",
+      "teamA": "Karmine Corp",
+      "teamB": "Team Heretics",
+      "teamAId": "2899",
+      "teamBId": "2904",
+      "killsA": 16,
+      "killsB": 5,
+      "totalKills": 21,
+      "collectedAt": "2026-08-04T12:19:45.893Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Rumble",
+          "Poppy",
+          "Anivia",
+          "Ashe",
+          "Seraphine"
+        ],
+        "teamB": [
+          "Jayce",
+          "Maokai",
+          "Azir",
+          "Lucian",
+          "Milio"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Rumble",
+          "JUNGLE": "Poppy",
+          "MID": "Anivia",
+          "ADC": "Ashe",
+          "SUP": "Seraphine"
+        },
+        "teamB": {
+          "TOP": "Jayce",
+          "JUNGLE": "Maokai",
+          "MID": "Azir",
+          "ADC": "Lucian",
+          "SUP": "Milio"
         }
       }
     },
