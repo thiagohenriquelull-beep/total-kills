@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "GOL logged session",
-    "createdAt": "2026-08-05T16:11:45.997Z",
+    "createdAt": "2026-08-05T23:19:19.196Z",
     "collectorVersion": "new-games-http-2026-07-25",
     "leagues": [
       {
@@ -55,7 +55,7 @@
       },
       {
         "league": "LPL",
-        "games": 520,
+        "games": 521,
         "tournaments": [
           "LPL 2026 Split 1",
           "LPL 2026 Split 1 Playoffs",
@@ -78,18 +78,16 @@
       "side",
       "bans"
     ],
-    "updatedAt": "2026-08-05T16:11:45.997Z",
+    "updatedAt": "2026-08-05T23:19:19.196Z",
     "lastIncrementalMerge": {
       "source": "data/jogos-novos.json",
-      "mergedAt": "2026-08-05T16:11:45.997Z",
-      "added": 5,
+      "mergedAt": "2026-08-05T23:19:19.196Z",
+      "added": 1,
       "duplicatesSkipped": 0,
       "patches": [
-        "16.14",
-        "16.15"
+        "16.14"
       ],
       "tournaments": [
-        "LCK 2026 Rounds 3-4",
         "LPL 2026 Split 3"
       ]
     },
@@ -102,7 +100,7 @@
         "trim repeated spaces"
       ]
     },
-    "totalGames": 1921,
+    "totalGames": 1922,
     "dataCorrections": [
       {
         "correctedAt": "2026-07-14T01:19:11.794Z",
@@ -79863,6 +79861,62 @@
           "MID": "Sylas",
           "ADC": "Draven",
           "SUP": "Nautilus"
+        }
+      }
+    },
+    {
+      "id": "80983",
+      "league": "LPL",
+      "tournament": "LPL 2026 Split 3",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LPL 2026 Split 3",
+      "tournamentLine": "LPL 2026 Split 3 (CN) - Fearless Draft",
+      "date": "2026-08-05",
+      "week": "WEEK3",
+      "patch": "16.14",
+      "game": "JD Gaming vs LGD Gaming",
+      "sourceUrl": "https://gol.gg/game/stats/80983/page-game/",
+      "teamA": "JD Gaming",
+      "teamB": "LGD Gaming",
+      "teamAId": "2851",
+      "teamBId": "2858",
+      "killsA": 19,
+      "killsB": 14,
+      "totalKills": 33,
+      "collectedAt": "2026-08-05T23:19:09.392Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Jax",
+          "Lee Sin",
+          "Orianna",
+          "Kaisa",
+          "Camille"
+        ],
+        "teamB": [
+          "Ambessa",
+          "Nocturne",
+          "Syndra",
+          "Xayah",
+          "Leona"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Jax",
+          "JUNGLE": "Lee Sin",
+          "MID": "Orianna",
+          "ADC": "Kaisa",
+          "SUP": "Camille"
+        },
+        "teamB": {
+          "TOP": "Ambessa",
+          "JUNGLE": "Nocturne",
+          "MID": "Syndra",
+          "ADC": "Xayah",
+          "SUP": "Leona"
         }
       }
     },
