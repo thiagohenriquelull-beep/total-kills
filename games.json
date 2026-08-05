@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "GOL logged session",
-    "createdAt": "2026-08-05T12:17:40.558Z",
+    "createdAt": "2026-08-05T16:11:45.997Z",
     "collectorVersion": "new-games-http-2026-07-25",
     "leagues": [
       {
@@ -16,7 +16,7 @@
       },
       {
         "league": "LCK",
-        "games": 252,
+        "games": 255,
         "tournaments": [
           "LCK 2026 Road to MSI",
           "LCK 2026 Rounds 1-2",
@@ -55,7 +55,7 @@
       },
       {
         "league": "LPL",
-        "games": 518,
+        "games": 520,
         "tournaments": [
           "LPL 2026 Split 1",
           "LPL 2026 Split 1 Playoffs",
@@ -78,11 +78,11 @@
       "side",
       "bans"
     ],
-    "updatedAt": "2026-08-05T12:17:40.558Z",
+    "updatedAt": "2026-08-05T16:11:45.997Z",
     "lastIncrementalMerge": {
       "source": "data/jogos-novos.json",
-      "mergedAt": "2026-08-05T12:17:40.558Z",
-      "added": 16,
+      "mergedAt": "2026-08-05T16:11:45.997Z",
+      "added": 5,
       "duplicatesSkipped": 0,
       "patches": [
         "16.14",
@@ -90,7 +90,6 @@
       ],
       "tournaments": [
         "LCK 2026 Rounds 3-4",
-        "LCK CL 2026 Rounds 3-4",
         "LPL 2026 Split 3"
       ]
     },
@@ -103,7 +102,7 @@
         "trim repeated spaces"
       ]
     },
-    "totalGames": 1916,
+    "totalGames": 1921,
     "dataCorrections": [
       {
         "correctedAt": "2026-07-14T01:19:11.794Z",
@@ -19496,6 +19495,174 @@
           "MID": "Annie",
           "ADC": "Lucian",
           "SUP": "Yuumi"
+        }
+      }
+    },
+    {
+      "id": "81029",
+      "league": "LCK",
+      "tournament": "LCK 2026 Rounds 3-4",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCK 2026 Rounds 3-4",
+      "tournamentLine": "LCK 2026 Rounds 3-4 (KR) - Fearless Draft",
+      "date": "2026-08-05",
+      "week": "WEEK11",
+      "patch": "16.15",
+      "game": "HLE vs Gen.G",
+      "sourceUrl": "https://gol.gg/game/stats/81029/page-game/",
+      "teamA": "Gen.G",
+      "teamB": "Hanwha Life Esports",
+      "teamAId": "2804",
+      "teamBId": "2805",
+      "killsA": 17,
+      "killsB": 8,
+      "totalKills": 25,
+      "collectedAt": "2026-08-05T16:10:51.932Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Ornn",
+          "Lee Sin",
+          "Anivia",
+          "Jhin",
+          "Poppy"
+        ],
+        "teamB": [
+          "Rumble",
+          "Jarvan IV",
+          "Cassiopeia",
+          "Miss Fortune",
+          "Shen"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Ornn",
+          "JUNGLE": "Lee Sin",
+          "MID": "Anivia",
+          "ADC": "Jhin",
+          "SUP": "Poppy"
+        },
+        "teamB": {
+          "TOP": "Rumble",
+          "JUNGLE": "Jarvan IV",
+          "MID": "Cassiopeia",
+          "ADC": "Miss Fortune",
+          "SUP": "Shen"
+        }
+      }
+    },
+    {
+      "id": "81030",
+      "league": "LCK",
+      "tournament": "LCK 2026 Rounds 3-4",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCK 2026 Rounds 3-4",
+      "tournamentLine": "LCK 2026 Rounds 3-4 (KR) - Fearless Draft",
+      "date": "2026-08-05",
+      "week": "WEEK11",
+      "patch": "16.15",
+      "game": "HLE vs Gen.G",
+      "sourceUrl": "https://gol.gg/game/stats/81030/page-game/",
+      "teamA": "Gen.G",
+      "teamB": "Hanwha Life Esports",
+      "teamAId": "2804",
+      "teamBId": "2805",
+      "killsA": 5,
+      "killsB": 16,
+      "totalKills": 21,
+      "collectedAt": "2026-08-05T16:10:52.122Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Zaahen",
+          "Pantheon",
+          "Ryze",
+          "Ezreal",
+          "Braum"
+        ],
+        "teamB": [
+          "Olaf",
+          "Vi",
+          "Akali",
+          "Corki",
+          "Alistar"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Zaahen",
+          "JUNGLE": "Pantheon",
+          "MID": "Ryze",
+          "ADC": "Ezreal",
+          "SUP": "Braum"
+        },
+        "teamB": {
+          "TOP": "Olaf",
+          "JUNGLE": "Vi",
+          "MID": "Akali",
+          "ADC": "Corki",
+          "SUP": "Alistar"
+        }
+      }
+    },
+    {
+      "id": "81031",
+      "league": "LCK",
+      "tournament": "LCK 2026 Rounds 3-4",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCK 2026 Rounds 3-4",
+      "tournamentLine": "LCK 2026 Rounds 3-4 (KR) - Fearless Draft",
+      "date": "2026-08-05",
+      "week": "WEEK11",
+      "patch": "16.15",
+      "game": "HLE vs Gen.G",
+      "sourceUrl": "https://gol.gg/game/stats/81031/page-game/",
+      "teamA": "Hanwha Life Esports",
+      "teamB": "Gen.G",
+      "teamAId": "2805",
+      "teamBId": "2804",
+      "killsA": 14,
+      "killsB": 27,
+      "totalKills": 41,
+      "collectedAt": "2026-08-05T16:10:52.307Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Dr. Mundo",
+          "Shyvana",
+          "Viktor",
+          "Yunara",
+          "Leona"
+        ],
+        "teamB": [
+          "Varus",
+          "Nocturne",
+          "Syndra",
+          "Kalista",
+          "Renata Glasc"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Dr. Mundo",
+          "JUNGLE": "Shyvana",
+          "MID": "Viktor",
+          "ADC": "Yunara",
+          "SUP": "Leona"
+        },
+        "teamB": {
+          "TOP": "Varus",
+          "JUNGLE": "Nocturne",
+          "MID": "Syndra",
+          "ADC": "Kalista",
+          "SUP": "Renata Glasc"
         }
       }
     },
@@ -79696,6 +79863,118 @@
           "MID": "Sylas",
           "ADC": "Draven",
           "SUP": "Nautilus"
+        }
+      }
+    },
+    {
+      "id": "80984",
+      "league": "LPL",
+      "tournament": "LPL 2026 Split 3",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LPL 2026 Split 3",
+      "tournamentLine": "LPL 2026 Split 3 (CN) - Fearless Draft",
+      "date": "2026-08-05",
+      "week": "WEEK3",
+      "patch": "16.14",
+      "game": "EDG vs Top Esports",
+      "sourceUrl": "https://gol.gg/game/stats/80984/page-game/",
+      "teamA": "EDward Gaming",
+      "teamB": "Top Esports",
+      "teamAId": "2854",
+      "teamBId": "2852",
+      "killsA": 7,
+      "killsB": 23,
+      "totalKills": 30,
+      "collectedAt": "2026-08-05T16:11:37.855Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Gnar",
+          "Jarvan IV",
+          "Ryze",
+          "Ezreal",
+          "Rell"
+        ],
+        "teamB": [
+          "Rumble",
+          "Vi",
+          "Ahri",
+          "Varus",
+          "Nautilus"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Gnar",
+          "JUNGLE": "Jarvan IV",
+          "MID": "Ryze",
+          "ADC": "Ezreal",
+          "SUP": "Rell"
+        },
+        "teamB": {
+          "TOP": "Rumble",
+          "JUNGLE": "Vi",
+          "MID": "Ahri",
+          "ADC": "Varus",
+          "SUP": "Nautilus"
+        }
+      }
+    },
+    {
+      "id": "80985",
+      "league": "LPL",
+      "tournament": "LPL 2026 Split 3",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LPL 2026 Split 3",
+      "tournamentLine": "LPL 2026 Split 3 (CN) - Fearless Draft",
+      "date": "2026-08-05",
+      "week": "WEEK3",
+      "patch": "16.14",
+      "game": "EDG vs Top Esports",
+      "sourceUrl": "https://gol.gg/game/stats/80985/page-game/",
+      "teamA": "Top Esports",
+      "teamB": "EDward Gaming",
+      "teamAId": "2852",
+      "teamBId": "2854",
+      "killsA": 21,
+      "killsB": 9,
+      "totalKills": 30,
+      "collectedAt": "2026-08-05T16:11:38.228Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Renekton",
+          "Skarner",
+          "Viktor",
+          "Lucian",
+          "Milio"
+        ],
+        "teamB": [
+          "Aatrox",
+          "Dr. Mundo",
+          "Syndra",
+          "Ziggs",
+          "Camille"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Renekton",
+          "JUNGLE": "Skarner",
+          "MID": "Viktor",
+          "ADC": "Lucian",
+          "SUP": "Milio"
+        },
+        "teamB": {
+          "TOP": "Aatrox",
+          "JUNGLE": "Dr. Mundo",
+          "MID": "Syndra",
+          "ADC": "Ziggs",
+          "SUP": "Camille"
         }
       }
     },
