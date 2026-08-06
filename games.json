@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "GOL logged session",
-    "createdAt": "2026-08-05T23:19:19.196Z",
+    "createdAt": "2026-08-06T12:20:44.839Z",
     "collectorVersion": "new-games-http-2026-07-25",
     "leagues": [
       {
@@ -16,7 +16,7 @@
       },
       {
         "league": "LCK",
-        "games": 255,
+        "games": 258,
         "tournaments": [
           "LCK 2026 Road to MSI",
           "LCK 2026 Rounds 1-2",
@@ -25,7 +25,7 @@
       },
       {
         "league": "LCKCL",
-        "games": 379,
+        "games": 385,
         "tournaments": [
           "LCK CL 2026 Kickoff",
           "LCK CL 2026 Rounds 1-2",
@@ -55,7 +55,7 @@
       },
       {
         "league": "LPL",
-        "games": 521,
+        "games": 525,
         "tournaments": [
           "LPL 2026 Split 1",
           "LPL 2026 Split 1 Playoffs",
@@ -78,16 +78,19 @@
       "side",
       "bans"
     ],
-    "updatedAt": "2026-08-05T23:19:19.196Z",
+    "updatedAt": "2026-08-06T12:20:44.839Z",
     "lastIncrementalMerge": {
       "source": "data/jogos-novos.json",
-      "mergedAt": "2026-08-05T23:19:19.196Z",
-      "added": 1,
+      "mergedAt": "2026-08-06T12:20:44.839Z",
+      "added": 13,
       "duplicatesSkipped": 0,
       "patches": [
-        "16.14"
+        "16.14",
+        "16.15"
       ],
       "tournaments": [
+        "LCK 2026 Rounds 3-4",
+        "LCK CL 2026 Rounds 3-4",
         "LPL 2026 Split 3"
       ]
     },
@@ -100,7 +103,7 @@
         "trim repeated spaces"
       ]
     },
-    "totalGames": 1922,
+    "totalGames": 1935,
     "dataCorrections": [
       {
         "correctedAt": "2026-07-14T01:19:11.794Z",
@@ -19665,6 +19668,174 @@
       }
     },
     {
+      "id": "81032",
+      "league": "LCK",
+      "tournament": "LCK 2026 Rounds 3-4",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCK 2026 Rounds 3-4",
+      "tournamentLine": "LCK 2026 Rounds 3-4 (KR) - Fearless Draft",
+      "date": "2026-08-06",
+      "week": "WEEK11",
+      "patch": "16.15",
+      "game": "Kiwoom DRX vs DN SOOPers",
+      "sourceUrl": "https://gol.gg/game/stats/81032/page-game/",
+      "teamA": "Kiwoom DRX",
+      "teamB": "DN SOOPers",
+      "teamAId": "2803",
+      "teamBId": "2801",
+      "killsA": 27,
+      "killsB": 6,
+      "totalKills": 33,
+      "collectedAt": "2026-08-06T12:19:31.604Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "KSante",
+          "Jarvan IV",
+          "Ryze",
+          "Xayah",
+          "Shen"
+        ],
+        "teamB": [
+          "Rumble",
+          "Qiyana",
+          "Yone",
+          "Corki",
+          "Camille"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "KSante",
+          "JUNGLE": "Jarvan IV",
+          "MID": "Ryze",
+          "ADC": "Xayah",
+          "SUP": "Shen"
+        },
+        "teamB": {
+          "TOP": "Rumble",
+          "JUNGLE": "Qiyana",
+          "MID": "Yone",
+          "ADC": "Corki",
+          "SUP": "Camille"
+        }
+      }
+    },
+    {
+      "id": "81033",
+      "league": "LCK",
+      "tournament": "LCK 2026 Rounds 3-4",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCK 2026 Rounds 3-4",
+      "tournamentLine": "LCK 2026 Rounds 3-4 (KR) - Fearless Draft",
+      "date": "2026-08-06",
+      "week": "WEEK11",
+      "patch": "16.15",
+      "game": "Kiwoom DRX vs DN SOOPers",
+      "sourceUrl": "https://gol.gg/game/stats/81033/page-game/",
+      "teamA": "DN SOOPers",
+      "teamB": "Kiwoom DRX",
+      "teamAId": "2801",
+      "teamBId": "2803",
+      "killsA": 8,
+      "killsB": 23,
+      "totalKills": 31,
+      "collectedAt": "2026-08-06T12:19:31.994Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Yorick",
+          "Skarner",
+          "Viktor",
+          "Sivir",
+          "Karma"
+        ],
+        "teamB": [
+          "Jayce",
+          "Lee Sin",
+          "Aurora",
+          "Miss Fortune",
+          "Nautilus"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Yorick",
+          "JUNGLE": "Skarner",
+          "MID": "Viktor",
+          "ADC": "Sivir",
+          "SUP": "Karma"
+        },
+        "teamB": {
+          "TOP": "Jayce",
+          "JUNGLE": "Lee Sin",
+          "MID": "Aurora",
+          "ADC": "Miss Fortune",
+          "SUP": "Nautilus"
+        }
+      }
+    },
+    {
+      "id": "81035",
+      "league": "LCK",
+      "tournament": "LCK 2026 Rounds 3-4",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCK 2026 Rounds 3-4",
+      "tournamentLine": "LCK 2026 Rounds 3-4 (KR) - Fearless Draft",
+      "date": "2026-08-06",
+      "week": "WEEK11",
+      "patch": "16.15",
+      "game": "Dplus KIA vs T1",
+      "sourceUrl": "https://gol.gg/game/stats/81035/page-game/",
+      "teamA": "T1",
+      "teamB": "Dplus KIA",
+      "teamAId": "2809",
+      "teamBId": "2802",
+      "killsA": 20,
+      "killsB": 4,
+      "totalKills": 24,
+      "collectedAt": "2026-08-06T12:19:33.108Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Ambessa",
+          "Vi",
+          "Cassiopeia",
+          "Jhin",
+          "Shen"
+        ],
+        "teamB": [
+          "Aatrox",
+          "Xin Zhao",
+          "Anivia",
+          "Ezreal",
+          "Bard"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Ambessa",
+          "JUNGLE": "Vi",
+          "MID": "Cassiopeia",
+          "ADC": "Jhin",
+          "SUP": "Shen"
+        },
+        "teamB": {
+          "TOP": "Aatrox",
+          "JUNGLE": "Xin Zhao",
+          "MID": "Anivia",
+          "ADC": "Ezreal",
+          "SUP": "Bard"
+        }
+      }
+    },
+    {
       "id": "73051",
       "league": "LCKCL",
       "tournament": "LCK CL 2026 Kickoff",
@@ -36085,6 +36256,342 @@
           "MID": "Syndra",
           "ADC": "Corki",
           "SUP": "Alistar"
+        }
+      }
+    },
+    {
+      "id": "80884",
+      "league": "LCKCL",
+      "tournament": "LCK CL 2026 Rounds 3-4",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCK CL 2026 Rounds 3-4",
+      "tournamentLine": "LCK CL 2026 Rounds 3-4 (KR) - Fearless Draft",
+      "date": "2026-08-06",
+      "week": "WEEK11",
+      "patch": "16.15",
+      "game": "DNS vs T1A",
+      "sourceUrl": "https://gol.gg/game/stats/80884/page-game/",
+      "teamA": "DN SOOPers Challengers",
+      "teamB": "T1 Esports Academy",
+      "teamAId": "2830",
+      "teamBId": "2822",
+      "killsA": 8,
+      "killsB": 26,
+      "totalKills": 34,
+      "collectedAt": "2026-08-06T12:19:45.319Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Rumble",
+          "Jarvan IV",
+          "Ryze",
+          "Ezreal",
+          "Neeko"
+        ],
+        "teamB": [
+          "Ornn",
+          "Vi",
+          "Akali",
+          "Lucian",
+          "Milio"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Rumble",
+          "JUNGLE": "Jarvan IV",
+          "MID": "Ryze",
+          "ADC": "Ezreal",
+          "SUP": "Neeko"
+        },
+        "teamB": {
+          "TOP": "Ornn",
+          "JUNGLE": "Vi",
+          "MID": "Akali",
+          "ADC": "Lucian",
+          "SUP": "Milio"
+        }
+      }
+    },
+    {
+      "id": "80885",
+      "league": "LCKCL",
+      "tournament": "LCK CL 2026 Rounds 3-4",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCK CL 2026 Rounds 3-4",
+      "tournamentLine": "LCK CL 2026 Rounds 3-4 (KR) - Fearless Draft",
+      "date": "2026-08-06",
+      "week": "WEEK11",
+      "patch": "16.15",
+      "game": "DNS vs T1A",
+      "sourceUrl": "https://gol.gg/game/stats/80885/page-game/",
+      "teamA": "DN SOOPers Challengers",
+      "teamB": "T1 Esports Academy",
+      "teamAId": "2830",
+      "teamBId": "2822",
+      "killsA": 29,
+      "killsB": 23,
+      "totalKills": 52,
+      "collectedAt": "2026-08-06T12:19:45.659Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Olaf",
+          "Pantheon",
+          "Cassiopeia",
+          "Aphelios",
+          "Lulu"
+        ],
+        "teamB": [
+          "Gnar",
+          "Nocturne",
+          "Syndra",
+          "Yunara",
+          "Blitzcrank"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Olaf",
+          "JUNGLE": "Pantheon",
+          "MID": "Cassiopeia",
+          "ADC": "Aphelios",
+          "SUP": "Lulu"
+        },
+        "teamB": {
+          "TOP": "Gnar",
+          "JUNGLE": "Nocturne",
+          "MID": "Syndra",
+          "ADC": "Yunara",
+          "SUP": "Blitzcrank"
+        }
+      }
+    },
+    {
+      "id": "80886",
+      "league": "LCKCL",
+      "tournament": "LCK CL 2026 Rounds 3-4",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCK CL 2026 Rounds 3-4",
+      "tournamentLine": "LCK CL 2026 Rounds 3-4 (KR) - Fearless Draft",
+      "date": "2026-08-06",
+      "week": "WEEK11",
+      "patch": "16.15",
+      "game": "DNS vs T1A",
+      "sourceUrl": "https://gol.gg/game/stats/80886/page-game/",
+      "teamA": "DN SOOPers Challengers",
+      "teamB": "T1 Esports Academy",
+      "teamAId": "2830",
+      "teamBId": "2822",
+      "killsA": 13,
+      "killsB": 30,
+      "totalKills": 43,
+      "collectedAt": "2026-08-06T12:19:45.940Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Anivia",
+          "Naafiri",
+          "Ahri",
+          "Jhin",
+          "Nautilus"
+        ],
+        "teamB": [
+          "Viktor",
+          "Xin Zhao",
+          "Mel",
+          "Varus",
+          "Bard"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Anivia",
+          "JUNGLE": "Naafiri",
+          "MID": "Ahri",
+          "ADC": "Jhin",
+          "SUP": "Nautilus"
+        },
+        "teamB": {
+          "TOP": "Viktor",
+          "JUNGLE": "Xin Zhao",
+          "MID": "Mel",
+          "ADC": "Varus",
+          "SUP": "Bard"
+        }
+      }
+    },
+    {
+      "id": "80887",
+      "league": "LCKCL",
+      "tournament": "LCK CL 2026 Rounds 3-4",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCK CL 2026 Rounds 3-4",
+      "tournamentLine": "LCK CL 2026 Rounds 3-4 (KR) - Fearless Draft",
+      "date": "2026-08-06",
+      "week": "WEEK11",
+      "patch": "16.15",
+      "game": "BRO vs GGA",
+      "sourceUrl": "https://gol.gg/game/stats/80887/page-game/",
+      "teamA": "Gen.G Global Academy",
+      "teamB": "HANJIN BRION Challengers",
+      "teamAId": "2827",
+      "teamBId": "2826",
+      "killsA": 16,
+      "killsB": 18,
+      "totalKills": 34,
+      "collectedAt": "2026-08-06T12:19:46.179Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Renekton",
+          "Naafiri",
+          "Syndra",
+          "Galio",
+          "Camille"
+        ],
+        "teamB": [
+          "Ambessa",
+          "Lee Sin",
+          "Locke",
+          "Viktor",
+          "Shen"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Renekton",
+          "JUNGLE": "Naafiri",
+          "MID": "Syndra",
+          "ADC": "Galio",
+          "SUP": "Camille"
+        },
+        "teamB": {
+          "TOP": "Ambessa",
+          "JUNGLE": "Lee Sin",
+          "MID": "Locke",
+          "ADC": "Viktor",
+          "SUP": "Shen"
+        }
+      }
+    },
+    {
+      "id": "80888",
+      "league": "LCKCL",
+      "tournament": "LCK CL 2026 Rounds 3-4",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCK CL 2026 Rounds 3-4",
+      "tournamentLine": "LCK CL 2026 Rounds 3-4 (KR) - Fearless Draft",
+      "date": "2026-08-06",
+      "week": "WEEK11",
+      "patch": "16.15",
+      "game": "BRO vs GGA",
+      "sourceUrl": "https://gol.gg/game/stats/80888/page-game/",
+      "teamA": "Gen.G Global Academy",
+      "teamB": "HANJIN BRION Challengers",
+      "teamAId": "2827",
+      "teamBId": "2826",
+      "killsA": 8,
+      "killsB": 24,
+      "totalKills": 32,
+      "collectedAt": "2026-08-06T12:19:46.467Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Gnar",
+          "Vi",
+          "Taliyah",
+          "Ezreal",
+          "Leona"
+        ],
+        "teamB": [
+          "KSante",
+          "Poppy",
+          "Orianna",
+          "Yunara",
+          "Lulu"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Gnar",
+          "JUNGLE": "Vi",
+          "MID": "Taliyah",
+          "ADC": "Ezreal",
+          "SUP": "Leona"
+        },
+        "teamB": {
+          "TOP": "KSante",
+          "JUNGLE": "Poppy",
+          "MID": "Orianna",
+          "ADC": "Yunara",
+          "SUP": "Lulu"
+        }
+      }
+    },
+    {
+      "id": "80889",
+      "league": "LCKCL",
+      "tournament": "LCK CL 2026 Rounds 3-4",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCK CL 2026 Rounds 3-4",
+      "tournamentLine": "LCK CL 2026 Rounds 3-4 (KR) - Fearless Draft",
+      "date": "2026-08-06",
+      "week": "WEEK11",
+      "patch": "16.15",
+      "game": "BRO vs GGA",
+      "sourceUrl": "https://gol.gg/game/stats/80889/page-game/",
+      "teamA": "HANJIN BRION Challengers",
+      "teamB": "Gen.G Global Academy",
+      "teamAId": "2826",
+      "teamBId": "2827",
+      "killsA": 25,
+      "killsB": 4,
+      "totalKills": 29,
+      "collectedAt": "2026-08-06T12:19:46.730Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Rumble",
+          "Wukong",
+          "Ryze",
+          "Zeri",
+          "Yuumi"
+        ],
+        "teamB": [
+          "Yorick",
+          "Jarvan IV",
+          "Azir",
+          "Ashe",
+          "Seraphine"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Rumble",
+          "JUNGLE": "Wukong",
+          "MID": "Ryze",
+          "ADC": "Zeri",
+          "SUP": "Yuumi"
+        },
+        "teamB": {
+          "TOP": "Yorick",
+          "JUNGLE": "Jarvan IV",
+          "MID": "Azir",
+          "ADC": "Ashe",
+          "SUP": "Seraphine"
         }
       }
     },
@@ -80029,6 +80536,230 @@
           "MID": "Syndra",
           "ADC": "Ziggs",
           "SUP": "Camille"
+        }
+      }
+    },
+    {
+      "id": "80987",
+      "league": "LPL",
+      "tournament": "LPL 2026 Split 3",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LPL 2026 Split 3",
+      "tournamentLine": "LPL 2026 Split 3 (CN) - Fearless Draft",
+      "date": "2026-08-06",
+      "week": "WEEK3",
+      "patch": "16.14",
+      "game": "LGD Gaming vs TT",
+      "sourceUrl": "https://gol.gg/game/stats/80987/page-game/",
+      "teamA": "ThunderTalk Gaming",
+      "teamB": "LGD Gaming",
+      "teamAId": "2857",
+      "teamBId": "2858",
+      "killsA": 8,
+      "killsB": 22,
+      "totalKills": 30,
+      "collectedAt": "2026-08-06T12:20:33.444Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Jayce",
+          "Lee Sin",
+          "Orianna",
+          "Ziggs",
+          "Nautilus"
+        ],
+        "teamB": [
+          "Rumble",
+          "Naafiri",
+          "Cassiopeia",
+          "Corki",
+          "Rell"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Jayce",
+          "JUNGLE": "Lee Sin",
+          "MID": "Orianna",
+          "ADC": "Ziggs",
+          "SUP": "Nautilus"
+        },
+        "teamB": {
+          "TOP": "Rumble",
+          "JUNGLE": "Naafiri",
+          "MID": "Cassiopeia",
+          "ADC": "Corki",
+          "SUP": "Rell"
+        }
+      }
+    },
+    {
+      "id": "80988",
+      "league": "LPL",
+      "tournament": "LPL 2026 Split 3",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LPL 2026 Split 3",
+      "tournamentLine": "LPL 2026 Split 3 (CN) - Fearless Draft",
+      "date": "2026-08-06",
+      "week": "WEEK3",
+      "patch": "16.14",
+      "game": "LGD Gaming vs TT",
+      "sourceUrl": "https://gol.gg/game/stats/80988/page-game/",
+      "teamA": "LGD Gaming",
+      "teamB": "ThunderTalk Gaming",
+      "teamAId": "2858",
+      "teamBId": "2857",
+      "killsA": 14,
+      "killsB": 23,
+      "totalKills": 37,
+      "collectedAt": "2026-08-06T12:20:33.713Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Aatrox",
+          "Vi",
+          "Ahri",
+          "Varus",
+          "Leona"
+        ],
+        "teamB": [
+          "Ambessa",
+          "Pantheon",
+          "Ryze",
+          "Sivir",
+          "Shen"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Aatrox",
+          "JUNGLE": "Vi",
+          "MID": "Ahri",
+          "ADC": "Varus",
+          "SUP": "Leona"
+        },
+        "teamB": {
+          "TOP": "Ambessa",
+          "JUNGLE": "Pantheon",
+          "MID": "Ryze",
+          "ADC": "Sivir",
+          "SUP": "Shen"
+        }
+      }
+    },
+    {
+      "id": "80989",
+      "league": "LPL",
+      "tournament": "LPL 2026 Split 3",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LPL 2026 Split 3",
+      "tournamentLine": "LPL 2026 Split 3 (CN) - Fearless Draft",
+      "date": "2026-08-06",
+      "week": "WEEK3",
+      "patch": "16.14",
+      "game": "LGD Gaming vs TT",
+      "sourceUrl": "https://gol.gg/game/stats/80989/page-game/",
+      "teamA": "ThunderTalk Gaming",
+      "teamB": "LGD Gaming",
+      "teamAId": "2857",
+      "teamBId": "2858",
+      "killsA": 22,
+      "killsB": 14,
+      "totalKills": 36,
+      "collectedAt": "2026-08-06T12:20:34.010Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Jax",
+          "Skarner",
+          "Locke",
+          "Lucian",
+          "Milio"
+        ],
+        "teamB": [
+          "Gnar",
+          "Qiyana",
+          "Syndra",
+          "Draven",
+          "Camille"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Jax",
+          "JUNGLE": "Skarner",
+          "MID": "Locke",
+          "ADC": "Lucian",
+          "SUP": "Milio"
+        },
+        "teamB": {
+          "TOP": "Gnar",
+          "JUNGLE": "Qiyana",
+          "MID": "Syndra",
+          "ADC": "Draven",
+          "SUP": "Camille"
+        }
+      }
+    },
+    {
+      "id": "80990",
+      "league": "LPL",
+      "tournament": "LPL 2026 Split 3",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LPL 2026 Split 3",
+      "tournamentLine": "LPL 2026 Split 3 (CN) - Fearless Draft",
+      "date": "2026-08-06",
+      "week": "WEEK3",
+      "patch": "16.14",
+      "game": "IG vs NIP",
+      "sourceUrl": "https://gol.gg/game/stats/80990/page-game/",
+      "teamA": "Ninjas in Pyjamas",
+      "teamB": "Invictus Gaming",
+      "teamAId": "2855",
+      "teamBId": "2850",
+      "killsA": 16,
+      "killsB": 22,
+      "totalKills": 38,
+      "collectedAt": "2026-08-06T12:20:34.375Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Varus",
+          "Vi",
+          "Locke",
+          "Kaisa",
+          "Shen"
+        ],
+        "teamB": [
+          "Rumble",
+          "Naafiri",
+          "Orianna",
+          "Corki",
+          "Bard"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Varus",
+          "JUNGLE": "Vi",
+          "MID": "Locke",
+          "ADC": "Kaisa",
+          "SUP": "Shen"
+        },
+        "teamB": {
+          "TOP": "Rumble",
+          "JUNGLE": "Naafiri",
+          "MID": "Orianna",
+          "ADC": "Corki",
+          "SUP": "Bard"
         }
       }
     },
