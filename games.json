@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "GOL logged session",
-    "createdAt": "2026-08-07T15:10:38.692Z",
+    "createdAt": "2026-08-07T19:16:27.440Z",
     "collectorVersion": "new-games-http-2026-07-25",
     "leagues": [
       {
@@ -44,7 +44,7 @@
       },
       {
         "league": "LEC",
-        "games": 279,
+        "games": 283,
         "tournaments": [
           "LEC 2026 Spring Playoffs",
           "LEC 2026 Spring Season",
@@ -55,7 +55,7 @@
       },
       {
         "league": "LPL",
-        "games": 535,
+        "games": 536,
         "tournaments": [
           "LPL 2026 Split 1",
           "LPL 2026 Split 1 Playoffs",
@@ -78,10 +78,10 @@
       "side",
       "bans"
     ],
-    "updatedAt": "2026-08-07T15:10:38.692Z",
+    "updatedAt": "2026-08-07T19:16:27.440Z",
     "lastIncrementalMerge": {
       "source": "data/jogos-novos.json",
-      "mergedAt": "2026-08-07T15:10:38.692Z",
+      "mergedAt": "2026-08-07T19:16:27.440Z",
       "added": 5,
       "duplicatesSkipped": 0,
       "patches": [
@@ -89,7 +89,7 @@
         "16.15"
       ],
       "tournaments": [
-        "LCK 2026 Rounds 3-4",
+        "LEC 2026 Summer Season",
         "LPL 2026 Split 3"
       ]
     },
@@ -102,7 +102,7 @@
         "trim repeated spaces"
       ]
     },
-    "totalGames": 1954,
+    "totalGames": 1959,
     "dataCorrections": [
       {
         "correctedAt": "2026-07-14T01:19:11.794Z",
@@ -56667,6 +56667,230 @@
       }
     },
     {
+      "id": "81096",
+      "league": "LEC",
+      "tournament": "LEC 2026 Summer Season",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LEC 2026 Summer Season",
+      "tournamentLine": "LEC 2026 Summer Season (EUW) - Fearless Draft",
+      "date": "2026-08-07",
+      "week": "WEEK3",
+      "patch": "16.15",
+      "game": "Shifters vs GIANTX",
+      "sourceUrl": "https://gol.gg/game/stats/81096/page-game/",
+      "teamA": "Shifters",
+      "teamB": "GIANTX",
+      "teamAId": "2902",
+      "teamBId": "2898",
+      "killsA": 10,
+      "killsB": 16,
+      "totalKills": 26,
+      "collectedAt": "2026-08-07T19:16:02.141Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Rumble",
+          "Wukong",
+          "Viktor",
+          "Corki",
+          "Rakan"
+        ],
+        "teamB": [
+          "Ornn",
+          "Jarvan IV",
+          "Orianna",
+          "Ezreal",
+          "Shen"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Rumble",
+          "JUNGLE": "Wukong",
+          "MID": "Viktor",
+          "ADC": "Corki",
+          "SUP": "Rakan"
+        },
+        "teamB": {
+          "TOP": "Ornn",
+          "JUNGLE": "Jarvan IV",
+          "MID": "Orianna",
+          "ADC": "Ezreal",
+          "SUP": "Shen"
+        }
+      }
+    },
+    {
+      "id": "81097",
+      "league": "LEC",
+      "tournament": "LEC 2026 Summer Season",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LEC 2026 Summer Season",
+      "tournamentLine": "LEC 2026 Summer Season (EUW) - Fearless Draft",
+      "date": "2026-08-07",
+      "week": "WEEK3",
+      "patch": "16.15",
+      "game": "Shifters vs GIANTX",
+      "sourceUrl": "https://gol.gg/game/stats/81097/page-game/",
+      "teamA": "Shifters",
+      "teamB": "GIANTX",
+      "teamAId": "2902",
+      "teamBId": "2898",
+      "killsA": 17,
+      "killsB": 11,
+      "totalKills": 28,
+      "collectedAt": "2026-08-07T19:16:02.339Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Gnar",
+          "Trundle",
+          "Anivia",
+          "Taliyah",
+          "Leona"
+        ],
+        "teamB": [
+          "Twisted Fate",
+          "Lee Sin",
+          "Ryze",
+          "Lucian",
+          "Camille"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Gnar",
+          "JUNGLE": "Trundle",
+          "MID": "Anivia",
+          "ADC": "Taliyah",
+          "SUP": "Leona"
+        },
+        "teamB": {
+          "TOP": "Twisted Fate",
+          "JUNGLE": "Lee Sin",
+          "MID": "Ryze",
+          "ADC": "Lucian",
+          "SUP": "Camille"
+        }
+      }
+    },
+    {
+      "id": "81098",
+      "league": "LEC",
+      "tournament": "LEC 2026 Summer Season",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LEC 2026 Summer Season",
+      "tournamentLine": "LEC 2026 Summer Season (EUW) - Fearless Draft",
+      "date": "2026-08-07",
+      "week": "WEEK3",
+      "patch": "16.15",
+      "game": "Shifters vs GIANTX",
+      "sourceUrl": "https://gol.gg/game/stats/81098/page-game/",
+      "teamA": "GIANTX",
+      "teamB": "Shifters",
+      "teamAId": "2898",
+      "teamBId": "2902",
+      "killsA": 22,
+      "killsB": 5,
+      "totalKills": 27,
+      "collectedAt": "2026-08-07T19:16:02.566Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Warwick",
+          "Nocturne",
+          "Galio",
+          "Jhin",
+          "Bard"
+        ],
+        "teamB": [
+          "Ambessa",
+          "Naafiri",
+          "Akali",
+          "Zeri",
+          "Rell"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Warwick",
+          "JUNGLE": "Nocturne",
+          "MID": "Galio",
+          "ADC": "Jhin",
+          "SUP": "Bard"
+        },
+        "teamB": {
+          "TOP": "Ambessa",
+          "JUNGLE": "Naafiri",
+          "MID": "Akali",
+          "ADC": "Zeri",
+          "SUP": "Rell"
+        }
+      }
+    },
+    {
+      "id": "81099",
+      "league": "LEC",
+      "tournament": "LEC 2026 Summer Season",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LEC 2026 Summer Season",
+      "tournamentLine": "LEC 2026 Summer Season (EUW) - Fearless Draft",
+      "date": "2026-08-07",
+      "week": "WEEK3",
+      "patch": "16.15",
+      "game": "TH vs Fnatic",
+      "sourceUrl": "https://gol.gg/game/stats/81099/page-game/",
+      "teamA": "Team Heretics",
+      "teamB": "Fnatic",
+      "teamAId": "2904",
+      "teamBId": "2896",
+      "killsA": 11,
+      "killsB": 3,
+      "totalKills": 14,
+      "collectedAt": "2026-08-07T19:16:02.792Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Gnar",
+          "Xin Zhao",
+          "Akali",
+          "Viktor",
+          "Shen"
+        ],
+        "teamB": [
+          "Rumble",
+          "Jarvan IV",
+          "Orianna",
+          "Ezreal",
+          "Alistar"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Gnar",
+          "JUNGLE": "Xin Zhao",
+          "MID": "Akali",
+          "ADC": "Viktor",
+          "SUP": "Shen"
+        },
+        "teamB": {
+          "TOP": "Rumble",
+          "JUNGLE": "Jarvan IV",
+          "MID": "Orianna",
+          "ADC": "Ezreal",
+          "SUP": "Alistar"
+        }
+      }
+    },
+    {
       "id": "73148",
       "league": "LPL",
       "tournament": "LPL 2026 Split 1",
@@ -81711,6 +81935,62 @@
           "MID": "Akali",
           "ADC": "Jhin",
           "SUP": "Leona"
+        }
+      }
+    },
+    {
+      "id": "81001",
+      "league": "LPL",
+      "tournament": "LPL 2026 Split 3",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LPL 2026 Split 3",
+      "tournamentLine": "LPL 2026 Split 3 (CN) - Fearless Draft",
+      "date": "2026-08-07",
+      "week": "WEEK3",
+      "patch": "16.14",
+      "game": "Team WE vs TT",
+      "sourceUrl": "https://gol.gg/game/stats/81001/page-game/",
+      "teamA": "Team WE",
+      "teamB": "ThunderTalk Gaming",
+      "teamAId": "2856",
+      "teamBId": "2857",
+      "killsA": 4,
+      "killsB": 25,
+      "totalKills": 29,
+      "collectedAt": "2026-08-07T19:16:18.937Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Ornn",
+          "Graves",
+          "Sylas",
+          "Ziggs",
+          "Camille"
+        ],
+        "teamB": [
+          "Renekton",
+          "Lee Sin",
+          "Annie",
+          "Kalista",
+          "Renata Glasc"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Ornn",
+          "JUNGLE": "Graves",
+          "MID": "Sylas",
+          "ADC": "Ziggs",
+          "SUP": "Camille"
+        },
+        "teamB": {
+          "TOP": "Renekton",
+          "JUNGLE": "Lee Sin",
+          "MID": "Annie",
+          "ADC": "Kalista",
+          "SUP": "Renata Glasc"
         }
       }
     },

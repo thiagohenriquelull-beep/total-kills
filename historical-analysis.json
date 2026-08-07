@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-07T15:10:53.241Z",
+  "generatedAt": "2026-08-07T19:16:44.295Z",
   "methodology": "Walk-forward por liga (min 30 jogos treino). Linha simulada = linha justa pre-draft do modelo. Odds: 1.80/1.80.",
-  "sourceGames": 1954,
-  "generatedFromGamesUpdatedAt": "2026-08-07T15:10:38.692Z",
-  "backtestRows": 1652,
-  "count": 1652,
+  "sourceGames": 1959,
+  "generatedFromGamesUpdatedAt": "2026-08-07T19:16:27.440Z",
+  "backtestRows": 1657,
+  "count": 1657,
   "games": [
     {
       "l": "LCK",
@@ -10958,11 +10958,21 @@
     },
     {
       "l": "LPL",
+      "a": 29,
+      "ml": 35.5,
+      "pred": 33.7,
+      "evo": -0.2579,
+      "evu": 0.0579,
+      "s": "under",
+      "as": "under"
+    },
+    {
+      "l": "LPL",
       "a": 65,
       "ml": 33.5,
-      "pred": 31.88,
-      "evo": -0.2421,
-      "evu": 0.0421,
+      "pred": 31.96,
+      "evo": -0.235,
+      "evu": 0.035,
       "s": "",
       "as": "over"
     },
@@ -10970,9 +10980,9 @@
       "l": "LPL",
       "a": 31,
       "ml": 37.5,
-      "pred": 34.05,
-      "evo": -0.3961,
-      "evu": 0.1961,
+      "pred": 33.95,
+      "evo": -0.4046,
+      "evu": 0.2046,
       "s": "under",
       "as": "under"
     },
@@ -15074,6 +15084,46 @@
       "evo": -0.2257,
       "evu": 0.0257,
       "s": "",
+      "as": "under"
+    },
+    {
+      "l": "LEC",
+      "a": 26,
+      "ml": 32.5,
+      "pred": 30.91,
+      "evo": -0.2367,
+      "evu": 0.0367,
+      "s": "",
+      "as": "under"
+    },
+    {
+      "l": "LEC",
+      "a": 28,
+      "ml": 33.5,
+      "pred": 32.69,
+      "evo": -0.1699,
+      "evu": -0.0301,
+      "s": "",
+      "as": "under"
+    },
+    {
+      "l": "LEC",
+      "a": 27,
+      "ml": 32.5,
+      "pred": 31.51,
+      "evo": -0.1855,
+      "evu": -0.0145,
+      "s": "",
+      "as": "under"
+    },
+    {
+      "l": "LEC",
+      "a": 14,
+      "ml": 30.5,
+      "pred": 28.69,
+      "evo": -0.2555,
+      "evu": 0.0555,
+      "s": "under",
       "as": "under"
     },
     {
