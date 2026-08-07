@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "GOL logged session",
-    "createdAt": "2026-08-07T19:16:27.440Z",
+    "createdAt": "2026-08-07T22:56:33.370Z",
     "collectorVersion": "new-games-http-2026-07-25",
     "leagues": [
       {
@@ -44,7 +44,7 @@
       },
       {
         "league": "LEC",
-        "games": 283,
+        "games": 285,
         "tournaments": [
           "LEC 2026 Spring Playoffs",
           "LEC 2026 Spring Season",
@@ -78,19 +78,17 @@
       "side",
       "bans"
     ],
-    "updatedAt": "2026-08-07T19:16:27.440Z",
+    "updatedAt": "2026-08-07T22:56:33.370Z",
     "lastIncrementalMerge": {
       "source": "data/jogos-novos.json",
-      "mergedAt": "2026-08-07T19:16:27.440Z",
-      "added": 5,
+      "mergedAt": "2026-08-07T22:56:33.370Z",
+      "added": 2,
       "duplicatesSkipped": 0,
       "patches": [
-        "16.14",
         "16.15"
       ],
       "tournaments": [
-        "LEC 2026 Summer Season",
-        "LPL 2026 Split 3"
+        "LEC 2026 Summer Season"
       ]
     },
     "nameCleanup": {
@@ -102,7 +100,7 @@
         "trim repeated spaces"
       ]
     },
-    "totalGames": 1959,
+    "totalGames": 1961,
     "dataCorrections": [
       {
         "correctedAt": "2026-07-14T01:19:11.794Z",
@@ -56887,6 +56885,118 @@
           "MID": "Orianna",
           "ADC": "Ezreal",
           "SUP": "Alistar"
+        }
+      }
+    },
+    {
+      "id": "81100",
+      "league": "LEC",
+      "tournament": "LEC 2026 Summer Season",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LEC 2026 Summer Season",
+      "tournamentLine": "LEC 2026 Summer Season (EUW) - Fearless Draft",
+      "date": "2026-08-07",
+      "week": "WEEK3",
+      "patch": "16.15",
+      "game": "TH vs Fnatic",
+      "sourceUrl": "https://gol.gg/game/stats/81100/page-game/",
+      "teamA": "Team Heretics",
+      "teamB": "Fnatic",
+      "teamAId": "2904",
+      "teamBId": "2896",
+      "killsA": 2,
+      "killsB": 16,
+      "totalKills": 18,
+      "collectedAt": "2026-08-07T22:56:13.934Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "KSante",
+          "Wukong",
+          "Syndra",
+          "Lucian",
+          "Leona"
+        ],
+        "teamB": [
+          "Renekton",
+          "Lee Sin",
+          "Cassiopeia",
+          "Jhin",
+          "Nautilus"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "KSante",
+          "JUNGLE": "Wukong",
+          "MID": "Syndra",
+          "ADC": "Lucian",
+          "SUP": "Leona"
+        },
+        "teamB": {
+          "TOP": "Renekton",
+          "JUNGLE": "Lee Sin",
+          "MID": "Cassiopeia",
+          "ADC": "Jhin",
+          "SUP": "Nautilus"
+        }
+      }
+    },
+    {
+      "id": "81101",
+      "league": "LEC",
+      "tournament": "LEC 2026 Summer Season",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LEC 2026 Summer Season",
+      "tournamentLine": "LEC 2026 Summer Season (EUW) - Fearless Draft",
+      "date": "2026-08-07",
+      "week": "WEEK3",
+      "patch": "16.15",
+      "game": "TH vs Fnatic",
+      "sourceUrl": "https://gol.gg/game/stats/81101/page-game/",
+      "teamA": "Team Heretics",
+      "teamB": "Fnatic",
+      "teamAId": "2904",
+      "teamBId": "2896",
+      "killsA": 16,
+      "killsB": 9,
+      "totalKills": 25,
+      "collectedAt": "2026-08-07T22:56:14.110Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Ambessa",
+          "Skarner",
+          "Azir",
+          "Corki",
+          "Bard"
+        ],
+        "teamB": [
+          "Zaahen",
+          "Trundle",
+          "Anivia",
+          "Zeri",
+          "Lulu"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Ambessa",
+          "JUNGLE": "Skarner",
+          "MID": "Azir",
+          "ADC": "Corki",
+          "SUP": "Bard"
+        },
+        "teamB": {
+          "TOP": "Zaahen",
+          "JUNGLE": "Trundle",
+          "MID": "Anivia",
+          "ADC": "Zeri",
+          "SUP": "Lulu"
         }
       }
     },
