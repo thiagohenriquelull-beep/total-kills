@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "GOL logged session",
-    "createdAt": "2026-08-06T12:20:44.839Z",
+    "createdAt": "2026-08-07T00:16:57.728Z",
     "collectorVersion": "new-games-http-2026-07-25",
     "leagues": [
       {
@@ -16,7 +16,7 @@
       },
       {
         "league": "LCK",
-        "games": 258,
+        "games": 259,
         "tournaments": [
           "LCK 2026 Road to MSI",
           "LCK 2026 Rounds 1-2",
@@ -55,7 +55,7 @@
       },
       {
         "league": "LPL",
-        "games": 525,
+        "games": 529,
         "tournaments": [
           "LPL 2026 Split 1",
           "LPL 2026 Split 1 Playoffs",
@@ -78,11 +78,11 @@
       "side",
       "bans"
     ],
-    "updatedAt": "2026-08-06T12:20:44.839Z",
+    "updatedAt": "2026-08-07T00:16:57.728Z",
     "lastIncrementalMerge": {
       "source": "data/jogos-novos.json",
-      "mergedAt": "2026-08-06T12:20:44.839Z",
-      "added": 13,
+      "mergedAt": "2026-08-07T00:16:57.728Z",
+      "added": 5,
       "duplicatesSkipped": 0,
       "patches": [
         "16.14",
@@ -90,7 +90,6 @@
       ],
       "tournaments": [
         "LCK 2026 Rounds 3-4",
-        "LCK CL 2026 Rounds 3-4",
         "LPL 2026 Split 3"
       ]
     },
@@ -103,7 +102,7 @@
         "trim repeated spaces"
       ]
     },
-    "totalGames": 1935,
+    "totalGames": 1940,
     "dataCorrections": [
       {
         "correctedAt": "2026-07-14T01:19:11.794Z",
@@ -19832,6 +19831,62 @@
           "MID": "Anivia",
           "ADC": "Ezreal",
           "SUP": "Bard"
+        }
+      }
+    },
+    {
+      "id": "81036",
+      "league": "LCK",
+      "tournament": "LCK 2026 Rounds 3-4",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCK 2026 Rounds 3-4",
+      "tournamentLine": "LCK 2026 Rounds 3-4 (KR) - Fearless Draft",
+      "date": "2026-08-06",
+      "week": "WEEK11",
+      "patch": "16.15",
+      "game": "Dplus KIA vs T1",
+      "sourceUrl": "https://gol.gg/game/stats/81036/page-game/",
+      "teamA": "T1",
+      "teamB": "Dplus KIA",
+      "teamAId": "2809",
+      "teamBId": "2802",
+      "killsA": 17,
+      "killsB": 7,
+      "totalKills": 24,
+      "collectedAt": "2026-08-07T00:15:53.082Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Jayce",
+          "Sejuani",
+          "Ryze",
+          "Lucian",
+          "Milio"
+        ],
+        "teamB": [
+          "Olaf",
+          "Jarvan IV",
+          "Syndra",
+          "Caitlyn",
+          "Lux"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Jayce",
+          "JUNGLE": "Sejuani",
+          "MID": "Ryze",
+          "ADC": "Lucian",
+          "SUP": "Milio"
+        },
+        "teamB": {
+          "TOP": "Olaf",
+          "JUNGLE": "Jarvan IV",
+          "MID": "Syndra",
+          "ADC": "Caitlyn",
+          "SUP": "Lux"
         }
       }
     },
@@ -80760,6 +80815,230 @@
           "MID": "Orianna",
           "ADC": "Corki",
           "SUP": "Bard"
+        }
+      }
+    },
+    {
+      "id": "80991",
+      "league": "LPL",
+      "tournament": "LPL 2026 Split 3",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LPL 2026 Split 3",
+      "tournamentLine": "LPL 2026 Split 3 (CN) - Fearless Draft",
+      "date": "2026-08-06",
+      "week": "WEEK3",
+      "patch": "16.14",
+      "game": "IG vs NIP",
+      "sourceUrl": "https://gol.gg/game/stats/80991/page-game/",
+      "teamA": "Invictus Gaming",
+      "teamB": "Ninjas in Pyjamas",
+      "teamAId": "2850",
+      "teamBId": "2855",
+      "killsA": 12,
+      "killsB": 27,
+      "totalKills": 39,
+      "collectedAt": "2026-08-07T00:16:46.375Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Zaahen",
+          "Nocturne",
+          "Ryze",
+          "Lucian",
+          "Milio"
+        ],
+        "teamB": [
+          "Olaf",
+          "Trundle",
+          "Cassiopeia",
+          "Xayah",
+          "Rakan"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Zaahen",
+          "JUNGLE": "Nocturne",
+          "MID": "Ryze",
+          "ADC": "Lucian",
+          "SUP": "Milio"
+        },
+        "teamB": {
+          "TOP": "Olaf",
+          "JUNGLE": "Trundle",
+          "MID": "Cassiopeia",
+          "ADC": "Xayah",
+          "SUP": "Rakan"
+        }
+      }
+    },
+    {
+      "id": "80992",
+      "league": "LPL",
+      "tournament": "LPL 2026 Split 3",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LPL 2026 Split 3",
+      "tournamentLine": "LPL 2026 Split 3 (CN) - Fearless Draft",
+      "date": "2026-08-06",
+      "week": "WEEK3",
+      "patch": "16.14",
+      "game": "IG vs NIP",
+      "sourceUrl": "https://gol.gg/game/stats/80992/page-game/",
+      "teamA": "Ninjas in Pyjamas",
+      "teamB": "Invictus Gaming",
+      "teamAId": "2855",
+      "teamBId": "2850",
+      "killsA": 16,
+      "killsB": 21,
+      "totalKills": 37,
+      "collectedAt": "2026-08-07T00:16:46.605Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Poppy",
+          "Skarner",
+          "Sylas",
+          "Sivir",
+          "Karma"
+        ],
+        "teamB": [
+          "Jax",
+          "Wukong",
+          "Viktor",
+          "Ezreal",
+          "Seraphine"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Poppy",
+          "JUNGLE": "Skarner",
+          "MID": "Sylas",
+          "ADC": "Sivir",
+          "SUP": "Karma"
+        },
+        "teamB": {
+          "TOP": "Jax",
+          "JUNGLE": "Wukong",
+          "MID": "Viktor",
+          "ADC": "Ezreal",
+          "SUP": "Seraphine"
+        }
+      }
+    },
+    {
+      "id": "80993",
+      "league": "LPL",
+      "tournament": "LPL 2026 Split 3",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LPL 2026 Split 3",
+      "tournamentLine": "LPL 2026 Split 3 (CN) - Fearless Draft",
+      "date": "2026-08-06",
+      "week": "WEEK3",
+      "patch": "16.14",
+      "game": "Team WE vs AL",
+      "sourceUrl": "https://gol.gg/game/stats/80993/page-game/",
+      "teamA": "Anyone's Legend",
+      "teamB": "Team WE",
+      "teamAId": "2848",
+      "teamBId": "2856",
+      "killsA": 23,
+      "killsB": 20,
+      "totalKills": 43,
+      "collectedAt": "2026-08-07T00:16:46.861Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Olaf",
+          "Naafiri",
+          "Ahri",
+          "Ziggs",
+          "Shen"
+        ],
+        "teamB": [
+          "Dr. Mundo",
+          "Pantheon",
+          "Ryze",
+          "Jhin",
+          "Neeko"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Olaf",
+          "JUNGLE": "Naafiri",
+          "MID": "Ahri",
+          "ADC": "Ziggs",
+          "SUP": "Shen"
+        },
+        "teamB": {
+          "TOP": "Dr. Mundo",
+          "JUNGLE": "Pantheon",
+          "MID": "Ryze",
+          "ADC": "Jhin",
+          "SUP": "Neeko"
+        }
+      }
+    },
+    {
+      "id": "80994",
+      "league": "LPL",
+      "tournament": "LPL 2026 Split 3",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LPL 2026 Split 3",
+      "tournamentLine": "LPL 2026 Split 3 (CN) - Fearless Draft",
+      "date": "2026-08-06",
+      "week": "WEEK3",
+      "patch": "16.14",
+      "game": "Team WE vs AL",
+      "sourceUrl": "https://gol.gg/game/stats/80994/page-game/",
+      "teamA": "Team WE",
+      "teamB": "Anyone's Legend",
+      "teamAId": "2856",
+      "teamBId": "2848",
+      "killsA": 16,
+      "killsB": 26,
+      "totalKills": 42,
+      "collectedAt": "2026-08-07T00:16:47.082Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Renekton",
+          "Nidalee",
+          "Corki",
+          "Varus",
+          "Nautilus"
+        ],
+        "teamB": [
+          "Gnar",
+          "Jarvan IV",
+          "Sylas",
+          "Xerath",
+          "Camille"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Renekton",
+          "JUNGLE": "Nidalee",
+          "MID": "Corki",
+          "ADC": "Varus",
+          "SUP": "Nautilus"
+        },
+        "teamB": {
+          "TOP": "Gnar",
+          "JUNGLE": "Jarvan IV",
+          "MID": "Sylas",
+          "ADC": "Xerath",
+          "SUP": "Camille"
         }
       }
     },
