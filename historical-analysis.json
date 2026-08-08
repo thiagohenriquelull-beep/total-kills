@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-08T10:52:46.373Z",
+  "generatedAt": "2026-08-08T14:51:20.722Z",
   "methodology": "Walk-forward por liga (min 30 jogos treino). Linha simulada = linha justa pre-draft do modelo. Odds: 1.80/1.80.",
-  "sourceGames": 1970,
-  "generatedFromGamesUpdatedAt": "2026-08-08T10:52:26.961Z",
-  "backtestRows": 1668,
-  "count": 1668,
+  "sourceGames": 1977,
+  "generatedFromGamesUpdatedAt": "2026-08-08T14:51:03.256Z",
+  "backtestRows": 1675,
+  "count": 1675,
   "games": [
     {
       "l": "LCK",
@@ -2345,6 +2345,36 @@
       "evu": -0.1555,
       "s": "",
       "as": "under"
+    },
+    {
+      "l": "LCK",
+      "a": 41,
+      "ml": 27.5,
+      "pred": 28.47,
+      "evo": -0.0172,
+      "evu": -0.1828,
+      "s": "",
+      "as": "over"
+    },
+    {
+      "l": "LCK",
+      "a": 21,
+      "ml": 28.5,
+      "pred": 28.09,
+      "evo": -0.1353,
+      "evu": -0.0647,
+      "s": "",
+      "as": "under"
+    },
+    {
+      "l": "LCK",
+      "a": 43,
+      "ml": 26.5,
+      "pred": 27.11,
+      "evo": -0.0476,
+      "evu": -0.1524,
+      "s": "",
+      "as": "over"
     },
     {
       "l": "LCKCL",
@@ -11025,6 +11055,46 @@
       "evu": 0.1437,
       "s": "under",
       "as": "under"
+    },
+    {
+      "l": "LPL",
+      "a": 27,
+      "ml": 35.5,
+      "pred": 33.19,
+      "evo": -0.3019,
+      "evu": 0.1019,
+      "s": "under",
+      "as": "under"
+    },
+    {
+      "l": "LPL",
+      "a": 32,
+      "ml": 34.5,
+      "pred": 32.87,
+      "evo": -0.2434,
+      "evu": 0.0434,
+      "s": "",
+      "as": "under"
+    },
+    {
+      "l": "LPL",
+      "a": 40,
+      "ml": 35.5,
+      "pred": 33.59,
+      "evo": -0.2677,
+      "evu": 0.0677,
+      "s": "under",
+      "as": "over"
+    },
+    {
+      "l": "LPL",
+      "a": 43,
+      "ml": 36.5,
+      "pred": 34.66,
+      "evo": -0.261,
+      "evu": 0.061,
+      "s": "under",
+      "as": "over"
     },
     {
       "l": "CBLOL",
