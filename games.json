@@ -1,12 +1,12 @@
 {
   "meta": {
     "source": "GOL logged session",
-    "createdAt": "2026-08-08T14:51:03.256Z",
+    "createdAt": "2026-08-08T18:58:57.429Z",
     "collectorVersion": "new-games-http-2026-07-25",
     "leagues": [
       {
         "league": "CBLOL",
-        "games": 196,
+        "games": 198,
         "tournaments": [
           "CBLOL 2026 Split 1",
           "CBLOL 2026 Split 1 Playoffs",
@@ -44,7 +44,7 @@
       },
       {
         "league": "LEC",
-        "games": 285,
+        "games": 288,
         "tournaments": [
           "LEC 2026 Spring Playoffs",
           "LEC 2026 Spring Season",
@@ -78,19 +78,18 @@
       "side",
       "bans"
     ],
-    "updatedAt": "2026-08-08T14:51:03.256Z",
+    "updatedAt": "2026-08-08T18:58:57.429Z",
     "lastIncrementalMerge": {
       "source": "data/jogos-novos.json",
-      "mergedAt": "2026-08-08T14:51:03.256Z",
-      "added": 7,
+      "mergedAt": "2026-08-08T18:58:57.429Z",
+      "added": 5,
       "duplicatesSkipped": 0,
       "patches": [
-        "16.14",
         "16.15"
       ],
       "tournaments": [
-        "LCK 2026 Rounds 3-4",
-        "LPL 2026 Split 3"
+        "CBLOL 2026 Split 2",
+        "LEC 2026 Summer Season"
       ]
     },
     "nameCleanup": {
@@ -102,7 +101,7 @@
         "trim repeated spaces"
       ]
     },
-    "totalGames": 1977,
+    "totalGames": 1982,
     "dataCorrections": [
       {
         "correctedAt": "2026-07-14T01:19:11.794Z",
@@ -8542,6 +8541,118 @@
           "MID": "Syndra",
           "ADC": "Sivir",
           "SUP": "Nautilus"
+        }
+      }
+    },
+    {
+      "id": "80951",
+      "league": "CBLOL",
+      "tournament": "CBLOL 2026 Split 2",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "CBLOL 2026 Split 2",
+      "tournamentLine": "CBLOL 2026 Split 2 (BR) - Fearless Draft",
+      "date": "2026-08-08",
+      "week": "WEEK3",
+      "patch": "16.15",
+      "game": "RED Canids vs paiN Gaming",
+      "sourceUrl": "https://gol.gg/game/stats/80951/page-game/",
+      "teamA": "RED Canids",
+      "teamB": "paiN Gaming",
+      "teamAId": "2893",
+      "teamBId": "2892",
+      "killsA": 24,
+      "killsB": 10,
+      "totalKills": 34,
+      "collectedAt": "2026-08-08T18:57:59.685Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Ambessa",
+          "Naafiri",
+          "Orianna",
+          "Ziggs",
+          "Alistar"
+        ],
+        "teamB": [
+          "Rumble",
+          "Vi",
+          "Galio",
+          "Sivir",
+          "Bard"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Ambessa",
+          "JUNGLE": "Naafiri",
+          "MID": "Orianna",
+          "ADC": "Ziggs",
+          "SUP": "Alistar"
+        },
+        "teamB": {
+          "TOP": "Rumble",
+          "JUNGLE": "Vi",
+          "MID": "Galio",
+          "ADC": "Sivir",
+          "SUP": "Bard"
+        }
+      }
+    },
+    {
+      "id": "80952",
+      "league": "CBLOL",
+      "tournament": "CBLOL 2026 Split 2",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "CBLOL 2026 Split 2",
+      "tournamentLine": "CBLOL 2026 Split 2 (BR) - Fearless Draft",
+      "date": "2026-08-08",
+      "week": "WEEK3",
+      "patch": "16.15",
+      "game": "RED Canids vs paiN Gaming",
+      "sourceUrl": "https://gol.gg/game/stats/80952/page-game/",
+      "teamA": "RED Canids",
+      "teamB": "paiN Gaming",
+      "teamAId": "2893",
+      "teamBId": "2892",
+      "killsA": 15,
+      "killsB": 5,
+      "totalKills": 20,
+      "collectedAt": "2026-08-08T18:57:59.873Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Gnar",
+          "Lee Sin",
+          "Syndra",
+          "Varus",
+          "Nautilus"
+        ],
+        "teamB": [
+          "Twisted Fate",
+          "Skarner",
+          "Viktor",
+          "Ezreal",
+          "Shen"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Gnar",
+          "JUNGLE": "Lee Sin",
+          "MID": "Syndra",
+          "ADC": "Varus",
+          "SUP": "Nautilus"
+        },
+        "teamB": {
+          "TOP": "Twisted Fate",
+          "JUNGLE": "Skarner",
+          "MID": "Viktor",
+          "ADC": "Ezreal",
+          "SUP": "Shen"
         }
       }
     },
@@ -57559,6 +57670,174 @@
           "MID": "Anivia",
           "ADC": "Zeri",
           "SUP": "Lulu"
+        }
+      }
+    },
+    {
+      "id": "81102",
+      "league": "LEC",
+      "tournament": "LEC 2026 Summer Season",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LEC 2026 Summer Season",
+      "tournamentLine": "LEC 2026 Summer Season (EUW) - Fearless Draft",
+      "date": "2026-08-08",
+      "week": "WEEK3",
+      "patch": "16.15",
+      "game": "SK Gaming vs NAVI",
+      "sourceUrl": "https://gol.gg/game/stats/81102/page-game/",
+      "teamA": "Natus Vincere",
+      "teamB": "SK Gaming",
+      "teamAId": "2901",
+      "teamBId": "2903",
+      "killsA": 27,
+      "killsB": 12,
+      "totalKills": 39,
+      "collectedAt": "2026-08-08T18:58:36.629Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Olaf",
+          "Nocturne",
+          "Orianna",
+          "Miss Fortune",
+          "Shen"
+        ],
+        "teamB": [
+          "Kled",
+          "Vi",
+          "Sylas",
+          "Corki",
+          "Rell"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Olaf",
+          "JUNGLE": "Nocturne",
+          "MID": "Orianna",
+          "ADC": "Miss Fortune",
+          "SUP": "Shen"
+        },
+        "teamB": {
+          "TOP": "Kled",
+          "JUNGLE": "Vi",
+          "MID": "Sylas",
+          "ADC": "Corki",
+          "SUP": "Rell"
+        }
+      }
+    },
+    {
+      "id": "81103",
+      "league": "LEC",
+      "tournament": "LEC 2026 Summer Season",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LEC 2026 Summer Season",
+      "tournamentLine": "LEC 2026 Summer Season (EUW) - Fearless Draft",
+      "date": "2026-08-08",
+      "week": "WEEK3",
+      "patch": "16.15",
+      "game": "SK Gaming vs NAVI",
+      "sourceUrl": "https://gol.gg/game/stats/81103/page-game/",
+      "teamA": "Natus Vincere",
+      "teamB": "SK Gaming",
+      "teamAId": "2901",
+      "teamBId": "2903",
+      "killsA": 8,
+      "killsB": 18,
+      "totalKills": 26,
+      "collectedAt": "2026-08-08T18:58:36.798Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Ambessa",
+          "Lee Sin",
+          "Ryze",
+          "Viktor",
+          "Alistar"
+        ],
+        "teamB": [
+          "Gnar",
+          "Pantheon",
+          "Syndra",
+          "Varus",
+          "Leona"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Ambessa",
+          "JUNGLE": "Lee Sin",
+          "MID": "Ryze",
+          "ADC": "Viktor",
+          "SUP": "Alistar"
+        },
+        "teamB": {
+          "TOP": "Gnar",
+          "JUNGLE": "Pantheon",
+          "MID": "Syndra",
+          "ADC": "Varus",
+          "SUP": "Leona"
+        }
+      }
+    },
+    {
+      "id": "81104",
+      "league": "LEC",
+      "tournament": "LEC 2026 Summer Season",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LEC 2026 Summer Season",
+      "tournamentLine": "LEC 2026 Summer Season (EUW) - Fearless Draft",
+      "date": "2026-08-08",
+      "week": "WEEK3",
+      "patch": "16.15",
+      "game": "SK Gaming vs NAVI",
+      "sourceUrl": "https://gol.gg/game/stats/81104/page-game/",
+      "teamA": "Natus Vincere",
+      "teamB": "SK Gaming",
+      "teamAId": "2901",
+      "teamBId": "2903",
+      "killsA": 20,
+      "killsB": 15,
+      "totalKills": 35,
+      "collectedAt": "2026-08-08T18:58:36.973Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "KSante",
+          "Zaahen",
+          "Anivia",
+          "Yunara",
+          "Braum"
+        ],
+        "teamB": [
+          "Renekton",
+          "Wukong",
+          "Annie",
+          "Ziggs",
+          "Nautilus"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "KSante",
+          "JUNGLE": "Zaahen",
+          "MID": "Anivia",
+          "ADC": "Yunara",
+          "SUP": "Braum"
+        },
+        "teamB": {
+          "TOP": "Renekton",
+          "JUNGLE": "Wukong",
+          "MID": "Annie",
+          "ADC": "Ziggs",
+          "SUP": "Nautilus"
         }
       }
     },
