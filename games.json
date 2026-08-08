@@ -1,12 +1,12 @@
 {
   "meta": {
     "source": "GOL logged session",
-    "createdAt": "2026-08-08T18:58:57.429Z",
+    "createdAt": "2026-08-08T22:47:38.594Z",
     "collectorVersion": "new-games-http-2026-07-25",
     "leagues": [
       {
         "league": "CBLOL",
-        "games": 198,
+        "games": 200,
         "tournaments": [
           "CBLOL 2026 Split 1",
           "CBLOL 2026 Split 1 Playoffs",
@@ -44,7 +44,7 @@
       },
       {
         "league": "LEC",
-        "games": 288,
+        "games": 290,
         "tournaments": [
           "LEC 2026 Spring Playoffs",
           "LEC 2026 Spring Season",
@@ -78,11 +78,11 @@
       "side",
       "bans"
     ],
-    "updatedAt": "2026-08-08T18:58:57.429Z",
+    "updatedAt": "2026-08-08T22:47:38.594Z",
     "lastIncrementalMerge": {
       "source": "data/jogos-novos.json",
-      "mergedAt": "2026-08-08T18:58:57.429Z",
-      "added": 5,
+      "mergedAt": "2026-08-08T22:47:38.594Z",
+      "added": 4,
       "duplicatesSkipped": 0,
       "patches": [
         "16.15"
@@ -101,7 +101,7 @@
         "trim repeated spaces"
       ]
     },
-    "totalGames": 1982,
+    "totalGames": 1986,
     "dataCorrections": [
       {
         "correctedAt": "2026-07-14T01:19:11.794Z",
@@ -8653,6 +8653,118 @@
           "MID": "Viktor",
           "ADC": "Ezreal",
           "SUP": "Shen"
+        }
+      }
+    },
+    {
+      "id": "80954",
+      "league": "CBLOL",
+      "tournament": "CBLOL 2026 Split 2",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "CBLOL 2026 Split 2",
+      "tournamentLine": "CBLOL 2026 Split 2 (BR) - Fearless Draft",
+      "date": "2026-08-08",
+      "week": "WEEK3",
+      "patch": "16.15",
+      "game": "Los Grandes vs Leviatan",
+      "sourceUrl": "https://gol.gg/game/stats/80954/page-game/",
+      "teamA": "Leviatan",
+      "teamB": "Los Grandes",
+      "teamAId": "2890",
+      "teamBId": "2895",
+      "killsA": 7,
+      "killsB": 12,
+      "totalKills": 19,
+      "collectedAt": "2026-08-08T22:46:40.509Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Rumble",
+          "Wukong",
+          "Orianna",
+          "Ezreal",
+          "Shen"
+        ],
+        "teamB": [
+          "Varus",
+          "Naafiri",
+          "Syndra",
+          "Viktor",
+          "Alistar"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Rumble",
+          "JUNGLE": "Wukong",
+          "MID": "Orianna",
+          "ADC": "Ezreal",
+          "SUP": "Shen"
+        },
+        "teamB": {
+          "TOP": "Varus",
+          "JUNGLE": "Naafiri",
+          "MID": "Syndra",
+          "ADC": "Viktor",
+          "SUP": "Alistar"
+        }
+      }
+    },
+    {
+      "id": "80955",
+      "league": "CBLOL",
+      "tournament": "CBLOL 2026 Split 2",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "CBLOL 2026 Split 2",
+      "tournamentLine": "CBLOL 2026 Split 2 (BR) - Fearless Draft",
+      "date": "2026-08-08",
+      "week": "WEEK3",
+      "patch": "16.15",
+      "game": "Los Grandes vs Leviatan",
+      "sourceUrl": "https://gol.gg/game/stats/80955/page-game/",
+      "teamA": "Los Grandes",
+      "teamB": "Leviatan",
+      "teamAId": "2895",
+      "teamBId": "2890",
+      "killsA": 19,
+      "killsB": 8,
+      "totalKills": 27,
+      "collectedAt": "2026-08-08T22:46:40.683Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Renekton",
+          "Lee Sin",
+          "Ryze",
+          "Caitlyn",
+          "Bard"
+        ],
+        "teamB": [
+          "KSante",
+          "Jarvan IV",
+          "Anivia",
+          "Corki",
+          "Leona"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Renekton",
+          "JUNGLE": "Lee Sin",
+          "MID": "Ryze",
+          "ADC": "Caitlyn",
+          "SUP": "Bard"
+        },
+        "teamB": {
+          "TOP": "KSante",
+          "JUNGLE": "Jarvan IV",
+          "MID": "Anivia",
+          "ADC": "Corki",
+          "SUP": "Leona"
         }
       }
     },
@@ -57837,6 +57949,118 @@
           "JUNGLE": "Wukong",
           "MID": "Annie",
           "ADC": "Ziggs",
+          "SUP": "Nautilus"
+        }
+      }
+    },
+    {
+      "id": "81105",
+      "league": "LEC",
+      "tournament": "LEC 2026 Summer Season",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LEC 2026 Summer Season",
+      "tournamentLine": "LEC 2026 Summer Season (EUW) - Fearless Draft",
+      "date": "2026-08-08",
+      "week": "WEEK3",
+      "patch": "16.15",
+      "game": "MKOI vs GIANTX",
+      "sourceUrl": "https://gol.gg/game/stats/81105/page-game/",
+      "teamA": "GIANTX",
+      "teamB": "Movistar KOI",
+      "teamAId": "2898",
+      "teamBId": "2900",
+      "killsA": 22,
+      "killsB": 4,
+      "totalKills": 26,
+      "collectedAt": "2026-08-08T22:47:17.453Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Renekton",
+          "Jarvan IV",
+          "Locke",
+          "Cassiopeia",
+          "Rell"
+        ],
+        "teamB": [
+          "Zaahen",
+          "Nocturne",
+          "Orianna",
+          "Corki",
+          "Shen"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Renekton",
+          "JUNGLE": "Jarvan IV",
+          "MID": "Locke",
+          "ADC": "Cassiopeia",
+          "SUP": "Rell"
+        },
+        "teamB": {
+          "TOP": "Zaahen",
+          "JUNGLE": "Nocturne",
+          "MID": "Orianna",
+          "ADC": "Corki",
+          "SUP": "Shen"
+        }
+      }
+    },
+    {
+      "id": "81106",
+      "league": "LEC",
+      "tournament": "LEC 2026 Summer Season",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LEC 2026 Summer Season",
+      "tournamentLine": "LEC 2026 Summer Season (EUW) - Fearless Draft",
+      "date": "2026-08-08",
+      "week": "WEEK3",
+      "patch": "16.15",
+      "game": "MKOI vs GIANTX",
+      "sourceUrl": "https://gol.gg/game/stats/81106/page-game/",
+      "teamA": "GIANTX",
+      "teamB": "Movistar KOI",
+      "teamAId": "2898",
+      "teamBId": "2900",
+      "killsA": 17,
+      "killsB": 11,
+      "totalKills": 28,
+      "collectedAt": "2026-08-08T22:47:17.620Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Camille",
+          "Vi",
+          "Taliyah",
+          "Kaisa",
+          "Leona"
+        ],
+        "teamB": [
+          "Ambessa",
+          "Pantheon",
+          "Viktor",
+          "Ezreal",
+          "Nautilus"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Camille",
+          "JUNGLE": "Vi",
+          "MID": "Taliyah",
+          "ADC": "Kaisa",
+          "SUP": "Leona"
+        },
+        "teamB": {
+          "TOP": "Ambessa",
+          "JUNGLE": "Pantheon",
+          "MID": "Viktor",
+          "ADC": "Ezreal",
           "SUP": "Nautilus"
         }
       }
