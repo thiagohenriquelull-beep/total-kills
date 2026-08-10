@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "GOL logged session",
-    "createdAt": "2026-08-10T15:17:32.701Z",
+    "createdAt": "2026-08-10T19:17:39.556Z",
     "collectorVersion": "new-games-http-2026-07-25",
     "leagues": [
       {
@@ -44,7 +44,7 @@
       },
       {
         "league": "LEC",
-        "games": 294,
+        "games": 297,
         "tournaments": [
           "LEC 2026 Spring Playoffs",
           "LEC 2026 Spring Season",
@@ -78,17 +78,17 @@
       "side",
       "bans"
     ],
-    "updatedAt": "2026-08-10T15:17:32.701Z",
+    "updatedAt": "2026-08-10T19:17:39.556Z",
     "lastIncrementalMerge": {
       "source": "data/jogos-novos.json",
-      "mergedAt": "2026-08-10T15:17:32.701Z",
-      "added": 2,
+      "mergedAt": "2026-08-10T19:17:39.556Z",
+      "added": 3,
       "duplicatesSkipped": 0,
       "patches": [
         "16.15"
       ],
       "tournaments": [
-        "LCK CL 2026 Rounds 3-4"
+        "LEC 2026 Summer Season"
       ]
     },
     "nameCleanup": {
@@ -100,7 +100,7 @@
         "trim repeated spaces"
       ]
     },
-    "totalGames": 2020,
+    "totalGames": 2023,
     "dataCorrections": [
       {
         "correctedAt": "2026-07-14T01:19:11.794Z",
@@ -59629,6 +59629,174 @@
           "MID": "Ryze",
           "ADC": "Ziggs",
           "SUP": "Shen"
+        }
+      }
+    },
+    {
+      "id": "81114",
+      "league": "LEC",
+      "tournament": "LEC 2026 Summer Season",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LEC 2026 Summer Season",
+      "tournamentLine": "LEC 2026 Summer Season (EUW) - Fearless Draft",
+      "date": "2026-08-10",
+      "week": "WEEK3",
+      "patch": "16.15",
+      "game": "SK Gaming vs VIT",
+      "sourceUrl": "https://gol.gg/game/stats/81114/page-game/",
+      "teamA": "Team Vitality",
+      "teamB": "SK Gaming",
+      "teamAId": "2905",
+      "teamBId": "2903",
+      "killsA": 24,
+      "killsB": 7,
+      "totalKills": 31,
+      "collectedAt": "2026-08-10T19:17:13.264Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Aatrox",
+          "Lee Sin",
+          "Akali",
+          "Jhin",
+          "Alistar"
+        ],
+        "teamB": [
+          "Twisted Fate",
+          "Nocturne",
+          "Orianna",
+          "Kaisa",
+          "Skarner"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Aatrox",
+          "JUNGLE": "Lee Sin",
+          "MID": "Akali",
+          "ADC": "Jhin",
+          "SUP": "Alistar"
+        },
+        "teamB": {
+          "TOP": "Twisted Fate",
+          "JUNGLE": "Nocturne",
+          "MID": "Orianna",
+          "ADC": "Kaisa",
+          "SUP": "Skarner"
+        }
+      }
+    },
+    {
+      "id": "81117",
+      "league": "LEC",
+      "tournament": "LEC 2026 Summer Season",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LEC 2026 Summer Season",
+      "tournamentLine": "LEC 2026 Summer Season (EUW) - Fearless Draft",
+      "date": "2026-08-10",
+      "week": "WEEK3",
+      "patch": "16.15",
+      "game": "NAVI vs G2 Esports",
+      "sourceUrl": "https://gol.gg/game/stats/81117/page-game/",
+      "teamA": "G2 Esports",
+      "teamB": "Natus Vincere",
+      "teamAId": "2897",
+      "teamBId": "2901",
+      "killsA": 14,
+      "killsB": 10,
+      "totalKills": 24,
+      "collectedAt": "2026-08-10T19:17:13.957Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Jayce",
+          "Xin Zhao",
+          "Viktor",
+          "Ziggs",
+          "Alistar"
+        ],
+        "teamB": [
+          "KSante",
+          "Nocturne",
+          "Syndra",
+          "Ezreal",
+          "Shen"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Jayce",
+          "JUNGLE": "Xin Zhao",
+          "MID": "Viktor",
+          "ADC": "Ziggs",
+          "SUP": "Alistar"
+        },
+        "teamB": {
+          "TOP": "KSante",
+          "JUNGLE": "Nocturne",
+          "MID": "Syndra",
+          "ADC": "Ezreal",
+          "SUP": "Shen"
+        }
+      }
+    },
+    {
+      "id": "81118",
+      "league": "LEC",
+      "tournament": "LEC 2026 Summer Season",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LEC 2026 Summer Season",
+      "tournamentLine": "LEC 2026 Summer Season (EUW) - Fearless Draft",
+      "date": "2026-08-10",
+      "week": "WEEK3",
+      "patch": "16.15",
+      "game": "NAVI vs G2 Esports",
+      "sourceUrl": "https://gol.gg/game/stats/81118/page-game/",
+      "teamA": "G2 Esports",
+      "teamB": "Natus Vincere",
+      "teamAId": "2897",
+      "teamBId": "2901",
+      "killsA": 15,
+      "killsB": 7,
+      "totalKills": 22,
+      "collectedAt": "2026-08-10T19:17:14.170Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Galio",
+          "Trundle",
+          "Orianna",
+          "Varus",
+          "Rell"
+        ],
+        "teamB": [
+          "Rumble",
+          "Lee Sin",
+          "Cassiopeia",
+          "Corki",
+          "Leona"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Galio",
+          "JUNGLE": "Trundle",
+          "MID": "Orianna",
+          "ADC": "Varus",
+          "SUP": "Rell"
+        },
+        "teamB": {
+          "TOP": "Rumble",
+          "JUNGLE": "Lee Sin",
+          "MID": "Cassiopeia",
+          "ADC": "Corki",
+          "SUP": "Leona"
         }
       }
     },
