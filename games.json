@@ -1,12 +1,12 @@
 {
   "meta": {
     "source": "GOL logged session",
-    "createdAt": "2026-08-11T11:05:34.138Z",
+    "createdAt": "2026-08-11T15:17:26.878Z",
     "collectorVersion": "new-games-http-2026-07-25",
     "leagues": [
       {
         "league": "CBLOL",
-        "games": 207,
+        "games": 208,
         "tournaments": [
           "CBLOL 2026 Split 1",
           "CBLOL 2026 Split 1 Playoffs",
@@ -25,7 +25,7 @@
       },
       {
         "league": "LCKCL",
-        "games": 398,
+        "games": 401,
         "tournaments": [
           "LCK CL 2026 Kickoff",
           "LCK CL 2026 Rounds 1-2",
@@ -78,11 +78,11 @@
       "side",
       "bans"
     ],
-    "updatedAt": "2026-08-11T11:05:34.138Z",
+    "updatedAt": "2026-08-11T15:17:26.878Z",
     "lastIncrementalMerge": {
       "source": "data/jogos-novos.json",
-      "mergedAt": "2026-08-11T11:05:34.138Z",
-      "added": 6,
+      "mergedAt": "2026-08-11T15:17:26.878Z",
+      "added": 4,
       "duplicatesSkipped": 0,
       "patches": [
         "16.15"
@@ -101,7 +101,7 @@
         "trim repeated spaces"
       ]
     },
-    "totalGames": 2029,
+    "totalGames": 2033,
     "dataCorrections": [
       {
         "correctedAt": "2026-07-14T01:19:11.794Z",
@@ -9157,6 +9157,62 @@
           "MID": "Anivia",
           "ADC": "Varus",
           "SUP": "Rell"
+        }
+      }
+    },
+    {
+      "id": "80967",
+      "league": "CBLOL",
+      "tournament": "CBLOL 2026 Split 2",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "CBLOL 2026 Split 2",
+      "tournamentLine": "CBLOL 2026 Split 2 (BR) - Fearless Draft",
+      "date": "2026-08-10",
+      "week": "WEEK3",
+      "patch": "16.15",
+      "game": "Los Grandes vs paiN Gaming",
+      "sourceUrl": "https://gol.gg/game/stats/80967/page-game/",
+      "teamA": "Los Grandes",
+      "teamB": "paiN Gaming",
+      "teamAId": "2895",
+      "teamBId": "2892",
+      "killsA": 26,
+      "killsB": 7,
+      "totalKills": 33,
+      "collectedAt": "2026-08-11T15:16:29.956Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Yorick",
+          "Vi",
+          "Orianna",
+          "Viktor",
+          "Camille"
+        ],
+        "teamB": [
+          "Rumble",
+          "Jarvan IV",
+          "Syndra",
+          "Jhin",
+          "Alistar"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Yorick",
+          "JUNGLE": "Vi",
+          "MID": "Orianna",
+          "ADC": "Viktor",
+          "SUP": "Camille"
+        },
+        "teamB": {
+          "TOP": "Rumble",
+          "JUNGLE": "Jarvan IV",
+          "MID": "Syndra",
+          "ADC": "Jhin",
+          "SUP": "Alistar"
         }
       }
     },
@@ -38998,6 +39054,174 @@
           "MID": "Aurora",
           "ADC": "Yunara",
           "SUP": "Lulu"
+        }
+      }
+    },
+    {
+      "id": "81251",
+      "league": "LCKCL",
+      "tournament": "LCK CL 2026 Rounds 3-4",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCK CL 2026 Rounds 3-4",
+      "tournamentLine": "LCK CL 2026 Rounds 3-4 (KR) - Fearless Draft",
+      "date": "2026-08-11",
+      "week": "WEEK12",
+      "patch": "16.15",
+      "game": "NS vs DK",
+      "sourceUrl": "https://gol.gg/game/stats/81251/page-game/",
+      "teamA": "Nongshim Esports Academy",
+      "teamB": "Dplus KIA Challengers",
+      "teamAId": "2823",
+      "teamBId": "2829",
+      "killsA": 18,
+      "killsB": 7,
+      "totalKills": 25,
+      "collectedAt": "2026-08-11T15:16:45.901Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Gnar",
+          "Lee Sin",
+          "Cassiopeia",
+          "Ezreal",
+          "Shen"
+        ],
+        "teamB": [
+          "Ambessa",
+          "Skarner",
+          "Orianna",
+          "Corki",
+          "Alistar"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Gnar",
+          "JUNGLE": "Lee Sin",
+          "MID": "Cassiopeia",
+          "ADC": "Ezreal",
+          "SUP": "Shen"
+        },
+        "teamB": {
+          "TOP": "Ambessa",
+          "JUNGLE": "Skarner",
+          "MID": "Orianna",
+          "ADC": "Corki",
+          "SUP": "Alistar"
+        }
+      }
+    },
+    {
+      "id": "81252",
+      "league": "LCKCL",
+      "tournament": "LCK CL 2026 Rounds 3-4",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCK CL 2026 Rounds 3-4",
+      "tournamentLine": "LCK CL 2026 Rounds 3-4 (KR) - Fearless Draft",
+      "date": "2026-08-11",
+      "week": "WEEK12",
+      "patch": "16.15",
+      "game": "NS vs DK",
+      "sourceUrl": "https://gol.gg/game/stats/81252/page-game/",
+      "teamA": "Dplus KIA Challengers",
+      "teamB": "Nongshim Esports Academy",
+      "teamAId": "2829",
+      "teamBId": "2823",
+      "killsA": 22,
+      "killsB": 28,
+      "totalKills": 50,
+      "collectedAt": "2026-08-11T15:16:46.071Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Rumble",
+          "Jarvan IV",
+          "Ryze",
+          "Sivir",
+          "Nautilus"
+        ],
+        "teamB": [
+          "Yorick",
+          "Xin Zhao",
+          "Locke",
+          "Jhin",
+          "Bard"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Rumble",
+          "JUNGLE": "Jarvan IV",
+          "MID": "Ryze",
+          "ADC": "Sivir",
+          "SUP": "Nautilus"
+        },
+        "teamB": {
+          "TOP": "Yorick",
+          "JUNGLE": "Xin Zhao",
+          "MID": "Locke",
+          "ADC": "Jhin",
+          "SUP": "Bard"
+        }
+      }
+    },
+    {
+      "id": "81253",
+      "league": "LCKCL",
+      "tournament": "LCK CL 2026 Rounds 3-4",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCK CL 2026 Rounds 3-4",
+      "tournamentLine": "LCK CL 2026 Rounds 3-4 (KR) - Fearless Draft",
+      "date": "2026-08-11",
+      "week": "WEEK12",
+      "patch": "16.15",
+      "game": "NS vs DK",
+      "sourceUrl": "https://gol.gg/game/stats/81253/page-game/",
+      "teamA": "Nongshim Esports Academy",
+      "teamB": "Dplus KIA Challengers",
+      "teamAId": "2823",
+      "teamBId": "2829",
+      "killsA": 1,
+      "killsB": 14,
+      "totalKills": 15,
+      "collectedAt": "2026-08-11T15:16:46.245Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "KSante",
+          "Pantheon",
+          "Sylas",
+          "Yunara",
+          "Lulu"
+        ],
+        "teamB": [
+          "Zaahen",
+          "Vi",
+          "Syndra",
+          "Ashe",
+          "Seraphine"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "KSante",
+          "JUNGLE": "Pantheon",
+          "MID": "Sylas",
+          "ADC": "Yunara",
+          "SUP": "Lulu"
+        },
+        "teamB": {
+          "TOP": "Zaahen",
+          "JUNGLE": "Vi",
+          "MID": "Syndra",
+          "ADC": "Ashe",
+          "SUP": "Seraphine"
         }
       }
     },
