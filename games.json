@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "GOL logged session",
-    "createdAt": "2026-08-12T15:15:27.807Z",
+    "createdAt": "2026-08-12T19:21:21.341Z",
     "collectorVersion": "new-games-http-2026-07-25",
     "leagues": [
       {
@@ -55,7 +55,7 @@
       },
       {
         "league": "LPL",
-        "games": 551,
+        "games": 554,
         "tournaments": [
           "LPL 2026 Split 1",
           "LPL 2026 Split 1 Playoffs",
@@ -78,18 +78,16 @@
       "side",
       "bans"
     ],
-    "updatedAt": "2026-08-12T15:15:27.807Z",
+    "updatedAt": "2026-08-12T19:21:21.341Z",
     "lastIncrementalMerge": {
       "source": "data/jogos-novos.json",
-      "mergedAt": "2026-08-12T15:15:27.807Z",
-      "added": 5,
+      "mergedAt": "2026-08-12T19:21:21.341Z",
+      "added": 3,
       "duplicatesSkipped": 0,
       "patches": [
-        "16.14",
-        "16.15"
+        "16.14"
       ],
       "tournaments": [
-        "LCK 2026 Rounds 3-4",
         "LPL 2026 Split 3"
       ]
     },
@@ -102,7 +100,7 @@
         "trim repeated spaces"
       ]
     },
-    "totalGames": 2044,
+    "totalGames": 2047,
     "dataCorrections": [
       {
         "correctedAt": "2026-07-14T01:19:11.794Z",
@@ -86863,6 +86861,174 @@
           "MID": "Syndra",
           "ADC": "Aphelios",
           "SUP": "Thresh"
+        }
+      }
+    },
+    {
+      "id": "81373",
+      "league": "LPL",
+      "tournament": "LPL 2026 Split 3",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LPL 2026 Split 3",
+      "tournamentLine": "LPL 2026 Split 3 (CN) - Fearless Draft",
+      "date": "2026-08-12",
+      "week": "WEEK4",
+      "patch": "16.14",
+      "game": "BLG vs JD Gaming",
+      "sourceUrl": "https://gol.gg/game/stats/81373/page-game/",
+      "teamA": "JD Gaming",
+      "teamB": "Bilibili Gaming",
+      "teamAId": "2851",
+      "teamBId": "2849",
+      "killsA": 20,
+      "killsB": 28,
+      "totalKills": 48,
+      "collectedAt": "2026-08-12T19:21:12.286Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Rumble",
+          "Jarvan IV",
+          "Viktor",
+          "Jhin",
+          "Nautilus"
+        ],
+        "teamB": [
+          "Ambessa",
+          "Xin Zhao",
+          "Syndra",
+          "Ezreal",
+          "Karma"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Rumble",
+          "JUNGLE": "Jarvan IV",
+          "MID": "Viktor",
+          "ADC": "Jhin",
+          "SUP": "Nautilus"
+        },
+        "teamB": {
+          "TOP": "Ambessa",
+          "JUNGLE": "Xin Zhao",
+          "MID": "Syndra",
+          "ADC": "Ezreal",
+          "SUP": "Karma"
+        }
+      }
+    },
+    {
+      "id": "81374",
+      "league": "LPL",
+      "tournament": "LPL 2026 Split 3",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LPL 2026 Split 3",
+      "tournamentLine": "LPL 2026 Split 3 (CN) - Fearless Draft",
+      "date": "2026-08-12",
+      "week": "WEEK4",
+      "patch": "16.14",
+      "game": "BLG vs JD Gaming",
+      "sourceUrl": "https://gol.gg/game/stats/81374/page-game/",
+      "teamA": "Bilibili Gaming",
+      "teamB": "JD Gaming",
+      "teamAId": "2849",
+      "teamBId": "2851",
+      "killsA": 7,
+      "killsB": 15,
+      "totalKills": 22,
+      "collectedAt": "2026-08-12T19:21:12.497Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Gnar",
+          "Lee Sin",
+          "Akali",
+          "Lucian",
+          "Milio"
+        ],
+        "teamB": [
+          "Renekton",
+          "Skarner",
+          "Cassiopeia",
+          "Xayah",
+          "Rakan"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Gnar",
+          "JUNGLE": "Lee Sin",
+          "MID": "Akali",
+          "ADC": "Lucian",
+          "SUP": "Milio"
+        },
+        "teamB": {
+          "TOP": "Renekton",
+          "JUNGLE": "Skarner",
+          "MID": "Cassiopeia",
+          "ADC": "Xayah",
+          "SUP": "Rakan"
+        }
+      }
+    },
+    {
+      "id": "81375",
+      "league": "LPL",
+      "tournament": "LPL 2026 Split 3",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LPL 2026 Split 3",
+      "tournamentLine": "LPL 2026 Split 3 (CN) - Fearless Draft",
+      "date": "2026-08-12",
+      "week": "WEEK4",
+      "patch": "16.14",
+      "game": "BLG vs JD Gaming",
+      "sourceUrl": "https://gol.gg/game/stats/81375/page-game/",
+      "teamA": "JD Gaming",
+      "teamB": "Bilibili Gaming",
+      "teamAId": "2851",
+      "teamBId": "2849",
+      "killsA": 27,
+      "killsB": 15,
+      "totalKills": 42,
+      "collectedAt": "2026-08-12T19:21:12.705Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Jax",
+          "Nocturne",
+          "Aurora",
+          "Ashe",
+          "Seraphine"
+        ],
+        "teamB": [
+          "Shen",
+          "Naafiri",
+          "Ahri",
+          "Ziggs",
+          "Alistar"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Jax",
+          "JUNGLE": "Nocturne",
+          "MID": "Aurora",
+          "ADC": "Ashe",
+          "SUP": "Seraphine"
+        },
+        "teamB": {
+          "TOP": "Shen",
+          "JUNGLE": "Naafiri",
+          "MID": "Ahri",
+          "ADC": "Ziggs",
+          "SUP": "Alistar"
         }
       }
     },
