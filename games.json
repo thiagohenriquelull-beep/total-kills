@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "GOL logged session",
-    "createdAt": "2026-08-14T19:14:28.211Z",
+    "createdAt": "2026-08-14T22:41:36.938Z",
     "collectorVersion": "new-games-http-2026-07-25",
     "leagues": [
       {
@@ -44,7 +44,7 @@
       },
       {
         "league": "LEC",
-        "games": 299,
+        "games": 302,
         "tournaments": [
           "LEC 2026 Spring Playoffs",
           "LEC 2026 Spring Season",
@@ -78,11 +78,11 @@
       "side",
       "bans"
     ],
-    "updatedAt": "2026-08-14T19:14:28.211Z",
+    "updatedAt": "2026-08-14T22:41:36.938Z",
     "lastIncrementalMerge": {
       "source": "data/jogos-novos.json",
-      "mergedAt": "2026-08-14T19:14:28.211Z",
-      "added": 2,
+      "mergedAt": "2026-08-14T22:41:36.938Z",
+      "added": 3,
       "duplicatesSkipped": 0,
       "patches": [
         "16.16"
@@ -100,7 +100,7 @@
         "trim repeated spaces"
       ]
     },
-    "totalGames": 2081,
+    "totalGames": 2084,
     "dataCorrections": [
       {
         "correctedAt": "2026-07-14T01:19:11.794Z",
@@ -61925,6 +61925,174 @@
           "MID": "Viktor",
           "ADC": "Jhin",
           "SUP": "Bard"
+        }
+      }
+    },
+    {
+      "id": "81481",
+      "league": "LEC",
+      "tournament": "LEC 2026 Summer Season",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LEC 2026 Summer Season",
+      "tournamentLine": "LEC 2026 Summer Season (EUW) - Fearless Draft",
+      "date": "2026-08-14",
+      "week": "WEEK4",
+      "patch": "16.16",
+      "game": "GIANTX vs VIT",
+      "sourceUrl": "https://gol.gg/game/stats/81481/page-game/",
+      "teamA": "GIANTX",
+      "teamB": "Team Vitality",
+      "teamAId": "2898",
+      "teamBId": "2905",
+      "killsA": 4,
+      "killsB": 14,
+      "totalKills": 18,
+      "collectedAt": "2026-08-14T22:41:15.596Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Galio",
+          "Xin Zhao",
+          "Azir",
+          "Ezreal",
+          "Bard"
+        ],
+        "teamB": [
+          "Rumble",
+          "Vi",
+          "Ahri",
+          "Xayah",
+          "Rakan"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Galio",
+          "JUNGLE": "Xin Zhao",
+          "MID": "Azir",
+          "ADC": "Ezreal",
+          "SUP": "Bard"
+        },
+        "teamB": {
+          "TOP": "Rumble",
+          "JUNGLE": "Vi",
+          "MID": "Ahri",
+          "ADC": "Xayah",
+          "SUP": "Rakan"
+        }
+      }
+    },
+    {
+      "id": "81482",
+      "league": "LEC",
+      "tournament": "LEC 2026 Summer Season",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LEC 2026 Summer Season",
+      "tournamentLine": "LEC 2026 Summer Season (EUW) - Fearless Draft",
+      "date": "2026-08-14",
+      "week": "WEEK4",
+      "patch": "16.16",
+      "game": "GIANTX vs VIT",
+      "sourceUrl": "https://gol.gg/game/stats/81482/page-game/",
+      "teamA": "GIANTX",
+      "teamB": "Team Vitality",
+      "teamAId": "2898",
+      "teamBId": "2905",
+      "killsA": 17,
+      "killsB": 13,
+      "totalKills": 30,
+      "collectedAt": "2026-08-14T22:41:15.774Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Ornn",
+          "Nocturne",
+          "Orianna",
+          "Varus",
+          "Alistar"
+        ],
+        "teamB": [
+          "Renekton",
+          "Lee Sin",
+          "LeBlanc",
+          "Corki",
+          "Rell"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Ornn",
+          "JUNGLE": "Nocturne",
+          "MID": "Orianna",
+          "ADC": "Varus",
+          "SUP": "Alistar"
+        },
+        "teamB": {
+          "TOP": "Renekton",
+          "JUNGLE": "Lee Sin",
+          "MID": "LeBlanc",
+          "ADC": "Corki",
+          "SUP": "Rell"
+        }
+      }
+    },
+    {
+      "id": "81483",
+      "league": "LEC",
+      "tournament": "LEC 2026 Summer Season",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LEC 2026 Summer Season",
+      "tournamentLine": "LEC 2026 Summer Season (EUW) - Fearless Draft",
+      "date": "2026-08-14",
+      "week": "WEEK4",
+      "patch": "16.16",
+      "game": "GIANTX vs VIT",
+      "sourceUrl": "https://gol.gg/game/stats/81483/page-game/",
+      "teamA": "Team Vitality",
+      "teamB": "GIANTX",
+      "teamAId": "2905",
+      "teamBId": "2898",
+      "killsA": 14,
+      "killsB": 6,
+      "totalKills": 20,
+      "collectedAt": "2026-08-14T22:41:16.017Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Aatrox",
+          "Sejuani",
+          "Cassiopeia",
+          "Lucian",
+          "Milio"
+        ],
+        "teamB": [
+          "Jayce",
+          "Jarvan IV",
+          "Ryze",
+          "Seraphine",
+          "Nautilus"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Aatrox",
+          "JUNGLE": "Sejuani",
+          "MID": "Cassiopeia",
+          "ADC": "Lucian",
+          "SUP": "Milio"
+        },
+        "teamB": {
+          "TOP": "Jayce",
+          "JUNGLE": "Jarvan IV",
+          "MID": "Ryze",
+          "ADC": "Seraphine",
+          "SUP": "Nautilus"
         }
       }
     },
