@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "GOL logged session",
-    "createdAt": "2026-08-14T22:41:36.938Z",
+    "createdAt": "2026-08-15T10:39:37.002Z",
     "collectorVersion": "new-games-http-2026-07-25",
     "leagues": [
       {
@@ -55,7 +55,7 @@
       },
       {
         "league": "LPL",
-        "games": 568,
+        "games": 571,
         "tournaments": [
           "LPL 2026 Split 1",
           "LPL 2026 Split 1 Playoffs",
@@ -78,17 +78,17 @@
       "side",
       "bans"
     ],
-    "updatedAt": "2026-08-14T22:41:36.938Z",
+    "updatedAt": "2026-08-15T10:39:37.002Z",
     "lastIncrementalMerge": {
       "source": "data/jogos-novos.json",
-      "mergedAt": "2026-08-14T22:41:36.938Z",
+      "mergedAt": "2026-08-15T10:39:37.002Z",
       "added": 3,
       "duplicatesSkipped": 0,
       "patches": [
-        "16.16"
+        "16.14"
       ],
       "tournaments": [
-        "LEC 2026 Summer Season"
+        "LPL 2026 Split 3"
       ]
     },
     "nameCleanup": {
@@ -100,7 +100,7 @@
         "trim repeated spaces"
       ]
     },
-    "totalGames": 2084,
+    "totalGames": 2087,
     "dataCorrections": [
       {
         "correctedAt": "2026-07-14T01:19:11.794Z",
@@ -89101,6 +89101,174 @@
           "MID": "Viktor",
           "ADC": "Sivir",
           "SUP": "Karma"
+        }
+      }
+    },
+    {
+      "id": "81394",
+      "league": "LPL",
+      "tournament": "LPL 2026 Split 3",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LPL 2026 Split 3",
+      "tournamentLine": "LPL 2026 Split 3 (CN) - Fearless Draft",
+      "date": "2026-08-15",
+      "week": "WEEK4",
+      "patch": "16.14",
+      "game": "NIP vs LNG Esports",
+      "sourceUrl": "https://gol.gg/game/stats/81394/page-game/",
+      "teamA": "LNG Esports",
+      "teamB": "Ninjas in Pyjamas",
+      "teamAId": "2859",
+      "teamBId": "2855",
+      "killsA": 11,
+      "killsB": 18,
+      "totalKills": 29,
+      "collectedAt": "2026-08-15T10:39:28.777Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Twisted Fate",
+          "Xin Zhao",
+          "Ryze",
+          "Caitlyn",
+          "Karma"
+        ],
+        "teamB": [
+          "Gnar",
+          "Naafiri",
+          "Orianna",
+          "Ezreal",
+          "Bard"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Twisted Fate",
+          "JUNGLE": "Xin Zhao",
+          "MID": "Ryze",
+          "ADC": "Caitlyn",
+          "SUP": "Karma"
+        },
+        "teamB": {
+          "TOP": "Gnar",
+          "JUNGLE": "Naafiri",
+          "MID": "Orianna",
+          "ADC": "Ezreal",
+          "SUP": "Bard"
+        }
+      }
+    },
+    {
+      "id": "81395",
+      "league": "LPL",
+      "tournament": "LPL 2026 Split 3",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LPL 2026 Split 3",
+      "tournamentLine": "LPL 2026 Split 3 (CN) - Fearless Draft",
+      "date": "2026-08-15",
+      "week": "WEEK4",
+      "patch": "16.14",
+      "game": "NIP vs LNG Esports",
+      "sourceUrl": "https://gol.gg/game/stats/81395/page-game/",
+      "teamA": "Ninjas in Pyjamas",
+      "teamB": "LNG Esports",
+      "teamAId": "2855",
+      "teamBId": "2859",
+      "killsA": 13,
+      "killsB": 20,
+      "totalKills": 33,
+      "collectedAt": "2026-08-15T10:39:28.943Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Yorick",
+          "Jarvan IV",
+          "Sylas",
+          "Varus",
+          "Nautilus"
+        ],
+        "teamB": [
+          "Rumble",
+          "Vi",
+          "Galio",
+          "Ashe",
+          "Seraphine"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Yorick",
+          "JUNGLE": "Jarvan IV",
+          "MID": "Sylas",
+          "ADC": "Varus",
+          "SUP": "Nautilus"
+        },
+        "teamB": {
+          "TOP": "Rumble",
+          "JUNGLE": "Vi",
+          "MID": "Galio",
+          "ADC": "Ashe",
+          "SUP": "Seraphine"
+        }
+      }
+    },
+    {
+      "id": "81396",
+      "league": "LPL",
+      "tournament": "LPL 2026 Split 3",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LPL 2026 Split 3",
+      "tournamentLine": "LPL 2026 Split 3 (CN) - Fearless Draft",
+      "date": "2026-08-15",
+      "week": "WEEK4",
+      "patch": "16.14",
+      "game": "NIP vs LNG Esports",
+      "sourceUrl": "https://gol.gg/game/stats/81396/page-game/",
+      "teamA": "LNG Esports",
+      "teamB": "Ninjas in Pyjamas",
+      "teamAId": "2859",
+      "teamBId": "2855",
+      "killsA": 2,
+      "killsB": 14,
+      "totalKills": 16,
+      "collectedAt": "2026-08-15T10:39:29.126Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "KSante",
+          "Belveth",
+          "Syndra",
+          "Lucian",
+          "Milio"
+        ],
+        "teamB": [
+          "Jayce",
+          "Trundle",
+          "Diana",
+          "Xayah",
+          "Rakan"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "KSante",
+          "JUNGLE": "Belveth",
+          "MID": "Syndra",
+          "ADC": "Lucian",
+          "SUP": "Milio"
+        },
+        "teamB": {
+          "TOP": "Jayce",
+          "JUNGLE": "Trundle",
+          "MID": "Diana",
+          "ADC": "Xayah",
+          "SUP": "Rakan"
         }
       }
     },
