@@ -1,12 +1,12 @@
 {
   "meta": {
     "source": "GOL logged session",
-    "createdAt": "2026-08-16T18:48:05.952Z",
+    "createdAt": "2026-08-16T22:37:13.373Z",
     "collectorVersion": "new-games-http-2026-07-25",
     "leagues": [
       {
         "league": "CBLOL",
-        "games": 215,
+        "games": 217,
         "tournaments": [
           "CBLOL 2026 Split 1",
           "CBLOL 2026 Split 1 Playoffs",
@@ -44,7 +44,7 @@
       },
       {
         "league": "LEC",
-        "games": 308,
+        "games": 310,
         "tournaments": [
           "LEC 2026 Spring Playoffs",
           "LEC 2026 Spring Season",
@@ -78,20 +78,18 @@
       "side",
       "bans"
     ],
-    "updatedAt": "2026-08-16T18:48:05.952Z",
+    "updatedAt": "2026-08-16T22:37:13.373Z",
     "lastIncrementalMerge": {
       "source": "data/jogos-novos.json",
-      "mergedAt": "2026-08-16T18:48:05.952Z",
-      "added": 6,
+      "mergedAt": "2026-08-16T22:37:13.373Z",
+      "added": 4,
       "duplicatesSkipped": 0,
       "patches": [
-        "16.14",
         "16.16"
       ],
       "tournaments": [
         "CBLOL 2026 Split 2",
-        "LEC 2026 Summer Season",
-        "LPL 2026 Split 3"
+        "LEC 2026 Summer Season"
       ]
     },
     "nameCleanup": {
@@ -103,7 +101,7 @@
         "trim repeated spaces"
       ]
     },
-    "totalGames": 2131,
+    "totalGames": 2135,
     "dataCorrections": [
       {
         "correctedAt": "2026-07-14T01:19:11.794Z",
@@ -9607,6 +9605,118 @@
           "MID": "Cassiopeia",
           "ADC": "Lucian",
           "SUP": "Milio"
+        }
+      }
+    },
+    {
+      "id": "81463",
+      "league": "CBLOL",
+      "tournament": "CBLOL 2026 Split 2",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "CBLOL 2026 Split 2",
+      "tournamentLine": "CBLOL 2026 Split 2 (BR) - Fearless Draft",
+      "date": "2026-08-16",
+      "week": "WEEK4",
+      "patch": "16.16",
+      "game": "paiN Gaming vs Fluxo W7M",
+      "sourceUrl": "https://gol.gg/game/stats/81463/page-game/",
+      "teamA": "paiN Gaming",
+      "teamB": "Fluxo W7M",
+      "teamAId": "2892",
+      "teamBId": "2888",
+      "killsA": 22,
+      "killsB": 5,
+      "totalKills": 27,
+      "collectedAt": "2026-08-16T22:36:18.525Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Akali",
+          "Naafiri",
+          "Orianna",
+          "Jhin",
+          "Leona"
+        ],
+        "teamB": [
+          "Olaf",
+          "Aatrox",
+          "Ryze",
+          "Ezreal",
+          "Alistar"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Akali",
+          "JUNGLE": "Naafiri",
+          "MID": "Orianna",
+          "ADC": "Jhin",
+          "SUP": "Leona"
+        },
+        "teamB": {
+          "TOP": "Olaf",
+          "JUNGLE": "Aatrox",
+          "MID": "Ryze",
+          "ADC": "Ezreal",
+          "SUP": "Alistar"
+        }
+      }
+    },
+    {
+      "id": "81464",
+      "league": "CBLOL",
+      "tournament": "CBLOL 2026 Split 2",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "CBLOL 2026 Split 2",
+      "tournamentLine": "CBLOL 2026 Split 2 (BR) - Fearless Draft",
+      "date": "2026-08-16",
+      "week": "WEEK4",
+      "patch": "16.16",
+      "game": "paiN Gaming vs Fluxo W7M",
+      "sourceUrl": "https://gol.gg/game/stats/81464/page-game/",
+      "teamA": "paiN Gaming",
+      "teamB": "Fluxo W7M",
+      "teamAId": "2892",
+      "teamBId": "2888",
+      "killsA": 13,
+      "killsB": 3,
+      "totalKills": 16,
+      "collectedAt": "2026-08-16T22:36:18.716Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Jayce",
+          "Lee Sin",
+          "LeBlanc",
+          "Varus",
+          "Nautilus"
+        ],
+        "teamB": [
+          "KSante",
+          "Jarvan IV",
+          "Annie",
+          "Caitlyn",
+          "Bard"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Jayce",
+          "JUNGLE": "Lee Sin",
+          "MID": "LeBlanc",
+          "ADC": "Varus",
+          "SUP": "Nautilus"
+        },
+        "teamB": {
+          "TOP": "KSante",
+          "JUNGLE": "Jarvan IV",
+          "MID": "Annie",
+          "ADC": "Caitlyn",
+          "SUP": "Bard"
         }
       }
     },
@@ -63831,6 +63941,118 @@
           "JUNGLE": "Skarner",
           "MID": "Cassiopeia",
           "ADC": "Corki",
+          "SUP": "Alistar"
+        }
+      }
+    },
+    {
+      "id": "81493",
+      "league": "LEC",
+      "tournament": "LEC 2026 Summer Season",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LEC 2026 Summer Season",
+      "tournamentLine": "LEC 2026 Summer Season (EUW) - Fearless Draft",
+      "date": "2026-08-16",
+      "week": "WEEK4",
+      "patch": "16.16",
+      "game": "G2 Esports vs Fnatic",
+      "sourceUrl": "https://gol.gg/game/stats/81493/page-game/",
+      "teamA": "Fnatic",
+      "teamB": "G2 Esports",
+      "teamAId": "2896",
+      "teamBId": "2897",
+      "killsA": 15,
+      "killsB": 11,
+      "totalKills": 26,
+      "collectedAt": "2026-08-16T22:36:54.462Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Gnar",
+          "Wukong",
+          "Ryze",
+          "Ezreal",
+          "Karma"
+        ],
+        "teamB": [
+          "Twisted Fate",
+          "Pantheon",
+          "Anivia",
+          "Lucian",
+          "Milio"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Gnar",
+          "JUNGLE": "Wukong",
+          "MID": "Ryze",
+          "ADC": "Ezreal",
+          "SUP": "Karma"
+        },
+        "teamB": {
+          "TOP": "Twisted Fate",
+          "JUNGLE": "Pantheon",
+          "MID": "Anivia",
+          "ADC": "Lucian",
+          "SUP": "Milio"
+        }
+      }
+    },
+    {
+      "id": "81494",
+      "league": "LEC",
+      "tournament": "LEC 2026 Summer Season",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LEC 2026 Summer Season",
+      "tournamentLine": "LEC 2026 Summer Season (EUW) - Fearless Draft",
+      "date": "2026-08-16",
+      "week": "WEEK4",
+      "patch": "16.16",
+      "game": "G2 Esports vs Fnatic",
+      "sourceUrl": "https://gol.gg/game/stats/81494/page-game/",
+      "teamA": "Fnatic",
+      "teamB": "G2 Esports",
+      "teamAId": "2896",
+      "teamBId": "2897",
+      "killsA": 17,
+      "killsB": 4,
+      "totalKills": 21,
+      "collectedAt": "2026-08-16T22:36:54.632Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Ambessa",
+          "Jarvan IV",
+          "Syndra",
+          "Jhin",
+          "Leona"
+        ],
+        "teamB": [
+          "Rumble",
+          "Naafiri",
+          "Galio",
+          "Varus",
+          "Alistar"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Ambessa",
+          "JUNGLE": "Jarvan IV",
+          "MID": "Syndra",
+          "ADC": "Jhin",
+          "SUP": "Leona"
+        },
+        "teamB": {
+          "TOP": "Rumble",
+          "JUNGLE": "Naafiri",
+          "MID": "Galio",
+          "ADC": "Varus",
           "SUP": "Alistar"
         }
       }
