@@ -1,12 +1,12 @@
 {
   "meta": {
     "source": "GOL logged session",
-    "createdAt": "2026-08-16T14:39:05.431Z",
+    "createdAt": "2026-08-16T18:48:05.952Z",
     "collectorVersion": "new-games-http-2026-07-25",
     "leagues": [
       {
         "league": "CBLOL",
-        "games": 213,
+        "games": 215,
         "tournaments": [
           "CBLOL 2026 Split 1",
           "CBLOL 2026 Split 1 Playoffs",
@@ -44,7 +44,7 @@
       },
       {
         "league": "LEC",
-        "games": 306,
+        "games": 308,
         "tournaments": [
           "LEC 2026 Spring Playoffs",
           "LEC 2026 Spring Season",
@@ -55,7 +55,7 @@
       },
       {
         "league": "LPL",
-        "games": 582,
+        "games": 584,
         "tournaments": [
           "LPL 2026 Split 1",
           "LPL 2026 Split 1 Playoffs",
@@ -78,18 +78,19 @@
       "side",
       "bans"
     ],
-    "updatedAt": "2026-08-16T14:39:05.431Z",
+    "updatedAt": "2026-08-16T18:48:05.952Z",
     "lastIncrementalMerge": {
       "source": "data/jogos-novos.json",
-      "mergedAt": "2026-08-16T14:39:05.431Z",
+      "mergedAt": "2026-08-16T18:48:05.952Z",
       "added": 6,
       "duplicatesSkipped": 0,
       "patches": [
         "16.14",
-        "16.15"
+        "16.16"
       ],
       "tournaments": [
-        "LCK 2026 Rounds 3-4",
+        "CBLOL 2026 Split 2",
+        "LEC 2026 Summer Season",
         "LPL 2026 Split 3"
       ]
     },
@@ -102,7 +103,7 @@
         "trim repeated spaces"
       ]
     },
-    "totalGames": 2125,
+    "totalGames": 2131,
     "dataCorrections": [
       {
         "correctedAt": "2026-07-14T01:19:11.794Z",
@@ -9494,6 +9495,118 @@
           "MID": "Ahri",
           "ADC": "Jhin",
           "SUP": "Leona"
+        }
+      }
+    },
+    {
+      "id": "81460",
+      "league": "CBLOL",
+      "tournament": "CBLOL 2026 Split 2",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "CBLOL 2026 Split 2",
+      "tournamentLine": "CBLOL 2026 Split 2 (BR) - Fearless Draft",
+      "date": "2026-08-16",
+      "week": "WEEK4",
+      "patch": "16.16",
+      "game": "LOUD vs Leviatan",
+      "sourceUrl": "https://gol.gg/game/stats/81460/page-game/",
+      "teamA": "Leviatan",
+      "teamB": "LOUD",
+      "teamAId": "2890",
+      "teamBId": "2891",
+      "killsA": 5,
+      "killsB": 14,
+      "totalKills": 19,
+      "collectedAt": "2026-08-16T18:46:39.500Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Jayce",
+          "Skarner",
+          "Ryze",
+          "Locke",
+          "Shen"
+        ],
+        "teamB": [
+          "Yorick",
+          "Jarvan IV",
+          "Syndra",
+          "Ezreal",
+          "Bard"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Jayce",
+          "JUNGLE": "Skarner",
+          "MID": "Ryze",
+          "ADC": "Locke",
+          "SUP": "Shen"
+        },
+        "teamB": {
+          "TOP": "Yorick",
+          "JUNGLE": "Jarvan IV",
+          "MID": "Syndra",
+          "ADC": "Ezreal",
+          "SUP": "Bard"
+        }
+      }
+    },
+    {
+      "id": "81461",
+      "league": "CBLOL",
+      "tournament": "CBLOL 2026 Split 2",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "CBLOL 2026 Split 2",
+      "tournamentLine": "CBLOL 2026 Split 2 (BR) - Fearless Draft",
+      "date": "2026-08-16",
+      "week": "WEEK4",
+      "patch": "16.16",
+      "game": "LOUD vs Leviatan",
+      "sourceUrl": "https://gol.gg/game/stats/81461/page-game/",
+      "teamA": "LOUD",
+      "teamB": "Leviatan",
+      "teamAId": "2891",
+      "teamBId": "2890",
+      "killsA": 14,
+      "killsB": 4,
+      "totalKills": 18,
+      "collectedAt": "2026-08-16T18:46:39.731Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "KSante",
+          "Naafiri",
+          "LeBlanc",
+          "Xayah",
+          "Rakan"
+        ],
+        "teamB": [
+          "Gwen",
+          "Xin Zhao",
+          "Cassiopeia",
+          "Lucian",
+          "Milio"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "KSante",
+          "JUNGLE": "Naafiri",
+          "MID": "LeBlanc",
+          "ADC": "Xayah",
+          "SUP": "Rakan"
+        },
+        "teamB": {
+          "TOP": "Gwen",
+          "JUNGLE": "Xin Zhao",
+          "MID": "Cassiopeia",
+          "ADC": "Lucian",
+          "SUP": "Milio"
         }
       }
     },
@@ -63611,6 +63724,118 @@
       }
     },
     {
+      "id": "81490",
+      "league": "LEC",
+      "tournament": "LEC 2026 Summer Season",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LEC 2026 Summer Season",
+      "tournamentLine": "LEC 2026 Summer Season (EUW) - Fearless Draft",
+      "date": "2026-08-16",
+      "week": "WEEK4",
+      "patch": "16.16",
+      "game": "MKOI vs NAVI",
+      "sourceUrl": "https://gol.gg/game/stats/81490/page-game/",
+      "teamA": "Natus Vincere",
+      "teamB": "Movistar KOI",
+      "teamAId": "2901",
+      "teamBId": "2900",
+      "killsA": 5,
+      "killsB": 15,
+      "totalKills": 20,
+      "collectedAt": "2026-08-16T18:47:35.756Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "KSante",
+          "Vi",
+          "Syndra",
+          "Jhin",
+          "Bard"
+        ],
+        "teamB": [
+          "Ambessa",
+          "Pantheon",
+          "Ryze",
+          "Ezreal",
+          "Shen"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "KSante",
+          "JUNGLE": "Vi",
+          "MID": "Syndra",
+          "ADC": "Jhin",
+          "SUP": "Bard"
+        },
+        "teamB": {
+          "TOP": "Ambessa",
+          "JUNGLE": "Pantheon",
+          "MID": "Ryze",
+          "ADC": "Ezreal",
+          "SUP": "Shen"
+        }
+      }
+    },
+    {
+      "id": "81491",
+      "league": "LEC",
+      "tournament": "LEC 2026 Summer Season",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LEC 2026 Summer Season",
+      "tournamentLine": "LEC 2026 Summer Season (EUW) - Fearless Draft",
+      "date": "2026-08-16",
+      "week": "WEEK4",
+      "patch": "16.16",
+      "game": "MKOI vs NAVI",
+      "sourceUrl": "https://gol.gg/game/stats/81491/page-game/",
+      "teamA": "Movistar KOI",
+      "teamB": "Natus Vincere",
+      "teamAId": "2900",
+      "teamBId": "2901",
+      "killsA": 18,
+      "killsB": 10,
+      "totalKills": 28,
+      "collectedAt": "2026-08-16T18:47:36.024Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Anivia",
+          "Nocturne",
+          "Orianna",
+          "Kaisa",
+          "Leona"
+        ],
+        "teamB": [
+          "Olaf",
+          "Skarner",
+          "Cassiopeia",
+          "Corki",
+          "Alistar"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Anivia",
+          "JUNGLE": "Nocturne",
+          "MID": "Orianna",
+          "ADC": "Kaisa",
+          "SUP": "Leona"
+        },
+        "teamB": {
+          "TOP": "Olaf",
+          "JUNGLE": "Skarner",
+          "MID": "Cassiopeia",
+          "ADC": "Corki",
+          "SUP": "Alistar"
+        }
+      }
+    },
+    {
       "id": "73148",
       "league": "LPL",
       "tournament": "LPL 2026 Split 1",
@@ -91399,6 +91624,118 @@
           "MID": "Aurora",
           "ADC": "Yunara",
           "SUP": "Lulu"
+        }
+      }
+    },
+    {
+      "id": "81409",
+      "league": "LPL",
+      "tournament": "LPL 2026 Split 3",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LPL 2026 Split 3",
+      "tournamentLine": "LPL 2026 Split 3 (CN) - Fearless Draft",
+      "date": "2026-08-16",
+      "week": "WEEK4",
+      "patch": "16.14",
+      "game": "Top Esports vs EDG",
+      "sourceUrl": "https://gol.gg/game/stats/81409/page-game/",
+      "teamA": "EDward Gaming",
+      "teamB": "Top Esports",
+      "teamAId": "2854",
+      "teamBId": "2852",
+      "killsA": 12,
+      "killsB": 20,
+      "totalKills": 32,
+      "collectedAt": "2026-08-16T18:47:55.470Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Olaf",
+          "Vi",
+          "Akali",
+          "Jhin",
+          "Shen"
+        ],
+        "teamB": [
+          "Kled",
+          "Jarvan IV",
+          "Cassiopeia",
+          "Corki",
+          "Bard"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Olaf",
+          "JUNGLE": "Vi",
+          "MID": "Akali",
+          "ADC": "Jhin",
+          "SUP": "Shen"
+        },
+        "teamB": {
+          "TOP": "Kled",
+          "JUNGLE": "Jarvan IV",
+          "MID": "Cassiopeia",
+          "ADC": "Corki",
+          "SUP": "Bard"
+        }
+      }
+    },
+    {
+      "id": "81410",
+      "league": "LPL",
+      "tournament": "LPL 2026 Split 3",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LPL 2026 Split 3",
+      "tournamentLine": "LPL 2026 Split 3 (CN) - Fearless Draft",
+      "date": "2026-08-16",
+      "week": "WEEK4",
+      "patch": "16.14",
+      "game": "Top Esports vs EDG",
+      "sourceUrl": "https://gol.gg/game/stats/81410/page-game/",
+      "teamA": "Top Esports",
+      "teamB": "EDward Gaming",
+      "teamAId": "2852",
+      "teamBId": "2854",
+      "killsA": 23,
+      "killsB": 14,
+      "totalKills": 37,
+      "collectedAt": "2026-08-16T18:47:55.720Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "KSante",
+          "Lee Sin",
+          "Ryze",
+          "Sivir",
+          "Karma"
+        ],
+        "teamB": [
+          "Rumble",
+          "Nocturne",
+          "Anivia",
+          "Ezreal",
+          "Camille"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "KSante",
+          "JUNGLE": "Lee Sin",
+          "MID": "Ryze",
+          "ADC": "Sivir",
+          "SUP": "Karma"
+        },
+        "teamB": {
+          "TOP": "Rumble",
+          "JUNGLE": "Nocturne",
+          "MID": "Anivia",
+          "ADC": "Ezreal",
+          "SUP": "Camille"
         }
       }
     },
