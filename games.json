@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "GOL logged session",
-    "createdAt": "2026-08-17T18:58:35.844Z",
+    "createdAt": "2026-08-17T22:42:01.668Z",
     "collectorVersion": "new-games-http-2026-07-25",
     "leagues": [
       {
@@ -44,7 +44,7 @@
       },
       {
         "league": "LEC",
-        "games": 312,
+        "games": 314,
         "tournaments": [
           "LEC 2026 Spring Playoffs",
           "LEC 2026 Spring Season",
@@ -78,10 +78,10 @@
       "side",
       "bans"
     ],
-    "updatedAt": "2026-08-17T18:58:35.844Z",
+    "updatedAt": "2026-08-17T22:42:01.668Z",
     "lastIncrementalMerge": {
       "source": "data/jogos-novos.json",
-      "mergedAt": "2026-08-17T18:58:35.844Z",
+      "mergedAt": "2026-08-17T22:42:01.668Z",
       "added": 2,
       "duplicatesSkipped": 0,
       "patches": [
@@ -100,7 +100,7 @@
         "trim repeated spaces"
       ]
     },
-    "totalGames": 2146,
+    "totalGames": 2148,
     "dataCorrections": [
       {
         "correctedAt": "2026-07-14T01:19:11.794Z",
@@ -64667,6 +64667,118 @@
           "TOP": "KSante",
           "JUNGLE": "Jarvan IV",
           "MID": "Orianna",
+          "ADC": "Lucian",
+          "SUP": "Milio"
+        }
+      }
+    },
+    {
+      "id": "81499",
+      "league": "LEC",
+      "tournament": "LEC 2026 Summer Season",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LEC 2026 Summer Season",
+      "tournamentLine": "LEC 2026 Summer Season (EUW) - Fearless Draft",
+      "date": "2026-08-17",
+      "week": "WEEK4",
+      "patch": "16.16",
+      "game": "GIANTX vs KC",
+      "sourceUrl": "https://gol.gg/game/stats/81499/page-game/",
+      "teamA": "Karmine Corp",
+      "teamB": "GIANTX",
+      "teamAId": "2899",
+      "teamBId": "2898",
+      "killsA": 16,
+      "killsB": 5,
+      "totalKills": 21,
+      "collectedAt": "2026-08-17T22:41:33.794Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Rumble",
+          "Jarvan IV",
+          "Orianna",
+          "Caitlyn",
+          "Bard"
+        ],
+        "teamB": [
+          "Ornn",
+          "Xin Zhao",
+          "Annie",
+          "Ezreal",
+          "Karma"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Rumble",
+          "JUNGLE": "Jarvan IV",
+          "MID": "Orianna",
+          "ADC": "Caitlyn",
+          "SUP": "Bard"
+        },
+        "teamB": {
+          "TOP": "Ornn",
+          "JUNGLE": "Xin Zhao",
+          "MID": "Annie",
+          "ADC": "Ezreal",
+          "SUP": "Karma"
+        }
+      }
+    },
+    {
+      "id": "81500",
+      "league": "LEC",
+      "tournament": "LEC 2026 Summer Season",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LEC 2026 Summer Season",
+      "tournamentLine": "LEC 2026 Summer Season (EUW) - Fearless Draft",
+      "date": "2026-08-17",
+      "week": "WEEK4",
+      "patch": "16.16",
+      "game": "GIANTX vs KC",
+      "sourceUrl": "https://gol.gg/game/stats/81500/page-game/",
+      "teamA": "Karmine Corp",
+      "teamB": "GIANTX",
+      "teamAId": "2899",
+      "teamBId": "2898",
+      "killsA": 12,
+      "killsB": 3,
+      "totalKills": 15,
+      "collectedAt": "2026-08-17T22:41:34.041Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Ambessa",
+          "Qiyana",
+          "Viktor",
+          "Xayah",
+          "Rakan"
+        ],
+        "teamB": [
+          "Poppy",
+          "Wukong",
+          "Syndra",
+          "Lucian",
+          "Milio"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Ambessa",
+          "JUNGLE": "Qiyana",
+          "MID": "Viktor",
+          "ADC": "Xayah",
+          "SUP": "Rakan"
+        },
+        "teamB": {
+          "TOP": "Poppy",
+          "JUNGLE": "Wukong",
+          "MID": "Syndra",
           "ADC": "Lucian",
           "SUP": "Milio"
         }
