@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-17T14:45:59.469Z",
+  "generatedAt": "2026-08-17T18:58:54.564Z",
   "methodology": "Walk-forward por liga (min 30 jogos treino). Linha simulada = linha justa pre-draft do modelo. Odds: 1.80/1.80.",
-  "sourceGames": 2144,
-  "generatedFromGamesUpdatedAt": "2026-08-17T14:45:36.208Z",
-  "backtestRows": 1842,
-  "count": 1842,
+  "sourceGames": 2146,
+  "generatedFromGamesUpdatedAt": "2026-08-17T18:58:35.844Z",
+  "backtestRows": 1844,
+  "count": 1844,
   "games": [
     {
       "l": "LCK",
@@ -16773,6 +16773,26 @@
       "pred": 26.31,
       "evo": -0.1167,
       "evu": -0.0833,
+      "s": "",
+      "as": "under"
+    },
+    {
+      "l": "LEC",
+      "a": 23,
+      "ml": 25.5,
+      "pred": 24.12,
+      "evo": -0.2185,
+      "evu": 0.0185,
+      "s": "",
+      "as": "under"
+    },
+    {
+      "l": "LEC",
+      "a": 10,
+      "ml": 24.5,
+      "pred": 23.98,
+      "evo": -0.145,
+      "evu": -0.055,
       "s": "",
       "as": "under"
     },
