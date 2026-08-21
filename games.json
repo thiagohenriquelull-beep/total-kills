@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "GOL logged session",
-    "createdAt": "2026-08-21T18:56:46.923Z",
+    "createdAt": "2026-08-21T22:43:00.967Z",
     "collectorVersion": "new-games-http-2026-07-25",
     "leagues": [
       {
@@ -44,7 +44,7 @@
       },
       {
         "league": "LEC",
-        "games": 316,
+        "games": 319,
         "tournaments": [
           "LEC 2026 Spring Playoffs",
           "LEC 2026 Spring Season",
@@ -78,11 +78,11 @@
       "side",
       "bans"
     ],
-    "updatedAt": "2026-08-21T18:56:46.923Z",
+    "updatedAt": "2026-08-21T22:43:00.967Z",
     "lastIncrementalMerge": {
       "source": "data/jogos-novos.json",
-      "mergedAt": "2026-08-21T18:56:46.923Z",
-      "added": 2,
+      "mergedAt": "2026-08-21T22:43:00.967Z",
+      "added": 3,
       "duplicatesSkipped": 0,
       "patches": [
         "16.16"
@@ -100,7 +100,7 @@
         "trim repeated spaces"
       ]
     },
-    "totalGames": 2207,
+    "totalGames": 2210,
     "dataCorrections": [
       {
         "correctedAt": "2026-07-14T01:19:11.794Z",
@@ -66908,6 +66908,174 @@
           "JUNGLE": "Jarvan IV",
           "MID": "Yone",
           "ADC": "Xayah",
+          "SUP": "Rakan"
+        }
+      }
+    },
+    {
+      "id": "81786",
+      "league": "LEC",
+      "tournament": "LEC 2026 Summer Season",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LEC 2026 Summer Season",
+      "tournamentLine": "LEC 2026 Summer Season (EUW) - Fearless Draft",
+      "date": "2026-08-21",
+      "week": "WEEK5",
+      "patch": "16.16",
+      "game": "VIT vs NAVI",
+      "sourceUrl": "https://gol.gg/game/stats/81786/page-game/",
+      "teamA": "Natus Vincere",
+      "teamB": "Team Vitality",
+      "teamAId": "2901",
+      "teamBId": "2905",
+      "killsA": 7,
+      "killsB": 20,
+      "totalKills": 27,
+      "collectedAt": "2026-08-21T22:42:30.451Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Ambessa",
+          "Vi",
+          "Ryze",
+          "Caitlyn",
+          "Karma"
+        ],
+        "teamB": [
+          "Rumble",
+          "Jarvan IV",
+          "Anivia",
+          "Jhin",
+          "Bard"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Ambessa",
+          "JUNGLE": "Vi",
+          "MID": "Ryze",
+          "ADC": "Caitlyn",
+          "SUP": "Karma"
+        },
+        "teamB": {
+          "TOP": "Rumble",
+          "JUNGLE": "Jarvan IV",
+          "MID": "Anivia",
+          "ADC": "Jhin",
+          "SUP": "Bard"
+        }
+      }
+    },
+    {
+      "id": "81787",
+      "league": "LEC",
+      "tournament": "LEC 2026 Summer Season",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LEC 2026 Summer Season",
+      "tournamentLine": "LEC 2026 Summer Season (EUW) - Fearless Draft",
+      "date": "2026-08-21",
+      "week": "WEEK5",
+      "patch": "16.16",
+      "game": "VIT vs NAVI",
+      "sourceUrl": "https://gol.gg/game/stats/81787/page-game/",
+      "teamA": "Natus Vincere",
+      "teamB": "Team Vitality",
+      "teamAId": "2901",
+      "teamBId": "2905",
+      "killsA": 12,
+      "killsB": 4,
+      "totalKills": 16,
+      "collectedAt": "2026-08-21T22:42:30.679Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Olaf",
+          "Xin Zhao",
+          "Viktor",
+          "Ashe",
+          "Seraphine"
+        ],
+        "teamB": [
+          "Aatrox",
+          "Naafiri",
+          "Orianna",
+          "Lucian",
+          "Milio"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Olaf",
+          "JUNGLE": "Xin Zhao",
+          "MID": "Viktor",
+          "ADC": "Ashe",
+          "SUP": "Seraphine"
+        },
+        "teamB": {
+          "TOP": "Aatrox",
+          "JUNGLE": "Naafiri",
+          "MID": "Orianna",
+          "ADC": "Lucian",
+          "SUP": "Milio"
+        }
+      }
+    },
+    {
+      "id": "81788",
+      "league": "LEC",
+      "tournament": "LEC 2026 Summer Season",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LEC 2026 Summer Season",
+      "tournamentLine": "LEC 2026 Summer Season (EUW) - Fearless Draft",
+      "date": "2026-08-21",
+      "week": "WEEK5",
+      "patch": "16.16",
+      "game": "VIT vs NAVI",
+      "sourceUrl": "https://gol.gg/game/stats/81788/page-game/",
+      "teamA": "Natus Vincere",
+      "teamB": "Team Vitality",
+      "teamAId": "2901",
+      "teamBId": "2905",
+      "killsA": 8,
+      "killsB": 18,
+      "totalKills": 26,
+      "collectedAt": "2026-08-21T22:42:30.909Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Renekton",
+          "Trundle",
+          "Taliyah",
+          "Xayah",
+          "Pantheon"
+        ],
+        "teamB": [
+          "Varus",
+          "Skarner",
+          "Akali",
+          "Ezreal",
+          "Rakan"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Renekton",
+          "JUNGLE": "Trundle",
+          "MID": "Taliyah",
+          "ADC": "Xayah",
+          "SUP": "Pantheon"
+        },
+        "teamB": {
+          "TOP": "Varus",
+          "JUNGLE": "Skarner",
+          "MID": "Akali",
+          "ADC": "Ezreal",
           "SUP": "Rakan"
         }
       }
