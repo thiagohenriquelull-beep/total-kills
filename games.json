@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "GOL logged session",
-    "createdAt": "2026-08-22T10:41:13.507Z",
+    "createdAt": "2026-08-22T14:38:40.958Z",
     "collectorVersion": "new-games-http-2026-07-25",
     "leagues": [
       {
@@ -16,7 +16,7 @@
       },
       {
         "league": "LCK",
-        "games": 312,
+        "games": 317,
         "tournaments": [
           "LCK 2026 Road to MSI",
           "LCK 2026 Rounds 1-2",
@@ -55,7 +55,7 @@
       },
       {
         "league": "LPL",
-        "games": 608,
+        "games": 612,
         "tournaments": [
           "LPL 2026 Split 1",
           "LPL 2026 Split 1 Playoffs",
@@ -78,16 +78,17 @@
       "side",
       "bans"
     ],
-    "updatedAt": "2026-08-22T10:41:13.507Z",
+    "updatedAt": "2026-08-22T14:38:40.958Z",
     "lastIncrementalMerge": {
       "source": "data/jogos-novos.json",
-      "mergedAt": "2026-08-22T10:41:13.507Z",
-      "added": 3,
+      "mergedAt": "2026-08-22T14:38:40.958Z",
+      "added": 9,
       "duplicatesSkipped": 0,
       "patches": [
         "16.16"
       ],
       "tournaments": [
+        "LCK 2026 Rounds 3-4",
         "LPL 2026 Split 3"
       ]
     },
@@ -100,7 +101,7 @@
         "trim repeated spaces"
       ]
     },
-    "totalGames": 2213,
+    "totalGames": 2222,
     "dataCorrections": [
       {
         "correctedAt": "2026-07-14T01:19:11.794Z",
@@ -24308,6 +24309,286 @@
           "JUNGLE": "Pantheon",
           "MID": "Viktor",
           "ADC": "Jhin",
+          "SUP": "Karma"
+        }
+      }
+    },
+    {
+      "id": "81856",
+      "league": "LCK",
+      "tournament": "LCK 2026 Rounds 3-4",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCK 2026 Rounds 3-4",
+      "tournamentLine": "LCK 2026 Rounds 3-4 (KR) - Fearless Draft",
+      "date": "2026-08-22",
+      "week": "WEEK13",
+      "patch": "16.16",
+      "game": "Dplus KIA vs Gen.G",
+      "sourceUrl": "https://gol.gg/game/stats/81856/page-game/",
+      "teamA": "Gen.G",
+      "teamB": "Dplus KIA",
+      "teamAId": "2804",
+      "teamBId": "2802",
+      "killsA": 19,
+      "killsB": 11,
+      "totalKills": 30,
+      "collectedAt": "2026-08-22T14:37:48.923Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Olaf",
+          "Pantheon",
+          "Ryze",
+          "Ezreal",
+          "Seraphine"
+        ],
+        "teamB": [
+          "Jax",
+          "Vi",
+          "Locke",
+          "Yunara",
+          "Lulu"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Olaf",
+          "JUNGLE": "Pantheon",
+          "MID": "Ryze",
+          "ADC": "Ezreal",
+          "SUP": "Seraphine"
+        },
+        "teamB": {
+          "TOP": "Jax",
+          "JUNGLE": "Vi",
+          "MID": "Locke",
+          "ADC": "Yunara",
+          "SUP": "Lulu"
+        }
+      }
+    },
+    {
+      "id": "81857",
+      "league": "LCK",
+      "tournament": "LCK 2026 Rounds 3-4",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCK 2026 Rounds 3-4",
+      "tournamentLine": "LCK 2026 Rounds 3-4 (KR) - Fearless Draft",
+      "date": "2026-08-22",
+      "week": "WEEK13",
+      "patch": "16.16",
+      "game": "Dplus KIA vs Gen.G",
+      "sourceUrl": "https://gol.gg/game/stats/81857/page-game/",
+      "teamA": "Dplus KIA",
+      "teamB": "Gen.G",
+      "teamAId": "2802",
+      "teamBId": "2804",
+      "killsA": 17,
+      "killsB": 12,
+      "totalKills": 29,
+      "collectedAt": "2026-08-22T14:37:49.117Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Gnar",
+          "Lee Sin",
+          "Cassiopeia",
+          "Viktor",
+          "Camille"
+        ],
+        "teamB": [
+          "Twisted Fate",
+          "Xin Zhao",
+          "Orianna",
+          "Caitlyn",
+          "Bard"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Gnar",
+          "JUNGLE": "Lee Sin",
+          "MID": "Cassiopeia",
+          "ADC": "Viktor",
+          "SUP": "Camille"
+        },
+        "teamB": {
+          "TOP": "Twisted Fate",
+          "JUNGLE": "Xin Zhao",
+          "MID": "Orianna",
+          "ADC": "Caitlyn",
+          "SUP": "Bard"
+        }
+      }
+    },
+    {
+      "id": "81858",
+      "league": "LCK",
+      "tournament": "LCK 2026 Rounds 3-4",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCK 2026 Rounds 3-4",
+      "tournamentLine": "LCK 2026 Rounds 3-4 (KR) - Fearless Draft",
+      "date": "2026-08-22",
+      "week": "WEEK13",
+      "patch": "16.16",
+      "game": "Dplus KIA vs Gen.G",
+      "sourceUrl": "https://gol.gg/game/stats/81858/page-game/",
+      "teamA": "Dplus KIA",
+      "teamB": "Gen.G",
+      "teamAId": "2802",
+      "teamBId": "2804",
+      "killsA": 19,
+      "killsB": 7,
+      "totalKills": 26,
+      "collectedAt": "2026-08-22T14:37:49.286Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Jayce",
+          "Maokai",
+          "Ahri",
+          "Lucian",
+          "Milio"
+        ],
+        "teamB": [
+          "Gragas",
+          "Wukong",
+          "Syndra",
+          "Kalista",
+          "Renata Glasc"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Jayce",
+          "JUNGLE": "Maokai",
+          "MID": "Ahri",
+          "ADC": "Lucian",
+          "SUP": "Milio"
+        },
+        "teamB": {
+          "TOP": "Gragas",
+          "JUNGLE": "Wukong",
+          "MID": "Syndra",
+          "ADC": "Kalista",
+          "SUP": "Renata Glasc"
+        }
+      }
+    },
+    {
+      "id": "81859",
+      "league": "LCK",
+      "tournament": "LCK 2026 Rounds 3-4",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCK 2026 Rounds 3-4",
+      "tournamentLine": "LCK 2026 Rounds 3-4 (KR) - Fearless Draft",
+      "date": "2026-08-22",
+      "week": "WEEK13",
+      "patch": "16.16",
+      "game": "DN SOOPers vs Kiwoom DRX",
+      "sourceUrl": "https://gol.gg/game/stats/81859/page-game/",
+      "teamA": "Kiwoom DRX",
+      "teamB": "DN SOOPers",
+      "teamAId": "2803",
+      "teamBId": "2801",
+      "killsA": 16,
+      "killsB": 19,
+      "totalKills": 35,
+      "collectedAt": "2026-08-22T14:37:49.486Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Olaf",
+          "Lee Sin",
+          "Galio",
+          "Lucian",
+          "Milio"
+        ],
+        "teamB": [
+          "Camille",
+          "Pantheon",
+          "Orianna",
+          "Xayah",
+          "Rakan"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Olaf",
+          "JUNGLE": "Lee Sin",
+          "MID": "Galio",
+          "ADC": "Lucian",
+          "SUP": "Milio"
+        },
+        "teamB": {
+          "TOP": "Camille",
+          "JUNGLE": "Pantheon",
+          "MID": "Orianna",
+          "ADC": "Xayah",
+          "SUP": "Rakan"
+        }
+      }
+    },
+    {
+      "id": "81860",
+      "league": "LCK",
+      "tournament": "LCK 2026 Rounds 3-4",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCK 2026 Rounds 3-4",
+      "tournamentLine": "LCK 2026 Rounds 3-4 (KR) - Fearless Draft",
+      "date": "2026-08-22",
+      "week": "WEEK13",
+      "patch": "16.16",
+      "game": "DN SOOPers vs Kiwoom DRX",
+      "sourceUrl": "https://gol.gg/game/stats/81860/page-game/",
+      "teamA": "DN SOOPers",
+      "teamB": "Kiwoom DRX",
+      "teamAId": "2801",
+      "teamBId": "2803",
+      "killsA": 12,
+      "killsB": 2,
+      "totalKills": 14,
+      "collectedAt": "2026-08-22T14:37:49.675Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Mordekaiser",
+          "Naafiri",
+          "Syndra",
+          "Caitlyn",
+          "Bard"
+        ],
+        "teamB": [
+          "KSante",
+          "Wukong",
+          "Ryze",
+          "Ezreal",
+          "Karma"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Mordekaiser",
+          "JUNGLE": "Naafiri",
+          "MID": "Syndra",
+          "ADC": "Caitlyn",
+          "SUP": "Bard"
+        },
+        "teamB": {
+          "TOP": "KSante",
+          "JUNGLE": "Wukong",
+          "MID": "Ryze",
+          "ADC": "Ezreal",
           "SUP": "Karma"
         }
       }
@@ -96325,6 +96606,230 @@
           "MID": "Syndra",
           "ADC": "Ashe",
           "SUP": "Seraphine"
+        }
+      }
+    },
+    {
+      "id": "81892",
+      "league": "LPL",
+      "tournament": "LPL 2026 Split 3",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LPL 2026 Split 3",
+      "tournamentLine": "LPL 2026 Split 3 (CN) - Fearless Draft",
+      "date": "2026-08-22",
+      "week": "WEEK5",
+      "patch": "16.16",
+      "game": "NIP vs IG",
+      "sourceUrl": "https://gol.gg/game/stats/81892/page-game/",
+      "teamA": "Ninjas in Pyjamas",
+      "teamB": "Invictus Gaming",
+      "teamAId": "2855",
+      "teamBId": "2850",
+      "killsA": 20,
+      "killsB": 17,
+      "totalKills": 37,
+      "collectedAt": "2026-08-22T14:38:33.479Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Anivia",
+          "Maokai",
+          "Yone",
+          "Yunara",
+          "Lulu"
+        ],
+        "teamB": [
+          "Olaf",
+          "Naafiri",
+          "Ryze",
+          "Jhin",
+          "Karma"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Anivia",
+          "JUNGLE": "Maokai",
+          "MID": "Yone",
+          "ADC": "Yunara",
+          "SUP": "Lulu"
+        },
+        "teamB": {
+          "TOP": "Olaf",
+          "JUNGLE": "Naafiri",
+          "MID": "Ryze",
+          "ADC": "Jhin",
+          "SUP": "Karma"
+        }
+      }
+    },
+    {
+      "id": "81893",
+      "league": "LPL",
+      "tournament": "LPL 2026 Split 3",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LPL 2026 Split 3",
+      "tournamentLine": "LPL 2026 Split 3 (CN) - Fearless Draft",
+      "date": "2026-08-22",
+      "week": "WEEK5",
+      "patch": "16.16",
+      "game": "NIP vs IG",
+      "sourceUrl": "https://gol.gg/game/stats/81893/page-game/",
+      "teamA": "Ninjas in Pyjamas",
+      "teamB": "Invictus Gaming",
+      "teamAId": "2855",
+      "teamBId": "2850",
+      "killsA": 27,
+      "killsB": 9,
+      "totalKills": 36,
+      "collectedAt": "2026-08-22T14:38:33.645Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Jayce",
+          "Poppy",
+          "Locke",
+          "Ashe",
+          "Seraphine"
+        ],
+        "teamB": [
+          "Yorick",
+          "Vi",
+          "Sylas",
+          "Ezreal",
+          "Bard"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Jayce",
+          "JUNGLE": "Poppy",
+          "MID": "Locke",
+          "ADC": "Ashe",
+          "SUP": "Seraphine"
+        },
+        "teamB": {
+          "TOP": "Yorick",
+          "JUNGLE": "Vi",
+          "MID": "Sylas",
+          "ADC": "Ezreal",
+          "SUP": "Bard"
+        }
+      }
+    },
+    {
+      "id": "81895",
+      "league": "LPL",
+      "tournament": "LPL 2026 Split 3",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LPL 2026 Split 3",
+      "tournamentLine": "LPL 2026 Split 3 (CN) - Fearless Draft",
+      "date": "2026-08-22",
+      "week": "WEEK5",
+      "patch": "16.16",
+      "game": "JD Gaming vs Top Esports",
+      "sourceUrl": "https://gol.gg/game/stats/81895/page-game/",
+      "teamA": "Top Esports",
+      "teamB": "JD Gaming",
+      "teamAId": "2852",
+      "teamBId": "2851",
+      "killsA": 11,
+      "killsB": 19,
+      "totalKills": 30,
+      "collectedAt": "2026-08-22T14:38:34.202Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Olaf",
+          "Nocturne",
+          "Ahri",
+          "Ezreal",
+          "Seraphine"
+        ],
+        "teamB": [
+          "Rumble",
+          "Trundle",
+          "Viktor",
+          "Jhin",
+          "Karma"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Olaf",
+          "JUNGLE": "Nocturne",
+          "MID": "Ahri",
+          "ADC": "Ezreal",
+          "SUP": "Seraphine"
+        },
+        "teamB": {
+          "TOP": "Rumble",
+          "JUNGLE": "Trundle",
+          "MID": "Viktor",
+          "ADC": "Jhin",
+          "SUP": "Karma"
+        }
+      }
+    },
+    {
+      "id": "81896",
+      "league": "LPL",
+      "tournament": "LPL 2026 Split 3",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LPL 2026 Split 3",
+      "tournamentLine": "LPL 2026 Split 3 (CN) - Fearless Draft",
+      "date": "2026-08-22",
+      "week": "WEEK5",
+      "patch": "16.16",
+      "game": "JD Gaming vs Top Esports",
+      "sourceUrl": "https://gol.gg/game/stats/81896/page-game/",
+      "teamA": "JD Gaming",
+      "teamB": "Top Esports",
+      "teamAId": "2851",
+      "teamBId": "2852",
+      "killsA": 22,
+      "killsB": 13,
+      "totalKills": 35,
+      "collectedAt": "2026-08-22T14:38:34.364Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Gnar",
+          "Vi",
+          "Galio",
+          "Sivir",
+          "Lulu"
+        ],
+        "teamB": [
+          "Renekton",
+          "Pantheon",
+          "Orianna",
+          "Xayah",
+          "Rakan"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Gnar",
+          "JUNGLE": "Vi",
+          "MID": "Galio",
+          "ADC": "Sivir",
+          "SUP": "Lulu"
+        },
+        "teamB": {
+          "TOP": "Renekton",
+          "JUNGLE": "Pantheon",
+          "MID": "Orianna",
+          "ADC": "Xayah",
+          "SUP": "Rakan"
         }
       }
     },
