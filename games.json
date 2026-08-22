@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "GOL logged session",
-    "createdAt": "2026-08-21T22:43:00.967Z",
+    "createdAt": "2026-08-22T10:41:13.507Z",
     "collectorVersion": "new-games-http-2026-07-25",
     "leagues": [
       {
@@ -55,7 +55,7 @@
       },
       {
         "league": "LPL",
-        "games": 605,
+        "games": 608,
         "tournaments": [
           "LPL 2026 Split 1",
           "LPL 2026 Split 1 Playoffs",
@@ -78,17 +78,17 @@
       "side",
       "bans"
     ],
-    "updatedAt": "2026-08-21T22:43:00.967Z",
+    "updatedAt": "2026-08-22T10:41:13.507Z",
     "lastIncrementalMerge": {
       "source": "data/jogos-novos.json",
-      "mergedAt": "2026-08-21T22:43:00.967Z",
+      "mergedAt": "2026-08-22T10:41:13.507Z",
       "added": 3,
       "duplicatesSkipped": 0,
       "patches": [
         "16.16"
       ],
       "tournaments": [
-        "LEC 2026 Summer Season"
+        "LPL 2026 Split 3"
       ]
     },
     "nameCleanup": {
@@ -100,7 +100,7 @@
         "trim repeated spaces"
       ]
     },
-    "totalGames": 2210,
+    "totalGames": 2213,
     "dataCorrections": [
       {
         "correctedAt": "2026-07-14T01:19:11.794Z",
@@ -96157,6 +96157,174 @@
           "MID": "Aurora",
           "ADC": "Jhin",
           "SUP": "Bard"
+        }
+      }
+    },
+    {
+      "id": "81889",
+      "league": "LPL",
+      "tournament": "LPL 2026 Split 3",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LPL 2026 Split 3",
+      "tournamentLine": "LPL 2026 Split 3 (CN) - Fearless Draft",
+      "date": "2026-08-22",
+      "week": "WEEK5",
+      "patch": "16.16",
+      "game": "Team WE vs LGD Gaming",
+      "sourceUrl": "https://gol.gg/game/stats/81889/page-game/",
+      "teamA": "LGD Gaming",
+      "teamB": "Team WE",
+      "teamAId": "2858",
+      "teamBId": "2856",
+      "killsA": 19,
+      "killsB": 18,
+      "totalKills": 37,
+      "collectedAt": "2026-08-22T10:41:02.248Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "KSante",
+          "Lee Sin",
+          "Ryze",
+          "Jhin",
+          "Rell"
+        ],
+        "teamB": [
+          "Rumble",
+          "Vi",
+          "Ahri",
+          "Yunara",
+          "Lulu"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "KSante",
+          "JUNGLE": "Lee Sin",
+          "MID": "Ryze",
+          "ADC": "Jhin",
+          "SUP": "Rell"
+        },
+        "teamB": {
+          "TOP": "Rumble",
+          "JUNGLE": "Vi",
+          "MID": "Ahri",
+          "ADC": "Yunara",
+          "SUP": "Lulu"
+        }
+      }
+    },
+    {
+      "id": "81890",
+      "league": "LPL",
+      "tournament": "LPL 2026 Split 3",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LPL 2026 Split 3",
+      "tournamentLine": "LPL 2026 Split 3 (CN) - Fearless Draft",
+      "date": "2026-08-22",
+      "week": "WEEK5",
+      "patch": "16.16",
+      "game": "Team WE vs LGD Gaming",
+      "sourceUrl": "https://gol.gg/game/stats/81890/page-game/",
+      "teamA": "Team WE",
+      "teamB": "LGD Gaming",
+      "teamAId": "2856",
+      "teamBId": "2858",
+      "killsA": 7,
+      "killsB": 20,
+      "totalKills": 27,
+      "collectedAt": "2026-08-22T10:41:02.485Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Jayce",
+          "Nocturne",
+          "Aurora",
+          "Caitlyn",
+          "Bard"
+        ],
+        "teamB": [
+          "Renekton",
+          "Naafiri",
+          "Locke",
+          "Lucian",
+          "Milio"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Jayce",
+          "JUNGLE": "Nocturne",
+          "MID": "Aurora",
+          "ADC": "Caitlyn",
+          "SUP": "Bard"
+        },
+        "teamB": {
+          "TOP": "Renekton",
+          "JUNGLE": "Naafiri",
+          "MID": "Locke",
+          "ADC": "Lucian",
+          "SUP": "Milio"
+        }
+      }
+    },
+    {
+      "id": "81891",
+      "league": "LPL",
+      "tournament": "LPL 2026 Split 3",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LPL 2026 Split 3",
+      "tournamentLine": "LPL 2026 Split 3 (CN) - Fearless Draft",
+      "date": "2026-08-22",
+      "week": "WEEK5",
+      "patch": "16.16",
+      "game": "Team WE vs LGD Gaming",
+      "sourceUrl": "https://gol.gg/game/stats/81891/page-game/",
+      "teamA": "LGD Gaming",
+      "teamB": "Team WE",
+      "teamAId": "2858",
+      "teamBId": "2856",
+      "killsA": 21,
+      "killsB": 4,
+      "totalKills": 25,
+      "collectedAt": "2026-08-22T10:41:02.726Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Olaf",
+          "Wukong",
+          "Viktor",
+          "Ezreal",
+          "Karma"
+        ],
+        "teamB": [
+          "Trundle",
+          "Poppy",
+          "Syndra",
+          "Ashe",
+          "Seraphine"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Olaf",
+          "JUNGLE": "Wukong",
+          "MID": "Viktor",
+          "ADC": "Ezreal",
+          "SUP": "Karma"
+        },
+        "teamB": {
+          "TOP": "Trundle",
+          "JUNGLE": "Poppy",
+          "MID": "Syndra",
+          "ADC": "Ashe",
+          "SUP": "Seraphine"
         }
       }
     },
