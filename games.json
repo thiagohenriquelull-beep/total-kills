@@ -1,12 +1,12 @@
 {
   "meta": {
     "source": "GOL logged session",
-    "createdAt": "2026-08-22T14:38:40.958Z",
+    "createdAt": "2026-08-22T18:49:34.419Z",
     "collectorVersion": "new-games-http-2026-07-25",
     "leagues": [
       {
         "league": "CBLOL",
-        "games": 217,
+        "games": 219,
         "tournaments": [
           "CBLOL 2026 Split 1",
           "CBLOL 2026 Split 1 Playoffs",
@@ -44,7 +44,7 @@
       },
       {
         "league": "LEC",
-        "games": 319,
+        "games": 321,
         "tournaments": [
           "LEC 2026 Spring Playoffs",
           "LEC 2026 Spring Season",
@@ -78,18 +78,18 @@
       "side",
       "bans"
     ],
-    "updatedAt": "2026-08-22T14:38:40.958Z",
+    "updatedAt": "2026-08-22T18:49:34.419Z",
     "lastIncrementalMerge": {
       "source": "data/jogos-novos.json",
-      "mergedAt": "2026-08-22T14:38:40.958Z",
-      "added": 9,
+      "mergedAt": "2026-08-22T18:49:34.419Z",
+      "added": 4,
       "duplicatesSkipped": 0,
       "patches": [
         "16.16"
       ],
       "tournaments": [
-        "LCK 2026 Rounds 3-4",
-        "LPL 2026 Split 3"
+        "CBLOL 2026 Split 2",
+        "LEC 2026 Summer Season"
       ]
     },
     "nameCleanup": {
@@ -101,7 +101,7 @@
         "trim repeated spaces"
       ]
     },
-    "totalGames": 2222,
+    "totalGames": 2226,
     "dataCorrections": [
       {
         "correctedAt": "2026-07-14T01:19:11.794Z",
@@ -9717,6 +9717,118 @@
           "MID": "Annie",
           "ADC": "Caitlyn",
           "SUP": "Bard"
+        }
+      }
+    },
+    {
+      "id": "81743",
+      "league": "CBLOL",
+      "tournament": "CBLOL 2026 Split 2",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "CBLOL 2026 Split 2",
+      "tournamentLine": "CBLOL 2026 Split 2 (BR) - Fearless Draft",
+      "date": "2026-08-22",
+      "week": "WEEK5",
+      "patch": "16.16",
+      "game": "Leviatan vs VKS",
+      "sourceUrl": "https://gol.gg/game/stats/81743/page-game/",
+      "teamA": "Vivo Keyd Stars",
+      "teamB": "Leviatan",
+      "teamAId": "2894",
+      "teamBId": "2890",
+      "killsA": 15,
+      "killsB": 1,
+      "totalKills": 16,
+      "collectedAt": "2026-08-22T18:48:36.298Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Ambessa",
+          "Vi",
+          "Locke",
+          "Ashe",
+          "Seraphine"
+        ],
+        "teamB": [
+          "Varus",
+          "Xin Zhao",
+          "Galio",
+          "Syndra",
+          "Nautilus"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Ambessa",
+          "JUNGLE": "Vi",
+          "MID": "Locke",
+          "ADC": "Ashe",
+          "SUP": "Seraphine"
+        },
+        "teamB": {
+          "TOP": "Varus",
+          "JUNGLE": "Xin Zhao",
+          "MID": "Galio",
+          "ADC": "Syndra",
+          "SUP": "Nautilus"
+        }
+      }
+    },
+    {
+      "id": "81744",
+      "league": "CBLOL",
+      "tournament": "CBLOL 2026 Split 2",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "CBLOL 2026 Split 2",
+      "tournamentLine": "CBLOL 2026 Split 2 (BR) - Fearless Draft",
+      "date": "2026-08-22",
+      "week": "WEEK5",
+      "patch": "16.16",
+      "game": "Leviatan vs VKS",
+      "sourceUrl": "https://gol.gg/game/stats/81744/page-game/",
+      "teamA": "Vivo Keyd Stars",
+      "teamB": "Leviatan",
+      "teamAId": "2894",
+      "teamBId": "2890",
+      "killsA": 17,
+      "killsB": 9,
+      "totalKills": 26,
+      "collectedAt": "2026-08-22T18:48:36.482Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Gnar",
+          "Lee Sin",
+          "Ryze",
+          "Corki",
+          "Rakan"
+        ],
+        "teamB": [
+          "Twisted Fate",
+          "Skarner",
+          "Taliyah",
+          "Naafiri",
+          "Alistar"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Gnar",
+          "JUNGLE": "Lee Sin",
+          "MID": "Ryze",
+          "ADC": "Corki",
+          "SUP": "Rakan"
+        },
+        "teamB": {
+          "TOP": "Twisted Fate",
+          "JUNGLE": "Skarner",
+          "MID": "Taliyah",
+          "ADC": "Naafiri",
+          "SUP": "Alistar"
         }
       }
     },
@@ -67358,6 +67470,118 @@
           "MID": "Akali",
           "ADC": "Ezreal",
           "SUP": "Rakan"
+        }
+      }
+    },
+    {
+      "id": "81789",
+      "league": "LEC",
+      "tournament": "LEC 2026 Summer Season",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LEC 2026 Summer Season",
+      "tournamentLine": "LEC 2026 Summer Season (EUW) - Fearless Draft",
+      "date": "2026-08-22",
+      "week": "WEEK5",
+      "patch": "16.16",
+      "game": "Fnatic vs Shifters",
+      "sourceUrl": "https://gol.gg/game/stats/81789/page-game/",
+      "teamA": "Fnatic",
+      "teamB": "Shifters",
+      "teamAId": "2896",
+      "teamBId": "2902",
+      "killsA": 10,
+      "killsB": 2,
+      "totalKills": 12,
+      "collectedAt": "2026-08-22T18:49:13.952Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Rumble",
+          "Jarvan IV",
+          "Yone",
+          "Lucian",
+          "Nami"
+        ],
+        "teamB": [
+          "Galio",
+          "Lee Sin",
+          "Viktor",
+          "Yunara",
+          "Milio"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Rumble",
+          "JUNGLE": "Jarvan IV",
+          "MID": "Yone",
+          "ADC": "Lucian",
+          "SUP": "Nami"
+        },
+        "teamB": {
+          "TOP": "Galio",
+          "JUNGLE": "Lee Sin",
+          "MID": "Viktor",
+          "ADC": "Yunara",
+          "SUP": "Milio"
+        }
+      }
+    },
+    {
+      "id": "81790",
+      "league": "LEC",
+      "tournament": "LEC 2026 Summer Season",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LEC 2026 Summer Season",
+      "tournamentLine": "LEC 2026 Summer Season (EUW) - Fearless Draft",
+      "date": "2026-08-22",
+      "week": "WEEK5",
+      "patch": "16.16",
+      "game": "Fnatic vs Shifters",
+      "sourceUrl": "https://gol.gg/game/stats/81790/page-game/",
+      "teamA": "Fnatic",
+      "teamB": "Shifters",
+      "teamAId": "2896",
+      "teamBId": "2902",
+      "killsA": 24,
+      "killsB": 14,
+      "totalKills": 38,
+      "collectedAt": "2026-08-22T18:49:14.145Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Ambessa",
+          "Nocturne",
+          "Ryze",
+          "Jhin",
+          "Rell"
+        ],
+        "teamB": [
+          "Jax",
+          "Pantheon",
+          "Tristana",
+          "Taliyah",
+          "Leona"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Ambessa",
+          "JUNGLE": "Nocturne",
+          "MID": "Ryze",
+          "ADC": "Jhin",
+          "SUP": "Rell"
+        },
+        "teamB": {
+          "TOP": "Jax",
+          "JUNGLE": "Pantheon",
+          "MID": "Tristana",
+          "ADC": "Taliyah",
+          "SUP": "Leona"
         }
       }
     },
