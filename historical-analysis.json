@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-23T18:49:50.250Z",
+  "generatedAt": "2026-08-23T22:39:30.094Z",
   "methodology": "Walk-forward por liga (min 30 jogos treino). Linha simulada = linha justa pre-draft do modelo. Odds: 1.80/1.80.",
-  "sourceGames": 2249,
-  "generatedFromGamesUpdatedAt": "2026-08-23T18:49:29.711Z",
-  "backtestRows": 1947,
-  "count": 1947,
+  "sourceGames": 2256,
+  "generatedFromGamesUpdatedAt": "2026-08-23T22:39:10.390Z",
+  "backtestRows": 1954,
+  "count": 1954,
   "games": [
     {
       "l": "LCK",
@@ -14857,6 +14857,26 @@
       "as": "under"
     },
     {
+      "l": "CBLOL",
+      "a": 22,
+      "ml": 24.5,
+      "pred": 25.38,
+      "evo": -0.0173,
+      "evu": -0.1827,
+      "s": "",
+      "as": "under"
+    },
+    {
+      "l": "CBLOL",
+      "a": 26,
+      "ml": 23.5,
+      "pred": 25.86,
+      "evo": 0.1185,
+      "evu": -0.3185,
+      "s": "over",
+      "as": "over"
+    },
+    {
       "l": "LEC",
       "a": 33,
       "ml": 29.5,
@@ -17787,6 +17807,36 @@
       "as": "over"
     },
     {
+      "l": "LEC",
+      "a": 39,
+      "ml": 24.5,
+      "pred": 26.25,
+      "evo": 0.0503,
+      "evu": -0.2503,
+      "s": "over",
+      "as": "over"
+    },
+    {
+      "l": "LEC",
+      "a": 38,
+      "ml": 25.5,
+      "pred": 26.96,
+      "evo": 0.0256,
+      "evu": -0.2256,
+      "s": "",
+      "as": "over"
+    },
+    {
+      "l": "LEC",
+      "a": 25,
+      "ml": 26.5,
+      "pred": 26.34,
+      "evo": -0.1139,
+      "evu": -0.0861,
+      "s": "",
+      "as": "under"
+    },
+    {
       "l": "LCS",
       "a": 28,
       "ml": 25.5,
@@ -19474,6 +19524,26 @@
       "evo": -0.262,
       "evu": 0.062,
       "s": "under",
+      "as": "under"
+    },
+    {
+      "l": "LCS",
+      "a": 24,
+      "ml": 27.5,
+      "pred": 26.43,
+      "evo": -0.2081,
+      "evu": 0.0081,
+      "s": "",
+      "as": "under"
+    },
+    {
+      "l": "LCS",
+      "a": 21,
+      "ml": 26.5,
+      "pred": 26.9,
+      "evo": -0.06,
+      "evu": -0.14,
+      "s": "",
       "as": "under"
     }
   ]
