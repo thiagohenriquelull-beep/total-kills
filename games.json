@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "GOL logged session",
-    "createdAt": "2026-08-24T15:01:38.525Z",
+    "createdAt": "2026-08-24T19:00:32.554Z",
     "collectorVersion": "new-games-http-2026-07-25",
     "leagues": [
       {
@@ -45,7 +45,7 @@
       },
       {
         "league": "LEC",
-        "games": 326,
+        "games": 328,
         "tournaments": [
           "LEC 2026 Spring Playoffs",
           "LEC 2026 Spring Season",
@@ -79,17 +79,17 @@
       "side",
       "bans"
     ],
-    "updatedAt": "2026-08-24T15:01:38.525Z",
+    "updatedAt": "2026-08-24T19:00:32.554Z",
     "lastIncrementalMerge": {
       "source": "data/jogos-novos.json",
-      "mergedAt": "2026-08-24T15:01:38.525Z",
-      "added": 4,
+      "mergedAt": "2026-08-24T19:00:32.554Z",
+      "added": 2,
       "duplicatesSkipped": 0,
       "patches": [
         "16.16"
       ],
       "tournaments": [
-        "LCK CL 2026 Season Play-In"
+        "LEC 2026 Summer Season"
       ]
     },
     "nameCleanup": {
@@ -101,7 +101,7 @@
         "trim repeated spaces"
       ]
     },
-    "totalGames": 2262,
+    "totalGames": 2264,
     "dataCorrections": [
       {
         "correctedAt": "2026-07-14T01:19:11.794Z",
@@ -69150,6 +69150,118 @@
           "MID": "Tristana",
           "ADC": "Kalista",
           "SUP": "Thresh"
+        }
+      }
+    },
+    {
+      "id": "81801",
+      "league": "LEC",
+      "tournament": "LEC 2026 Summer Season",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LEC 2026 Summer Season",
+      "tournamentLine": "LEC 2026 Summer Season (EUW) - Fearless Draft",
+      "date": "2026-08-24",
+      "week": "WEEK5",
+      "patch": "16.16",
+      "game": "NAVI vs Fnatic",
+      "sourceUrl": "https://gol.gg/game/stats/81801/page-game/",
+      "teamA": "Fnatic",
+      "teamB": "Natus Vincere",
+      "teamAId": "2896",
+      "teamBId": "2901",
+      "killsA": 11,
+      "killsB": 15,
+      "totalKills": 26,
+      "collectedAt": "2026-08-24T19:00:04.457Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Ambessa",
+          "Nocturne",
+          "Locke",
+          "Ezreal",
+          "Seraphine"
+        ],
+        "teamB": [
+          "Rumble",
+          "Zaahen",
+          "Orianna",
+          "Kaisa",
+          "Shen"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Ambessa",
+          "JUNGLE": "Nocturne",
+          "MID": "Locke",
+          "ADC": "Ezreal",
+          "SUP": "Seraphine"
+        },
+        "teamB": {
+          "TOP": "Rumble",
+          "JUNGLE": "Zaahen",
+          "MID": "Orianna",
+          "ADC": "Kaisa",
+          "SUP": "Shen"
+        }
+      }
+    },
+    {
+      "id": "81802",
+      "league": "LEC",
+      "tournament": "LEC 2026 Summer Season",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LEC 2026 Summer Season",
+      "tournamentLine": "LEC 2026 Summer Season (EUW) - Fearless Draft",
+      "date": "2026-08-24",
+      "week": "WEEK5",
+      "patch": "16.16",
+      "game": "NAVI vs Fnatic",
+      "sourceUrl": "https://gol.gg/game/stats/81802/page-game/",
+      "teamA": "Fnatic",
+      "teamB": "Natus Vincere",
+      "teamAId": "2896",
+      "teamBId": "2901",
+      "killsA": 9,
+      "killsB": 22,
+      "totalKills": 31,
+      "collectedAt": "2026-08-24T19:00:04.703Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Jax",
+          "Pantheon",
+          "Ryze",
+          "Lucian",
+          "Milio"
+        ],
+        "teamB": [
+          "Olaf",
+          "Wukong",
+          "Annie",
+          "Yunara",
+          "Lulu"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Jax",
+          "JUNGLE": "Pantheon",
+          "MID": "Ryze",
+          "ADC": "Lucian",
+          "SUP": "Milio"
+        },
+        "teamB": {
+          "TOP": "Olaf",
+          "JUNGLE": "Wukong",
+          "MID": "Annie",
+          "ADC": "Yunara",
+          "SUP": "Lulu"
         }
       }
     },
