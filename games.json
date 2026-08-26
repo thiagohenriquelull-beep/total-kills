@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "GOL logged session",
-    "createdAt": "2026-08-25T15:06:42.324Z",
+    "createdAt": "2026-08-26T15:55:32.466Z",
     "collectorVersion": "new-games-http-2026-07-25",
     "leagues": [
       {
@@ -16,11 +16,12 @@
       },
       {
         "league": "LCK",
-        "games": 322,
+        "games": 327,
         "tournaments": [
           "LCK 2026 Road to MSI",
           "LCK 2026 Rounds 1-2",
-          "LCK 2026 Rounds 3-4"
+          "LCK 2026 Rounds 3-4",
+          "LCK 2026 Season Play-In"
         ]
       },
       {
@@ -79,17 +80,17 @@
       "side",
       "bans"
     ],
-    "updatedAt": "2026-08-25T15:06:42.324Z",
+    "updatedAt": "2026-08-26T15:55:32.466Z",
     "lastIncrementalMerge": {
       "source": "data/jogos-novos.json",
-      "mergedAt": "2026-08-25T15:06:42.324Z",
-      "added": 4,
+      "mergedAt": "2026-08-26T15:55:32.466Z",
+      "added": 5,
       "duplicatesSkipped": 0,
       "patches": [
         "16.16"
       ],
       "tournaments": [
-        "LCK CL 2026 Season Play-In"
+        "LCK 2026 Season Play-In"
       ]
     },
     "nameCleanup": {
@@ -101,7 +102,7 @@
         "trim repeated spaces"
       ]
     },
-    "totalGames": 2274,
+    "totalGames": 2279,
     "dataCorrections": [
       {
         "correctedAt": "2026-07-14T01:19:11.794Z",
@@ -25318,6 +25319,286 @@
           "MID": "Akali",
           "ADC": "Kalista",
           "SUP": "Renata Glasc"
+        }
+      }
+    },
+    {
+      "id": "82129",
+      "league": "LCK",
+      "tournament": "LCK 2026 Season Play-In",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LCK 2026 Season Play-In",
+      "tournamentLine": "LCK 2026 Season Play-In (KR) - Fearless Draft",
+      "date": "2026-08-26",
+      "week": "ROUND1",
+      "patch": "16.16",
+      "game": "KT Rolster vs BRO",
+      "sourceUrl": "https://gol.gg/game/stats/82129/page-game/",
+      "teamA": "HANJIN BRION",
+      "teamB": "KT Rolster",
+      "teamAId": "2808",
+      "teamBId": "2806",
+      "killsA": 11,
+      "killsB": 24,
+      "totalKills": 35,
+      "collectedAt": "2026-08-26T15:54:32.270Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Kled",
+          "Jarvan IV",
+          "Anivia",
+          "Lucian",
+          "Milio"
+        ],
+        "teamB": [
+          "Olaf",
+          "Nocturne",
+          "Ryze",
+          "Miss Fortune",
+          "Nautilus"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Kled",
+          "JUNGLE": "Jarvan IV",
+          "MID": "Anivia",
+          "ADC": "Lucian",
+          "SUP": "Milio"
+        },
+        "teamB": {
+          "TOP": "Olaf",
+          "JUNGLE": "Nocturne",
+          "MID": "Ryze",
+          "ADC": "Miss Fortune",
+          "SUP": "Nautilus"
+        }
+      }
+    },
+    {
+      "id": "82130",
+      "league": "LCK",
+      "tournament": "LCK 2026 Season Play-In",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LCK 2026 Season Play-In",
+      "tournamentLine": "LCK 2026 Season Play-In (KR) - Fearless Draft",
+      "date": "2026-08-26",
+      "week": "ROUND1",
+      "patch": "16.16",
+      "game": "KT Rolster vs BRO",
+      "sourceUrl": "https://gol.gg/game/stats/82130/page-game/",
+      "teamA": "KT Rolster",
+      "teamB": "HANJIN BRION",
+      "teamAId": "2806",
+      "teamBId": "2808",
+      "killsA": 6,
+      "killsB": 12,
+      "totalKills": 18,
+      "collectedAt": "2026-08-26T15:54:32.480Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Ornn",
+          "Naafiri",
+          "Syndra",
+          "Yunara",
+          "Lulu"
+        ],
+        "teamB": [
+          "Rumble",
+          "Vi",
+          "Ahri",
+          "Kalista",
+          "Renata Glasc"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Ornn",
+          "JUNGLE": "Naafiri",
+          "MID": "Syndra",
+          "ADC": "Yunara",
+          "SUP": "Lulu"
+        },
+        "teamB": {
+          "TOP": "Rumble",
+          "JUNGLE": "Vi",
+          "MID": "Ahri",
+          "ADC": "Kalista",
+          "SUP": "Renata Glasc"
+        }
+      }
+    },
+    {
+      "id": "82131",
+      "league": "LCK",
+      "tournament": "LCK 2026 Season Play-In",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LCK 2026 Season Play-In",
+      "tournamentLine": "LCK 2026 Season Play-In (KR) - Fearless Draft",
+      "date": "2026-08-26",
+      "week": "ROUND1",
+      "patch": "16.16",
+      "game": "KT Rolster vs BRO",
+      "sourceUrl": "https://gol.gg/game/stats/82131/page-game/",
+      "teamA": "KT Rolster",
+      "teamB": "HANJIN BRION",
+      "teamAId": "2806",
+      "teamBId": "2808",
+      "killsA": 3,
+      "killsB": 13,
+      "totalKills": 16,
+      "collectedAt": "2026-08-26T15:54:32.726Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Yorick",
+          "Wukong",
+          "Zoe",
+          "Sivir",
+          "Bard"
+        ],
+        "teamB": [
+          "Jayce",
+          "Xin Zhao",
+          "LeBlanc",
+          "Ezreal",
+          "Elise"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Yorick",
+          "JUNGLE": "Wukong",
+          "MID": "Zoe",
+          "ADC": "Sivir",
+          "SUP": "Bard"
+        },
+        "teamB": {
+          "TOP": "Jayce",
+          "JUNGLE": "Xin Zhao",
+          "MID": "LeBlanc",
+          "ADC": "Ezreal",
+          "SUP": "Elise"
+        }
+      }
+    },
+    {
+      "id": "82132",
+      "league": "LCK",
+      "tournament": "LCK 2026 Season Play-In",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LCK 2026 Season Play-In",
+      "tournamentLine": "LCK 2026 Season Play-In (KR) - Fearless Draft",
+      "date": "2026-08-26",
+      "week": "ROUND1",
+      "patch": "16.16",
+      "game": "KT Rolster vs BRO",
+      "sourceUrl": "https://gol.gg/game/stats/82132/page-game/",
+      "teamA": "HANJIN BRION",
+      "teamB": "KT Rolster",
+      "teamAId": "2808",
+      "teamBId": "2806",
+      "killsA": 8,
+      "killsB": 17,
+      "totalKills": 25,
+      "collectedAt": "2026-08-26T15:54:32.933Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Gnar",
+          "Pantheon",
+          "Locke",
+          "Jhin",
+          "Camille"
+        ],
+        "teamB": [
+          "Ambessa",
+          "Lee Sin",
+          "Lissandra",
+          "Ashe",
+          "Seraphine"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Gnar",
+          "JUNGLE": "Pantheon",
+          "MID": "Locke",
+          "ADC": "Jhin",
+          "SUP": "Camille"
+        },
+        "teamB": {
+          "TOP": "Ambessa",
+          "JUNGLE": "Lee Sin",
+          "MID": "Lissandra",
+          "ADC": "Ashe",
+          "SUP": "Seraphine"
+        }
+      }
+    },
+    {
+      "id": "82133",
+      "league": "LCK",
+      "tournament": "LCK 2026 Season Play-In",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LCK 2026 Season Play-In",
+      "tournamentLine": "LCK 2026 Season Play-In (KR) - Fearless Draft",
+      "date": "2026-08-26",
+      "week": "ROUND1",
+      "patch": "16.16",
+      "game": "KT Rolster vs BRO",
+      "sourceUrl": "https://gol.gg/game/stats/82133/page-game/",
+      "teamA": "HANJIN BRION",
+      "teamB": "KT Rolster",
+      "teamAId": "2808",
+      "teamBId": "2806",
+      "killsA": 13,
+      "killsB": 19,
+      "totalKills": 32,
+      "collectedAt": "2026-08-26T15:54:33.184Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Renekton",
+          "Zed",
+          "Annie",
+          "Kaisa",
+          "Neeko"
+        ],
+        "teamB": [
+          "KSante",
+          "Trundle",
+          "Galio",
+          "Zeri",
+          "Yuumi"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Renekton",
+          "JUNGLE": "Zed",
+          "MID": "Annie",
+          "ADC": "Kaisa",
+          "SUP": "Neeko"
+        },
+        "teamB": {
+          "TOP": "KSante",
+          "JUNGLE": "Trundle",
+          "MID": "Galio",
+          "ADC": "Zeri",
+          "SUP": "Yuumi"
         }
       }
     },
