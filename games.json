@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "GOL logged session",
-    "createdAt": "2026-08-29T20:56:51.455Z",
+    "createdAt": "2026-08-30T00:21:34.163Z",
     "collectorVersion": "new-games-http-2026-07-25",
     "leagues": [
       {
@@ -36,7 +36,7 @@
       },
       {
         "league": "LCS",
-        "games": 203,
+        "games": 206,
         "tournaments": [
           "LCS 2026 Lock-In",
           "LCS 2026 Spring",
@@ -81,20 +81,17 @@
       "side",
       "bans"
     ],
-    "updatedAt": "2026-08-29T20:56:51.455Z",
+    "updatedAt": "2026-08-30T00:21:34.163Z",
     "lastIncrementalMerge": {
       "source": "data/jogos-novos.json",
-      "mergedAt": "2026-08-29T20:56:51.455Z",
-      "added": 15,
+      "mergedAt": "2026-08-30T00:21:34.163Z",
+      "added": 3,
       "duplicatesSkipped": 0,
       "patches": [
-        "16.16",
         "16.17"
       ],
       "tournaments": [
-        "CBLOL 2026 Split 2",
-        "LEC 2026 Summer Season",
-        "LPL 2026 Grand Finals"
+        "LCS 2026 Summer"
       ]
     },
     "nameCleanup": {
@@ -106,7 +103,7 @@
         "trim repeated spaces"
       ]
     },
-    "totalGames": 2314,
+    "totalGames": 2317,
     "dataCorrections": [
       {
         "correctedAt": "2026-07-14T01:19:11.794Z",
@@ -56001,6 +55998,174 @@
           "TOP": "Camille",
           "JUNGLE": "Trundle",
           "MID": "Ryze",
+          "ADC": "Lucian",
+          "SUP": "Milio"
+        }
+      }
+    },
+    {
+      "id": "82156",
+      "league": "LCS",
+      "tournament": "LCS 2026 Summer",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCS 2026 Summer",
+      "tournamentLine": "LCS 2026 Summer (NA) - Fearless Draft",
+      "date": "2026-08-29",
+      "week": "WEEK6",
+      "patch": "16.17",
+      "game": "SR vs Team Liquid",
+      "sourceUrl": "https://gol.gg/game/stats/82156/page-game/",
+      "teamA": "Team Liquid",
+      "teamB": "Shopify Rebellion",
+      "teamAId": "2813",
+      "teamBId": "2956",
+      "killsA": 7,
+      "killsB": 20,
+      "totalKills": 27,
+      "collectedAt": "2026-08-30T00:20:44.777Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Olaf",
+          "Trundle",
+          "Akali",
+          "Ezreal",
+          "Neeko"
+        ],
+        "teamB": [
+          "KSante",
+          "Pantheon",
+          "Orianna",
+          "Xayah",
+          "Rakan"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Olaf",
+          "JUNGLE": "Trundle",
+          "MID": "Akali",
+          "ADC": "Ezreal",
+          "SUP": "Neeko"
+        },
+        "teamB": {
+          "TOP": "KSante",
+          "JUNGLE": "Pantheon",
+          "MID": "Orianna",
+          "ADC": "Xayah",
+          "SUP": "Rakan"
+        }
+      }
+    },
+    {
+      "id": "82157",
+      "league": "LCS",
+      "tournament": "LCS 2026 Summer",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCS 2026 Summer",
+      "tournamentLine": "LCS 2026 Summer (NA) - Fearless Draft",
+      "date": "2026-08-29",
+      "week": "WEEK6",
+      "patch": "16.17",
+      "game": "SR vs Team Liquid",
+      "sourceUrl": "https://gol.gg/game/stats/82157/page-game/",
+      "teamA": "Shopify Rebellion",
+      "teamB": "Team Liquid",
+      "teamAId": "2956",
+      "teamBId": "2813",
+      "killsA": 8,
+      "killsB": 20,
+      "totalKills": 28,
+      "collectedAt": "2026-08-30T00:20:45.169Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Ambessa",
+          "Naafiri",
+          "Ryze",
+          "Kaisa",
+          "Shen"
+        ],
+        "teamB": [
+          "Rumble",
+          "Vi",
+          "Yone",
+          "Jhin",
+          "Alistar"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Ambessa",
+          "JUNGLE": "Naafiri",
+          "MID": "Ryze",
+          "ADC": "Kaisa",
+          "SUP": "Shen"
+        },
+        "teamB": {
+          "TOP": "Rumble",
+          "JUNGLE": "Vi",
+          "MID": "Yone",
+          "ADC": "Jhin",
+          "SUP": "Alistar"
+        }
+      }
+    },
+    {
+      "id": "82158",
+      "league": "LCS",
+      "tournament": "LCS 2026 Summer",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCS 2026 Summer",
+      "tournamentLine": "LCS 2026 Summer (NA) - Fearless Draft",
+      "date": "2026-08-29",
+      "week": "WEEK6",
+      "patch": "16.17",
+      "game": "SR vs Team Liquid",
+      "sourceUrl": "https://gol.gg/game/stats/82158/page-game/",
+      "teamA": "Team Liquid",
+      "teamB": "Shopify Rebellion",
+      "teamAId": "2813",
+      "teamBId": "2956",
+      "killsA": 17,
+      "killsB": 4,
+      "totalKills": 21,
+      "collectedAt": "2026-08-30T00:20:45.610Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Kennen",
+          "Nocturne",
+          "Ahri",
+          "Yunara",
+          "Lulu"
+        ],
+        "teamB": [
+          "Gnar",
+          "Skarner",
+          "Anivia",
+          "Lucian",
+          "Milio"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Kennen",
+          "JUNGLE": "Nocturne",
+          "MID": "Ahri",
+          "ADC": "Yunara",
+          "SUP": "Lulu"
+        },
+        "teamB": {
+          "TOP": "Gnar",
+          "JUNGLE": "Skarner",
+          "MID": "Anivia",
           "ADC": "Lucian",
           "SUP": "Milio"
         }
