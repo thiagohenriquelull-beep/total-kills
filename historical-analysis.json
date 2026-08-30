@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-30T00:22:01.388Z",
+  "generatedAt": "2026-08-30T14:53:50.879Z",
   "methodology": "Walk-forward por liga (min 30 jogos treino). Linha simulada = linha justa pre-draft do modelo. Odds: 1.80/1.80.",
-  "sourceGames": 2317,
-  "generatedFromGamesUpdatedAt": "2026-08-30T00:21:34.163Z",
-  "backtestRows": 2015,
-  "count": 2015,
+  "sourceGames": 2333,
+  "generatedFromGamesUpdatedAt": "2026-08-30T14:53:22.830Z",
+  "backtestRows": 2031,
+  "count": 2031,
   "games": [
     {
       "l": "LCK",
@@ -3063,6 +3063,86 @@
       "pred": 30.11,
       "evo": -0.0476,
       "evu": -0.1524,
+      "s": "",
+      "as": "under"
+    },
+    {
+      "l": "LCK",
+      "a": 33,
+      "ml": 27.5,
+      "pred": 27.95,
+      "evo": -0.0616,
+      "evu": -0.1384,
+      "s": "",
+      "as": "over"
+    },
+    {
+      "l": "LCK",
+      "a": 26,
+      "ml": 28.5,
+      "pred": 28.73,
+      "evo": -0.08,
+      "evu": -0.12,
+      "s": "",
+      "as": "under"
+    },
+    {
+      "l": "LCK",
+      "a": 22,
+      "ml": 27.5,
+      "pred": 28.31,
+      "evo": -0.0309,
+      "evu": -0.1691,
+      "s": "",
+      "as": "under"
+    },
+    {
+      "l": "LCK",
+      "a": 27,
+      "ml": 27.5,
+      "pred": 28.09,
+      "evo": -0.0494,
+      "evu": -0.1506,
+      "s": "",
+      "as": "under"
+    },
+    {
+      "l": "LCK",
+      "a": 34,
+      "ml": 27.5,
+      "pred": 28.25,
+      "evo": -0.0352,
+      "evu": -0.1648,
+      "s": "",
+      "as": "over"
+    },
+    {
+      "l": "LCK",
+      "a": 26,
+      "ml": 27.5,
+      "pred": 27.96,
+      "evo": -0.0605,
+      "evu": -0.1395,
+      "s": "",
+      "as": "under"
+    },
+    {
+      "l": "LCK",
+      "a": 28,
+      "ml": 26.5,
+      "pred": 28.33,
+      "evo": 0.056,
+      "evu": -0.256,
+      "s": "over",
+      "as": "over"
+    },
+    {
+      "l": "LCK",
+      "a": 25,
+      "ml": 26.5,
+      "pred": 27.2,
+      "evo": -0.0401,
+      "evu": -0.1599,
       "s": "",
       "as": "under"
     },
@@ -13287,6 +13367,46 @@
       "as": "under"
     },
     {
+      "l": "LPL",
+      "a": 42,
+      "ml": 31.5,
+      "pred": 29.86,
+      "evo": -0.244,
+      "evu": 0.044,
+      "s": "",
+      "as": "over"
+    },
+    {
+      "l": "LPL",
+      "a": 28,
+      "ml": 32.5,
+      "pred": 30.11,
+      "evo": -0.3085,
+      "evu": 0.1085,
+      "s": "under",
+      "as": "under"
+    },
+    {
+      "l": "LPL",
+      "a": 36,
+      "ml": 32.5,
+      "pred": 30.47,
+      "evo": -0.2779,
+      "evu": 0.0779,
+      "s": "under",
+      "as": "over"
+    },
+    {
+      "l": "LPL",
+      "a": 45,
+      "ml": 32.5,
+      "pred": 29.93,
+      "evo": -0.3235,
+      "evu": 0.1235,
+      "s": "under",
+      "as": "over"
+    },
+    {
       "l": "CBLOL",
       "a": 23,
       "ml": 29.5,
@@ -18397,6 +18517,26 @@
       "as": "over"
     },
     {
+      "l": "LEC",
+      "a": 46,
+      "ml": 27.5,
+      "pred": 27.99,
+      "evo": -0.0577,
+      "evu": -0.1423,
+      "s": "",
+      "as": "over"
+    },
+    {
+      "l": "LEC",
+      "a": 44,
+      "ml": 29.5,
+      "pred": 29.33,
+      "evo": -0.1151,
+      "evu": -0.0849,
+      "s": "",
+      "as": "over"
+    },
+    {
       "l": "LCS",
       "a": 28,
       "ml": 25.5,
@@ -20153,6 +20293,26 @@
       "pred": 25.13,
       "evo": -0.2378,
       "evu": 0.0378,
+      "s": "",
+      "as": "under"
+    },
+    {
+      "l": "LCS",
+      "a": 27,
+      "ml": 27.5,
+      "pred": 26.92,
+      "evo": -0.1589,
+      "evu": -0.0411,
+      "s": "",
+      "as": "under"
+    },
+    {
+      "l": "LCS",
+      "a": 12,
+      "ml": 27.5,
+      "pred": 26.67,
+      "evo": -0.1842,
+      "evu": -0.0158,
       "s": "",
       "as": "under"
     }
