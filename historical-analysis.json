@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-30T14:53:50.879Z",
+  "generatedAt": "2026-08-30T21:07:06.253Z",
   "methodology": "Walk-forward por liga (min 30 jogos treino). Linha simulada = linha justa pre-draft do modelo. Odds: 1.80/1.80.",
-  "sourceGames": 2333,
-  "generatedFromGamesUpdatedAt": "2026-08-30T14:53:22.830Z",
-  "backtestRows": 2031,
-  "count": 2031,
+  "sourceGames": 2341,
+  "generatedFromGamesUpdatedAt": "2026-08-30T21:06:37.701Z",
+  "backtestRows": 2039,
+  "count": 2039,
   "games": [
     {
       "l": "LCK",
@@ -15407,6 +15407,36 @@
       "as": "over"
     },
     {
+      "l": "CBLOL",
+      "a": 24,
+      "ml": 23.5,
+      "pred": 25.23,
+      "evo": 0.0613,
+      "evu": -0.2613,
+      "s": "over",
+      "as": "over"
+    },
+    {
+      "l": "CBLOL",
+      "a": 32,
+      "ml": 23.5,
+      "pred": 25.13,
+      "evo": 0.0522,
+      "evu": -0.2522,
+      "s": "over",
+      "as": "over"
+    },
+    {
+      "l": "CBLOL",
+      "a": 33,
+      "ml": 24.5,
+      "pred": 24.66,
+      "evo": -0.0854,
+      "evu": -0.1146,
+      "s": "",
+      "as": "over"
+    },
+    {
       "l": "LEC",
       "a": 33,
       "ml": 29.5,
@@ -18535,6 +18565,56 @@
       "evu": -0.0849,
       "s": "",
       "as": "over"
+    },
+    {
+      "l": "LEC",
+      "a": 15,
+      "ml": 28.5,
+      "pred": 27.06,
+      "evo": -0.2242,
+      "evu": 0.0242,
+      "s": "",
+      "as": "under"
+    },
+    {
+      "l": "LEC",
+      "a": 22,
+      "ml": 27.5,
+      "pred": 26.13,
+      "evo": -0.2183,
+      "evu": 0.0183,
+      "s": "",
+      "as": "under"
+    },
+    {
+      "l": "LEC",
+      "a": 29,
+      "ml": 27.5,
+      "pred": 26.64,
+      "evo": -0.1739,
+      "evu": -0.0261,
+      "s": "",
+      "as": "over"
+    },
+    {
+      "l": "LEC",
+      "a": 19,
+      "ml": 27.5,
+      "pred": 27.07,
+      "evo": -0.1374,
+      "evu": -0.0626,
+      "s": "",
+      "as": "under"
+    },
+    {
+      "l": "LEC",
+      "a": 23,
+      "ml": 27.5,
+      "pred": 27.67,
+      "evo": -0.0857,
+      "evu": -0.1143,
+      "s": "",
+      "as": "under"
     },
     {
       "l": "LCS",
