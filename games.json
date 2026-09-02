@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "GOL logged session",
-    "createdAt": "2026-09-01T14:54:38.727Z",
+    "createdAt": "2026-09-02T14:30:49.032Z",
     "collectorVersion": "new-games-http-2026-07-25",
     "leagues": [
       {
@@ -16,7 +16,7 @@
       },
       {
         "league": "LCK",
-        "games": 347,
+        "games": 352,
         "tournaments": [
           "LCK 2026 Road to MSI",
           "LCK 2026 Rounds 1-2",
@@ -83,11 +83,11 @@
       "side",
       "bans"
     ],
-    "updatedAt": "2026-09-01T14:54:38.727Z",
+    "updatedAt": "2026-09-02T14:30:49.032Z",
     "lastIncrementalMerge": {
       "source": "data/jogos-novos.json",
-      "mergedAt": "2026-09-01T14:54:38.727Z",
-      "added": 3,
+      "mergedAt": "2026-09-02T14:30:49.032Z",
+      "added": 5,
       "duplicatesSkipped": 0,
       "patches": [
         "16.16"
@@ -105,7 +105,7 @@
         "trim repeated spaces"
       ]
     },
-    "totalGames": 2359,
+    "totalGames": 2364,
     "dataCorrections": [
       {
         "correctedAt": "2026-07-14T01:19:11.794Z",
@@ -27282,6 +27282,286 @@
           "MID": "Ahri",
           "ADC": "Ezreal",
           "SUP": "Nautilus"
+        }
+      }
+    },
+    {
+      "id": "82419",
+      "league": "LCK",
+      "tournament": "LCK 2026 Season Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LCK 2026 Season Playoffs",
+      "tournamentLine": "LCK 2026 Season Playoffs (KR) - Fearless Draft",
+      "date": "2026-09-02",
+      "week": "ROUND2",
+      "patch": "16.16",
+      "game": "HLE vs T1",
+      "sourceUrl": "https://gol.gg/game/stats/82419/page-game/",
+      "teamA": "T1",
+      "teamB": "Hanwha Life Esports",
+      "teamAId": "2809",
+      "teamBId": "2805",
+      "killsA": 23,
+      "killsB": 17,
+      "totalKills": 40,
+      "collectedAt": "2026-09-02T14:29:36.886Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Jayce",
+          "Pantheon",
+          "Ryze",
+          "Kalista",
+          "Renata Glasc"
+        ],
+        "teamB": [
+          "Olaf",
+          "Lee Sin",
+          "Annie",
+          "Ashe",
+          "Seraphine"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Jayce",
+          "JUNGLE": "Pantheon",
+          "MID": "Ryze",
+          "ADC": "Kalista",
+          "SUP": "Renata Glasc"
+        },
+        "teamB": {
+          "TOP": "Olaf",
+          "JUNGLE": "Lee Sin",
+          "MID": "Annie",
+          "ADC": "Ashe",
+          "SUP": "Seraphine"
+        }
+      }
+    },
+    {
+      "id": "82420",
+      "league": "LCK",
+      "tournament": "LCK 2026 Season Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LCK 2026 Season Playoffs",
+      "tournamentLine": "LCK 2026 Season Playoffs (KR) - Fearless Draft",
+      "date": "2026-09-02",
+      "week": "ROUND2",
+      "patch": "16.16",
+      "game": "HLE vs T1",
+      "sourceUrl": "https://gol.gg/game/stats/82420/page-game/",
+      "teamA": "T1",
+      "teamB": "Hanwha Life Esports",
+      "teamAId": "2809",
+      "teamBId": "2805",
+      "killsA": 26,
+      "killsB": 6,
+      "totalKills": 32,
+      "collectedAt": "2026-09-02T14:29:37.182Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Gwen",
+          "Qiyana",
+          "Anivia",
+          "Jhin",
+          "Blitzcrank"
+        ],
+        "teamB": [
+          "KSante",
+          "Jarvan IV",
+          "Ahri",
+          "Yunara",
+          "Lulu"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Gwen",
+          "JUNGLE": "Qiyana",
+          "MID": "Anivia",
+          "ADC": "Jhin",
+          "SUP": "Blitzcrank"
+        },
+        "teamB": {
+          "TOP": "KSante",
+          "JUNGLE": "Jarvan IV",
+          "MID": "Ahri",
+          "ADC": "Yunara",
+          "SUP": "Lulu"
+        }
+      }
+    },
+    {
+      "id": "82421",
+      "league": "LCK",
+      "tournament": "LCK 2026 Season Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LCK 2026 Season Playoffs",
+      "tournamentLine": "LCK 2026 Season Playoffs (KR) - Fearless Draft",
+      "date": "2026-09-02",
+      "week": "ROUND2",
+      "patch": "16.16",
+      "game": "HLE vs T1",
+      "sourceUrl": "https://gol.gg/game/stats/82421/page-game/",
+      "teamA": "Hanwha Life Esports",
+      "teamB": "T1",
+      "teamAId": "2805",
+      "teamBId": "2809",
+      "killsA": 18,
+      "killsB": 9,
+      "totalKills": 27,
+      "collectedAt": "2026-09-02T14:29:37.425Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Camille",
+          "Sejuani",
+          "Akali",
+          "Miss Fortune",
+          "Shen"
+        ],
+        "teamB": [
+          "Kennen",
+          "Maokai",
+          "Yone",
+          "Kaisa",
+          "Alistar"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Camille",
+          "JUNGLE": "Sejuani",
+          "MID": "Akali",
+          "ADC": "Miss Fortune",
+          "SUP": "Shen"
+        },
+        "teamB": {
+          "TOP": "Kennen",
+          "JUNGLE": "Maokai",
+          "MID": "Yone",
+          "ADC": "Kaisa",
+          "SUP": "Alistar"
+        }
+      }
+    },
+    {
+      "id": "82422",
+      "league": "LCK",
+      "tournament": "LCK 2026 Season Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LCK 2026 Season Playoffs",
+      "tournamentLine": "LCK 2026 Season Playoffs (KR) - Fearless Draft",
+      "date": "2026-09-02",
+      "week": "ROUND2",
+      "patch": "16.16",
+      "game": "HLE vs T1",
+      "sourceUrl": "https://gol.gg/game/stats/82422/page-game/",
+      "teamA": "T1",
+      "teamB": "Hanwha Life Esports",
+      "teamAId": "2809",
+      "teamBId": "2805",
+      "killsA": 8,
+      "killsB": 23,
+      "totalKills": 31,
+      "collectedAt": "2026-09-02T14:29:37.656Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Aatrox",
+          "Skarner",
+          "Orianna",
+          "Lucian",
+          "Milio"
+        ],
+        "teamB": [
+          "Gragas",
+          "Xin Zhao",
+          "Cassiopeia",
+          "Varus",
+          "Nautilus"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Aatrox",
+          "JUNGLE": "Skarner",
+          "MID": "Orianna",
+          "ADC": "Lucian",
+          "SUP": "Milio"
+        },
+        "teamB": {
+          "TOP": "Gragas",
+          "JUNGLE": "Xin Zhao",
+          "MID": "Cassiopeia",
+          "ADC": "Varus",
+          "SUP": "Nautilus"
+        }
+      }
+    },
+    {
+      "id": "82423",
+      "league": "LCK",
+      "tournament": "LCK 2026 Season Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LCK 2026 Season Playoffs",
+      "tournamentLine": "LCK 2026 Season Playoffs (KR) - Fearless Draft",
+      "date": "2026-09-02",
+      "week": "ROUND2",
+      "patch": "16.16",
+      "game": "HLE vs T1",
+      "sourceUrl": "https://gol.gg/game/stats/82423/page-game/",
+      "teamA": "T1",
+      "teamB": "Hanwha Life Esports",
+      "teamAId": "2809",
+      "teamBId": "2805",
+      "killsA": 9,
+      "killsB": 22,
+      "totalKills": 31,
+      "collectedAt": "2026-09-02T14:29:37.863Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Gnar",
+          "Naafiri",
+          "Lissandra",
+          "Jinx",
+          "Bard"
+        ],
+        "teamB": [
+          "Ambessa",
+          "Chogath",
+          "Taliyah",
+          "Caitlyn",
+          "Karma"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Gnar",
+          "JUNGLE": "Naafiri",
+          "MID": "Lissandra",
+          "ADC": "Jinx",
+          "SUP": "Bard"
+        },
+        "teamB": {
+          "TOP": "Ambessa",
+          "JUNGLE": "Chogath",
+          "MID": "Taliyah",
+          "ADC": "Caitlyn",
+          "SUP": "Karma"
         }
       }
     },
