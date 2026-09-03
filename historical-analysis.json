@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-02T14:31:11.948Z",
+  "generatedAt": "2026-09-03T14:36:05.454Z",
   "methodology": "Walk-forward por liga (min 30 jogos treino). Linha simulada = linha justa pre-draft do modelo. Odds: 1.80/1.80.",
-  "sourceGames": 2364,
-  "generatedFromGamesUpdatedAt": "2026-09-02T14:30:49.032Z",
-  "backtestRows": 2062,
-  "count": 2062,
+  "sourceGames": 2373,
+  "generatedFromGamesUpdatedAt": "2026-09-03T14:35:36.615Z",
+  "backtestRows": 2071,
+  "count": 2071,
   "games": [
     {
       "l": "LCK",
@@ -3225,6 +3225,56 @@
       "evu": -0.126,
       "s": "",
       "as": "over"
+    },
+    {
+      "l": "LCK",
+      "a": 26,
+      "ml": 28.5,
+      "pred": 28.05,
+      "evo": -0.1383,
+      "evu": -0.0617,
+      "s": "",
+      "as": "under"
+    },
+    {
+      "l": "LCK",
+      "a": 36,
+      "ml": 27.5,
+      "pred": 27.73,
+      "evo": -0.0799,
+      "evu": -0.1201,
+      "s": "",
+      "as": "over"
+    },
+    {
+      "l": "LCK",
+      "a": 25,
+      "ml": 28.5,
+      "pred": 29.34,
+      "evo": -0.0279,
+      "evu": -0.1721,
+      "s": "",
+      "as": "under"
+    },
+    {
+      "l": "LCK",
+      "a": 22,
+      "ml": 28.5,
+      "pred": 28.63,
+      "evo": -0.0889,
+      "evu": -0.1111,
+      "s": "",
+      "as": "under"
+    },
+    {
+      "l": "LCK",
+      "a": 22,
+      "ml": 27.5,
+      "pred": 28.24,
+      "evo": -0.0369,
+      "evu": -0.1631,
+      "s": "",
+      "as": "under"
     },
     {
       "l": "LCKCL",
@@ -13565,6 +13615,46 @@
       "evu": 0.1235,
       "s": "under",
       "as": "over"
+    },
+    {
+      "l": "LPL",
+      "a": 27,
+      "ml": 33.5,
+      "pred": 31.16,
+      "evo": -0.304,
+      "evu": 0.104,
+      "s": "under",
+      "as": "under"
+    },
+    {
+      "l": "LPL",
+      "a": 29,
+      "ml": 32.5,
+      "pred": 30.72,
+      "evo": -0.2563,
+      "evu": 0.0563,
+      "s": "under",
+      "as": "under"
+    },
+    {
+      "l": "LPL",
+      "a": 41,
+      "ml": 32.5,
+      "pred": 30.19,
+      "evo": -0.3012,
+      "evu": 0.1012,
+      "s": "under",
+      "as": "over"
+    },
+    {
+      "l": "LPL",
+      "a": 23,
+      "ml": 34.5,
+      "pred": 31.66,
+      "evo": -0.3463,
+      "evu": 0.1463,
+      "s": "under",
+      "as": "under"
     },
     {
       "l": "CBLOL",
