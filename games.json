@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "GOL logged session",
-    "createdAt": "2026-09-04T14:23:00.701Z",
+    "createdAt": "2026-09-04T20:46:42.871Z",
     "collectorVersion": "new-games-http-2026-07-25",
     "leagues": [
       {
@@ -59,7 +59,7 @@
       },
       {
         "league": "LPL",
-        "games": 639,
+        "games": 640,
         "tournaments": [
           "LPL 2026 Grand Finals",
           "LPL 2026 Split 1",
@@ -83,17 +83,17 @@
       "side",
       "bans"
     ],
-    "updatedAt": "2026-09-04T14:23:00.701Z",
+    "updatedAt": "2026-09-04T20:46:42.871Z",
     "lastIncrementalMerge": {
       "source": "data/jogos-novos.json",
-      "mergedAt": "2026-09-04T14:23:00.701Z",
-      "added": 4,
+      "mergedAt": "2026-09-04T20:46:42.871Z",
+      "added": 1,
       "duplicatesSkipped": 0,
       "patches": [
-        "16.16"
+        "16.17"
       ],
       "tournaments": [
-        "LCK 2026 Season Playoffs"
+        "LPL 2026 Grand Finals"
       ]
     },
     "nameCleanup": {
@@ -105,7 +105,7 @@
         "trim repeated spaces"
       ]
     },
-    "totalGames": 2377,
+    "totalGames": 2378,
     "dataCorrections": [
       {
         "correctedAt": "2026-07-14T01:19:11.794Z",
@@ -105514,6 +105514,62 @@
           "MID": "Annie",
           "ADC": "Ashe",
           "SUP": "Alistar"
+        }
+      }
+    },
+    {
+      "id": "82439",
+      "league": "LPL",
+      "tournament": "LPL 2026 Grand Finals",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LPL 2026 Grand Finals",
+      "tournamentLine": "LPL 2026 Grand Finals (CN) - Fearless Draft",
+      "date": "2026-09-04",
+      "week": "ROUND2",
+      "patch": "16.17",
+      "game": "AL vs LGD Gaming",
+      "sourceUrl": "https://gol.gg/game/stats/82439/page-game/",
+      "teamA": "LGD Gaming",
+      "teamB": "Anyone's Legend",
+      "teamAId": "2858",
+      "teamBId": "2848",
+      "killsA": 15,
+      "killsB": 6,
+      "totalKills": 21,
+      "collectedAt": "2026-09-04T20:46:33.658Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Gnar",
+          "Naafiri",
+          "Ryze",
+          "Sivir",
+          "Karma"
+        ],
+        "teamB": [
+          "Jayce",
+          "Trundle",
+          "Orianna",
+          "Ezreal",
+          "Seraphine"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Gnar",
+          "JUNGLE": "Naafiri",
+          "MID": "Ryze",
+          "ADC": "Sivir",
+          "SUP": "Karma"
+        },
+        "teamB": {
+          "TOP": "Jayce",
+          "JUNGLE": "Trundle",
+          "MID": "Orianna",
+          "ADC": "Ezreal",
+          "SUP": "Seraphine"
         }
       }
     },
