@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "GOL logged session",
-    "createdAt": "2026-09-05T20:22:13.564Z",
+    "createdAt": "2026-09-05T23:54:54.579Z",
     "collectorVersion": "new-games-http-2026-07-25",
     "leagues": [
       {
@@ -39,7 +39,7 @@
       },
       {
         "league": "LCS",
-        "games": 213,
+        "games": 217,
         "tournaments": [
           "LCS 2026 Lock-In",
           "LCS 2026 Spring",
@@ -85,18 +85,17 @@
       "side",
       "bans"
     ],
-    "updatedAt": "2026-09-05T20:22:13.564Z",
+    "updatedAt": "2026-09-05T23:54:54.579Z",
     "lastIncrementalMerge": {
       "source": "data/jogos-novos.json",
-      "mergedAt": "2026-09-05T20:22:13.564Z",
-      "added": 8,
+      "mergedAt": "2026-09-05T23:54:54.579Z",
+      "added": 4,
       "duplicatesSkipped": 0,
       "patches": [
         "16.17"
       ],
       "tournaments": [
-        "CBLOL 2026 Split 2 Playoffs",
-        "LEC 2026 Summer Playoffs"
+        "LCS 2026 Summer"
       ]
     },
     "nameCleanup": {
@@ -108,7 +107,7 @@
         "trim repeated spaces"
       ]
     },
-    "totalGames": 2404,
+    "totalGames": 2408,
     "dataCorrections": [
       {
         "correctedAt": "2026-07-14T01:19:11.794Z",
@@ -59141,6 +59140,230 @@
           "MID": "Sylas",
           "ADC": "Kalista",
           "SUP": "Renata Glasc"
+        }
+      }
+    },
+    {
+      "id": "82454",
+      "league": "LCS",
+      "tournament": "LCS 2026 Summer",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCS 2026 Summer",
+      "tournamentLine": "LCS 2026 Summer (NA) - Fearless Draft",
+      "date": "2026-09-05",
+      "week": "WEEK7",
+      "patch": "16.17",
+      "game": "Sentinels vs Cloud9",
+      "sourceUrl": "https://gol.gg/game/stats/82454/page-game/",
+      "teamA": "Cloud9",
+      "teamB": "Sentinels",
+      "teamAId": "2812",
+      "teamBId": "2955",
+      "killsA": 18,
+      "killsB": 5,
+      "totalKills": 23,
+      "collectedAt": "2026-09-05T23:54:18.749Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Gnar",
+          "Vi",
+          "Syndra",
+          "Ezreal",
+          "Karma"
+        ],
+        "teamB": [
+          "KSante",
+          "Pantheon",
+          "Cassiopeia",
+          "Caitlyn",
+          "Bard"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Gnar",
+          "JUNGLE": "Vi",
+          "MID": "Syndra",
+          "ADC": "Ezreal",
+          "SUP": "Karma"
+        },
+        "teamB": {
+          "TOP": "KSante",
+          "JUNGLE": "Pantheon",
+          "MID": "Cassiopeia",
+          "ADC": "Caitlyn",
+          "SUP": "Bard"
+        }
+      }
+    },
+    {
+      "id": "82455",
+      "league": "LCS",
+      "tournament": "LCS 2026 Summer",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCS 2026 Summer",
+      "tournamentLine": "LCS 2026 Summer (NA) - Fearless Draft",
+      "date": "2026-09-05",
+      "week": "WEEK7",
+      "patch": "16.17",
+      "game": "Sentinels vs Cloud9",
+      "sourceUrl": "https://gol.gg/game/stats/82455/page-game/",
+      "teamA": "Cloud9",
+      "teamB": "Sentinels",
+      "teamAId": "2812",
+      "teamBId": "2955",
+      "killsA": 21,
+      "killsB": 13,
+      "totalKills": 34,
+      "collectedAt": "2026-09-05T23:54:18.957Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Rumble",
+          "Wukong",
+          "Yone",
+          "Kalista",
+          "Renata Glasc"
+        ],
+        "teamB": [
+          "Kennen",
+          "Nocturne",
+          "Ahri",
+          "Yunara",
+          "Lulu"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Rumble",
+          "JUNGLE": "Wukong",
+          "MID": "Yone",
+          "ADC": "Kalista",
+          "SUP": "Renata Glasc"
+        },
+        "teamB": {
+          "TOP": "Kennen",
+          "JUNGLE": "Nocturne",
+          "MID": "Ahri",
+          "ADC": "Yunara",
+          "SUP": "Lulu"
+        }
+      }
+    },
+    {
+      "id": "82457",
+      "league": "LCS",
+      "tournament": "LCS 2026 Summer",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCS 2026 Summer",
+      "tournamentLine": "LCS 2026 Summer (NA) - Fearless Draft",
+      "date": "2026-09-05",
+      "week": "WEEK7",
+      "patch": "16.17",
+      "game": "Dignitas vs Team Liquid",
+      "sourceUrl": "https://gol.gg/game/stats/82457/page-game/",
+      "teamA": "Team Liquid",
+      "teamB": "Dignitas",
+      "teamAId": "2813",
+      "teamBId": "2952",
+      "killsA": 15,
+      "killsB": 2,
+      "totalKills": 17,
+      "collectedAt": "2026-09-05T23:54:19.307Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Jax",
+          "Pantheon",
+          "Syndra",
+          "Lucian",
+          "Nami"
+        ],
+        "teamB": [
+          "Gnar",
+          "Lee Sin",
+          "Twisted Fate",
+          "Ezreal",
+          "Karma"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Jax",
+          "JUNGLE": "Pantheon",
+          "MID": "Syndra",
+          "ADC": "Lucian",
+          "SUP": "Nami"
+        },
+        "teamB": {
+          "TOP": "Gnar",
+          "JUNGLE": "Lee Sin",
+          "MID": "Twisted Fate",
+          "ADC": "Ezreal",
+          "SUP": "Karma"
+        }
+      }
+    },
+    {
+      "id": "82458",
+      "league": "LCS",
+      "tournament": "LCS 2026 Summer",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCS 2026 Summer",
+      "tournamentLine": "LCS 2026 Summer (NA) - Fearless Draft",
+      "date": "2026-09-05",
+      "week": "WEEK7",
+      "patch": "16.17",
+      "game": "Dignitas vs Team Liquid",
+      "sourceUrl": "https://gol.gg/game/stats/82458/page-game/",
+      "teamA": "Dignitas",
+      "teamB": "Team Liquid",
+      "teamAId": "2952",
+      "teamBId": "2813",
+      "killsA": 4,
+      "killsB": 20,
+      "totalKills": 24,
+      "collectedAt": "2026-09-05T23:54:19.516Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Ambessa",
+          "Wukong",
+          "Akali",
+          "Yunara",
+          "Lulu"
+        ],
+        "teamB": [
+          "KSante",
+          "Chogath",
+          "Orianna",
+          "Ashe",
+          "Seraphine"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Ambessa",
+          "JUNGLE": "Wukong",
+          "MID": "Akali",
+          "ADC": "Yunara",
+          "SUP": "Lulu"
+        },
+        "teamB": {
+          "TOP": "KSante",
+          "JUNGLE": "Chogath",
+          "MID": "Orianna",
+          "ADC": "Ashe",
+          "SUP": "Seraphine"
         }
       }
     },
