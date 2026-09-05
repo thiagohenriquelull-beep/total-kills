@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-05T16:51:21.200Z",
+  "generatedAt": "2026-09-05T20:22:43.238Z",
   "methodology": "Walk-forward por liga (min 30 jogos treino). Linha simulada = linha justa pre-draft do modelo. Odds: 1.80/1.80.",
-  "sourceGames": 2396,
-  "generatedFromGamesUpdatedAt": "2026-09-05T16:51:01.374Z",
-  "backtestRows": 2094,
-  "count": 2094,
+  "sourceGames": 2404,
+  "generatedFromGamesUpdatedAt": "2026-09-05T20:22:13.564Z",
+  "backtestRows": 2102,
+  "count": 2102,
   "games": [
     {
       "l": "LCK",
@@ -15907,6 +15907,46 @@
       "as": "over"
     },
     {
+      "l": "CBLOL",
+      "a": 20,
+      "ml": 26.5,
+      "pred": 27.21,
+      "evo": -0.0335,
+      "evu": -0.1665,
+      "s": "",
+      "as": "under"
+    },
+    {
+      "l": "CBLOL",
+      "a": 28,
+      "ml": 25.5,
+      "pred": 26.23,
+      "evo": -0.0311,
+      "evu": -0.1689,
+      "s": "",
+      "as": "over"
+    },
+    {
+      "l": "CBLOL",
+      "a": 23,
+      "ml": 25.5,
+      "pred": 25.86,
+      "evo": -0.0663,
+      "evu": -0.1337,
+      "s": "",
+      "as": "under"
+    },
+    {
+      "l": "CBLOL",
+      "a": 25,
+      "ml": 25.5,
+      "pred": 25.94,
+      "evo": -0.0588,
+      "evu": -0.1412,
+      "s": "",
+      "as": "under"
+    },
+    {
       "l": "LEC",
       "a": 33,
       "ml": 29.5,
@@ -19113,6 +19153,46 @@
       "pred": 30.09,
       "evo": -0.1353,
       "evu": -0.0647,
+      "s": "",
+      "as": "under"
+    },
+    {
+      "l": "LEC",
+      "a": 20,
+      "ml": 29.5,
+      "pred": 29.58,
+      "evo": -0.0934,
+      "evu": -0.1066,
+      "s": "",
+      "as": "under"
+    },
+    {
+      "l": "LEC",
+      "a": 34,
+      "ml": 28.5,
+      "pred": 29.48,
+      "evo": -0.0153,
+      "evu": -0.1847,
+      "s": "",
+      "as": "over"
+    },
+    {
+      "l": "LEC",
+      "a": 15,
+      "ml": 28.5,
+      "pred": 28.59,
+      "evo": -0.0925,
+      "evu": -0.1075,
+      "s": "",
+      "as": "under"
+    },
+    {
+      "l": "LEC",
+      "a": 26,
+      "ml": 27.5,
+      "pred": 26.91,
+      "evo": -0.1511,
+      "evu": -0.0489,
       "s": "",
       "as": "under"
     },
