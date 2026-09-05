@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "GOL logged session",
-    "createdAt": "2026-09-04T20:46:42.871Z",
+    "createdAt": "2026-09-05T00:07:30.416Z",
     "collectorVersion": "new-games-http-2026-07-25",
     "leagues": [
       {
@@ -59,7 +59,7 @@
       },
       {
         "league": "LPL",
-        "games": 640,
+        "games": 643,
         "tournaments": [
           "LPL 2026 Grand Finals",
           "LPL 2026 Split 1",
@@ -83,11 +83,11 @@
       "side",
       "bans"
     ],
-    "updatedAt": "2026-09-04T20:46:42.871Z",
+    "updatedAt": "2026-09-05T00:07:30.416Z",
     "lastIncrementalMerge": {
       "source": "data/jogos-novos.json",
-      "mergedAt": "2026-09-04T20:46:42.871Z",
-      "added": 1,
+      "mergedAt": "2026-09-05T00:07:30.416Z",
+      "added": 3,
       "duplicatesSkipped": 0,
       "patches": [
         "16.17"
@@ -105,7 +105,7 @@
         "trim repeated spaces"
       ]
     },
-    "totalGames": 2378,
+    "totalGames": 2381,
     "dataCorrections": [
       {
         "correctedAt": "2026-07-14T01:19:11.794Z",
@@ -105570,6 +105570,174 @@
           "MID": "Orianna",
           "ADC": "Ezreal",
           "SUP": "Seraphine"
+        }
+      }
+    },
+    {
+      "id": "82440",
+      "league": "LPL",
+      "tournament": "LPL 2026 Grand Finals",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LPL 2026 Grand Finals",
+      "tournamentLine": "LPL 2026 Grand Finals (CN) - Fearless Draft",
+      "date": "2026-09-04",
+      "week": "ROUND2",
+      "patch": "16.17",
+      "game": "AL vs LGD Gaming",
+      "sourceUrl": "https://gol.gg/game/stats/82440/page-game/",
+      "teamA": "Anyone's Legend",
+      "teamB": "LGD Gaming",
+      "teamAId": "2848",
+      "teamBId": "2858",
+      "killsA": 12,
+      "killsB": 2,
+      "totalKills": 14,
+      "collectedAt": "2026-09-05T00:07:18.792Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Yorick",
+          "Nocturne",
+          "Syndra",
+          "Lucian",
+          "Milio"
+        ],
+        "teamB": [
+          "KSante",
+          "Lee Sin",
+          "Viktor",
+          "Yunara",
+          "Lulu"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Yorick",
+          "JUNGLE": "Nocturne",
+          "MID": "Syndra",
+          "ADC": "Lucian",
+          "SUP": "Milio"
+        },
+        "teamB": {
+          "TOP": "KSante",
+          "JUNGLE": "Lee Sin",
+          "MID": "Viktor",
+          "ADC": "Yunara",
+          "SUP": "Lulu"
+        }
+      }
+    },
+    {
+      "id": "82441",
+      "league": "LPL",
+      "tournament": "LPL 2026 Grand Finals",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LPL 2026 Grand Finals",
+      "tournamentLine": "LPL 2026 Grand Finals (CN) - Fearless Draft",
+      "date": "2026-09-04",
+      "week": "ROUND2",
+      "patch": "16.17",
+      "game": "AL vs LGD Gaming",
+      "sourceUrl": "https://gol.gg/game/stats/82441/page-game/",
+      "teamA": "Anyone's Legend",
+      "teamB": "LGD Gaming",
+      "teamAId": "2848",
+      "teamBId": "2858",
+      "killsA": 14,
+      "killsB": 18,
+      "totalKills": 32,
+      "collectedAt": "2026-09-05T00:07:19.021Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Ambessa",
+          "Maokai",
+          "Yone",
+          "Caitlyn",
+          "Lux"
+        ],
+        "teamB": [
+          "Camille",
+          "Pantheon",
+          "Ahri",
+          "Jhin",
+          "Bard"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Ambessa",
+          "JUNGLE": "Maokai",
+          "MID": "Yone",
+          "ADC": "Caitlyn",
+          "SUP": "Lux"
+        },
+        "teamB": {
+          "TOP": "Camille",
+          "JUNGLE": "Pantheon",
+          "MID": "Ahri",
+          "ADC": "Jhin",
+          "SUP": "Bard"
+        }
+      }
+    },
+    {
+      "id": "82442",
+      "league": "LPL",
+      "tournament": "LPL 2026 Grand Finals",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LPL 2026 Grand Finals",
+      "tournamentLine": "LPL 2026 Grand Finals (CN) - Fearless Draft",
+      "date": "2026-09-04",
+      "week": "ROUND2",
+      "patch": "16.17",
+      "game": "AL vs LGD Gaming",
+      "sourceUrl": "https://gol.gg/game/stats/82442/page-game/",
+      "teamA": "Anyone's Legend",
+      "teamB": "LGD Gaming",
+      "teamAId": "2848",
+      "teamBId": "2858",
+      "killsA": 13,
+      "killsB": 5,
+      "totalKills": 18,
+      "collectedAt": "2026-09-05T00:07:19.240Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Nasus",
+          "Qiyana",
+          "Annie",
+          "Corki",
+          "Neeko"
+        ],
+        "teamB": [
+          "Jax",
+          "Chogath",
+          "Twisted Fate",
+          "Kalista",
+          "Renata Glasc"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Nasus",
+          "JUNGLE": "Qiyana",
+          "MID": "Annie",
+          "ADC": "Corki",
+          "SUP": "Neeko"
+        },
+        "teamB": {
+          "TOP": "Jax",
+          "JUNGLE": "Chogath",
+          "MID": "Twisted Fate",
+          "ADC": "Kalista",
+          "SUP": "Renata Glasc"
         }
       }
     },
