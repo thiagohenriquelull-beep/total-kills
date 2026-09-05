@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "GOL logged session",
-    "createdAt": "2026-09-05T00:07:30.416Z",
+    "createdAt": "2026-09-05T13:29:12.268Z",
     "collectorVersion": "new-games-http-2026-07-25",
     "leagues": [
       {
@@ -16,7 +16,7 @@
       },
       {
         "league": "LCK",
-        "games": 361,
+        "games": 365,
         "tournaments": [
           "LCK 2026 Road to MSI",
           "LCK 2026 Rounds 1-2",
@@ -48,10 +48,11 @@
       },
       {
         "league": "LEC",
-        "games": 348,
+        "games": 351,
         "tournaments": [
           "LEC 2026 Spring Playoffs",
           "LEC 2026 Spring Season",
+          "LEC 2026 Summer Playoffs",
           "LEC 2026 Summer Season",
           "LEC 2026 Versus Playoffs",
           "LEC 2026 Versus Season"
@@ -59,7 +60,7 @@
       },
       {
         "league": "LPL",
-        "games": 643,
+        "games": 648,
         "tournaments": [
           "LPL 2026 Grand Finals",
           "LPL 2026 Split 1",
@@ -83,16 +84,19 @@
       "side",
       "bans"
     ],
-    "updatedAt": "2026-09-05T00:07:30.416Z",
+    "updatedAt": "2026-09-05T13:29:12.268Z",
     "lastIncrementalMerge": {
       "source": "data/jogos-novos.json",
-      "mergedAt": "2026-09-05T00:07:30.416Z",
-      "added": 3,
+      "mergedAt": "2026-09-05T13:29:12.268Z",
+      "added": 12,
       "duplicatesSkipped": 0,
       "patches": [
+        "16.16",
         "16.17"
       ],
       "tournaments": [
+        "LCK 2026 Season Playoffs",
+        "LEC 2026 Summer Playoffs",
         "LPL 2026 Grand Finals"
       ]
     },
@@ -105,7 +109,7 @@
         "trim repeated spaces"
       ]
     },
-    "totalGames": 2381,
+    "totalGames": 2393,
     "dataCorrections": [
       {
         "correctedAt": "2026-07-14T01:19:11.794Z",
@@ -28064,6 +28068,230 @@
           "TOP": "Gwen",
           "JUNGLE": "Skarner",
           "MID": "Akali",
+          "ADC": "Kalista",
+          "SUP": "Renata Glasc"
+        }
+      }
+    },
+    {
+      "id": "82625",
+      "league": "LCK",
+      "tournament": "LCK 2026 Season Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LCK 2026 Season Playoffs",
+      "tournamentLine": "LCK 2026 Season Playoffs (KR) - Fearless Draft",
+      "date": "2026-09-05",
+      "week": "ROUND4",
+      "patch": "16.16",
+      "game": "Gen.G vs HLE",
+      "sourceUrl": "https://gol.gg/game/stats/82625/page-game/",
+      "teamA": "Hanwha Life Esports",
+      "teamB": "Gen.G",
+      "teamAId": "2805",
+      "teamBId": "2804",
+      "killsA": 16,
+      "killsB": 8,
+      "totalKills": 24,
+      "collectedAt": "2026-09-05T13:28:15.823Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Jayce",
+          "Nocturne",
+          "Orianna",
+          "Lucian",
+          "Milio"
+        ],
+        "teamB": [
+          "Yorick",
+          "Chogath",
+          "Ryze",
+          "Ezreal",
+          "Karma"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Jayce",
+          "JUNGLE": "Nocturne",
+          "MID": "Orianna",
+          "ADC": "Lucian",
+          "SUP": "Milio"
+        },
+        "teamB": {
+          "TOP": "Yorick",
+          "JUNGLE": "Chogath",
+          "MID": "Ryze",
+          "ADC": "Ezreal",
+          "SUP": "Karma"
+        }
+      }
+    },
+    {
+      "id": "82626",
+      "league": "LCK",
+      "tournament": "LCK 2026 Season Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LCK 2026 Season Playoffs",
+      "tournamentLine": "LCK 2026 Season Playoffs (KR) - Fearless Draft",
+      "date": "2026-09-05",
+      "week": "ROUND4",
+      "patch": "16.16",
+      "game": "Gen.G vs HLE",
+      "sourceUrl": "https://gol.gg/game/stats/82626/page-game/",
+      "teamA": "Gen.G",
+      "teamB": "Hanwha Life Esports",
+      "teamAId": "2804",
+      "teamBId": "2805",
+      "killsA": 34,
+      "killsB": 27,
+      "totalKills": 61,
+      "collectedAt": "2026-09-05T13:28:15.991Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Rumble",
+          "Jarvan IV",
+          "Locke",
+          "Jhin",
+          "Shen"
+        ],
+        "teamB": [
+          "Ambessa",
+          "Qiyana",
+          "Syndra",
+          "Caitlyn",
+          "Bard"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Rumble",
+          "JUNGLE": "Jarvan IV",
+          "MID": "Locke",
+          "ADC": "Jhin",
+          "SUP": "Shen"
+        },
+        "teamB": {
+          "TOP": "Ambessa",
+          "JUNGLE": "Qiyana",
+          "MID": "Syndra",
+          "ADC": "Caitlyn",
+          "SUP": "Bard"
+        }
+      }
+    },
+    {
+      "id": "82627",
+      "league": "LCK",
+      "tournament": "LCK 2026 Season Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LCK 2026 Season Playoffs",
+      "tournamentLine": "LCK 2026 Season Playoffs (KR) - Fearless Draft",
+      "date": "2026-09-05",
+      "week": "ROUND4",
+      "patch": "16.16",
+      "game": "Gen.G vs HLE",
+      "sourceUrl": "https://gol.gg/game/stats/82627/page-game/",
+      "teamA": "Hanwha Life Esports",
+      "teamB": "Gen.G",
+      "teamAId": "2805",
+      "teamBId": "2804",
+      "killsA": 9,
+      "killsB": 26,
+      "totalKills": 35,
+      "collectedAt": "2026-09-05T13:28:16.201Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Camille",
+          "Pantheon",
+          "Ahri",
+          "Ziggs",
+          "Pyke"
+        ],
+        "teamB": [
+          "Gwen",
+          "Aatrox",
+          "Akali",
+          "Ashe",
+          "Seraphine"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Camille",
+          "JUNGLE": "Pantheon",
+          "MID": "Ahri",
+          "ADC": "Ziggs",
+          "SUP": "Pyke"
+        },
+        "teamB": {
+          "TOP": "Gwen",
+          "JUNGLE": "Aatrox",
+          "MID": "Akali",
+          "ADC": "Ashe",
+          "SUP": "Seraphine"
+        }
+      }
+    },
+    {
+      "id": "82628",
+      "league": "LCK",
+      "tournament": "LCK 2026 Season Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LCK 2026 Season Playoffs",
+      "tournamentLine": "LCK 2026 Season Playoffs (KR) - Fearless Draft",
+      "date": "2026-09-05",
+      "week": "ROUND4",
+      "patch": "16.16",
+      "game": "Gen.G vs HLE",
+      "sourceUrl": "https://gol.gg/game/stats/82628/page-game/",
+      "teamA": "Gen.G",
+      "teamB": "Hanwha Life Esports",
+      "teamAId": "2804",
+      "teamBId": "2805",
+      "killsA": 24,
+      "killsB": 12,
+      "totalKills": 36,
+      "collectedAt": "2026-09-05T13:28:16.396Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Varus",
+          "Vi",
+          "Vex",
+          "Miss Fortune",
+          "Neeko"
+        ],
+        "teamB": [
+          "Nasus",
+          "Naafiri",
+          "Sylas",
+          "Kalista",
+          "Renata Glasc"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Varus",
+          "JUNGLE": "Vi",
+          "MID": "Vex",
+          "ADC": "Miss Fortune",
+          "SUP": "Neeko"
+        },
+        "teamB": {
+          "TOP": "Nasus",
+          "JUNGLE": "Naafiri",
+          "MID": "Sylas",
           "ADC": "Kalista",
           "SUP": "Renata Glasc"
         }
@@ -74534,6 +74762,174 @@
       }
     },
     {
+      "id": "82466",
+      "league": "LEC",
+      "tournament": "LEC 2026 Summer Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LEC 2026 Summer Playoffs",
+      "tournamentLine": "LEC 2026 Summer Playoffs (EUW) - Fearless Draft",
+      "date": "2026-09-05",
+      "week": "ROUND1",
+      "patch": "16.17",
+      "game": "VIT vs G2 Esports",
+      "sourceUrl": "https://gol.gg/game/stats/82466/page-game/",
+      "teamA": "G2 Esports",
+      "teamB": "Team Vitality",
+      "teamAId": "2897",
+      "teamBId": "2905",
+      "killsA": 22,
+      "killsB": 18,
+      "totalKills": 40,
+      "collectedAt": "2026-09-05T13:28:48.848Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Camille",
+          "Xin Zhao",
+          "Orianna",
+          "Ashe",
+          "Seraphine"
+        ],
+        "teamB": [
+          "Ambessa",
+          "Vi",
+          "Ahri",
+          "Ezreal",
+          "Karma"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Camille",
+          "JUNGLE": "Xin Zhao",
+          "MID": "Orianna",
+          "ADC": "Ashe",
+          "SUP": "Seraphine"
+        },
+        "teamB": {
+          "TOP": "Ambessa",
+          "JUNGLE": "Vi",
+          "MID": "Ahri",
+          "ADC": "Ezreal",
+          "SUP": "Karma"
+        }
+      }
+    },
+    {
+      "id": "82467",
+      "league": "LEC",
+      "tournament": "LEC 2026 Summer Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LEC 2026 Summer Playoffs",
+      "tournamentLine": "LEC 2026 Summer Playoffs (EUW) - Fearless Draft",
+      "date": "2026-09-05",
+      "week": "ROUND1",
+      "patch": "16.17",
+      "game": "VIT vs G2 Esports",
+      "sourceUrl": "https://gol.gg/game/stats/82467/page-game/",
+      "teamA": "G2 Esports",
+      "teamB": "Team Vitality",
+      "teamAId": "2897",
+      "teamBId": "2905",
+      "killsA": 19,
+      "killsB": 12,
+      "totalKills": 31,
+      "collectedAt": "2026-09-05T13:28:49.030Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Rumble",
+          "Skarner",
+          "Yone",
+          "Yunara",
+          "Alistar"
+        ],
+        "teamB": [
+          "Ryze",
+          "Jarvan IV",
+          "Viktor",
+          "Jhin",
+          "Nautilus"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Rumble",
+          "JUNGLE": "Skarner",
+          "MID": "Yone",
+          "ADC": "Yunara",
+          "SUP": "Alistar"
+        },
+        "teamB": {
+          "TOP": "Ryze",
+          "JUNGLE": "Jarvan IV",
+          "MID": "Viktor",
+          "ADC": "Jhin",
+          "SUP": "Nautilus"
+        }
+      }
+    },
+    {
+      "id": "82468",
+      "league": "LEC",
+      "tournament": "LEC 2026 Summer Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LEC 2026 Summer Playoffs",
+      "tournamentLine": "LEC 2026 Summer Playoffs (EUW) - Fearless Draft",
+      "date": "2026-09-05",
+      "week": "ROUND1",
+      "patch": "16.17",
+      "game": "VIT vs G2 Esports",
+      "sourceUrl": "https://gol.gg/game/stats/82468/page-game/",
+      "teamA": "G2 Esports",
+      "teamB": "Team Vitality",
+      "teamAId": "2897",
+      "teamBId": "2905",
+      "killsA": 15,
+      "killsB": 10,
+      "totalKills": 25,
+      "collectedAt": "2026-09-05T13:28:49.197Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Olaf",
+          "Pantheon",
+          "LeBlanc",
+          "Xayah",
+          "Rakan"
+        ],
+        "teamB": [
+          "Trundle",
+          "Chogath",
+          "Hwei",
+          "Lucian",
+          "Milio"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Olaf",
+          "JUNGLE": "Pantheon",
+          "MID": "LeBlanc",
+          "ADC": "Xayah",
+          "SUP": "Rakan"
+        },
+        "teamB": {
+          "TOP": "Trundle",
+          "JUNGLE": "Chogath",
+          "MID": "Hwei",
+          "ADC": "Lucian",
+          "SUP": "Milio"
+        }
+      }
+    },
+    {
       "id": "73148",
       "league": "LPL",
       "tournament": "LPL 2026 Split 1",
@@ -105738,6 +106134,286 @@
           "MID": "Twisted Fate",
           "ADC": "Kalista",
           "SUP": "Renata Glasc"
+        }
+      }
+    },
+    {
+      "id": "82424",
+      "league": "LPL",
+      "tournament": "LPL 2026 Grand Finals",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LPL 2026 Grand Finals",
+      "tournamentLine": "LPL 2026 Grand Finals (CN) - Fearless Draft",
+      "date": "2026-09-05",
+      "week": "ROUND1",
+      "patch": "16.17",
+      "game": "IG vs Top Esports",
+      "sourceUrl": "https://gol.gg/game/stats/82424/page-game/",
+      "teamA": "Top Esports",
+      "teamB": "Invictus Gaming",
+      "teamAId": "2852",
+      "teamBId": "2850",
+      "killsA": 10,
+      "killsB": 21,
+      "totalKills": 31,
+      "collectedAt": "2026-09-05T13:29:03.614Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Olaf",
+          "Qiyana",
+          "Akali",
+          "Lucian",
+          "Milio"
+        ],
+        "teamB": [
+          "Rumble",
+          "Jarvan IV",
+          "Orianna",
+          "Caitlyn",
+          "Lux"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Olaf",
+          "JUNGLE": "Qiyana",
+          "MID": "Akali",
+          "ADC": "Lucian",
+          "SUP": "Milio"
+        },
+        "teamB": {
+          "TOP": "Rumble",
+          "JUNGLE": "Jarvan IV",
+          "MID": "Orianna",
+          "ADC": "Caitlyn",
+          "SUP": "Lux"
+        }
+      }
+    },
+    {
+      "id": "82425",
+      "league": "LPL",
+      "tournament": "LPL 2026 Grand Finals",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LPL 2026 Grand Finals",
+      "tournamentLine": "LPL 2026 Grand Finals (CN) - Fearless Draft",
+      "date": "2026-09-05",
+      "week": "ROUND1",
+      "patch": "16.17",
+      "game": "IG vs Top Esports",
+      "sourceUrl": "https://gol.gg/game/stats/82425/page-game/",
+      "teamA": "Invictus Gaming",
+      "teamB": "Top Esports",
+      "teamAId": "2850",
+      "teamBId": "2852",
+      "killsA": 5,
+      "killsB": 23,
+      "totalKills": 28,
+      "collectedAt": "2026-09-05T13:29:03.782Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "KSante",
+          "Maokai",
+          "Anivia",
+          "Kalista",
+          "Renata Glasc"
+        ],
+        "teamB": [
+          "Gwen",
+          "Naafiri",
+          "Ryze",
+          "Ashe",
+          "Seraphine"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "KSante",
+          "JUNGLE": "Maokai",
+          "MID": "Anivia",
+          "ADC": "Kalista",
+          "SUP": "Renata Glasc"
+        },
+        "teamB": {
+          "TOP": "Gwen",
+          "JUNGLE": "Naafiri",
+          "MID": "Ryze",
+          "ADC": "Ashe",
+          "SUP": "Seraphine"
+        }
+      }
+    },
+    {
+      "id": "82426",
+      "league": "LPL",
+      "tournament": "LPL 2026 Grand Finals",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LPL 2026 Grand Finals",
+      "tournamentLine": "LPL 2026 Grand Finals (CN) - Fearless Draft",
+      "date": "2026-09-05",
+      "week": "ROUND1",
+      "patch": "16.17",
+      "game": "IG vs Top Esports",
+      "sourceUrl": "https://gol.gg/game/stats/82426/page-game/",
+      "teamA": "Invictus Gaming",
+      "teamB": "Top Esports",
+      "teamAId": "2850",
+      "teamBId": "2852",
+      "killsA": 16,
+      "killsB": 12,
+      "totalKills": 28,
+      "collectedAt": "2026-09-05T13:29:03.950Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Gragas",
+          "Lee Sin",
+          "Yone",
+          "Syndra",
+          "Nautilus"
+        ],
+        "teamB": [
+          "Jayce",
+          "Skarner",
+          "Azir",
+          "Corki",
+          "Rell"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Gragas",
+          "JUNGLE": "Lee Sin",
+          "MID": "Yone",
+          "ADC": "Syndra",
+          "SUP": "Nautilus"
+        },
+        "teamB": {
+          "TOP": "Jayce",
+          "JUNGLE": "Skarner",
+          "MID": "Azir",
+          "ADC": "Corki",
+          "SUP": "Rell"
+        }
+      }
+    },
+    {
+      "id": "82427",
+      "league": "LPL",
+      "tournament": "LPL 2026 Grand Finals",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LPL 2026 Grand Finals",
+      "tournamentLine": "LPL 2026 Grand Finals (CN) - Fearless Draft",
+      "date": "2026-09-05",
+      "week": "ROUND1",
+      "patch": "16.17",
+      "game": "IG vs Top Esports",
+      "sourceUrl": "https://gol.gg/game/stats/82427/page-game/",
+      "teamA": "Invictus Gaming",
+      "teamB": "Top Esports",
+      "teamAId": "2850",
+      "teamBId": "2852",
+      "killsA": 15,
+      "killsB": 23,
+      "totalKills": 38,
+      "collectedAt": "2026-09-05T13:29:04.121Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Dr. Mundo",
+          "Wukong",
+          "Ahri",
+          "Jhin",
+          "Alistar"
+        ],
+        "teamB": [
+          "Renekton",
+          "Trundle",
+          "Viktor",
+          "Ezreal",
+          "Poppy"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Dr. Mundo",
+          "JUNGLE": "Wukong",
+          "MID": "Ahri",
+          "ADC": "Jhin",
+          "SUP": "Alistar"
+        },
+        "teamB": {
+          "TOP": "Renekton",
+          "JUNGLE": "Trundle",
+          "MID": "Viktor",
+          "ADC": "Ezreal",
+          "SUP": "Poppy"
+        }
+      }
+    },
+    {
+      "id": "82428",
+      "league": "LPL",
+      "tournament": "LPL 2026 Grand Finals",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LPL 2026 Grand Finals",
+      "tournamentLine": "LPL 2026 Grand Finals (CN) - Fearless Draft",
+      "date": "2026-09-05",
+      "week": "ROUND1",
+      "patch": "16.17",
+      "game": "IG vs Top Esports",
+      "sourceUrl": "https://gol.gg/game/stats/82428/page-game/",
+      "teamA": "Top Esports",
+      "teamB": "Invictus Gaming",
+      "teamAId": "2852",
+      "teamBId": "2850",
+      "killsA": 4,
+      "killsB": 23,
+      "totalKills": 27,
+      "collectedAt": "2026-09-05T13:29:04.292Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Vayne",
+          "Xin Zhao",
+          "Hwei",
+          "Zeri",
+          "Yuumi"
+        ],
+        "teamB": [
+          "Camille",
+          "Nocturne",
+          "Galio",
+          "Aphelios",
+          "Thresh"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Vayne",
+          "JUNGLE": "Xin Zhao",
+          "MID": "Hwei",
+          "ADC": "Zeri",
+          "SUP": "Yuumi"
+        },
+        "teamB": {
+          "TOP": "Camille",
+          "JUNGLE": "Nocturne",
+          "MID": "Galio",
+          "ADC": "Aphelios",
+          "SUP": "Thresh"
         }
       }
     },
