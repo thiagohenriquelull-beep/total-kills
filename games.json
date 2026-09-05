@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "GOL logged session",
-    "createdAt": "2026-09-05T13:29:12.268Z",
+    "createdAt": "2026-09-05T16:51:01.374Z",
     "collectorVersion": "new-games-http-2026-07-25",
     "leagues": [
       {
@@ -60,7 +60,7 @@
       },
       {
         "league": "LPL",
-        "games": 648,
+        "games": 651,
         "tournaments": [
           "LPL 2026 Grand Finals",
           "LPL 2026 Split 1",
@@ -84,19 +84,16 @@
       "side",
       "bans"
     ],
-    "updatedAt": "2026-09-05T13:29:12.268Z",
+    "updatedAt": "2026-09-05T16:51:01.374Z",
     "lastIncrementalMerge": {
       "source": "data/jogos-novos.json",
-      "mergedAt": "2026-09-05T13:29:12.268Z",
-      "added": 12,
+      "mergedAt": "2026-09-05T16:51:01.374Z",
+      "added": 3,
       "duplicatesSkipped": 0,
       "patches": [
-        "16.16",
         "16.17"
       ],
       "tournaments": [
-        "LCK 2026 Season Playoffs",
-        "LEC 2026 Summer Playoffs",
         "LPL 2026 Grand Finals"
       ]
     },
@@ -109,7 +106,7 @@
         "trim repeated spaces"
       ]
     },
-    "totalGames": 2393,
+    "totalGames": 2396,
     "dataCorrections": [
       {
         "correctedAt": "2026-07-14T01:19:11.794Z",
@@ -106414,6 +106411,174 @@
           "MID": "Galio",
           "ADC": "Aphelios",
           "SUP": "Thresh"
+        }
+      }
+    },
+    {
+      "id": "82429",
+      "league": "LPL",
+      "tournament": "LPL 2026 Grand Finals",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LPL 2026 Grand Finals",
+      "tournamentLine": "LPL 2026 Grand Finals (CN) - Fearless Draft",
+      "date": "2026-09-05",
+      "week": "ROUND1",
+      "patch": "16.17",
+      "game": "NIP vs JD Gaming",
+      "sourceUrl": "https://gol.gg/game/stats/82429/page-game/",
+      "teamA": "JD Gaming",
+      "teamB": "Ninjas in Pyjamas",
+      "teamAId": "2851",
+      "teamBId": "2855",
+      "killsA": 16,
+      "killsB": 16,
+      "totalKills": 32,
+      "collectedAt": "2026-09-05T16:50:51.809Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "KSante",
+          "Pantheon",
+          "Ryze",
+          "Caitlyn",
+          "Bard"
+        ],
+        "teamB": [
+          "Olaf",
+          "Qiyana",
+          "Twisted Fate",
+          "Ezreal",
+          "Karma"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "KSante",
+          "JUNGLE": "Pantheon",
+          "MID": "Ryze",
+          "ADC": "Caitlyn",
+          "SUP": "Bard"
+        },
+        "teamB": {
+          "TOP": "Olaf",
+          "JUNGLE": "Qiyana",
+          "MID": "Twisted Fate",
+          "ADC": "Ezreal",
+          "SUP": "Karma"
+        }
+      }
+    },
+    {
+      "id": "82430",
+      "league": "LPL",
+      "tournament": "LPL 2026 Grand Finals",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LPL 2026 Grand Finals",
+      "tournamentLine": "LPL 2026 Grand Finals (CN) - Fearless Draft",
+      "date": "2026-09-05",
+      "week": "ROUND1",
+      "patch": "16.17",
+      "game": "NIP vs JD Gaming",
+      "sourceUrl": "https://gol.gg/game/stats/82430/page-game/",
+      "teamA": "Ninjas in Pyjamas",
+      "teamB": "JD Gaming",
+      "teamAId": "2855",
+      "teamBId": "2851",
+      "killsA": 16,
+      "killsB": 9,
+      "totalKills": 25,
+      "collectedAt": "2026-09-05T16:50:52.185Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Varus",
+          "Shyvana",
+          "Galio",
+          "Ashe",
+          "Seraphine"
+        ],
+        "teamB": [
+          "Rumble",
+          "Vi",
+          "Ahri",
+          "Jhin",
+          "Nautilus"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Varus",
+          "JUNGLE": "Shyvana",
+          "MID": "Galio",
+          "ADC": "Ashe",
+          "SUP": "Seraphine"
+        },
+        "teamB": {
+          "TOP": "Rumble",
+          "JUNGLE": "Vi",
+          "MID": "Ahri",
+          "ADC": "Jhin",
+          "SUP": "Nautilus"
+        }
+      }
+    },
+    {
+      "id": "82431",
+      "league": "LPL",
+      "tournament": "LPL 2026 Grand Finals",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LPL 2026 Grand Finals",
+      "tournamentLine": "LPL 2026 Grand Finals (CN) - Fearless Draft",
+      "date": "2026-09-05",
+      "week": "ROUND1",
+      "patch": "16.17",
+      "game": "NIP vs JD Gaming",
+      "sourceUrl": "https://gol.gg/game/stats/82431/page-game/",
+      "teamA": "JD Gaming",
+      "teamB": "Ninjas in Pyjamas",
+      "teamAId": "2851",
+      "teamBId": "2855",
+      "killsA": 10,
+      "killsB": 22,
+      "totalKills": 32,
+      "collectedAt": "2026-09-05T16:50:52.679Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Renekton",
+          "Trundle",
+          "Sylas",
+          "Kalista",
+          "Renata Glasc"
+        ],
+        "teamB": [
+          "Gnar",
+          "Nocturne",
+          "Taliyah",
+          "Xayah",
+          "Rakan"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Renekton",
+          "JUNGLE": "Trundle",
+          "MID": "Sylas",
+          "ADC": "Kalista",
+          "SUP": "Renata Glasc"
+        },
+        "teamB": {
+          "TOP": "Gnar",
+          "JUNGLE": "Nocturne",
+          "MID": "Taliyah",
+          "ADC": "Xayah",
+          "SUP": "Rakan"
         }
       }
     },
