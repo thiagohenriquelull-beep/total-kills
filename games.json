@@ -1,12 +1,12 @@
 {
   "meta": {
     "source": "GOL logged session",
-    "createdAt": "2026-09-06T17:03:53.744Z",
+    "createdAt": "2026-09-06T20:25:11.163Z",
     "collectorVersion": "new-games-http-2026-07-25",
     "leagues": [
       {
         "league": "CBLOL",
-        "games": 239,
+        "games": 242,
         "tournaments": [
           "CBLOL 2026 Split 1",
           "CBLOL 2026 Split 1 Playoffs",
@@ -49,7 +49,7 @@
       },
       {
         "league": "LEC",
-        "games": 355,
+        "games": 359,
         "tournaments": [
           "LEC 2026 Spring Playoffs",
           "LEC 2026 Spring Season",
@@ -85,17 +85,18 @@
       "side",
       "bans"
     ],
-    "updatedAt": "2026-09-06T17:03:53.744Z",
+    "updatedAt": "2026-09-06T20:25:11.163Z",
     "lastIncrementalMerge": {
       "source": "data/jogos-novos.json",
-      "mergedAt": "2026-09-06T17:03:53.744Z",
-      "added": 5,
+      "mergedAt": "2026-09-06T20:25:11.163Z",
+      "added": 7,
       "duplicatesSkipped": 0,
       "patches": [
         "16.17"
       ],
       "tournaments": [
-        "LPL 2026 Grand Finals"
+        "CBLOL 2026 Split 2 Playoffs",
+        "LEC 2026 Summer Playoffs"
       ]
     },
     "nameCleanup": {
@@ -107,7 +108,7 @@
         "trim repeated spaces"
       ]
     },
-    "totalGames": 2421,
+    "totalGames": 2428,
     "dataCorrections": [
       {
         "correctedAt": "2026-07-14T01:19:11.794Z",
@@ -10955,6 +10956,174 @@
           "MID": "Orianna",
           "ADC": "Caitlyn",
           "SUP": "Braum"
+        }
+      }
+    },
+    {
+      "id": "82449",
+      "league": "CBLOL",
+      "tournament": "CBLOL 2026 Split 2 Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "CBLOL 2026 Split 2 Playoffs",
+      "tournamentLine": "CBLOL 2026 Split 2 Playoffs (BR) - Fearless Draft",
+      "date": "2026-09-06",
+      "week": "ROUND1",
+      "patch": "16.17",
+      "game": "FURIA vs RED Canids",
+      "sourceUrl": "https://gol.gg/game/stats/82449/page-game/",
+      "teamA": "RED Canids",
+      "teamB": "FURIA",
+      "teamAId": "2893",
+      "teamBId": "2889",
+      "killsA": 6,
+      "killsB": 14,
+      "totalKills": 20,
+      "collectedAt": "2026-09-06T20:24:00.941Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Olaf",
+          "Lee Sin",
+          "Cassiopeia",
+          "Ziggs",
+          "Leona"
+        ],
+        "teamB": [
+          "Jax",
+          "Naafiri",
+          "Viktor",
+          "Ezreal",
+          "Karma"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Olaf",
+          "JUNGLE": "Lee Sin",
+          "MID": "Cassiopeia",
+          "ADC": "Ziggs",
+          "SUP": "Leona"
+        },
+        "teamB": {
+          "TOP": "Jax",
+          "JUNGLE": "Naafiri",
+          "MID": "Viktor",
+          "ADC": "Ezreal",
+          "SUP": "Karma"
+        }
+      }
+    },
+    {
+      "id": "82450",
+      "league": "CBLOL",
+      "tournament": "CBLOL 2026 Split 2 Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "CBLOL 2026 Split 2 Playoffs",
+      "tournamentLine": "CBLOL 2026 Split 2 Playoffs (BR) - Fearless Draft",
+      "date": "2026-09-06",
+      "week": "ROUND1",
+      "patch": "16.17",
+      "game": "FURIA vs RED Canids",
+      "sourceUrl": "https://gol.gg/game/stats/82450/page-game/",
+      "teamA": "FURIA",
+      "teamB": "RED Canids",
+      "teamAId": "2889",
+      "teamBId": "2893",
+      "killsA": 14,
+      "killsB": 6,
+      "totalKills": 20,
+      "collectedAt": "2026-09-06T20:24:01.149Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Rumble",
+          "Trundle",
+          "Ryze",
+          "Kalista",
+          "Renata Glasc"
+        ],
+        "teamB": [
+          "Ambessa",
+          "Wukong",
+          "Anivia",
+          "Yunara",
+          "Lulu"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Rumble",
+          "JUNGLE": "Trundle",
+          "MID": "Ryze",
+          "ADC": "Kalista",
+          "SUP": "Renata Glasc"
+        },
+        "teamB": {
+          "TOP": "Ambessa",
+          "JUNGLE": "Wukong",
+          "MID": "Anivia",
+          "ADC": "Yunara",
+          "SUP": "Lulu"
+        }
+      }
+    },
+    {
+      "id": "82451",
+      "league": "CBLOL",
+      "tournament": "CBLOL 2026 Split 2 Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "CBLOL 2026 Split 2 Playoffs",
+      "tournamentLine": "CBLOL 2026 Split 2 Playoffs (BR) - Fearless Draft",
+      "date": "2026-09-06",
+      "week": "ROUND1",
+      "patch": "16.17",
+      "game": "FURIA vs RED Canids",
+      "sourceUrl": "https://gol.gg/game/stats/82451/page-game/",
+      "teamA": "FURIA",
+      "teamB": "RED Canids",
+      "teamAId": "2889",
+      "teamBId": "2893",
+      "killsA": 11,
+      "killsB": 4,
+      "totalKills": 15,
+      "collectedAt": "2026-09-06T20:24:01.321Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Gwen",
+          "Xin Zhao",
+          "Twisted Fate",
+          "Ashe",
+          "Seraphine"
+        ],
+        "teamB": [
+          "KSante",
+          "Qiyana",
+          "Sylas",
+          "Caitlyn",
+          "Bard"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Gwen",
+          "JUNGLE": "Xin Zhao",
+          "MID": "Twisted Fate",
+          "ADC": "Ashe",
+          "SUP": "Seraphine"
+        },
+        "teamB": {
+          "TOP": "KSante",
+          "JUNGLE": "Qiyana",
+          "MID": "Sylas",
+          "ADC": "Caitlyn",
+          "SUP": "Bard"
         }
       }
     },
@@ -75820,6 +75989,230 @@
           "MID": "Syndra",
           "ADC": "Kalista",
           "SUP": "Renata Glasc"
+        }
+      }
+    },
+    {
+      "id": "82730",
+      "league": "LEC",
+      "tournament": "LEC 2026 Summer Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LEC 2026 Summer Playoffs",
+      "tournamentLine": "LEC 2026 Summer Playoffs (EUW) - Fearless Draft",
+      "date": "2026-09-06",
+      "week": "ROUND3",
+      "patch": "16.17",
+      "game": "KC vs G2 Esports",
+      "sourceUrl": "https://gol.gg/game/stats/82730/page-game/",
+      "teamA": "Karmine Corp",
+      "teamB": "G2 Esports",
+      "teamAId": "2899",
+      "teamBId": "2897",
+      "killsA": 11,
+      "killsB": 23,
+      "totalKills": 34,
+      "collectedAt": "2026-09-06T20:24:49.473Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Jayce",
+          "Vi",
+          "Ahri",
+          "Caitlyn",
+          "Bard"
+        ],
+        "teamB": [
+          "KSante",
+          "Xin Zhao",
+          "Viktor",
+          "Ezreal",
+          "Karma"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Jayce",
+          "JUNGLE": "Vi",
+          "MID": "Ahri",
+          "ADC": "Caitlyn",
+          "SUP": "Bard"
+        },
+        "teamB": {
+          "TOP": "KSante",
+          "JUNGLE": "Xin Zhao",
+          "MID": "Viktor",
+          "ADC": "Ezreal",
+          "SUP": "Karma"
+        }
+      }
+    },
+    {
+      "id": "82731",
+      "league": "LEC",
+      "tournament": "LEC 2026 Summer Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LEC 2026 Summer Playoffs",
+      "tournamentLine": "LEC 2026 Summer Playoffs (EUW) - Fearless Draft",
+      "date": "2026-09-06",
+      "week": "ROUND3",
+      "patch": "16.17",
+      "game": "KC vs G2 Esports",
+      "sourceUrl": "https://gol.gg/game/stats/82731/page-game/",
+      "teamA": "G2 Esports",
+      "teamB": "Karmine Corp",
+      "teamAId": "2897",
+      "teamBId": "2899",
+      "killsA": 22,
+      "killsB": 14,
+      "totalKills": 36,
+      "collectedAt": "2026-09-06T20:24:49.635Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Camille",
+          "Jarvan IV",
+          "Galio",
+          "Yunara",
+          "Lulu"
+        ],
+        "teamB": [
+          "Olaf",
+          "Lee Sin",
+          "Orianna",
+          "Lucian",
+          "Milio"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Camille",
+          "JUNGLE": "Jarvan IV",
+          "MID": "Galio",
+          "ADC": "Yunara",
+          "SUP": "Lulu"
+        },
+        "teamB": {
+          "TOP": "Olaf",
+          "JUNGLE": "Lee Sin",
+          "MID": "Orianna",
+          "ADC": "Lucian",
+          "SUP": "Milio"
+        }
+      }
+    },
+    {
+      "id": "82732",
+      "league": "LEC",
+      "tournament": "LEC 2026 Summer Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LEC 2026 Summer Playoffs",
+      "tournamentLine": "LEC 2026 Summer Playoffs (EUW) - Fearless Draft",
+      "date": "2026-09-06",
+      "week": "ROUND3",
+      "patch": "16.17",
+      "game": "KC vs G2 Esports",
+      "sourceUrl": "https://gol.gg/game/stats/82732/page-game/",
+      "teamA": "G2 Esports",
+      "teamB": "Karmine Corp",
+      "teamAId": "2897",
+      "teamBId": "2899",
+      "killsA": 1,
+      "killsB": 14,
+      "totalKills": 15,
+      "collectedAt": "2026-09-06T20:24:49.841Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Zaahen",
+          "Chogath",
+          "Syndra",
+          "Xayah",
+          "Rakan"
+        ],
+        "teamB": [
+          "Ambessa",
+          "Qiyana",
+          "Ryze",
+          "Varus",
+          "Alistar"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Zaahen",
+          "JUNGLE": "Chogath",
+          "MID": "Syndra",
+          "ADC": "Xayah",
+          "SUP": "Rakan"
+        },
+        "teamB": {
+          "TOP": "Ambessa",
+          "JUNGLE": "Qiyana",
+          "MID": "Ryze",
+          "ADC": "Varus",
+          "SUP": "Alistar"
+        }
+      }
+    },
+    {
+      "id": "82733",
+      "league": "LEC",
+      "tournament": "LEC 2026 Summer Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LEC 2026 Summer Playoffs",
+      "tournamentLine": "LEC 2026 Summer Playoffs (EUW) - Fearless Draft",
+      "date": "2026-09-06",
+      "week": "ROUND3",
+      "patch": "16.17",
+      "game": "KC vs G2 Esports",
+      "sourceUrl": "https://gol.gg/game/stats/82733/page-game/",
+      "teamA": "Karmine Corp",
+      "teamB": "G2 Esports",
+      "teamAId": "2899",
+      "teamBId": "2897",
+      "killsA": 6,
+      "killsB": 13,
+      "totalKills": 19,
+      "collectedAt": "2026-09-06T20:24:50.052Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Gnar",
+          "Trundle",
+          "Sylas",
+          "Ashe",
+          "Seraphine"
+        ],
+        "teamB": [
+          "Rumble",
+          "Maokai",
+          "Tristana",
+          "Miss Fortune",
+          "Nautilus"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Gnar",
+          "JUNGLE": "Trundle",
+          "MID": "Sylas",
+          "ADC": "Ashe",
+          "SUP": "Seraphine"
+        },
+        "teamB": {
+          "TOP": "Rumble",
+          "JUNGLE": "Maokai",
+          "MID": "Tristana",
+          "ADC": "Miss Fortune",
+          "SUP": "Nautilus"
         }
       }
     },
