@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "GOL logged session",
-    "createdAt": "2026-09-06T13:42:33.251Z",
+    "createdAt": "2026-09-06T17:03:53.744Z",
     "collectorVersion": "new-games-http-2026-07-25",
     "leagues": [
       {
@@ -61,7 +61,7 @@
       },
       {
         "league": "LPL",
-        "games": 655,
+        "games": 660,
         "tournaments": [
           "LPL 2026 Grand Finals",
           "LPL 2026 Split 1",
@@ -85,18 +85,16 @@
       "side",
       "bans"
     ],
-    "updatedAt": "2026-09-06T13:42:33.251Z",
+    "updatedAt": "2026-09-06T17:03:53.744Z",
     "lastIncrementalMerge": {
       "source": "data/jogos-novos.json",
-      "mergedAt": "2026-09-06T13:42:33.251Z",
-      "added": 8,
+      "mergedAt": "2026-09-06T17:03:53.744Z",
+      "added": 5,
       "duplicatesSkipped": 0,
       "patches": [
-        "16.16",
         "16.17"
       ],
       "tournaments": [
-        "LCK 2026 Season Playoffs",
         "LPL 2026 Grand Finals"
       ]
     },
@@ -109,7 +107,7 @@
         "trim repeated spaces"
       ]
     },
-    "totalGames": 2416,
+    "totalGames": 2421,
     "dataCorrections": [
       {
         "correctedAt": "2026-07-14T01:19:11.794Z",
@@ -107702,6 +107700,286 @@
           "MID": "Annie",
           "ADC": "Sivir",
           "SUP": "Karma"
+        }
+      }
+    },
+    {
+      "id": "82720",
+      "league": "LPL",
+      "tournament": "LPL 2026 Grand Finals",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LPL 2026 Grand Finals",
+      "tournamentLine": "LPL 2026 Grand Finals (CN) - Fearless Draft",
+      "date": "2026-09-06",
+      "week": "ROUND2",
+      "patch": "16.17",
+      "game": "NIP vs LGD Gaming",
+      "sourceUrl": "https://gol.gg/game/stats/82720/page-game/",
+      "teamA": "LGD Gaming",
+      "teamB": "Ninjas in Pyjamas",
+      "teamAId": "2858",
+      "teamBId": "2855",
+      "killsA": 24,
+      "killsB": 12,
+      "totalKills": 36,
+      "collectedAt": "2026-09-06T17:03:44.542Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Kled",
+          "Qiyana",
+          "Anivia",
+          "Lucian",
+          "Milio"
+        ],
+        "teamB": [
+          "Olaf",
+          "Pantheon",
+          "Ryze",
+          "Ashe",
+          "Seraphine"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Kled",
+          "JUNGLE": "Qiyana",
+          "MID": "Anivia",
+          "ADC": "Lucian",
+          "SUP": "Milio"
+        },
+        "teamB": {
+          "TOP": "Olaf",
+          "JUNGLE": "Pantheon",
+          "MID": "Ryze",
+          "ADC": "Ashe",
+          "SUP": "Seraphine"
+        }
+      }
+    },
+    {
+      "id": "82721",
+      "league": "LPL",
+      "tournament": "LPL 2026 Grand Finals",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LPL 2026 Grand Finals",
+      "tournamentLine": "LPL 2026 Grand Finals (CN) - Fearless Draft",
+      "date": "2026-09-06",
+      "week": "ROUND2",
+      "patch": "16.17",
+      "game": "NIP vs LGD Gaming",
+      "sourceUrl": "https://gol.gg/game/stats/82721/page-game/",
+      "teamA": "LGD Gaming",
+      "teamB": "Ninjas in Pyjamas",
+      "teamAId": "2858",
+      "teamBId": "2855",
+      "killsA": 16,
+      "killsB": 23,
+      "totalKills": 39,
+      "collectedAt": "2026-09-06T17:03:44.841Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Kaisa",
+          "Jayce",
+          "Orianna",
+          "Ezreal",
+          "Alistar"
+        ],
+        "teamB": [
+          "Gnar",
+          "Trundle",
+          "Locke",
+          "Sivir",
+          "Karma"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Kaisa",
+          "JUNGLE": "Jayce",
+          "MID": "Orianna",
+          "ADC": "Ezreal",
+          "SUP": "Alistar"
+        },
+        "teamB": {
+          "TOP": "Gnar",
+          "JUNGLE": "Trundle",
+          "MID": "Locke",
+          "ADC": "Sivir",
+          "SUP": "Karma"
+        }
+      }
+    },
+    {
+      "id": "82722",
+      "league": "LPL",
+      "tournament": "LPL 2026 Grand Finals",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LPL 2026 Grand Finals",
+      "tournamentLine": "LPL 2026 Grand Finals (CN) - Fearless Draft",
+      "date": "2026-09-06",
+      "week": "ROUND2",
+      "patch": "16.17",
+      "game": "NIP vs LGD Gaming",
+      "sourceUrl": "https://gol.gg/game/stats/82722/page-game/",
+      "teamA": "Ninjas in Pyjamas",
+      "teamB": "LGD Gaming",
+      "teamAId": "2855",
+      "teamBId": "2858",
+      "killsA": 2,
+      "killsB": 14,
+      "totalKills": 16,
+      "collectedAt": "2026-09-06T17:03:45.100Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Varus",
+          "Naafiri",
+          "Galio",
+          "Caitlyn",
+          "Bard"
+        ],
+        "teamB": [
+          "Yorick",
+          "Lee Sin",
+          "Ahri",
+          "Yunara",
+          "Lulu"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Varus",
+          "JUNGLE": "Naafiri",
+          "MID": "Galio",
+          "ADC": "Caitlyn",
+          "SUP": "Bard"
+        },
+        "teamB": {
+          "TOP": "Yorick",
+          "JUNGLE": "Lee Sin",
+          "MID": "Ahri",
+          "ADC": "Yunara",
+          "SUP": "Lulu"
+        }
+      }
+    },
+    {
+      "id": "82723",
+      "league": "LPL",
+      "tournament": "LPL 2026 Grand Finals",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LPL 2026 Grand Finals",
+      "tournamentLine": "LPL 2026 Grand Finals (CN) - Fearless Draft",
+      "date": "2026-09-06",
+      "week": "ROUND2",
+      "patch": "16.17",
+      "game": "NIP vs LGD Gaming",
+      "sourceUrl": "https://gol.gg/game/stats/82723/page-game/",
+      "teamA": "LGD Gaming",
+      "teamB": "Ninjas in Pyjamas",
+      "teamAId": "2858",
+      "teamBId": "2855",
+      "killsA": 5,
+      "killsB": 19,
+      "totalKills": 24,
+      "collectedAt": "2026-09-06T17:03:45.340Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Ambessa",
+          "Skarner",
+          "Akali",
+          "Corki",
+          "Neeko"
+        ],
+        "teamB": [
+          "Camille",
+          "Maokai",
+          "Tristana",
+          "Kalista",
+          "Renata Glasc"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Ambessa",
+          "JUNGLE": "Skarner",
+          "MID": "Akali",
+          "ADC": "Corki",
+          "SUP": "Neeko"
+        },
+        "teamB": {
+          "TOP": "Camille",
+          "JUNGLE": "Maokai",
+          "MID": "Tristana",
+          "ADC": "Kalista",
+          "SUP": "Renata Glasc"
+        }
+      }
+    },
+    {
+      "id": "82724",
+      "league": "LPL",
+      "tournament": "LPL 2026 Grand Finals",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LPL 2026 Grand Finals",
+      "tournamentLine": "LPL 2026 Grand Finals (CN) - Fearless Draft",
+      "date": "2026-09-06",
+      "week": "ROUND2",
+      "patch": "16.17",
+      "game": "NIP vs LGD Gaming",
+      "sourceUrl": "https://gol.gg/game/stats/82724/page-game/",
+      "teamA": "Ninjas in Pyjamas",
+      "teamB": "LGD Gaming",
+      "teamAId": "2855",
+      "teamBId": "2858",
+      "killsA": 11,
+      "killsB": 17,
+      "totalKills": 28,
+      "collectedAt": "2026-09-06T17:03:45.542Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Rumble",
+          "Poppy",
+          "Azir",
+          "Jhin",
+          "Rakan"
+        ],
+        "teamB": [
+          "Aatrox",
+          "Vi",
+          "Syndra",
+          "Xayah",
+          "Rell"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Rumble",
+          "JUNGLE": "Poppy",
+          "MID": "Azir",
+          "ADC": "Jhin",
+          "SUP": "Rakan"
+        },
+        "teamB": {
+          "TOP": "Aatrox",
+          "JUNGLE": "Vi",
+          "MID": "Syndra",
+          "ADC": "Xayah",
+          "SUP": "Rell"
         }
       }
     },
