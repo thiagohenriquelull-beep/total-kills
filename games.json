@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "GOL logged session",
-    "createdAt": "2026-09-06T20:25:11.163Z",
+    "createdAt": "2026-09-06T23:55:41.848Z",
     "collectorVersion": "new-games-http-2026-07-25",
     "leagues": [
       {
@@ -39,7 +39,7 @@
       },
       {
         "league": "LCS",
-        "games": 217,
+        "games": 221,
         "tournaments": [
           "LCS 2026 Lock-In",
           "LCS 2026 Spring",
@@ -85,18 +85,17 @@
       "side",
       "bans"
     ],
-    "updatedAt": "2026-09-06T20:25:11.163Z",
+    "updatedAt": "2026-09-06T23:55:41.848Z",
     "lastIncrementalMerge": {
       "source": "data/jogos-novos.json",
-      "mergedAt": "2026-09-06T20:25:11.163Z",
-      "added": 7,
+      "mergedAt": "2026-09-06T23:55:41.848Z",
+      "added": 4,
       "duplicatesSkipped": 0,
       "patches": [
         "16.17"
       ],
       "tournaments": [
-        "CBLOL 2026 Split 2 Playoffs",
-        "LEC 2026 Summer Playoffs"
+        "LCS 2026 Summer"
       ]
     },
     "nameCleanup": {
@@ -108,7 +107,7 @@
         "trim repeated spaces"
       ]
     },
-    "totalGames": 2428,
+    "totalGames": 2432,
     "dataCorrections": [
       {
         "correctedAt": "2026-07-14T01:19:11.794Z",
@@ -59757,6 +59756,230 @@
           "MID": "Orianna",
           "ADC": "Ashe",
           "SUP": "Seraphine"
+        }
+      }
+    },
+    {
+      "id": "82460",
+      "league": "LCS",
+      "tournament": "LCS 2026 Summer",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCS 2026 Summer",
+      "tournamentLine": "LCS 2026 Summer (NA) - Fearless Draft",
+      "date": "2026-09-06",
+      "week": "WEEK7",
+      "patch": "16.17",
+      "game": "FlyQuest vs SR",
+      "sourceUrl": "https://gol.gg/game/stats/82460/page-game/",
+      "teamA": "Shopify Rebellion",
+      "teamB": "FlyQuest",
+      "teamAId": "2956",
+      "teamBId": "2953",
+      "killsA": 13,
+      "killsB": 16,
+      "totalKills": 29,
+      "collectedAt": "2026-09-06T23:54:58.533Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Ornn",
+          "Pantheon",
+          "Taliyah",
+          "Lucian",
+          "Milio"
+        ],
+        "teamB": [
+          "Rumble",
+          "Trundle",
+          "Ryze",
+          "Ezreal",
+          "Karma"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Ornn",
+          "JUNGLE": "Pantheon",
+          "MID": "Taliyah",
+          "ADC": "Lucian",
+          "SUP": "Milio"
+        },
+        "teamB": {
+          "TOP": "Rumble",
+          "JUNGLE": "Trundle",
+          "MID": "Ryze",
+          "ADC": "Ezreal",
+          "SUP": "Karma"
+        }
+      }
+    },
+    {
+      "id": "82461",
+      "league": "LCS",
+      "tournament": "LCS 2026 Summer",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCS 2026 Summer",
+      "tournamentLine": "LCS 2026 Summer (NA) - Fearless Draft",
+      "date": "2026-09-06",
+      "week": "WEEK7",
+      "patch": "16.17",
+      "game": "FlyQuest vs SR",
+      "sourceUrl": "https://gol.gg/game/stats/82461/page-game/",
+      "teamA": "Shopify Rebellion",
+      "teamB": "FlyQuest",
+      "teamAId": "2956",
+      "teamBId": "2953",
+      "killsA": 7,
+      "killsB": 26,
+      "totalKills": 33,
+      "collectedAt": "2026-09-06T23:54:58.726Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "KSante",
+          "Lee Sin",
+          "Azir",
+          "Ashe",
+          "Seraphine"
+        ],
+        "teamB": [
+          "Gnar",
+          "Wukong",
+          "Annie",
+          "Kalista",
+          "Renata Glasc"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "KSante",
+          "JUNGLE": "Lee Sin",
+          "MID": "Azir",
+          "ADC": "Ashe",
+          "SUP": "Seraphine"
+        },
+        "teamB": {
+          "TOP": "Gnar",
+          "JUNGLE": "Wukong",
+          "MID": "Annie",
+          "ADC": "Kalista",
+          "SUP": "Renata Glasc"
+        }
+      }
+    },
+    {
+      "id": "82463",
+      "league": "LCS",
+      "tournament": "LCS 2026 Summer",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCS 2026 Summer",
+      "tournamentLine": "LCS 2026 Summer (NA) - Fearless Draft",
+      "date": "2026-09-06",
+      "week": "WEEK7",
+      "patch": "16.17",
+      "game": "Disguised vs LYON",
+      "sourceUrl": "https://gol.gg/game/stats/82463/page-game/",
+      "teamA": "Disguised",
+      "teamB": "LYON",
+      "teamAId": "2957",
+      "teamBId": "2954",
+      "killsA": 6,
+      "killsB": 20,
+      "totalKills": 26,
+      "collectedAt": "2026-09-06T23:54:59.115Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Jayce",
+          "Jarvan IV",
+          "Ryze",
+          "Jhin",
+          "Nautilus"
+        ],
+        "teamB": [
+          "Malphite",
+          "Xin Zhao",
+          "Annie",
+          "Ezreal",
+          "Karma"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Jayce",
+          "JUNGLE": "Jarvan IV",
+          "MID": "Ryze",
+          "ADC": "Jhin",
+          "SUP": "Nautilus"
+        },
+        "teamB": {
+          "TOP": "Malphite",
+          "JUNGLE": "Xin Zhao",
+          "MID": "Annie",
+          "ADC": "Ezreal",
+          "SUP": "Karma"
+        }
+      }
+    },
+    {
+      "id": "82464",
+      "league": "LCS",
+      "tournament": "LCS 2026 Summer",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "regular",
+      "sourceTournament": "LCS 2026 Summer",
+      "tournamentLine": "LCS 2026 Summer (NA) - Fearless Draft",
+      "date": "2026-09-06",
+      "week": "WEEK7",
+      "patch": "16.17",
+      "game": "Disguised vs LYON",
+      "sourceUrl": "https://gol.gg/game/stats/82464/page-game/",
+      "teamA": "LYON",
+      "teamB": "Disguised",
+      "teamAId": "2954",
+      "teamBId": "2957",
+      "killsA": 30,
+      "killsB": 6,
+      "totalKills": 36,
+      "collectedAt": "2026-09-06T23:54:59.337Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Renekton",
+          "Skarner",
+          "Sylas",
+          "Lucian",
+          "Milio"
+        ],
+        "teamB": [
+          "Varus",
+          "Pantheon",
+          "Ahri",
+          "Xayah",
+          "Rakan"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Renekton",
+          "JUNGLE": "Skarner",
+          "MID": "Sylas",
+          "ADC": "Lucian",
+          "SUP": "Milio"
+        },
+        "teamB": {
+          "TOP": "Varus",
+          "JUNGLE": "Pantheon",
+          "MID": "Ahri",
+          "ADC": "Xayah",
+          "SUP": "Rakan"
         }
       }
     },
