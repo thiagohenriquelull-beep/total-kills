@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "GOL logged session",
-    "createdAt": "2026-09-11T14:27:49.587Z",
+    "createdAt": "2026-09-11T20:59:05.717Z",
     "collectorVersion": "new-games-http-2026-07-25",
     "leagues": [
       {
@@ -49,7 +49,7 @@
       },
       {
         "league": "LEC",
-        "games": 359,
+        "games": 364,
         "tournaments": [
           "LEC 2026 Spring Playoffs",
           "LEC 2026 Spring Season",
@@ -85,17 +85,17 @@
       "side",
       "bans"
     ],
-    "updatedAt": "2026-09-11T14:27:49.587Z",
+    "updatedAt": "2026-09-11T20:59:05.717Z",
     "lastIncrementalMerge": {
       "source": "data/jogos-novos.json",
-      "mergedAt": "2026-09-11T14:27:49.587Z",
-      "added": 4,
+      "mergedAt": "2026-09-11T20:59:05.717Z",
+      "added": 5,
       "duplicatesSkipped": 0,
       "patches": [
-        "16.16"
+        "16.17"
       ],
       "tournaments": [
-        "LCK CL 2026 Season Playoffs"
+        "LEC 2026 Summer Playoffs"
       ]
     },
     "nameCleanup": {
@@ -107,7 +107,7 @@
         "trim repeated spaces"
       ]
     },
-    "totalGames": 2462,
+    "totalGames": 2467,
     "dataCorrections": [
       {
         "correctedAt": "2026-07-14T01:19:11.794Z",
@@ -77780,6 +77780,286 @@
           "MID": "Tristana",
           "ADC": "Miss Fortune",
           "SUP": "Nautilus"
+        }
+      }
+    },
+    {
+      "id": "82735",
+      "league": "LEC",
+      "tournament": "LEC 2026 Summer Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LEC 2026 Summer Playoffs",
+      "tournamentLine": "LEC 2026 Summer Playoffs (EUW) - Fearless Draft",
+      "date": "2026-09-11",
+      "week": "ROUND1",
+      "patch": "16.17",
+      "game": "GIANTX vs NAVI",
+      "sourceUrl": "https://gol.gg/game/stats/82735/page-game/",
+      "teamA": "GIANTX",
+      "teamB": "Natus Vincere",
+      "teamAId": "2898",
+      "teamBId": "2901",
+      "killsA": 8,
+      "killsB": 20,
+      "totalKills": 28,
+      "collectedAt": "2026-09-11T20:58:39.596Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Ambessa",
+          "Vi",
+          "Anivia",
+          "Corki",
+          "Rakan"
+        ],
+        "teamB": [
+          "Rumble",
+          "Jarvan IV",
+          "Ryze",
+          "Xayah",
+          "Nautilus"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Ambessa",
+          "JUNGLE": "Vi",
+          "MID": "Anivia",
+          "ADC": "Corki",
+          "SUP": "Rakan"
+        },
+        "teamB": {
+          "TOP": "Rumble",
+          "JUNGLE": "Jarvan IV",
+          "MID": "Ryze",
+          "ADC": "Xayah",
+          "SUP": "Nautilus"
+        }
+      }
+    },
+    {
+      "id": "82736",
+      "league": "LEC",
+      "tournament": "LEC 2026 Summer Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LEC 2026 Summer Playoffs",
+      "tournamentLine": "LEC 2026 Summer Playoffs (EUW) - Fearless Draft",
+      "date": "2026-09-11",
+      "week": "ROUND1",
+      "patch": "16.17",
+      "game": "GIANTX vs NAVI",
+      "sourceUrl": "https://gol.gg/game/stats/82736/page-game/",
+      "teamA": "GIANTX",
+      "teamB": "Natus Vincere",
+      "teamAId": "2898",
+      "teamBId": "2901",
+      "killsA": 15,
+      "killsB": 15,
+      "totalKills": 30,
+      "collectedAt": "2026-09-11T20:58:39.791Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Trundle",
+          "Xin Zhao",
+          "Syndra",
+          "Ashe",
+          "Seraphine"
+        ],
+        "teamB": [
+          "Olaf",
+          "Wukong",
+          "Akali",
+          "Lucian",
+          "Milio"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Trundle",
+          "JUNGLE": "Xin Zhao",
+          "MID": "Syndra",
+          "ADC": "Ashe",
+          "SUP": "Seraphine"
+        },
+        "teamB": {
+          "TOP": "Olaf",
+          "JUNGLE": "Wukong",
+          "MID": "Akali",
+          "ADC": "Lucian",
+          "SUP": "Milio"
+        }
+      }
+    },
+    {
+      "id": "82737",
+      "league": "LEC",
+      "tournament": "LEC 2026 Summer Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LEC 2026 Summer Playoffs",
+      "tournamentLine": "LEC 2026 Summer Playoffs (EUW) - Fearless Draft",
+      "date": "2026-09-11",
+      "week": "ROUND1",
+      "patch": "16.17",
+      "game": "GIANTX vs NAVI",
+      "sourceUrl": "https://gol.gg/game/stats/82737/page-game/",
+      "teamA": "Natus Vincere",
+      "teamB": "GIANTX",
+      "teamAId": "2901",
+      "teamBId": "2898",
+      "killsA": 17,
+      "killsB": 16,
+      "totalKills": 33,
+      "collectedAt": "2026-09-11T20:58:39.994Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Renekton",
+          "Shyvana",
+          "Orianna",
+          "Ezreal",
+          "Karma"
+        ],
+        "teamB": [
+          "Kennen",
+          "Nocturne",
+          "Locke",
+          "Jhin",
+          "Bard"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Renekton",
+          "JUNGLE": "Shyvana",
+          "MID": "Orianna",
+          "ADC": "Ezreal",
+          "SUP": "Karma"
+        },
+        "teamB": {
+          "TOP": "Kennen",
+          "JUNGLE": "Nocturne",
+          "MID": "Locke",
+          "ADC": "Jhin",
+          "SUP": "Bard"
+        }
+      }
+    },
+    {
+      "id": "82738",
+      "league": "LEC",
+      "tournament": "LEC 2026 Summer Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LEC 2026 Summer Playoffs",
+      "tournamentLine": "LEC 2026 Summer Playoffs (EUW) - Fearless Draft",
+      "date": "2026-09-11",
+      "week": "ROUND1",
+      "patch": "16.17",
+      "game": "GIANTX vs NAVI",
+      "sourceUrl": "https://gol.gg/game/stats/82738/page-game/",
+      "teamA": "GIANTX",
+      "teamB": "Natus Vincere",
+      "teamAId": "2898",
+      "teamBId": "2901",
+      "killsA": 15,
+      "killsB": 13,
+      "totalKills": 28,
+      "collectedAt": "2026-09-11T20:58:40.206Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Yorick",
+          "Skarner",
+          "Taliyah",
+          "Sivir",
+          "Alistar"
+        ],
+        "teamB": [
+          "Gwen",
+          "Naafiri",
+          "Annie",
+          "Varus",
+          "Rell"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Yorick",
+          "JUNGLE": "Skarner",
+          "MID": "Taliyah",
+          "ADC": "Sivir",
+          "SUP": "Alistar"
+        },
+        "teamB": {
+          "TOP": "Gwen",
+          "JUNGLE": "Naafiri",
+          "MID": "Annie",
+          "ADC": "Varus",
+          "SUP": "Rell"
+        }
+      }
+    },
+    {
+      "id": "82739",
+      "league": "LEC",
+      "tournament": "LEC 2026 Summer Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LEC 2026 Summer Playoffs",
+      "tournamentLine": "LEC 2026 Summer Playoffs (EUW) - Fearless Draft",
+      "date": "2026-09-11",
+      "week": "ROUND1",
+      "patch": "16.17",
+      "game": "GIANTX vs NAVI",
+      "sourceUrl": "https://gol.gg/game/stats/82739/page-game/",
+      "teamA": "Natus Vincere",
+      "teamB": "GIANTX",
+      "teamAId": "2901",
+      "teamBId": "2898",
+      "killsA": 17,
+      "killsB": 6,
+      "totalKills": 23,
+      "collectedAt": "2026-09-11T20:58:40.416Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Jax",
+          "Aatrox",
+          "Viktor",
+          "Ziggs",
+          "Leona"
+        ],
+        "teamB": [
+          "Gangplank",
+          "Sejuani",
+          "Azir",
+          "Caitlyn",
+          "Braum"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Jax",
+          "JUNGLE": "Aatrox",
+          "MID": "Viktor",
+          "ADC": "Ziggs",
+          "SUP": "Leona"
+        },
+        "teamB": {
+          "TOP": "Gangplank",
+          "JUNGLE": "Sejuani",
+          "MID": "Azir",
+          "ADC": "Caitlyn",
+          "SUP": "Braum"
         }
       }
     },
