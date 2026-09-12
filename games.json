@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "GOL logged session",
-    "createdAt": "2026-09-12T13:38:06.740Z",
+    "createdAt": "2026-09-12T17:10:51.544Z",
     "collectorVersion": "new-games-http-2026-07-25",
     "leagues": [
       {
@@ -61,7 +61,7 @@
       },
       {
         "league": "LPL",
-        "games": 666,
+        "games": 671,
         "tournaments": [
           "LPL 2026 Grand Finals",
           "LPL 2026 Split 1",
@@ -85,17 +85,17 @@
       "side",
       "bans"
     ],
-    "updatedAt": "2026-09-12T13:38:06.740Z",
+    "updatedAt": "2026-09-12T17:10:51.544Z",
     "lastIncrementalMerge": {
       "source": "data/jogos-novos.json",
-      "mergedAt": "2026-09-12T13:38:06.740Z",
-      "added": 4,
+      "mergedAt": "2026-09-12T17:10:51.544Z",
+      "added": 5,
       "duplicatesSkipped": 0,
       "patches": [
-        "16.16"
+        "16.17"
       ],
       "tournaments": [
-        "LCK 2026 Season Playoffs"
+        "LPL 2026 Grand Finals"
       ]
     },
     "nameCleanup": {
@@ -107,7 +107,7 @@
         "trim repeated spaces"
       ]
     },
-    "totalGames": 2471,
+    "totalGames": 2476,
     "dataCorrections": [
       {
         "correctedAt": "2026-07-14T01:19:11.794Z",
@@ -110780,6 +110780,286 @@
           "MID": "Taliyah",
           "ADC": "Kalista",
           "SUP": "Renata Glasc"
+        }
+      }
+    },
+    {
+      "id": "82836",
+      "league": "LPL",
+      "tournament": "LPL 2026 Grand Finals",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LPL 2026 Grand Finals",
+      "tournamentLine": "LPL 2026 Grand Finals (CN) - Fearless Draft",
+      "date": "2026-09-12",
+      "week": "ROUND4",
+      "patch": "16.17",
+      "game": "AL vs IG",
+      "sourceUrl": "https://gol.gg/game/stats/82836/page-game/",
+      "teamA": "Anyone's Legend",
+      "teamB": "Invictus Gaming",
+      "teamAId": "2848",
+      "teamBId": "2850",
+      "killsA": 11,
+      "killsB": 24,
+      "totalKills": 35,
+      "collectedAt": "2026-09-12T17:10:41.868Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Rumble",
+          "Qiyana",
+          "Ryze",
+          "Ashe",
+          "Seraphine"
+        ],
+        "teamB": [
+          "Ornn",
+          "Nocturne",
+          "Annie",
+          "Lucian",
+          "Milio"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Rumble",
+          "JUNGLE": "Qiyana",
+          "MID": "Ryze",
+          "ADC": "Ashe",
+          "SUP": "Seraphine"
+        },
+        "teamB": {
+          "TOP": "Ornn",
+          "JUNGLE": "Nocturne",
+          "MID": "Annie",
+          "ADC": "Lucian",
+          "SUP": "Milio"
+        }
+      }
+    },
+    {
+      "id": "82837",
+      "league": "LPL",
+      "tournament": "LPL 2026 Grand Finals",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LPL 2026 Grand Finals",
+      "tournamentLine": "LPL 2026 Grand Finals (CN) - Fearless Draft",
+      "date": "2026-09-12",
+      "week": "ROUND4",
+      "patch": "16.17",
+      "game": "AL vs IG",
+      "sourceUrl": "https://gol.gg/game/stats/82837/page-game/",
+      "teamA": "Invictus Gaming",
+      "teamB": "Anyone's Legend",
+      "teamAId": "2850",
+      "teamBId": "2848",
+      "killsA": 8,
+      "killsB": 21,
+      "totalKills": 29,
+      "collectedAt": "2026-09-12T17:10:42.059Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Varus",
+          "Naafiri",
+          "Locke",
+          "Caitlyn",
+          "Bard"
+        ],
+        "teamB": [
+          "Gnar",
+          "Skarner",
+          "Orianna",
+          "Kalista",
+          "Renata Glasc"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Varus",
+          "JUNGLE": "Naafiri",
+          "MID": "Locke",
+          "ADC": "Caitlyn",
+          "SUP": "Bard"
+        },
+        "teamB": {
+          "TOP": "Gnar",
+          "JUNGLE": "Skarner",
+          "MID": "Orianna",
+          "ADC": "Kalista",
+          "SUP": "Renata Glasc"
+        }
+      }
+    },
+    {
+      "id": "82838",
+      "league": "LPL",
+      "tournament": "LPL 2026 Grand Finals",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LPL 2026 Grand Finals",
+      "tournamentLine": "LPL 2026 Grand Finals (CN) - Fearless Draft",
+      "date": "2026-09-12",
+      "week": "ROUND4",
+      "patch": "16.17",
+      "game": "AL vs IG",
+      "sourceUrl": "https://gol.gg/game/stats/82838/page-game/",
+      "teamA": "Invictus Gaming",
+      "teamB": "Anyone's Legend",
+      "teamAId": "2850",
+      "teamBId": "2848",
+      "killsA": 5,
+      "killsB": 15,
+      "totalKills": 20,
+      "collectedAt": "2026-09-12T17:10:42.256Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Jayce",
+          "Maokai",
+          "Sylas",
+          "Ezreal",
+          "Karma"
+        ],
+        "teamB": [
+          "Yorick",
+          "Sejuani",
+          "Viktor",
+          "Yunara",
+          "Lulu"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Jayce",
+          "JUNGLE": "Maokai",
+          "MID": "Sylas",
+          "ADC": "Ezreal",
+          "SUP": "Karma"
+        },
+        "teamB": {
+          "TOP": "Yorick",
+          "JUNGLE": "Sejuani",
+          "MID": "Viktor",
+          "ADC": "Yunara",
+          "SUP": "Lulu"
+        }
+      }
+    },
+    {
+      "id": "82839",
+      "league": "LPL",
+      "tournament": "LPL 2026 Grand Finals",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LPL 2026 Grand Finals",
+      "tournamentLine": "LPL 2026 Grand Finals (CN) - Fearless Draft",
+      "date": "2026-09-12",
+      "week": "ROUND4",
+      "patch": "16.17",
+      "game": "AL vs IG",
+      "sourceUrl": "https://gol.gg/game/stats/82839/page-game/",
+      "teamA": "Invictus Gaming",
+      "teamB": "Anyone's Legend",
+      "teamAId": "2850",
+      "teamBId": "2848",
+      "killsA": 16,
+      "killsB": 15,
+      "totalKills": 31,
+      "collectedAt": "2026-09-12T17:10:42.479Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Gwen",
+          "Lee Sin",
+          "Aurora",
+          "Aphelios",
+          "Thresh"
+        ],
+        "teamB": [
+          "KSante",
+          "Trundle",
+          "Azir",
+          "Miss Fortune",
+          "Neeko"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Gwen",
+          "JUNGLE": "Lee Sin",
+          "MID": "Aurora",
+          "ADC": "Aphelios",
+          "SUP": "Thresh"
+        },
+        "teamB": {
+          "TOP": "KSante",
+          "JUNGLE": "Trundle",
+          "MID": "Azir",
+          "ADC": "Miss Fortune",
+          "SUP": "Neeko"
+        }
+      }
+    },
+    {
+      "id": "82840",
+      "league": "LPL",
+      "tournament": "LPL 2026 Grand Finals",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LPL 2026 Grand Finals",
+      "tournamentLine": "LPL 2026 Grand Finals (CN) - Fearless Draft",
+      "date": "2026-09-12",
+      "week": "ROUND4",
+      "patch": "16.17",
+      "game": "AL vs IG",
+      "sourceUrl": "https://gol.gg/game/stats/82840/page-game/",
+      "teamA": "Anyone's Legend",
+      "teamB": "Invictus Gaming",
+      "teamAId": "2848",
+      "teamBId": "2850",
+      "killsA": 20,
+      "killsB": 5,
+      "totalKills": 25,
+      "collectedAt": "2026-09-12T17:10:42.719Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Olaf",
+          "Chogath",
+          "Akali",
+          "Jinx",
+          "Tahm Kench"
+        ],
+        "teamB": [
+          "Anivia",
+          "Xin Zhao",
+          "LeBlanc",
+          "Zeri",
+          "Yuumi"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Olaf",
+          "JUNGLE": "Chogath",
+          "MID": "Akali",
+          "ADC": "Jinx",
+          "SUP": "Tahm Kench"
+        },
+        "teamB": {
+          "TOP": "Anivia",
+          "JUNGLE": "Xin Zhao",
+          "MID": "LeBlanc",
+          "ADC": "Zeri",
+          "SUP": "Yuumi"
         }
       }
     },
