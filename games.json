@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "GOL logged session",
-    "createdAt": "2026-09-12T20:34:50.439Z",
+    "createdAt": "2026-09-13T00:02:24.061Z",
     "collectorVersion": "new-games-http-2026-07-25",
     "leagues": [
       {
@@ -39,12 +39,13 @@
       },
       {
         "league": "LCS",
-        "games": 221,
+        "games": 224,
         "tournaments": [
           "LCS 2026 Lock-In",
           "LCS 2026 Spring",
           "LCS 2026 Spring Playoffs",
-          "LCS 2026 Summer"
+          "LCS 2026 Summer",
+          "LCS 2026 Summer Playoffs"
         ]
       },
       {
@@ -85,17 +86,17 @@
       "side",
       "bans"
     ],
-    "updatedAt": "2026-09-12T20:34:50.439Z",
+    "updatedAt": "2026-09-13T00:02:24.061Z",
     "lastIncrementalMerge": {
       "source": "data/jogos-novos.json",
-      "mergedAt": "2026-09-12T20:34:50.439Z",
-      "added": 4,
+      "mergedAt": "2026-09-13T00:02:24.061Z",
+      "added": 3,
       "duplicatesSkipped": 0,
       "patches": [
         "16.17"
       ],
       "tournaments": [
-        "CBLOL 2026 Split 2 Playoffs"
+        "LCS 2026 Summer Playoffs"
       ]
     },
     "nameCleanup": {
@@ -107,7 +108,7 @@
         "trim repeated spaces"
       ]
     },
-    "totalGames": 2480,
+    "totalGames": 2483,
     "dataCorrections": [
       {
         "correctedAt": "2026-07-14T01:19:11.794Z",
@@ -61770,6 +61771,174 @@
           "TOP": "Varus",
           "JUNGLE": "Pantheon",
           "MID": "Ahri",
+          "ADC": "Xayah",
+          "SUP": "Rakan"
+        }
+      }
+    },
+    {
+      "id": "82765",
+      "league": "LCS",
+      "tournament": "LCS 2026 Summer Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LCS 2026 Summer Playoffs",
+      "tournamentLine": "LCS 2026 Summer Playoffs (NA) - Fearless Draft",
+      "date": "2026-09-12",
+      "week": "ROUND1",
+      "patch": "16.17",
+      "game": "Cloud9 vs SR",
+      "sourceUrl": "https://gol.gg/game/stats/82765/page-game/",
+      "teamA": "Shopify Rebellion",
+      "teamB": "Cloud9",
+      "teamAId": "2956",
+      "teamBId": "2812",
+      "killsA": 8,
+      "killsB": 19,
+      "totalKills": 27,
+      "collectedAt": "2026-09-13T00:01:29.280Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Gnar",
+          "Vi",
+          "Annie",
+          "Taliyah",
+          "Nautilus"
+        ],
+        "teamB": [
+          "Olaf",
+          "Nocturne",
+          "Viktor",
+          "Kalista",
+          "Renata Glasc"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Gnar",
+          "JUNGLE": "Vi",
+          "MID": "Annie",
+          "ADC": "Taliyah",
+          "SUP": "Nautilus"
+        },
+        "teamB": {
+          "TOP": "Olaf",
+          "JUNGLE": "Nocturne",
+          "MID": "Viktor",
+          "ADC": "Kalista",
+          "SUP": "Renata Glasc"
+        }
+      }
+    },
+    {
+      "id": "82766",
+      "league": "LCS",
+      "tournament": "LCS 2026 Summer Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LCS 2026 Summer Playoffs",
+      "tournamentLine": "LCS 2026 Summer Playoffs (NA) - Fearless Draft",
+      "date": "2026-09-12",
+      "week": "ROUND1",
+      "patch": "16.17",
+      "game": "Cloud9 vs SR",
+      "sourceUrl": "https://gol.gg/game/stats/82766/page-game/",
+      "teamA": "Cloud9",
+      "teamB": "Shopify Rebellion",
+      "teamAId": "2812",
+      "teamBId": "2956",
+      "killsA": 14,
+      "killsB": 7,
+      "totalKills": 21,
+      "collectedAt": "2026-09-13T00:01:29.597Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Ambessa",
+          "Lee Sin",
+          "Akali",
+          "Ashe",
+          "Seraphine"
+        ],
+        "teamB": [
+          "KSante",
+          "Naafiri",
+          "Orianna",
+          "Caitlyn",
+          "Bard"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Ambessa",
+          "JUNGLE": "Lee Sin",
+          "MID": "Akali",
+          "ADC": "Ashe",
+          "SUP": "Seraphine"
+        },
+        "teamB": {
+          "TOP": "KSante",
+          "JUNGLE": "Naafiri",
+          "MID": "Orianna",
+          "ADC": "Caitlyn",
+          "SUP": "Bard"
+        }
+      }
+    },
+    {
+      "id": "82767",
+      "league": "LCS",
+      "tournament": "LCS 2026 Summer Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LCS 2026 Summer Playoffs",
+      "tournamentLine": "LCS 2026 Summer Playoffs (NA) - Fearless Draft",
+      "date": "2026-09-12",
+      "week": "ROUND1",
+      "patch": "16.17",
+      "game": "Cloud9 vs SR",
+      "sourceUrl": "https://gol.gg/game/stats/82767/page-game/",
+      "teamA": "Cloud9",
+      "teamB": "Shopify Rebellion",
+      "teamAId": "2812",
+      "teamBId": "2956",
+      "killsA": 25,
+      "killsB": 17,
+      "totalKills": 42,
+      "collectedAt": "2026-09-13T00:01:29.871Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Camille",
+          "Sejuani",
+          "Syndra",
+          "Yunara",
+          "Lulu"
+        ],
+        "teamB": [
+          "Jayce",
+          "Wukong",
+          "Sylas",
+          "Xayah",
+          "Rakan"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Camille",
+          "JUNGLE": "Sejuani",
+          "MID": "Syndra",
+          "ADC": "Yunara",
+          "SUP": "Lulu"
+        },
+        "teamB": {
+          "TOP": "Jayce",
+          "JUNGLE": "Wukong",
+          "MID": "Sylas",
           "ADC": "Xayah",
           "SUP": "Rakan"
         }
