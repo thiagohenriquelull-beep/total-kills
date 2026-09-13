@@ -1,12 +1,12 @@
 {
   "meta": {
     "source": "GOL logged session",
-    "createdAt": "2026-09-13T14:27:47.407Z",
+    "createdAt": "2026-09-13T20:50:50.093Z",
     "collectorVersion": "new-games-http-2026-07-25",
     "leagues": [
       {
         "league": "CBLOL",
-        "games": 246,
+        "games": 250,
         "tournaments": [
           "CBLOL 2026 Split 1",
           "CBLOL 2026 Split 1 Playoffs",
@@ -86,20 +86,17 @@
       "side",
       "bans"
     ],
-    "updatedAt": "2026-09-13T14:27:47.407Z",
+    "updatedAt": "2026-09-13T20:50:50.093Z",
     "lastIncrementalMerge": {
       "source": "data/jogos-novos.json",
-      "mergedAt": "2026-09-13T14:27:47.407Z",
-      "added": 13,
+      "mergedAt": "2026-09-13T20:50:50.093Z",
+      "added": 4,
       "duplicatesSkipped": 0,
       "patches": [
-        "16.16",
         "16.17"
       ],
       "tournaments": [
-        "LCK 2026 Season Playoffs",
-        "LEC 2026 Summer Playoffs",
-        "LPL 2026 Grand Finals"
+        "CBLOL 2026 Split 2 Playoffs"
       ]
     },
     "nameCleanup": {
@@ -111,7 +108,7 @@
         "trim repeated spaces"
       ]
     },
-    "totalGames": 2496,
+    "totalGames": 2500,
     "dataCorrections": [
       {
         "correctedAt": "2026-07-14T01:19:11.794Z",
@@ -11351,6 +11348,230 @@
           "MID": "Hwei",
           "ADC": "Kaisa",
           "SUP": "Alistar"
+        }
+      }
+    },
+    {
+      "id": "82760",
+      "league": "CBLOL",
+      "tournament": "CBLOL 2026 Split 2 Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "CBLOL 2026 Split 2 Playoffs",
+      "tournamentLine": "CBLOL 2026 Split 2 Playoffs (BR) - Fearless Draft",
+      "date": "2026-09-13",
+      "week": "ROUND2",
+      "patch": "16.17",
+      "game": "LOUD vs paiN Gaming",
+      "sourceUrl": "https://gol.gg/game/stats/82760/page-game/",
+      "teamA": "paiN Gaming",
+      "teamB": "LOUD",
+      "teamAId": "2892",
+      "teamBId": "2891",
+      "killsA": 15,
+      "killsB": 3,
+      "totalKills": 18,
+      "collectedAt": "2026-09-13T20:49:45.030Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Ambessa",
+          "Jarvan IV",
+          "Syndra",
+          "Lucian",
+          "Milio"
+        ],
+        "teamB": [
+          "KSante",
+          "Vi",
+          "Ryze",
+          "Ezreal",
+          "Karma"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Ambessa",
+          "JUNGLE": "Jarvan IV",
+          "MID": "Syndra",
+          "ADC": "Lucian",
+          "SUP": "Milio"
+        },
+        "teamB": {
+          "TOP": "KSante",
+          "JUNGLE": "Vi",
+          "MID": "Ryze",
+          "ADC": "Ezreal",
+          "SUP": "Karma"
+        }
+      }
+    },
+    {
+      "id": "82761",
+      "league": "CBLOL",
+      "tournament": "CBLOL 2026 Split 2 Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "CBLOL 2026 Split 2 Playoffs",
+      "tournamentLine": "CBLOL 2026 Split 2 Playoffs (BR) - Fearless Draft",
+      "date": "2026-09-13",
+      "week": "ROUND2",
+      "patch": "16.17",
+      "game": "LOUD vs paiN Gaming",
+      "sourceUrl": "https://gol.gg/game/stats/82761/page-game/",
+      "teamA": "paiN Gaming",
+      "teamB": "LOUD",
+      "teamAId": "2892",
+      "teamBId": "2891",
+      "killsA": 7,
+      "killsB": 23,
+      "totalKills": 30,
+      "collectedAt": "2026-09-13T20:49:45.234Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Jax",
+          "Olaf",
+          "Locke",
+          "Yunara",
+          "Lulu"
+        ],
+        "teamB": [
+          "Kled",
+          "Nocturne",
+          "Ahri",
+          "Ashe",
+          "Seraphine"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Jax",
+          "JUNGLE": "Olaf",
+          "MID": "Locke",
+          "ADC": "Yunara",
+          "SUP": "Lulu"
+        },
+        "teamB": {
+          "TOP": "Kled",
+          "JUNGLE": "Nocturne",
+          "MID": "Ahri",
+          "ADC": "Ashe",
+          "SUP": "Seraphine"
+        }
+      }
+    },
+    {
+      "id": "82762",
+      "league": "CBLOL",
+      "tournament": "CBLOL 2026 Split 2 Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "CBLOL 2026 Split 2 Playoffs",
+      "tournamentLine": "CBLOL 2026 Split 2 Playoffs (BR) - Fearless Draft",
+      "date": "2026-09-13",
+      "week": "ROUND2",
+      "patch": "16.17",
+      "game": "LOUD vs paiN Gaming",
+      "sourceUrl": "https://gol.gg/game/stats/82762/page-game/",
+      "teamA": "LOUD",
+      "teamB": "paiN Gaming",
+      "teamAId": "2891",
+      "teamBId": "2892",
+      "killsA": 18,
+      "killsB": 11,
+      "totalKills": 29,
+      "collectedAt": "2026-09-13T20:49:45.428Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Rumble",
+          "Qiyana",
+          "LeBlanc",
+          "Sivir",
+          "Alistar"
+        ],
+        "teamB": [
+          "Sion",
+          "Wukong",
+          "Orianna",
+          "Xayah",
+          "Rakan"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Rumble",
+          "JUNGLE": "Qiyana",
+          "MID": "LeBlanc",
+          "ADC": "Sivir",
+          "SUP": "Alistar"
+        },
+        "teamB": {
+          "TOP": "Sion",
+          "JUNGLE": "Wukong",
+          "MID": "Orianna",
+          "ADC": "Xayah",
+          "SUP": "Rakan"
+        }
+      }
+    },
+    {
+      "id": "82763",
+      "league": "CBLOL",
+      "tournament": "CBLOL 2026 Split 2 Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "CBLOL 2026 Split 2 Playoffs",
+      "tournamentLine": "CBLOL 2026 Split 2 Playoffs (BR) - Fearless Draft",
+      "date": "2026-09-13",
+      "week": "ROUND2",
+      "patch": "16.17",
+      "game": "LOUD vs paiN Gaming",
+      "sourceUrl": "https://gol.gg/game/stats/82763/page-game/",
+      "teamA": "LOUD",
+      "teamB": "paiN Gaming",
+      "teamAId": "2891",
+      "teamBId": "2892",
+      "killsA": 23,
+      "killsB": 16,
+      "totalKills": 39,
+      "collectedAt": "2026-09-13T20:49:45.597Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Camille",
+          "Maokai",
+          "Viktor",
+          "Jhin",
+          "Leona"
+        ],
+        "teamB": [
+          "Jayce",
+          "Naafiri",
+          "Taliyah",
+          "Miss Fortune",
+          "Nautilus"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Camille",
+          "JUNGLE": "Maokai",
+          "MID": "Viktor",
+          "ADC": "Jhin",
+          "SUP": "Leona"
+        },
+        "teamB": {
+          "TOP": "Jayce",
+          "JUNGLE": "Naafiri",
+          "MID": "Taliyah",
+          "ADC": "Miss Fortune",
+          "SUP": "Nautilus"
         }
       }
     },
