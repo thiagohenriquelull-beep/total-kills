@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "GOL logged session",
-    "createdAt": "2026-09-15T15:01:18.825Z",
+    "createdAt": "2026-09-17T15:01:15.029Z",
     "collectorVersion": "new-games-http-2026-07-25",
     "leagues": [
       {
@@ -62,9 +62,10 @@
       },
       {
         "league": "LPL",
-        "games": 675,
+        "games": 679,
         "tournaments": [
           "LPL 2026 Grand Finals",
+          "LPL 2026 Regional Finals",
           "LPL 2026 Split 1",
           "LPL 2026 Split 1 Playoffs",
           "LPL 2026 Split 2",
@@ -86,17 +87,17 @@
       "side",
       "bans"
     ],
-    "updatedAt": "2026-09-15T15:01:18.825Z",
+    "updatedAt": "2026-09-17T15:01:15.029Z",
     "lastIncrementalMerge": {
       "source": "data/jogos-novos.json",
-      "mergedAt": "2026-09-15T15:01:18.825Z",
-      "added": 3,
+      "mergedAt": "2026-09-17T15:01:15.029Z",
+      "added": 4,
       "duplicatesSkipped": 0,
       "patches": [
-        "16.16"
+        "16.17"
       ],
       "tournaments": [
-        "LCK CL 2026 Season Playoffs"
+        "LPL 2026 Regional Finals"
       ]
     },
     "nameCleanup": {
@@ -108,7 +109,7 @@
         "trim repeated spaces"
       ]
     },
-    "totalGames": 2511,
+    "totalGames": 2515,
     "dataCorrections": [
       {
         "correctedAt": "2026-07-14T01:19:11.794Z",
@@ -113021,6 +113022,230 @@
           "MID": "Yone",
           "ADC": "Miss Fortune",
           "SUP": "Rell"
+        }
+      }
+    },
+    {
+      "id": "83014",
+      "league": "LPL",
+      "tournament": "LPL 2026 Regional Finals",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LPL 2026 Regional Finals",
+      "tournamentLine": "LPL 2026 Regional Finals (CN) - Fearless Draft",
+      "date": "2026-09-17",
+      "week": "ROUND1",
+      "patch": "16.17",
+      "game": "Top Esports vs IG",
+      "sourceUrl": "https://gol.gg/game/stats/83014/page-game/",
+      "teamA": "Invictus Gaming",
+      "teamB": "Top Esports",
+      "teamAId": "2850",
+      "teamBId": "2852",
+      "killsA": 11,
+      "killsB": 12,
+      "totalKills": 23,
+      "collectedAt": "2026-09-17T15:01:07.094Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Yorick",
+          "Skarner",
+          "Syndra",
+          "Yunara",
+          "Lulu"
+        ],
+        "teamB": [
+          "Jayce",
+          "Chogath",
+          "Orianna",
+          "Lucian",
+          "Milio"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Yorick",
+          "JUNGLE": "Skarner",
+          "MID": "Syndra",
+          "ADC": "Yunara",
+          "SUP": "Lulu"
+        },
+        "teamB": {
+          "TOP": "Jayce",
+          "JUNGLE": "Chogath",
+          "MID": "Orianna",
+          "ADC": "Lucian",
+          "SUP": "Milio"
+        }
+      }
+    },
+    {
+      "id": "83015",
+      "league": "LPL",
+      "tournament": "LPL 2026 Regional Finals",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LPL 2026 Regional Finals",
+      "tournamentLine": "LPL 2026 Regional Finals (CN) - Fearless Draft",
+      "date": "2026-09-17",
+      "week": "ROUND1",
+      "patch": "16.17",
+      "game": "Top Esports vs IG",
+      "sourceUrl": "https://gol.gg/game/stats/83015/page-game/",
+      "teamA": "Invictus Gaming",
+      "teamB": "Top Esports",
+      "teamAId": "2850",
+      "teamBId": "2852",
+      "killsA": 8,
+      "killsB": 14,
+      "totalKills": 22,
+      "collectedAt": "2026-09-17T15:01:07.277Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Camille",
+          "Maokai",
+          "Yone",
+          "Ashe",
+          "Seraphine"
+        ],
+        "teamB": [
+          "Olaf",
+          "Lee Sin",
+          "Ryze",
+          "Ezreal",
+          "Karma"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Camille",
+          "JUNGLE": "Maokai",
+          "MID": "Yone",
+          "ADC": "Ashe",
+          "SUP": "Seraphine"
+        },
+        "teamB": {
+          "TOP": "Olaf",
+          "JUNGLE": "Lee Sin",
+          "MID": "Ryze",
+          "ADC": "Ezreal",
+          "SUP": "Karma"
+        }
+      }
+    },
+    {
+      "id": "83016",
+      "league": "LPL",
+      "tournament": "LPL 2026 Regional Finals",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LPL 2026 Regional Finals",
+      "tournamentLine": "LPL 2026 Regional Finals (CN) - Fearless Draft",
+      "date": "2026-09-17",
+      "week": "ROUND1",
+      "patch": "16.17",
+      "game": "Top Esports vs IG",
+      "sourceUrl": "https://gol.gg/game/stats/83016/page-game/",
+      "teamA": "Top Esports",
+      "teamB": "Invictus Gaming",
+      "teamAId": "2852",
+      "teamBId": "2850",
+      "killsA": 29,
+      "killsB": 13,
+      "totalKills": 42,
+      "collectedAt": "2026-09-17T15:01:07.471Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Ambessa",
+          "Qiyana",
+          "Locke",
+          "Jhin",
+          "Leona"
+        ],
+        "teamB": [
+          "Rumble",
+          "Jarvan IV",
+          "Viktor",
+          "Corki",
+          "Rell"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Ambessa",
+          "JUNGLE": "Qiyana",
+          "MID": "Locke",
+          "ADC": "Jhin",
+          "SUP": "Leona"
+        },
+        "teamB": {
+          "TOP": "Rumble",
+          "JUNGLE": "Jarvan IV",
+          "MID": "Viktor",
+          "ADC": "Corki",
+          "SUP": "Rell"
+        }
+      }
+    },
+    {
+      "id": "83017",
+      "league": "LPL",
+      "tournament": "LPL 2026 Regional Finals",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LPL 2026 Regional Finals",
+      "tournamentLine": "LPL 2026 Regional Finals (CN) - Fearless Draft",
+      "date": "2026-09-17",
+      "week": "ROUND1",
+      "patch": "16.17",
+      "game": "Top Esports vs IG",
+      "sourceUrl": "https://gol.gg/game/stats/83017/page-game/",
+      "teamA": "Top Esports",
+      "teamB": "Invictus Gaming",
+      "teamAId": "2852",
+      "teamBId": "2850",
+      "killsA": 23,
+      "killsB": 13,
+      "totalKills": 36,
+      "collectedAt": "2026-09-17T15:01:07.659Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Renekton",
+          "Pantheon",
+          "Annie",
+          "Kalista",
+          "Renata Glasc"
+        ],
+        "teamB": [
+          "Gnar",
+          "Vi",
+          "Galio",
+          "Aphelios",
+          "Thresh"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Renekton",
+          "JUNGLE": "Pantheon",
+          "MID": "Annie",
+          "ADC": "Kalista",
+          "SUP": "Renata Glasc"
+        },
+        "teamB": {
+          "TOP": "Gnar",
+          "JUNGLE": "Vi",
+          "MID": "Galio",
+          "ADC": "Aphelios",
+          "SUP": "Thresh"
         }
       }
     },
