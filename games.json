@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "GOL logged session",
-    "createdAt": "2026-09-17T15:01:15.029Z",
+    "createdAt": "2026-09-18T14:32:19.866Z",
     "collectorVersion": "new-games-http-2026-07-25",
     "leagues": [
       {
@@ -62,7 +62,7 @@
       },
       {
         "league": "LPL",
-        "games": 679,
+        "games": 683,
         "tournaments": [
           "LPL 2026 Grand Finals",
           "LPL 2026 Regional Finals",
@@ -87,10 +87,10 @@
       "side",
       "bans"
     ],
-    "updatedAt": "2026-09-17T15:01:15.029Z",
+    "updatedAt": "2026-09-18T14:32:19.866Z",
     "lastIncrementalMerge": {
       "source": "data/jogos-novos.json",
-      "mergedAt": "2026-09-17T15:01:15.029Z",
+      "mergedAt": "2026-09-18T14:32:19.866Z",
       "added": 4,
       "duplicatesSkipped": 0,
       "patches": [
@@ -109,7 +109,7 @@
         "trim repeated spaces"
       ]
     },
-    "totalGames": 2515,
+    "totalGames": 2519,
     "dataCorrections": [
       {
         "correctedAt": "2026-07-14T01:19:11.794Z",
@@ -113246,6 +113246,230 @@
           "MID": "Galio",
           "ADC": "Aphelios",
           "SUP": "Thresh"
+        }
+      }
+    },
+    {
+      "id": "83019",
+      "league": "LPL",
+      "tournament": "LPL 2026 Regional Finals",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LPL 2026 Regional Finals",
+      "tournamentLine": "LPL 2026 Regional Finals (CN) - Fearless Draft",
+      "date": "2026-09-18",
+      "week": "ROUND1",
+      "patch": "16.17",
+      "game": "Team WE vs JD Gaming",
+      "sourceUrl": "https://gol.gg/game/stats/83019/page-game/",
+      "teamA": "Team WE",
+      "teamB": "JD Gaming",
+      "teamAId": "2856",
+      "teamBId": "2851",
+      "killsA": 17,
+      "killsB": 5,
+      "totalKills": 22,
+      "collectedAt": "2026-09-18T14:32:11.553Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Galio",
+          "Vi",
+          "Ahri",
+          "Ezreal",
+          "Seraphine"
+        ],
+        "teamB": [
+          "Rumble",
+          "Qiyana",
+          "Aurora",
+          "Jhin",
+          "Nautilus"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Galio",
+          "JUNGLE": "Vi",
+          "MID": "Ahri",
+          "ADC": "Ezreal",
+          "SUP": "Seraphine"
+        },
+        "teamB": {
+          "TOP": "Rumble",
+          "JUNGLE": "Qiyana",
+          "MID": "Aurora",
+          "ADC": "Jhin",
+          "SUP": "Nautilus"
+        }
+      }
+    },
+    {
+      "id": "83020",
+      "league": "LPL",
+      "tournament": "LPL 2026 Regional Finals",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LPL 2026 Regional Finals",
+      "tournamentLine": "LPL 2026 Regional Finals (CN) - Fearless Draft",
+      "date": "2026-09-18",
+      "week": "ROUND1",
+      "patch": "16.17",
+      "game": "Team WE vs JD Gaming",
+      "sourceUrl": "https://gol.gg/game/stats/83020/page-game/",
+      "teamA": "JD Gaming",
+      "teamB": "Team WE",
+      "teamAId": "2851",
+      "teamBId": "2856",
+      "killsA": 10,
+      "killsB": 3,
+      "totalKills": 13,
+      "collectedAt": "2026-09-18T14:32:11.791Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Ambessa",
+          "Trundle",
+          "Viktor",
+          "Yunara",
+          "Lulu"
+        ],
+        "teamB": [
+          "KSante",
+          "Chogath",
+          "Annie",
+          "Lucian",
+          "Milio"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Ambessa",
+          "JUNGLE": "Trundle",
+          "MID": "Viktor",
+          "ADC": "Yunara",
+          "SUP": "Lulu"
+        },
+        "teamB": {
+          "TOP": "KSante",
+          "JUNGLE": "Chogath",
+          "MID": "Annie",
+          "ADC": "Lucian",
+          "SUP": "Milio"
+        }
+      }
+    },
+    {
+      "id": "83021",
+      "league": "LPL",
+      "tournament": "LPL 2026 Regional Finals",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LPL 2026 Regional Finals",
+      "tournamentLine": "LPL 2026 Regional Finals (CN) - Fearless Draft",
+      "date": "2026-09-18",
+      "week": "ROUND1",
+      "patch": "16.17",
+      "game": "Team WE vs JD Gaming",
+      "sourceUrl": "https://gol.gg/game/stats/83021/page-game/",
+      "teamA": "Team WE",
+      "teamB": "JD Gaming",
+      "teamAId": "2856",
+      "teamBId": "2851",
+      "killsA": 6,
+      "killsB": 20,
+      "totalKills": 26,
+      "collectedAt": "2026-09-18T14:32:11.962Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Sion",
+          "Jarvan IV",
+          "Ryze",
+          "Sivir",
+          "Rakan"
+        ],
+        "teamB": [
+          "Olaf",
+          "Nocturne",
+          "Twisted Fate",
+          "Xayah",
+          "Renata Glasc"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Sion",
+          "JUNGLE": "Jarvan IV",
+          "MID": "Ryze",
+          "ADC": "Sivir",
+          "SUP": "Rakan"
+        },
+        "teamB": {
+          "TOP": "Olaf",
+          "JUNGLE": "Nocturne",
+          "MID": "Twisted Fate",
+          "ADC": "Xayah",
+          "SUP": "Renata Glasc"
+        }
+      }
+    },
+    {
+      "id": "83022",
+      "league": "LPL",
+      "tournament": "LPL 2026 Regional Finals",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LPL 2026 Regional Finals",
+      "tournamentLine": "LPL 2026 Regional Finals (CN) - Fearless Draft",
+      "date": "2026-09-18",
+      "week": "ROUND1",
+      "patch": "16.17",
+      "game": "Team WE vs JD Gaming",
+      "sourceUrl": "https://gol.gg/game/stats/83022/page-game/",
+      "teamA": "JD Gaming",
+      "teamB": "Team WE",
+      "teamAId": "2851",
+      "teamBId": "2856",
+      "killsA": 21,
+      "killsB": 10,
+      "totalKills": 31,
+      "collectedAt": "2026-09-18T14:32:12.155Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Gnar",
+          "Skarner",
+          "Sylas",
+          "Jinx",
+          "Alistar"
+        ],
+        "teamB": [
+          "Renekton",
+          "Maokai",
+          "Corki",
+          "Ashe",
+          "Braum"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Gnar",
+          "JUNGLE": "Skarner",
+          "MID": "Sylas",
+          "ADC": "Jinx",
+          "SUP": "Alistar"
+        },
+        "teamB": {
+          "TOP": "Renekton",
+          "JUNGLE": "Maokai",
+          "MID": "Corki",
+          "ADC": "Ashe",
+          "SUP": "Braum"
         }
       }
     },
