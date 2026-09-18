@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "GOL logged session",
-    "createdAt": "2026-09-18T14:32:19.866Z",
+    "createdAt": "2026-09-18T20:55:21.564Z",
     "collectorVersion": "new-games-http-2026-07-25",
     "leagues": [
       {
@@ -50,7 +50,7 @@
       },
       {
         "league": "LEC",
-        "games": 369,
+        "games": 373,
         "tournaments": [
           "LEC 2026 Spring Playoffs",
           "LEC 2026 Spring Season",
@@ -87,17 +87,17 @@
       "side",
       "bans"
     ],
-    "updatedAt": "2026-09-18T14:32:19.866Z",
+    "updatedAt": "2026-09-18T20:55:21.564Z",
     "lastIncrementalMerge": {
       "source": "data/jogos-novos.json",
-      "mergedAt": "2026-09-18T14:32:19.866Z",
+      "mergedAt": "2026-09-18T20:55:21.564Z",
       "added": 4,
       "duplicatesSkipped": 0,
       "patches": [
         "16.17"
       ],
       "tournaments": [
-        "LPL 2026 Regional Finals"
+        "LEC 2026 Summer Playoffs"
       ]
     },
     "nameCleanup": {
@@ -109,7 +109,7 @@
         "trim repeated spaces"
       ]
     },
-    "totalGames": 2519,
+    "totalGames": 2523,
     "dataCorrections": [
       {
         "correctedAt": "2026-07-14T01:19:11.794Z",
@@ -80022,6 +80022,230 @@
           "MID": "Aurora",
           "ADC": "Miss Fortune",
           "SUP": "Nautilus"
+        }
+      }
+    },
+    {
+      "id": "82972",
+      "league": "LEC",
+      "tournament": "LEC 2026 Summer Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LEC 2026 Summer Playoffs",
+      "tournamentLine": "LEC 2026 Summer Playoffs (EUW) - Fearless Draft",
+      "date": "2026-09-18",
+      "week": "ROUND2",
+      "patch": "16.17",
+      "game": "NAVI vs MKOI",
+      "sourceUrl": "https://gol.gg/game/stats/82972/page-game/",
+      "teamA": "Movistar KOI",
+      "teamB": "Natus Vincere",
+      "teamAId": "2900",
+      "teamBId": "2901",
+      "killsA": 14,
+      "killsB": 16,
+      "totalKills": 30,
+      "collectedAt": "2026-09-18T20:54:56.772Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Galio",
+          "Qiyana",
+          "Ryze",
+          "Ashe",
+          "Seraphine"
+        ],
+        "teamB": [
+          "Rumble",
+          "Jarvan IV",
+          "Syndra",
+          "Lucian",
+          "Milio"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Galio",
+          "JUNGLE": "Qiyana",
+          "MID": "Ryze",
+          "ADC": "Ashe",
+          "SUP": "Seraphine"
+        },
+        "teamB": {
+          "TOP": "Rumble",
+          "JUNGLE": "Jarvan IV",
+          "MID": "Syndra",
+          "ADC": "Lucian",
+          "SUP": "Milio"
+        }
+      }
+    },
+    {
+      "id": "82973",
+      "league": "LEC",
+      "tournament": "LEC 2026 Summer Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LEC 2026 Summer Playoffs",
+      "tournamentLine": "LEC 2026 Summer Playoffs (EUW) - Fearless Draft",
+      "date": "2026-09-18",
+      "week": "ROUND2",
+      "patch": "16.17",
+      "game": "NAVI vs MKOI",
+      "sourceUrl": "https://gol.gg/game/stats/82973/page-game/",
+      "teamA": "Movistar KOI",
+      "teamB": "Natus Vincere",
+      "teamAId": "2900",
+      "teamBId": "2901",
+      "killsA": 20,
+      "killsB": 6,
+      "totalKills": 26,
+      "collectedAt": "2026-09-18T20:54:56.975Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Jayce",
+          "Lee Sin",
+          "Ahri",
+          "Kalista",
+          "Renata Glasc"
+        ],
+        "teamB": [
+          "Yorick",
+          "Chogath",
+          "Orianna",
+          "Yunara",
+          "Lulu"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Jayce",
+          "JUNGLE": "Lee Sin",
+          "MID": "Ahri",
+          "ADC": "Kalista",
+          "SUP": "Renata Glasc"
+        },
+        "teamB": {
+          "TOP": "Yorick",
+          "JUNGLE": "Chogath",
+          "MID": "Orianna",
+          "ADC": "Yunara",
+          "SUP": "Lulu"
+        }
+      }
+    },
+    {
+      "id": "82974",
+      "league": "LEC",
+      "tournament": "LEC 2026 Summer Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LEC 2026 Summer Playoffs",
+      "tournamentLine": "LEC 2026 Summer Playoffs (EUW) - Fearless Draft",
+      "date": "2026-09-18",
+      "week": "ROUND2",
+      "patch": "16.17",
+      "game": "NAVI vs MKOI",
+      "sourceUrl": "https://gol.gg/game/stats/82974/page-game/",
+      "teamA": "Movistar KOI",
+      "teamB": "Natus Vincere",
+      "teamAId": "2900",
+      "teamBId": "2901",
+      "killsA": 19,
+      "killsB": 5,
+      "totalKills": 24,
+      "collectedAt": "2026-09-18T20:54:57.192Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "KSante",
+          "Sejuani",
+          "Akali",
+          "Ezreal",
+          "Karma"
+        ],
+        "teamB": [
+          "Gnar",
+          "Pantheon",
+          "Annie",
+          "Caitlyn",
+          "Bard"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "KSante",
+          "JUNGLE": "Sejuani",
+          "MID": "Akali",
+          "ADC": "Ezreal",
+          "SUP": "Karma"
+        },
+        "teamB": {
+          "TOP": "Gnar",
+          "JUNGLE": "Pantheon",
+          "MID": "Annie",
+          "ADC": "Caitlyn",
+          "SUP": "Bard"
+        }
+      }
+    },
+    {
+      "id": "82975",
+      "league": "LEC",
+      "tournament": "LEC 2026 Summer Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LEC 2026 Summer Playoffs",
+      "tournamentLine": "LEC 2026 Summer Playoffs (EUW) - Fearless Draft",
+      "date": "2026-09-18",
+      "week": "ROUND2",
+      "patch": "16.17",
+      "game": "NAVI vs MKOI",
+      "sourceUrl": "https://gol.gg/game/stats/82975/page-game/",
+      "teamA": "Movistar KOI",
+      "teamB": "Natus Vincere",
+      "teamAId": "2900",
+      "teamBId": "2901",
+      "killsA": 17,
+      "killsB": 8,
+      "totalKills": 25,
+      "collectedAt": "2026-09-18T20:54:57.369Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Varus",
+          "Maokai",
+          "Yone",
+          "Zeri",
+          "Rell"
+        ],
+        "teamB": [
+          "Aatrox",
+          "Zaahen",
+          "Anivia",
+          "Sivir",
+          "Alistar"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Varus",
+          "JUNGLE": "Maokai",
+          "MID": "Yone",
+          "ADC": "Zeri",
+          "SUP": "Rell"
+        },
+        "teamB": {
+          "TOP": "Aatrox",
+          "JUNGLE": "Zaahen",
+          "MID": "Anivia",
+          "ADC": "Sivir",
+          "SUP": "Alistar"
         }
       }
     },
