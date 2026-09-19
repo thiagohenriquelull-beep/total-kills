@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "GOL logged session",
-    "createdAt": "2026-09-18T20:55:21.564Z",
+    "createdAt": "2026-09-19T13:56:46.460Z",
     "collectorVersion": "new-games-http-2026-07-25",
     "leagues": [
       {
@@ -39,7 +39,7 @@
       },
       {
         "league": "LCS",
-        "games": 227,
+        "games": 232,
         "tournaments": [
           "LCS 2026 Lock-In",
           "LCS 2026 Spring",
@@ -62,7 +62,7 @@
       },
       {
         "league": "LPL",
-        "games": 683,
+        "games": 687,
         "tournaments": [
           "LPL 2026 Grand Finals",
           "LPL 2026 Regional Finals",
@@ -87,17 +87,18 @@
       "side",
       "bans"
     ],
-    "updatedAt": "2026-09-18T20:55:21.564Z",
+    "updatedAt": "2026-09-19T13:56:46.460Z",
     "lastIncrementalMerge": {
       "source": "data/jogos-novos.json",
-      "mergedAt": "2026-09-18T20:55:21.564Z",
-      "added": 4,
+      "mergedAt": "2026-09-19T13:56:46.460Z",
+      "added": 9,
       "duplicatesSkipped": 0,
       "patches": [
         "16.17"
       ],
       "tournaments": [
-        "LEC 2026 Summer Playoffs"
+        "LCS 2026 Summer Playoffs",
+        "LPL 2026 Regional Finals"
       ]
     },
     "nameCleanup": {
@@ -109,7 +110,7 @@
         "trim repeated spaces"
       ]
     },
-    "totalGames": 2523,
+    "totalGames": 2532,
     "dataCorrections": [
       {
         "correctedAt": "2026-07-14T01:19:11.794Z",
@@ -63010,6 +63011,286 @@
       }
     },
     {
+      "id": "82987",
+      "league": "LCS",
+      "tournament": "LCS 2026 Summer Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LCS 2026 Summer Playoffs",
+      "tournamentLine": "LCS 2026 Summer Playoffs (NA) - Fearless Draft",
+      "date": "2026-09-18",
+      "week": "ROUND1",
+      "patch": "16.17",
+      "game": "SR vs Sentinels",
+      "sourceUrl": "https://gol.gg/game/stats/82987/page-game/",
+      "teamA": "Shopify Rebellion",
+      "teamB": "Sentinels",
+      "teamAId": "2956",
+      "teamBId": "2955",
+      "killsA": 1,
+      "killsB": 17,
+      "totalKills": 18,
+      "collectedAt": "2026-09-19T13:56:08.510Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "KSante",
+          "Skarner",
+          "Orianna",
+          "Kalista",
+          "Renata Glasc"
+        ],
+        "teamB": [
+          "Rumble",
+          "Lee Sin",
+          "Syndra",
+          "Xayah",
+          "Rakan"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "KSante",
+          "JUNGLE": "Skarner",
+          "MID": "Orianna",
+          "ADC": "Kalista",
+          "SUP": "Renata Glasc"
+        },
+        "teamB": {
+          "TOP": "Rumble",
+          "JUNGLE": "Lee Sin",
+          "MID": "Syndra",
+          "ADC": "Xayah",
+          "SUP": "Rakan"
+        }
+      }
+    },
+    {
+      "id": "82988",
+      "league": "LCS",
+      "tournament": "LCS 2026 Summer Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LCS 2026 Summer Playoffs",
+      "tournamentLine": "LCS 2026 Summer Playoffs (NA) - Fearless Draft",
+      "date": "2026-09-18",
+      "week": "ROUND1",
+      "patch": "16.17",
+      "game": "SR vs Sentinels",
+      "sourceUrl": "https://gol.gg/game/stats/82988/page-game/",
+      "teamA": "Sentinels",
+      "teamB": "Shopify Rebellion",
+      "teamAId": "2955",
+      "teamBId": "2956",
+      "killsA": 18,
+      "killsB": 8,
+      "totalKills": 26,
+      "collectedAt": "2026-09-19T13:56:08.674Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Gnar",
+          "Nocturne",
+          "Viktor",
+          "Jinx",
+          "Thresh"
+        ],
+        "teamB": [
+          "Malphite",
+          "Jarvan IV",
+          "Locke",
+          "Yunara",
+          "Lulu"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Gnar",
+          "JUNGLE": "Nocturne",
+          "MID": "Viktor",
+          "ADC": "Jinx",
+          "SUP": "Thresh"
+        },
+        "teamB": {
+          "TOP": "Malphite",
+          "JUNGLE": "Jarvan IV",
+          "MID": "Locke",
+          "ADC": "Yunara",
+          "SUP": "Lulu"
+        }
+      }
+    },
+    {
+      "id": "82989",
+      "league": "LCS",
+      "tournament": "LCS 2026 Summer Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LCS 2026 Summer Playoffs",
+      "tournamentLine": "LCS 2026 Summer Playoffs (NA) - Fearless Draft",
+      "date": "2026-09-18",
+      "week": "ROUND1",
+      "patch": "16.17",
+      "game": "SR vs Sentinels",
+      "sourceUrl": "https://gol.gg/game/stats/82989/page-game/",
+      "teamA": "Sentinels",
+      "teamB": "Shopify Rebellion",
+      "teamAId": "2955",
+      "teamBId": "2956",
+      "killsA": 7,
+      "killsB": 11,
+      "totalKills": 18,
+      "collectedAt": "2026-09-19T13:56:08.868Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Dr. Mundo",
+          "Vi",
+          "Galio",
+          "Kaisa",
+          "Nautilus"
+        ],
+        "teamB": [
+          "Renekton",
+          "Naafiri",
+          "Annie",
+          "Ezreal",
+          "Leona"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Dr. Mundo",
+          "JUNGLE": "Vi",
+          "MID": "Galio",
+          "ADC": "Kaisa",
+          "SUP": "Nautilus"
+        },
+        "teamB": {
+          "TOP": "Renekton",
+          "JUNGLE": "Naafiri",
+          "MID": "Annie",
+          "ADC": "Ezreal",
+          "SUP": "Leona"
+        }
+      }
+    },
+    {
+      "id": "82990",
+      "league": "LCS",
+      "tournament": "LCS 2026 Summer Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LCS 2026 Summer Playoffs",
+      "tournamentLine": "LCS 2026 Summer Playoffs (NA) - Fearless Draft",
+      "date": "2026-09-18",
+      "week": "ROUND1",
+      "patch": "16.17",
+      "game": "SR vs Sentinels",
+      "sourceUrl": "https://gol.gg/game/stats/82990/page-game/",
+      "teamA": "Shopify Rebellion",
+      "teamB": "Sentinels",
+      "teamAId": "2956",
+      "teamBId": "2955",
+      "killsA": 19,
+      "killsB": 10,
+      "totalKills": 29,
+      "collectedAt": "2026-09-19T13:56:09.085Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Olaf",
+          "Wukong",
+          "Lissandra",
+          "Lucian",
+          "Milio"
+        ],
+        "teamB": [
+          "Trundle",
+          "Nidalee",
+          "Yone",
+          "Ashe",
+          "Seraphine"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Olaf",
+          "JUNGLE": "Wukong",
+          "MID": "Lissandra",
+          "ADC": "Lucian",
+          "SUP": "Milio"
+        },
+        "teamB": {
+          "TOP": "Trundle",
+          "JUNGLE": "Nidalee",
+          "MID": "Yone",
+          "ADC": "Ashe",
+          "SUP": "Seraphine"
+        }
+      }
+    },
+    {
+      "id": "82991",
+      "league": "LCS",
+      "tournament": "LCS 2026 Summer Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LCS 2026 Summer Playoffs",
+      "tournamentLine": "LCS 2026 Summer Playoffs (NA) - Fearless Draft",
+      "date": "2026-09-18",
+      "week": "ROUND1",
+      "patch": "16.17",
+      "game": "SR vs Sentinels",
+      "sourceUrl": "https://gol.gg/game/stats/82991/page-game/",
+      "teamA": "Shopify Rebellion",
+      "teamB": "Sentinels",
+      "teamAId": "2956",
+      "teamBId": "2955",
+      "killsA": 7,
+      "killsB": 5,
+      "totalKills": 12,
+      "collectedAt": "2026-09-19T13:56:09.271Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Ambessa",
+          "Xin Zhao",
+          "Ryze",
+          "Miss Fortune",
+          "Alistar"
+        ],
+        "teamB": [
+          "Shen",
+          "Aatrox",
+          "Hwei",
+          "Varus",
+          "Poppy"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Ambessa",
+          "JUNGLE": "Xin Zhao",
+          "MID": "Ryze",
+          "ADC": "Miss Fortune",
+          "SUP": "Alistar"
+        },
+        "teamB": {
+          "TOP": "Shen",
+          "JUNGLE": "Aatrox",
+          "MID": "Hwei",
+          "ADC": "Varus",
+          "SUP": "Poppy"
+        }
+      }
+    },
+    {
       "collectedAt": "2026-05-26T00:03:55.187Z",
       "collectorVersion": "expanded-2026-1",
       "date": "2026-01-17",
@@ -113694,6 +113975,230 @@
           "MID": "Corki",
           "ADC": "Ashe",
           "SUP": "Braum"
+        }
+      }
+    },
+    {
+      "id": "83064",
+      "league": "LPL",
+      "tournament": "LPL 2026 Regional Finals",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LPL 2026 Regional Finals",
+      "tournamentLine": "LPL 2026 Regional Finals (CN) - Fearless Draft",
+      "date": "2026-09-19",
+      "week": "ROUND2",
+      "patch": "16.17",
+      "game": "IG vs JD Gaming",
+      "sourceUrl": "https://gol.gg/game/stats/83064/page-game/",
+      "teamA": "JD Gaming",
+      "teamB": "Invictus Gaming",
+      "teamAId": "2851",
+      "teamBId": "2850",
+      "killsA": 3,
+      "killsB": 11,
+      "totalKills": 14,
+      "collectedAt": "2026-09-19T13:56:38.644Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Ambessa",
+          "Chogath",
+          "Orianna",
+          "Yunara",
+          "Seraphine"
+        ],
+        "teamB": [
+          "Gnar",
+          "Maokai",
+          "Syndra",
+          "Tristana",
+          "Lulu"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Ambessa",
+          "JUNGLE": "Chogath",
+          "MID": "Orianna",
+          "ADC": "Yunara",
+          "SUP": "Seraphine"
+        },
+        "teamB": {
+          "TOP": "Gnar",
+          "JUNGLE": "Maokai",
+          "MID": "Syndra",
+          "ADC": "Tristana",
+          "SUP": "Lulu"
+        }
+      }
+    },
+    {
+      "id": "83065",
+      "league": "LPL",
+      "tournament": "LPL 2026 Regional Finals",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LPL 2026 Regional Finals",
+      "tournamentLine": "LPL 2026 Regional Finals (CN) - Fearless Draft",
+      "date": "2026-09-19",
+      "week": "ROUND2",
+      "patch": "16.17",
+      "game": "IG vs JD Gaming",
+      "sourceUrl": "https://gol.gg/game/stats/83065/page-game/",
+      "teamA": "JD Gaming",
+      "teamB": "Invictus Gaming",
+      "teamAId": "2851",
+      "teamBId": "2850",
+      "killsA": 10,
+      "killsB": 20,
+      "totalKills": 30,
+      "collectedAt": "2026-09-19T13:56:38.805Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Rumble",
+          "Skarner",
+          "Twisted Fate",
+          "Kalista",
+          "Renata Glasc"
+        ],
+        "teamB": [
+          "KSante",
+          "Qiyana",
+          "Aurora",
+          "Ezreal",
+          "Karma"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Rumble",
+          "JUNGLE": "Skarner",
+          "MID": "Twisted Fate",
+          "ADC": "Kalista",
+          "SUP": "Renata Glasc"
+        },
+        "teamB": {
+          "TOP": "KSante",
+          "JUNGLE": "Qiyana",
+          "MID": "Aurora",
+          "ADC": "Ezreal",
+          "SUP": "Karma"
+        }
+      }
+    },
+    {
+      "id": "83066",
+      "league": "LPL",
+      "tournament": "LPL 2026 Regional Finals",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LPL 2026 Regional Finals",
+      "tournamentLine": "LPL 2026 Regional Finals (CN) - Fearless Draft",
+      "date": "2026-09-19",
+      "week": "ROUND2",
+      "patch": "16.17",
+      "game": "IG vs JD Gaming",
+      "sourceUrl": "https://gol.gg/game/stats/83066/page-game/",
+      "teamA": "Invictus Gaming",
+      "teamB": "JD Gaming",
+      "teamAId": "2850",
+      "teamBId": "2851",
+      "killsA": 16,
+      "killsB": 26,
+      "totalKills": 42,
+      "collectedAt": "2026-09-19T13:56:38.971Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Jayce",
+          "Naafiri",
+          "Ryze",
+          "Jhin",
+          "Nautilus"
+        ],
+        "teamB": [
+          "Renekton",
+          "Trundle",
+          "Viktor",
+          "Jinx",
+          "Thresh"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Jayce",
+          "JUNGLE": "Naafiri",
+          "MID": "Ryze",
+          "ADC": "Jhin",
+          "SUP": "Nautilus"
+        },
+        "teamB": {
+          "TOP": "Renekton",
+          "JUNGLE": "Trundle",
+          "MID": "Viktor",
+          "ADC": "Jinx",
+          "SUP": "Thresh"
+        }
+      }
+    },
+    {
+      "id": "83067",
+      "league": "LPL",
+      "tournament": "LPL 2026 Regional Finals",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LPL 2026 Regional Finals",
+      "tournamentLine": "LPL 2026 Regional Finals (CN) - Fearless Draft",
+      "date": "2026-09-19",
+      "week": "ROUND2",
+      "patch": "16.17",
+      "game": "IG vs JD Gaming",
+      "sourceUrl": "https://gol.gg/game/stats/83067/page-game/",
+      "teamA": "JD Gaming",
+      "teamB": "Invictus Gaming",
+      "teamAId": "2851",
+      "teamBId": "2850",
+      "killsA": 19,
+      "killsB": 25,
+      "totalKills": 44,
+      "collectedAt": "2026-09-19T13:56:39.206Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Jax",
+          "Pantheon",
+          "Akali",
+          "Aphelios",
+          "Rakan"
+        ],
+        "teamB": [
+          "Dr. Mundo",
+          "Vi",
+          "Ahri",
+          "Sivir",
+          "Alistar"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Jax",
+          "JUNGLE": "Pantheon",
+          "MID": "Akali",
+          "ADC": "Aphelios",
+          "SUP": "Rakan"
+        },
+        "teamB": {
+          "TOP": "Dr. Mundo",
+          "JUNGLE": "Vi",
+          "MID": "Ahri",
+          "ADC": "Sivir",
+          "SUP": "Alistar"
         }
       }
     },
