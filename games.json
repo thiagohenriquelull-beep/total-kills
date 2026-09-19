@@ -1,12 +1,12 @@
 {
   "meta": {
     "source": "GOL logged session",
-    "createdAt": "2026-09-19T13:56:46.460Z",
+    "createdAt": "2026-09-19T20:41:45.357Z",
     "collectorVersion": "new-games-http-2026-07-25",
     "leagues": [
       {
         "league": "CBLOL",
-        "games": 250,
+        "games": 253,
         "tournaments": [
           "CBLOL 2026 Split 1",
           "CBLOL 2026 Split 1 Playoffs",
@@ -50,7 +50,7 @@
       },
       {
         "league": "LEC",
-        "games": 373,
+        "games": 376,
         "tournaments": [
           "LEC 2026 Spring Playoffs",
           "LEC 2026 Spring Season",
@@ -87,18 +87,18 @@
       "side",
       "bans"
     ],
-    "updatedAt": "2026-09-19T13:56:46.460Z",
+    "updatedAt": "2026-09-19T20:41:45.357Z",
     "lastIncrementalMerge": {
       "source": "data/jogos-novos.json",
-      "mergedAt": "2026-09-19T13:56:46.460Z",
-      "added": 9,
+      "mergedAt": "2026-09-19T20:41:45.357Z",
+      "added": 6,
       "duplicatesSkipped": 0,
       "patches": [
         "16.17"
       ],
       "tournaments": [
-        "LCS 2026 Summer Playoffs",
-        "LPL 2026 Regional Finals"
+        "CBLOL 2026 Split 2 Playoffs",
+        "LEC 2026 Summer Playoffs"
       ]
     },
     "nameCleanup": {
@@ -110,7 +110,7 @@
         "trim repeated spaces"
       ]
     },
-    "totalGames": 2532,
+    "totalGames": 2538,
     "dataCorrections": [
       {
         "correctedAt": "2026-07-14T01:19:11.794Z",
@@ -11573,6 +11573,174 @@
           "JUNGLE": "Naafiri",
           "MID": "Taliyah",
           "ADC": "Miss Fortune",
+          "SUP": "Nautilus"
+        }
+      }
+    },
+    {
+      "id": "82750",
+      "league": "CBLOL",
+      "tournament": "CBLOL 2026 Split 2 Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "CBLOL 2026 Split 2 Playoffs",
+      "tournamentLine": "CBLOL 2026 Split 2 Playoffs (BR) - Fearless Draft",
+      "date": "2026-09-19",
+      "week": "ROUND1",
+      "patch": "16.17",
+      "game": "RED Canids vs VKS",
+      "sourceUrl": "https://gol.gg/game/stats/82750/page-game/",
+      "teamA": "RED Canids",
+      "teamB": "Vivo Keyd Stars",
+      "teamAId": "2893",
+      "teamBId": "2894",
+      "killsA": 19,
+      "killsB": 3,
+      "totalKills": 22,
+      "collectedAt": "2026-09-19T20:40:06.652Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Olaf",
+          "Pantheon",
+          "Syndra",
+          "Yunara",
+          "Lulu"
+        ],
+        "teamB": [
+          "KSante",
+          "Lee Sin",
+          "Viktor",
+          "Ashe",
+          "Seraphine"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Olaf",
+          "JUNGLE": "Pantheon",
+          "MID": "Syndra",
+          "ADC": "Yunara",
+          "SUP": "Lulu"
+        },
+        "teamB": {
+          "TOP": "KSante",
+          "JUNGLE": "Lee Sin",
+          "MID": "Viktor",
+          "ADC": "Ashe",
+          "SUP": "Seraphine"
+        }
+      }
+    },
+    {
+      "id": "82751",
+      "league": "CBLOL",
+      "tournament": "CBLOL 2026 Split 2 Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "CBLOL 2026 Split 2 Playoffs",
+      "tournamentLine": "CBLOL 2026 Split 2 Playoffs (BR) - Fearless Draft",
+      "date": "2026-09-19",
+      "week": "ROUND1",
+      "patch": "16.17",
+      "game": "RED Canids vs VKS",
+      "sourceUrl": "https://gol.gg/game/stats/82751/page-game/",
+      "teamA": "RED Canids",
+      "teamB": "Vivo Keyd Stars",
+      "teamAId": "2893",
+      "teamBId": "2894",
+      "killsA": 26,
+      "killsB": 7,
+      "totalKills": 33,
+      "collectedAt": "2026-09-19T20:40:06.892Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Ambessa",
+          "Wukong",
+          "Annie",
+          "Lucian",
+          "Milio"
+        ],
+        "teamB": [
+          "Rumble",
+          "Qiyana",
+          "Ryze",
+          "Jhin",
+          "Alistar"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Ambessa",
+          "JUNGLE": "Wukong",
+          "MID": "Annie",
+          "ADC": "Lucian",
+          "SUP": "Milio"
+        },
+        "teamB": {
+          "TOP": "Rumble",
+          "JUNGLE": "Qiyana",
+          "MID": "Ryze",
+          "ADC": "Jhin",
+          "SUP": "Alistar"
+        }
+      }
+    },
+    {
+      "id": "82752",
+      "league": "CBLOL",
+      "tournament": "CBLOL 2026 Split 2 Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "CBLOL 2026 Split 2 Playoffs",
+      "tournamentLine": "CBLOL 2026 Split 2 Playoffs (BR) - Fearless Draft",
+      "date": "2026-09-19",
+      "week": "ROUND1",
+      "patch": "16.17",
+      "game": "RED Canids vs VKS",
+      "sourceUrl": "https://gol.gg/game/stats/82752/page-game/",
+      "teamA": "RED Canids",
+      "teamB": "Vivo Keyd Stars",
+      "teamAId": "2893",
+      "teamBId": "2894",
+      "killsA": 13,
+      "killsB": 8,
+      "totalKills": 21,
+      "collectedAt": "2026-09-19T20:40:07.145Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Kennen",
+          "Naafiri",
+          "Ahri",
+          "Ezreal",
+          "Rell"
+        ],
+        "teamB": [
+          "Gnar",
+          "Chogath",
+          "Akali",
+          "Kaisa",
+          "Nautilus"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Kennen",
+          "JUNGLE": "Naafiri",
+          "MID": "Ahri",
+          "ADC": "Ezreal",
+          "SUP": "Rell"
+        },
+        "teamB": {
+          "TOP": "Gnar",
+          "JUNGLE": "Chogath",
+          "MID": "Akali",
+          "ADC": "Kaisa",
           "SUP": "Nautilus"
         }
       }
@@ -80527,6 +80695,174 @@
           "MID": "Anivia",
           "ADC": "Sivir",
           "SUP": "Alistar"
+        }
+      }
+    },
+    {
+      "id": "83074",
+      "league": "LEC",
+      "tournament": "LEC 2026 Summer Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LEC 2026 Summer Playoffs",
+      "tournamentLine": "LEC 2026 Summer Playoffs (EUW) - Fearless Draft",
+      "date": "2026-09-19",
+      "week": "ROUND3",
+      "patch": "16.17",
+      "game": "KC vs MKOI",
+      "sourceUrl": "https://gol.gg/game/stats/83074/page-game/",
+      "teamA": "Karmine Corp",
+      "teamB": "Movistar KOI",
+      "teamAId": "2899",
+      "teamBId": "2900",
+      "killsA": 15,
+      "killsB": 20,
+      "totalKills": 35,
+      "collectedAt": "2026-09-19T20:41:11.835Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Gragas",
+          "Skarner",
+          "Viktor",
+          "Zeri",
+          "Yuumi"
+        ],
+        "teamB": [
+          "Jayce",
+          "Lee Sin",
+          "Ahri",
+          "Ashe",
+          "Seraphine"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Gragas",
+          "JUNGLE": "Skarner",
+          "MID": "Viktor",
+          "ADC": "Zeri",
+          "SUP": "Yuumi"
+        },
+        "teamB": {
+          "TOP": "Jayce",
+          "JUNGLE": "Lee Sin",
+          "MID": "Ahri",
+          "ADC": "Ashe",
+          "SUP": "Seraphine"
+        }
+      }
+    },
+    {
+      "id": "83075",
+      "league": "LEC",
+      "tournament": "LEC 2026 Summer Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LEC 2026 Summer Playoffs",
+      "tournamentLine": "LEC 2026 Summer Playoffs (EUW) - Fearless Draft",
+      "date": "2026-09-19",
+      "week": "ROUND3",
+      "patch": "16.17",
+      "game": "KC vs MKOI",
+      "sourceUrl": "https://gol.gg/game/stats/83075/page-game/",
+      "teamA": "Movistar KOI",
+      "teamB": "Karmine Corp",
+      "teamAId": "2900",
+      "teamBId": "2899",
+      "killsA": 20,
+      "killsB": 7,
+      "totalKills": 27,
+      "collectedAt": "2026-09-19T20:41:12.064Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Galio",
+          "Jarvan IV",
+          "Anivia",
+          "Caitlyn",
+          "Bard"
+        ],
+        "teamB": [
+          "Rumble",
+          "Vi",
+          "Ryze",
+          "Jhin",
+          "Nautilus"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Galio",
+          "JUNGLE": "Jarvan IV",
+          "MID": "Anivia",
+          "ADC": "Caitlyn",
+          "SUP": "Bard"
+        },
+        "teamB": {
+          "TOP": "Rumble",
+          "JUNGLE": "Vi",
+          "MID": "Ryze",
+          "ADC": "Jhin",
+          "SUP": "Nautilus"
+        }
+      }
+    },
+    {
+      "id": "83076",
+      "league": "LEC",
+      "tournament": "LEC 2026 Summer Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LEC 2026 Summer Playoffs",
+      "tournamentLine": "LEC 2026 Summer Playoffs (EUW) - Fearless Draft",
+      "date": "2026-09-19",
+      "week": "ROUND3",
+      "patch": "16.17",
+      "game": "KC vs MKOI",
+      "sourceUrl": "https://gol.gg/game/stats/83076/page-game/",
+      "teamA": "Movistar KOI",
+      "teamB": "Karmine Corp",
+      "teamAId": "2900",
+      "teamBId": "2899",
+      "killsA": 19,
+      "killsB": 3,
+      "totalKills": 22,
+      "collectedAt": "2026-09-19T20:41:12.290Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Shyvana",
+          "Qiyana",
+          "Syndra",
+          "Sivir",
+          "Rakan"
+        ],
+        "teamB": [
+          "Ambessa",
+          "Dr. Mundo",
+          "LeBlanc",
+          "Ezreal",
+          "Karma"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Shyvana",
+          "JUNGLE": "Qiyana",
+          "MID": "Syndra",
+          "ADC": "Sivir",
+          "SUP": "Rakan"
+        },
+        "teamB": {
+          "TOP": "Ambessa",
+          "JUNGLE": "Dr. Mundo",
+          "MID": "LeBlanc",
+          "ADC": "Ezreal",
+          "SUP": "Karma"
         }
       }
     },
