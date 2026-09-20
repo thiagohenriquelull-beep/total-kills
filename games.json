@@ -1,12 +1,12 @@
 {
   "meta": {
     "source": "GOL logged session",
-    "createdAt": "2026-09-20T14:15:53.792Z",
+    "createdAt": "2026-09-20T20:50:24.602Z",
     "collectorVersion": "new-games-http-2026-07-25",
     "leagues": [
       {
         "league": "CBLOL",
-        "games": 253,
+        "games": 257,
         "tournaments": [
           "CBLOL 2026 Split 1",
           "CBLOL 2026 Split 1 Playoffs",
@@ -50,7 +50,7 @@
       },
       {
         "league": "LEC",
-        "games": 376,
+        "games": 379,
         "tournaments": [
           "LEC 2026 Spring Playoffs",
           "LEC 2026 Spring Season",
@@ -87,17 +87,18 @@
       "side",
       "bans"
     ],
-    "updatedAt": "2026-09-20T14:15:53.792Z",
+    "updatedAt": "2026-09-20T20:50:24.602Z",
     "lastIncrementalMerge": {
       "source": "data/jogos-novos.json",
-      "mergedAt": "2026-09-20T14:15:53.792Z",
-      "added": 4,
+      "mergedAt": "2026-09-20T20:50:24.602Z",
+      "added": 7,
       "duplicatesSkipped": 0,
       "patches": [
         "16.17"
       ],
       "tournaments": [
-        "LCS 2026 Summer Playoffs"
+        "CBLOL 2026 Split 2 Playoffs",
+        "LEC 2026 Summer Playoffs"
       ]
     },
     "nameCleanup": {
@@ -109,7 +110,7 @@
         "trim repeated spaces"
       ]
     },
-    "totalGames": 2542,
+    "totalGames": 2549,
     "dataCorrections": [
       {
         "correctedAt": "2026-07-14T01:19:11.794Z",
@@ -11741,6 +11742,230 @@
           "MID": "Akali",
           "ADC": "Kaisa",
           "SUP": "Nautilus"
+        }
+      }
+    },
+    {
+      "id": "83077",
+      "league": "CBLOL",
+      "tournament": "CBLOL 2026 Split 2 Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "CBLOL 2026 Split 2 Playoffs",
+      "tournamentLine": "CBLOL 2026 Split 2 Playoffs (BR) - Fearless Draft",
+      "date": "2026-09-20",
+      "week": "ROUND2",
+      "patch": "16.17",
+      "game": "paiN Gaming vs RED Canids",
+      "sourceUrl": "https://gol.gg/game/stats/83077/page-game/",
+      "teamA": "RED Canids",
+      "teamB": "paiN Gaming",
+      "teamAId": "2893",
+      "teamBId": "2892",
+      "killsA": 5,
+      "killsB": 15,
+      "totalKills": 20,
+      "collectedAt": "2026-09-20T20:49:06.259Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "KSante",
+          "Xin Zhao",
+          "Orianna",
+          "Ezreal",
+          "Alistar"
+        ],
+        "teamB": [
+          "Camille",
+          "Nocturne",
+          "Akali",
+          "Jhin",
+          "Shen"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "KSante",
+          "JUNGLE": "Xin Zhao",
+          "MID": "Orianna",
+          "ADC": "Ezreal",
+          "SUP": "Alistar"
+        },
+        "teamB": {
+          "TOP": "Camille",
+          "JUNGLE": "Nocturne",
+          "MID": "Akali",
+          "ADC": "Jhin",
+          "SUP": "Shen"
+        }
+      }
+    },
+    {
+      "id": "83078",
+      "league": "CBLOL",
+      "tournament": "CBLOL 2026 Split 2 Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "CBLOL 2026 Split 2 Playoffs",
+      "tournamentLine": "CBLOL 2026 Split 2 Playoffs (BR) - Fearless Draft",
+      "date": "2026-09-20",
+      "week": "ROUND2",
+      "patch": "16.17",
+      "game": "paiN Gaming vs RED Canids",
+      "sourceUrl": "https://gol.gg/game/stats/83078/page-game/",
+      "teamA": "paiN Gaming",
+      "teamB": "RED Canids",
+      "teamAId": "2892",
+      "teamBId": "2893",
+      "killsA": 11,
+      "killsB": 28,
+      "totalKills": 39,
+      "collectedAt": "2026-09-20T20:49:06.446Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Varus",
+          "Maokai",
+          "Ahri",
+          "Lucian",
+          "Milio"
+        ],
+        "teamB": [
+          "Rumble",
+          "Vi",
+          "LeBlanc",
+          "Yunara",
+          "Lulu"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Varus",
+          "JUNGLE": "Maokai",
+          "MID": "Ahri",
+          "ADC": "Lucian",
+          "SUP": "Milio"
+        },
+        "teamB": {
+          "TOP": "Rumble",
+          "JUNGLE": "Vi",
+          "MID": "LeBlanc",
+          "ADC": "Yunara",
+          "SUP": "Lulu"
+        }
+      }
+    },
+    {
+      "id": "83079",
+      "league": "CBLOL",
+      "tournament": "CBLOL 2026 Split 2 Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "CBLOL 2026 Split 2 Playoffs",
+      "tournamentLine": "CBLOL 2026 Split 2 Playoffs (BR) - Fearless Draft",
+      "date": "2026-09-20",
+      "week": "ROUND2",
+      "patch": "16.17",
+      "game": "paiN Gaming vs RED Canids",
+      "sourceUrl": "https://gol.gg/game/stats/83079/page-game/",
+      "teamA": "RED Canids",
+      "teamB": "paiN Gaming",
+      "teamAId": "2893",
+      "teamBId": "2892",
+      "killsA": 16,
+      "killsB": 14,
+      "totalKills": 30,
+      "collectedAt": "2026-09-20T20:49:06.631Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Gnar",
+          "Naafiri",
+          "Syndra",
+          "Caitlyn",
+          "Bard"
+        ],
+        "teamB": [
+          "Ambessa",
+          "Jarvan IV",
+          "Galio",
+          "Ashe",
+          "Seraphine"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Gnar",
+          "JUNGLE": "Naafiri",
+          "MID": "Syndra",
+          "ADC": "Caitlyn",
+          "SUP": "Bard"
+        },
+        "teamB": {
+          "TOP": "Ambessa",
+          "JUNGLE": "Jarvan IV",
+          "MID": "Galio",
+          "ADC": "Ashe",
+          "SUP": "Seraphine"
+        }
+      }
+    },
+    {
+      "id": "83080",
+      "league": "CBLOL",
+      "tournament": "CBLOL 2026 Split 2 Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "CBLOL 2026 Split 2 Playoffs",
+      "tournamentLine": "CBLOL 2026 Split 2 Playoffs (BR) - Fearless Draft",
+      "date": "2026-09-20",
+      "week": "ROUND2",
+      "patch": "16.17",
+      "game": "paiN Gaming vs RED Canids",
+      "sourceUrl": "https://gol.gg/game/stats/83080/page-game/",
+      "teamA": "RED Canids",
+      "teamB": "paiN Gaming",
+      "teamAId": "2893",
+      "teamBId": "2892",
+      "killsA": 10,
+      "killsB": 14,
+      "totalKills": 24,
+      "collectedAt": "2026-09-20T20:49:06.819Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Renekton",
+          "Wukong",
+          "Anivia",
+          "Xayah",
+          "Leona"
+        ],
+        "teamB": [
+          "Gragas",
+          "Qiyana",
+          "Annie",
+          "Miss Fortune",
+          "Rell"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Renekton",
+          "JUNGLE": "Wukong",
+          "MID": "Anivia",
+          "ADC": "Xayah",
+          "SUP": "Leona"
+        },
+        "teamB": {
+          "TOP": "Gragas",
+          "JUNGLE": "Qiyana",
+          "MID": "Annie",
+          "ADC": "Miss Fortune",
+          "SUP": "Rell"
         }
       }
     },
@@ -81086,6 +81311,174 @@
           "MID": "LeBlanc",
           "ADC": "Ezreal",
           "SUP": "Karma"
+        }
+      }
+    },
+    {
+      "id": "83082",
+      "league": "LEC",
+      "tournament": "LEC 2026 Summer Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LEC 2026 Summer Playoffs",
+      "tournamentLine": "LEC 2026 Summer Playoffs (EUW) - Fearless Draft",
+      "date": "2026-09-20",
+      "week": "FINALS",
+      "patch": "16.17",
+      "game": "G2 Esports vs MKOI",
+      "sourceUrl": "https://gol.gg/game/stats/83082/page-game/",
+      "teamA": "G2 Esports",
+      "teamB": "Movistar KOI",
+      "teamAId": "2897",
+      "teamBId": "2900",
+      "killsA": 15,
+      "killsB": 5,
+      "totalKills": 20,
+      "collectedAt": "2026-09-20T20:49:57.585Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Ambessa",
+          "Wukong",
+          "Orianna",
+          "Ashe",
+          "Seraphine"
+        ],
+        "teamB": [
+          "Rumble",
+          "Lee Sin",
+          "Ryze",
+          "Zeri",
+          "Yuumi"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Ambessa",
+          "JUNGLE": "Wukong",
+          "MID": "Orianna",
+          "ADC": "Ashe",
+          "SUP": "Seraphine"
+        },
+        "teamB": {
+          "TOP": "Rumble",
+          "JUNGLE": "Lee Sin",
+          "MID": "Ryze",
+          "ADC": "Zeri",
+          "SUP": "Yuumi"
+        }
+      }
+    },
+    {
+      "id": "83083",
+      "league": "LEC",
+      "tournament": "LEC 2026 Summer Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LEC 2026 Summer Playoffs",
+      "tournamentLine": "LEC 2026 Summer Playoffs (EUW) - Fearless Draft",
+      "date": "2026-09-20",
+      "week": "FINALS",
+      "patch": "16.17",
+      "game": "G2 Esports vs MKOI",
+      "sourceUrl": "https://gol.gg/game/stats/83083/page-game/",
+      "teamA": "G2 Esports",
+      "teamB": "Movistar KOI",
+      "teamAId": "2897",
+      "teamBId": "2900",
+      "killsA": 21,
+      "killsB": 8,
+      "totalKills": 29,
+      "collectedAt": "2026-09-20T20:49:57.786Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Kled",
+          "Poppy",
+          "Akali",
+          "Yunara",
+          "Lulu"
+        ],
+        "teamB": [
+          "Renekton",
+          "Jarvan IV",
+          "Lissandra",
+          "Kalista",
+          "Renata Glasc"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Kled",
+          "JUNGLE": "Poppy",
+          "MID": "Akali",
+          "ADC": "Yunara",
+          "SUP": "Lulu"
+        },
+        "teamB": {
+          "TOP": "Renekton",
+          "JUNGLE": "Jarvan IV",
+          "MID": "Lissandra",
+          "ADC": "Kalista",
+          "SUP": "Renata Glasc"
+        }
+      }
+    },
+    {
+      "id": "83084",
+      "league": "LEC",
+      "tournament": "LEC 2026 Summer Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LEC 2026 Summer Playoffs",
+      "tournamentLine": "LEC 2026 Summer Playoffs (EUW) - Fearless Draft",
+      "date": "2026-09-20",
+      "week": "FINALS",
+      "patch": "16.17",
+      "game": "G2 Esports vs MKOI",
+      "sourceUrl": "https://gol.gg/game/stats/83084/page-game/",
+      "teamA": "G2 Esports",
+      "teamB": "Movistar KOI",
+      "teamAId": "2897",
+      "teamBId": "2900",
+      "killsA": 13,
+      "killsB": 2,
+      "totalKills": 15,
+      "collectedAt": "2026-09-20T20:49:57.976Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Shen",
+          "Skarner",
+          "LeBlanc",
+          "Caitlyn",
+          "Lux"
+        ],
+        "teamB": [
+          "KSante",
+          "Qiyana",
+          "Ahri",
+          "Ezreal",
+          "Bard"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Shen",
+          "JUNGLE": "Skarner",
+          "MID": "LeBlanc",
+          "ADC": "Caitlyn",
+          "SUP": "Lux"
+        },
+        "teamB": {
+          "TOP": "KSante",
+          "JUNGLE": "Qiyana",
+          "MID": "Ahri",
+          "ADC": "Ezreal",
+          "SUP": "Bard"
         }
       }
     },
