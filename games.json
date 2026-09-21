@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "GOL logged session",
-    "createdAt": "2026-09-20T20:50:24.602Z",
+    "createdAt": "2026-09-21T00:17:27.604Z",
     "collectorVersion": "new-games-http-2026-07-25",
     "leagues": [
       {
@@ -39,7 +39,7 @@
       },
       {
         "league": "LCS",
-        "games": 236,
+        "games": 239,
         "tournaments": [
           "LCS 2026 Lock-In",
           "LCS 2026 Spring",
@@ -87,18 +87,17 @@
       "side",
       "bans"
     ],
-    "updatedAt": "2026-09-20T20:50:24.602Z",
+    "updatedAt": "2026-09-21T00:17:27.604Z",
     "lastIncrementalMerge": {
       "source": "data/jogos-novos.json",
-      "mergedAt": "2026-09-20T20:50:24.602Z",
-      "added": 7,
+      "mergedAt": "2026-09-21T00:17:27.604Z",
+      "added": 3,
       "duplicatesSkipped": 0,
       "patches": [
         "16.17"
       ],
       "tournaments": [
-        "CBLOL 2026 Split 2 Playoffs",
-        "LEC 2026 Summer Playoffs"
+        "LCS 2026 Summer Playoffs"
       ]
     },
     "nameCleanup": {
@@ -110,7 +109,7 @@
         "trim repeated spaces"
       ]
     },
-    "totalGames": 2549,
+    "totalGames": 2552,
     "dataCorrections": [
       {
         "correctedAt": "2026-07-14T01:19:11.794Z",
@@ -63903,6 +63902,174 @@
           "MID": "Akali",
           "ADC": "Sivir",
           "SUP": "Rell"
+        }
+      }
+    },
+    {
+      "id": "82997",
+      "league": "LCS",
+      "tournament": "LCS 2026 Summer Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LCS 2026 Summer Playoffs",
+      "tournamentLine": "LCS 2026 Summer Playoffs (NA) - Fearless Draft",
+      "date": "2026-09-20",
+      "week": "ROUND2",
+      "patch": "16.17",
+      "game": "Team Liquid vs FlyQuest",
+      "sourceUrl": "https://gol.gg/game/stats/82997/page-game/",
+      "teamA": "Team Liquid",
+      "teamB": "FlyQuest",
+      "teamAId": "2813",
+      "teamBId": "2953",
+      "killsA": 18,
+      "killsB": 4,
+      "totalKills": 22,
+      "collectedAt": "2026-09-21T00:16:50.909Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "KSante",
+          "Qiyana",
+          "Syndra",
+          "Ashe",
+          "Karma"
+        ],
+        "teamB": [
+          "Rumble",
+          "Pantheon",
+          "Sylas",
+          "Yunara",
+          "Lulu"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "KSante",
+          "JUNGLE": "Qiyana",
+          "MID": "Syndra",
+          "ADC": "Ashe",
+          "SUP": "Karma"
+        },
+        "teamB": {
+          "TOP": "Rumble",
+          "JUNGLE": "Pantheon",
+          "MID": "Sylas",
+          "ADC": "Yunara",
+          "SUP": "Lulu"
+        }
+      }
+    },
+    {
+      "id": "82998",
+      "league": "LCS",
+      "tournament": "LCS 2026 Summer Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LCS 2026 Summer Playoffs",
+      "tournamentLine": "LCS 2026 Summer Playoffs (NA) - Fearless Draft",
+      "date": "2026-09-20",
+      "week": "ROUND2",
+      "patch": "16.17",
+      "game": "Team Liquid vs FlyQuest",
+      "sourceUrl": "https://gol.gg/game/stats/82998/page-game/",
+      "teamA": "Team Liquid",
+      "teamB": "FlyQuest",
+      "teamAId": "2813",
+      "teamBId": "2953",
+      "killsA": 19,
+      "killsB": 3,
+      "totalKills": 22,
+      "collectedAt": "2026-09-21T00:16:51.078Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Camille",
+          "Vi",
+          "Locke",
+          "Lucian",
+          "Milio"
+        ],
+        "teamB": [
+          "Jayce",
+          "Jarvan IV",
+          "Hwei",
+          "Ezreal",
+          "Seraphine"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Camille",
+          "JUNGLE": "Vi",
+          "MID": "Locke",
+          "ADC": "Lucian",
+          "SUP": "Milio"
+        },
+        "teamB": {
+          "TOP": "Jayce",
+          "JUNGLE": "Jarvan IV",
+          "MID": "Hwei",
+          "ADC": "Ezreal",
+          "SUP": "Seraphine"
+        }
+      }
+    },
+    {
+      "id": "82999",
+      "league": "LCS",
+      "tournament": "LCS 2026 Summer Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LCS 2026 Summer Playoffs",
+      "tournamentLine": "LCS 2026 Summer Playoffs (NA) - Fearless Draft",
+      "date": "2026-09-20",
+      "week": "ROUND2",
+      "patch": "16.17",
+      "game": "Team Liquid vs FlyQuest",
+      "sourceUrl": "https://gol.gg/game/stats/82999/page-game/",
+      "teamA": "FlyQuest",
+      "teamB": "Team Liquid",
+      "teamAId": "2953",
+      "teamBId": "2813",
+      "killsA": 7,
+      "killsB": 12,
+      "totalKills": 19,
+      "collectedAt": "2026-09-21T00:16:51.260Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Ambessa",
+          "Wukong",
+          "Viktor",
+          "Ziggs",
+          "Alistar"
+        ],
+        "teamB": [
+          "Gnar",
+          "Naafiri",
+          "Orianna",
+          "Xayah",
+          "Rakan"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Ambessa",
+          "JUNGLE": "Wukong",
+          "MID": "Viktor",
+          "ADC": "Ziggs",
+          "SUP": "Alistar"
+        },
+        "teamB": {
+          "TOP": "Gnar",
+          "JUNGLE": "Naafiri",
+          "MID": "Orianna",
+          "ADC": "Xayah",
+          "SUP": "Rakan"
         }
       }
     },
