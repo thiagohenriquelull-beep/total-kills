@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "GOL logged session",
-    "createdAt": "2026-09-21T00:17:27.604Z",
+    "createdAt": "2026-09-26T00:38:59.031Z",
     "collectorVersion": "new-games-http-2026-07-25",
     "leagues": [
       {
@@ -39,7 +39,7 @@
       },
       {
         "league": "LCS",
-        "games": 239,
+        "games": 244,
         "tournaments": [
           "LCS 2026 Lock-In",
           "LCS 2026 Spring",
@@ -87,11 +87,11 @@
       "side",
       "bans"
     ],
-    "updatedAt": "2026-09-21T00:17:27.604Z",
+    "updatedAt": "2026-09-26T00:38:59.031Z",
     "lastIncrementalMerge": {
       "source": "data/jogos-novos.json",
-      "mergedAt": "2026-09-21T00:17:27.604Z",
-      "added": 3,
+      "mergedAt": "2026-09-26T00:38:59.031Z",
+      "added": 5,
       "duplicatesSkipped": 0,
       "patches": [
         "16.17"
@@ -109,7 +109,7 @@
         "trim repeated spaces"
       ]
     },
-    "totalGames": 2552,
+    "totalGames": 2557,
     "dataCorrections": [
       {
         "correctedAt": "2026-07-14T01:19:11.794Z",
@@ -64070,6 +64070,286 @@
           "MID": "Orianna",
           "ADC": "Xayah",
           "SUP": "Rakan"
+        }
+      }
+    },
+    {
+      "id": "83095",
+      "league": "LCS",
+      "tournament": "LCS 2026 Summer Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LCS 2026 Summer Playoffs",
+      "tournamentLine": "LCS 2026 Summer Playoffs (NA) - Fearless Draft",
+      "date": "2026-09-25",
+      "week": "ROUND2",
+      "patch": "16.17",
+      "game": "FlyQuest vs SR",
+      "sourceUrl": "https://gol.gg/game/stats/83095/page-game/",
+      "teamA": "Shopify Rebellion",
+      "teamB": "FlyQuest",
+      "teamAId": "2956",
+      "teamBId": "2953",
+      "killsA": 5,
+      "killsB": 12,
+      "totalKills": 17,
+      "collectedAt": "2026-09-26T00:38:14.350Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "KSante",
+          "Pantheon",
+          "Locke",
+          "Lucian",
+          "Milio"
+        ],
+        "teamB": [
+          "Gwen",
+          "Lee Sin",
+          "Syndra",
+          "Ezreal",
+          "Karma"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "KSante",
+          "JUNGLE": "Pantheon",
+          "MID": "Locke",
+          "ADC": "Lucian",
+          "SUP": "Milio"
+        },
+        "teamB": {
+          "TOP": "Gwen",
+          "JUNGLE": "Lee Sin",
+          "MID": "Syndra",
+          "ADC": "Ezreal",
+          "SUP": "Karma"
+        }
+      }
+    },
+    {
+      "id": "83096",
+      "league": "LCS",
+      "tournament": "LCS 2026 Summer Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LCS 2026 Summer Playoffs",
+      "tournamentLine": "LCS 2026 Summer Playoffs (NA) - Fearless Draft",
+      "date": "2026-09-25",
+      "week": "ROUND2",
+      "patch": "16.17",
+      "game": "FlyQuest vs SR",
+      "sourceUrl": "https://gol.gg/game/stats/83096/page-game/",
+      "teamA": "FlyQuest",
+      "teamB": "Shopify Rebellion",
+      "teamAId": "2953",
+      "teamBId": "2956",
+      "killsA": 8,
+      "killsB": 15,
+      "totalKills": 23,
+      "collectedAt": "2026-09-26T00:38:14.679Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Ornn",
+          "Qiyana",
+          "Annie",
+          "Kalista",
+          "Renata Glasc"
+        ],
+        "teamB": [
+          "Rumble",
+          "Vi",
+          "Taliyah",
+          "Xayah",
+          "Rakan"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Ornn",
+          "JUNGLE": "Qiyana",
+          "MID": "Annie",
+          "ADC": "Kalista",
+          "SUP": "Renata Glasc"
+        },
+        "teamB": {
+          "TOP": "Rumble",
+          "JUNGLE": "Vi",
+          "MID": "Taliyah",
+          "ADC": "Xayah",
+          "SUP": "Rakan"
+        }
+      }
+    },
+    {
+      "id": "83097",
+      "league": "LCS",
+      "tournament": "LCS 2026 Summer Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LCS 2026 Summer Playoffs",
+      "tournamentLine": "LCS 2026 Summer Playoffs (NA) - Fearless Draft",
+      "date": "2026-09-25",
+      "week": "ROUND2",
+      "patch": "16.17",
+      "game": "FlyQuest vs SR",
+      "sourceUrl": "https://gol.gg/game/stats/83097/page-game/",
+      "teamA": "Shopify Rebellion",
+      "teamB": "FlyQuest",
+      "teamAId": "2956",
+      "teamBId": "2953",
+      "killsA": 4,
+      "killsB": 17,
+      "totalKills": 21,
+      "collectedAt": "2026-09-26T00:38:14.911Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Sion",
+          "Wukong",
+          "Lissandra",
+          "Yunara",
+          "Lulu"
+        ],
+        "teamB": [
+          "Jayce",
+          "Ivern",
+          "Tristana",
+          "Ziggs",
+          "Nautilus"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Sion",
+          "JUNGLE": "Wukong",
+          "MID": "Lissandra",
+          "ADC": "Yunara",
+          "SUP": "Lulu"
+        },
+        "teamB": {
+          "TOP": "Jayce",
+          "JUNGLE": "Ivern",
+          "MID": "Tristana",
+          "ADC": "Ziggs",
+          "SUP": "Nautilus"
+        }
+      }
+    },
+    {
+      "id": "83098",
+      "league": "LCS",
+      "tournament": "LCS 2026 Summer Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LCS 2026 Summer Playoffs",
+      "tournamentLine": "LCS 2026 Summer Playoffs (NA) - Fearless Draft",
+      "date": "2026-09-25",
+      "week": "ROUND2",
+      "patch": "16.17",
+      "game": "FlyQuest vs SR",
+      "sourceUrl": "https://gol.gg/game/stats/83098/page-game/",
+      "teamA": "FlyQuest",
+      "teamB": "Shopify Rebellion",
+      "teamAId": "2953",
+      "teamBId": "2956",
+      "killsA": 7,
+      "killsB": 19,
+      "totalKills": 26,
+      "collectedAt": "2026-09-26T00:38:15.122Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Kled",
+          "Volibear",
+          "Ryze",
+          "Ashe",
+          "Seraphine"
+        ],
+        "teamB": [
+          "Olaf",
+          "Jarvan IV",
+          "Sylas",
+          "Varus",
+          "Alistar"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Kled",
+          "JUNGLE": "Volibear",
+          "MID": "Ryze",
+          "ADC": "Ashe",
+          "SUP": "Seraphine"
+        },
+        "teamB": {
+          "TOP": "Olaf",
+          "JUNGLE": "Jarvan IV",
+          "MID": "Sylas",
+          "ADC": "Varus",
+          "SUP": "Alistar"
+        }
+      }
+    },
+    {
+      "id": "83099",
+      "league": "LCS",
+      "tournament": "LCS 2026 Summer Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LCS 2026 Summer Playoffs",
+      "tournamentLine": "LCS 2026 Summer Playoffs (NA) - Fearless Draft",
+      "date": "2026-09-25",
+      "week": "ROUND2",
+      "patch": "16.17",
+      "game": "FlyQuest vs SR",
+      "sourceUrl": "https://gol.gg/game/stats/83099/page-game/",
+      "teamA": "Shopify Rebellion",
+      "teamB": "FlyQuest",
+      "teamAId": "2956",
+      "teamBId": "2953",
+      "killsA": 16,
+      "killsB": 4,
+      "totalKills": 20,
+      "collectedAt": "2026-09-26T00:38:15.354Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Gnar",
+          "Naafiri",
+          "Galio",
+          "Kaisa",
+          "Amumu"
+        ],
+        "teamB": [
+          "Camille",
+          "Shyvana",
+          "Orianna",
+          "Jhin",
+          "Rell"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Gnar",
+          "JUNGLE": "Naafiri",
+          "MID": "Galio",
+          "ADC": "Kaisa",
+          "SUP": "Amumu"
+        },
+        "teamB": {
+          "TOP": "Camille",
+          "JUNGLE": "Shyvana",
+          "MID": "Orianna",
+          "ADC": "Jhin",
+          "SUP": "Rell"
         }
       }
     },
