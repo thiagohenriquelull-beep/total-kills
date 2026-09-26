@@ -1,12 +1,12 @@
 {
   "meta": {
     "source": "GOL logged session",
-    "createdAt": "2026-09-26T00:38:59.031Z",
+    "createdAt": "2026-09-26T21:11:21.609Z",
     "collectorVersion": "new-games-http-2026-07-25",
     "leagues": [
       {
         "league": "CBLOL",
-        "games": 257,
+        "games": 262,
         "tournaments": [
           "CBLOL 2026 Split 1",
           "CBLOL 2026 Split 1 Playoffs",
@@ -87,17 +87,17 @@
       "side",
       "bans"
     ],
-    "updatedAt": "2026-09-26T00:38:59.031Z",
+    "updatedAt": "2026-09-26T21:11:21.609Z",
     "lastIncrementalMerge": {
       "source": "data/jogos-novos.json",
-      "mergedAt": "2026-09-26T00:38:59.031Z",
+      "mergedAt": "2026-09-26T21:11:21.609Z",
       "added": 5,
       "duplicatesSkipped": 0,
       "patches": [
         "16.17"
       ],
       "tournaments": [
-        "LCS 2026 Summer Playoffs"
+        "CBLOL 2026 Split 2 Playoffs"
       ]
     },
     "nameCleanup": {
@@ -109,7 +109,7 @@
         "trim repeated spaces"
       ]
     },
-    "totalGames": 2557,
+    "totalGames": 2562,
     "dataCorrections": [
       {
         "correctedAt": "2026-07-14T01:19:11.794Z",
@@ -11965,6 +11965,286 @@
           "MID": "Annie",
           "ADC": "Miss Fortune",
           "SUP": "Rell"
+        }
+      }
+    },
+    {
+      "id": "83085",
+      "league": "CBLOL",
+      "tournament": "CBLOL 2026 Split 2 Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "CBLOL 2026 Split 2 Playoffs",
+      "tournamentLine": "CBLOL 2026 Split 2 Playoffs (BR) - Fearless Draft",
+      "date": "2026-09-26",
+      "week": "ROUND3",
+      "patch": "16.17",
+      "game": "FURIA vs RED Canids",
+      "sourceUrl": "https://gol.gg/game/stats/83085/page-game/",
+      "teamA": "RED Canids",
+      "teamB": "FURIA",
+      "teamAId": "2893",
+      "teamBId": "2889",
+      "killsA": 4,
+      "killsB": 14,
+      "totalKills": 18,
+      "collectedAt": "2026-09-26T21:10:15.844Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Rumble",
+          "Vi",
+          "Syndra",
+          "Lucian",
+          "Milio"
+        ],
+        "teamB": [
+          "Ornn",
+          "Nasus",
+          "Ryze",
+          "Ezreal",
+          "Karma"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Rumble",
+          "JUNGLE": "Vi",
+          "MID": "Syndra",
+          "ADC": "Lucian",
+          "SUP": "Milio"
+        },
+        "teamB": {
+          "TOP": "Ornn",
+          "JUNGLE": "Nasus",
+          "MID": "Ryze",
+          "ADC": "Ezreal",
+          "SUP": "Karma"
+        }
+      }
+    },
+    {
+      "id": "83086",
+      "league": "CBLOL",
+      "tournament": "CBLOL 2026 Split 2 Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "CBLOL 2026 Split 2 Playoffs",
+      "tournamentLine": "CBLOL 2026 Split 2 Playoffs (BR) - Fearless Draft",
+      "date": "2026-09-26",
+      "week": "ROUND3",
+      "patch": "16.17",
+      "game": "FURIA vs RED Canids",
+      "sourceUrl": "https://gol.gg/game/stats/83086/page-game/",
+      "teamA": "FURIA",
+      "teamB": "RED Canids",
+      "teamAId": "2889",
+      "teamBId": "2893",
+      "killsA": 19,
+      "killsB": 16,
+      "totalKills": 35,
+      "collectedAt": "2026-09-26T21:10:16.017Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Olaf",
+          "Wukong",
+          "Taliyah",
+          "Kalista",
+          "Renata Glasc"
+        ],
+        "teamB": [
+          "KSante",
+          "Qiyana",
+          "Cassiopeia",
+          "Yunara",
+          "Lulu"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Olaf",
+          "JUNGLE": "Wukong",
+          "MID": "Taliyah",
+          "ADC": "Kalista",
+          "SUP": "Renata Glasc"
+        },
+        "teamB": {
+          "TOP": "KSante",
+          "JUNGLE": "Qiyana",
+          "MID": "Cassiopeia",
+          "ADC": "Yunara",
+          "SUP": "Lulu"
+        }
+      }
+    },
+    {
+      "id": "83087",
+      "league": "CBLOL",
+      "tournament": "CBLOL 2026 Split 2 Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "CBLOL 2026 Split 2 Playoffs",
+      "tournamentLine": "CBLOL 2026 Split 2 Playoffs (BR) - Fearless Draft",
+      "date": "2026-09-26",
+      "week": "ROUND3",
+      "patch": "16.17",
+      "game": "FURIA vs RED Canids",
+      "sourceUrl": "https://gol.gg/game/stats/83087/page-game/",
+      "teamA": "RED Canids",
+      "teamB": "FURIA",
+      "teamAId": "2893",
+      "teamBId": "2889",
+      "killsA": 17,
+      "killsB": 9,
+      "totalKills": 26,
+      "collectedAt": "2026-09-26T21:10:16.206Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Jax",
+          "Naafiri",
+          "Orianna",
+          "Corki",
+          "Rakan"
+        ],
+        "teamB": [
+          "Camille",
+          "Trundle",
+          "Galio",
+          "Jhin",
+          "Shen"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Jax",
+          "JUNGLE": "Naafiri",
+          "MID": "Orianna",
+          "ADC": "Corki",
+          "SUP": "Rakan"
+        },
+        "teamB": {
+          "TOP": "Camille",
+          "JUNGLE": "Trundle",
+          "MID": "Galio",
+          "ADC": "Jhin",
+          "SUP": "Shen"
+        }
+      }
+    },
+    {
+      "id": "83088",
+      "league": "CBLOL",
+      "tournament": "CBLOL 2026 Split 2 Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "CBLOL 2026 Split 2 Playoffs",
+      "tournamentLine": "CBLOL 2026 Split 2 Playoffs (BR) - Fearless Draft",
+      "date": "2026-09-26",
+      "week": "ROUND3",
+      "patch": "16.17",
+      "game": "FURIA vs RED Canids",
+      "sourceUrl": "https://gol.gg/game/stats/83088/page-game/",
+      "teamA": "RED Canids",
+      "teamB": "FURIA",
+      "teamAId": "2893",
+      "teamBId": "2889",
+      "killsA": 11,
+      "killsB": 24,
+      "totalKills": 35,
+      "collectedAt": "2026-09-26T21:10:16.376Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Gnar",
+          "Pantheon",
+          "Lissandra",
+          "Miss Fortune",
+          "Pyke"
+        ],
+        "teamB": [
+          "Ambessa",
+          "Sejuani",
+          "Akali",
+          "Zeri",
+          "Yuumi"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Gnar",
+          "JUNGLE": "Pantheon",
+          "MID": "Lissandra",
+          "ADC": "Miss Fortune",
+          "SUP": "Pyke"
+        },
+        "teamB": {
+          "TOP": "Ambessa",
+          "JUNGLE": "Sejuani",
+          "MID": "Akali",
+          "ADC": "Zeri",
+          "SUP": "Yuumi"
+        }
+      }
+    },
+    {
+      "id": "83089",
+      "league": "CBLOL",
+      "tournament": "CBLOL 2026 Split 2 Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "CBLOL 2026 Split 2 Playoffs",
+      "tournamentLine": "CBLOL 2026 Split 2 Playoffs (BR) - Fearless Draft",
+      "date": "2026-09-26",
+      "week": "ROUND3",
+      "patch": "16.17",
+      "game": "FURIA vs RED Canids",
+      "sourceUrl": "https://gol.gg/game/stats/83089/page-game/",
+      "teamA": "FURIA",
+      "teamB": "RED Canids",
+      "teamAId": "2889",
+      "teamBId": "2893",
+      "killsA": 20,
+      "killsB": 10,
+      "totalKills": 30,
+      "collectedAt": "2026-09-26T21:10:16.553Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Gwen",
+          "Xin Zhao",
+          "Annie",
+          "Aphelios",
+          "Thresh"
+        ],
+        "teamB": [
+          "Aurora",
+          "Nocturne",
+          "Viktor",
+          "Kaisa",
+          "Neeko"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Gwen",
+          "JUNGLE": "Xin Zhao",
+          "MID": "Annie",
+          "ADC": "Aphelios",
+          "SUP": "Thresh"
+        },
+        "teamB": {
+          "TOP": "Aurora",
+          "JUNGLE": "Nocturne",
+          "MID": "Viktor",
+          "ADC": "Kaisa",
+          "SUP": "Neeko"
         }
       }
     },
