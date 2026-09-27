@@ -1,12 +1,12 @@
 {
   "meta": {
     "source": "GOL logged session",
-    "createdAt": "2026-09-27T15:11:38.051Z",
+    "createdAt": "2026-09-27T21:21:43.420Z",
     "collectorVersion": "new-games-http-2026-07-25",
     "leagues": [
       {
         "league": "CBLOL",
-        "games": 262,
+        "games": 267,
         "tournaments": [
           "CBLOL 2026 Split 1",
           "CBLOL 2026 Split 1 Playoffs",
@@ -87,17 +87,17 @@
       "side",
       "bans"
     ],
-    "updatedAt": "2026-09-27T15:11:38.051Z",
+    "updatedAt": "2026-09-27T21:21:43.420Z",
     "lastIncrementalMerge": {
       "source": "data/jogos-novos.json",
-      "mergedAt": "2026-09-27T15:11:38.051Z",
-      "added": 4,
+      "mergedAt": "2026-09-27T21:21:43.420Z",
+      "added": 5,
       "duplicatesSkipped": 0,
       "patches": [
         "16.17"
       ],
       "tournaments": [
-        "LCS 2026 Summer Playoffs"
+        "CBLOL 2026 Split 2 Playoffs"
       ]
     },
     "nameCleanup": {
@@ -109,7 +109,7 @@
         "trim repeated spaces"
       ]
     },
-    "totalGames": 2566,
+    "totalGames": 2571,
     "dataCorrections": [
       {
         "correctedAt": "2026-07-14T01:19:11.794Z",
@@ -12245,6 +12245,286 @@
           "MID": "Viktor",
           "ADC": "Kaisa",
           "SUP": "Neeko"
+        }
+      }
+    },
+    {
+      "id": "83090",
+      "league": "CBLOL",
+      "tournament": "CBLOL 2026 Split 2 Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "CBLOL 2026 Split 2 Playoffs",
+      "tournamentLine": "CBLOL 2026 Split 2 Playoffs (BR) - Fearless Draft",
+      "date": "2026-09-27",
+      "week": "ROUND4",
+      "patch": "16.17",
+      "game": "LOUD vs Los Grandes",
+      "sourceUrl": "https://gol.gg/game/stats/83090/page-game/",
+      "teamA": "LOUD",
+      "teamB": "Los Grandes",
+      "teamAId": "2891",
+      "teamBId": "2895",
+      "killsA": 7,
+      "killsB": 13,
+      "totalKills": 20,
+      "collectedAt": "2026-09-27T21:20:37.934Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "KSante",
+          "Lee Sin",
+          "Ryze",
+          "Lucian",
+          "Milio"
+        ],
+        "teamB": [
+          "Gnar",
+          "Vi",
+          "Orianna",
+          "KogMaw",
+          "Lulu"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "KSante",
+          "JUNGLE": "Lee Sin",
+          "MID": "Ryze",
+          "ADC": "Lucian",
+          "SUP": "Milio"
+        },
+        "teamB": {
+          "TOP": "Gnar",
+          "JUNGLE": "Vi",
+          "MID": "Orianna",
+          "ADC": "KogMaw",
+          "SUP": "Lulu"
+        }
+      }
+    },
+    {
+      "id": "83091",
+      "league": "CBLOL",
+      "tournament": "CBLOL 2026 Split 2 Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "CBLOL 2026 Split 2 Playoffs",
+      "tournamentLine": "CBLOL 2026 Split 2 Playoffs (BR) - Fearless Draft",
+      "date": "2026-09-27",
+      "week": "ROUND4",
+      "patch": "16.17",
+      "game": "LOUD vs Los Grandes",
+      "sourceUrl": "https://gol.gg/game/stats/83091/page-game/",
+      "teamA": "Los Grandes",
+      "teamB": "LOUD",
+      "teamAId": "2895",
+      "teamBId": "2891",
+      "killsA": 17,
+      "killsB": 6,
+      "totalKills": 23,
+      "collectedAt": "2026-09-27T21:20:38.106Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Rumble",
+          "Trundle",
+          "Galio",
+          "Ashe",
+          "Seraphine"
+        ],
+        "teamB": [
+          "Jayce",
+          "Nocturne",
+          "Sylas",
+          "Jhin",
+          "Nautilus"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Rumble",
+          "JUNGLE": "Trundle",
+          "MID": "Galio",
+          "ADC": "Ashe",
+          "SUP": "Seraphine"
+        },
+        "teamB": {
+          "TOP": "Jayce",
+          "JUNGLE": "Nocturne",
+          "MID": "Sylas",
+          "ADC": "Jhin",
+          "SUP": "Nautilus"
+        }
+      }
+    },
+    {
+      "id": "83092",
+      "league": "CBLOL",
+      "tournament": "CBLOL 2026 Split 2 Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "CBLOL 2026 Split 2 Playoffs",
+      "tournamentLine": "CBLOL 2026 Split 2 Playoffs (BR) - Fearless Draft",
+      "date": "2026-09-27",
+      "week": "ROUND4",
+      "patch": "16.17",
+      "game": "LOUD vs Los Grandes",
+      "sourceUrl": "https://gol.gg/game/stats/83092/page-game/",
+      "teamA": "LOUD",
+      "teamB": "Los Grandes",
+      "teamAId": "2891",
+      "teamBId": "2895",
+      "killsA": 25,
+      "killsB": 18,
+      "totalKills": 43,
+      "collectedAt": "2026-09-27T21:20:38.289Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Ambessa",
+          "Jarvan IV",
+          "Mel",
+          "Sivir",
+          "Yuumi"
+        ],
+        "teamB": [
+          "Tryndamere",
+          "Wukong",
+          "Ahri",
+          "Ezreal",
+          "Karma"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Ambessa",
+          "JUNGLE": "Jarvan IV",
+          "MID": "Mel",
+          "ADC": "Sivir",
+          "SUP": "Yuumi"
+        },
+        "teamB": {
+          "TOP": "Tryndamere",
+          "JUNGLE": "Wukong",
+          "MID": "Ahri",
+          "ADC": "Ezreal",
+          "SUP": "Karma"
+        }
+      }
+    },
+    {
+      "id": "83093",
+      "league": "CBLOL",
+      "tournament": "CBLOL 2026 Split 2 Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "CBLOL 2026 Split 2 Playoffs",
+      "tournamentLine": "CBLOL 2026 Split 2 Playoffs (BR) - Fearless Draft",
+      "date": "2026-09-27",
+      "week": "ROUND4",
+      "patch": "16.17",
+      "game": "LOUD vs Los Grandes",
+      "sourceUrl": "https://gol.gg/game/stats/83093/page-game/",
+      "teamA": "LOUD",
+      "teamB": "Los Grandes",
+      "teamAId": "2891",
+      "teamBId": "2895",
+      "killsA": 18,
+      "killsB": 17,
+      "totalKills": 35,
+      "collectedAt": "2026-09-27T21:20:38.492Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Yorick",
+          "Maokai",
+          "Syndra",
+          "Xayah",
+          "Renata Glasc"
+        ],
+        "teamB": [
+          "Varus",
+          "Chogath",
+          "Akali",
+          "Kalista",
+          "Neeko"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Yorick",
+          "JUNGLE": "Maokai",
+          "MID": "Syndra",
+          "ADC": "Xayah",
+          "SUP": "Renata Glasc"
+        },
+        "teamB": {
+          "TOP": "Varus",
+          "JUNGLE": "Chogath",
+          "MID": "Akali",
+          "ADC": "Kalista",
+          "SUP": "Neeko"
+        }
+      }
+    },
+    {
+      "id": "83094",
+      "league": "CBLOL",
+      "tournament": "CBLOL 2026 Split 2 Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "CBLOL 2026 Split 2 Playoffs",
+      "tournamentLine": "CBLOL 2026 Split 2 Playoffs (BR) - Fearless Draft",
+      "date": "2026-09-27",
+      "week": "ROUND4",
+      "patch": "16.17",
+      "game": "LOUD vs Los Grandes",
+      "sourceUrl": "https://gol.gg/game/stats/83094/page-game/",
+      "teamA": "LOUD",
+      "teamB": "Los Grandes",
+      "teamAId": "2891",
+      "teamBId": "2895",
+      "killsA": 2,
+      "killsB": 19,
+      "totalKills": 21,
+      "collectedAt": "2026-09-27T21:20:38.657Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Camille",
+          "Naafiri",
+          "LeBlanc",
+          "Jinx",
+          "Thresh"
+        ],
+        "teamB": [
+          "Kennen",
+          "Pantheon",
+          "Twisted Fate",
+          "Corki",
+          "Poppy"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Camille",
+          "JUNGLE": "Naafiri",
+          "MID": "LeBlanc",
+          "ADC": "Jinx",
+          "SUP": "Thresh"
+        },
+        "teamB": {
+          "TOP": "Kennen",
+          "JUNGLE": "Pantheon",
+          "MID": "Twisted Fate",
+          "ADC": "Corki",
+          "SUP": "Poppy"
         }
       }
     },
