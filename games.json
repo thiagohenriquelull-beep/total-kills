@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "GOL logged session",
-    "createdAt": "2026-09-26T21:11:21.609Z",
+    "createdAt": "2026-09-27T15:11:38.051Z",
     "collectorVersion": "new-games-http-2026-07-25",
     "leagues": [
       {
@@ -39,7 +39,7 @@
       },
       {
         "league": "LCS",
-        "games": 244,
+        "games": 248,
         "tournaments": [
           "LCS 2026 Lock-In",
           "LCS 2026 Spring",
@@ -87,17 +87,17 @@
       "side",
       "bans"
     ],
-    "updatedAt": "2026-09-26T21:11:21.609Z",
+    "updatedAt": "2026-09-27T15:11:38.051Z",
     "lastIncrementalMerge": {
       "source": "data/jogos-novos.json",
-      "mergedAt": "2026-09-26T21:11:21.609Z",
-      "added": 5,
+      "mergedAt": "2026-09-27T15:11:38.051Z",
+      "added": 4,
       "duplicatesSkipped": 0,
       "patches": [
         "16.17"
       ],
       "tournaments": [
-        "CBLOL 2026 Split 2 Playoffs"
+        "LCS 2026 Summer Playoffs"
       ]
     },
     "nameCleanup": {
@@ -109,7 +109,7 @@
         "trim repeated spaces"
       ]
     },
-    "totalGames": 2562,
+    "totalGames": 2566,
     "dataCorrections": [
       {
         "correctedAt": "2026-07-14T01:19:11.794Z",
@@ -64630,6 +64630,230 @@
           "MID": "Orianna",
           "ADC": "Jhin",
           "SUP": "Rell"
+        }
+      }
+    },
+    {
+      "id": "83238",
+      "league": "LCS",
+      "tournament": "LCS 2026 Summer Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LCS 2026 Summer Playoffs",
+      "tournamentLine": "LCS 2026 Summer Playoffs (NA) - Fearless Draft",
+      "date": "2026-09-26",
+      "week": "ROUND3",
+      "patch": "16.17",
+      "game": "LYON vs SR",
+      "sourceUrl": "https://gol.gg/game/stats/83238/page-game/",
+      "teamA": "Shopify Rebellion",
+      "teamB": "LYON",
+      "teamAId": "2956",
+      "teamBId": "2954",
+      "killsA": 5,
+      "killsB": 13,
+      "totalKills": 18,
+      "collectedAt": "2026-09-27T15:10:47.274Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Gnar",
+          "Qiyana",
+          "Ryze",
+          "Lucian",
+          "Milio"
+        ],
+        "teamB": [
+          "Olaf",
+          "Wukong",
+          "Annie",
+          "Yunara",
+          "Lulu"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Gnar",
+          "JUNGLE": "Qiyana",
+          "MID": "Ryze",
+          "ADC": "Lucian",
+          "SUP": "Milio"
+        },
+        "teamB": {
+          "TOP": "Olaf",
+          "JUNGLE": "Wukong",
+          "MID": "Annie",
+          "ADC": "Yunara",
+          "SUP": "Lulu"
+        }
+      }
+    },
+    {
+      "id": "83239",
+      "league": "LCS",
+      "tournament": "LCS 2026 Summer Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LCS 2026 Summer Playoffs",
+      "tournamentLine": "LCS 2026 Summer Playoffs (NA) - Fearless Draft",
+      "date": "2026-09-26",
+      "week": "ROUND3",
+      "patch": "16.17",
+      "game": "LYON vs SR",
+      "sourceUrl": "https://gol.gg/game/stats/83239/page-game/",
+      "teamA": "LYON",
+      "teamB": "Shopify Rebellion",
+      "teamAId": "2954",
+      "teamBId": "2956",
+      "killsA": 23,
+      "killsB": 3,
+      "totalKills": 26,
+      "collectedAt": "2026-09-27T15:10:47.515Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "KSante",
+          "Xin Zhao",
+          "Syndra",
+          "Kalista",
+          "Renata Glasc"
+        ],
+        "teamB": [
+          "Rumble",
+          "Naafiri",
+          "Orianna",
+          "Xayah",
+          "Rakan"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "KSante",
+          "JUNGLE": "Xin Zhao",
+          "MID": "Syndra",
+          "ADC": "Kalista",
+          "SUP": "Renata Glasc"
+        },
+        "teamB": {
+          "TOP": "Rumble",
+          "JUNGLE": "Naafiri",
+          "MID": "Orianna",
+          "ADC": "Xayah",
+          "SUP": "Rakan"
+        }
+      }
+    },
+    {
+      "id": "83240",
+      "league": "LCS",
+      "tournament": "LCS 2026 Summer Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LCS 2026 Summer Playoffs",
+      "tournamentLine": "LCS 2026 Summer Playoffs (NA) - Fearless Draft",
+      "date": "2026-09-26",
+      "week": "ROUND3",
+      "patch": "16.17",
+      "game": "LYON vs SR",
+      "sourceUrl": "https://gol.gg/game/stats/83240/page-game/",
+      "teamA": "LYON",
+      "teamB": "Shopify Rebellion",
+      "teamAId": "2954",
+      "teamBId": "2956",
+      "killsA": 6,
+      "killsB": 10,
+      "totalKills": 16,
+      "collectedAt": "2026-09-27T15:10:47.785Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Anivia",
+          "Lee Sin",
+          "Galio",
+          "Jhin",
+          "Alistar"
+        ],
+        "teamB": [
+          "Jayce",
+          "Maokai",
+          "Locke",
+          "Varus",
+          "Nautilus"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Anivia",
+          "JUNGLE": "Lee Sin",
+          "MID": "Galio",
+          "ADC": "Jhin",
+          "SUP": "Alistar"
+        },
+        "teamB": {
+          "TOP": "Jayce",
+          "JUNGLE": "Maokai",
+          "MID": "Locke",
+          "ADC": "Varus",
+          "SUP": "Nautilus"
+        }
+      }
+    },
+    {
+      "id": "83241",
+      "league": "LCS",
+      "tournament": "LCS 2026 Summer Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LCS 2026 Summer Playoffs",
+      "tournamentLine": "LCS 2026 Summer Playoffs (NA) - Fearless Draft",
+      "date": "2026-09-26",
+      "week": "ROUND3",
+      "patch": "16.17",
+      "game": "LYON vs SR",
+      "sourceUrl": "https://gol.gg/game/stats/83241/page-game/",
+      "teamA": "Shopify Rebellion",
+      "teamB": "LYON",
+      "teamAId": "2956",
+      "teamBId": "2954",
+      "killsA": 8,
+      "killsB": 24,
+      "totalKills": 32,
+      "collectedAt": "2026-09-27T15:10:48.033Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Renekton",
+          "KhaZix",
+          "Lissandra",
+          "Caitlyn",
+          "Leona"
+        ],
+        "teamB": [
+          "Gwen",
+          "Jarvan IV",
+          "Twisted Fate",
+          "Ashe",
+          "Seraphine"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Renekton",
+          "JUNGLE": "KhaZix",
+          "MID": "Lissandra",
+          "ADC": "Caitlyn",
+          "SUP": "Leona"
+        },
+        "teamB": {
+          "TOP": "Gwen",
+          "JUNGLE": "Jarvan IV",
+          "MID": "Twisted Fate",
+          "ADC": "Ashe",
+          "SUP": "Seraphine"
         }
       }
     },
