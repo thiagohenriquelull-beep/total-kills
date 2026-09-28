@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "GOL logged session",
-    "createdAt": "2026-09-27T21:21:43.420Z",
+    "createdAt": "2026-09-28T00:47:39.024Z",
     "collectorVersion": "new-games-http-2026-07-25",
     "leagues": [
       {
@@ -39,7 +39,7 @@
       },
       {
         "league": "LCS",
-        "games": 248,
+        "games": 252,
         "tournaments": [
           "LCS 2026 Lock-In",
           "LCS 2026 Spring",
@@ -87,17 +87,17 @@
       "side",
       "bans"
     ],
-    "updatedAt": "2026-09-27T21:21:43.420Z",
+    "updatedAt": "2026-09-28T00:47:39.024Z",
     "lastIncrementalMerge": {
       "source": "data/jogos-novos.json",
-      "mergedAt": "2026-09-27T21:21:43.420Z",
-      "added": 5,
+      "mergedAt": "2026-09-28T00:47:39.024Z",
+      "added": 4,
       "duplicatesSkipped": 0,
       "patches": [
         "16.17"
       ],
       "tournaments": [
-        "CBLOL 2026 Split 2 Playoffs"
+        "LCS 2026 Summer Playoffs"
       ]
     },
     "nameCleanup": {
@@ -109,7 +109,7 @@
         "trim repeated spaces"
       ]
     },
-    "totalGames": 2571,
+    "totalGames": 2575,
     "dataCorrections": [
       {
         "correctedAt": "2026-07-14T01:19:11.794Z",
@@ -65134,6 +65134,230 @@
           "MID": "Twisted Fate",
           "ADC": "Ashe",
           "SUP": "Seraphine"
+        }
+      }
+    },
+    {
+      "id": "83243",
+      "league": "LCS",
+      "tournament": "LCS 2026 Summer Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LCS 2026 Summer Playoffs",
+      "tournamentLine": "LCS 2026 Summer Playoffs (NA) - Fearless Draft",
+      "date": "2026-09-27",
+      "week": "ROUND4",
+      "patch": "16.17",
+      "game": "Cloud9 vs Team Liquid",
+      "sourceUrl": "https://gol.gg/game/stats/83243/page-game/",
+      "teamA": "Team Liquid",
+      "teamB": "Cloud9",
+      "teamAId": "2813",
+      "teamBId": "2812",
+      "killsA": 19,
+      "killsB": 8,
+      "totalKills": 27,
+      "collectedAt": "2026-09-28T00:46:56.397Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Rumble",
+          "Qiyana",
+          "Viktor",
+          "Jhin",
+          "Alistar"
+        ],
+        "teamB": [
+          "KSante",
+          "Wukong",
+          "Syndra",
+          "Lucian",
+          "Rakan"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Rumble",
+          "JUNGLE": "Qiyana",
+          "MID": "Viktor",
+          "ADC": "Jhin",
+          "SUP": "Alistar"
+        },
+        "teamB": {
+          "TOP": "KSante",
+          "JUNGLE": "Wukong",
+          "MID": "Syndra",
+          "ADC": "Lucian",
+          "SUP": "Rakan"
+        }
+      }
+    },
+    {
+      "id": "83244",
+      "league": "LCS",
+      "tournament": "LCS 2026 Summer Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LCS 2026 Summer Playoffs",
+      "tournamentLine": "LCS 2026 Summer Playoffs (NA) - Fearless Draft",
+      "date": "2026-09-27",
+      "week": "ROUND4",
+      "patch": "16.17",
+      "game": "Cloud9 vs Team Liquid",
+      "sourceUrl": "https://gol.gg/game/stats/83244/page-game/",
+      "teamA": "Team Liquid",
+      "teamB": "Cloud9",
+      "teamAId": "2813",
+      "teamBId": "2812",
+      "killsA": 19,
+      "killsB": 2,
+      "totalKills": 21,
+      "collectedAt": "2026-09-28T00:46:56.623Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Camille",
+          "Lee Sin",
+          "Galio",
+          "Ziggs",
+          "Nautilus"
+        ],
+        "teamB": [
+          "Jax",
+          "Xin Zhao",
+          "Orianna",
+          "Yunara",
+          "Lulu"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Camille",
+          "JUNGLE": "Lee Sin",
+          "MID": "Galio",
+          "ADC": "Ziggs",
+          "SUP": "Nautilus"
+        },
+        "teamB": {
+          "TOP": "Jax",
+          "JUNGLE": "Xin Zhao",
+          "MID": "Orianna",
+          "ADC": "Yunara",
+          "SUP": "Lulu"
+        }
+      }
+    },
+    {
+      "id": "83245",
+      "league": "LCS",
+      "tournament": "LCS 2026 Summer Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LCS 2026 Summer Playoffs",
+      "tournamentLine": "LCS 2026 Summer Playoffs (NA) - Fearless Draft",
+      "date": "2026-09-27",
+      "week": "ROUND4",
+      "patch": "16.17",
+      "game": "Cloud9 vs Team Liquid",
+      "sourceUrl": "https://gol.gg/game/stats/83245/page-game/",
+      "teamA": "Cloud9",
+      "teamB": "Team Liquid",
+      "teamAId": "2812",
+      "teamBId": "2813",
+      "killsA": 15,
+      "killsB": 8,
+      "totalKills": 23,
+      "collectedAt": "2026-09-28T00:46:56.836Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Varus",
+          "Naafiri",
+          "Ryze",
+          "Ezreal",
+          "Neeko"
+        ],
+        "teamB": [
+          "Renekton",
+          "Vi",
+          "Ahri",
+          "Sivir",
+          "Karma"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Varus",
+          "JUNGLE": "Naafiri",
+          "MID": "Ryze",
+          "ADC": "Ezreal",
+          "SUP": "Neeko"
+        },
+        "teamB": {
+          "TOP": "Renekton",
+          "JUNGLE": "Vi",
+          "MID": "Ahri",
+          "ADC": "Sivir",
+          "SUP": "Karma"
+        }
+      }
+    },
+    {
+      "id": "83246",
+      "league": "LCS",
+      "tournament": "LCS 2026 Summer Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LCS 2026 Summer Playoffs",
+      "tournamentLine": "LCS 2026 Summer Playoffs (NA) - Fearless Draft",
+      "date": "2026-09-27",
+      "week": "ROUND4",
+      "patch": "16.17",
+      "game": "Cloud9 vs Team Liquid",
+      "sourceUrl": "https://gol.gg/game/stats/83246/page-game/",
+      "teamA": "Team Liquid",
+      "teamB": "Cloud9",
+      "teamAId": "2813",
+      "teamBId": "2812",
+      "killsA": 17,
+      "killsB": 18,
+      "totalKills": 35,
+      "collectedAt": "2026-09-28T00:46:57.077Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Ambessa",
+          "Pantheon",
+          "Lissandra",
+          "Ashe",
+          "Seraphine"
+        ],
+        "teamB": [
+          "Olaf",
+          "Skarner",
+          "Aurora",
+          "Caitlyn",
+          "Bard"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Ambessa",
+          "JUNGLE": "Pantheon",
+          "MID": "Lissandra",
+          "ADC": "Ashe",
+          "SUP": "Seraphine"
+        },
+        "teamB": {
+          "TOP": "Olaf",
+          "JUNGLE": "Skarner",
+          "MID": "Aurora",
+          "ADC": "Caitlyn",
+          "SUP": "Bard"
         }
       }
     },
