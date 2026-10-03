@@ -1,12 +1,12 @@
 {
   "meta": {
     "source": "GOL logged session",
-    "createdAt": "2026-09-28T00:47:39.024Z",
+    "createdAt": "2026-10-03T21:15:24.409Z",
     "collectorVersion": "new-games-http-2026-07-25",
     "leagues": [
       {
         "league": "CBLOL",
-        "games": 267,
+        "games": 270,
         "tournaments": [
           "CBLOL 2026 Split 1",
           "CBLOL 2026 Split 1 Playoffs",
@@ -87,17 +87,17 @@
       "side",
       "bans"
     ],
-    "updatedAt": "2026-09-28T00:47:39.024Z",
+    "updatedAt": "2026-10-03T21:15:24.409Z",
     "lastIncrementalMerge": {
       "source": "data/jogos-novos.json",
-      "mergedAt": "2026-09-28T00:47:39.024Z",
-      "added": 4,
+      "mergedAt": "2026-10-03T21:15:24.409Z",
+      "added": 3,
       "duplicatesSkipped": 0,
       "patches": [
         "16.17"
       ],
       "tournaments": [
-        "LCS 2026 Summer Playoffs"
+        "CBLOL 2026 Split 2 Playoffs"
       ]
     },
     "nameCleanup": {
@@ -109,7 +109,7 @@
         "trim repeated spaces"
       ]
     },
-    "totalGames": 2575,
+    "totalGames": 2578,
     "dataCorrections": [
       {
         "correctedAt": "2026-07-14T01:19:11.794Z",
@@ -12525,6 +12525,174 @@
           "MID": "Twisted Fate",
           "ADC": "Corki",
           "SUP": "Poppy"
+        }
+      }
+    },
+    {
+      "id": "83297",
+      "league": "CBLOL",
+      "tournament": "CBLOL 2026 Split 2 Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "CBLOL 2026 Split 2 Playoffs",
+      "tournamentLine": "CBLOL 2026 Split 2 Playoffs (BR) - Fearless Draft",
+      "date": "2026-10-03",
+      "week": "ROUND4",
+      "patch": "16.17",
+      "game": "LOUD vs FURIA",
+      "sourceUrl": "https://gol.gg/game/stats/83297/page-game/",
+      "teamA": "FURIA",
+      "teamB": "LOUD",
+      "teamAId": "2889",
+      "teamBId": "2891",
+      "killsA": 17,
+      "killsB": 9,
+      "totalKills": 26,
+      "collectedAt": "2026-10-03T21:14:02.939Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Olaf",
+          "Wukong",
+          "Taliyah",
+          "Ezreal",
+          "Karma"
+        ],
+        "teamB": [
+          "KSante",
+          "Jarvan IV",
+          "Cassiopeia",
+          "Sivir",
+          "Rakan"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Olaf",
+          "JUNGLE": "Wukong",
+          "MID": "Taliyah",
+          "ADC": "Ezreal",
+          "SUP": "Karma"
+        },
+        "teamB": {
+          "TOP": "KSante",
+          "JUNGLE": "Jarvan IV",
+          "MID": "Cassiopeia",
+          "ADC": "Sivir",
+          "SUP": "Rakan"
+        }
+      }
+    },
+    {
+      "id": "83298",
+      "league": "CBLOL",
+      "tournament": "CBLOL 2026 Split 2 Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "CBLOL 2026 Split 2 Playoffs",
+      "tournamentLine": "CBLOL 2026 Split 2 Playoffs (BR) - Fearless Draft",
+      "date": "2026-10-03",
+      "week": "ROUND4",
+      "patch": "16.17",
+      "game": "LOUD vs FURIA",
+      "sourceUrl": "https://gol.gg/game/stats/83298/page-game/",
+      "teamA": "LOUD",
+      "teamB": "FURIA",
+      "teamAId": "2891",
+      "teamBId": "2889",
+      "killsA": 9,
+      "killsB": 20,
+      "totalKills": 29,
+      "collectedAt": "2026-10-03T21:14:03.166Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Rumble",
+          "Trundle",
+          "Orianna",
+          "Ashe",
+          "Seraphine"
+        ],
+        "teamB": [
+          "Ambessa",
+          "Maokai",
+          "Ryze",
+          "Yunara",
+          "Lulu"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Rumble",
+          "JUNGLE": "Trundle",
+          "MID": "Orianna",
+          "ADC": "Ashe",
+          "SUP": "Seraphine"
+        },
+        "teamB": {
+          "TOP": "Ambessa",
+          "JUNGLE": "Maokai",
+          "MID": "Ryze",
+          "ADC": "Yunara",
+          "SUP": "Lulu"
+        }
+      }
+    },
+    {
+      "id": "83299",
+      "league": "CBLOL",
+      "tournament": "CBLOL 2026 Split 2 Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "CBLOL 2026 Split 2 Playoffs",
+      "tournamentLine": "CBLOL 2026 Split 2 Playoffs (BR) - Fearless Draft",
+      "date": "2026-10-03",
+      "week": "ROUND4",
+      "patch": "16.17",
+      "game": "LOUD vs FURIA",
+      "sourceUrl": "https://gol.gg/game/stats/83299/page-game/",
+      "teamA": "FURIA",
+      "teamB": "LOUD",
+      "teamAId": "2889",
+      "teamBId": "2891",
+      "killsA": 22,
+      "killsB": 6,
+      "totalKills": 28,
+      "collectedAt": "2026-10-03T21:14:03.364Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Sion",
+          "Chogath",
+          "Syndra",
+          "Lucian",
+          "Yuumi"
+        ],
+        "teamB": [
+          "Jayce",
+          "Sejuani",
+          "Viktor",
+          "Caitlyn",
+          "Milio"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Sion",
+          "JUNGLE": "Chogath",
+          "MID": "Syndra",
+          "ADC": "Lucian",
+          "SUP": "Yuumi"
+        },
+        "teamB": {
+          "TOP": "Jayce",
+          "JUNGLE": "Sejuani",
+          "MID": "Viktor",
+          "ADC": "Caitlyn",
+          "SUP": "Milio"
         }
       }
     },
