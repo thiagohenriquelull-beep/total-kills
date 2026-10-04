@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "GOL logged session",
-    "createdAt": "2026-10-03T21:15:24.409Z",
+    "createdAt": "2026-10-04T00:39:01.688Z",
     "collectorVersion": "new-games-http-2026-07-25",
     "leagues": [
       {
@@ -39,7 +39,7 @@
       },
       {
         "league": "LCS",
-        "games": 252,
+        "games": 256,
         "tournaments": [
           "LCS 2026 Lock-In",
           "LCS 2026 Spring",
@@ -87,17 +87,17 @@
       "side",
       "bans"
     ],
-    "updatedAt": "2026-10-03T21:15:24.409Z",
+    "updatedAt": "2026-10-04T00:39:01.688Z",
     "lastIncrementalMerge": {
       "source": "data/jogos-novos.json",
-      "mergedAt": "2026-10-03T21:15:24.409Z",
-      "added": 3,
+      "mergedAt": "2026-10-04T00:39:01.688Z",
+      "added": 4,
       "duplicatesSkipped": 0,
       "patches": [
         "16.17"
       ],
       "tournaments": [
-        "CBLOL 2026 Split 2 Playoffs"
+        "LCS 2026 Summer Playoffs"
       ]
     },
     "nameCleanup": {
@@ -109,7 +109,7 @@
         "trim repeated spaces"
       ]
     },
-    "totalGames": 2578,
+    "totalGames": 2582,
     "dataCorrections": [
       {
         "correctedAt": "2026-07-14T01:19:11.794Z",
@@ -65526,6 +65526,230 @@
           "MID": "Aurora",
           "ADC": "Caitlyn",
           "SUP": "Bard"
+        }
+      }
+    },
+    {
+      "id": "83292",
+      "league": "LCS",
+      "tournament": "LCS 2026 Summer Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LCS 2026 Summer Playoffs",
+      "tournamentLine": "LCS 2026 Summer Playoffs (NA) - Fearless Draft",
+      "date": "2026-10-03",
+      "week": "ROUND4",
+      "patch": "16.17",
+      "game": "Cloud9 vs LYON",
+      "sourceUrl": "https://gol.gg/game/stats/83292/page-game/",
+      "teamA": "LYON",
+      "teamB": "Cloud9",
+      "teamAId": "2954",
+      "teamBId": "2812",
+      "killsA": 6,
+      "killsB": 20,
+      "totalKills": 26,
+      "collectedAt": "2026-10-04T00:38:18.750Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Gwen",
+          "Xin Zhao",
+          "Syndra",
+          "Lucian",
+          "Milio"
+        ],
+        "teamB": [
+          "KSante",
+          "Naafiri",
+          "Orianna",
+          "Ezreal",
+          "Karma"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Gwen",
+          "JUNGLE": "Xin Zhao",
+          "MID": "Syndra",
+          "ADC": "Lucian",
+          "SUP": "Milio"
+        },
+        "teamB": {
+          "TOP": "KSante",
+          "JUNGLE": "Naafiri",
+          "MID": "Orianna",
+          "ADC": "Ezreal",
+          "SUP": "Karma"
+        }
+      }
+    },
+    {
+      "id": "83293",
+      "league": "LCS",
+      "tournament": "LCS 2026 Summer Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LCS 2026 Summer Playoffs",
+      "tournamentLine": "LCS 2026 Summer Playoffs (NA) - Fearless Draft",
+      "date": "2026-10-03",
+      "week": "ROUND4",
+      "patch": "16.17",
+      "game": "Cloud9 vs LYON",
+      "sourceUrl": "https://gol.gg/game/stats/83293/page-game/",
+      "teamA": "Cloud9",
+      "teamB": "LYON",
+      "teamAId": "2812",
+      "teamBId": "2954",
+      "killsA": 9,
+      "killsB": 20,
+      "totalKills": 29,
+      "collectedAt": "2026-10-04T00:38:18.927Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Gnar",
+          "Skarner",
+          "Aurora",
+          "Yunara",
+          "Lulu"
+        ],
+        "teamB": [
+          "Rumble",
+          "KhaZix",
+          "Sylas",
+          "Jhin",
+          "Nautilus"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Gnar",
+          "JUNGLE": "Skarner",
+          "MID": "Aurora",
+          "ADC": "Yunara",
+          "SUP": "Lulu"
+        },
+        "teamB": {
+          "TOP": "Rumble",
+          "JUNGLE": "KhaZix",
+          "MID": "Sylas",
+          "ADC": "Jhin",
+          "SUP": "Nautilus"
+        }
+      }
+    },
+    {
+      "id": "83294",
+      "league": "LCS",
+      "tournament": "LCS 2026 Summer Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LCS 2026 Summer Playoffs",
+      "tournamentLine": "LCS 2026 Summer Playoffs (NA) - Fearless Draft",
+      "date": "2026-10-03",
+      "week": "ROUND4",
+      "patch": "16.17",
+      "game": "Cloud9 vs LYON",
+      "sourceUrl": "https://gol.gg/game/stats/83294/page-game/",
+      "teamA": "LYON",
+      "teamB": "Cloud9",
+      "teamAId": "2954",
+      "teamBId": "2812",
+      "killsA": 14,
+      "killsB": 7,
+      "totalKills": 21,
+      "collectedAt": "2026-10-04T00:38:19.149Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Sion",
+          "Qiyana",
+          "LeBlanc",
+          "Varus",
+          "Renata Glasc"
+        ],
+        "teamB": [
+          "Jayce",
+          "Poppy",
+          "Vex",
+          "Cassiopeia",
+          "Leona"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Sion",
+          "JUNGLE": "Qiyana",
+          "MID": "LeBlanc",
+          "ADC": "Varus",
+          "SUP": "Renata Glasc"
+        },
+        "teamB": {
+          "TOP": "Jayce",
+          "JUNGLE": "Poppy",
+          "MID": "Vex",
+          "ADC": "Cassiopeia",
+          "SUP": "Leona"
+        }
+      }
+    },
+    {
+      "id": "83295",
+      "league": "LCS",
+      "tournament": "LCS 2026 Summer Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LCS 2026 Summer Playoffs",
+      "tournamentLine": "LCS 2026 Summer Playoffs (NA) - Fearless Draft",
+      "date": "2026-10-03",
+      "week": "ROUND4",
+      "patch": "16.17",
+      "game": "Cloud9 vs LYON",
+      "sourceUrl": "https://gol.gg/game/stats/83295/page-game/",
+      "teamA": "LYON",
+      "teamB": "Cloud9",
+      "teamAId": "2954",
+      "teamBId": "2812",
+      "killsA": 15,
+      "killsB": 10,
+      "totalKills": 25,
+      "collectedAt": "2026-10-04T00:38:19.350Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Garen",
+          "Trundle",
+          "Ryze",
+          "Jinx",
+          "Alistar"
+        ],
+        "teamB": [
+          "Renekton",
+          "Vi",
+          "Taliyah",
+          "Aphelios",
+          "Thresh"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Garen",
+          "JUNGLE": "Trundle",
+          "MID": "Ryze",
+          "ADC": "Jinx",
+          "SUP": "Alistar"
+        },
+        "teamB": {
+          "TOP": "Renekton",
+          "JUNGLE": "Vi",
+          "MID": "Taliyah",
+          "ADC": "Aphelios",
+          "SUP": "Thresh"
         }
       }
     },
