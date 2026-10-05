@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "GOL logged session",
-    "createdAt": "2026-10-04T00:39:01.688Z",
+    "createdAt": "2026-10-05T00:56:46.449Z",
     "collectorVersion": "new-games-http-2026-07-25",
     "leagues": [
       {
@@ -39,7 +39,7 @@
       },
       {
         "league": "LCS",
-        "games": 256,
+        "games": 260,
         "tournaments": [
           "LCS 2026 Lock-In",
           "LCS 2026 Spring",
@@ -87,10 +87,10 @@
       "side",
       "bans"
     ],
-    "updatedAt": "2026-10-04T00:39:01.688Z",
+    "updatedAt": "2026-10-05T00:56:46.449Z",
     "lastIncrementalMerge": {
       "source": "data/jogos-novos.json",
-      "mergedAt": "2026-10-04T00:39:01.688Z",
+      "mergedAt": "2026-10-05T00:56:46.449Z",
       "added": 4,
       "duplicatesSkipped": 0,
       "patches": [
@@ -109,7 +109,7 @@
         "trim repeated spaces"
       ]
     },
-    "totalGames": 2582,
+    "totalGames": 2586,
     "dataCorrections": [
       {
         "correctedAt": "2026-07-14T01:19:11.794Z",
@@ -65750,6 +65750,230 @@
           "MID": "Taliyah",
           "ADC": "Aphelios",
           "SUP": "Thresh"
+        }
+      }
+    },
+    {
+      "id": "83476",
+      "league": "LCS",
+      "tournament": "LCS 2026 Summer Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LCS 2026 Summer Playoffs",
+      "tournamentLine": "LCS 2026 Summer Playoffs (NA) - Fearless Draft",
+      "date": "2026-10-04",
+      "week": "FINALS",
+      "patch": "16.17",
+      "game": "Team Liquid vs LYON",
+      "sourceUrl": "https://gol.gg/game/stats/83476/page-game/",
+      "teamA": "Team Liquid",
+      "teamB": "LYON",
+      "teamAId": "2813",
+      "teamBId": "2954",
+      "killsA": 14,
+      "killsB": 10,
+      "totalKills": 24,
+      "collectedAt": "2026-10-05T00:56:05.962Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Ambessa",
+          "Lee Sin",
+          "Orianna",
+          "Kalista",
+          "Renata Glasc"
+        ],
+        "teamB": [
+          "KSante",
+          "Trundle",
+          "Syndra",
+          "Yunara",
+          "Lulu"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Ambessa",
+          "JUNGLE": "Lee Sin",
+          "MID": "Orianna",
+          "ADC": "Kalista",
+          "SUP": "Renata Glasc"
+        },
+        "teamB": {
+          "TOP": "KSante",
+          "JUNGLE": "Trundle",
+          "MID": "Syndra",
+          "ADC": "Yunara",
+          "SUP": "Lulu"
+        }
+      }
+    },
+    {
+      "id": "83477",
+      "league": "LCS",
+      "tournament": "LCS 2026 Summer Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LCS 2026 Summer Playoffs",
+      "tournamentLine": "LCS 2026 Summer Playoffs (NA) - Fearless Draft",
+      "date": "2026-10-04",
+      "week": "FINALS",
+      "patch": "16.17",
+      "game": "Team Liquid vs LYON",
+      "sourceUrl": "https://gol.gg/game/stats/83477/page-game/",
+      "teamA": "Team Liquid",
+      "teamB": "LYON",
+      "teamAId": "2813",
+      "teamBId": "2954",
+      "killsA": 23,
+      "killsB": 6,
+      "totalKills": 29,
+      "collectedAt": "2026-10-05T00:56:06.194Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Camille",
+          "Qiyana",
+          "Galio",
+          "Ezreal",
+          "Nautilus"
+        ],
+        "teamB": [
+          "Gwen",
+          "Skarner",
+          "Twisted Fate",
+          "Caitlyn",
+          "Karma"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Camille",
+          "JUNGLE": "Qiyana",
+          "MID": "Galio",
+          "ADC": "Ezreal",
+          "SUP": "Nautilus"
+        },
+        "teamB": {
+          "TOP": "Gwen",
+          "JUNGLE": "Skarner",
+          "MID": "Twisted Fate",
+          "ADC": "Caitlyn",
+          "SUP": "Karma"
+        }
+      }
+    },
+    {
+      "id": "83478",
+      "league": "LCS",
+      "tournament": "LCS 2026 Summer Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LCS 2026 Summer Playoffs",
+      "tournamentLine": "LCS 2026 Summer Playoffs (NA) - Fearless Draft",
+      "date": "2026-10-04",
+      "week": "FINALS",
+      "patch": "16.17",
+      "game": "Team Liquid vs LYON",
+      "sourceUrl": "https://gol.gg/game/stats/83478/page-game/",
+      "teamA": "Team Liquid",
+      "teamB": "LYON",
+      "teamAId": "2813",
+      "teamBId": "2954",
+      "killsA": 5,
+      "killsB": 16,
+      "totalKills": 21,
+      "collectedAt": "2026-10-05T00:56:06.388Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Gragas",
+          "Maokai",
+          "Yone",
+          "Varus",
+          "Rell"
+        ],
+        "teamB": [
+          "Jayce",
+          "Jarvan IV",
+          "Ryze",
+          "Kaisa",
+          "Alistar"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Gragas",
+          "JUNGLE": "Maokai",
+          "MID": "Yone",
+          "ADC": "Varus",
+          "SUP": "Rell"
+        },
+        "teamB": {
+          "TOP": "Jayce",
+          "JUNGLE": "Jarvan IV",
+          "MID": "Ryze",
+          "ADC": "Kaisa",
+          "SUP": "Alistar"
+        }
+      }
+    },
+    {
+      "id": "83479",
+      "league": "LCS",
+      "tournament": "LCS 2026 Summer Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LCS 2026 Summer Playoffs",
+      "tournamentLine": "LCS 2026 Summer Playoffs (NA) - Fearless Draft",
+      "date": "2026-10-04",
+      "week": "FINALS",
+      "patch": "16.17",
+      "game": "Team Liquid vs LYON",
+      "sourceUrl": "https://gol.gg/game/stats/83479/page-game/",
+      "teamA": "Team Liquid",
+      "teamB": "LYON",
+      "teamAId": "2813",
+      "teamBId": "2954",
+      "killsA": 15,
+      "killsB": 1,
+      "totalKills": 16,
+      "collectedAt": "2026-10-05T00:56:06.605Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Jax",
+          "Wukong",
+          "Aurora",
+          "Lucian",
+          "Nami"
+        ],
+        "teamB": [
+          "Gnar",
+          "Sejuani",
+          "Viktor",
+          "Xayah",
+          "Rakan"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Jax",
+          "JUNGLE": "Wukong",
+          "MID": "Aurora",
+          "ADC": "Lucian",
+          "SUP": "Nami"
+        },
+        "teamB": {
+          "TOP": "Gnar",
+          "JUNGLE": "Sejuani",
+          "MID": "Viktor",
+          "ADC": "Xayah",
+          "SUP": "Rakan"
         }
       }
     },
