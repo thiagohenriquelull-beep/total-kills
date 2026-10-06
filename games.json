@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "GOL logged session",
-    "createdAt": "2026-10-05T00:56:46.449Z",
+    "createdAt": "2026-10-06T22:41:15.457Z",
     "collectorVersion": "new-games-http-2026-07-25",
     "leagues": [
       {
@@ -39,7 +39,7 @@
       },
       {
         "league": "LCS",
-        "games": 260,
+        "games": 261,
         "tournaments": [
           "LCS 2026 Lock-In",
           "LCS 2026 Spring",
@@ -87,14 +87,14 @@
       "side",
       "bans"
     ],
-    "updatedAt": "2026-10-05T00:56:46.449Z",
+    "updatedAt": "2026-10-06T22:41:15.457Z",
     "lastIncrementalMerge": {
       "source": "data/jogos-novos.json",
-      "mergedAt": "2026-10-05T00:56:46.449Z",
-      "added": 4,
+      "mergedAt": "2026-10-06T22:41:15.457Z",
+      "added": 1,
       "duplicatesSkipped": 0,
       "patches": [
-        "16.17"
+        "16.18"
       ],
       "tournaments": [
         "LCS 2026 Summer Playoffs"
@@ -109,7 +109,7 @@
         "trim repeated spaces"
       ]
     },
-    "totalGames": 2586,
+    "totalGames": 2587,
     "dataCorrections": [
       {
         "correctedAt": "2026-07-14T01:19:11.794Z",
@@ -65974,6 +65974,62 @@
           "MID": "Viktor",
           "ADC": "Xayah",
           "SUP": "Rakan"
+        }
+      }
+    },
+    {
+      "id": "83480",
+      "league": "LCS",
+      "tournament": "LCS 2026 Summer Playoffs",
+      "season": "S16",
+      "seasonYear": 2026,
+      "stage": "playoffs",
+      "sourceTournament": "LCS 2026 Summer Playoffs",
+      "tournamentLine": "EMEA Masters 2026 Summer Main Event (WR) - Fearless Draft",
+      "date": "2026-10-06",
+      "week": "FINALS",
+      "patch": "16.18",
+      "game": "Solary vs Valerion",
+      "sourceUrl": "https://gol.gg/game/stats/83480/page-game/",
+      "teamA": "Valerion",
+      "teamB": "Solary",
+      "teamAId": "2864",
+      "teamBId": "2918",
+      "killsA": 14,
+      "killsB": 26,
+      "totalKills": 40,
+      "collectedAt": "2026-10-06T22:40:22.834Z",
+      "collectorVersion": "new-games-http-2026-07-25",
+      "picks": {
+        "teamA": [
+          "Camille",
+          "Qiyana",
+          "Ahri",
+          "Caitlyn",
+          "Bard"
+        ],
+        "teamB": [
+          "Olaf",
+          "Vi",
+          "Annie",
+          "Yunara",
+          "Lulu"
+        ]
+      },
+      "roles": {
+        "teamA": {
+          "TOP": "Camille",
+          "JUNGLE": "Qiyana",
+          "MID": "Ahri",
+          "ADC": "Caitlyn",
+          "SUP": "Bard"
+        },
+        "teamB": {
+          "TOP": "Olaf",
+          "JUNGLE": "Vi",
+          "MID": "Annie",
+          "ADC": "Yunara",
+          "SUP": "Lulu"
         }
       }
     },
